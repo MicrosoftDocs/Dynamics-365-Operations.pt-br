@@ -1,6 +1,6 @@
 ---
 title: Personalizar títulos e instruções de etapas para o aplicativo móvel Warehouse Management
-description: Este tópico descreve como criar e mostrar instruções personalizadas para cada etapa de cada fluxo de tarefa que você configurou para o aplicativo móvel Warehouse Management.
+description: Este artigo descreve como criar e mostrar instruções personalizadas para cada etapa de cada fluxo de tarefa que você configurou para o aplicativo móvel Warehouse Management.
 author: Mirzaab
 ms.date: 08/11/2021
 ms.topic: article
@@ -11,19 +11,19 @@ ms.search.region: Global
 ms.author: mirzaab
 ms.search.validFrom: 2021-08-11
 ms.dyn365.ops.version: 10.0.21
-ms.openlocfilehash: ffd433427b2c5011740a7ee54c93713689945df3
-ms.sourcegitcommit: fd6270dc7f49f93a8155d2b827153b13edb7be8a
+ms.openlocfilehash: 289a3735133919ae7dbad05c40ba9ccf0e8f57ca
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 12/09/2021
-ms.locfileid: "7902238"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8895486"
 ---
 # <a name="customize-step-titles-and-instructions-for-the-warehouse-management-mobile-app"></a>Personalizar títulos e instruções de etapas para o aplicativo móvel Warehouse Management
 
 > [!IMPORTANT]
-> Os recursos descritos neste tópico se aplicam apenas ao novo aplicativo móvel Warehouse Management. Eles não afetam o antigo aplicativo de depósito, que foi preterido.
+> Os recursos descritos neste artigo se aplicam apenas ao novo aplicativo móvel do Warehouse Management. Eles não afetam o antigo aplicativo de depósito, que foi preterido.
 
-Este tópico descreve como criar e mostrar instruções personalizadas para cada etapa de cada fluxo de tarefa que você configurou para o aplicativo móvel Warehouse Management. Quando os funcionários do depósito recebem instruções bem escritas, eles podem começar imediatamente a usar novos fluxos sem precisar de treinamento prévio. Esse recurso oferece os seguintes benefícios:
+Este artigo descreve como criar e mostrar instruções personalizadas para cada etapa de cada fluxo de tarefa que você configurou para o aplicativo móvel Warehouse Management. Quando os funcionários do depósito recebem instruções bem escritas, eles podem começar imediatamente a usar novos fluxos sem precisar de treinamento prévio. Esse recurso oferece os seguintes benefícios:
 
 - **Preparar os trabalhadores mais rapidamente, permitindo que sigam instruções simples para cada etapa da tarefa.** Cada etapa de um fluxo fornece instruções que permitem que os funcionários da linha de frente entendam a tarefa.
 - **Fornecer instruções que correspondam a seus próprios processos.** Escrever suas próprias instruções para corresponder a seus processos de negócios e de depósito. Por exemplo, você pode ajustar a terminologia a seu espaço físico e às abreviações locais.

@@ -1,6 +1,6 @@
 ---
 title: Atribuir títulos e ícones de etapa ao aplicativo móvel Warehouse Management
-description: Este tópico descreve como atribuir ícones e títulos de etapas para fluxos de tarefas novos ou personalizados para o aplicativo móvel Warehouse Management.
+description: Este artigo descreve como atribuir ícones e títulos de etapas para fluxos de tarefas novos ou personalizados para o aplicativo móvel Warehouse Management.
 author: Mirzaab
 ms.date: 05/17/2021
 ms.topic: article
@@ -10,18 +10,18 @@ ms.search.region: Global
 ms.author: mirzaab
 ms.search.validFrom: 2021-05-17
 ms.dyn365.ops.version: 10.0.17
-ms.openlocfilehash: a687c26cacc0dbdaf0091b2d26277864553ca1bf
-ms.sourcegitcommit: fcb8a3419e3597fe855cae9eb21333698518c2c7
+ms.openlocfilehash: 361ace454f7125ec86bd99cffefc7d268f81d37f
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/09/2022
-ms.locfileid: "8103304"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8890586"
 ---
 # <a name="assign-step-icons-and-titles-for-the-warehouse-management-mobile-app"></a>Atribuir títulos e ícones de etapa ao aplicativo móvel Warehouse Management
 
 [!include [banner](../includes/banner.md)]
 
-Este tópico descreve como atribuir ícones e títulos de etapas para fluxos de tarefas novos ou personalizados para o aplicativo móvel Warehouse Management.
+Este artigo descreve como atribuir ícones e títulos de etapas para fluxos de tarefas novos ou personalizados para o aplicativo móvel Warehouse Management.
 
 As ilustrações a seguir mostram como os ícones e títulos de etapas aparecem no aplicativo móvel Warehouse Management.
 
@@ -29,7 +29,7 @@ As ilustrações a seguir mostram como os ícones e títulos de etapas aparecem 
 
 ## <a name="turn-this-feature-on-or-off"></a>Ativar ou desativar este recurso
 
-Para usar a funcionalidade descrita neste tópico, o recurso *Configurações de usuário, ícones e títulos de etapas para o novo aplicativo de depósito* deve estar ativado para o seu sistema. A partir do Supply Chain Management 10.0.25, este recurso é obrigatório e não pode ser desativado. Se você estiver executando uma versão anterior à 10.0.25, os administradores poderão ativar ou desativar essa funcionalidade procurando o recurso *Configurações de usuário, ícones e títulos de etapas do novo aplicativo de depósito* no espaço de trabalho [Gerenciamento de recursos](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md).
+Para usar a funcionalidade descrita neste artigo, o recurso *Configurações de usuário, ícones e títulos de etapas para o novo aplicativo de depósito* deve estar ativado para o seu sistema. A partir do Supply Chain Management 10.0.25, este recurso é obrigatório e não pode ser desativado. Se você estiver executando uma versão anterior à 10.0.25, os administradores poderão ativar ou desativar essa funcionalidade procurando o recurso *Configurações de usuário, ícones e títulos de etapas do novo aplicativo de depósito* no espaço de trabalho [Gerenciamento de recursos](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md).
 
 ## <a name="standard-step-ids-classes-and-icons"></a>IDs, classes e ícones de etapa padrão
 
@@ -39,7 +39,7 @@ Cada etapa em um fluxo de tarefa é identificada por uma ID de etapa e cada ID d
 
 A tabela a seguir lista cada ID de etapa que está disponível atualmente e sua classe de etapa correspondente. O nome de controle do campo de entrada principal é usado como a ID da etapa.
 
-Para ter um exemplo que mostra como essas IDs e classes de etapa são usadas, consulte a implementação do método `WHSMobileAppStepInfoBuilder.stepId()` na seção [Exemplo: Atribuir ícones e títulos de etapa para um fluxo personalizado](#example) a seguir neste tópico.
+Para ter um exemplo que mostra como essas IDs e classes de etapa são usadas, consulte a implementação do método `WHSMobileAppStepInfoBuilder.stepId()` na seção [Exemplo: Atribuir ícones e títulos de etapa para um fluxo personalizado](#example) a seguir neste artigo.
 
 | ID da etapa | Classe da etapa |
 |-|-|
@@ -373,7 +373,7 @@ final internal class WHSMobileAppStepContainerId extends WHSMobileAppStep
 
 O identificador do ícone da etapa é armazenado no membro da classe `defaultStepIcon`, e o título da etapa é armazenado no membro da classe `defaultStepTitle`.
 
-Para atribuir um ícone de etapa, defina `defaultStepIcon` para uma das IDs de ícone que estão listadas na seção [Ícones de etapas disponíveis](#step-icons) anteriormente neste tópico.
+Para atribuir um ícone de etapa, defina `defaultStepIcon` para uma das IDs de ícone que estão listadas na seção [Ícones de etapas disponíveis](#step-icons) anteriormente neste artigo.
 
 ### <a name="use-a-standard-or-custom-step-icon-and-title-for-the-weight-input"></a>Usar um ícone de etapa padrão ou personalizado e um título para a entrada de peso
 
@@ -405,7 +405,7 @@ public class WHSMobileAppStepInfoBuilderWeighContainer extends WHSMobileAppStepI
 }
 ```
 
-Em seguida, você cria uma classe de etapa para a etapa `NewWeight`. O código deve ser semelhante ao código do exemplo `ContainerId` mostrado anteriormente neste tópico.
+Em seguida, você cria uma classe de etapa para a etapa `NewWeight`. O código deve ser semelhante ao código do exemplo `ContainerId` mostrado anteriormente neste artigo.
 
 #### <a name="override-the-stepinfo-method"></a>Substituir o método stepInfo()
 

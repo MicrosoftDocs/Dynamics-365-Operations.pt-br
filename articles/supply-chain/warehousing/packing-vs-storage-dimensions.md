@@ -1,6 +1,6 @@
 ---
 title: Definir dimensões diferentes para embalagem e armazenamento
-description: Este tópico mostra como especificar para qual processo (embalagem, armazenamento ou embalagem aninhada) cada dimensão especificada é usada.
+description: Este artigo mostra como especificar para qual processo (embalagem, armazenamento ou embalagem aninhada) cada dimensão especificada é usada.
 author: Mirzaab
 ms.date: 01/28/2021
 ms.topic: article
@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: mirzaab
 ms.search.validFrom: 2021-01-28
 ms.dyn365.ops.version: 10.0.17
-ms.openlocfilehash: 090a6f653b50d8f22a2f34354172f129624813f1
-ms.sourcegitcommit: a58dfb892e43921157014f0784bd411f5c40e454
+ms.openlocfilehash: 85e40a0768174dcdc5d0fa2647b24cddccf01bdf
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/04/2022
-ms.locfileid: "8687635"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8905476"
 ---
 # <a name="set-different-dimensions-for-packing-and-storage"></a>Definir dimensões diferentes para embalagem e armazenamento
 
@@ -33,7 +33,7 @@ Alguns itens são embalados ou armazenados de forma que pode ser necessário ras
 As dimensões de *armazenamento* são compatíveis mesmo quando o recurso *Dimensões de produtos de embalagem* não está habilitado. Configure-as usando a página **Dimensão física** no Supply Chain Management. Essas dimensões são usadas por todos os processos nos quais as dimensões de embalagem e embalagem aninhada não são especificadas.
 
 As dimensões de *embalagem* e *embalagem aninhada* são configuradas usando a página **Dimensões físicas do produto**, adicionada quando você habilita o recurso *Dimensões de produtos de embalagem*.
-Este tópico oferece um cenário que mostra como usar esse recurso.
+Este artigo oferece um cenário que mostra como usar esse recurso.
 
 ## <a name="turn-on-the-packaging-product-dimensions-feature"></a>Ativar o recurso de dimensões de produtos de embalagem
 

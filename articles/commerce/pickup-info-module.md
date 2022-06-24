@@ -1,6 +1,6 @@
 ---
-title: Módulo de informações sobre retirada
-description: Este tópico aborda o módulo de informações sobre retirada e descreve como adicioná-lo às páginas de finalização de compra no Microsoft Dynamics 365 Commerce.
+title: Módulo de informações de retirada
+description: Este artigo aborda o módulo de informações sobre retirada e descreve como adicioná-lo às páginas de finalização de compra no Microsoft Dynamics 365 Commerce.
 author: anupamar-ms
 ms.date: 11/06/2020
 ms.topic: article
@@ -14,22 +14,22 @@ ms.search.industry: ''
 ms.author: anupamar
 ms.search.validFrom: 2020-09021
 ms.dyn365.ops.version: Release 10.0.15
-ms.openlocfilehash: 52015fb973642bfc6f45901e7c1a265f0ccfc415b1324bc62ef77a5fc72550bb
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: ad877a0c018093fe97f0aa8ac213357c0520a1c9
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6764552"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8892588"
 ---
 # <a name="pickup-information-module"></a>Módulo de informações de retirada
 
 [!include [banner](includes/banner.md)]
 
-Este tópico aborda o módulo de informações sobre retirada e descreve como adicioná-lo às páginas de finalização de compra no Microsoft Dynamics 365 Commerce.
+Este artigo aborda o módulo de informações sobre retirada e descreve como adicioná-lo às páginas de finalização de compra no Microsoft Dynamics 365 Commerce.
 
 O módulo de informações sobre retirada pode ser usado em um módulo de finalização de compra para mostrar informações sobre retirada de ordens. Os clientes podem ver as datas de retirada e os intervalos de tempo disponíveis e, em seguida, selecionar um horário adequado para retirar a ordem. Por exemplo, um cliente pode optar por retirar uma ordem às 15h em 21 de março na loja de São Francisco.
 
-Os intervalos de tempo de retirada para as lojas apropriadas devem ser configurados na sede do Commerce. Para obter mais informações, consulte [Criar e atualizar os intervalos de tempo para retirada pelo cliente](dev-itpro/pickup-timeslots.md).
+Os intervalos de tempo de retirada para as lojas apropriadas devem ser configurados no Commerce headquarters. Para obter mais informações, consulte [Criar e atualizar os intervalos de tempo para retirada pelo cliente](dev-itpro/pickup-timeslots.md).
 
 Se um módulo de informações sobre retirada for criado em uma página de finalização de compra, mas nenhum intervalo de tempo for definido para a loja selecionada para retirada, o módulo mostrará informações, mas o usuário não poderá selecionar nenhum intervalo de tempo. Os intervalos de tempo são opcionais e não são necessários para realizar uma ordem.
 

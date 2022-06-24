@@ -1,6 +1,6 @@
 ---
 title: Configurar dispositivos móveis para trabalho de depósito
-description: Este tópico descreve como configurar os itens de menu que os trabalhadores de depósito usam para executar o trabalho em um dispositivo móvel.
+description: Este artigo descreve como configurar os itens de menu que os trabalhadores de depósito usam para executar o trabalho em um dispositivo móvel.
 author: Mirzaab
 ms.date: 03/23/2020
 ms.topic: article
@@ -15,21 +15,21 @@ ms.search.region: Global
 ms.author: mirzaab
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: d9e0f27839d9e6330cc8a11874a5cb1786daf8dc
-ms.sourcegitcommit: fd6270dc7f49f93a8155d2b827153b13edb7be8a
+ms.openlocfilehash: efbf9072c3bbcb20f38e144f9a15d8178d96d708
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 12/09/2021
-ms.locfileid: "7902170"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8905563"
 ---
 # <a name="set-up-mobile-devices-for-warehouse-work"></a>Configurar dispositivos móveis para trabalho de depósito
 
 [!include [banner](../includes/banner.md)]
 
-Este tópico descreve como configurar os itens de menu que os trabalhadores de depósito usam para executar o trabalho em um dispositivo móvel.
+Este artigo descreve como configurar os itens de menu que os trabalhadores de depósito usam para executar o trabalho em um dispositivo móvel.
 
 > [!NOTE]
-> Este tópico se aplica a recursos do Gerenciamento de depósito. Ele não se aplica aos recursos do Gerenciamento de estoque. Os itens de menu que aparecem nos menus em um dispositivo móvel do depósito são configurados na página **Itens de menu do dispositivo móvel**. Como os itens de menu podem ser inseridos em menus diferentes, é fácil configurar estruturas de menu de forma que somente os tipos específicos de trabalho sejam expostos a usuários específicos. Você pode configurar itens de menu para executar as seguintes tarefas:
+> Este artigo se aplica a recursos do Warehouse Management. Ele não se aplica aos recursos do Gerenciamento de estoque. Os itens de menu que aparecem nos menus em um dispositivo móvel do depósito são configurados na página **Itens de menu do dispositivo móvel**. Como os itens de menu podem ser inseridos em menus diferentes, é fácil configurar estruturas de menu de forma que somente os tipos específicos de trabalho sejam expostos a usuários específicos. Você pode configurar itens de menu para executar as seguintes tarefas:
 
 - Processar uma consulta ou executar uma atividade, como imprimir um rótulo, gerar números da placa de licença, iniciar uma ordem de produção ou pesquisar rapidamente informações sobre itens em um local.
 - Criar o trabalho a ser executado por meio de outro processo. Por exemplo, o recebimento de um item para uma ordem de compra pode criar trabalho de armazenamento para outro trabalhador.
@@ -38,7 +38,7 @@ Este tópico descreve como configurar os itens de menu que os trabalhadores de d
 Para criar um item de menu para uma atividade ou uma consulta, defina o campo **Modo** como **Indireto**. Uma lista opções do **Código de atividade** torna-se disponível, de forma que você possa selecionar o tipo de consulta ou atividade do item de menu. Para criar um item de menu para gerar o trabalho de depósito, defina o campo **Modo** como **Trabalho**. Uma lista de opções do **Processo de criação de trabalho**, em seguida, fica disponível. Para criar um item de menu para processar o trabalho de depósito existente, defina o campo **Modo** como **Trabalho** e, em seguida, defina a opção **Usar trabalho existente** como **Sim**. 
 
 > [!NOTE]
-> Outros campos podem estar disponíveis para itens de menu, dependendo do modo selecionado para o item de menu e se o item de menu é usado para executar um trabalho existente. Para obter informações sobre as seleções de campo adicionais, consulte a seção “Opções de item de menu adicionais” posteriormente neste tópico.
+> Outros campos podem estar disponíveis para itens de menu, dependendo do modo selecionado para o item de menu e se o item de menu é usado para executar um trabalho existente. Para obter informações sobre as seleções de campo adicionais, consulte a seção “Opções de item de menu adicionais” posteriormente neste artigo.
 
 ## <a name="configure-menu-items-for-activities-and-inquiries"></a>Configurar itens de menu para atividades e consultas
 

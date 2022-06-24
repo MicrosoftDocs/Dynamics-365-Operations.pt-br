@@ -1,6 +1,6 @@
 ---
 title: Atribuir listas de tarefas a lojas ou funcionários
-description: Este tópico descreve como atribuir listas de tarefas a lojas ou funcionários no Microsoft Dynamics 365 Commerce.
+description: Este artigo descreve como atribuir listas de tarefas a lojas ou a funcionários no Microsoft Dynamics 365 Commerce.
 author: gvrmohanreddy
 ms.date: 02/10/2020
 ms.topic: article
@@ -13,18 +13,18 @@ ms.search.industry: ''
 ms.author: gmohanv
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Release 10.0.9
-ms.openlocfilehash: 18f13fb1754b2740b8447a67f09320651b0ca4003c6f46c6d4668e5159ae1a2d
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 956ea206888b2bbbbaf2edaa006c84f6f050f379
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6730818"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8909352"
 ---
 # <a name="assign-task-lists-to-stores-or-employees"></a>Atribuir listas de tarefas a lojas ou funcionários
 
 [!include [banner](includes/banner.md)]
 
-Este tópico descreve como atribuir listas de tarefas a lojas ou funcionários no Microsoft Dynamics 365 Commerce.
+Este artigo descreve como atribuir listas de tarefas a lojas ou a funcionários no Microsoft Dynamics 365 Commerce.
 
 O gerenciamento de tarefas no Dynamics 365 Commerce permite atribuir uma lista de tarefas a vários armazenamentos ou funcionários, ou a uma combinação de lojas e funcionários. Por exemplo, um gerente regional de 20 lojas pode desejar atribuir a lista de tarefas **Preparação para o período de festas** a todas as 20 lojas.
 

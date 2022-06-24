@@ -1,6 +1,6 @@
 ---
 title: Carregar vídeos
-description: Este tópico descreve como carregar vídeos no construtor de sites do Microsoft Dynamics 365 Commerce.
+description: Este artigo descreve como carregar vídeos no construtor de sites do Microsoft Dynamics 365 Commerce.
 author: psimolin
 ms.date: 06/09/2021
 ms.topic: article
@@ -15,18 +15,18 @@ ms.search.industry: ''
 ms.author: psimolin
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: f481e5d3f323b0c86d637b67c119d13b956d5714dc0d990004834e2be05b370e
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: a48c6cbdd5898a2156f60dada40e94cd402df9c5
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6735621"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8890532"
 ---
 # <a name="upload-videos"></a>Carregar vídeos
 
 [!include [banner](includes/banner.md)]
 
-Este tópico descreve como carregar vídeos no construtor de sites do Microsoft Dynamics 365 Commerce.
+Este artigo descreve como carregar vídeos no construtor de sites do Microsoft Dynamics 365 Commerce.
 
 A Biblioteca de Mídia do assistente para criação de sites do Commerce permite carregar vídeos. Você sempre deve carregar a versão de um vídeo com a taxa de bits e a resolução mais altas, porque o vídeo será convertido automaticamente para se adequar a diferentes portas de exibição e seus pontos de interrupção.
 

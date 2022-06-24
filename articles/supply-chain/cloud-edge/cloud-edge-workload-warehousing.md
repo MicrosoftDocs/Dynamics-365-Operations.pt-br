@@ -1,6 +1,6 @@
 ---
-title: Cargas de trabalho de gerenciamento de depósito para unidades de escala de nuvem e de borda
-description: Este tópico fornece informações sobre o recurso que permite que as unidades de escala executem processos selecionados da carga de trabalho de gerenciamento de depósito.
+title: Cargas de trabalho de gerenciamento de depósito para unidades de escala de nuvem e borda
+description: Este artigo fornece informações sobre o recurso que permite que as unidades de escala executem processos selecionados da carga de trabalho do Warehouse Management.
 author: perlynne
 ms.date: 09/03/2021
 ms.topic: article
@@ -16,19 +16,19 @@ ms.search.industry: SCM
 ms.author: perlynne
 ms.search.validFrom: 2020-10-06
 ms.dyn365.ops.version: 10.0.22
-ms.openlocfilehash: 67f78441b0914d18c2a7853bab54c6b8817be3ac
-ms.sourcegitcommit: 2e554371f5005ef26f8131ac27eb171f0bb57b4e
+ms.openlocfilehash: f9839ad9a18eb543734c2ba43a56b568460a64c3
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/04/2022
-ms.locfileid: "8384475"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8893487"
 ---
 # <a name="warehouse-management-workloads-for-cloud-and-edge-scale-units"></a>Cargas de trabalho de gerenciamento de depósito para unidades de escala de nuvem e borda
 
 [!include [banner](../includes/banner.md)]
 
 > [!WARNING]
-> Nem todas as funcionalidades de negócios do gerenciamento de depósito têm suporte total para depósitos que executam uma carga de trabalho em uma unidade de escala. Certifique-se de usar somente os processos descritos explicitamente por este tópico como aceitos.
+> Nem todas as funcionalidades de negócios do gerenciamento de depósito têm suporte total para depósitos que executam uma carga de trabalho em uma unidade de escala. Certifique-se de usar somente os processos descritos explicitamente por este artigo como aceitos.
 
 ## <a name="warehouse-execution-on-scale-units"></a>Execução de depósito em unidades de escala
 
@@ -184,7 +184,7 @@ No momento, não há suporte para outros tipos de trabalho de depósito e proces
 >
 > Algumas etapas adicionais são necessárias para configurar o aplicativo móvel Warehouse Management em uma unidade de escala de nuvem ou de borda. Para obter mais informações, consulte [Configurar o aplicativo móvel Warehouse Management para unidades de escala de nuvem e de borda](cloud-edge-workload-setup-warehouse-app.md).
 >
-> Quando você executa uma carga de trabalho em uma unidade de escala, não pode executar processos sem suporte para o depósito específico no hub. As tabelas fornecidas posteriormente neste tópico documentam os recursos com suporte.
+> Quando você executa uma carga de trabalho em uma unidade de escala, não pode executar processos sem suporte para o depósito específico no hub. As tabelas fornecidas posteriormente neste artigo documentam os recursos com suporte.
 >
 > Os tipos de trabalho de depósito selecionados podem ser criados no hub e em unidades de escala, mas só podem ser mantidos pelo hub ou pela unidade de escala titular (a implantação que criou os dados).
 >

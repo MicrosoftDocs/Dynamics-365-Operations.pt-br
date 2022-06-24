@@ -1,6 +1,6 @@
 ---
 title: Diferenças entre planejamento mestre interno e Otimização de Planejamento
-description: Este tópico lista recursos para os quais a Otimização de Planejamento ainda não dá suporte e que não estão listados na página de análise de ajuste da Otimização de Planejamento.
+description: Este artigo lista recursos para os quais a Otimização de Planejamento ainda não dá suporte e que não estão listados na página de análise de ajuste da Otimização de Planejamento.
 author: t-benebo
 ms.date: 07/30/2021
 ms.topic: article
@@ -10,18 +10,18 @@ ms.search.region: Global
 ms.author: benebotg
 ms.search.validFrom: 2021-07-30
 ms.dyn365.ops.version: 10.0.21
-ms.openlocfilehash: c73587015d6714c409819ab19ad68685aaa71cf7
-ms.sourcegitcommit: 70289a33b0a6ff3f9418d91a928db452cfd815bd
+ms.openlocfilehash: cf39166dce860dbd796cb4749175628252ed96ea
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/20/2022
-ms.locfileid: "8618250"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8897564"
 ---
 # <a name="differences-between-built-in-master-planning-and-planning-optimization"></a>Diferenças entre planejamento mestre interno e Otimização de Planejamento
 
 [!include [banner](../../includes/banner.md)]
 
-Os resultados da Otimização de Planejamento podem ser diferentes dos resultados do mecanismo de planejamento mestre integrado. As diferenças podem ser causadas por recursos pendentes. Este tópico lista recursos para os quais a Otimização do Planejamento ainda não dá suporte e que não estão listados na página **[Análise de ajuste da Otimização do Planejamento](planning-optimization-fit-analysis.md)**].
+Os resultados da Otimização de Planejamento podem ser diferentes dos resultados do mecanismo de planejamento mestre integrado. As diferenças podem ser causadas por recursos pendentes. Este artigo lista recursos para os quais a Otimização do Planejamento ainda não dá suporte e que não estão listados na página **[Análise de ajuste da Otimização do Planejamento](planning-optimization-fit-analysis.md)**].
 
 | Recurso | Comportamento atual na Otimização de Planejamento |
 |---|---|

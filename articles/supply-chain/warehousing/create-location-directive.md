@@ -1,6 +1,6 @@
 ---
 title: Trabalhar com diretivas de localização
-description: Este tópico descreve como trabalhar com diretivas de localização. As diretivas de localização são regras definidas pelo usuário que ajudam a identificar locais de separação e armazenamento para o movimento de estoque.
+description: Este artigo descreve como trabalhar com diretivas de localização. As diretivas de localização são regras definidas pelo usuário que ajudam a identificar locais de separação e armazenamento para o movimento de estoque.
 author: Mirzaab
 ms.date: 11/13/2020
 ms.topic: article
@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: mirzaab
 ms.search.validFrom: 2020-11-13
 ms.dyn365.ops.version: 10.0.15
-ms.openlocfilehash: 84ff0a466c037db05aecaff14aa2e17990ce8799
-ms.sourcegitcommit: fcb8a3419e3597fe855cae9eb21333698518c2c7
+ms.openlocfilehash: 7705ea132521353cd6af7245df90aafaf23af885
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/09/2022
-ms.locfileid: "8103129"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8903685"
 ---
 # <a name="work-with-location-directives"></a>Trabalhar com diretivas de localização
 
@@ -27,7 +27,7 @@ ms.locfileid: "8103129"
 As diretivas de localização são regras que ajudam a identificar locais de separação e armazenamento para a movimentação do estoque. Por exemplo, em uma transação de ordem de venda, uma diretiva de localização determina onde os itens serão separados e onde os itens separados serão armazenados. As diretivas de localização consistem em um cabeçalho e linhas associadas. Elas são criadas para *tipos de ordem de serviço* específicos.
 
 > [!NOTE]
-> Este tópico se aplica aos recursos do módulo **Gerenciamento de depósito**. Não se aplica aos recursos do módulo de [Gerenciamento de estoque](../inventory/inventory-home-page.md).
+> Este artigo se aplica aos recursos do módulo **Warehouse Management**. Não se aplica aos recursos do módulo de [Gerenciamento de estoque](../inventory/inventory-home-page.md).
 
 É possível usar as diretivas de localização para executar as seguintes tarefas:
 
@@ -109,7 +109,7 @@ A tabela a seguir lista os campos que são específicos de tipos de ordem de ser
 
 Para abrir a página **Diretivas de localização**, Acesse **Gerenciamento de depósito \> Configuração \> Diretivas de localização**.
 
-A partir daí, você pode exibir, criar e editar diretivas de localização usando os comandos no Painel de Ações. Consulte as seções restantes deste tópico para obter informações sobre como usar todos os campos disponíveis na página.
+A partir daí, você pode exibir, criar e editar diretivas de localização usando os comandos no Painel de Ações. Consulte as seções restantes deste artigo para obter informações sobre como usar todos os campos disponíveis na página.
 
 ## <a name="action-pane"></a>Painel de Ação
 
@@ -162,7 +162,7 @@ Os campos na FastTab **Diretivas de localização** são específicos do tipo de
 - **Código de disposição aplicável** – especifique se o código de disposição da diretiva de localização deve corresponder ao código de disposição que é aplicado quando o item é recebido ou se a diretiva de localização pode ser selecionada com base em qualquer código de disposição. Se você selecionar *Correspondência exata* e o campo **Código de disposição** estiver em branco, somente os códigos de disposição em branco serão considerados para essa diretiva de localização.
 
     > [!NOTE]
-    > Este campo está disponível apenas para os tipos de ordem de serviço selecionados em que o reabastecimento é permitido. Para obter uma lista completa, consulte a seção [Campos específicos de tipos de ordem de serviço](#fields-specific-types), citados antes neste tópico.
+    > Este campo está disponível apenas para os tipos de ordem de serviço selecionados em que o reabastecimento é permitido. Para obter uma lista completa, consulte a seção [Campos específicos de tipos de ordem de serviço](#fields-specific-types), citados antes neste artigo.
 
 - **Localizar por** – especifique se a quantidade de armazenamento deve ser a quantidade total na placa de licença ou se deve ser item por item. Use este campo para ajudar a garantir que todo o conteúdo de uma placa de licença seja armazenado em um local e que o sistema não sugira que você divida o conteúdo em vários locais para o **ASN** (recebimento de placa de licença) e os processos de recebimento **Placa de licença mista** e **Cluster**. (O processo de recebimento de **Cluster** exige que o recurso [Armazenamento de cluster](putaway-clusters.md) esteja ativado.) O comportamento da consulta de diretiva de localização, as linhas e as ações da diretiva de localização variam de acordo com o valor selecionado. A FastTab **Linhas** é usada apenas quando **Localizar por** está definido como *Item*.
 
@@ -254,7 +254,7 @@ Depois de criar diretivas da localização, você pode associar cada código de 
 ## <a name="additional-resources"></a>Recursos adicionais
 
 - Vídeo: [Detalhamento da configuração de gerenciamento de depósito](https://community.dynamics.com/365/b/techtalks/posts/warehouse-management-configuration-deep-dive-october-14-2020)
-- Tópico de ajuda: [Controlar o trabalho do depósito por meio de modelos de trabalho e diretivas de localização](control-warehouse-location-directives.md)
+- Artigo de ajuda: [Controlar o trabalho do depósito por meio de modelos de trabalho e diretivas de localização](control-warehouse-location-directives.md)
 
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

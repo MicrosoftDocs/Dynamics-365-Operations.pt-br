@@ -1,6 +1,6 @@
 ---
 title: Configuração da previsão de demanda
-description: Este tópico descreve as tarefas de configuração que devem ser executadas para preparar a previsão de demanda.
+description: Este artigo descreve as tarefas de configuração que devem ser executadas para preparar a previsão de demanda.
 author: t-benebo
 ms.date: 11/23/2021
 ms.topic: article
@@ -11,18 +11,18 @@ ms.search.region: Global
 ms.author: benebotg
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: c3b52b970a8040dcba5a1fc59d297dc9ce1a3c53
-ms.sourcegitcommit: ad1afc6893a8dc32d1363395666b0fe1d50e983a
+ms.openlocfilehash: 10a211e0e20f22dfbfdb4923841808750b6ed71b
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/23/2022
-ms.locfileid: "8469999"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8900992"
 ---
 # <a name="demand-forecasting-setup"></a>Configuração da previsão de demanda
 
 [!include [banner](../includes/banner.md)]
 
-Este tópico descreve como configurar a previsão de demanda.  
+Este artigo descreve como configurar a previsão de demanda.  
 
 ## <a name="item-allocation-keys"></a>Chaves de alocação de itens
 
@@ -245,7 +245,7 @@ Use o procedimento a seguir para criar um novo workspace do Machine Learning.
 1. Conclua o assistente seguindo as instruções na tela. Tenha as seguintes considerações em mente ao trabalhar:
 
     - Use as configurações padrão, a menos que outras considerações nesta lista recomendem configurações diferentes.
-    - Selecione a região geográfica que corresponde à região em que a instância do Supply Chain Management é implantada. Caso contrário, alguns dados podem passar por limites de região. Para obter mais informações, consulte [aviso de privacidade](#privacy) posteriormente neste tópico.
+    - Selecione a região geográfica que corresponde à região em que a instância do Supply Chain Management é implantada. Caso contrário, alguns dados podem passar por limites de região. Para obter mais informações, consulte [aviso de privacidade](#privacy) posteriormente neste artigo.
     - Use recursos dedicados, como grupos de recursos, contas de armazenamento, registros de contêiner, Azure Key Vaults e recursos de rede.
     - Na página **Configurar parâmetros de conexão do Serviço do Azure Machine Learning** do assistente, você deve fornecer um nome de conta de armazenamento. Use uma conta dedicada à previsão de demanda. Os dados de entrada e saída de previsão de demanda serão armazenados nessa conta de armazenamento.
 

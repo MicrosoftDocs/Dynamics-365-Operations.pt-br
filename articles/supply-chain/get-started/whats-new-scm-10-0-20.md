@@ -1,6 +1,6 @@
 ---
 title: Novidades ou alterações no Dynamics 365 Supply Chain Management 10.0.20 (agosto de 2021)
-description: Este tópico descreve recursos que são novos ou foram alterados no Dynamics 365 Supply Chain Management 10.0.20.
+description: Este artigo descreve os recursos novos ou alterados no Dynamics 365 Supply Chain Management 10.0.20.
 author: kamaybac
 ms.date: 05/28/2021
 ms.topic: article
@@ -10,18 +10,18 @@ ms.search.region: Global
 ms.author: kamaybac
 ms.search.validFrom: 2021-05-28
 ms.dyn365.ops.version: 10.0.20
-ms.openlocfilehash: a8f46165a89f064878d2e8af1b0b174b04eca37e
-ms.sourcegitcommit: 9e8d7536de7e1f01a3a707589f5cd8ca478d657b
+ms.openlocfilehash: 3eadc447d8c0c443fa9d3eab220300e3eedf051d
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/18/2021
-ms.locfileid: "7647305"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8888633"
 ---
 # <a name="whats-new-or-changed-in-dynamics-365-supply-chain-management-10020-august-2021"></a>Novidades ou alterações no Dynamics 365 Supply Chain Management 10.0.20 (agosto de 2021)
 
 [!include [banner](../includes/banner.md)]
 
-Este tópico lista os recursos novos ou alterados no Microsoft Dynamics 365 Supply Chain Management, versão 10.0.20. Esta versão tem um número de compilação de 10.0.886 e está disponível da seguinte maneira:
+Este artigo lista os recursos novos ou alterados no Microsoft Dynamics 365 Supply Chain Management, versão 10.0.20. Esta versão tem um número de compilação de 10.0.886 e está disponível da seguinte maneira:
 
 - **Versão preliminar:** maio de 2021
 - **Disponibilidade geral da versão (autoatualização):** julho de 2021
@@ -59,21 +59,21 @@ A tabela a seguir lista os aprimoramentos de recursos incluídos nesta versão. 
 
 ## <a name="new-and-updated-documentation-resources"></a>Recursos de documentação novos e atualizados
 
-Recentemente, adicionamos ou atualizamos significativamente os seguintes tópicos de ajuda. Eles não estão necessariamente relacionados aos novos recursos adicionados para esta versão, conforme listado na seção anterior, mas podem ajudar você a obter mais dos recursos existentes.
+Recentemente, adicionamos ou atualizamos significativamente os seguintes artigos de ajuda: Eles não estão necessariamente relacionados aos novos recursos adicionados para esta versão, conforme listado na seção anterior, mas podem ajudar você a obter mais dos recursos existentes.
 
-| Área de recursos | Tópicos novos ou atualizados |
+| Área de recursos | Artigos novos ou atualizados |
 |---|---|
 | Gerenciamento de alteração de engenharia | [Estados e transações de ciclo de vida do produto](../engineering-change-management/product-lifecycle-state-transactions.md) |
-| Gerenciamento de estoque | [Suplemento de Visibilidade de Estoque](../inventory/inventory-visibility.md)<br><br>[Visão geral do gerenciamento de qualidade e não conformidade](../inventory/quality-management-processes.md) (além de todos os tópicos de gerenciamento de qualidade relacionados) |
+| Gerenciamento de estoque | [Suplemento de Visibilidade de Estoque](../inventory/inventory-visibility.md)<br><br>[Visão geral do gerenciamento de qualidade e não conformidade](../inventory/quality-management-processes.md) (além de todos os artigos de gerenciamento de qualidade relacionados) |
 | Compras | [Manter a certificação do fornecedor](../../finance/public-sector/manage-vendor-certification.md) |
 | Controle de produção | [Estilizar a interface de execução de piso de produção](../production-control/production-floor-execution-styles.md) |
 | Gerenciamento de depósito | [Atribuir títulos e ícones de etapa ao aplicativo móvel Warehouse Management](../warehousing/step-icons-titles.md)<br><br>[Processamento adiado de movimento de estoque manual](../warehousing/deferred-processing-manual-inventory-movement.md) |
 
 ## <a name="additional-resources"></a>Recursos adicionais
 
-### <a name="platform-updates-for-finance-and-operations-apps"></a>Atualizações da plataforma para os aplicativos do Finance and Operations
+### <a name="platform-updates-for-finance-and-operations-apps"></a>Atualizações da plataforma para aplicativos do Finanças e operações
 
-O Microsoft Dynamics 365 Supply Chain Management 10.0.20 inclui atualizações de plataforma. Para saber mais, consulte [Atualizações de plataforma para a versão 10.0.20 dos aplicativos do Finance and Operations (Julho de 2021)](../../fin-ops-core/dev-itpro/get-started/whats-new-platform-updates-10-0-20.md).
+O Microsoft Dynamics 365 Supply Chain Management 10.0.20 inclui atualizações de plataforma. Para saber mais, consulte [Atualizações de plataforma para a versão 10.0.20 de aplicativos de Finanças e Operações (Julho de 2021)](../../fin-ops-core/dev-itpro/get-started/whats-new-platform-updates-10-0-20.md).
 
 ### <a name="bug-fixes"></a>Correções de bug
 
@@ -87,12 +87,12 @@ Confira o [Dynamics 365: plano do ciclo de lançamentos 1 de 2021](/dynamics365-
 
 ### <a name="removed-and-deprecated-supply-chain-management-features"></a>Recursos removidos e preteridos do Supply Chain Management
 
-O tópico [Recursos removidos ou preteridos no Dynamics 365 Supply Chain Management](removed-deprecated-features-scm-updates.md) descreve os recursos que foram ou serão removidos ou preteridos do Supply Chain Management.
+O artigo [Recursos removidos ou preteridos no Dynamics 365 Supply Chain Management](removed-deprecated-features-scm-updates.md) descreve os recursos que foram ou serão removidos ou preteridos do Supply Chain Management.
 
 - Um recurso *removido* não estará mais disponível no produto.
 - Um recurso *preterido* não está no desenvolvimento ativo e poderá ser removido em uma atualização futura.
 
-Antes que qualquer recurso seja removido do produto, o aviso de substituição será anunciado no tópico [Recursos removidos ou preteridos no Dynamics 365 Supply Chain Management](removed-deprecated-features-scm-updates.md) 12 meses antes da remoção.
+Antes que qualquer recurso seja removido do produto, o aviso de substituição será anunciado no artigo [Recursos removidos ou preteridos no Dynamics 365 Supply Chain Management](removed-deprecated-features-scm-updates.md) 12 meses antes da remoção.
 
 Para as últimas alterações que afetam somente o tempo de compilação, mas são compatíveis binárias com a área restrita e os ambientes de produção, o tempo de substituição será inferior a 12 meses. Normalmente, essas são atualizações funcionais que precisam ser feitas no compilador.
 

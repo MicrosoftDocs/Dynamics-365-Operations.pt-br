@@ -1,6 +1,6 @@
 ---
 title: Unidades de escala em uma topologia híbrida distribuída
-description: Este tópico oferece informações sobre unidades de escala de nuvem e de borda para cargas de trabalho de gerenciamento de fabricação e depósito.
+description: Este artigo oferece informações sobre unidades de escala de nuvem e de borda para cargas do Warehouse Management e de fabricação.
 author: Mirzaab
 ms.date: 04/22/2021
 ms.topic: article
@@ -11,12 +11,12 @@ ms.search.region: Global
 ms.author: mirzaab
 ms.search.validFrom: 2021-04-13
 ms.dyn365.ops.version: 10.0.19
-ms.openlocfilehash: 5ec846b294cd9ca62ff15a5306e012813c77e306
-ms.sourcegitcommit: 9166e531ae5773f5bc3bd02501b67331cf216da4
+ms.openlocfilehash: 6b53822238220ccfcf538d49285e051c49c57189
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/03/2022
-ms.locfileid: "8676318"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8893661"
 ---
 # <a name="scale-units-in-a-distributed-hybrid-topology"></a>Unidades de escala em uma topologia híbrida distribuída
 
@@ -25,7 +25,7 @@ ms.locfileid: "8676318"
 > [!IMPORTANT]
 > A capacidade da unidade de escala do Microsoft Dynamics 365 Supply Chain Management é disponibilizada para você de acordo com os termos que regem o uso do serviço. Para obter mais informações, consulte as [Informações Legais do Microsoft Dynamics](https://go.microsoft.com/fwlink/?LinkID=290927).
 >
-> Quando você habilita unidades de escala de nuvem e de borda, você será solicitado a afirmar que entendeu que alguns dados relacionados à configuração e ao processamento de unidades de escala de nuvem e de borda podem ser armazenados em um data center localizado nos Estados Unidos. Para saber mais sobre o processamento de dados para unidades de escala de nuvem e de borda, consulte a seção [Processamento de dados durante o gerenciamento de unidades de escala](#data-processing-management) posteriormente neste tópico.
+> Quando você habilita unidades de escala de nuvem e de borda, você será solicitado a afirmar que entendeu que alguns dados relacionados à configuração e ao processamento de unidades de escala de nuvem e de borda podem ser armazenados em um data center localizado nos Estados Unidos. Para saber mais sobre o processamento de dados para unidades de escala de nuvem e de borda, consulte a seção [Processamento de dados durante o gerenciamento de unidades de escala](#data-processing-management) posteriormente neste artigo.
 
 ## <a name="core-value-proposition-for-a-distributed-hybrid-topology"></a>Principal proposta de valor para uma topologia híbrida distribuída
 
@@ -48,7 +48,7 @@ As unidades de escala fornecem resiliência, confiabilidade e dimensionamento pa
 
 Uma *carga de trabalho* é um conjunto definido de funcionalidades comerciais que podem ser fatoradas e delegadas a uma unidade de escala. Embora a carga de trabalho para o gerenciamento de depósito tenha sido liberada, a carga de trabalho para a execução de fabricação ainda está na versão preliminar.
 
-Você pode configurar seu ambiente de hub e unidades de escala de nuvem para cargas de trabalho selecionadas usando o [portal do Gerente de Unidade de Escala](https://sum.dynamics.com). Você também pode atribuir várias cargas de trabalho por unidade de escala. Para obter informações sobre os pré-requisitos e as limitações de unidades de escala de nuvem na versão atual, consulte a seção [Pré-requisitos e limitações de unidades de escala de nuvem](#cloud-scale-unit-prerequisites) posteriormente neste tópico.
+Você pode configurar seu ambiente de hub e unidades de escala de nuvem para cargas de trabalho selecionadas usando o [portal do Gerente de Unidade de Escala](https://sum.dynamics.com). Você também pode atribuir várias cargas de trabalho por unidade de escala. Para obter informações sobre os pré-requisitos e as limitações de unidades de escala de nuvem na versão atual, consulte a seção [Pré-requisitos e limitações de unidades de escala de nuvem](#cloud-scale-unit-prerequisites) posteriormente neste artigo.
 
 ### <a name="dedicated-warehouse-management-workload-capabilities-in-a-scale-unit"></a>Recursos dedicados de carga de trabalho de gerenciamento de depósito em uma unidade de escala
 

@@ -1,6 +1,6 @@
 ---
 title: Gerenciar contêineres de remessa
-description: Este tópico descreve como trabalhar com contêineres de remessa. Os contêineres de remessa são usados para agrupar mercadorias que estão fisicamente agrupadas. Eles também são usados nos casos em que os custos devem ser compartilhados somente entre essas mercadorias, geralmente porque estão fisicamente juntas.
+description: Este artigo descreve como trabalhar com contêineres de remessa. Os contêineres de remessa são usados para agrupar mercadorias que estão fisicamente agrupadas. Eles também são usados nos casos em que os custos devem ser compartilhados somente entre essas mercadorias, geralmente porque estão fisicamente juntas.
 author: Weijiesa
 ms.date: 12/14/2020
 ms.topic: article
@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: weijiesa
 ms.search.validFrom: 2020-12-14
 ms.dyn365.ops.version: 10.0.17
-ms.openlocfilehash: ac88f8e3b8cf305a5bd247e7ed6b14b23ad85499
-ms.sourcegitcommit: a58dfb892e43921157014f0784bd411f5c40e454
+ms.openlocfilehash: 22f2512125679f160cb658923893d5f5aa739a2d
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/04/2022
-ms.locfileid: "8686759"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8906143"
 ---
 # <a name="manage-shipping-containers"></a>Gerenciar contêineres de remessa
 
@@ -142,7 +142,7 @@ Para abrir a exibição **Linhas**, abra um contêiner de remessa e selecione a 
 
 ### <a name="information-on-the-shipping-container-fasttab"></a>Informações sobre a FastTab Contêiner de remessa
 
-A FastTab **Contêiner de remessa** na exibição **Linhas** mostra informações sobre o fólio. A maioria dessas informações também aparecem na exibição **Cabeçalho**, conforme descrito anteriormente neste tópico.
+A FastTab **Contêiner de remessa** na exibição **Linhas** mostra informações sobre o fólio. A maioria dessas informações também aparecem na exibição **Cabeçalho**, conforme descrito anteriormente neste artigo.
 
 ### <a name="information-and-buttons-on-the-lines-fasttab"></a>Informações e botões na FastTab Linhas
 

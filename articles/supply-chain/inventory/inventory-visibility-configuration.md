@@ -1,8 +1,8 @@
 ---
-title: Configurar Visibilidade de Estoque
-description: Este tópico descreve como configurar o Visibilidade de Estoque.
+title: Configurar Inventory Visibility
+description: Este artigo descreve como configurar o Visibilidade de Estoque.
 author: yufeihuang
-ms.date: 12/09/2021
+ms.date: 05/27/2022
 ms.topic: article
 ms.search.form: ''
 audience: Application User
@@ -11,23 +11,23 @@ ms.search.region: Global
 ms.author: yufeihuang
 ms.search.validFrom: 2021-08-02
 ms.dyn365.ops.version: 10.0.21
-ms.openlocfilehash: 7e42c0b49a4083edd0e64551f4840bd74d412fc1
-ms.sourcegitcommit: 1877696fa05d66b6f51996412cf19e3a6b2e18c6
+ms.openlocfilehash: 2bdb2ca0067ea430b249ac619a38c8bcec75f2f7
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/20/2022
-ms.locfileid: "8786828"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8895805"
 ---
-# <a name="configure-inventory-visibility"></a>Configurar Visibilidade de Estoque
+# <a name="configure-inventory-visibility"></a>Configurar Inventory Visibility
 
 [!include [banner](../includes/banner.md)]
 
 
-Este tópico descreve como configurar a Visibilidade de Estoque usando o aplicativo Visibilidade de Estoque para Power Apps.
+Este artigo descreve como configurar a Visibilidade de Estoque usando o aplicativo Visibilidade de Estoque para Power Apps.
 
 ## <a name="introduction"></a><a name="introduction"></a>Introdução
 
-Antes de começar a trabalhar com o Visibilidade de Estoque, você deve concluir a seguinte configuração, conforme descrito neste tópico:
+Antes de começar a trabalhar com o Visibilidade de Estoque, você deve concluir a seguinte configuração, conforme descrito neste artigo:
 
 - [Configuração de fonte de dados](#data-source-configuration)
 - [Configuração de partição](#partition-configuration)
@@ -41,7 +41,7 @@ Antes de começar, instale e configure o Suplemento Visibilidade de Estoque conf
 
 ## <a name="the-configuration-page-of-the-inventory-visibility-app"></a><a name="configuration"></a>A página Configuração do aplicativo Visibilidade de Estoque
 
-No Power Apps, a página **Configuração** do [aplicativo Visibilidade de Estoque](inventory-visibility-power-platform.md) ajuda você a definir a configuração disponível e a configuração de reserva flexível. Após a instalação do suplemento, a configuração padrão incluirá o valor do Microsoft Dynamics 365 Supply Chain Management (a fonte de dados `fno`). Você pode analisar as configurações padrão. Além disso, com base nos requisitos comerciais e nos requisitos de lançamento de estoque do sistema externo, você poderá modificar a configuração para padronizar a forma como as alterações de estoque podem ser lançadas, organizadas e consultadas em vários sistemas. As seções restantes deste tópico explicam como usar cada parte da página **Configuração**.
+No Power Apps, a página **Configuração** do [aplicativo Visibilidade de Estoque](inventory-visibility-power-platform.md) ajuda você a definir a configuração disponível e a configuração de reserva flexível. Após a instalação do suplemento, a configuração padrão incluirá o valor do Microsoft Dynamics 365 Supply Chain Management (a fonte de dados `fno`). Você pode analisar as configurações padrão. Além disso, com base nos requisitos comerciais e nos requisitos de lançamento de estoque do sistema externo, você poderá modificar a configuração para padronizar a forma como as alterações de estoque podem ser lançadas, organizadas e consultadas em vários sistemas. As seções restantes deste artigo explicam como usar cada parte da página **Configuração**.
 
 Depois que a configuração for concluída, selecione **Atualizar Configuração** no aplicativo.
 
@@ -54,6 +54,7 @@ O Suplemento de Visibilidade de Estoque adiciona vários recursos novos à sua i
 | *OnHandReservation* | Este tópico permite criar reservas, consumir reservas e/ou cancelar a reserva de quantidades de estoque especificadas usando a Visibilidade de Estoque. Para obter mais informações, consulte [Reservas de Visibilidade de Estoque](inventory-visibility-reservations.md). |
 | *OnHandMostSpecificBackgroundService* | Este recurso fornece um resumo de estoque para produtos juntamente com todas as dimensões. Os dados do resumo de estoque serão sincronizados periodicamente de Visibilidade de Estoque. Para obter mais informações, consulte [Resumo de estoque](inventory-visibility-power-platform.md#inventory-summary). |
 | *OnhandChangeSchedule* | Esse recurso habilita o plano de alterações disponível e os recursos disponíveis para promessa (ATP). Para obter mais informações, consulte [Agenda de alterações disponíveis e disponível para promessa de Visibilidade de Estoque](inventory-visibility-available-to-promise.md). |
+| *Alocação* | Esse recurso opcional permite que a Visibilidade de Estoque tenha a capacidade de proteção de inventário (ringfencing) e controle de venda excessiva. Para obter mais informações, consulte [Alocação de estoque de visibilidade do estoque](inventory-visibility-allocation.md). |
 | *Habilitar itens de depósito em Visibilidade de Estoque* | Esse recurso opcional permite que a visibilidade do estoque dê suporte a itens habilitados para processos de depósito avançados (itens de WHS). Para obter mais informações, consulte [Suporte do Visibilidade de Estoque para itens WHS](inventory-visibility-whs-support.md). |
 
 ## <a name="find-the-service-endpoint"></a><a name="get-service-endpoint"></a>Localizar o ponto de extremidade de serviço
@@ -320,6 +321,13 @@ Para configurar seu índice de hierarquia de produtos, siga estas etapas.
     - **Número do conjunto** – as dimensões que pertencem ao mesmo grupo (índice) serão agrupadas, e o mesmo número do conjunto será alocado para elas.
     - **Hierarquia** – a hierarquia é usada para definir as combinações de dimensões com suporte que podem ser consultadas em um grupo de dimensões (índice). Por exemplo, se você configurar um grupo de dimensões com uma sequência de hierarquias de *Estilo*, *Cor* e *Tamanho*, o sistema dará suporte ao resultado de três grupos de consulta. O primeiro grupo é somente estilo. O segundo grupo é uma combinação de estilo e cor. E o terceiro grupo é uma combinação de estilo, cor e tamanho. Não há suporte para as outras combinações.
 
+> [!TIP]
+> Conheça algumas dicas para ter em mente ao configurar sua hierarquia de índice:
+>
+> - As dimensões base definidas na configuração da partição não devem ser definidas nas configurações de índice. Se uma dimensão base for definida novamente na configuração do índice, você não poderá consultar por esse índice.
+> - Se você só precisar consultar o estoque agregado por todas as combinações de dimensão, configure um único índice que contenha a dimensão base `Empty`.
+> - Você deve ter pelo menos uma hierarquia de índice (por exemplo, contendo a dimensão base `Empty`); caso contrário, as consultas falharão com o erro "Nenhuma hierarquia de índice foi definida".
+
 ### <a name="example"></a>Exemplo
 
 Esta seção fornece um exemplo que mostra o funcionamento da hierarquia.
@@ -372,11 +380,6 @@ O índice permite consultar o estoque disponível das seguintes maneiras:
     - Camiseta, Vermelha, Pequena, Regular, 6
     - Camiseta, Vermelha, Grande, Regular, 7
 
-> [!NOTE]
-> As dimensões base definidas na configuração da partição não devem ser definidas nas configurações de índice.
-> 
-> Se precisar consultar apenas o estoque agregado por todas as combinações de dimensão, você poderá configurar um único índice que contenha a dimensão base `Empty`.
-
 ## <a name="reservation-configuration-optional"></a><a name="reservation-configuration"></a>Configuração de reserva (opcional)
 
 A configuração da reserva será necessária se você desejar usar o recurso de reserva flexível. A configuração consiste em duas partes fundamentais:
@@ -390,7 +393,7 @@ Ao fazer uma reserva, você pode querer saber se o estoque em mãos está dispon
 
 Ao configurar o mapeamento da medida física para a medida calculada, você permitirá que o serviço Visibilidade de Estoque valide automaticamente a disponibilidade da reserva, com base na medida física.
 
-Antes de configurar esse mapeamento, as medidas físicas, as medidas calculadas e suas fontes de dados deverão ser definidas nas guias **Fonte de dados** e **Medida calculada** da página de **Configuração** no Power Apps (conforme descrito anteriormente neste tópico).
+Antes de configurar esse mapeamento, as medidas físicas, as medidas calculadas e suas fontes de dados deverão ser definidas nas guias **Fonte de dados** e **Medida calculada** da página de **Configuração** no Power Apps (conforme descrito anteriormente neste artigo).
 
 Para definir o mapeamento de reserva flexível, siga estas etapas.
 
@@ -508,7 +511,7 @@ Durante seu estágio de inicialização, Visibilidade de Estoque define uma conf
 
 Esta seção descreve como a fonte de dados `iv` é configurada.
 
-##### <a name="physical-measures-configured-for-the-iv-data-source"></a>Medidas físicas configuradas para a fonte de dados iv
+##### <a name="physical-measures-configured-for-the-iv-data-source"></a>Medidas físicas configuradas para a fonte de dados "iv"
 
 As seguintes medidas físicas são configuradas para a fonte de dados `iv`:
 
@@ -651,11 +654,11 @@ A medida calculada `InventoryDemand` é configurada para a fonte de dados `iv` c
 | Adição | `iv` | `ReservPhysical` |
 | Adição | `iv` | `ReservOrdered` |
 
-#### <a name="configuration-of-the-fno-data-source"></a>Configuração da fonte de dados fno
+#### <a name="configuration-of-the-fno-data-source"></a>Configuração da fonte de dados "fno"
 
 Esta seção descreve como a fonte de dados `fno` é configurada.
 
-##### <a name="dimension-mappings-for-the-fno-data-source"></a>Mapeamentos de dimensão para a fonte de dados fno
+##### <a name="dimension-mappings-for-the-fno-data-source"></a>Mapeamentos de dimensão para a fonte de dados "fno"
 
 Os mapeamentos de dimensão listados na tabela a seguir são configurados para a fonte de dados `fno`.
 
@@ -687,7 +690,7 @@ Os mapeamentos de dimensão listados na tabela a seguir são configurados para a
 | `InventDimension11` | `CustomDimension11` |
 | `InventDimension12` | `CustomDimension12` |
 
-##### <a name="physical-measures-configured-for-the-fno-data-source"></a>Medidas físicas configuradas para a fonte de dados fno
+##### <a name="physical-measures-configured-for-the-fno-data-source"></a>Medidas físicas configuradas para a fonte de dados "fno"
 
 As seguintes medidas físicas são configuradas para a fonte de dados `fno`:
 
@@ -699,11 +702,11 @@ As seguintes medidas físicas são configuradas para a fonte de dados `fno`:
 - `ReservOrdered`
 - `OnOrder`
 
-#### <a name="configuration-of-the-pos-data-source"></a>Configuração da fonte de dados pos
+#### <a name="configuration-of-the-pos-data-source"></a>Configuração da fonte de dados "pos"
 
 Esta seção descreve como a fonte de dados `pos` é configurada.
 
-##### <a name="physical-measures-for-the-pos-data-source"></a>Medidas físicas para a fonte de dados pos
+##### <a name="physical-measures-for-the-pos-data-source"></a>Medidas físicas para a fonte de dados "pos"
 
 As seguintes medidas físicas são configuradas para a fonte de dados `pos`:
 
@@ -720,14 +723,14 @@ A medida calculada `AvailQuantity` é configurada para a fonte de dados `pos` co
 | Adição | `pos` | `PosInbound` |
 | Subtração | `pos` | `PosOutbound` |
 
-#### <a name="configuration-of-the-iom-data-source"></a>Configuração da fonte de dados iom
+#### <a name="configuration-of-the-iom-data-source"></a>Configuração da fonte de dados "iom"
 
 As seguintes medidas físicas são configuradas para a fonte de dados `iom` (Intelligent Order Management):
 
 - `OnOrder`
 - `OnHand`
 
-#### <a name="configuration-of-the-erp-data-source"></a>Configuração da fonte de dados erp
+#### <a name="configuration-of-the-erp-data-source"></a>Configuração da fonte de dados "erp"
 
 As seguintes medidas físicas são configuradas para a fonte de dados `erp` (planejamento de recursos empresariais):
 

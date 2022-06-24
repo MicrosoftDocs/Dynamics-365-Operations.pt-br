@@ -1,6 +1,6 @@
 ---
 title: Configurar pagamentos expressos do PayPal
-description: Este tópico descreve como configurar pagamentos expressos para o PayPal habilitar recursos de finalização de compra mais rápida no Microsoft Dynamics 365 Commerce.
+description: Este artigo descreve como configurar pagamentos expressos para o PayPal habilitar recursos de finalização de compra mais rápida no Microsoft Dynamics 365 Commerce.
 author: BrianShook
 ms.date: 05/11/2022
 ms.topic: article
@@ -9,18 +9,18 @@ ms.reviewer: v-chgriffin
 ms.search.region: Global
 ms.author: brshoo
 ms.search.validFrom: 2017-06-20
-ms.openlocfilehash: 5fff17959e7ed9299df169c68b2ed07f6b7c7d2c
-ms.sourcegitcommit: e4cc43b06ef3f0f562849e2c960025cb244d6017
+ms.openlocfilehash: b69b7384992fb86370ff6881824a7d2c9a77d2c4
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/12/2022
-ms.locfileid: "8743561"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8905273"
 ---
 # <a name="configure-express-payments-for-paypal"></a>Configurar pagamentos expressos do PayPal
 
 [!include [banner](../includes/banner.md)]
 
-Este tópico descreve como configurar pagamentos expressos para o PayPal habilitar recursos de finalização de compra mais rápida no Microsoft Dynamics 365 Commerce.
+Este artigo descreve como configurar pagamentos expressos para o PayPal habilitar recursos de finalização de compra mais rápida no Microsoft Dynamics 365 Commerce.
 
 ## <a name="key-terms"></a>Condições principais
 
@@ -28,7 +28,7 @@ Este tópico descreve como configurar pagamentos expressos para o PayPal habilit
 |---|---|
 | Carteira do PayPal | A experiência e a integração do cliente suportadas pelo conector do PayPal. Também é conhecido como o botão PayPal. |
 | Carteira | Um tipo de pagamento que não inclui as características de pagamento tradicionais, como intervalo do número de identificação do banco (BIN) e a data de vencimento, que são usados para diferenciar tipos de cartão de crédito e débito. |
-| Pagamento expresso | Um módulo do Commerce que dá suporte ao comportamento de finalização de compra rápida quando as formas de pagamento aceitas são usadas. Este tópico aborda o uso do módulo de pagamento expresso com o PayPal. |
+| Pagamento expresso | Um módulo do Commerce que dá suporte ao comportamento de finalização de compra rápida quando as formas de pagamento aceitas são usadas. Este artigo aborda o uso do módulo de pagamento expresso com o PayPal. |
 
 Dynamics 365 Commerce oferece integração pronta para a Carteira do PayPal. Quando o Conector de Pagamento do Dynamics 365 para PayPal está configurado, o botão PayPal aparece como uma forma de pagamento selecionável durante a finalização de compra do pedido online. Quando os usuários selecionam PayPal, são direcionados para concluir o pagamento diretamente por meio do PayPal e, em seguida, retornam à loja online para concluir o pedido. A finalização de compra do carrinho pelo PayPal permite que os clientes usem suas informações de conta de pagamento para preencher o formulário de pagamento e concluir o processo mais rapidamente.
 
@@ -107,11 +107,11 @@ Para adicionar um fragmento de pagamento expresso a uma página de carrinho no c
 
 Quando o módulo de pagamento expresso é configurado para usar o PayPal, a primeira opção de entrega retornada para o endereço de envio selecionado para a conta do PayPal será preenchida automaticamente. Os usuários poderão alterar o endereço de envio se desejarem.
 
-A ordem do modo de entrega é configurada na seção **Modos de entrega** para o canal no Commerce Headquarters. Para obter mais informações, consulte [Configurar modos de entrega](/dynamicsax-2012/appuser-itpro/set-up-modes-of-delivery).
+A ordem do modo de entrega é configurada na seção **Modos de entrega** para o canal no Commerce headquarters. Para obter mais informações, consulte [Configurar modos de entrega](/dynamicsax-2012/appuser-itpro/set-up-modes-of-delivery).
 
 O módulo de finalização de compra também usará o módulo de opções de entrega quando os modos de entrega forem processados durante o pagamento. Para obter mais informações, consulte [Módulo de opções de entrega](../delivery-options-module.md).
 
-Os modos de entrega são adicionados à lista para a loja online no Commerce Headquarters. Vá para **Retail e Commerce \> Canais \> Lojas online** e selecione o ID do canal para sua loja. Em seguida, selecione **Configuração \> Modos de entrega**. Os modos do módulo de entrega que são mostrados na configuração aparecerão de forma semelhante no site. Para adicionar ou remover modos de entrega para um canal ou produto de varejo, selecione **Gerenciar modos de entrega** no Painel de Ações.
+Os modos de entrega são adicionados à lista para a loja online no Commerce headquarters. Vá para **Retail e Commerce \> Canais \> Lojas online** e selecione o ID do canal para sua loja. Em seguida, selecione **Configuração \> Modos de entrega**. Os modos do módulo de entrega que são mostrados na configuração aparecerão de forma semelhante no site. Para adicionar ou remover modos de entrega para um canal ou produto de varejo, selecione **Gerenciar modos de entrega** no Painel de Ações.
 
 ## <a name="additional-resources"></a>Recursos adicionais
 

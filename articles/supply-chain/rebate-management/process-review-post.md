@@ -1,6 +1,6 @@
 ---
 title: Processar, revisar e lançar reembolsos
-description: Este tópico descreve como processar suas negociações de gerenciamento de Reembolso, calcular descontos, revisar as transações geradas, lançar transações e revisar os lançamentos.
+description: Este artigo descreve como processar suas negociações de gerenciamento de Reembolso, calcular descontos, revisar as transações geradas, lançar transações e revisar os lançamentos.
 author: sherry-zheng
 ms.date: 02/19/2021
 ms.topic: article
@@ -13,18 +13,18 @@ ms.search.region: Global
 ms.author: chuzheng
 ms.search.validFrom: 2021-02-19
 ms.dyn365.ops.version: 10.0.18
-ms.openlocfilehash: 524aec8025378391057275f77e31191f88e4a98b
-ms.sourcegitcommit: a58dfb892e43921157014f0784bd411f5c40e454
+ms.openlocfilehash: e63f02e5e93ec2ce8c321a20c2a0c5886edcbe42
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/04/2022
-ms.locfileid: "8690264"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8901927"
 ---
 # <a name="process-review-and-post-rebates"></a>Processar, revisar e lançar reembolsos
 
 [!include [banner](../includes/banner.md)]
 
-Este tópico descreve como processar suas negociações de gerenciamento de Reembolso, calcular descontos, revisar as transações geradas, lançar transações e revisar os lançamentos.
+Este artigo descreve como processar suas negociações de gerenciamento de Reembolso, calcular descontos, revisar as transações geradas, lançar transações e revisar os lançamentos.
 
 ## <a name="change-the-status-of-a-deal"></a>Alterar o status de uma negociação
 
@@ -45,7 +45,7 @@ Acesse **Gerenciamento de reembolso \> Tarefas periódicas \> Calcule o preço d
 
 Você pode criar as ordens de venda ou de compra que têm transações de origem antes ou depois de criar uma oportunidade de gerenciamento de reembolso aplicável.
 
-Você pode configurar cada linha de oportunidade para que ela crie automaticamente uma provisão de reembolso lançando a entrega ou a fatura de uma ordem de venda ou ordem de compra. Defina o campo **Tipo de transação** para a linha de oportunidade como *Entrega* ou *Fatura* e defina a opção **Processar no lançamento** como *Sim*. Se o campo **Tipo de transação** estiver definido como *Ordem*, o processamento no lançamento será desabilitado. Para transações de origem criadas após a ativação de uma oportunidade, você ainda poderá processar a provisão, conforme descrito na seção [Processar oportunidades de gerenciamento de reembolso](#process-deals), posteriormente neste tópico.
+Você pode configurar cada linha de oportunidade para que ela crie automaticamente uma provisão de reembolso lançando a entrega ou a fatura de uma ordem de venda ou ordem de compra. Defina o campo **Tipo de transação** para a linha de oportunidade como *Entrega* ou *Fatura* e defina a opção **Processar no lançamento** como *Sim*. Se o campo **Tipo de transação** estiver definido como *Ordem*, o processamento no lançamento será desabilitado. Para transações de origem criadas após a ativação de uma oportunidade, você ainda poderá processar a provisão, conforme descrito na seção [Processar oportunidades de gerenciamento de reembolso](#process-deals), posteriormente neste artigo.
 
 ### <a name="enable-price-details"></a>Ativar detalhes de preço
 

@@ -1,6 +1,6 @@
 ---
 title: Os impostos sobre ordens online são calculados incorretamente
-description: Este tópico fornece orientação de solução de problemas que pode ajudar quando os impostos sobre ordens online são calculados incorretamente ou quando o grupo de impostos na linha de venda não está corretamente definido.
+description: Este artigo fornece orientação de solução de problemas que pode ajudar quando os impostos sobre ordens online são calculados incorretamente ou quando o grupo de impostos na linha de venda não está corretamente definido.
 author: Reza-Assadi
 ms.date: 02/16/2022
 ms.topic: Troubleshooting
@@ -15,18 +15,18 @@ ms.search.industry: Retail
 ms.author: rassadi
 ms.search.validFrom: 2021-01-31
 ms.dyn365.ops.version: 10.0.18
-ms.openlocfilehash: 0e4361b436cc78eccaff29dfa2927d342e26072d
-ms.sourcegitcommit: 4d52c67f52ad0add63cd905df61367b344389069
+ms.openlocfilehash: eefcfc983a7b3861caa4b4362d2813082b7963a6
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/16/2022
-ms.locfileid: "8312022"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8901612"
 ---
 # <a name="taxes-on-online-orders-are-incorrectly-calculated"></a>Os impostos sobre ordens online são calculados incorretamente
 
 [!include [banner](../../includes/banner.md)]
 
-Este tópico fornece orientação de solução de problemas que pode ajudar quando os impostos sobre ordens online são calculados incorretamente ou quando o grupo de impostos na linha de venda não está corretamente definido.
+Este artigo fornece orientação de solução de problemas que pode ajudar quando os impostos sobre ordens online são calculados incorretamente ou quando o grupo de impostos na linha de venda não está corretamente definido.
 
 ## <a name="description"></a>descrição
 
@@ -34,9 +34,9 @@ Quando uma ordem de comércio eletrônico é realizada, os impostos são calcula
 
 ## <a name="resolution"></a>Resolução
 
-### <a name="configure-general-sales-tax-groups-in-commerce-headquarters"></a>Configurar grupos de impostos gerais na matriz do Commerce
+### <a name="configure-general-sales-tax-groups-in-commerce-headquarters"></a>Configurar grupos de impostos gerais no Commerce headquarters
 
-Para configurar grupos de impostos gerais na matriz do Commerce, siga estas etapas:
+Para configurar grupos de impostos gerais no Commerce headquarters, siga estas etapas:
 
 1. Acesse **Imposto \> Impostos indiretos \> Imposto \> Grupo de impostos**.
 1. No painel de navegação à esquerda, selecione o grupo de impostos a ser configurado.
@@ -45,9 +45,9 @@ Para configurar grupos de impostos gerais na matriz do Commerce, siga estas etap
 > [!NOTE]
 > Para remessas que não incluem impostos determinados pelo endereço do cliente, o endereço de entrega da linha e os impostos baseados no destino que são configurados para o grupo de impostos determinam o grupo de impostos. Para obter mais informações, consulte [Configurar os impostos para as lojas online com base no destino](/dynamicsax-2012/appuser-itpro/set-up-taxes-for-online-stores-based-on-destination).
 
-### <a name="configure-the-sales-tax-for-a-retail-store-in-commerce-headquarters"></a>Configurar o imposto de uma loja de varejo na matriz do Commerce
+### <a name="configure-the-sales-tax-for-a-retail-store-in-commerce-headquarters"></a>Configurar o imposto de uma loja de varejo no Commerce headquarters
 
-Para configurar o imposto de uma loja de varejo na matriz do Commerce, siga estas etapas.
+Para configurar o imposto de uma loja de varejo no Commerce headquarters, siga estas etapas.
 
 1. Acesse **Varejo e Comércio \> Canais \> Todas as lojas**.
 1. Selecione a loja para configurar o imposto.
@@ -56,9 +56,9 @@ Para configurar o imposto de uma loja de varejo na matriz do Commerce, siga esta
 > [!NOTE]
 > Para a retirada de produtos de uma loja, o grupo de impostos vem da loja selecionada para entrega. Para obter mais informações, consulte [Definir outras opções de imposto para lojas](/dynamicsax-2012/appuser-itpro/set-other-tax-options-for-stores).
 
-### <a name="configure-the-sales-tax-for-a-customers-address-in-commerce-headquarters"></a>Configurar o imposto de um endereço do cliente na matriz do Commerce
+### <a name="configure-the-sales-tax-for-a-customers-address-in-commerce-headquarters"></a>Configurar o imposto de um endereço do cliente no Commerce headquarters
 
-Para configurar o imposto de um endereço do cliente na matriz do Commerce, siga estas etapas.
+Para configurar o imposto de um endereço do cliente no Commerce headquarters, siga estas etapas.
 
 1. Ir para **Contas recebíveis \> Clientes \> Todos os clientes**.
 1. Selecione o cliente para o qual os impostos devem ser configurados.

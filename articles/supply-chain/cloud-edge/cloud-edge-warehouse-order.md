@@ -1,6 +1,6 @@
 ---
 title: Ordens de depósito para unidades de escala de nuvem e borda
-description: Este tópico fornece informações sobre o recurso de ordem de depósito usado como parte da carga de trabalho da unidade de escala de depósito.
+description: Este artigo fornece informações sobre o recurso de ordem de depósito usado como parte da carga de trabalho da unidade de escala de depósito.
 author: perlynne
 ms.date: 04/22/2021
 ms.topic: article
@@ -11,19 +11,19 @@ ms.search.region: Global
 ms.author: perlynne
 ms.search.validFrom: 2021-04-13
 ms.dyn365.ops.version: 10.0.19
-ms.openlocfilehash: bd3c72f2c008b936ceda53a3fcdde79df1e6b1b7
-ms.sourcegitcommit: a21166da59675e37890786ebf7e0f198507f7c9b
+ms.openlocfilehash: db254216e6c34b81f83c87a8fda454d0aeb1cece
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 09/03/2021
-ms.locfileid: "7471683"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8893516"
 ---
 # <a name="warehouse-orders-for-cloud-and-edge-scale-units"></a>Ordens de depósito para unidades de escala de nuvem e borda
 
 [!include [banner](../includes/banner.md)]
 
 > [!WARNING]
-> Nem todas as funcionalidades comerciais têm suporte total na versão preliminar pública quando são usadas cargas de trabalho de unidade de escala. Se você estiver usando unidades de escala, certifique-se de usar somente esses processos descritos explicitamente por este tópico como aceitos.
+> Nem todas as funcionalidades comerciais têm suporte total na versão preliminar pública quando são usadas cargas de trabalho de unidade de escala. Se você estiver usando unidades de escala, certifique-se de usar somente esses processos descritos explicitamente por este artigo como aceitos.
 
 ## <a name="what-are-warehouse-orders"></a>O que são ordens de depósito?
 

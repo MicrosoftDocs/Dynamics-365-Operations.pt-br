@@ -1,6 +1,6 @@
 ---
 title: Aplicar configurações de exibição para dimensões do produto
-description: Este tópico abrange as configurações de exibição para dimensões do produto e descreve como aplicá-las no Microsoft Dynamics 365 Commerce.
+description: Este artigo abrange as configurações de exibição para dimensões do produto e descreve como aplicá-las no Microsoft Dynamics 365 Commerce.
 author: anupamar-ms
 ms.date: 05/28/2021
 ms.topic: article
@@ -15,19 +15,19 @@ ms.search.industry: ''
 ms.author: anupamar
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: 80a0861c51ea14ddb6bce02d757667adac34e740cd04311e26211d9bdbae4ed8
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: d7575e205a9732259b00e424f66eeadfe8c659ee
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6716213"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8899166"
 ---
 # <a name="apply-display-settings-for-product-dimensions"></a>Aplicar configurações de exibição para dimensões do produto
 
 [!include [banner](includes/banner.md)]
 
 
-Este tópico abrange as configurações de exibição para dimensões do produto e descreve como aplicá-las no Microsoft Dynamics 365 Commerce.
+Este artigo abrange as configurações de exibição para dimensões do produto e descreve como aplicá-las no Microsoft Dynamics 365 Commerce.
 
 O Dynamics 365 Commerce oferece suporte a dimensões de tamanho, estilo e cor para distinguir grades de produtos. Normalmente, as dimensões são mostradas como valores de texto, como "Pequeno", "Médio" e "Grande" para tamanhos e "Preto" e "Marrom" para cores. No entanto, se um produto oferecer suporte a várias variações, pode ser difícil procurar grades de produtos, pois várias seleções são necessárias para exibir a imagem de cada grade. Para facilitar a navegação por grades de produtos, a versão 10.0.20 do Commerce pode usar imagens e códigos hexadecimais (hex) para mostrar as dimensões como amostras.
 

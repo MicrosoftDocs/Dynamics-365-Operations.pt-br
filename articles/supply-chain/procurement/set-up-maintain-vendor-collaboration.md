@@ -1,6 +1,6 @@
 ---
 title: Configurar e manter colaboração de fornecedor
-description: Este tópico explica como configurar a colaboração do fornecedor no Dynamics 365 Supply Chain Management. Também explica como provisionar novos usuários de colaboração do fornecedor e gerenciar as funções de segurança para esses usuários.
+description: Este artigo explica como configurar a colaboração do fornecedor no Dynamics 365 Supply Chain Management. Também explica como provisionar novos usuários de colaboração do fornecedor e gerenciar as funções de segurança para esses usuários.
 author: GalynaFedorova
 ms.date: 12/03/2018
 ms.topic: article
@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: gfedorova
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: 4b59513d86426d3c1bfd759b9aabc331e58d5423
-ms.sourcegitcommit: 9166e531ae5773f5bc3bd02501b67331cf216da4
+ms.openlocfilehash: 8fe4731f8ff23f4abe25fce57a2325e1fca979c4
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/03/2022
-ms.locfileid: "8677552"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8890818"
 ---
 # <a name="set-up-and-maintain-vendor-collaboration"></a>Configurar e manter colaboração de fornecedor
 
@@ -28,7 +28,7 @@ ms.locfileid: "8677552"
 
 A interface de colaboração do fornecedor expõe um conjunto limitado de informações sobre ordens de compra, faturas e estoque de consignação para usuários de fornecedores externos. A partir dessa interface, um fornecedor também poderá responder a RFQs (solicitações de cotação) e exibir e editar informações básicas da empresa.
 
-Este tópico explica como configurar a colaboração do fornecedor no Dynamics 365 Supply Chain Management. Também explica como configurar um fluxo de trabalho para provisionar novos usuários de colaboração do fornecedor e como gerenciar as funções de segurança para esses usuários.
+Este artigo explica como configurar a colaboração do fornecedor no Dynamics 365 Supply Chain Management. Também explica como configurar um fluxo de trabalho para provisionar novos usuários de colaboração do fornecedor e como gerenciar as funções de segurança para esses usuários.
 
 > [!NOTE]
 > As informações sobre a configuração de funções de segurança para colaboração do fornecedor aplicam-se somente à versão atual do aplicativo de finanças e operações. No Microsoft Dynamics AX 7.0. (fevereiro de 2016) e no aplicativo do Microsoft Dynamics AX versão 7.0.1 (maio de 2016), você colabora com fornecedores usando o módulo **Portal do fornecedor**. Para obter informações sobre permissões de usuário para o portal Fornecedor no Microsoft Dynamics AX, consulte [Segurança de usuário do portal Fornecedor](configure-security-vendor-portal-users.md).
@@ -77,7 +77,7 @@ A função **Fornecedor (externo)** pode ser usada para fornecedores externos qu
 
 ## <a name="set-up-security-roles-that-are-used-when-prospective-vendors-are-onboarded"></a>Configurar as funções de segurança usadas quando fornecedores potenciais são integrados
 
-Para fornecedores integrados que são iniciados por meio de uma solicitação de registro de fornecedor potencial, você deve configurar uma função de segurança externa. Essa função será atribuída a novos usuários durante o processo de provisionamento que é controlado pelo fluxo de trabalho do tipo **Fluxo de trabalho de solicitação de usuário (plataforma)**. Para obter mais informações, consulte a seção [Configurar fluxos de trabalho para processar solicitações de usuário de colaboração do fornecedor](#set-up-workflows-to-process-vendor-collaboration-user-requests) posteriormente neste tópico.
+Para fornecedores integrados que são iniciados por meio de uma solicitação de registro de fornecedor potencial, você deve configurar uma função de segurança externa. Essa função será atribuída a novos usuários durante o processo de provisionamento que é controlado pelo fluxo de trabalho do tipo **Fluxo de trabalho de solicitação de usuário (plataforma)**. Para obter mais informações, consulte a seção [Configurar fluxos de trabalho para processar solicitações de usuário de colaboração do fornecedor](#set-up-workflows-to-process-vendor-collaboration-user-requests) posteriormente neste artigo.
 
 Para obter informações sobre como integrar fornecedores potenciais, consulte [Integrar fornecedores](vendor-onboarding.md).
 

@@ -1,6 +1,6 @@
 ---
 title: Perguntas frequentes sobre recomendações de produtos
-description: Este tópico fornece informações sobre processos e ferramentas que você pode usar para solucionar problemas relacionados a recomendações de produtos ou resultados.
+description: Este artigo fornece informações sobre processos e ferramentas que você pode usar para solucionar problemas relacionados a recomendações de produtos ou resultados.
 author: bebeale
 ms.date: 05/26/2020
 ms.topic: article
@@ -16,19 +16,19 @@ ms.search.industry: Retail, Core, Operations
 ms.author: bebeale
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: 88ad0efd8f678c3082c31b1c3162b8288e14fc9edb69e8756f1641461b808e07
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 77a5532ab1ae3b630bb335aa7cff6dc747184994
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6733956"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8900438"
 ---
 # <a name="product-recommendations-faq"></a>Perguntas frequentes sobre recomendações de produtos
 
 
 [!include [banner](includes/banner.md)]
 
-Este tópico fornece informações sobre processos e ferramentas que você pode usar para solucionar problemas relacionados a [recomendações de produtos](product-recommendations.md) ou resultados.
+Este artigo fornece informações sobre processos e ferramentas que você pode usar para solucionar problemas relacionados a [recomendações de produtos](product-recommendations.md) ou resultados.
 
 ## <a name="best-practices"></a>Práticas recomendadas
 É muito importante usar o conceito produtos mestre e as variantes. O agrupamento correto de variantes de um produto mestre ajuda os algoritmos da lista e serviço a criar melhores modelos. Além disso, o serviço pode servir apenas uma instância de um produto em vez de colocar todas as variantes relacionadas próximas em uma lista. Quando todas as variantes relacionadas próximas são colocadas em uma lista, resultados errados ou duplicados podem ocorrer.

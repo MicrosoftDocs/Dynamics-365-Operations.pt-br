@@ -1,6 +1,6 @@
 ---
 title: A opção Retirar este item não aparece nas páginas de detalhes do carrinho ou do produto
-description: Este tópico fornece orientações de solução de problemas que podem ajudar quando a opção de retirada na loja não aparece na página do carrinho ou nas páginas de detalhes do produto.
+description: Este artigo fornece orientações de solução de problemas que podem ajudar quando a opção de retirada na loja não aparece na página do carrinho ou nas páginas de detalhes do produto.
 author: Reza-Assadi
 ms.date: 03/11/2021
 ms.topic: Troubleshooting
@@ -15,18 +15,18 @@ ms.search.industry: Retail
 ms.author: rassadi
 ms.search.validFrom: 2021-01-31
 ms.dyn365.ops.version: 10.0.18
-ms.openlocfilehash: 836f767caae8e32c156a1c13d1e2864a4d3cdd92e7a11814a2585c9e907575dd
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 88367e13b4d079edb0816e301901828b65c437ae
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6733812"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8900299"
 ---
 # <a name="pick-this-up-option-doesnt-appear-on-cart-or-product-details-pages"></a>A opção "Retirar este item" não aparece nas páginas de detalhes do carrinho ou do produto
 
 [!include [banner](../../includes/banner.md)]
 
-Este tópico fornece orientações de solução de problemas que podem ajudar quando a opção de retirada na loja não aparece na página do carrinho ou nas páginas de detalhes do produto.
+Este artigo fornece orientações de solução de problemas que podem ajudar quando a opção de retirada na loja não aparece na página do carrinho ou nas páginas de detalhes do produto.
 
 ## <a name="description"></a>descrição
 
@@ -46,21 +46,21 @@ Para habilitar a extensão "comprar online, retirar na Store" (BOPIS) no criador
 1. Selecione **Configurações do site** e, em seguida, selecione **Extensões**.
 1. Verifique se a opção **Desativar BOPIS** está desmarcada.
 
-### <a name="configure-modes-of-delivery-in-commerce-headquarters"></a>Configurar modos de entrega na matriz do Commerce
+### <a name="configure-modes-of-delivery-in-commerce-headquarters"></a>Configurar modos de entrega no Commerce headquarters
 
-Para configurar modos de entrega na matriz do Commerce, siga estas etapas:
+Para configurar modos de entrega no Commerce headquarters, siga estas etapas:
 
 1. Acesse **Compras e fornecimento \> Configuração \> Modos de entrega**.
 1. Verifique se o modo de entrega **Retirada do cliente** foi criado e se os produtos e endereços estão atribuídos a ele.
-1. Acesse **Varejo e Comércio \> Configuração da sede \> Parâmetros**.
+1. Acesse **Varejo e Comércio \> Configuração do headquarters \> Parâmetros**.
 1. No painel de navegação à esquerda, selecione **Ordens do cliente**.
 1. Verifique se o **Modo de entrega de retirada** está configurado corretamente.
 
 ### <a name="configure-customer-orders-payments"></a>Configurar pagamentos de ordens de cliente
 
-Para configurar pagamentos de ordens do cliente na matriz do Commerce, siga estas etapas.
+Para configurar pagamentos de ordens do cliente no Commerce headquarters, siga estas etapas.
 
-1. Acesse **Varejo e Comércio \> Configuração da sede \> Parâmetros**.
+1. Acesse **Varejo e Comércio \> Configuração do headquarters \> Parâmetros**.
 1. No painel de navegação à esquerda, selecione **Ordens do cliente**.
 1. Na guia rápida **Pagamentos**, verifique se os campos **Condições de pagamento** e **Método de pagamento** estão definidos corretamente.
 

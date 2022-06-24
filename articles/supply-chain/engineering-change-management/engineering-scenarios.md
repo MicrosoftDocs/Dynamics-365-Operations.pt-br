@@ -1,6 +1,6 @@
 ---
 title: Passo a passo do recurso Gerenciamento de alterações de engenharia
-description: Este tópico fornece uma orientação completa que mostra como trabalhar com o gerenciamento de alterações de engenharia.
+description: Este artigo fornece uma orientação completa que mostra como trabalhar com o gerenciamento de alterações de engenharia.
 author: t-benebo
 ms.date: 09/28/2020
 ms.topic: article
@@ -12,18 +12,18 @@ ms.search.region: Global
 ms.author: benebotg
 ms.search.validFrom: 2020-09-28
 ms.dyn365.ops.version: 10.0.15
-ms.openlocfilehash: 4c1c67559a8f2e9d0abb512f4231aea495d1957c
-ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
+ms.openlocfilehash: ec5535013af9ccb253744e061de738155ac9ad22
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 09/29/2021
-ms.locfileid: "7573984"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8889625"
 ---
 # <a name="engineering-change-management-feature-walkthrough"></a>Passo a passo do recurso Gerenciamento de alterações de engenharia
 
 [!include [banner](../includes/banner.md)]
 
-Este tópico fornece uma orientação completa que mostra como trabalhar com o gerenciamento de alterações de engenharia. Ele passa por cada um dos cenários mais importantes:
+Este artigo fornece uma orientação completa que mostra como trabalhar com o gerenciamento de alterações de engenharia. Ele passa por cada um dos cenários mais importantes:
 
 - Configuração de recurso básico
 - Como uma empresa de engenharia cria um novo produto de engenharia
@@ -35,13 +35,13 @@ Este tópico fornece uma orientação completa que mostra como trabalhar com o g
 - Como agendar e implementar alterações solicitadas criando uma ordem de alteração de engenharia
 - Como liberar um produto que foi alterado
 
-Todos os exercícios neste tópico usam os dados de exemplo padrão fornecidos para o Microsoft Dynamics 365 Supply Chain Management. Além disso, cada exercício se baseia no exercício anterior. Portanto, é recomendável trabalharmos com exercícios em ordem, do início ao fim, especialmente se você nunca tiver usado o recurso de gerenciamento de alterações de engenharia. Dessa forma, você obterá uma compreensão completa do recurso.
+Todos os exercícios neste artigo usam os dados de exemplo padrão fornecidos para o Microsoft Dynamics 365 Supply Chain Management. Além disso, cada exercício se baseia no exercício anterior. Portanto, é recomendável trabalharmos com exercícios em ordem, do início ao fim, especialmente se você nunca tiver usado o recurso de gerenciamento de alterações de engenharia. Dessa forma, você obterá uma compreensão completa do recurso.
 
 ## <a name="set-up-for-the-sample-scenario"></a>Configurar o cenário de exemplo
 
-Para seguir o cenário de exemplo fornecido neste tópico, primeiro você deve preparar o recurso disponibilizando os dados de demonstração e adicionando alguns registros personalizados.
+Para seguir o cenário de exemplo fornecido neste artigo, primeiro você deve preparar o recurso disponibilizando os dados de demonstração e adicionando alguns registros personalizados.
 
-Antes de tentar executar qualquer um dos exercícios no restante deste tópico, siga as instruções em todas as subseções a seguir. Essas subseções também apresentam várias páginas de configurações importantes que serão usadas quando você configurar o gerenciamento de alterações de engenharia para sua própria organização.
+Antes de tentar executar qualquer um dos exercícios no restante deste artigo, siga as instruções em todas as subseções a seguir. Essas subseções também apresentam várias páginas de configurações importantes que serão usadas quando você configurar o gerenciamento de alterações de engenharia para sua própria organização.
 
 ### <a name="make-standard-demo-data-available"></a>Disponibilizar dados de demonstração padrão
 

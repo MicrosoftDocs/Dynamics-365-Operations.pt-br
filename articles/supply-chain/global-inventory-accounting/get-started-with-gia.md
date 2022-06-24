@@ -1,6 +1,6 @@
 ---
 title: Introdução à Contabilidade de estoque global
-description: Este tópico descreve como começar com a Contabilidade de estoque global.
+description: Este artigo descreve como começar com a Contabilidade de estoque global.
 author: JennySong-SH
 ms.date: 06/18/2021
 ms.topic: article
@@ -11,12 +11,12 @@ ms.search.region: Global
 ms.author: yanansong
 ms.search.validFrom: 2021-06-18
 ms.dyn365.ops.version: 10.0.20
-ms.openlocfilehash: 17d4816fc5fcad0b0665640a8347b1f4ea032dd7
-ms.sourcegitcommit: 9166e531ae5773f5bc3bd02501b67331cf216da4
+ms.openlocfilehash: 493e0be8ab56abc2a3253876107b7f4fefabf4ad
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/03/2022
-ms.locfileid: "8679433"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8891079"
 ---
 # <a name="get-started-with-global-inventory-accounting"></a>Introdução à Contabilidade de estoque global
 
@@ -38,12 +38,18 @@ A Contabilidade de estoque global é um suplemento. Para disponibilizar os recur
 
 No momento, a Contabilidade de estoque global não permite todos os recursos de gerenciamento de custos que são incorporados ao Supply Chain Management. Portanto, é importante que você avalie se o conjunto de recursos disponível no momento atenderá aos seus requisitos.
 
-## <a name="how-to-get-the-global-inventory-accounting-public-preview"></a><a name="sign-up"></a>Como obter a versão preliminar pública da Contabilidade de estoque global
+## <a name="how-to-get-the-global-inventory-accounting-add-in"></a><a name="sign-up"></a>Como obter o suplemento da Contabilidade de estoque global
 
 > [!IMPORTANT]
 > Para usar a Contabilidade de estoque global, você deve ter um ambiente de alta disponibilidade habilitado para LCS (não um ambiente OneBox). Além disso, você deve estar executando a versão 10.0.19 ou posterior do Supply Chain Management.
 
-Para se inscrever na versão preliminar pública da Contabilidade de estoque global, envie seu ID de ambiente LCS por email para a [Equipe da Contabilidade de estoque global](mailto:GlobalInvAccount@microsoft.com). Depois que você for aprovado para o programa, a equipe enviará um email de acompanhamento que contém uma chave beta da Contabilidade de estoque global e seus pontos de extremidade de serviço. Depois de receber a chave beta, você pode [instalar o suplemento](#install).
+### <a name="supply-chain-management-version-10019-to-10026"></a>Supply Chain Management versão 10.0.19 a 10.0.26
+
+Para instalar a Contabilidade de Estoque Global para Supply Chain Management versão 10.0.19 a 10.0.26, comece [instalando o suplemento](#install). Depois, envie a ID do ambiente do LCS e o nome da empresa por email para a [Equipe da Contabilidade de estoque global](mailto:GlobalInvAccount@microsoft.com). A equipe enviará a você um email de acompanhamento que contém os pontos de extremidade do serviço Contabilidade de Estoque Global.
+
+### <a name="supply-chain-management-version-10027-and-later"></a>Supply Chain Management versão 10.0.27 ou posterior
+
+Para instalar a Contabilidade de Estoque Global para Supply Chain Management versão 10.0.27 e posterior, basta [instalar o suplemento](#install). Para essas versões do Supply Chain Management, os pontos de extremidade do serviço Contabilidade de Estoque Global serão configurados automaticamente, para que você não precise encontrá-los manualmente. Se você tiver algum problema ao configurar o suplemento, entre em contato com a [Equipe da Contabilidade de estoque global](mailto:GlobalInvAccount@microsoft.com).
 
 ## <a name="licensing"></a>Licenciamento
 
@@ -98,12 +104,7 @@ Se o idioma padrão da sua instalação do Dataverse não for inglês, siga esta
 
 Siga estas etapas para instalar o suplemento para que você possa usar a Contabilidade de estoque global.
 
-1. [Inscreva-se](#sign-up) na versão preliminar pública da Contabilidade de estoque global.
 1. Entre no [LCS](https://lcs.dynamics.com/Logon/Index).
-1. Acesse **Gerenciamento da versão prévia do recurso**.
-1. Selecione o sinal de mais (**+**).
-1. No campo **Código**, insira a chave beta do complemento da Contabilidade de estoque global. (Você deve ter recebido sua chave beta por email quando se inscreveu.)
-1. Selecione **Desbloquear**.
 1. Abra o ambiente LCS ao qual deseja adicionar o serviço.
 1. Acesse **Detalhes completos**.
 1. Acesse **Integração do Power Platform** e selecione **Configuração**.
@@ -124,6 +125,8 @@ Siga essas etapas para configurar a integração entre a Contabilidade de estoqu
 1. Na guia **Tudo**, pesquise o recurso denominado *(Versão preliminar) Contabilidade de estoque global*.
 1. Selecione **Habilitar agora**.
 1. Acesse **Contabilidade de estoque global \> Configuração \> Parâmetros contábeis \> Integrações de parâmetros**.
-1. Nos campos **Dados do ponto de extremidade de serviço** e **Ponto de extremidade da Contabilidade de estoque global**, insira os URLs com base no email que a equipe da Contabilidade de estoque global enviou quando você se inscreveu na versão preliminar.
+1. Dependendo de qual versão do Supply Chain Management você está executando, execute uma das seguintes etapas:
+    - **Supply Chain Management versão 10.0.19 a 10.0.26**: nos campos **Ponto de extremidade do serviço de dados** e **Ponto de extremidade de contabilidade de estoque global**, insira as URLs que foram enviadas a você por email da Equipe da Contabilidade de estoque global (consulte também [Como obter o suplemento da Contabilidade de estoque global](#sign-up)).
+    - **Supply Chain Management versão 10.0.27 ou mais recente**: como não é preciso inserir os pontos de extremidade, você pode pular esta etapa.
 
 A Contabilidade de estoque global está pronta para uso.

@@ -1,6 +1,6 @@
 ---
-title: Documentos do ativo
-description: Este tópico explica documentos de ativo no Asset Management.
+title: Documentos de ativos
+description: Este artigo explica documentos de ativo no Gerenciamento de Ativos.
 author: johanhoffmann
 ms.date: 06/26/2019
 ms.topic: article
@@ -15,20 +15,20 @@ ms.search.region: Global
 ms.author: johanho
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 77b7265b1ba56dbd1cd955f5d90afea02f589ce2eebdd05a2fef3a7ddebc0ee1
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: a2e8d72dc938c43e266c6b7c39329f827c56607a
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6722478"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8899459"
 ---
-# <a name="asset-documents"></a>Documentos do ativo
+# <a name="asset-documents"></a>Documentos de ativos
 
 [!include [banner](../../includes/banner.md)]
 
  
 
-Este tópico explica documentos de ativo no Asset Management.
+Este artigo explica documentos de ativo no Gerenciamento de Ativos.
 
 No Asset Management, você pode configurar documentos para que eles sejam automaticamente relacionados a tipos de trabalho, fabricantes de ativo, tipos de ativo ou ativos, por exemplo. Essa funcionalidade será útil quando versões atualizadas de documento forem liberadas. Nesse caso, você só precisará colocar o documento atualizado no local padrão utilizado para seus documentos do Supply Chain Management e anexá-lo ao registro de documentos do ativo criado. O documento atualizado pode ser acessado dos itens de menu **Todos os ativos**, **Ativos ativos**, **Meus ativos ativos**, **Todas as ordens de trabalho** e **Trabalhos de ordem de serviço ativos**. O processo de anexação de documentos a um registro de documentos de ativo usa o sistema padrão de manuseio de documentos.
 

@@ -1,6 +1,6 @@
 ---
 title: Gerenciamento de custo de entrega x transporte
-description: O Microsoft Dynamics 365 Supply Chain Management fornece dois módulos diferentes para trabalhar com transporte, TMS (gerenciamento de transportes) e custo de entrega. Este tópico resume a funcionalidade que os dois módulos têm em comum e realça as diferenças entre eles.
+description: O Microsoft Dynamics 365 Supply Chain Management fornece dois módulos diferentes para trabalhar com transporte, TMS (gerenciamento de transportes) e custo de entrega. Este artigo resume a funcionalidade que os dois módulos têm em comum e realça as diferenças entre eles.
 author: Weijiesa
 ms.date: 12/04/2020
 ms.topic: article
@@ -12,20 +12,20 @@ ms.search.region: Global
 ms.author: weijiesa
 ms.search.validFrom: 2020-12-04
 ms.dyn365.ops.version: 10.0.17
-ms.openlocfilehash: 8c59d7d1887986d308cb591ece077cff9f4648a5
-ms.sourcegitcommit: a58dfb892e43921157014f0784bd411f5c40e454
+ms.openlocfilehash: 40489ff8d8683d19a5f726546cc4c43cc3e7a05d
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/04/2022
-ms.locfileid: "8690362"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8905911"
 ---
 # <a name="landed-cost-vs-transportation-management"></a>Gerenciamento de custo de entrega x transporte
 
 [!include [banner](../../includes/banner.md)]
 
-O Microsoft Dynamics 365 Supply Chain Management fornece dois módulos diferentes para trabalhar com transporte: **TMS (gerenciamento de transportes)** e **custo de entrega**. Este tópico resume a funcionalidade que os dois módulos têm em comum e realça as diferenças entre eles. Você pode usar essas informações para decidir qual módulo melhor atende às suas práticas comerciais. Talvez você ache que algumas práticas comerciais funcionam melhor com TMS, enquanto outras funcionam melhor com custo de entrega. Dependendo das necessidades comerciais, você pode optar por usar um módulo de forma exclusiva ou combinar os dois módulos.
+O Microsoft Dynamics 365 Supply Chain Management fornece dois módulos diferentes para trabalhar com transporte: **TMS (gerenciamento de transportes)** e **custo de entrega**. Este artigo resume a funcionalidade que os dois módulos têm em comum e realça as diferenças entre eles. Você pode usar essas informações para decidir qual módulo melhor atende às suas práticas comerciais. Talvez você ache que algumas práticas comerciais funcionam melhor com TMS, enquanto outras funcionam melhor com custo de entrega. Dependendo das necessidades comerciais, você pode optar por usar um módulo de forma exclusiva ou combinar os dois módulos.
 
-Este tópico não é uma revisão abrangente de todos os recursos de um dos módulos. Em vez disso, ele realça a funcionalidade disponível, pois pertence ao transporte de mercadorias de um fornecedor para o depósito comercial, onde pode ser consumido.
+Este artigo não é uma revisão abrangente de todos os recursos de um dos módulos. Em vez disso, ele realça a funcionalidade disponível, pois pertence ao transporte de mercadorias de um fornecedor para o depósito comercial, onde pode ser consumido.
 
 ## <a name="terminology-reference-data-and-reporting-differences"></a>Terminologia, dados de referência e relatórios de diferenças
 

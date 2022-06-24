@@ -1,6 +1,6 @@
 ---
 title: Exibições salvas padrão para o Supply Chain Management
-description: Este tópico descreve as exibições salvas padrão que estão disponíveis e explica como habilitá-las.
+description: Este artigo descreve as exibições salvas padrão que estão disponíveis e explica como habilitá-las.
 author: kamaybac
 ms.date: 02/03/2021
 ms.topic: article
@@ -14,18 +14,18 @@ ms.search.region: Global
 ms.author: kamaybac
 ms.search.validFrom: 2021-02-03
 ms.dyn365.ops.version: 10.0.17
-ms.openlocfilehash: 0709574ea44fcf841321044da31781862fcf1420
-ms.sourcegitcommit: fcb8a3419e3597fe855cae9eb21333698518c2c7
+ms.openlocfilehash: 92ff2dfc9cd8b742a7b086e540bd2c527833254d
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/09/2022
-ms.locfileid: "8103679"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8887548"
 ---
 # <a name="standard-saved-views-for-supply-chain-management"></a>Exibições salvas padrão para o Supply Chain Management
 
 [!include [banner](../../includes/banner.md)]
 
-O Microsoft Dynamics 365 Supply Chain Management inclui várias exibições salvas que você pode habilitar e usar conforme necessário. Algumas dessas exibições salvas padrão são otimizadas e nomeadas para uma função ou tarefa específica (por exemplo, "Controle de qualidade" ou "Recebimento"). Outras são otimizadas para incluir somente os campos e as configurações que as estatísticas de uso da Microsoft indicam que são usados com mais frequência pelos clientes. Essas exibições salvas normalmente são chamadas de exibições *simplificadas*. Este tópico descreve as exibições salvas padrão que estão disponíveis e explica como habilitá-las e personalizá-las.
+O Microsoft Dynamics 365 Supply Chain Management inclui várias exibições salvas que você pode habilitar e usar conforme necessário. Algumas dessas exibições salvas padrão são otimizadas e nomeadas para uma função ou tarefa específica (por exemplo, "Controle de qualidade" ou "Recebimento"). Outras são otimizadas para incluir somente os campos e as configurações que as estatísticas de uso da Microsoft indicam que são usados com mais frequência pelos clientes. Essas exibições salvas normalmente são chamadas de exibições *simplificadas*. Este artigo descreve as exibições salvas padrão que estão disponíveis e explica como habilitá-las e personalizá-las.
 
 Para obter detalhes completos sobre como trabalhar com exibições salvas, incluindo as exibições salvas padrão, depois de habilitá-las, consulte [Exibições salvas](../../fin-ops-core/fin-ops/get-started/saved-views.md?toc=/dynamics365/supply-chain/toc.json).
 
@@ -39,7 +39,7 @@ Para obter mais informações sobre como personalizar e renomear exibições sal
 
 Para qualquer exibição salva, independentemente de usar as exibições salvas padrão ou não, você deverá ativar o recurso *Exibições salvas* no [Gerenciamento de recursos](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) (a partir da versão 10.0.21, este recurso será habilitado por padrão).
 
-As seções restantes deste tópico fornecem tabelas que descrevem as exibições salvas padrão disponíveis no momento para cada módulo relevante. Cada tabela mostra o nome de cada exibição salva, a página na qual você pode encontrá-la e uma descrição dela. Cada tabela também mostra o nome do recurso que inclui a exibição salva. Para ver uma exibição salva padrão no sistema, você deve ativar o recurso especificado no [Gerenciamento de recursos](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md). A partir da versão 10.0.25, todas as exibições listadas serão ativadas por padrão.
+As seções restantes deste artigo fornecem tabelas que descrevem as exibições salvas padrão disponíveis no momento para cada módulo relevante. Cada tabela mostra o nome de cada exibição salva, a página na qual você pode encontrá-la e uma descrição dela. Cada tabela também mostra o nome do recurso que inclui a exibição salva. Para ver uma exibição salva padrão no sistema, você deve ativar o recurso especificado no [Gerenciamento de recursos](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md). A partir da versão 10.0.25, todas as exibições listadas serão ativadas por padrão.
 
 ## <a name="saved-views-for-the-inventory-management-module"></a>Exibições salvas para o módulo Gerenciamento de estoque
 

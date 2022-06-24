@@ -1,6 +1,6 @@
 ---
 title: Gerenciar alterações nas fórmulas e seus ingredientes
-description: Este tópico descreve como realizar o gerenciamento de fórmula e gerenciar alterações nos dados mestres de fabricação de processos.
+description: Este artigo descreve como realizar o gerenciamento de fórmula e gerenciar alterações nos dados mestres de fabricação de processos.
 author: t-benebo
 ms.date: 05/19/2021
 ms.topic: article
@@ -10,12 +10,12 @@ ms.search.region: Global
 ms.author: benebotg
 ms.search.validFrom: 2021-05-19
 ms.dyn365.ops.version: 10.0.20
-ms.openlocfilehash: 31953fd29c471e52bd63dbb02c20f5f224c3cae2
-ms.sourcegitcommit: fcb8a3419e3597fe855cae9eb21333698518c2c7
+ms.openlocfilehash: 8105ebc7f3698a6baaa04b6548dac18a7bf81a47
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/09/2022
-ms.locfileid: "8103030"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8904062"
 ---
 # <a name="manage-changes-in-formulas-and-their-ingredients"></a>Gerenciar alterações nas fórmulas e seus ingredientes
 
@@ -29,7 +29,7 @@ Se você estiver usando os recursos de fabricação de processos do Microsoft Dy
 
 ## <a name="turn-this-feature-on-or-off"></a>Ativar ou desativar este recurso
 
-A funcionalidade descrita neste tópico exige que os recursos *Gerenciamento de Alterações de Engenharia* e *Gerenciar modificações em fórmulas e seus ingredientes* estejam ativados no sistema. Para obter detalhes sobre como ativar ou desativar esses recursos, consulte [Visão geral do gerenciamento de alterações de engenharia](product-engineering-overview.md).
+A funcionalidade descrita neste artigo exige que os recursos *Gerenciamento de Alterações de Engenharia* e *Gerenciar modificações em fórmulas e seus ingredientes* estejam ativados no sistema. Para obter detalhes sobre como ativar ou desativar esses recursos, consulte [Visão geral do gerenciamento de alterações de engenharia](product-engineering-overview.md).
 
 ## <a name="feature-naming-conventions"></a>Convenções de nomenclatura de recursos
 
@@ -46,7 +46,7 @@ A lista a seguir resume como os recursos de gerenciamento de alterações de eng
 - **Controle de preparação**: use verificações do sistema e orientação do usuário (questionários e listas de verificação) para garantir que todos os dados necessários do produto sejam totalmente inseridos antes do lançamento do produto. Para obter mais informações, consulte [Preparo do produto](product-readiness.md).
 - **Funcionalidade de liberação de produto aprimorada**: libere versões totalmente definidas de um produto e sua fórmula de uma organização (entidade legal) para outras entidades legais. Você pode até decidir se as informações do produto devem ser revisadas ou editadas antes do lançamento. Para obter mais informações, consulte [Liberar estruturas de produtos](release-product-structure.md).
 
-Observe que a maioria dos tópicos vinculados na lista anterior fornecem exemplos baseados em listas de materiais (BOMs). No entanto, as fórmulas funcionam de maneira semelhante. Aqui estão alguns conceitos adicionais que são úteis saber quando você usa o gerenciamento de alterações (ou apenas o gerenciamento de alterações de fórmula) para gerenciar fórmulas e BOMs:
+Observe que a maioria dos artigos vinculados na lista anterior fornecem exemplos baseados em listas de materiais (BOMs). No entanto, as fórmulas funcionam de maneira semelhante. Aqui estão alguns conceitos adicionais que são úteis saber quando você usa o gerenciamento de alterações (ou apenas o gerenciamento de alterações de fórmula) para gerenciar fórmulas e BOMs:
 
 - Para cada [categoria de engenharia de produto](engineering-versions-product-category.md), você pode especificar o tipo de produção (BOM, fórmula ou item de planejamento). Você também pode especificar se o suporte de peso variável é necessário para produtos que usam essa categoria.
 - Coprodutos e subprodutos não são produtos de engenharia. Portanto, eles não têm versões. Se você precisar alterá-los, basta criar um produto. Essa abordagem torna a manutenção mais fácil.

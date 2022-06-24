@@ -1,6 +1,6 @@
 ---
 title: Habilitar pesquisa de ordem para finalização de compra do convidado
-description: Este tópico descreve como habilitar a pesquisa de ordem para finalização de compra do convidado no Microsoft Dynamics 365 Commerce.
+description: Este artigo descreve como habilitar a pesquisa de ordem para finalização de compra do convidado no Microsoft Dynamics 365 Commerce.
 author: stuharg
 ms.date: 12/03/2021
 ms.topic: article
@@ -14,18 +14,18 @@ ms.search.region: Global
 ms.author: stuharg
 ms.search.validFrom: 2021-08-15
 ms.dyn365.ops.version: Release 10.0.22
-ms.openlocfilehash: a2a10b122faae354b0ea002e43a9bd60157f6216
-ms.sourcegitcommit: 5f5a8b1790076904f5fda567925089472868cc5a
+ms.openlocfilehash: fe32bb59b6529dd9686ced92c1016f12a75a32d4
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 12/03/2021
-ms.locfileid: "7891489"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8891978"
 ---
 # <a name="enable-order-lookup-for-guest-checkouts"></a>Habilitar pesquisa de ordem para finalização de compra do convidado
 
 [!include [banner](includes/banner.md)]
 
-Este tópico descreve como habilitar a pesquisa de ordem para finalização de compra do convidado no Microsoft Dynamics 365 Commerce.
+Este artigo descreve como habilitar a pesquisa de ordem para finalização de compra do convidado no Microsoft Dynamics 365 Commerce.
 
 O recurso de pesquisa de ordem para finalização de compra do convidado permite que os clientes que façam compras como os usuários convidados pesquisam suas ordens. O recurso de pesquisa de ordem é útil quando os clientes desejam executar ações, como verificar o status de cumprimento de produtos em uma ordem, verificar o endereço para o qual uma ordem foi enviada, repetir a ordem de um produto ou confirmar a loja da qual uma ordem será retirada.
 
@@ -33,9 +33,9 @@ Os clientes que fazem ordens como usuários registrados podem ver os detalhes da
 
 Além disso, um link ou botão que leva o cliente diretamente para a página detalhes da ordem em sua ordem pode ser incluído em qualquer email transacional relacionado à ordem. Este link ou botão funciona para ordens que são feitas por usuários registrados e por usuários convidados.
 
-## <a name="turn-on-necessary-features-in-commerce-headquarters"></a>Ativar os recursos necessários na matriz do Commerce
+## <a name="turn-on-necessary-features-in-commerce-headquarters"></a>Ativar os recursos necessários no Commerce headquarters
 
-Para habilitar a pesquisa de ordem para finalização de compra do convidado, você deve habilitar os seguintes recursos em **Espaços de trabalho \> Gerenciamento de recursos** na matriz do Commerce.
+Para habilitar a pesquisa de ordem para finalização de compra do convidado, você deve habilitar os seguintes recursos em **Espaços de trabalho \> Gerenciamento de recursos** no Commerce headquarters.
 
 | Recurso | Finalidade |
 |---------|---------|
@@ -43,11 +43,11 @@ Para habilitar a pesquisa de ordem para finalização de compra do convidado, vo
 | Habilitar a geração de uma ID de referência de canal mais resistente | Este recurso gera uma ID de referência de canal de 12 caracteres mais segura (ID de confirmação de ordem) que pode ser passada na cadeia de caracteres de consulta quando uma ordem é pesquisada. |
 | Gerar um formato consistente de ID de referência de canal entre os canais | Este recurso gera uma ID de referência de canal seguro para ordens feitas por meio de um site de comércio eletrônico, ponto de venda de varejo (POS) ou call center. Antes de ativar este recurso, o recurso **Habilitar geração de uma ID de referência de canal mais resistente** deve estar ativado. |
 
-Depois de ativar o recurso **Detalhes da ordem de pesquisa de usuário anônimo de varejo**, você deve habilitar a API que oferece suporte à pesquisa de ordem não autenticada na matriz do Commerce. Acesse **Retail e Commerce \> Configuração da sede \> Parâmetros \> Ordens do cliente**. Na página **Ordens do cliente**, na Guia Rápida **Pesquisa de ordem**, defina a opção **Habilitar pesquisa da ordem não autenticada** como **Sim**, conforme mostrado na ilustração a seguir.
+Depois de ativar o recurso **Detalhes da ordem de pesquisa de usuário anônimo de varejo**, você deve habilitar a API que oferece suporte à pesquisa de ordem não autenticada no Commerce headquarters. Acesse **Retail e Commerce \> Configuração do headquarters \> Parâmetros \> Ordens do cliente**. Na página **Ordens do cliente**, na Guia Rápida **Pesquisa de ordem**, defina a opção **Habilitar pesquisa da ordem não autenticada** como **Sim**, conforme mostrado na ilustração a seguir.
 
 ## <a name="manage-the-display-of-personal-data"></a>Gerenciar a exibição de dados pessoais
 
-A Guia Rápida **Pesquisa de ordem** na página **Ordens do cliente** na matriz do Commerce inclui um campo **Incluir dados pessoais na pesquisa de ordem do convidado**, que permite controlar se as informações pessoais são mostradas aos clientes. Essas informações pessoais incluem o endereço de remessa do cliente e os quatro últimos dígitos do número do cartão de crédito do cliente. Por padrão, as informações pessoais não são mostradas aos clientes quando a pesquisa de ordem não autenticada está habilitada. A tabela a seguir descreve as opções disponíveis:
+A Guia Rápida **Pesquisa de ordem** na página **Ordens do cliente** no Commerce headquarters inclui um campo **Incluir dados pessoais na pesquisa de ordem do convidado**, que permite controlar se as informações pessoais são mostradas aos clientes. Essas informações pessoais incluem o endereço de remessa do cliente e os quatro últimos dígitos do número do cartão de crédito do cliente. Por padrão, as informações pessoais não são mostradas aos clientes quando a pesquisa de ordem não autenticada está habilitada. A tabela a seguir descreve as opções disponíveis:
 
 | Opção | Resultado |
 |--------|--------|
@@ -58,7 +58,7 @@ A Guia Rápida **Pesquisa de ordem** na página **Ordens do cliente** na matriz 
 > [!NOTE]
 > Estas opções determinam quando dados pessoais, como o endereço do cliente e os quatro últimos dígitos do número do cartão de crédito do cliente, são mostrados para usuários convidados anônimos. Para ajudar a proteger a privacidade de clientes registrados, é recomendável selecionar a opção **Somente ordens de convidado**. No entanto, a opção mais segura é **Nunca**.
 
-Depois de alterar o valor do campo **Incluir dados pessoais na pesquisa de ordem do convidado**, execute o trabalho 1070 (**Configuração do canal**) na sede do Commerce, acessando **Varejo e comércio \> TI de varejo e comércio \> Agenda de distribuição**.
+Depois de alterar o valor do campo **Incluir dados pessoais na pesquisa de ordem do convidado**, execute o trabalho 1070 (**Configuração do canal**) no Commerce headquarters, acessando **Varejo e comércio \> TI de varejo e comércio \> Agenda de distribuição**.
 
 ## <a name="configure-the-order-lookup-module"></a>Configurar o módulo de pesquisa de ordem
 

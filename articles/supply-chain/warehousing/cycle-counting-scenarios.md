@@ -1,6 +1,6 @@
 ---
 title: Cenários de exemplo de contagem cíclica
-description: Este tópico fornece uma coleção de cenários que exploram os recursos de contagem cíclica do Microsoft Dynamics 365 Supply Chain Management.
+description: Este artigo fornece uma coleção de cenários que exploram os recursos de contagem cíclica do Microsoft Dynamics 365 Supply Chain Management.
 author: GalynaFedorova
 ms.date: 06/08/2021
 ms.topic: article
@@ -11,24 +11,24 @@ ms.search.region: Global
 ms.author: gfedorova
 ms.search.validFrom: 2021-06-08
 ms.dyn365.ops.version: 10.0.20
-ms.openlocfilehash: 60be945035570634c572baaa37ae0d02e41dd0be
-ms.sourcegitcommit: 9166e531ae5773f5bc3bd02501b67331cf216da4
+ms.openlocfilehash: 90a3f132a96081b56ab60f5b0ba5cc328b820879
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/03/2022
-ms.locfileid: "8674691"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8899314"
 ---
 # <a name="cycle-counting-example-scenarios"></a>Cenários de exemplo de contagem cíclica
 
 [!include [banner](../includes/banner.md)]
 
-Este tópico fornece uma coleção de cenários que exploram os recursos de contagem cíclica do Microsoft Dynamics 365 Supply Chain Management. Primeiro, ele descreve os requisitos para o ambiente existente do Supply Chain Management. Em seguida, explica como configurar a contagem cíclica e descreve todas as etapas da contagem cíclica. Quando terminar, você terá uma boa compreensão da contagem cíclica, incluindo contagem cíclica guiada, contagem cíclica cega, contagem cíclica pontual, restrições de contagem cíclica e planos de contagem cíclica.
+Este artigo fornece uma coleção de cenários que exploram os recursos de contagem cíclica do Microsoft Dynamics 365 Supply Chain Management. Primeiro, ele descreve os requisitos para o ambiente existente do Supply Chain Management. Em seguida, explica como configurar a contagem cíclica e descreve todas as etapas da contagem cíclica. Quando terminar, você terá uma boa compreensão da contagem cíclica, incluindo contagem cíclica guiada, contagem cíclica cega, contagem cíclica pontual, restrições de contagem cíclica e planos de contagem cíclica.
 
 ## <a name="prerequisites"></a>Pré-requisitos
 
 ### <a name="make-demo-data-available"></a>Disponibilizar dados de demonstração
 
-Cada cenário neste tópico faz referência a valores e registros incluídos nos dados de demonstração padrão que são fornecidos para o Supply Chain Management. Se você deseja usar os valores fornecidos aqui conforme soluciona os cenários, procure trabalhar em um ambiente no qual os dados de demonstração estejam instalados e defina a entidade legal (empresa) como **USMF** antes de começar.
+Cada cenário neste artigo faz referência a valores e registros incluídos nos dados de demonstração padrão que são fornecidos para o Supply Chain Management. Se você deseja usar os valores fornecidos aqui conforme soluciona os cenários, procure trabalhar em um ambiente no qual os dados de demonstração estejam instalados e defina a entidade legal (empresa) como **USMF** antes de começar.
 
 ### <a name="turn-on-support-for-the-warehouse-management-mobile-app"></a>Ative o suporte do aplicativo móvel Warehouse Management
 
@@ -158,7 +158,7 @@ Siga estas etapas para criar trabalhos de contagem cíclica para a localização
 
 Depois de criar o trabalho de contagem cíclica, faça o trabalho contando itens em um local de depósito e, em seguida, usando um dispositivo móvel para inserir os resultados no Supply Chain Management. Siga estas etapas para fazer o trabalho de contagem cíclica no aplicativo móvel Warehouse Management.
 
-1. Entre no aplicativo móvel Warehouse Management como o usuário de trabalho que você configurou na seção [Preparar dados de demonstração para os cenários](#prepare-demo-data) no início deste tópico. Para o exemplo deste tópico, o usuário se chama *Julia Funderburk* e está configurado para o depósito *61*. (Os dados de demonstração da USMF devem permitir que você entre como o usuário de trabalho inserindo *61* como a ID de usuário e *1* como a senha.)
+1. Entre no aplicativo móvel Warehouse Management como o usuário de trabalho que você configurou na seção [Preparar dados de demonstração para os cenários](#prepare-demo-data) no início deste artigo. Para o exemplo deste artigo, o usuário se chama *Julia Funderburk* e está configurado para o depósito *61*. (Os dados de demonstração da USMF devem permitir que você entre como o usuário de trabalho inserindo *61* como a ID de usuário e *1* como a senha.)
 1. No menu principal, selecione **Estoque**.
 1. No menu **Estoque**, selecione **Contagem Cíclica Guiada**.
 1. Selecione o campo **Qtd**, insira *9* usando o teclado numérico e, em seguida, selecione **OK** (o botão de marca de seleção).
@@ -227,7 +227,7 @@ Antes que a contagem cíclica cega possa ocorrer, será necessário criar algum 
 
 Depois de criar o trabalho de contagem cíclica, siga estas etapas para fazer o trabalho no aplicativo móvel Warehouse Management.
 
-1. Entre no aplicativo móvel Warehouse Management como o usuário de trabalho que você configurou na seção [Preparar dados de demonstração para os cenários](#prepare-demo-data) no início deste tópico. Para o exemplo deste tópico, o usuário se chama *Julia Funderburk* e está configurado para o depósito *61*. (Os dados de demonstração da USMF devem permitir que você entre como o usuário de trabalho inserindo *61* como a ID de usuário e *1* como a senha.)
+1. Entre no aplicativo móvel Warehouse Management como o usuário de trabalho que você configurou na seção [Preparar dados de demonstração para os cenários](#prepare-demo-data) no início deste artigo. Para o exemplo deste artigo, o usuário se chama *Julia Funderburk* e está configurado para o depósito *61*. (Os dados de demonstração da USMF devem permitir que você entre como o usuário de trabalho inserindo *61* como a ID de usuário e *1* como a senha.)
 1. No menu principal, selecione **Estoque**.
 1. No menu **Estoque**, selecione **Contagem Cíclica Cega**.
 1. Selecione o campo **ID da zona**, insira *BULK06* e selecione **OK** (o botão de marca de verificação).
@@ -259,7 +259,7 @@ O registro disponível indica que há uma quantidade disponível do item *L0101*
 
 Siga estas etapas para fazer o trabalho de contagem cíclica no aplicativo móvel Warehouse Management.
 
-1. Entre no aplicativo móvel Warehouse Management como o usuário de trabalho que você configurou na seção [Preparar dados de demonstração para os cenários](#prepare-demo-data) no início deste tópico. Para o exemplo deste tópico, o usuário se chama *Julia Funderburk* e está configurado para o depósito *61*. (Os dados de demonstração da USMF devem permitir que você entre como o usuário de trabalho inserindo *61* como a ID de usuário e *1* como a senha.)
+1. Entre no aplicativo móvel Warehouse Management como o usuário de trabalho que você configurou na seção [Preparar dados de demonstração para os cenários](#prepare-demo-data) no início deste artigo. Para o exemplo deste artigo, o usuário se chama *Julia Funderburk* e está configurado para o depósito *61*. (Os dados de demonstração da USMF devem permitir que você entre como o usuário de trabalho inserindo *61* como a ID de usuário e *1* como a senha.)
 1. No menu principal, selecione **Estoque**.
 1. No menu **Estoque**, selecione **Contagem pontual**.
 1. Selecione o campo **Local**, insira *01A02R2S1B* e selecione **OK** (o botão de marca de verificação).

@@ -1,6 +1,6 @@
 ---
 title: Proprietários de produto
-description: Este tópico fornece informações sobre proprietários de produto. O proprietário de um produto é um grupo de usuários responsáveis por produtos específicos. Somente os membros do grupo podem liberar esses produtos. O proprietário do produto também pode ser usado no fluxo de trabalho de aprovação.
+description: Este artigo fornece informações sobre proprietários de produto. O proprietário de um produto é um grupo de usuários responsáveis por produtos específicos. Somente os membros do grupo podem liberar esses produtos. O proprietário do produto também pode ser usado no fluxo de trabalho de aprovação.
 author: t-benebo
 ms.date: 09/28/2020
 ms.topic: article
@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: benebotg
 ms.search.validFrom: 2020-09-28
 ms.dyn365.ops.version: 10.0.15
-ms.openlocfilehash: a29ab169e9b24826fbe69fbc316040d4618750ee
-ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
+ms.openlocfilehash: 5e09fdbbe14aa5a5ffbc5f07ae90b5d307a9e155
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 09/29/2021
-ms.locfileid: "7567502"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8907512"
 ---
 # <a name="product-owners"></a>Proprietários de produto
 

@@ -1,6 +1,6 @@
 ---
 title: Liberar para o depósito
-description: Este tópico fornece detalhes sobre o processo de liberação para o depósito. Descreve entidades criadas quando você libera uma ordem para o depósito e as opções que podem ser usadas para iniciar o processo.
+description: Este artigo fornece detalhes sobre o processo de liberação para o depósito. Descreve entidades criadas quando você libera uma ordem para o depósito e as opções que podem ser usadas para iniciar o processo.
 author: Mirzaab
 ms.date: 8/13/2021
 ms.topic: article
@@ -11,22 +11,22 @@ ms.search.region: Global
 ms.author: mirzaab
 ms.search.validFrom: 2021-08-13
 ms.dyn365.ops.version: 10.0.20
-ms.openlocfilehash: 8624db42e9d0f3d08ed3b582224ed7937d52f85d
-ms.sourcegitcommit: 9166e531ae5773f5bc3bd02501b67331cf216da4
+ms.openlocfilehash: c3280b2e39d7af5ca99cad703cad6ecc7b307bff
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/03/2022
-ms.locfileid: "8678341"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8893168"
 ---
 # <a name="release-to-warehouse"></a>Liberar para o depósito
 
 [!include [banner](../../includes/banner.md)]
 
-Este tópico fornece detalhes sobre o processo de liberação para o depósito. Descreve entidades criadas quando você libera uma ordem para o depósito e as opções que podem ser usadas para iniciar o processo.
+Este artigo fornece detalhes sobre o processo de liberação para o depósito. Descreve entidades criadas quando você libera uma ordem para o depósito e as opções que podem ser usadas para iniciar o processo.
 
 ## <a name="release-to-warehouse-overview"></a>Visão geral da liberação para o depósito
 
-A liberação para o depósito é o processo de preparar o estoque para o processamento de expedição. Quando você libera uma ordem para o depósito, o sistema cria linhas de carregamento e remessas. Se o processamento automático de ciclo for configurado, as cargas e os trabalhos necessários também serão criados. A configuração das entidades envolvidas depende das configurações do sistema. Esta seção do tópico revisa as entidades criadas durante o processo de liberação para o depósito e as configurações do sistema que as definem.
+A liberação para o depósito é o processo de preparar o estoque para o processamento de expedição. Quando você libera uma ordem para o depósito, o sistema cria linhas de carregamento e remessas. Se o processamento automático de ciclo for configurado, as cargas e os trabalhos necessários também serão criados. A configuração das entidades envolvidas depende das configurações do sistema. Esta seção do artigo revisa as entidades criadas durante o processo de liberação para o depósito e as configurações do sistema que as definem.
 
 Uma *remessa* é um grupo de ordens de venda ou linhas de ordem de transferência para o mesmo cliente ou o mesmo endereço de entrega.
 
@@ -67,7 +67,7 @@ Concluindo, quando uma ordem é liberada para o depósito, o fluxo mais automati
 
 Dependendo das configurações de modelos de ciclo, modelos de trabalho e diretivas de locais, algumas etapas desse fluxo podem se tornar manuais. No entanto, o fluxo geral permanece o mesmo.
 
-Há várias opções de como você libera uma ordem para o depósito. Você pode executar a operação manualmente ou configurar um trabalho em lotes. As seções restantes deste tópico revisam detalhadamente as várias maneiras de executar uma operação de liberação para o depósito.
+Há várias opções de como você libera uma ordem para o depósito. Você pode executar a operação manualmente ou configurar um trabalho em lotes. As seções restantes deste artigo revisam detalhadamente as várias maneiras de executar uma operação de liberação para o depósito.
 
 ## <a name="manual-release-to-the-warehouse-from-the-sales-orders-and-transfer-orders-pages"></a>Liberação manual para o depósito nas páginas Ordens de venda e Ordens de transferência
 

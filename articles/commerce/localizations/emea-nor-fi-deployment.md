@@ -1,6 +1,6 @@
 ---
 title: Diretrizes de implantação para caixas registradoras da Noruega
-description: Este tópico fornece diretrizes sobre como habilitar a funcionalidade de caixa registradora para a localização do Microsoft Dynamics 365 Commerce da Noruega.
+description: Este artigo fornece diretrizes sobre como habilitar a funcionalidade de caixa registradora para a localização do Microsoft Dynamics 365 Commerce da Noruega.
 author: EvgenyPopovMBS
 ms.date: 12/20/2021
 ms.topic: article
@@ -9,18 +9,18 @@ ms.reviewer: v-chgriffin
 ms.search.region: Global
 ms.author: epopov
 ms.search.validFrom: 2019-3-1
-ms.openlocfilehash: f0744b18ed59c692ae336c92e488d339ae158368
-ms.sourcegitcommit: 5cefe7d2a71c6f220190afc3293e33e2b9119685
+ms.openlocfilehash: 1f2226432237662e28b9e26017020ab81bb6026b
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/01/2022
-ms.locfileid: "8077131"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8899058"
 ---
 # <a name="deployment-guidelines-for-cash-registers-for-norway"></a>Diretrizes de implantação para caixas registradoras da Noruega
 
 [!include[banner](../includes/banner.md)]
 
-Este tópico fornece diretrizes sobre como habilitar a funcionalidade de caixa registradora para a localização do Microsoft Dynamics 365 Commerce da Noruega. A localização consiste em várias extensões de componentes. Essas extensões permitem executar ações como imprimir campos personalizados em recibos, registrar eventos de auditoria adicionais, transações de vendas e transações de pagamento no ponto de venda (PDV), assinar digitalmente transações de vendas e imprimir relatórios em formatos locais. Para obter mais informações sobre a localização para a Noruega, consulte [Funcionalidade de caixa registradora para a Noruega](./emea-nor-cash-registers.md). Para obter mais informações sobre como configurar o Commerce para a Noruega, consulte [Configurar o Commerce para a Noruega](./emea-nor-cash-registers.md#setting-up-commerce-for-norway).
+Este artigo fornece diretrizes sobre como habilitar a funcionalidade de caixa registradora para a localização do Microsoft Dynamics 365 Commerce da Noruega. A localização consiste em várias extensões de componentes. Essas extensões permitem executar ações como imprimir campos personalizados em recibos, registrar eventos de auditoria adicionais, transações de vendas e transações de pagamento no ponto de venda (PDV), assinar digitalmente transações de vendas e imprimir relatórios em formatos locais. Para obter mais informações sobre a localização para a Noruega, consulte [Funcionalidade de caixa registradora para a Noruega](./emea-nor-cash-registers.md). Para obter mais informações sobre como configurar o Commerce para a Noruega, consulte [Configurar o Commerce para a Noruega](./emea-nor-cash-registers.md#setting-up-commerce-for-norway).
 
 > [!WARNING]
 > Devido às limitações do [novo empacotamento independente e modelo de extensão](../dev-itpro/build-pipeline.md), ele não pode ser usado no momento para essa funcionalidade de localização. Você deve usar a versão do exemplo de assinatura digital da Noruega na versão anterior do software development kit (SDK) do Retail em uma máquina virtual (VM) de desenvolvedor no Microsoft Dynamics Lifecycle Services (LCS). Para obter mais informações, consulte [Diretrizes de implantação para caixas registradoras da Noruega (herdado)](./emea-nor-loc-deployment-guidelines.md).
@@ -40,7 +40,7 @@ Conclua as etapas de configuração do registro fiscal descritas em [Configurar 
 
 ### <a name="configure-the-fiscal-registration-process"></a>Configurar o processo de registro fiscal
 
-Siga estas etapas para habilitar o processo de registro fiscal da Noruega na sede do Commerce.
+Siga estas etapas para habilitar o processo de registro fiscal da Noruega no Commerce headquarters.
 
 1. Baixe arquivos de configuração para o provedor de documentos fiscais e o conector fiscal do SDK do Commerce:
 
@@ -50,7 +50,7 @@ Siga estas etapas para habilitar o processo de registro fiscal da Noruega na sed
     1. Baixe o arquivo de configuração do provedor de documentos fiscais em **DocumentProvider.SequentialSignNorway \> Configuração \> DocumentProviderSequentialSignatureNorwaySample.xml** (por exemplo, [o arquivo para a versão/9.34](https://github.com/microsoft/Dynamics365Commerce.Solutions/blob/release/9.34/src/FiscalIntegration/SequentialSignatureNorway/CommerceRuntime/DocumentProvider.SequentialSignNorway/Configuration/DocumentProviderSequentialSignatureNorwaySample.xml)).
     1. Baixe o arquivo de configuração do conector fiscal em **Connector.SequentialSignNorway \> Configuração \> ConnectorSequentialSignatureNorwaySample.xml** (por exemplo, [o arquivo para a versão/9.34](https://github.com/microsoft/Dynamics365Commerce.Solutions/blob/release/9.34/src/FiscalIntegration/SequentialSignatureNorway/CommerceRuntime/Connector.SequentialSignNorway/Configuration/ConnectorSequentialSignatureNorwaySample.xml)).
 
-1. Acesse **Varejo e Comércio \> Configuração da sede \> Parâmetros \> Parâmetros compartilhados**. Na guia **Geral**, defina a opção **Habilitar integração fiscal** como **Sim**.
+1. Acesse **Varejo e Comércio \> Configuração do headquarters \> Parâmetros \> Parâmetros compartilhados**. Na guia **Geral**, defina a opção **Habilitar integração fiscal** como **Sim**.
 1. Acesse **Retail e Commerce \> Configuração de canal \> Integração fiscal \> Conectores fiscais** e carregue o arquivo de configuração do conector fiscal baixado anteriormente.
 1. Acesse **Retail e Commerce \> Configuração de canal \> Integração fiscal \> Provedores de documentos fiscais** e carregue o arquivo do provedor de documentos fiscais baixado anteriormente.
 1. Acesse **Varejo e Comércio \> Configuração de canal \> Integração fiscal \> Perfis funcionais do conector**. Crie um novo perfil funcional do conector e selecione o provedor de documentos e o conector carregados anteriormente.

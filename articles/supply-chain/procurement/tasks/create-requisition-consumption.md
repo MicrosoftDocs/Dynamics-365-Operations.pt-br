@@ -1,6 +1,6 @@
 ---
 title: Criar uma requisição para consumo
-description: Este tópico descreve o processo de criação de uma requisição.
+description: Este artigo descreve o processo de criação de uma requisição.
 author: GalynaFedorova
 ms.date: 07/09/2019
 ms.topic: business-process
@@ -12,18 +12,18 @@ ms.search.region: Global
 ms.author: gfedorova
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 5881e8a415ad37ff4bdb61b1043901c0b87ef743
-ms.sourcegitcommit: 9166e531ae5773f5bc3bd02501b67331cf216da4
+ms.openlocfilehash: b4fc4a9f0dbd5c413300d27640512df69df30122
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/03/2022
-ms.locfileid: "8671113"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8888460"
 ---
 # <a name="create-a-requisition-for-consumption"></a>Criar uma requisição para consumo
 
 [!include [banner](../../includes/banner.md)]
 
-Este tópico descreve o processo de criação de uma requisição. Mostra as diferentes formas de pesquisar por produtos no catálogo de aquisições e como adicionar um produto que não está no catálogo. Antes de iniciar esse procedimento, você deve ter uma política de compras configurada com Consumo como o tipo padrão de requisição. Você pode ver todo esse procedimento na empresa USMF de dados demo, ou usando seus próprios dados. O procedimento só pode ser realizado por um perfil de usuário configurado como funcionário. Essa tarefa é normalmente realizada por um funcionário. O **Funcionário** usa função de segurança irá permitir que você realize as tarefas. Ou, se você estiver usando USMF, poderá fazer logon como **Alicia**.
+Este artigo descreve o processo de criação de uma requisição. Mostra as diferentes formas de pesquisar por produtos no catálogo de aquisições e como adicionar um produto que não está no catálogo. Antes de iniciar esse procedimento, você deve ter uma política de compras configurada com Consumo como o tipo padrão de requisição. Você pode ver todo esse procedimento na empresa USMF de dados demo, ou usando seus próprios dados. O procedimento só pode ser realizado por um perfil de usuário configurado como funcionário. Essa tarefa é normalmente realizada por um funcionário. O **Funcionário** usa função de segurança irá permitir que você realize as tarefas. Ou, se você estiver usando USMF, poderá fazer logon como **Alicia**.
 
 
 ## <a name="create-a-new-requisition"></a>Criar uma nova requisição

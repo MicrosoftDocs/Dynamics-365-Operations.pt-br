@@ -1,6 +1,6 @@
 ---
 title: Atendimento de estoque de segurança para itens
-description: Este tópico discute o atendimento de estoque de segurança e como configurar a quantidade de estoque de segurança para itens.
+description: Este artigo discute o atendimento de estoque de segurança e como configurar a quantidade de estoque de segurança para itens.
 author: t-benebo
 ms.date: 8/23/2021
 ms.topic: article
@@ -11,12 +11,12 @@ ms.search.region: Global
 ms.author: benebotg
 ms.dyn365.ops.version: 7.2999999999999998
 ms.search.validFrom: 2017-12-31
-ms.openlocfilehash: c539b804198ddc5d5dac52c958a851ee55116711
-ms.sourcegitcommit: 9166e531ae5773f5bc3bd02501b67331cf216da4
+ms.openlocfilehash: 70461ad1de94c984cb41e6b1d46af9e310a928d6
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/03/2022
-ms.locfileid: "8672056"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8887389"
 ---
 # <a name="safety-stock-fulfillment-for-items"></a>Atendimento de estoque de segurança para itens
 
@@ -88,7 +88,7 @@ Se **Chaves mínimas** forem usadas, marque a caixa de seleção **Períodos mí
 O cenário a seguir mostra como este parâmetro funciona e quais as diferenças entre os valores.
 
 > [!NOTE]
-> Para todas as ilustrações deste tópico, o eixo x representa o estoque, o eixo y representa dias, as barras representam o nível de estoque, as setas representam as transações, como linhas de ordem de venda, linhas de ordem de compra ou ordens planejadas.
+> Para todas as ilustrações deste artigo, o eixo x representa o estoque, o eixo y representa dias, as barras representam o nível de estoque, as setas representam as transações, como linhas de ordem de venda, linhas de ordem de compra ou ordens planejadas.
 
 [![Cenário comum atendimento de estoque de segurança para itens.](media/Scenario1.png)](media/Scenario1.png)
 

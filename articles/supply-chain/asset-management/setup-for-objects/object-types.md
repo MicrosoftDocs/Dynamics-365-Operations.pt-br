@@ -1,6 +1,6 @@
 ---
 title: Tipos de ativo
-description: Este tópico explica como criar tipos de ativo no Asset Management. Também mostra os elementos relacionados aos tipos de ativo.
+description: Este artigo explica como criar tipos de ativo no Gerenciamento de Ativos. Também mostra os elementos relacionados aos tipos de ativo.
 author: johanhoffmann
 ms.date: 10/15/2019
 ms.topic: article
@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: johanho
 ms.search.validFrom: 2019-09-30
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: fc1a8d98e9a8853e2e72bfcc7415ddb9a0a3b7758504621d6fccff00a08a36be
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: d3a51fdb55e9158e88e89549e3d0049e699c233e
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6730361"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8887621"
 ---
 # <a name="asset-types"></a>Tipos de ativo
 
@@ -28,7 +28,7 @@ ms.locfileid: "6730361"
 
 
 
-Este tópico explica como criar tipos de ativo. Também mostra os elementos relacionados aos tipos de ativo. Os tipos de ativo são usados como categorias gerais para ativos. Os exemplos incluem máquinas CNC, equipamento de medição e motores de caminhão. Os tipos de ativo são usados para gerenciar os tipos de trabalho de manutenção (tarefas de manutenção), os estados de ciclo de vida do ativo, os contadores, os atributos do ativo, os modelos de avaliação de condição e os modelos de ativos que podem ser selecionados para um ativo. Quando cria um ativo, você deve especificar o tipo de ativo.
+Este artigo explica como criar tipos de ativo. Também mostra os elementos relacionados aos tipos de ativo. Os tipos de ativo são usados como categorias gerais para ativos. Os exemplos incluem máquinas CNC, equipamento de medição e motores de caminhão. Os tipos de ativo são usados para gerenciar os tipos de trabalho de manutenção (tarefas de manutenção), os estados de ciclo de vida do ativo, os contadores, os atributos do ativo, os modelos de avaliação de condição e os modelos de ativos que podem ser selecionados para um ativo. Quando cria um ativo, você deve especificar o tipo de ativo.
 
 Para cada tipo de ativo, variações do tipo de ativo podem ser criadas. Por exemplo, se tiver um tipo de ativo chamado **Caminhões**, você poderá criar variações desse tipo de ativo para fabricantes de ativos e modelos de ativo diferentes. Para cada configuração de tipo de ativo, você pode adicionar as peças sobressalentes e os planos de manutenção necessários.
 

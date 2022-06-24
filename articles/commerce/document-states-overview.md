@@ -1,6 +1,6 @@
 ---
 title: Estados de documento e de ciclo de vida
-description: Este tópico abrange vários estados do documento de elementos de página no Microsoft Dynamics 365 Commerce.
+description: Este artigo abrange vários estados do documento de elementos de página no Microsoft Dynamics 365 Commerce.
 author: phinneyridge
 ms.date: 10/09/2020
 ms.topic: article
@@ -15,22 +15,22 @@ ms.search.industry: ''
 ms.author: niholman
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: ad8547fe6b36caf75ce78cb09fb2caf901c63afe43fa4755bb9e5c69427829d4
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 04836ecf80fc86ab6abb96e4255779c8c03988d1
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6727572"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8909449"
 ---
 # <a name="document-states-and-lifecycle"></a>Estados de documento e de ciclo de vida
 
 [!include [banner](includes/banner.md)]
 
-Este tópico abrange vários estados do documento de elementos de página no Microsoft Dynamics 365 Commerce.
+Este artigo abrange vários estados do documento de elementos de página no Microsoft Dynamics 365 Commerce.
 
 ## <a name="document-state-descriptions"></a>Descrições de estado do documento
 
-O tópico [Elementos da página](page-elements-overview.md) lista vários tipos de documentos no sistema de gerenciamento do conteúdo (CMS). Esses tipos de documentos podem ter vários estados na ferramenta de criação. Os estados de documento ajudam a evitar conflitos de dados e a aplicar o controle de versão. Eles determinam quem pode alterar os documentos, quando documentos podem ser alterados e, quando as alterações podem ser exibidas por outros contatos.
+O artigo [Elementos da página](page-elements-overview.md) lista vários tipos de documento no sistema de gerenciamento de conteúdo (CMS). Esses tipos de documentos podem ter vários estados na ferramenta de criação. Os estados de documento ajudam a evitar conflitos de dados e a aplicar o controle de versão. Eles determinam quem pode alterar os documentos, quando documentos podem ser alterados e, quando as alterações podem ser exibidas por outros contatos.
 
 A tabela a seguir mostra os estados possíveis de documento de elementos de página em Comércio.
 

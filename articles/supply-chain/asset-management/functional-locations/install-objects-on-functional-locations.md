@@ -1,6 +1,6 @@
 ---
 title: Instalar ativos em locais funcionais
-description: Este tópico explica como instalar ativos em locais funcionais em Gerenciamento de Ativos.
+description: Este artigo explica como instalar ativos em locais funcionais em Gerenciamento de Ativos.
 author: johanhoffmann
 ms.date: 06/25/2019
 ms.topic: article
@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: johanho
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: bc278564b02335b44a0b35d6a3a981125e6f456b08893be2b5886f0a55396d52
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 8a35f2494c616c2e456f92409d012cc434a32bd8
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6775738"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8894491"
 ---
 # <a name="install-assets-on-functional-locations"></a>Instalar ativos em locais funcionais
 
@@ -28,7 +28,7 @@ ms.locfileid: "6775738"
 
  
 
-Após criar estruturas de locais funcionais, a próxima etapa será instalar ativos nos locais funcionais relevantes. Este tópico explica como instalar ativos nesses locais funcionais em Gerenciamento de Ativos. Para obter informações sobre como criar ativos, consulte [Introdução aos ativos](../objects/introduction-to-objects.md).
+Após criar estruturas de locais funcionais, a próxima etapa será instalar ativos nos locais funcionais relevantes. Este artigo explica como instalar ativos nesses locais funcionais em Gerenciamento de Ativos. Para obter informações sobre como criar ativos, consulte [Introdução aos ativos](../objects/introduction-to-objects.md).
 
 Se você criou uma estrutura de ativos, a estrutura de ativos inteira deverá ser instalada em um local funcional. Portanto, apenas os ativos pai (ativos em nível superior sem ativos pai) podem ser selecionadas em um local funcional. Todos os ativos filho relacionados (subativos) também serão instalados no local funcional. Quando você instala ativos em um local funcional, as dimensões financeiras do local funcional devem ser transferidas automaticamente para eles, dependendo da configuração no tipo de local funcional selecionado para o local funcional. Para obter mais informações sobre como configurar tipos de locais funcionais, consulte [Tipos de locais funcionais](../setup-for-functional-locations/functional-location-types.md).
 

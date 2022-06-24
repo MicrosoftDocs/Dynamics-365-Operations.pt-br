@@ -1,6 +1,6 @@
 ---
 title: Visão geral do gerenciamento de tarefas
-description: Este tópico fornece uma visão geral do gerenciamento de tarefas para gerentes e trabalhadores no Microsoft Dynamics 365 Commerce.
+description: Este artigo fornece uma visão geral do gerenciamento de tarefas para gerentes e trabalhadores no Microsoft Dynamics 365 Commerce.
 author: gvrmohanreddy
 ms.date: 02/10/2020
 ms.topic: overview
@@ -14,24 +14,24 @@ ms.search.industry: ''
 ms.author: gmohanv
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Release 10.0.9
-ms.openlocfilehash: 7cdcc0ba6a9f5a3d9dd4ea781adc9e81c45e3d02
-ms.sourcegitcommit: 3754d916799595eb611ceabe45a52c6280a98992
+ms.openlocfilehash: 1a814b76985b9bb7ee47ee287967acbf41ddd0e6
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 01/15/2022
-ms.locfileid: "7985384"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8900325"
 ---
 # <a name="task-management-overview"></a>Visão geral do gerenciamento de tarefas
 
 [!include [banner](includes/banner.md)]
 
-Este tópico fornece uma visão geral do gerenciamento de tarefas para gerentes e trabalhadores no Microsoft Dynamics 365 Commerce.
+Este artigo fornece uma visão geral do gerenciamento de tarefas para gerentes e trabalhadores no Microsoft Dynamics 365 Commerce.
 
 Em um ambiente de varejo, é sempre difícil verificar se as tarefas são realizadas pela pessoa certa no momento certo. Os varejistas devem ser capazes de notificar os trabalhadores sobre tarefas futuras e fornecer contexto comercial relacionado, de forma que as tarefas possam ser concluídas corretamente e a tempo.
 
 O gerenciamento de tarefas é um recurso de produtividade no Dynamics 365 Commerce, que permite que os gerentes e trabalhadores criem listas de tarefas, gerenciem critérios de atribuição, rastreiem o status da tarefa e integrem essas operações entre o back-office do Commerce e as aplicações de ponto de venda (PDV).
 
-As pessoas da sede podem usar o gerenciamento de tarefas para criar listas de tarefas para lojas de varejo e rastrear o status por loja ou trabalhador. Eles também podem criar tarefas recorrentes (por exemplo, "lista de verificação de fechamento noturno de quinta-feira").
+As pessoas do headquarters podem usar o gerenciamento de tarefas para criar listas de tarefas para lojas de varejo e rastrear o status por loja ou trabalhador. Eles também podem criar tarefas recorrentes (por exemplo, "lista de verificação de fechamento noturno de quinta-feira").
 
 Os gerentes de armazenamento podem usar o gerenciamento de tarefas para atribuir tarefas a trabalhadores individuais, enviar notificações sobre tarefas ou tarefas futuras que estão vencidas, atualizar status da tarefa e criar tarefas de finalidade única no aplicativo de PDV. Os trabalhadores poderão ver notificações, exibir detalhes da tarefa e atualizar o status da tarefa no PDV.
 

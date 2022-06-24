@@ -1,6 +1,6 @@
 ---
-title: Visão geral de sites de comércio eletrônico
-description: Este tópico fornece uma visão geral do suporte para sites de comércio eletrônico no Microsoft Dynamics 365 Commerce.
+title: Visão geral do site de comércio eletrônico
+description: Este artigo fornece uma visão geral do suporte para sites de comércio eletrônico no Microsoft Dynamics 365 Commerce.
 author: bicyclingfool
 ms.date: 11/05/2020
 ms.topic: overview
@@ -15,18 +15,18 @@ ms.search.industry: Retail
 ms.author: stuharg
 ms.search.validFrom: 2019-09-30
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: 90f0f01115b00f231af8d4ae11be1d18d379399b
-ms.sourcegitcommit: 6f6ec4f4ff595bf81f0b8b83f66442d5456efa87
+ms.openlocfilehash: 9b7e4d09eaa4f91478d27cbca5eaea48af86e676
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/25/2022
-ms.locfileid: "8487759"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8899112"
 ---
 # <a name="e-commerce-site-overview"></a>Visão geral do site de comércio eletrônico
 
 [!include [banner](includes/banner.md)]
 
-Este tópico fornece uma visão geral do suporte para sites de comércio eletrônico no Microsoft Dynamics 365 Commerce. Ele inclui informações sobre como as lojas online de comércio eletrônico são inicializadas e gerenciadas no Dynamics 365 Commerce. Ele também fornece links para obter mais informações sobre lojas online e sobre como configurar um site de comércio eletrônico. Embora este tópico aborde muitos dos conceitos básicos, ele não cobre tudo o que é necessário para configurar um site de comércio eletrônico de produção. Tópicos mais avançados podem ser encontrados na documentação do Dynamics 365 Commerce.
+Este artigo fornece uma visão geral do suporte para sites de comércio eletrônico no Microsoft Dynamics 365 Commerce. Ele inclui informações sobre como as lojas online de comércio eletrônico são inicializadas e gerenciadas no Dynamics 365 Commerce. Ele também fornece links para obter mais informações sobre lojas online e sobre como configurar um site de comércio eletrônico. Embora este artigo aborde muitos dos conceitos básicos, ele não cobre tudo o que é necessário para configurar um site de comércio eletrônico de produção. Artigos mais avançados podem ser encontrados na documentação do Dynamics 365 Commerce.
 
 ## <a name="online-store-channel"></a>Canal de loja online
 
@@ -64,7 +64,7 @@ Depois que um site de comércio eletrônico for criado, você poderá alterar o 
 
 ![Página Canais no criador de sites do Commerce.](media/e-commerce-site-04.png)
 
-Você pode adicionar novos canais selecionando **Adicionar um canal**. Para adicionar novos idiomas a um canal, selecione o canal e, em seguida, selecione **Adicionar uma localidade** na caixa de diálogo de canal exibida. Antes que as localidades possam aparecer na caixa de diálogo, elas devem ser pré-configuradas para o canal de loja online na sede do Commerce.
+Você pode adicionar novos canais selecionando **Adicionar um canal**. Para adicionar novos idiomas a um canal, selecione o canal e, em seguida, selecione **Adicionar uma localidade** na caixa de diálogo de canal exibida. Antes que as localidades possam aparecer na caixa de diálogo, elas devem ser pré-configuradas para o canal de loja online no Commerce headquarters.
 
 ![Caixa de diálogo Canal no criador de sites do Commerce.](media/e-commerce-site-05.png)
 
@@ -74,7 +74,7 @@ O Dynamics 365 Commerce usa o B2C (business-to-consumer) do Azure Active Directo
 
 ## <a name="overview-of-the-default-site-pages"></a>Visão geral das páginas padrão de sites
 
-Os sites **padrão** e **fabrikam** incluem modelos, fragmentos e páginas pré-configurados para ajudá-lo a começar. Para obter mais informações, consulte os seguintes tópicos:
+Os sites **padrão** e **fabrikam** incluem modelos, fragmentos e páginas pré-configurados para ajudá-lo a começar. Para obter mais informações, consulte os seguintes artigos:
 
 - [Visão geral da página inicial](quick-tour-home-page.md)
 - [Visão geral da página Detalhes do produto](quick-tour-pdp.md)
@@ -83,7 +83,7 @@ Os sites **padrão** e **fabrikam** incluem modelos, fragmentos e páginas pré-
 
 ## <a name="manage-site-settings"></a>Gerenciar configurações de sites
 
-Para obter informações sobre como gerenciar configurações de sites, consulte os seguintes tópicos:
+Para obter informações sobre como gerenciar configurações de sites, consulte os seguintes artigos:
 
 - [Gerenciar usuários e funções de comércio eletrônico](manage-ecommerce-users-roles.md)
 - [Considerações de otimização do mecanismo de pesquisa (SEO) para seu site](search-engine-optimization-considerations.md)
@@ -92,7 +92,7 @@ Para obter informações sobre como gerenciar configurações de sites, consulte
 
 ## <a name="manage-site-content"></a>Gerenciar conteúdo de sites
 
-Para obter informações sobre como gerenciar conteúdo de sites, consulte os seguintes tópicos:
+Para obter informações sobre como gerenciar conteúdo de sites, consulte os seguintes artigos:
 
 - [Glossário do modelo de página](page-elements-overview.md)
 - [Estados de documento e de ciclo de vida](document-states-overview.md)

@@ -1,30 +1,24 @@
 ---
 title: Visualizar e publicar um experimento
-description: Este tópico descreve como visualizar e publicar um experimento desde o Dynamics 365 Commerce.
+description: Este artigo descreve como visualizar e publicar um experimento desde o Dynamics 365 Commerce.
 author: sushma-rao
-ms.date: 10/21/2020
+ms.date: 06/08/2022
 ms.topic: article
-ms.prod: ''
-ms.technology: ''
 audience: Application User
 ms.reviewer: josaw
-ms.custom: ''
-ms.assetid: ''
-ms.search.region: global
-ms.search.industry: Retail
+ms.search.region: Global
 ms.author: sushmar
 ms.search.validFrom: 2020-09-30
-ms.dyn365.ops.version: AX 10.0.13
-ms.openlocfilehash: 41957befe109102aaa7d3a5783b54f96824dfe76a25ab787f94afc778c08fca5
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 5da7a4e3c17057278d02ebd45702d1de404f0dc6
+ms.sourcegitcommit: 427fe14824a9d937661ae21b9e9574be2bc9360b
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6740374"
+ms.lasthandoff: 06/09/2022
+ms.locfileid: "8946123"
 ---
 # <a name="preview-and-publish-an-experiment"></a>Visualizar e publicar um experimento
 
-Este tópico descreve como visualizar e publicar seu experimento no Dynamics 365 Commerce depois de [conectar seu experimento e editar suas variações](experimentation-connect-edit.md). O diagrama a seguir mostra todas as etapas envolvidas na configuração e execução de um experimento em um site de comércio eletrônico no Dynamics 365 Commerce. Etapas adicionais são abordadas em tópicos separados.
+Este artigo descreve como visualizar e publicar seu experimento no Dynamics 365 Commerce depois de [conectar seu experimento e editar suas variações](experimentation-connect-edit.md). O diagrama a seguir mostra todas as etapas envolvidas na configuração e execução de um experimento em um site de comércio eletrônico no Dynamics 365 Commerce. Etapas adicionais são abordadas em artigos separados.
 
 [ ![Jornada do usuário na experimentação - Visualizar e publicar.](./media/experimentation_preview_publish.svg) ](./media/experimentation_preview_publish.svg#lightbox)
 
@@ -51,6 +45,10 @@ Ao usar grupos de publicação com experimentos, há algumas considerações imp
 - Os experimentos conectados a páginas em um site ativo não estão disponíveis para páginas em grupos de publicação e vice-versa. Da mesma forma, as páginas com experimentos em execução em um site ativo não estão disponíveis para outros experimentos em grupos de publicação e vice-versa.
 - Quando você publica ou planeja um grupo de publicação, todo o conteúdo do grupo de publicação é publicado, independentemente de haver um experimento associado ao grupo de publicação.
 - Como um grupo de publicação continua a persistir após ser publicado em um site ativo, os experimentos no grupo de publicação também persistirão. Portanto, você não poderá associar outros experimentos à mesma página ou fragmento. Para evitar essa limitação, exclua todos os grupos de publicações com experimentos persistentes. Da mesma forma, se você deseja excluir um experimento em um site ativo que também existe em um grupo de publicação, exclua-a do grupo de publicação primeiro.
+
+### <a name="force-variations-for-testing"></a>Forçar variações para testes
+
+Quando o experimento é dinâmico, você pode acrescentar a ID do experimento e a ID da variação à URL de página padrão de modo a forçar uma variação para fins de teste ou automação. Por exemplo, se a URL de página padrão for `https://fabrikam.com/modern/homepage`, você poderá forçar uma variação com uma URL como `https://fabrikam.com/modern/homepage?exp=18012910471|18024360464`. Você pode obter a ID do experimento e a ID da variação da sua variação de experimento na URL de visualização na experiência de **Visualização** acima.
 
 ## <a name="previous-step"></a>Etapa anterior
 [Conectar e editar um experimento](experimentation-connect-edit.md)

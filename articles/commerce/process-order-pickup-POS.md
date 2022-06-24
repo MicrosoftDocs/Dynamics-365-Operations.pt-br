@@ -1,6 +1,6 @@
 ---
 title: Processar retiradas de ordem do cliente no POS
-description: Este tópico explica a funcionalidade disponível no aplicativo de PDV (ponto de venda) para processar retiradas de ordem do cliente.
+description: Este artigo explica a funcionalidade disponível no aplicativo de PDV (ponto de venda) para processar retiradas de ordem do cliente.
 author: Hhainesms
 ms.date: 01/06/2021
 ms.topic: article
@@ -12,12 +12,12 @@ ms.search.region: global
 ms.author: hhaines
 ms.search.validFrom: 2020-01-20
 ms.dyn365.ops.version: 10.0.8
-ms.openlocfilehash: 598b155e1aa71cc7a23d1003331900604fb3de515381fd9c9987ed39bd9cbd2a
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 0a886f156fff96f3b7e6026c405d3c8700d57f62
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6741053"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8910460"
 ---
 # <a name="process-customer-order-pickups-in-pos"></a>Processar retiradas de ordem do cliente no POS
 
@@ -34,7 +34,7 @@ Se a ordem ou linhas da ordem selecionadas não estiverem configuradas para reti
 
 ![Operação de retirada.](media/pickupoperation.png)
 
-Na versão 10.0.17 e posterior do Microsoft Dynamics 365 Commerce, o recurso **Experiência de usuário aprimorada para o processamento de ordens de retirada no Ponto de venda** pode ser ativada com o gerenciamento de recursos na matriz do Commerce. Se esse recurso estiver desativado, os usuários não poderão selecionar as quantidades de retirada. Por padrão, a quantidade total pedida da linha é a quantidade que será retirada. Essa experiência pode causar problemas, já que os usuários podem esquecer de selecionar alguns itens para retirada ao executarem a retirada usando o atendimento da ordem.
+Na versão 10.0.17 e posterior do Microsoft Dynamics 365 Commerce, o recurso **Experiência de usuário aprimorada para o processamento de ordens de retirada no Ponto de venda** pode ser ativada com o gerenciamento de recursos no Commerce headquarters. Se esse recurso estiver desativado, os usuários não poderão selecionar as quantidades de retirada. Por padrão, a quantidade total pedida da linha é a quantidade que será retirada. Essa experiência pode causar problemas, já que os usuários podem esquecer de selecionar alguns itens para retirada ao executarem a retirada usando o atendimento da ordem.
 
 O recurso **Experiência de usuário aprimorada para o processamento de ordens de retirada no Ponto de venda** oferece aos usuários mais controle sobre a seleção de produtos que serão retirados e a quantidade de produtos que serão retirados. Os usuários não precisam selecionar cada linha da ordem de venda na página de atendimento da ordem para selecionar **Retirada**. Todos os itens que podem ser retirados serão mostrados. Os usuários podem especificar várias linhas para retirada, mesmo que apenas uma linha de produto tenha sido selecionada.
 

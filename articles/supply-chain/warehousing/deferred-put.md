@@ -1,6 +1,6 @@
 ---
 title: Processamento adiado de trabalho de depósito
-description: Este tópico descreve a funcionalidade que disponibiliza o processamento adiado de operações colocadas do trabalho de depósito no Dynamics 365 Supply Chain Management.
+description: Este artigo descreve a funcionalidade que disponibiliza o processamento adiado de operações colocadas do trabalho de depósito no Dynamics 365 Supply Chain Management.
 author: Mirzaab
 ms.date: 11/18/2019
 ms.topic: article
@@ -13,18 +13,18 @@ ms.search.region: Global
 ms.author: mirzaab
 ms.search.validFrom: 2019-6-31
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: f99e960ffe7ca383563cc49c2e0825592ef5de57
-ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
+ms.openlocfilehash: f4eeea0805c2cecedbd6b42926191ab02022df9f
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 09/29/2021
-ms.locfileid: "7577855"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8899285"
 ---
 # <a name="deferred-processing-of-warehouse-work"></a>Processamento adiado de trabalho de depósito
 
 [!include [banner](../includes/banner.md)]
 
-Este tópico descreve a funcionalidade que disponibiliza o processamento adiado de operações colocadas do trabalho de depósito no Dynamics 365 Supply Chain Management.
+Este artigo descreve a funcionalidade que disponibiliza o processamento adiado de operações colocadas do trabalho de depósito no Dynamics 365 Supply Chain Management.
 
 A funcionalidade de processamento adiado permite que trabalhadores de depósito continuem a fazer outros trabalhos enquanto a operação colocada é processada em segundo plano. O processamento adiado é útil quando várias linhas de trabalho devem ser processadas e o trabalhador pode deixar esse trabalho ser processado de forma assíncrona. Também é útil quando o servidor pode ter aumentos ad hoc ou não planejados no tempo de processamento e o tempo de processamento maior pode afetar a produtividade do usuário.
 

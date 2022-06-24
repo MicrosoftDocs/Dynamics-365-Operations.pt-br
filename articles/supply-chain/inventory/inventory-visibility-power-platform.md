@@ -1,8 +1,8 @@
 ---
 title: Aplicativo Visibilidade de Estoque
-description: Este tópico descreve como usar o aplicativo Visibilidade de Estoque.
+description: Este artigo descreve como usar o aplicativo Visibilidade de Estoque.
 author: yufeihuang
-ms.date: 08/02/2021
+ms.date: 05/27/2022
 ms.topic: article
 ms.search.form: ''
 audience: Application User
@@ -11,19 +11,19 @@ ms.search.region: Global
 ms.author: yufeihuang
 ms.search.validFrom: 2021-08-02
 ms.dyn365.ops.version: 10.0.21
-ms.openlocfilehash: 359f89f98ca6954a0bbafd63fffa1d505a43f0c8
-ms.sourcegitcommit: 4be1473b0a4ddfc0ba82c07591f391e89538f1c3
+ms.openlocfilehash: db158e3b6ae76f69149db04096f99d3dc4251146
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 01/31/2022
-ms.locfileid: "8060963"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8895747"
 ---
-# <a name="use-the-inventory-visibility-app"></a>Usar o aplicativo Visibilidade de Estoque
+# <a name="use-the-inventory-visibility-app"></a>Usar o aplicativo Inventory Visibility
 
 [!include [banner](../includes/banner.md)]
 
 
-Este tópico descreve como usar o aplicativo Visibilidade de Estoque.
+Este artigo descreve como usar o aplicativo Visibilidade de Estoque.
 
 A Visibilidade de Estoque fornece um aplicativo baseado em modelo para visualização. O aplicativo contém três páginas: **Configuração**, **Visibilidade operacional** e **Resumo de estoque**. Ele tem os seguintes recursos:
 
@@ -70,7 +70,10 @@ Para lançar uma solicitação de reserva, você deverá inserir um valor no cor
 
 ## <a name="inventory-summary"></a><a name="inventory-summary"></a>Resumo de estoque
 
-**Resumo de estoque** é uma exibição personalizada da entidade *Soma de Estoque Disponível*. Ela fornece um resumo de estoque para produtos juntamente com todas as dimensões. Os dados do resumo de estoque serão sincronizados periodicamente de Visibilidade de Estoque. Para que possa ver dados na guia **Resumo de estoque**, você deve ativar o recurso *OnHandMostSpecificBackgroundService* na guia **Gerenciamento de Recursos**.
+**Resumo de estoque** é uma exibição personalizada da entidade *Soma de Estoque Disponível*. Ela fornece um resumo de estoque para produtos juntamente com todas as dimensões. Os dados de resumo do estoque são sincronizados periodicamente na visibilidade de estoque a cada 15 minutos. Para ver os dados na guia **Resumo de estoque**, você deve ativar o recurso *OnHandMostSpecificBackgroundService* na guia **Gerenciamento de recursos** e selecionar **Atualizar configuração**.
+
+> [!NOTE]
+> O recurso *OnHandMostSpecificBackgroundService* rastreia apenas as alterações disponíveis no produto que ocorreram depois que você ativou o recurso. Os dados de produtos que não foram alterados desde que você ativou o recurso não serão sincronizados do cache do serviço de estoque para o ambiente do Dataverse. Se sua página **Resumo de estoque** não mostrar todas as informações disponíveis que você espera, vá para **Gerenciamento de Estoque > Tarefas periódicas > Integração da Visibilidade de Estoque**, desative o trabalho em lote e reative-o. Isso fará o push inicial e todos os dados serão sincronizados com a entidade *Soma Disponível de Estoque* nos próximos 15 minutos. Se você quiser usar esse recurso, recomendamos que você o ative antes de criar qualquer alteração disponível e ative o trabalho em lote **Integração da Visibilidade de Estoque**.
 
 Usando o **Filtro avançado** fornecido pelo Dataverse, será possível criar uma exibição pessoal que mostre as linhas importantes para você. As opções de filtro avançado permitem criar uma ampla variedade de exibições, das simples às complexas. Elas também permitem adicionar condições agrupadas e aninhadas aos filtros. Para saber mais sobre como usar o **Filtro avançado**, consulte [Editar ou criar exibições pessoais usando filtros de grade avançados](/powerapps/user/grid-filters-advanced).
 

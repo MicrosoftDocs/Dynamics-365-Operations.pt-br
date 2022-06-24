@@ -1,6 +1,6 @@
 ---
 title: Importar ASNs de entrada por meio da entidade de dados V3
-description: Este tópico explica como gerenciar a importação de avisos avançados de envio (ASNs) de entrada por meio da entidade de dados ASN de entrada.
+description: Este artigo explica como gerenciar a importação de avisos avançados de envio (ASNs) de entrada por meio da entidade de dados ASN de entrada.
 author: GalynaFedorova
 ms.date: 05/11/2022
 ms.topic: article
@@ -11,12 +11,12 @@ ms.search.region: Global
 ms.author: gfedorova
 ms.search.validFrom: 2021-06-04
 ms.dyn365.ops.version: 10.0.19
-ms.openlocfilehash: 44ec0230236451a413d483b3e9f3ddc58b49a0b0
-ms.sourcegitcommit: 90ffd763d18f97654b9dbc9e3f71c998e6094c6b
+ms.openlocfilehash: 0ac45e070d0473547c48da1380377de3d4bf60bd
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/11/2022
-ms.locfileid: "8740128"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8907106"
 ---
 # <a name="import-inbound-asns-through-the-v3-data-entity"></a>Importar ASNs de entrada por meio da entidade de dados V3
 
@@ -26,7 +26,7 @@ Os avisos avançados de envio (ASNs) notificam você sobre entregas de fornecedo
 
 OS ASNs podem ajudar os trabalhadores de depósito a aprender o que chegará quando. Dessa forma, eles podem se preparar. Além disso, os trabalhadores de depósito podem usar ASNs para combinar os detalhes de uma remessa à ordem de compra relacionada que foi criada anteriormente.
 
-Este tópico apresenta um conjunto de cenários que mostram, por meio de exemplos, como trabalhar com os arquivos de ASN.
+Este artigo apresenta um conjunto de cenários que mostram, por meio de exemplos, como trabalhar com os arquivos de ASN.
 
 > [!IMPORTANT]
 > O *ASN de entrada* aplica-se apenas a itens habilitados para gerenciamento de depósito avançado (WMS). Antes de receber um ASN, uma ordem de compra deve ser registrada no sistema com base no fornecedor que está enviando esse ASN.

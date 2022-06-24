@@ -1,6 +1,6 @@
 ---
-title: Recursos removidos ou obsoletos do Dynamics 365 Commerce
-description: Este tópico descreve os recursos que já foram removidos ou foram planejados para remoção de Dynamics 365 Commerce.
+title: Recursos removidos ou preteridos do Dynamics 365 Commerce
+description: Este artigo descreve os recursos que já foram removidos ou foram planejados para remoção do Dynamics 365 Commerce.
 author: josaw
 ms.date: 04/27/2022
 ms.topic: article
@@ -12,18 +12,18 @@ ms.search.region: Global
 ms.author: josaw
 ms.search.validFrom: 2020-04-30
 ms.dyn365.ops.version: Platform update 33
-ms.openlocfilehash: 213ed2091b1f2359f2481b162cba07812b3ffe90
-ms.sourcegitcommit: 9e1129d30fc4491b82942a3243e6d580f3af0a29
+ms.openlocfilehash: 2725ff2b8bfbaadbca1bc070e32cee7c5d2754be
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/27/2022
-ms.locfileid: "8649066"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8910515"
 ---
-# <a name="removed-or-deprecated-features-in-dynamics-365-commerce"></a>Recursos removidos ou obsoletos do Dynamics 365 Commerce
+# <a name="removed-or-deprecated-features-in-dynamics-365-commerce"></a>Recursos removidos ou preteridos do Dynamics 365 Commerce
 
 [!include [banner](../includes/banner.md)]
 
-Este tópico descreve os recursos que já foram removidos ou foram planejados para remoção de Dynamics 365 Commerce.
+Este artigo descreve os recursos que já foram removidos ou foram planejados para remoção do Dynamics 365 Commerce.
 
 - Um recurso *removido* não estará mais disponível no produto.
 - Um recurso *preterido* não está no desenvolvimento ativo e poderá ser removido em uma atualização futura.
@@ -114,7 +114,7 @@ O desenvolvimento de extensão de PDV usando ModernPos.sln, CloudPos.sln, POS.Ex
 
 |  &nbsp; | &nbsp; |
 |------------|--------------------|
-| **Motivo para a reprovação/remoção** | A partir dessa versão, no formulário **Parâmetros do agendador do Commerce** na matriz do Dynamics 365 Headquarters, o campo **Intervalo completo de geração do conjunto de dados em dias** será preterido. Também a partir dessa versão, o campo será removido visualmente para que o valor não possa ser editado. Isso permanecerá como o valor **0**. |
+| **Motivo para a reprovação/remoção** | A partir dessa versão, no formulário **Parâmetros do agendador do Commerce** no Dynamics 365 headquarters, o campo **Intervalo completo de geração do conjunto de dados em dias** será preterido. Também a partir dessa versão, o campo será removido visualmente para que o valor não possa ser editado. Isso permanecerá como o valor **0**. |
 | **Substituída por outro recurso?**   | Não |
 | **Áreas afetadas do produto**         | Dynamics 365 Commerce |
 | **Opção de implantação**              | Todas|

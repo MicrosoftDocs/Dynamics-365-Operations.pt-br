@@ -1,6 +1,6 @@
 ---
 title: Atributos de lote
-description: Este tópico fornece informações sobre atributos de lote. Os atributos de lote são características de matérias-primas e produtos acabados que compõem os lotes de estoque. O tópico também explica como atribuir atributos de lote e como você pode pesquisar neles ao reservar lotes.
+description: Este artigo oferece informações sobre atributos de lote. Os atributos de lote são características de matérias-primas e produtos acabados que compõem os lotes de estoque. O artigo também explica como atribuir atributos de lote e como você pode pesquisar neles ao reservar lotes.
 author: johanhoffmann
 ms.date: 11/03/2017
 ms.topic: article
@@ -16,18 +16,18 @@ ms.search.industry: Manufacturing
 ms.author: johanho
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: ceb971e7468245297f2359317533b123a3a4f83a
-ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
+ms.openlocfilehash: e5f5a03df63cf4fa90b5e9e67082a0d60eef9afc
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 09/29/2021
-ms.locfileid: "7565319"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8899372"
 ---
 # <a name="batch-attributes"></a>Atributos de lote
 
 [!include [banner](../includes/banner.md)]
 
-Este tópico fornece informações sobre atributos de lote. Os atributos de lote são características de matérias-primas e produtos acabados que compõem os lotes de estoque. O tópico também explica como atribuir atributos de lote e como você pode pesquisar neles ao reservar lotes.
+Este artigo oferece informações sobre atributos de lote. Os atributos de lote são características de matérias-primas e produtos acabados que compõem os lotes de estoque. O artigo também explica como atribuir atributos de lote e como você pode pesquisar neles ao reservar lotes.
 
 Os atributos de lote são características de matérias-primas e produtos acabados que compõem os lotes de estoque. Os atributos de lote podem variar, dependendo de fatores como as condições do ambiente, a qualidade de matérias-primas usadas para produzir o lote ou o resultado do produto acabado. O número e os tipos de atributos de lote que são usados podem variar muito de um setor para outro. Veja a seguir dois exemplos que mostram como usar atributos de lote:
 

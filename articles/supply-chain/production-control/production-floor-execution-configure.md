@@ -1,6 +1,6 @@
 ---
 title: Configurar a interface de execução de piso de produção
-description: Este tópico descreve como criar uma ou mais configurações para a interface de execução do piso de produção. Quando você abre a interface de execução de piso de produção, ela carrega automaticamente uma configuração selecionada e um filtro de trabalho específicos do navegador e do dispositivo. Na configuração, você define as políticas que devem ser aplicáveis para um uso específico.
+description: Este artigo descreve como criar uma ou mais configurações para a interface de execução do piso de produção. Quando você abre a interface de execução de piso de produção, ela carrega automaticamente uma configuração selecionada e um filtro de trabalho específicos do navegador e do dispositivo. Na configuração, você define as políticas que devem ser aplicáveis para um uso específico.
 author: johanhoffmann
 ms.date: 10/05/2020
 ms.topic: article
@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: johanho
 ms.search.validFrom: 2020-10-05
 ms.dyn365.ops.version: 10.0.15
-ms.openlocfilehash: 083f5a30323cdc813116af7462563c3b8dd5e4f5
-ms.sourcegitcommit: d715e44b92b84b1703f5915d15d403ccf17c6606
+ms.openlocfilehash: 9eefde163473e11b01bfa0adf9b3694c830f1488
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/27/2022
-ms.locfileid: "8644322"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8899401"
 ---
 # <a name="configure-the-production-floor-execution-interface"></a>Configurar a interface de execução de piso de produção
 
@@ -31,15 +31,15 @@ Quando você abre a interface de execução de piso de produção, ela carrega a
 - Em um dispositivo no hall da empresa, os funcionários registram a entrada quando entram no escritório e a saída quando vão embora.
 - Em um dispositivo no chão de fábrica, os operadores de máquina registram-se quando iniciam e concluem trabalhos. Eles também registram pausas e atividades indiretas.
 
-Este tópico descreve as várias opções de configuração de uma interface de execução de piso de produção para cada dispositivo em uso no seu site.
+Este artigo descreve as várias opções de configuração de uma interface de execução de piso de produção para cada dispositivo em uso no seu site.
 
 ## <a name="turn-on-the-production-floor-execution-interface-and-its-related-optional-features"></a>Ativar a interface de execução de piso de produção e seus recursos opcionais relacionados
 
-A interface de execução de piso de produção e várias configurações opcionais descritas neste tópico devem ser ativadas no sistema para que você possa usá-las. Use a página [Gerenciamento de recursos](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) para ativar um ou todos os recursos descritos nas subseções a seguir, conforme necessário.
+A interface de execução de piso de produção e várias configurações opcionais descritas neste artigo devem ser ativadas no sistema para que você possa usá-las. Use a página [Gerenciamento de recursos](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) para ativar um ou todos os recursos descritos nas subseções a seguir, conforme necessário.
 
 ### <a name="the-production-floor-execution-interface"></a>A interface de execução de piso de produção
 
-Este é o principal recurso descrito neste tópico e é um pré-requisito para todos os outros recursos mencionados nesta seção. A partir do Supply Chain Management 10.0.25, ele é obrigatório e não pode ser desativado. Se você estiver executando uma versão anterior à 10.0.25, os administradores poderão habilitar ou desabilitar essa funcionalidade pesquisando o recurso *Execução de piso de produção* no espaço de trabalho [Gerenciamento de recursos](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md).
+Este é o principal recurso descrito neste artigo e é um pré-requisito para todos os outros recursos mencionados nesta seção. A partir do Supply Chain Management 10.0.25, ele é obrigatório e não pode ser desativado. Se você estiver executando uma versão anterior à 10.0.25, os administradores poderão habilitar ou desabilitar essa funcionalidade pesquisando o recurso *Execução de piso de produção* no espaço de trabalho [Gerenciamento de recursos](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md).
 
 ### <a name="generate-license-plates"></a>Gerar placas de licença
 
@@ -146,7 +146,7 @@ Esse recurso adiciona configurações para a seguinte funcionalidade na página 
 - Permitir os ajustes de consumo de material a partir da caixa de diálogo **Progresso do relatório**. (Essa funcionalidade também requer o recurso *Registrar consumo de material na interface de execução do piso de produção (não WMS)*.)
 - Habilitar pesquisas por ID de projeto.
 
-As informações sobre como usar as configurações são fornecidas mais adiante neste tópico.
+As informações sobre como usar as configurações são fornecidas mais adiante neste artigo.
 
 Para usar essa funcionalidade, ative o seguinte recurso em [Gerenciamento de recursos](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md):
 

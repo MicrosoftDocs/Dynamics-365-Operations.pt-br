@@ -1,6 +1,6 @@
 ---
 title: Criar e processar não conformidades
-description: Este tópico descreve como executar o gerenciamento de não conformidades, com base em uma ordem de qualidade existente.
+description: Este artigo descreve como executar o gerenciamento de não conformidades, com base em uma ordem de qualidade existente.
 author: yufeihuang
 ms.date: 03/23/2021
 ms.topic: business-process
@@ -13,18 +13,18 @@ ms.search.industry: Distribution
 ms.author: yufeihuang
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 032f5b712c2be5312524129cd25e655e778f5f44
-ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
+ms.openlocfilehash: dd8a10e88ab4d1be24a11739dddd7619b3fa6bbc
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 09/29/2021
-ms.locfileid: "7580855"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8901956"
 ---
 # <a name="create-and-process-nonconformances"></a>Criar e processar não conformidades
 
 [!include [banner](../../includes/banner.md)]
 
-Este tópico descreve como executar o gerenciamento de não conformidades, com base em uma ordem de qualidade existente. Normalmente, o gerenciamento de não conformidade é feito por um auxiliar de qualidade. Como pré-requisito, você deve ter uma ordem de qualidade disponível. (Para obter mais informações sobre como criar uma ordem de qualidade, consulte [Verificar a qualidade de mercadorias](inspect-quality-goods.md)).
+Este artigo descreve como executar o gerenciamento de não conformidades, com base em uma ordem de qualidade existente. Normalmente, o gerenciamento de não conformidade é feito por um auxiliar de qualidade. Como pré-requisito, você deve ter uma ordem de qualidade disponível. (Para obter mais informações sobre como criar uma ordem de qualidade, consulte [Verificar a qualidade de mercadorias](inspect-quality-goods.md)).
 
 Antes que um usuário possa processar a aprovação de uma não conformidade, um trabalhador deve ser atribuído a ela no campo **Pessoa** na página **Usuários**. Além disso, antes que o usuário possa usar as notas do documento, a opção **Habilitar manuseio de documentos** deve ser definida como *Sim* nas opções do usuário.
 

@@ -1,6 +1,6 @@
 ---
 title: Confirmar e transferir
-description: Este tópico explica como usar o recurso Confirmar e transferir, que permite aos usuários enviar cargas do depósito antes de concluir todo o trabalho associado a elas.
+description: Este artigo explica como usar o recurso Confirmar e transferir, que permite aos usuários enviar cargas do depósito antes de concluir todo o trabalho associado a elas.
 author: Mirzaab
 ms.date: 07/01/2020
 ms.topic: article
@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: mirzaab
 ms.search.validFrom: 2020-07-01
 ms.dyn365.ops.version: 10.0.8
-ms.openlocfilehash: 0d34dd1b33467aa1ea3a723e1baaf7f06285c3fa
-ms.sourcegitcommit: 9166e531ae5773f5bc3bd02501b67331cf216da4
+ms.openlocfilehash: 9257d8f9e6ed62ac0b19b0cdc8fd858e8b2f97a3
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/03/2022
-ms.locfileid: "8675477"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8900554"
 ---
 # <a name="confirm-and-transfer"></a>Confirmar e transferir
 
@@ -55,11 +55,11 @@ Você só pode dividir cargas que atendam a todos os seguintes critérios:
 
 ## <a name="turn-the-confirm-and-transfer-feature-on-or-off"></a>Ativar ou desativar o recurso de confirmação e transferência
 
-Para usar a funcionalidade descrita neste tópico, o recurso *Confirmar e transferir* deve estar ativado no sistema. A partir do Supply Chain Management 10.0.25, este recurso é obrigatório e não pode ser desativado. Se você estiver executando uma versão anterior à 10.0.25, os administradores poderão ativar ou desativar essa funcionalidade procurando o recurso *Confirmar e transferir* no espaço de trabalho [Gerenciamento de recursos](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md).
+Para usar a funcionalidade descrita neste artigo, o recurso *Confirmar e transferir* deve estar ativado no sistema. A partir do Supply Chain Management 10.0.25, este recurso é obrigatório e não pode ser desativado. Se você estiver executando uma versão anterior à 10.0.25, os administradores poderão ativar ou desativar essa funcionalidade procurando o recurso *Confirmar e transferir* no espaço de trabalho [Gerenciamento de recursos](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md).
 
 ## <a name="set-up-confirm-and-transfer"></a>Configurar confirmar e transferir
 
-Para usar o recurso *Confirmar e transferir*, você deve ativá-lo em cada modelo de carga relevante. Além disso, dependendo de suas necessidades, convém preparar seus modelos de trabalho para oferecer suporte ao recurso. Se você quiser trabalhar no cenário de exemplo apresentado mais adiante neste tópico, configure o sistema conforme descrito nesta seção. (Esse cenário baseia-se em dados de demonstração da **USMF**.)
+Para usar o recurso *Confirmar e transferir*, você deve ativá-lo em cada modelo de carga relevante. Além disso, dependendo de suas necessidades, convém preparar seus modelos de trabalho para oferecer suporte ao recurso. Se você quiser trabalhar no cenário de exemplo apresentado mais adiante neste artigo, configure o sistema conforme descrito nesta seção. (Esse cenário baseia-se em dados de demonstração da **USMF**.)
 
 ### <a name="prepare-your-load-templates"></a>Preparar os modelos de carga
 
@@ -69,7 +69,7 @@ Para usar o recurso *Confirmar e transferir*, você deve ativá-lo em cada model
 
 ### <a name="prepare-your-work-templates"></a>Preparar os modelos de trabalho
 
-Esta configuração não é necessária em todas as situações. O exemplo mostrado aqui garante que o trabalho possa ser dividido por remessa para dar suporte ao cenário de exemplo apresentado mais adiante neste tópico. Também há outras maneiras de conseguir esse resultado.
+Esta configuração não é necessária em todas as situações. O exemplo mostrado aqui garante que o trabalho possa ser dividido por remessa para dar suporte ao cenário de exemplo apresentado mais adiante neste artigo. Também há outras maneiras de conseguir esse resultado.
 
 1. Acesse **Gerenciamento de depósito \> Configuração \> Trabalho \> Modelo de trabalho**.
 1. Na grade na parte superior da página, selecione um modelo de trabalho existente no qual você deseja configurar o recurso *Confirmar e transferir*. (Se você estiver trabalhando com os dados de demonstração da **USMF**, selecione o modelo de trabalho **51 Estágio de separação**). Outra opção é criar um novo modelo de trabalho.

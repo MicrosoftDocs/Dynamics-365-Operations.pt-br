@@ -1,6 +1,6 @@
 ---
 title: Habilitar a publicação manual de classificações e opiniões por um moderador
-description: Este tópico descreve como habilitar a publicação manual de classificações e opiniões por um moderador no Microsoft Dynamics 365 Commerce e como publicar manualmente classificações e opiniões.
+description: Este artigo descreve como habilitar a publicação manual de classificações e opiniões por um moderador no Microsoft Dynamics 365 Commerce e como publicar manualmente classificações e opiniões.
 author: gvrmohanreddy
 manager: annbe
 ms.date: 09/03/2021
@@ -13,18 +13,18 @@ ms.search.region: Global
 ms.author: gmohanv
 ms.search.validFrom: 2021-09-03
 ms.dyn365.ops.version: 10.0.22
-ms.openlocfilehash: 0709173b8c3dfb7018d0bd9a712554112722a1f3
-ms.sourcegitcommit: a58dfb892e43921157014f0784bd411f5c40e454
+ms.openlocfilehash: 7d90cbbdc1ac0368c6ccfbeef7ff8db9b65679a7
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/04/2022
-ms.locfileid: "8693273"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8892614"
 ---
 # <a name="enable-manual-publishing-of-ratings-and-reviews-by-a-moderator"></a>Habilitar a publicação manual de classificações e opiniões por um moderador
 
 [!include [banner](includes/banner.md)]
 
-Este tópico descreve como habilitar a publicação manual de classificações e opiniões por um moderador no Microsoft Dynamics 365 Commerce e como publicar manualmente classificações e opiniões.
+Este artigo descreve como habilitar a publicação manual de classificações e opiniões por um moderador no Microsoft Dynamics 365 Commerce e como publicar manualmente classificações e opiniões.
 
 A solução de classificações e opiniões do Dynamics 365 Commerce usa o Azure Cognitive Services para censurar linguagem ofensiva em títulos e conteúdos de opiniões e publicar classificações e opiniões automaticamente. Portanto, a intervenção manual não é necessária para revisar e publicar classificações e opiniões no site de comércio eletrônico.
 

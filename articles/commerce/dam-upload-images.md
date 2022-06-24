@@ -1,6 +1,6 @@
 ---
 title: Carregar imagens
-description: Este tópico descreve como carregar imagens no construtor de sites do Microsoft Dynamics 365 Commerce.
+description: Este artigo descreve como carregar imagens no construtor de sites do Microsoft Dynamics 365 Commerce.
 author: psimolin
 ms.date: 12/03/2021
 ms.topic: article
@@ -15,18 +15,18 @@ ms.search.industry: ''
 ms.author: psimolin
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: 3b99aeff7eafd788c19204e22dbfc61f45b25408
-ms.sourcegitcommit: 5f5a8b1790076904f5fda567925089472868cc5a
+ms.openlocfilehash: e0f5cdd0381932cffc64f1c7e83eecd4662d8c9f
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 12/03/2021
-ms.locfileid: "7891499"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8892825"
 ---
 # <a name="upload-images"></a>Carregar imagens
 
 [!include [banner](includes/banner.md)]
 
-Este tópico descreve como carregar imagens no construtor de sites do Microsoft Dynamics 365 Commerce.
+Este artigo descreve como carregar imagens no construtor de sites do Microsoft Dynamics 365 Commerce.
 
 A Biblioteca de Mídia do assistente para criação de sites do Commerce permite carregar imagens, individualmente ou em massa, usando pastas. Você sempre deve carregar a versão da imagem com a resolução e a qualidade mais altas, porque o componente redimensionador de imagem otimizará automaticamente a imagem em diferentes portas de exibição e seus pontos de interrupção.
 

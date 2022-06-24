@@ -1,6 +1,6 @@
 ---
 title: Visão geral de materiais perigosos
-description: Este tópico fornece uma visão geral dos recursos relacionados ao manuseio e à documentação de materiais perigosos durante o gerenciamento de informações do produto e o gerenciamento de depósito.
+description: Este artigo fornece uma visão geral dos recursos relacionados ao manuseio e à documentação de materiais perigosos durante o gerenciamento de informações do produto e o gerenciamento de depósito.
 author: t-benebo
 ms.date: 06/10/2020
 ms.topic: overview
@@ -12,12 +12,12 @@ ms.search.region: Global
 ms.author: benebotg
 ms.search.validFrom: 2020-06-10
 ms.dyn365.ops.version: 10.0.11
-ms.openlocfilehash: cfea2cd6a2699bdf2a14de72a8bdeb3e8cd32a17
-ms.sourcegitcommit: 3754d916799595eb611ceabe45a52c6280a98992
+ms.openlocfilehash: c2cae4cb65dd163e9fbf1d24cff5a0a040e3ce3a
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 01/15/2022
-ms.locfileid: "7986267"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8905795"
 ---
 # <a name="hazardous-materials-overview"></a>Visão geral de materiais perigosos
 
@@ -50,7 +50,7 @@ As seguintes regulamentações comuns foram usadas como referência quando essa 
 
 Cada conjunto de regulamentos fornece listas padronizadas de mercadorias perigosas e códigos de referência. Portanto, o Supply Chain Management fornece uma tabela de referência para os códigos comuns nessas listas. Cada lista tem também alguns códigos exclusivos que você pode definir.
 
-Para obter mais informações sobre como configurar regulamentos e valores para materiais perigosos e como atribuir os valores aos produtos relevantes, consulte os seguintes tópicos:
+Para obter mais informações sobre como configurar regulamentos e valores para materiais perigosos e como atribuir os valores aos produtos relevantes, consulte os seguintes artigos:
 
 - [Configurar materiais perigosos](hazmat-setup.md)
 - [Materiais perigosos em produtos, ordens, remessas e cargas](hazmat-items.md)

@@ -1,6 +1,6 @@
 ---
 title: Mestre de zona de gerenciamento de transporte
-description: Este tópico explica como o gerenciamento de transporte permite dividir localizações geográficas em zonas.
+description: Este artigo explica como o gerenciamento de transporte permite dividir localizações geográficas em zonas.
 author: Weijiesa
 ms.date: 10/16/2020
 ms.topic: article
@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: weijiesa
 ms.search.validFrom: 2020-01-09
 ms.dyn365.ops.version: 10.0.14
-ms.openlocfilehash: b505d8770102bc02cdc37836f057360775a485c9
-ms.sourcegitcommit: 9166e531ae5773f5bc3bd02501b67331cf216da4
+ms.openlocfilehash: 05f0b6ed4c87a9472a95067677160f6e5288adb8
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/03/2022
-ms.locfileid: "8677608"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8900699"
 ---
 # <a name="transportation-management-zone-master"></a>Mestre de zona de gerenciamento de transporte
 

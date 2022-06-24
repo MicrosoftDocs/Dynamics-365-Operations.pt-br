@@ -1,6 +1,6 @@
 ---
 title: Consolide remessas liberando para o depósito da bancada de planejamento de carga
-description: Este tópico apresenta um cenário em que várias ordens são liberadas para o depósito na mesma carga e são consolidadas automaticamente em remessas.
+description: Este artigo apresenta um cenário em que várias ordens são liberadas para o depósito na mesma carga e são consolidadas automaticamente em remessas.
 author: Mirzaab
 ms.date: 05/12/2020
 ms.topic: article
@@ -13,22 +13,22 @@ ms.search.region: Global
 ms.author: mirzaab
 ms.search.validFrom: 2020-05-01
 ms.dyn365.ops.version: 10.0.3
-ms.openlocfilehash: 3d74a4171bc8d601d034afb9b7f12634a8f9dbed
-ms.sourcegitcommit: 9166e531ae5773f5bc3bd02501b67331cf216da4
+ms.openlocfilehash: 36a68328ddd1b19e116598fb93ac17405a9c5ed4
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/03/2022
-ms.locfileid: "8672532"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8888344"
 ---
 # <a name="consolidate-shipments-by-releasing-to-warehouse-from-the-load-planning-workbench"></a>Consolide remessas liberando para o depósito da bancada de planejamento de carga
 
 [!include [banner](../includes/banner.md)]
 
-Este tópico apresenta um cenário em que várias ordens são liberadas para o depósito na mesma carga e são consolidadas automaticamente em remessas.
+Este artigo apresenta um cenário em que várias ordens são liberadas para o depósito na mesma carga e são consolidadas automaticamente em remessas.
 
 ## <a name="make-demo-data-available"></a>Disponibilizar dados de demonstração
 
-O cenário neste tópico faz referência a valores e registros incluídos nos dados de demonstração padrão que são fornecidos para o Microsoft Dynamics 365 Supply Chain Management. Se você deseja usar os valores fornecidos aqui ao fazer os exercícios, procure trabalhar em um ambiente no qual os dados de demonstração estejam instalados e defina a entidade legal como **USMF** antes de começar.
+O cenário neste artigo faz referência a valores e registros incluídos nos dados de demonstração padrão que são fornecidos para o Microsoft Dynamics 365 Supply Chain Management. Se você deseja usar os valores fornecidos aqui ao fazer os exercícios, procure trabalhar em um ambiente no qual os dados de demonstração estejam instalados e defina a entidade legal como **USMF** antes de começar.
 
 ## <a name="set-up-shipment-consolidation-policies-and-product-filters"></a>Configure políticas de consolidação de remessa e filtros de produtos
 

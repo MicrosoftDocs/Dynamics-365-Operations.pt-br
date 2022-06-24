@@ -1,6 +1,6 @@
 ---
-title: Subcontratação baseada em atividade
-description: Este tópico descreve detalhadamente como usar atividades subcontratadas em um fluxo de produção para lean manufacturing.
+title: Subcontratação baseada em atividades
+description: Este artigo descreve detalhadamente como usar atividades subcontratadas em um fluxo de produção para lean manufacturing.
 author: johanhoffmann
 ms.date: 06/20/2017
 ms.topic: article
@@ -16,18 +16,18 @@ ms.search.industry: Manufacturing
 ms.author: johanho
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 1c2e1efceb800930d9f9e19a109da80d8cfebe2e
-ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
+ms.openlocfilehash: e53da46a27fd573ae7f7450fcf34ffd8ef43e3fe
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 09/29/2021
-ms.locfileid: "7566783"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8890731"
 ---
-# <a name="activity-based-subcontracting"></a>Subcontratação baseada em atividade
+# <a name="activity-based-subcontracting"></a>Subcontratação baseada em atividades
 
 [!include [banner](../includes/banner.md)]
 
-Este tópico descreve detalhadamente como usar atividades subcontratadas em um fluxo de produção para lean manufacturing.
+Este artigo descreve detalhadamente como usar atividades subcontratadas em um fluxo de produção para lean manufacturing.
 
 No Microsoft Dynamics 365 Supply Chain Management, há duas abordagens de subcontratação: ordens de produção e lean manufacturing. Na abordagem de lean manufacturing, o trabalho de subcontratação é moldado como serviço relacionado a uma atividade de um fluxo de produção. Um tipo especial de tipo de grupo de custo denominado **Terceirização direta** foi introduzido, e os serviços de subcontratação não fazem mais parte de uma lista de materiais (BOM). A contabilização de custos de trabalho subcontratado está totalmente integrada na solução de custos para lean manufacturing.
 

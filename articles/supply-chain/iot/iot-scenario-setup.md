@@ -1,6 +1,6 @@
 ---
 title: Configuração do cenário de Inteligência de IoT
-description: Este tópico explica como configurar cenários de Inteligência da IoT no Microsoft Dynamics 365 Supply Chain Management.
+description: Este artigo explica como configurar cenários de Inteligência da IoT no Microsoft Dynamics 365 Supply Chain Management.
 author: johanhoffmann
 ms.date: 08/16/2019
 ms.topic: article
@@ -14,20 +14,20 @@ ms.search.region: Global
 ms.author: johanho
 ms.search.validFrom: 2020-04-04
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: dddc282ef3e479d524b1dfa0c60091cad1c231e0
-ms.sourcegitcommit: 9166e531ae5773f5bc3bd02501b67331cf216da4
+ms.openlocfilehash: 3172bdb81e00d20c5b1d1f3f8e4299ca69c59434
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/03/2022
-ms.locfileid: "8675167"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8889596"
 ---
 # <a name="scenario-setup-for-iot-intelligence"></a>Configuração do cenário de Inteligência de IoT
 
 [!include [banner](../../includes/banner.md)]
 
-Este tópico explica como configurar cenários de Inteligência da IoT no Microsoft Dynamics 365 Supply Chain Management. <!-- KFM: Hide setup info for now: Before you can set up the scenarios, you must [set up Microsoft Dynamics Lifecycle Services (LCS)](iot-lcs-setup.md). -->
+Este artigo explica como configurar cenários de Inteligência da IoT no Microsoft Dynamics 365 Supply Chain Management. <!-- KFM: Hide setup info for now: Before you can set up the scenarios, you must [set up Microsoft Dynamics Lifecycle Services (LCS)](iot-lcs-setup.md). -->
 
-Neste tópico, você configurará o cenário de **Tempo de inatividade do equipamento** para que uma notificação seja gerada no Supply Chain Management quando uma máquina for desativada. O tópico também mostra como configurar o cenário de **Qualidade do produto** para que uma notificação seja gerada se um atributo de um item estiver fora de um intervalo especificado e como configurar o cenário de **Atrasos na produção** para que uma notificação seja gerada se a taxa de transferência da produção ficar abaixo de um valor limite.
+Neste artigo, você configurará o cenário de **Tempo de inatividade do equipamento** para que uma notificação seja gerada no Supply Chain Management quando uma máquina for desativada. O artigo também mostra como configurar o cenário de **Qualidade do produto** para que uma notificação seja gerada se um atributo de um item estiver fora de um intervalo especificado e como configurar o cenário de **Atrasos na produção** para que uma notificação seja gerada se a taxa de transferência da produção ficar abaixo de um valor limite.
 
 ## <a name="configure-the-equipment-downtime-scenario-in-supply-chain-management"></a>Configurar o cenário de Tempo de inatividade do equipamento no Supply Chain Management
 

@@ -1,6 +1,6 @@
 ---
 title: Detectar carrinhos abandonados e enviar notificações aos clientes
-description: Este tópico descreve como personalizar o aplicativo de exemplo do conector de carrinho abandonado do Microsoft Dynamics 365 Commerce para detectar os carrinhos abandonados e enviar notificações por email de lembrete aos clientes.
+description: Este artigo descreve como personalizar o aplicativo de exemplo do conector de carrinho abandonado do Microsoft Dynamics 365 Commerce para detectar os carrinhos abandonados e enviar notificações por email de lembrete aos clientes.
 author: bicyclingfool
 ms.date: 02/25/2022
 ms.topic: article
@@ -9,18 +9,18 @@ ms.reviewer: v-chgriffin
 ms.search.region: Global
 ms.author: stuharg
 ms.search.validFrom: 2017-06-20
-ms.openlocfilehash: 1db4e988653aa55db2b18fb201edeafc4d16a1bc
-ms.sourcegitcommit: ab690bc897699ff8a4c489e749251fe0367050ca
+ms.openlocfilehash: 707640ca211e997533d0f5a0b4e6d52cb5be9db4
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/26/2022
-ms.locfileid: "8489021"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8899201"
 ---
 # <a name="detect-abandoned-carts-and-send-notifications-to-customers"></a>Detectar carrinhos abandonados e enviar notificações aos clientes
 
 [!include [banner](../includes/banner.md)]
 
-Este tópico descreve como personalizar o aplicativo de exemplo do conector de carrinho abandonado do Microsoft Dynamics 365 Commerce para detectar os carrinhos abandonados e enviar notificações por email de lembrete aos clientes.
+Este artigo descreve como personalizar o aplicativo de exemplo do conector de carrinho abandonado do Microsoft Dynamics 365 Commerce para detectar os carrinhos abandonados e enviar notificações por email de lembrete aos clientes.
 
 A possibilidade de recuperar receita e reter clientes por meio de notificações de carrinhos abandonados é uma capacidade importante à qual o Dynamics 365 Commerce oferece suporte. Personalizando o aplicativo de exemplo do conector de carrinho abandonado do Commerce, os varejistas podem acessar os carrinhos de compras no Retail Server que não foram modificados durante um período definido pelos varejistas. Esses carrinhos podem ser recuperados, aumentados com dados de produtos e clientes e transferidos para um provedor de email de marketing de terceiros que pode gerar notificações por email e enviá-las aos clientes.
 
@@ -65,7 +65,7 @@ Antes de implantar e configurar o código de exemplo do conector de carrinho aba
 
 Para configurar e implantar o aplicativo do conector de carrinho abandonado, é necessário ter acesso aos seguintes recursos comerciais:
 
-- Acesso de administrador ao Commerce Headquarters para seu ambiente
+- Acesso de administrador ao Commerce headquarters para seu ambiente
 - Acesso ao projeto do Lifecycle Services (LCS) do Microsoft Dynamics para seu ambiente
 
 ### <a name="azure-cosmos-db"></a>Azure Cosmos DB
@@ -155,7 +155,7 @@ Se você estiver usando os recursos de comércio eletrônico no Commerce, poder�
 
 | Propriedade                             | Descrição |
 | ------------------------------------ | ----------- |
-| ImageServerUrl                       | A URL raiz do gerenciador de ativos digitais do site. Você pode encontrar o valor na chave de propriedade **URL Base do Servidor de Mídia** nos perfis **Varejo e Comércio \> Configuração de canal \> Perfis de canal** no Commerce Headquarters. |
+| ImageServerUrl                       | A URL raiz do gerenciador de ativos digitais do site. Você pode encontrar o valor na chave de propriedade **URL Base do Servidor de Mídia** nos perfis **Varejo e Comércio \> Configuração de canal \> Perfis de canal** no Commerce headquarters. |
 | ImageViewPorts                       | O nó de contêiner para configurações individuais do visor. |
 | ImageViewPorts/viewport              | A definição do visor. Use esta propriedade para especificar os intervalos de largura para o visor, em pixels. Para obter um exemplo que mostra como essa propriedade é usada, consulte o arquivo de configuração **appSettings.json**. |
 | ImageViewPorts/imageWidth            | A largura da imagem do visor, em pixels. |

@@ -1,6 +1,6 @@
 ---
 title: Configurar um produto para ser adquirido gratuitamente
-description: Este tópico descreve como configurar um produto para que ele possa ser comprado gratuitamente no Microsoft Dynamics 365 Commerce.
+description: Este artigo descreve como configurar um produto para que ele possa ser comprado gratuitamente no Microsoft Dynamics 365 Commerce.
 author: anupamar-ms
 ms.date: 10/27/2021
 ms.topic: article
@@ -15,25 +15,25 @@ ms.search.industry: ''
 ms.author: anupamar
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: 760b97a895758073c8ffd1209be4a5f7df0f13a8
-ms.sourcegitcommit: 9c2bc045eafc05b39ed1a6b601ccef48bd62ec55
+ms.openlocfilehash: 4bd7e4f7a7873e471f1aee94f15e7932e8d9eecd
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 12/14/2021
-ms.locfileid: "7919441"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8890346"
 ---
 # <a name="configure-a-product-to-be-purchased-for-free"></a>Configurar um produto para ser adquirido gratuitamente
 
 [!include [banner](includes/banner.md)]
 
 
-Este tópico descreve como configurar um produto para que ele possa ser comprado gratuitamente no Microsoft Dynamics 365 Commerce.
+Este artigo descreve como configurar um produto para que ele possa ser comprado gratuitamente no Microsoft Dynamics 365 Commerce.
 
 ## <a name="configure-the-product"></a>Configurar o produtos
 
 Para vender um produto gratuitamente no Dynamics 365 Commerce, você deve definir seu preço como 0 (zero). Além disso, você deve ajustar a configuração **Peço zero válido** do produto.
 
-Para definir a configuração **Preço zero válido** na matriz do Commerce, siga estas etapas.
+Para definir a configuração **Preço zero válido** no Commerce headquarters, siga estas etapas.
 
 1. Acesse **Retail e Commerce \> Produtos e categorias \> Produtos lançados por categoria**.
 1. Acesse a página do produto que você deseja vender gratuitamente. 
@@ -47,7 +47,7 @@ Esta ilustração mostra um exemplo de um produto em que opção **Preço zero v
 
 Antes de as transações gratuitas serem processadas, você deve ajustar a configuração **Permitir a finalização da compra sem pagamento** do perfil de funcionalidade online da loja para que as transações que não tenham pagamentos sejam permitidas. Para obter informações sobre como criar perfis de funcionalidade, consulte o artigo [Criar um perfil de funcionalidade online](online-functionality-profile.md).
 
-Para definir a configuração **Permitir a finalização da compra sem pagamento** na matriz do Commerce, siga estas etapas.
+Para definir a configuração **Permitir a finalização da compra sem pagamento** no Commerce headquarters, siga estas etapas.
 
 1. Acesse **Retail e Commerce \> Configuração de canal \> Configuração da loja online**.
 1. Na página do perfil de funcionalidade da loja, em **Finalização da compra**, defina a opção **Permitir a finalização da compra sem pagamento** como **Sim**.

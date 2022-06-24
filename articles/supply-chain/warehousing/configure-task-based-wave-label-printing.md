@@ -1,6 +1,6 @@
 ---
 title: Agendar a impressão da etiqueta de ciclo durante o ciclo
-description: Este tópico descreve como configurar e usar a funcionalidade para impressão de etiqueta de ciclo baseada em tarefas.
+description: Este artigo descreve como configurar e usar a funcionalidade para impressão de etiqueta de ciclo baseada em tarefas.
 author: perlynne
 ms.date: 06/09/2021
 ms.topic: article
@@ -11,12 +11,12 @@ ms.search.region: Global
 ms.author: perlynne
 ms.search.validFrom: 2021-06-09
 ms.dyn365.ops.version: 10.0.16
-ms.openlocfilehash: 1323538765308ec3dd366456e31f5e08b08ce5ab
-ms.sourcegitcommit: 008779c530798f563fe216810d34b2d56f2c8d3c
+ms.openlocfilehash: ac2bc4cce42bada43334b82301d716414cd6d654
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 12/14/2021
-ms.locfileid: "7920140"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8889447"
 ---
 # <a name="schedule-wave-label-printing-during-wave"></a>Agendar a impressão da etiqueta de ciclo durante o ciclo
 
@@ -30,7 +30,7 @@ Quando você usa o recurso *Impressão de etiqueta de ciclo baseada em tarefa*, 
 
 ## <a name="turn-on-the-task-based-wave-label-printing-feature-in-feature-management"></a>Ativar o recurso de Impressão de etiqueta de ciclo baseada em tarefa no gerenciamento de recursos
 
-Para usar os recursos que são descritos neste tópico, eles devem ser ativados para o seu sistema. Use o espaço de trabalho [Gerenciamento de recurso](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) para ativar os recursos na seguinte ordem:
+Para usar os recursos que são descritos neste artigo, eles devem ser ativados para o seu sistema. Use o espaço de trabalho [Gerenciamento de recurso](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) para ativar os recursos na seguinte ordem:
 
 1. *Impressão de etiqueta de ciclo* – Este recurso é necessário para habilitar o método de processo de ciclo para impressão de etiqueta de ciclo.
 1. *Bloqueio de trabalho em toda a organização* - Este recurso é necessário para a configuração manual e automática da criação de trabalho agendado. (Desde a versão 10.0.21 do Supply Chain Management, este recurso é obrigatório, portanto, é ativado por padrão e não pode ser desativado novamente.)

@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: sorenand
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 559f4571a60ea8ec048b291e3b6a0a93e8bc9d44
-ms.sourcegitcommit: 9166e531ae5773f5bc3bd02501b67331cf216da4
+ms.openlocfilehash: cf28619e66fa5d3e86bdbb3838dc7f711916bcec
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/03/2022
-ms.locfileid: "8677692"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8905592"
 ---
 # <a name="develop-and-establish-service-agreements-overview"></a>Visão geral sobre desenvolver e estabelecer contratos de serviço
 
@@ -72,7 +72,7 @@ Cada linha do contrato de serviço descreve em detalhes o conteúdo do trabalho 
 -  Se uma linha for parada. Se uma linha for parada, não será possível criar ordens de serviço para aquela linha individual.
 -  Configurações do projeto, como a categoria e a propriedade da linha.
 
-## <a name="related-topics"></a>Tópicos relacionados
+## <a name="related-articles"></a>Artigos relacionados
 
 [Criar contratos de serviço](create-service-agreements.md)
 

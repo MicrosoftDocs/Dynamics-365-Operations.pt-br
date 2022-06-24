@@ -1,6 +1,6 @@
 ---
 title: Suporte ao Inventory Visibility para itens de WHS
-description: Este tópico descreve o suporte à visibilidade de estoque para itens habilitados para processos avançados de depósito (itens de WHS).
+description: Este artigo descreve o suporte à visibilidade de estoque para itens habilitados para processos avançados de depósito (itens de WHS).
 author: yufeihuang
 ms.date: 03/10/2022
 ms.topic: article
@@ -11,18 +11,18 @@ ms.search.region: Global
 ms.author: yufeihuang
 ms.search.validFrom: 2022-03-10
 ms.dyn365.ops.version: 10.0.26
-ms.openlocfilehash: cfbff05697f4159cb74d110887b8029f28fbf96b
-ms.sourcegitcommit: 1050e58e621d9a0454895ed07c286936f8c03320
+ms.openlocfilehash: ec2254d6cf203216acea88fdfb54ad491abdeb49
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/21/2022
-ms.locfileid: "8625377"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8895660"
 ---
 # <a name="inventory-visibility-support-for-whs-items"></a>Suporte ao Inventory Visibility para itens de WHS
 
 [!include [banner](../includes/banner.md)]
 
-Este tópico descreve o suporte à visibilidade de estoque para itens habilitados para processos avançados de depósito (itens de WHS). O recurso que adiciona essa capacidade à visibilidade de estoque é denominado *WHS Avançado*.
+Este artigo descreve o suporte à visibilidade de estoque para itens habilitados para processos avançados de depósito (itens de WHS). O recurso que adiciona essa capacidade à visibilidade de estoque é denominado *WHS Avançado*.
 
 ## <a name="whs-items"></a>Itens de WHS
 

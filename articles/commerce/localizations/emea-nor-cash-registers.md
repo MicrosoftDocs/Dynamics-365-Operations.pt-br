@@ -1,6 +1,6 @@
 ---
 title: Funcionalidade de caixa registradora para a Noruega
-description: Este tópico fornece uma visão geral da funcionalidade de caixa registradora disponível para a Noruega no Microsoft Dynamics 365 Commerce e fornece diretrizes para a configuração da funcionalidade.
+description: Este artigo fornece uma visão geral da funcionalidade de caixa registradora disponível para a Noruega no Microsoft Dynamics 365 Commerce e fornece diretrizes para a configuração da funcionalidade.
 author: EvgenyPopovMBS
 ms.date: 12/20/2021
 ms.topic: article
@@ -9,18 +9,18 @@ ms.reviewer: v-chgriffin
 ms.search.region: Global
 ms.author: epopov
 ms.search.validFrom: 2017-10-31
-ms.openlocfilehash: bb87b3a7405ef3d8435748813fa66db74b8f0971
-ms.sourcegitcommit: 0d2de52e12fdb9928556d37a4813a67b303695dc
+ms.openlocfilehash: 778a947f03866518219e9c0fa44660d66f19f53a
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 12/21/2021
-ms.locfileid: "7944931"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8906690"
 ---
 # <a name="cash-register-functionality-for-norway"></a>Funcionalidade de caixa registradora para a Noruega
 
 [!include[banner](../includes/banner.md)]
 
-Este tópico fornece uma visão geral da funcionalidade de caixa registradora disponível para a Noruega no Dynamics 365 Commerce. Ele também fornece diretrizes para a configuração da funcionalidade. A funcionalidade consiste nas seguintes partes:
+Este artigo fornece uma visão geral da funcionalidade de caixa registradora disponível para a Noruega no Dynamics 365 Commerce. Ele também fornece diretrizes para a configuração da funcionalidade. A funcionalidade consiste nas seguintes partes:
 
 - Os recursos de ponto de venda (PDV) comuns disponíveis aos clientes em todos os países ou regiões. Os exemplos incluem uma opção que permite impedir que uma cópia de um recibo seja impressa mais de uma vez.
 - Recursos específicos da Noruega, como assinaturas digitais para transações de vendas.
@@ -34,7 +34,7 @@ Para saber mais sobre os recursos de PDV disponíveis para os clientes em todos 
 Os seguintes recursos de localização de PDV que foram implementados anteriormente e disponibilizados para clientes em todos os países ou regiões podem agora ser usados especificamente para a Noruega:
 
 - **Imprimir campos de texto em um recibo em um tamanho de fonte grande.** Você pode usar o parâmetro **Tamanho da fonte** no Designer de formato de recibo para especificar que o tamanho de fonte grande deve ser usado para um campo no formato do recibo. (O tamanho de fonte grande é aproximadamente o dobro do tamanho de fonte normal.) Por exemplo, você pode usar esse parâmetro para imprimir o indicador de "Cópia" em uma cópia de um recibo em caracteres grandes.
-- **Registrar a impressão das cópias de recibo no log de eventos de auditoria do PDV.** Você pode usar o parâmetro **Auditoria** no perfil de funcionalidade de PDV para permitir que cópias de recibos sejam impressas e outros eventos de auditoria de PDV sejam registrados. Os eventos de auditoria são registrados no banco de dados do canal e na sede. Você pode exibir os eventos de auditoria na página **Eventos de auditoria**.
+- **Registrar a impressão das cópias de recibo no log de eventos de auditoria do PDV.** Você pode usar o parâmetro **Auditoria** no perfil de funcionalidade de PDV para permitir que cópias de recibos sejam impressas e outros eventos de auditoria de PDV sejam registrados. Os eventos de auditoria são registrados no banco de dados do canal e no headquarters. Você pode exibir os eventos de auditoria na página **Eventos de auditoria**.
 - **Impedir que uma cópia de um recibo seja impressa mais de uma vez.** Quando o parâmetro **Auditoria** no perfil de funcionalidade de PDV é habilitado, a permissão de PDV **Permitir impressão de cópias de recibo** controla se cópias de recibos podem ser impressas. Também há uma opção que permite impedir que uma cópia de um recibo seja impressa mais de uma vez.
 
 Além disso, o seguinte recurso de PDV foi implementado para a Noruega, mas disponibilizado para clientes em todos os países ou regiões:
@@ -72,7 +72,7 @@ Os dados assinados são uma sequência de caracteres de texto que consiste nos c
 
 O processo de assinatura digital usa uma chave RSA de 1024 bits que tem uma função de hash SHA-1 (RSA-SHA1-1024). Um certificado que é instalado no Commerce Scale Unit é usado para assinar. O identificador exclusivo do certificado (volume) é registrado em conjunto com a assinatura.
 
-A assinatura é armazenada no banco de dados de armazenamento e no banco de dados da sede (HQ) juntamente com os dados da transação. Você pode visualizar a assinatura da transação juntamente com os dados da transação usados para gerá-la na guia rápida **Transações fiscais** da página **Transações da loja**.
+A assinatura é armazenada no banco de dados de armazenamento e no banco de dados do headquarters (HQ) juntamente com os dados da transação. Você pode visualizar a assinatura da transação juntamente com os dados da transação usados para gerá-la na guia rápida **Transações fiscais** da página **Transações da loja**.
 
 #### <a name="receipts"></a>Recebimentos
 
@@ -104,7 +104,7 @@ O arquivo de auditoria pode ser exportado para os seguintes cenários:
 
 Você também pode enviar um relatório de uma entidade legal em nome de outra entidade legal. Nesse caso, você deve executar a exportação da entidade legal operacional e especificar a entidade legal de relatório como o remetente do relatório.
 
-O formato da caixa registradora SAF-T é implementado na sede usando o [Relatório eletrônico](../../fin-ops-core/dev-itpro/analytics/general-electronic-reporting.md). 
+O formato da caixa registradora SAF-T é implementado no headquarters usando o [Relatório eletrônico](../../fin-ops-core/dev-itpro/analytics/general-electronic-reporting.md). 
 
 ## <a name="setting-up-commerce-for-norway"></a>Configurar o Commerce para a Noruega
 

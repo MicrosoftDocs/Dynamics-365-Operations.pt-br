@@ -1,6 +1,6 @@
 ---
 title: Versão prévia do Dynamics 365 Supply Chain Management 10.0.28 (agosto de 2022)
-description: Este tópico descreve os recursos novos ou alterados no Microsoft Dynamics 365 Supply Chain Management 10.0.28.
+description: Este artigo descreve os recursos novos ou alterados no Microsoft Dynamics 365 Supply Chain Management 10.0.28.
 author: kamaybac
 ms.date: 05/27/2022
 ms.topic: article
@@ -10,19 +10,19 @@ ms.search.region: Global
 ms.author: kamaybac
 ms.search.validFrom: 2022-05-27
 ms.dyn365.ops.version: 10.0.28
-ms.openlocfilehash: 306ff9be80c7a7a947b9132e3c9b4b9ec799b265
-ms.sourcegitcommit: 611202adaa080250636efabb3b3b32b850d92d04
+ms.openlocfilehash: 2b129481399897337e960ec2d708d69a563b5435
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/28/2022
-ms.locfileid: "8813032"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8902043"
 ---
 # <a name="preview-of-dynamics-365-supply-chain-management-10028-august-2022"></a>Versão prévia do Dynamics 365 Supply Chain Management 10.0.28 (agosto de 2022)
 
 [!include [banner](../includes/banner.md)]
 [!include [preview banner](../includes/preview-banner.md)]
 
-Este tópico lista recursos novos ou alterados na versão prévia do Microsoft Dynamics 365 Supply Chain Management 10.0.28. Esta versão tem um número de compilação 10.0.1264 e está disponível na seguinte agenda:
+Este artigo lista recursos novos ou alterados na versão preliminar do Microsoft Dynamics 365 Supply Chain Management 10.0.28. Esta versão tem um número de compilação 10.0.1264 e está disponível na seguinte agenda:
 
 - **Versão preliminar:** maio de 2022
 - **Disponibilidade geral da versão (autoatualização):** julho de 2022
@@ -30,15 +30,14 @@ Este tópico lista recursos novos ou alterados na versão prévia do Microsoft D
 
 ## <a name="features-included-in-this-release"></a>Recursos incluídos nesta versão
 
-A tabela a seguir lista os recursos incluídos nesta versão. Podemos atualizar este tópico para incluir recursos que foram adicionados à compilação após a publicação inicial deste tópico.
+A tabela a seguir lista os recursos incluídos nesta versão. Podemos atualizar este artigo para incluir recursos que foram adicionados à compilação após a publicação inicial deste artigo.
 
 | Área de recursos | Recurso | Mais informações | Habilitado por   |
 |---|---|---|---|
 | Estoque e logística | [Entidades de integração de custo de entrega para controladores de frete terceirizados](/dynamics365-release-plan/2022wave1/finance-operations/dynamics365-supply-chain-management/landed-cost-integration-third-party-freight-forwarders) | [Visão geral das entidades de custo de entrega](../landed-cost/landed-cost-entities-overview.md) | Habilitado por padrão |
-| Planejamento | [Suporte para otimização de planejamento de validade](/dynamics365-release-plan/2022wave1/finance-operations/dynamics365-supply-chain-management/planning-optimization-support-shelf-life) | Em breve <!-- KFM: Vendor is preparing this. Expected May 20. --> | Habilitado por padrão |
-
-<!-- KFM: Confirm status of this feature:
-| Planning | [Demand Driven Material Requirements Planning (DDMRP)](/dynamics365-release-plan/2022wave1/finance-operations/dynamics365-supply-chain-management/demand-driven-material-requirements-planning-ddmrp) | Coming soon | Feature management:<br>*(Preview) DDMRP for Planning Optimization* | -->
+| Planejamento | [Planejamento de Requisitos de Material Orientado por Demanda (DDMRP)](/dynamics365-release-plan/2022wave1/finance-operations/dynamics365-supply-chain-management/demand-driven-material-requirements-planning-ddmrp) | Em breve | Gerenciamento de recursos:<br>*(Versão preliminar) DDMRP para Otimização de Planejamento* |
+| Planejamento | [Suporte de Otimização de Planejamento para CTP (capacidade de comprometimento)](/dynamics365-release-plan/2022wave1/finance-operations/dynamics365-supply-chain-management/planning-optimization-support-capable-to-promise-ctp) | Em breve | Gerenciamento de recursos:<br>*(Versão preliminar) CTP para Otimização de Planejamento* |
+| Planejamento | [Suporte para otimização de planejamento de validade](/dynamics365-release-plan/2022wave1/finance-operations/dynamics365-supply-chain-management/planning-optimization-support-shelf-life) | Em breve | Habilitado por padrão |
 
 ## <a name="feature-enhancements-included-in-this-release"></a>Aprimoramentos de recursos incluídos nesta versão
 
@@ -56,9 +55,9 @@ Se quiser ativar ou desativar qualquer um desses recursos, você deverá fazer i
 
 ## <a name="new-and-updated-documentation-resources"></a>Recursos de documentação novos e atualizados
 
-Recentemente, adicionamos ou atualizamos significativamente os seguintes tópicos de ajuda: Esses tópicos não estão necessariamente relacionados aos novos recursos que foram adicionados a essa versão, conforme listado em seções anteriores. No entanto, eles podem ajudar você a aproveitar mais os recursos existentes.
+Recentemente, adicionamos ou atualizamos significativamente os seguintes artigos de ajuda: Esses artigos não estão necessariamente relacionados aos novos recursos que foram adicionados a essa versão, conforme listado em seções anteriores. No entanto, eles podem ajudar você a aproveitar mais os recursos existentes.
 
-| Área de recursos | Tópicos novos ou atualizados |
+| Área de recursos | Artigos novos ou atualizados |
 |---|---|
 | Gerenciamento de custo | [Preço de recebimento fixo](../cost-management/fixed-receipt-price.md) |
 | Gerenciamento de custo | [Perguntas frequentes sobre custos de estoque](../cost-management/inventory-costing-faq.md) |
@@ -69,7 +68,7 @@ Recentemente, adicionamos ou atualizamos significativamente os seguintes tópico
 
 ### <a name="platform-updates-for-finance-and-operations-apps"></a>Atualizações da plataforma para aplicativos do Finanças e operações
 
-O Microsoft Dynamics 365 Supply Chain Management 10.0.28 inclui atualizações de plataforma. Para saber mais, consulte [Atualizações de plataforma para a versão 10.0.28 de aplicativos de finanças e operações (Junho de 2022)](../../fin-ops-core/dev-itpro/get-started/whats-new-platform-updates-10-0-28.md).<!-- KFM Confirm link -->
+O Microsoft Dynamics 365 Supply Chain Management 10.0.28 inclui atualizações de plataforma. Para saber mais, consulte [Atualizações de plataforma para a versão 10.0.28 de aplicativos de finanças e operações (Junho de 2022)](../../fin-ops-core/dev-itpro/get-started/whats-new-platform-updates-10-0-28.md).
 
 ### <a name="bug-fixes"></a>Correções de bug
 
@@ -83,12 +82,12 @@ Confira [Dynamics 365 e nuvens do setor: plano 1 do ciclo de lançamentos de 202
 
 ### <a name="removed-and-deprecated-supply-chain-management-features"></a>Recursos removidos e preteridos do Supply Chain Management
 
-O tópico [Recursos removidos ou preteridos no Dynamics 365 Supply Chain Management](removed-deprecated-features-scm-updates.md) descreve os recursos que foram ou serão removidos ou preteridos do Supply Chain Management.
+O artigo [Recursos removidos ou preteridos no Dynamics 365 Supply Chain Management](removed-deprecated-features-scm-updates.md) descreve os recursos que foram ou serão removidos ou preteridos do Supply Chain Management.
 
 - Um recurso *removido* não estará mais disponível no produto.
 - Um recurso *preterido* não está no desenvolvimento ativo e poderá ser removido em uma atualização futura.
 
-Antes que qualquer recurso seja removido do produto, o aviso de substituição será anunciado no tópico [Recursos removidos ou preteridos no Dynamics 365 Supply Chain Management](removed-deprecated-features-scm-updates.md) 12 meses antes da remoção.
+Antes que qualquer recurso seja removido do produto, o aviso de substituição será anunciado no artigo [Recursos removidos ou preteridos no Dynamics 365 Supply Chain Management](removed-deprecated-features-scm-updates.md) 12 meses antes da remoção.
 
 Para as últimas alterações que afetam somente o tempo de compilação, mas são compatíveis binárias com a área restrita e os ambientes de produção, o tempo de substituição será inferior a 12 meses. Normalmente, essas são atualizações funcionais que precisam ser feitas no compilador.
 

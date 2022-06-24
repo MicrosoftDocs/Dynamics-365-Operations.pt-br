@@ -1,6 +1,6 @@
 ---
 title: Trabalhadores responsáveis por aprovar não conformidades
-description: Este tópico descreve como configurar trabalhadores que são responsáveis por aprovar não conformidades.
+description: Este artigo descreve como configurar trabalhadores que são responsáveis por aprovar não conformidades.
 author: yufeihuang
 ms.date: 03/23/2021
 ms.topic: article
@@ -16,18 +16,18 @@ ms.search.industry: Distribution
 ms.author: yufeihuang
 ms.search.validFrom: 2020-06-17
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 5fd1c7c86ac8627bd332bc578e98b4d7f091cdc8
-ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
+ms.openlocfilehash: a108fc1f8954e32719c93656a64d1d27fda03fb6
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 09/29/2021
-ms.locfileid: "7575887"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8907396"
 ---
 # <a name="workers-responsible-for-approving-nonconformances"></a>Trabalhadores responsáveis por aprovar não conformidades
 
 [!include [banner](../includes/banner.md)]
 
-Este tópico descreve como configurar trabalhadores que são responsáveis por aprovar não conformidades.
+Este artigo descreve como configurar trabalhadores que são responsáveis por aprovar não conformidades.
 
 As não conformidades devem ser aprovadas para que os usuários possam começar a inserir detalhes, como correções ou operações. Para que os usuários possam aprovar ou rejeitar não conformidades, sua ID de usuário (registro de usuário) deve estar vinculada a um registro de trabalhador. Opcionalmente, você pode configurar trabalhadores que sejam responsáveis pela qualidade e, em seguida, permitir que um trabalhador aprove o trabalho em nome de outro trabalhador.
 

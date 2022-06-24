@@ -1,6 +1,6 @@
 ---
 title: Visão geral do gerenciamento de qualidade e não conformidade
-description: Este tópico apresenta os recursos de gerenciamento de qualidade e não conformidade no Microsoft Dynamics 365 Supply Chain Management e explica como eles podem ajudar a melhorar a qualidade dos produtos na sua cadeia de suprimentos.
+description: Este artigo apresenta os recursos de gerenciamento de qualidade e não conformidade no Microsoft Dynamics 365 Supply Chain Management e explica como eles podem ajudar a melhorar a qualidade dos produtos na sua cadeia de suprimentos.
 author: yufeihuang
 ms.date: 03/23/2021
 ms.topic: overview
@@ -17,18 +17,18 @@ ms.search.region: Global
 ms.author: yufeihuang
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 1bb4bcb7f554c22b4e1ab1b41867bd2d3dcca4d4
-ms.sourcegitcommit: 3754d916799595eb611ceabe45a52c6280a98992
+ms.openlocfilehash: 510dee78f6fed02e6511aedad00fcb1b15195470
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 01/15/2022
-ms.locfileid: "7985500"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8907483"
 ---
 # <a name="quality-and-nonconformance-management-overview"></a>Visão geral do gerenciamento de qualidade e não conformidade
 
 [!include [banner](../includes/banner.md)]
 
-Este tópico apresenta os recursos de gerenciamento de qualidade e não conformidade no Microsoft Dynamics 365 Supply Chain Management e explica como eles podem ajudar a melhorar a qualidade dos produtos na sua cadeia de suprimentos.
+Este artigo apresenta os recursos de gerenciamento de qualidade e não conformidade no Microsoft Dynamics 365 Supply Chain Management e explica como eles podem ajudar a melhorar a qualidade dos produtos na sua cadeia de suprimentos.
 
 A garantia da qualidade envolve testes de produto e o gerenciamento de material de não conformidade. Os processos de gerenciamento de qualidade ajudam a garantir um alto nível de qualidade do produto em sua cadeia de suprimentos. Esses processos também ajudam a otimizar os processos da cadeia de suprimentos e a aumentar a satisfação do cliente. O gerenciamento de qualidade pode ajudar você a gerenciar o tempo de resposta ao lidar com produtos não conformes, independentemente do ponto de origem deles. Você pode vincular os resultados de diagnóstico às tarefas de correção. O sistema pode agendar tarefas para corrigir problemas e, portanto, ajuda a prevenir recorrências desses problemas no futuro. Gerenciamento de qualidade também permite acompanhar problemas (incluindo problemas internos) pelo tipo de problema, e permite identificar soluções de curto a longo prazo. As estatísticas sobre os principais indicadores de desempenho (KPIs) fornecem informações sobre os problemas de não conformidade ocorridos anteriormente e as soluções aplicadas para corrigi-los. Você pode usar os dados históricos para examinar a eficácia das medidas de qualidade adotadas anteriormente e para determinar as medidas apropriadas no futuro.
 
