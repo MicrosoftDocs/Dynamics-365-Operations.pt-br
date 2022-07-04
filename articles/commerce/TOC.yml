@@ -18,8 +18,6 @@
                   href: get-started/whats-new-commerce-10-0-27.md
                 - name: Commerce 10.0.26 (maio de 2022)
                   href: get-started/whats-new-commerce-10-0-26.md
-                - name: Commerce 10.0.25 (abril de 2022)
-                  href: get-started/whats-new-commerce-10-0-25.md
             - name: Recursos removidos ou preteridos
               items:
                 - name: Home page de recursos removidos ou preteridos
@@ -70,20 +68,16 @@
                   href: ../fin-ops-core/dev-itpro/lifecycle-services/oneversion-isv.md?toc=/dynamics365/commerce/toc.json
                 - name: Criar e automatizar testes de aceitação de usuário
                   href: ../fin-ops-core/dev-itpro/lifecycle-services/using-task-guides-and-bpm-to-create-user-acceptance-tests.md?toc=/dynamics365/commerce/toc.json
-            - name: Configurar um ambiente de avaliação do Dynamics 365 Commerce
+            - name: Configurar um ambiente de área restrita do Dynamics 365 Commerce
               items:
-                - name: Visão geral do ambiente de avaliação do Dynamics 365 Commerce
-                  href: cpe-overview.md
-                - name: Provisionar um ambiente de avaliação do Dynamics 365 Commerce
+                - name: Provisionar um ambiente de área restrita do Dynamics 365 Commerce
                   href: provisioning-guide.md
-                - name: Configurar um ambiente de avaliação do Dynamics 365 Commerce
+                - name: Configurar um ambiente de área restrita do Dynamics 365 Commerce
                   href: cpe-post-provisioning.md
-                - name: Configurar BOPIS em um ambiente de avaliação do Dynamics 365 Commerce
+                - name: Configurar BOPIS em um ambiente de área restrita do Dynamics 365 Commerce
                   href: cpe-bopis.md
-                - name: Configurar recursos opcionais para um ambiente de avaliação do Dynamics 365 Commerce
+                - name: Configurar recursos opcionais para um ambiente de área restrita do Dynamics 365 Commerce
                   href: cpe-optional-features.md
-                - name: Perguntas frequentes sobre ambiente de avaliação do Dynamics 365 Commerce
-                  href: cpe-faq.md
             - name: Considerações sobre implantação
               items:
                 - name: Opções de implantação
@@ -440,6 +434,8 @@
                           href: pos-healthcheck.md
                         - name: Suporte a periféricos de rede
                           href: dev-itpro/network-peripherals.md
+                        - name: Compatibilidade de periféricos
+                          href: Compatible-peripherals.md
                     - name: Layouts da tela
                       items:
                         - name: Layouts da tela de dados de demonstração em MPOS/CPOS
@@ -1402,7 +1398,9 @@
               items:
                 - name: Exemplo de integração de serviços de registro fiscal para a Áustria
                   href: localizations/emea-aut-fi-sample.md
-                - name: Diretrizes de implantação para o exemplo de integração fiscal da Áustria (herdada)
+                - name: Diretrizes de implantação para caixas registradoras na Áustria
+                  href: localizations/emea-aut-deployment.md
+                - name: Diretrizes de implantação para o exemplo de integração fiscal da Áustria (herdado)
                   href: localizations/emea-aut-fi-sample-sdk.md
             - name: Brasil
               items:
@@ -2896,6 +2894,8 @@
                       href: dev-itpro/cloud-dev-box.md
                     - name: Pipeline de build do SDK do Retail
                       href: dev-itpro/retail-sdk/sdk-build-pipeline.md
+                    - name: Configurar um agente de compilação do Visual Studio 2017 para criar MPOS
+                      href: dev-itpro/retail-sdk/mpos-build-agent.md
                     - name: Executar exemplos do PDV
                       href: dev-itpro/pos-run-samples.md
                 - name: Referência
