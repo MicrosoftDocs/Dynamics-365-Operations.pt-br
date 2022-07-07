@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: johanho
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: a1e2c79a621cf4bd1212c006e1c8967d85bd716b
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: 750776412ce9d87389a635ef108a34cffe12b68b
+ms.sourcegitcommit: cfe8fbc202c3eb05d894076fdf99e46704f17365
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8870801"
+ms.lasthandoff: 06/15/2022
+ms.locfileid: "9015802"
 ---
 # <a name="asset-management-parameters"></a>Parâmetros de gerenciamento de ativos
 
@@ -37,7 +37,7 @@ A guia **Ativos** fornece as seguintes configurações:
 
 - **Local funcional padrão** é o local funcional padrão, que é selecionado automaticamente em ativos quando você cria novos ativos.  
 - No campo **Calendário padrão**, selecione um calendário a ser usado para calcular KPIs de ativo, caso nenhum recurso seja selecionado em um ativo.  
-- No campo **Exibir** , selecione a exibição padrão que é mostrada quando você abre **Exibição de ativo** (**Gerenciamento de ativos** > **Comum** > **Ativos** > **Exibição de ativo**).
+- No campo **Exibir**, selecione a exibição padrão que é mostrada quando você abre **Exibição de ativo** (**Gerenciamento de ativos** > **Ativos** > **Exibição de ativo**).
 - **Tipo de solicitação padrão** é o tipo de solicitação de manutenção padrão, que é selecionado automaticamente quando você cria uma nova solicitação.  
 - As previsões sobre tipos de trabalho são armazenadas no projeto selecionado no campo **Previsão de projeto**. Para cada tipo de trabalho, uma nova atividade é criada automaticamente na previsão de projeto. As previsões do tipo de trabalho são salvas na previsão de projeto.  
 - No campo **Modelo**, selecione o modelo de previsão usado em previsões de tipo de trabalho e ordem de serviço.

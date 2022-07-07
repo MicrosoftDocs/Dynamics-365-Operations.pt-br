@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: sorenand
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: cf65d5b41438b167847f0cd31f7d76169af26cb8
-ms.sourcegitcommit: 9166e531ae5773f5bc3bd02501b67331cf216da4
+ms.openlocfilehash: 7b110c6a08d946b4527f47f6d4181819f3508fee
+ms.sourcegitcommit: cfe8fbc202c3eb05d894076fdf99e46704f17365
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/03/2022
-ms.locfileid: "8675533"
+ms.lasthandoff: 06/15/2022
+ms.locfileid: "9016323"
 ---
 # <a name="start-and-stop-time-recording-on-a-service-order"></a>Iniciar e parar a folha de ponto em uma ordem de serviço 
 
@@ -31,7 +31,7 @@ Use este procedimento para iniciar e parar a o registro de uma ordem serviço pa
 
 ## <a name="start-time-recording"></a>Iniciar folha de ponto
 
-1.  Clique em **Gerenciamento de serviços** \> **Comum** \> **Ordens de serviço** \> **Ordens de serviço**.
+1.  Clique em **Gerenciamento de serviços** \> **Ordens de serviço** \> **Ordens de serviço**.
 
 2.  Clique na guia **Ordem de serviço**. No **Painel de Ação**, no grupo **Contrato de nível de serviço**, clique em **Iniciar**.
 
@@ -39,7 +39,7 @@ Use este procedimento para iniciar e parar a o registro de uma ordem serviço pa
 
 ## <a name="stop-time-recording"></a>Parar gravação de tempo
 
-1.  Clique em **Gerenciamento de serviços** \> **Comum** \> **Ordens de serviço** \> **Ordens de serviço**.
+1.  Clique em **Gerenciamento de serviços** \> **Ordens de serviço** \> **Ordens de serviço**.
 
 2.  Clique na guia **Ordem de serviço**. No **Painel de Ação**, no grupo **Contrato de nível de serviço**, clique em **Parar**.
 

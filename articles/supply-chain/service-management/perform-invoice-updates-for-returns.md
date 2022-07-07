@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: sorenand
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 2f999dec6639183015b1be9378dc4e8ea01c9a84
-ms.sourcegitcommit: 9166e531ae5773f5bc3bd02501b67331cf216da4
+ms.openlocfilehash: 32a108694c11a2ebd922a71d5c82691584bbb397
+ms.sourcegitcommit: cfe8fbc202c3eb05d894076fdf99e46704f17365
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/03/2022
-ms.locfileid: "8670878"
+ms.lasthandoff: 06/15/2022
+ms.locfileid: "9014739"
 ---
 # <a name="perform-invoice-updates-for-returns"></a>Executar atualizações de fatura para devoluções 
 
@@ -35,7 +35,7 @@ Ao configurar a atualização da nota fiscal para processamento em lotes, a orde
 
 ## <a name="post-an-invoice-for-a-return-order"></a>Lançar uma fatura para uma ordem de devolução
 
-1.  Clique em **Contas a receber** \> **Comum** \> **Ordens de venda** \> **Todas as ordens de venda**.
+1.  Clique em **Contas a receber** \> **Ordens** \> **Todas as ordens de vendas**.
 
 2.  Selecione uma ordem de venda para a qual **Ordem devolvida** é exibido no campo de **Tipo de ordem**.
 

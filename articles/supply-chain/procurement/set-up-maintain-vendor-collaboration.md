@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: gfedorova
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: 8fe4731f8ff23f4abe25fce57a2325e1fca979c4
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: 19fafb21e879d7436678bdb3c29d1a3d7e2330d7
+ms.sourcegitcommit: bad64015da0c96a6b5d81e389708281406021d4f
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8890818"
+ms.lasthandoff: 06/17/2022
+ms.locfileid: "9023750"
 ---
 # <a name="set-up-and-maintain-vendor-collaboration"></a>Configurar e manter colaboração de fornecedor
 
@@ -29,9 +29,6 @@ ms.locfileid: "8890818"
 A interface de colaboração do fornecedor expõe um conjunto limitado de informações sobre ordens de compra, faturas e estoque de consignação para usuários de fornecedores externos. A partir dessa interface, um fornecedor também poderá responder a RFQs (solicitações de cotação) e exibir e editar informações básicas da empresa.
 
 Este artigo explica como configurar a colaboração do fornecedor no Dynamics 365 Supply Chain Management. Também explica como configurar um fluxo de trabalho para provisionar novos usuários de colaboração do fornecedor e como gerenciar as funções de segurança para esses usuários.
-
-> [!NOTE]
-> As informações sobre a configuração de funções de segurança para colaboração do fornecedor aplicam-se somente à versão atual do aplicativo de finanças e operações. No Microsoft Dynamics AX 7.0. (fevereiro de 2016) e no aplicativo do Microsoft Dynamics AX versão 7.0.1 (maio de 2016), você colabora com fornecedores usando o módulo **Portal do fornecedor**. Para obter informações sobre permissões de usuário para o portal Fornecedor no Microsoft Dynamics AX, consulte [Segurança de usuário do portal Fornecedor](configure-security-vendor-portal-users.md).
 
 ## <a name="set-up-vendor-collaboration-security-roles"></a>Configurar funções de segurança de colaboração do fornecedor
 
@@ -118,7 +115,7 @@ Para configurar essa ramificação, crie um novo fluxo de trabalho do tipo **Flu
 2. Atribua uma tarefa à pessoa responsável por solicitar novas contas de usuário do Microsoft Azure Active Directory (Azure AD) no portal do Azure. Use a tarefa predefinida **Enviar convite de usuário B2B do Azure** para esta etapa. Os usuários B2B podem ser exportados automaticamente para o Azure AD. Use o **Provisionar usuário B2B do Azure AD** predefinido. Para obter mais informações, consulte [Exportar usuários B2B para o Azure AD](../../fin-ops-core/dev-itpro/sysadmin/implement-b2b.md).
 3. Atribua uma tarefa de aprovação à pessoa que carrega no Azure. Se uma conta não for criada com êxito, essa pessoa rejeitará a tarefa e terminará o fluxo de trabalho. Essa tarefa de aprovação poderá ser ignorada se você tiver incluído a etapa que exporta automaticamente novas contas de usuário para o Azure por meio da API (interface de programação de aplicativo) B2B.
 4. Adicione uma tarefa automatizada que provisione um novo usuário. Use a tarefa predefinida **Usuário de provisão automatizado** para esta etapa.
-5. Adicione uma tarefa que notifique o novo usuário. Talvez você queira enviar ao novo usuário um email de boas-vindas que inclua uma URL para o Supply Chain Management. Este email pode usar um modelo que você cria na página **Mensagens de email** e, em seguida, seleciona na página **Parâmetros do fluxo de trabalho do usuário**. O modelo pode incluir a marca **%portalURL%**. Quando o email de boas-vindas for gerado, essa marca que será substituída pela URL do locatário do Supply Chain Management.
+5. Adicione uma tarefa que notifique o novo usuário. Talvez você queira enviar ao novo usuário um email de boas-vindas que inclua uma URL para o Supply Chain Management. Este email pode usar um modelo que você cria na página **Mensagens de email** e, em seguida, seleciona na página **Parâmetros do fluxo de trabalho do usuário**. O modelo pode incluir a marca **%portalURL%**. Quando o email de boas-vindas for gerado, essa marca será substituída pela URL do locatário do Supply Chain Management.
 
     > [!NOTE]
     > Esse fluxo de trabalho pode ser usado em vários cenários que envolvam integração com o usuário. Por exemplo, ele poderá ser usado quando fornecedores potenciais ou pessoas de contato exigirem uma conta de colaboração do fornecedor. Portanto, você deve formular o email como uma instrução geral que possa ser usada para várias finalidades.
@@ -138,13 +135,7 @@ Crie um fluxo de trabalho do tipo **Desativar plataforma de fluxo de trabalho de
 
 ## <a name="enable-vendor-collaboration-for-a-specific-vendor"></a>Habilitar colaboração do fornecedor para um fornecedor específico
 
-Antes de criar uma conta de usuário para alguém que usará a colaboração do fornecedor, você deverá configurar o fornecedor para que ele possa usar a colaboração do fornecedor. Na página **Fornecedores**, na guia **Geral**, defina o campo **Ativação de colaboração**. As opções a seguir estão disponíveis:
-
-- **Ativo (a OC é confirmada automaticamente)** – as ordens de compra são confirmadas automaticamente quando o fornecedor as aceita sem solicitar alterações.
-- **Ativo (a OC não é confirmada automaticamente)** – sua organização deve confirmar manualmente as ordens de compra depois que o fornecedor as tiver aceitado.
-
-> [!NOTE]
-> Os profissionais de compras da sua empresa também podem concluir essa tarefa.
+Antes de criar uma conta de usuário para alguém que usará a colaboração do fornecedor, você deverá configurar o fornecedor para que ele possa usar a colaboração do fornecedor. Para obter detalhes sobre como fazer isso, consulte [Colaboração do fornecedor com fornecedores externos](vendor-collaboration-work-external-vendors.md).
 
 ## <a name="troubleshoot-the-provisioning-of-new-vendor-collaboration-users"></a>Solucionar problemas do provisionamento de novos usuários de colaboração do fornecedor
 

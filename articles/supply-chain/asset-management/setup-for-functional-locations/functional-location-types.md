@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: johanho
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 01c8276d77f7655659cab13f3c520d7c171e3cfd
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: 0c44e503900bd157d7f0159cdf2b2d0c1fb3393f
+ms.sourcegitcommit: cfe8fbc202c3eb05d894076fdf99e46704f17365
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8879211"
+ms.lasthandoff: 06/15/2022
+ms.locfileid: "9015773"
 ---
 # <a name="functional-location-types"></a>Tipos de local funcional
 
@@ -57,7 +57,7 @@ O tipo de local funcional padrão a ser usado somente em um local funcional padr
 7. O campo **Tipo de ativo** é usado para criar automaticamente o ativo *um* para o local funcional com a mesma ID e nome que o local funcional que você está criando. Por exemplo, isso pode ser relevante se você cria um local funcional estático, como um prédio ou um pipeline. Nesse caso, selecione o tipo de ativo a ser usado para o ativo criado automaticamente. Lembre-se de que, se você fizer uma seleção neste campo, o botão de alternância **Vários ativos** deverá ser definido como "Não".
 8. Na Guia Rápida **Tipos de ativo**, selecione os tipos de ativo a serem relacionados ao tipo de local funcional. Selecione **Adicionar linha** e os tipos de ativos. Se você adicionar tipos de ativos aqui, somente os ativos que usam esses tipos de ativo poderão ser instalados em um local funcional usando esse tipo de local funcional. Se nenhum tipo de ativo for selecionado na Guia Rápida **Tipos de ativo**, todos os tipos de ativo poderão ser instalados.
 9. Na Guia Rápida **Planos de manutenção**, selecione planos de manutenção que devem ser automaticamente configurados em novos locais funcionais usando esse tipo de local funcional. Selecione **Adicionar linha** e os planos de manutenção. Se adicionar planos de manutenção aqui, somente esses planos poderão ser usados em um local funcional por meio desse tipo de local funcional.
-10. Na Guia Rápida **Requisitos de atributos de ativos**, configure os atributos de ativos que devem ser automaticamente configurados em novos locais funcionais usando esse tipo de local funcional. Selecione **Adicionar linha** e o atributo. Esses requisitos de atributos funcionam como diretrizes. Eles não são validados em relação a atributos configurados em um ativo (**Gerenciamento de ativos** > **Comum** > **Ativos** > **Todos os ativos** > selecione o ativo na página de lista > guia **Geral** > botão **Atributos**). Os requisitos de atributos são exibidos quando você instala ativos em locais funcionais.
+10. Na Guia Rápida **Requisitos de atributos de ativos**, configure os atributos de ativos que devem ser automaticamente configurados em novos locais funcionais usando esse tipo de local funcional. Selecione **Adicionar linha** e o atributo. Esses requisitos de atributos funcionam como diretrizes. Eles não são validados em relação a atributos configurados em um ativo (**Gerenciamento de ativos** > **Ativos** > **Todos os ativos** > selecione o ativo na página de listagem > guia **Geral** > botão **Atributos**). Os requisitos de atributos são exibidos quando você instala ativos em locais funcionais.
 11. Na Guia Rápida **Tipos permitidos**, selecione os tipos de locais funcionais que devem estar válidas para os tipos de sublocais funcionais relacionados a um tipo de local funcional pai, que utiliza o tipo de local funcional selecionado.
 12. Na Guia Rápida **Atributos**, selecione atributos de local funcional que devem ser automaticamente configurados em locais funcionais usando esse tipo de local funcional. Selecione **Adicionar linha** e o atributo.
 

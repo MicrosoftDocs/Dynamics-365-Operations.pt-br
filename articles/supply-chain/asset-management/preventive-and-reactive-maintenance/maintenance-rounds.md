@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: johanho
 ms.search.validFrom: 2019-08-31
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: dfb75d69f20c68a40242bb1c0c25ca77f85e0c14
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: 519431d84652e45dcd45aefbbaaa2a0e2afe6349
+ms.sourcegitcommit: cfe8fbc202c3eb05d894076fdf99e46704f17365
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8852861"
+ms.lasthandoff: 06/15/2022
+ms.locfileid: "9016497"
 ---
 # <a name="maintenance-rounds"></a>Rounds de manutenção
 
@@ -87,7 +87,7 @@ A ilustração a seguir mostra um exemplo de um round de manutenção contendo t
 
 Ao configurar um round de manutenção, você executa um trabalho de agendamento para agendar todos os trabalhos relacionados a ele.
 
-1. Clique no botão **Gerenciamento de ativos** > **Periódico** > **Manutenção preventiva** > **Agendar rounds de manutenção** ou **Gerenciamento de ativos** > **Comum** > **Agendamento de manutenção** > **Todo agendamento de manutenção** ou **Abrir linhas de agendamento de manutenção** ou **Abrir grupos de agendamento de manutenção** > selecione linha de agendamento de manutenção na lista > **Rounds de manutenção**.
+1. Clique em **Gerenciamento de ativos** > **Periódico** > **Manutenção preventiva** > **Agendar rounds de manutenção** ou em **Gerenciamento de ativos** > **Agendamento de manutenção** > **Todo agendamento de manutenção** ou em **Abrir linhas de agendamento de manutenção** ou **Abrir grupos de agendamento de manutenção** > selecione a linha de agendamento de manutenção na lista > botão **Rounds de manutenção**.
 
 2. No campo **Período**, selecione o tipo de período a ser usado para o trabalho de agendamento.
 
@@ -102,7 +102,7 @@ Ao configurar um round de manutenção, você executa um trabalho de agendamento
 
 6. Clique em **OK**.
 
-7. Agora você pode ver os trabalhos dos rounds de manutenção no **Gerenciamento de ativos** > **Comum** > **Agendamento de manutenção** > **Todo agendamento de manutenção** ou **Abrir linhas de agendamento de manutenção**. Se os rounds programados forem conectados a um grupo de ordem de serviço, você também poderá ver as linhas de agendamento de manutenção em **Abrir grupos de agendamento de manutenção**. As linhas de agendamento de manutenção criadas a partir de um round têm o tipo de referência "Rounds de manutenção".
+7. Agora você pode ver os trabalhos dos rounds de manutenção em **Gerenciamento de ativos** > **Agendamento de manutenção** > **Todos os agendamentos de manutenção** ou **Abrir linhas de agendamento de manutenção**. Se os rounds programados forem conectados a um grupo de ordem de serviço, você também poderá ver as linhas de agendamento de manutenção em **Abrir grupos de agendamento de manutenção**. As linhas de agendamento de manutenção criadas a partir de um round têm o tipo de referência "Rounds de manutenção".
 
 As duas ilustrações a seguir mostram um trabalho de agendamento na caixa de diálogo **Agendar rounds de manutenção** e as linhas do agendamento de manutenção criadas em **Todos os agendamentos de manutenção** com base nesse trabalho de agendamento.
 

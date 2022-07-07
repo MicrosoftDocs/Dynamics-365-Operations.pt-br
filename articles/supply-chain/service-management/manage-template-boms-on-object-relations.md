@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: sorenand
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 723eae906260d152a8729f91c75cd9860eca84c5
-ms.sourcegitcommit: 9166e531ae5773f5bc3bd02501b67331cf216da4
+ms.openlocfilehash: 4f2b4213574a2d84089ab20ab1a584e1ab894ad9
+ms.sourcegitcommit: cfe8fbc202c3eb05d894076fdf99e46704f17365
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/03/2022
-ms.locfileid: "8669478"
+ms.lasthandoff: 06/15/2022
+ms.locfileid: "9016352"
 ---
 # <a name="manage-template-boms-on-object-relations"></a>Gerenciar BOMs de modelo nas relações de objeto 
 
@@ -29,7 +29,7 @@ ms.locfileid: "8669478"
 
 ## <a name="attach-a-template-bom-to-a-service-object"></a>Anexar uma BOM de modelo a um objeto de serviço
 
-1.  Clique em **Gerenciamento de serviços** \> **Comum** \> **Contratos de serviço** \> **Contratos de serviço**.
+1.  Clique em **Gerenciamento de serviços** \> **Contratos de serviço** \> **Contratos de serviço**.
 
 2.  Clique duas vezes no contrato de serviço no qual você deseja anexar uma BOM de modelo a uma relação de objetos.
 
@@ -43,7 +43,7 @@ ms.locfileid: "8669478"
 
 ## <a name="delete-a-service-bom-from-a-service-object"></a>Excluir uma BOM de serviço de um objeto de serviço
 
-1.  Clique em **Gerenciamento de serviços** \> **Comum** \> **Contratos de serviço** \> **Contratos de serviço**.
+1.  Clique em **Gerenciamento de serviços** \> **Contratos de serviço** \> **Contratos de serviço**.
 
 2.  Clique duas vezes no contrato de serviço no qual você deseja excluir uma BOM de serviço de uma relação de objetos.
 
@@ -55,7 +55,7 @@ ms.locfileid: "8669478"
 
 ## <a name="move-the-service-bom-history-from-one-service-agreement-to-another"></a>Mover o histórico da BOM de serviço de um contrato de serviço para outro
 
-1.  Clique em **Gerenciamento de serviços** \> **Comum** \> **Contratos de serviço** \> **Contratos de serviço**.
+1.  Clique em **Gerenciamento de serviços** \> **Contratos de serviço** \> **Contratos de serviço**.
 
 2.  Clique duas vezes no contrato de serviço para mover uma BOM de serviço.
 

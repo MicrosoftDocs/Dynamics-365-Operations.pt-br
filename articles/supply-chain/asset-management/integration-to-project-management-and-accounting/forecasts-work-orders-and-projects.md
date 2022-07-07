@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: johanho
 ms.search.validFrom: 2019-08-31
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: 80f0380d50a0c050242846c0c3e70bc1a0bd6bf5
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: df1e1fe352add8361309df54b2178ec27752466d
+ms.sourcegitcommit: cfe8fbc202c3eb05d894076fdf99e46704f17365
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8880441"
+ms.lasthandoff: 06/15/2022
+ms.locfileid: "9016787"
 ---
 # <a name="forecasts-work-orders-and-projects"></a>Previsões, ordens de serviço e projetos
 
@@ -60,7 +60,7 @@ Por exemplo, na ilustração a seguir, por causa da maneira como o tipo de ativo
 
 ![Figura 1.](media/01-integration-to-pma.png)
 
-A finalidade da ID do projeto no trabalho da ordem de serviço e o número de atividade relacionado é rastrear os custos relacionados ao trabalho da ordem de serviço e o ativo selecionado nela, no módulo **Gerenciamento e contabilidade de projeto**. (Para exibir a ID de projeto e o número da atividade, selecione **Gerenciamento de ativos** > **Comum** > **Ordens de serviço** > **Todas as ordens de serviço** e selecione a ordem de serviço. Na Guia Rápida **Detalhes da linha**, o campo **ID do projeto** mostra a ID do projeto e o campo **Número da atividade** mostra o número da atividade.) Para obter mais informações sobre controle de custos no Gerenciamento de Ativos, consulte [Controle de custo e data](../controlling-and-reporting/cost-and-date-control.md).
+A finalidade da ID do projeto no trabalho da ordem de serviço e o número de atividade relacionado é rastrear os custos relacionados ao trabalho da ordem de serviço e o ativo selecionado nela, no módulo **Gerenciamento e contabilidade de projeto**. (Para exibir a ID do projeto e o número da atividade, selecione **Gerenciamento de ativos** > **Ordens de serviço** > **Todas as ordens de serviço** e selecione a ordem de serviço. Na Guia Rápida **Detalhes da linha**, o campo **ID do projeto** mostra a ID do projeto e o campo **Número da atividade** mostra o número da atividade.) Para obter mais informações sobre controle de custos no Gerenciamento de Ativos, consulte [Controle de custo e data](../controlling-and-reporting/cost-and-date-control.md).
 
 A ilustração a seguir mostra uma visão geral gráfica dos projetos de ordem de serviço e das atividades de projeto relacionadas.
 

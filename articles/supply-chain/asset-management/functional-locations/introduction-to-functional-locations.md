@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: johanho
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 4a1c8c4db9aee68584ab35949745132091a34a58
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: a94b366dc725db3af01c156ae517a241213f7d52
+ms.sourcegitcommit: cfe8fbc202c3eb05d894076fdf99e46704f17365
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8882827"
+ms.lasthandoff: 06/15/2022
+ms.locfileid: "9016033"
 ---
 # <a name="introduction-to-functional-locations"></a>Introdução a locais funcionais
 
@@ -59,9 +59,9 @@ Depois de criar uma hierarquia de locais funcionais, a próxima etapa será inst
 
 ## <a name="all-functional-locations"></a>Todos os locais funcionais
 
-Selecione **Gerenciamento de ativos** \> **Comum** \> **Locais funcionais** \> **Todos os locais funcionais** para abrir a página de lista **Todos os locais funcionais**. Esta página mostra todos os locais funcionais e algumas das informações relacionadas a cada um. Para exibir apenas locais funcionais ativos, selecione **Locais funcionais ativos**. Para exibir somente os locais funcionais aos quais você está relacionado como um trabalhador, selecione **Meus locais funcionais ativos**. (Essa relação é configurada na página **Trabalhadores**. Para obter mais informações, consulte [Trabalhadores de manutenção e grupos de trabalhadores](../setup-for-objects/workers-and-worker-groups.md).)
+Selecione **Gerenciamento de ativos** \> **Locais funcionais** \> **Todos os locais funcionais** para abrir a página de listagem **Todos os locais funcionais**. Esta página mostra todos os locais funcionais e algumas das informações relacionadas a cada um. Para exibir apenas locais funcionais ativos, selecione **Locais funcionais ativos**. Para exibir somente os locais funcionais aos quais você está relacionado como um trabalhador, selecione **Meus locais funcionais ativos**. (Essa relação é configurada na página **Trabalhadores**. Para obter mais informações, consulte [Trabalhadores de manutenção e grupos de trabalhadores](../setup-for-objects/workers-and-worker-groups.md).)
 
-Na página de lista **Todos os locais funcionais**, selecione um link na coluna **Local funcional** para exibir os detalhes do registro selecionado. Para editar o local funcional, selecione o botão **Editar**. A exibição de detalhes mostra informações detalhadas relacionadas ao local. Ela também incluem um painel **Informações relacionadas** à direita. Esse painel mostra a hierarquia de locais funcionais. Você pode expandir e recolher o painel **Informações relacionadas**.
+Na página de listagem **Todos os locais funcionais**, selecione um link na coluna **Local funcional** para exibir os detalhes do registro selecionado. Para editar o local funcional, selecione o botão **Editar**. A exibição de detalhes mostra informações detalhadas relacionadas ao local. Ela também incluem um painel **Informações relacionadas** à direita. Esse painel mostra a hierarquia de locais funcionais. Você pode expandir e recolher o painel **Informações relacionadas**.
 
 Os botões no Painel de Ação estão organizados em guias. A tabela a seguir descreve brevemente os botões relacionados ao Asset Management.
 

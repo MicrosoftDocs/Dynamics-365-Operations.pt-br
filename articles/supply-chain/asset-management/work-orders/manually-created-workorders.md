@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: johanho
 ms.search.validFrom: 2019-09-30
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: eb29c5e7170011b95151d9aaf2a96a570563096d
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: 5d2cc1f5b8eccb51b6bea8655fdee243c1a2df55
+ms.sourcegitcommit: cfe8fbc202c3eb05d894076fdf99e46704f17365
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8902072"
+ms.lasthandoff: 06/15/2022
+ms.locfileid: "9015017"
 ---
 # <a name="manually-created-work-orders"></a>Ordens de serviço criadas manualmente
 
@@ -34,7 +34,7 @@ ms.locfileid: "8902072"
 
 ## <a name="create-work-order"></a>Criar ordem de serviço
 
-1. Selecione **Gerenciamento de ativos** > **Comum** > **Ordens de serviço** > **Todas as ordens de serviço** ou **Ordens de serviço ativas**.
+1. Selecione **Gerenciamento de ativos** > **Ordens de serviço** > **Todas as ordens de serviço** ou **Ordens de serviço ativas**.
 
 2. Selecione **Novo**.
 
@@ -82,7 +82,7 @@ Observe os seguintes pontos:
 
 Você pode criar uma ordem de serviço relacionada a uma ordem de serviço existente. Esse recurso é útil se você, por exemplo, quiser trabalhar com ordens de serviço primárias e secundárias. Uma nova ordem de serviço é baseada em um trabalho da ordem de serviço de uma ordem de serviço existente.
 
-1. Selecione **Gerenciamento de ativos** > **Comum** > **Ordens de serviço** > **Todas as ordens de serviço** ou **Ordens de serviço ativas**.
+1. Selecione **Gerenciamento de ativos** > **Ordens de serviço** > **Todas as ordens de serviço** ou **Ordens de serviço ativas**.
 
 2. Selecione a ordem de serviço para criar uma ordem de serviço relacionada.
 
@@ -120,7 +120,7 @@ A ilustração a seguir mostra um exemplo da caixa de diálogo **Criar ordem de 
 
 É possível criar uma nova ordem de serviço rapidamente por meio de uma ordem de serviço existente. Essa forma de trabalhar com ordens de serviço é diferente de criar ordens de serviço com base em [planos de manutenção](../preventive-and-reactive-maintenance/maintenance-plans.md). É útil se, por exemplo, uma ordem de serviço tiver vários trabalhos de ordem de serviço, e esses vários trabalhos tiverem de ser concluídos em ativos diferentes em intervalos regulares.
 
-1. Selecione **Gerenciamento de ativos** > **Comum** > **Ordens de serviço** > **Todas as ordens de serviço** ou **Ordens de serviço ativas**.
+1. Selecione **Gerenciamento de ativos** > **Ordens de serviço** > **Todas as ordens de serviço** ou **Ordens de serviço ativas**.
 
 2. Selecione a ordem de serviço da qual copiar o conteúdo.
 
@@ -142,7 +142,7 @@ A ilustração a seguir mostra um exemplo da caixa de diálogo **Copiar ordem de
 
 ## <a name="create-a-work-order-based-on-a-maintenance-request"></a>Criar uma ordem de serviço com base em uma solicitação de manutenção
 
-1. Selecione **Gerenciamento de ativos** > **Comum** > **Solicitações de manutenção** > **Todas as solicitações de manutenção** ou **Solicitações de manutenção ativas**.
+1. Selecione **Gerenciamento de ativos** > **Solicitações de manutenção** > **Todas as solicitações de manutenção** ou **Solicitações de manutenção ativas**.
 
 2. Selecione a solicitação de manutenção para a qual criar uma ordem de serviço e clique em **Editar**.
 

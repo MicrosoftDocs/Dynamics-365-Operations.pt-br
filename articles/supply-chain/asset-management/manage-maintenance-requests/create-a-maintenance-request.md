@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: johanho
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: c3def1b8ebd75da44588732d9f54a1cc03c999c6
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: 92f3a2bc3d2a4d5d1c3be0c6dda2674dc3e7d0bb
+ms.sourcegitcommit: cfe8fbc202c3eb05d894076fdf99e46704f17365
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8891224"
+ms.lasthandoff: 06/15/2022
+ms.locfileid: "9016816"
 ---
 # <a name="create-maintenance-requests"></a>Crie solicitações de manutenção
 
@@ -32,9 +32,9 @@ As solicitações de manutenção poderão ser usadas se os funcionários de man
 
 **Exemplo:** enquanto um funcionário de manutenção está fazendo um reparo, eles descobrem que outro ativo no mesmo local deve ser atendido. Entretanto, a funcionária de manutenção não tem o tempo ou as peças sobressalentes necessárias para realizar o trabalho de reparo. Então, eles criam uma solicitação de manutenção no ativo e inserem uma breve descrição do problema.
 
-A seção **Solicitações de manutenção de ativos** do painel **Informações relacionadas** no lado direito da página **Todos os ativos** ou **Ativos ativos** (**Gerenciamento de ativos** \> **Comum** \> **Ativos** \> **Todos os ativos** ou **Ativos ativos**) mostra solicitações de manutenção de ativos anexadas ao ativo selecionado.
+A seção **Solicitações de manutenção ativas** do painel **Informações relacionadas** no lado direito da página **Todos os ativos** ou a página **Todos os ativos** (**Gerenciamento de ativos** \> **Assets** \> **Todos os ativos** ou **Ativos ativos**) mostra as solicitações de manutenção ativas anexadas ao ativo selecionado.
 
-1. Selecione **Gerenciamento de ativos** \> **Comum** \> **Solicitações de manutenção** \> **Todas as solicitações de manutenção** ou **Solicitações manutenção de ativos**.
+1. Selecione **Gerenciamento de ativos** \> **Solicitações de manutenção** \> **Todas as solicitações de manutenção** or **Solicitações de manutenção ativas**.
 2. Selecione **Novo**.
 3. Na caixa de diálogo **Criar solicitação**, no campo **Tipo de solicitação de manutenção**, selecione o tipo de solicitação de manutenção. Um tipo padrão é sugerido.
 4. No campo **Descrição**, insira um nome ou título que descreva resumidamente a solicitação de manutenção.

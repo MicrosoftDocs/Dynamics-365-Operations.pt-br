@@ -1,8 +1,8 @@
 ---
-title: Configurar BOPIS em um ambiente de avaliação do Dynamics 365 Commerce
-description: Este artigo explica como configurar e fazer compras online, retirar na loja (BOPIS) em um ambiente de avaliação do Microsoft Dynamics 365 Commerce após ele ter sido provisionado.
+title: Configurar BOPIS em um ambiente de área restrita do Dynamics 365 Commerce
+description: Este artigo explica como configurar e fazer compras online, retirar na loja (BOPIS) em um ambiente de área restrita do Microsoft Dynamics 365 Commerce depois que ele for provisionado.
 author: BrianShook
-ms.date: 07/16/2020
+ms.date: 06/14/2022
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -14,22 +14,22 @@ ms.search.region: Global
 ms.author: brshoo
 ms.search.validFrom: 2020-04-20
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: 379537fd490be98497b6e7c5cdfbc33798fe28ad
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: 16cea7beb6ca05b5e96a9713b1217b414e27d56e
+ms.sourcegitcommit: 252cb41c3029b623354698463f7b44a29fd9f184
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8861957"
+ms.lasthandoff: 06/15/2022
+ms.locfileid: "9013153"
 ---
-# <a name="configure-bopis-in-a-dynamics-365-commerce-evaluation-environment"></a>Configurar BOPIS em um ambiente de avaliação do Dynamics 365 Commerce
+# <a name="configure-bopis-in-a-dynamics-365-commerce-sandbox-environment"></a>Configurar BOPIS em um ambiente de área restrita do Dynamics 365 Commerce
 
 [!include [banner](includes/banner.md)]
 
-Este artigo explica como configurar e fazer compras online, retirar na loja (BOPIS) em um ambiente do Microsoft Dynamics 365 Commerce após o ambiente ter sido provisionado.
+Este artigo explica como configurar e fazer compras online, retirar na loja (BOPIS) em um ambiente de área restrita do Microsoft Dynamics 365 Commerce depois que o ambiente for provisionado.
 
 ## <a name="prerequisite"></a>Pré-requisito
 
-Conclua os procedimentos neste artigo somente após o provisionamento e a configuração do seu ambiente de avaliação do Commerce. Para obter informações sobre como provisionar e configurar seu ambiente, consulte [Provisionar um ambiente de avaliação do Dynamics 365 Commerce](provisioning-guide.md) e [Configurar um ambiente de avaliação do Dynamics 365 Commerce](./cpe-post-provisioning.md).
+Conclua os procedimentos neste artigo somente após o provisionamento e a configuração do seu ambiente de área restrita do Commerce. Para obter informações sobre como provisionar e configurar seu ambiente, consulte [Provisionar um ambiente de área restrita do Dynamics 365 Commerce](provisioning-guide.md) e [Configurar um ambiente de área restrita do Dynamics 365 Commerce](./cpe-post-provisioning.md).
 
 Depois que o ambiente do Commerce tiver sido provisionado e configurado de ponta a ponta, é possível usar esse artigo para habilitar cenários de BOPIS.
 
@@ -67,7 +67,7 @@ Os cenários de BOPIS que envolvem um pagamento em cartão de crédito exigem um
 5. Uma caixa de diálogo de autenticação é exibida. Selecione a conta que usa o endereço de email que foi associado previamente ao trabalhador **000713 - Andrew Collette**.
 
     > [!NOTE]
-    > Se você ainda não associou um trabalhador à sua identidade, a ativação não terá êxito. Nesse caso, siga as etapas na seção "Associar um trabalhador à sua identidade" no artigo [Configurar um ambiente de avaliação do Dynamics 365 Commerce](cpe-post-provisioning.md#associate-a-worker-with-your-identity).
+    > Se você ainda não associou um trabalhador à sua identidade, a ativação não terá êxito. Nesse caso, siga as etapas na seção "Associar um trabalhador à sua identidade" no artigo [Configurar um ambiente de área restrita do Dynamics 365 Commerce](cpe-post-provisioning.md#associate-a-worker-with-your-identity).
     
 6. Quando for solicitado permitir que a sua organização gerencie o dispositivo, selecione **Somente este aplicativo**.
 7. Quando a ativação for concluída, selecione **Introdução**.
@@ -140,13 +140,9 @@ Para todos os problemas gerais, é necessário sempre consultar o PDV Moderno ou
 
 ## <a name="additional-resources"></a>Recursos adicionais
 
-[Visão geral do ambiente de avaliação do Dynamics 365 Commerce](cpe-overview.md)
+[Provisionar um ambiente de área restrita do Dynamics 365 Commerce](provisioning-guide.md)
 
-[Provisionar um ambiente de avaliação do Dynamics 365 Commerce](provisioning-guide.md)
-
-[Configurar recursos opcionais para um ambiente de avaliação do Dynamics 365 Commerce](cpe-optional-features.md)
-
-[Perguntas frequentes sobre o ambiente de avaliação do Dynamics 365 Commerce](cpe-faq.md)
+[Configurar recursos opcionais para um ambiente de área restrita do  Dynamics 365 Commerce](cpe-optional-features.md)
 
 [Microsoft Lifecycle Services (LCS)](/dynamics365/unified-operations/dev-itpro/lifecycle-services/lcs-user-guide)
 

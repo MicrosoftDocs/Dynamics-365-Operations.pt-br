@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: sorenand
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: e75ed6e30ece1f4807ff036d831c269774d941a7
-ms.sourcegitcommit: 9166e531ae5773f5bc3bd02501b67331cf216da4
+ms.openlocfilehash: 228b76d6f6f0bb048662c8e82df76f51b7cb3652
+ms.sourcegitcommit: cfe8fbc202c3eb05d894076fdf99e46704f17365
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/03/2022
-ms.locfileid: "8670962"
+ms.lasthandoff: 06/15/2022
+ms.locfileid: "9017366"
 ---
 # <a name="cancel-service-orders"></a>Cancelar ordens de serviço   
 
@@ -36,11 +36,11 @@ ms.locfileid: "8670962"
 
 ## <a name="cancel-a-service-order-in-the-service-orders-form"></a>Cancelar uma ordem de serviço no formulário Ordens de serviço
 
-1.  Clique em **Gerenciamento de serviços** \> **Comum** \> **Ordens de serviço** \> **Ordens de serviço**. Selecione a ordem de serviço e, no Painel de Ação, clique em **Cancelar ordem**.
+1.  Clique em **Gerenciamento de serviços** \> **Ordens de serviço** \> **Ordens de serviço**. Selecione a ordem de serviço e, no Painel de Ação, clique em **Cancelar ordem**.
 
 ## <a name="cancel-a-service-order-line"></a>Cancelar uma linha de ordem de serviço
 
-1.  Clique em **Gerenciamento de serviços** \> **Comum** \> **Ordens de serviço** \> **Ordens de serviço**. Clique duas vezes na ordem de serviço que contém a linha que deseja cancelar.
+1.  Clique em **Gerenciamento de serviços** \> **Ordens de serviço** \> **Ordens de serviço**. Clique duas vezes na ordem de serviço que contém a linha que deseja cancelar.
 
 2.  Selecione a linha da ordem de serviço que deseja cancelar e, em seguida, clique em **Cancelar linha de ordem** para alterar o status da linha para **Cancelado**.
 

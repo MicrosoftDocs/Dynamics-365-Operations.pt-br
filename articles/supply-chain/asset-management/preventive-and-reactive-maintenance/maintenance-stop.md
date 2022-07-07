@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: johanho
 ms.search.validFrom: 2019-08-31
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: 75e30c8b2d74cc2f1ca538b64e5fc801f9ca130a
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: 42e8ba4e19333cb25464203a2583175ef082ad98
+ms.sourcegitcommit: cfe8fbc202c3eb05d894076fdf99e46704f17365
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8897680"
+ms.lasthandoff: 06/15/2022
+ms.locfileid: "9016468"
 ---
 # <a name="maintenance-downtime-activities"></a>Atividades de tempo de inatividade de manutenção
 
@@ -38,14 +38,14 @@ Quando os ativos forem selecionados em um registro de tempo de inatividade de ma
 
 ## <a name="maintenance-downtime-activities"></a>Atividades de tempo de inatividade de manutenção
 
-Clique em **Gerenciamento de ativos** > **Comum** > **Atividades do tempo de inatividade de manutenção** > **Todas atividades do tempo de inatividade de manutenção** para abrir uma lista de todas as atividades do tempo de inatividade de manutenção e para ver algumas informações relacionadas às atividades. Clique em um link na coluna **Atividades do tempo de inatividade de manutenção** para abrir a exibição de detalhes. A ilustração a seguir mostra um exemplo da lista **Atividades do tempo de inatividade de manutenção**.
+Clique em **Gerenciamento de ativos** > **Atividades do tempo de inatividade de manutenção** > **Todas atividades do tempo de inatividade de manutenção** para abrir uma lista de todas as atividades do tempo de inatividade de manutenção e para ver algumas informações relacionadas às atividades. Clique em um link na coluna **Atividades do tempo de inatividade de manutenção** para abrir a exibição de detalhes. A ilustração a seguir mostra um exemplo da lista **Atividades do tempo de inatividade de manutenção**.
 
 ![Figura 1.](media/19-preventive-maintenance.png)
 
 
 ## <a name="create-a-maintenance-downtime-activity"></a>Criar uma atividade do tempo de inatividade de manutenção
 
-1. Clique **Gerenciamento de ativos** > **Comum** > **Atividades do tempo de inatividade de manutenção** > **Todas atividades do tempo de inatividade de manutenção** ou **Atividades do tempo de inatividade de manutenção ativas**.
+1. Clique **Gerenciamento de ativos** > **Atividades do tempo de inatividade de manutenção** > **Todas atividades do tempo de inatividade de manutenção** ou **Atividades do tempo de inatividade de manutenção ativas**.
 
 2. Clique em **Novo**.
 

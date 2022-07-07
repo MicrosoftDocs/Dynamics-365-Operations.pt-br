@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: johanho
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 34ab83c9f9673c39006b3985ebaac9e17a45da82
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: 5b13db8b8b12aaef2e067f9a55eb8754333eb16b
+ms.sourcegitcommit: cfe8fbc202c3eb05d894076fdf99e46704f17365
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8908762"
+ms.lasthandoff: 06/15/2022
+ms.locfileid: "9017135"
 ---
 # <a name="multi-level-assets"></a>Ativos de vários níveis
 
@@ -30,7 +30,7 @@ ms.locfileid: "8908762"
 
 Este artigo explica como criar e excluir ativos de vários níveis. É possível criar ativos e subativos relacionados em uma estrutura de árvore hierárquica. Dessa forma, você pode mostrar as relações e dependências entre os ativos. Os trabalhos de manutenção podem ser relacionados a todos os níveis da estrutura de árvore. Também é possível criar estatísticas para um nível individual ou como uma soma de todos os níveis do ativo.
 
-Na página da lista **Todos os ativos** (**Gerenciamento de ativos** \> **Comum** \> **Ativos** \> **Todos os ativos**), a coluna **Ativo** lista os ativos em ordem hierárquica. A coluna **Responsável** mostra o responsável relacionado. Além disso, se os ativos e subativos já tiverem sido criados, a seção **Árvore de ativos** no painel **Informações relacionadas** mostrará os ativos em uma estrutura de árvore.
+Na página de listagem **Todos os ativos** (**Gerenciamento de ativos** \> **Ativos** \> **Todos os ativos**), a coluna **Ativo** lista os ativos em ordem hierárquica. A coluna **Responsável** mostra o responsável relacionado. Além disso, se os ativos e subativos já tiverem sido criados, a seção **Árvore de ativos** no painel **Informações relacionadas** mostrará os ativos em uma estrutura de árvore.
 
 Para obter informações sobre como criar um ativo, consulte [Criar um ativo](../objects/create-an-object.md). Para criar um subativo, selecione o ativo pai no campo **Ativo pai** da FastTab **Geral**.
 
@@ -38,7 +38,7 @@ Para obter informações sobre como criar um ativo, consulte [Criar um ativo](..
 
 Se sua empresa tiver diversas estruturas semelhantes de ativos, você poderá usar a função Copiar em Gerenciamento de ativos para criá-las rapidamente.
 
-1. Selecione **Gerenciamento de ativos** \> **Comum** \> **Ativos** \> **Todos os ativos**.
+1. Selecione **Gerenciamento de ativos** \> **Ativos** \> **Todos os ativos**.
 2. Na página da lista **Todos os ativos**, selecione o ativo a ser copiado. Por exemplo, se você quiser copiar a estrutura de ativos inteira, incluindo os subativos, selecione um ativo pai.
 3. Selecione **Copiar ativo**. Na seção **Copiar de**, o campo **Ativo** é definido como o ativo selecionado na página da lista.
 4. Na seção **Copiar para**, no campo **Ativo**, insira o nome do novo ativo.

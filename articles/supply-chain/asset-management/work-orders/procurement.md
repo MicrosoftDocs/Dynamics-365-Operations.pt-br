@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: johanho
 ms.search.validFrom: 2019-09-30
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: 015499463f1eab4aaa3f3658b3204229382e73cb
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: 6e41a28ec922924b0ef86858a881280fd44bfe63
+ms.sourcegitcommit: cfe8fbc202c3eb05d894076fdf99e46704f17365
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8893632"
+ms.lasthandoff: 06/15/2022
+ms.locfileid: "9014942"
 ---
 # <a name="procurement"></a>Compras
 
@@ -28,7 +28,7 @@ ms.locfileid: "8893632"
 
 Em Gerenciamento de ativos, você pode obter uma visão geral das requisições de compra e ordens de compra que estão relacionadas a ordens de serviço. Você também pode criar uma ordem de compra ou uma requisição de compra de uma ordem de serviço.
 
-A página de listagem **Requisição de compra de ordem de serviço** (**Gerenciamento de ativos** > **Comum** > **Compras** > **Requisição de compra de ordem de serviço**) mostra uma lista de requisições de compra que estão relacionadas a ordens de serviço. Ao selecionar um trabalho de ordem de serviço nessa página, você pode usar os botões no grupo **Exibir** na guia Painel de ações da **Requisição de compra da ordem de serviço** para realizar várias ações:
+A página de listagem **Requisição de compra da ordem de serviço** (**Gerenciamento de ativos** > **Compras** > **Requisição de compra da ordem de serviço**) mostra uma lista de requisições de compra que estão relacionadas a ordens de serviço. Ao selecionar um trabalho de ordem de serviço nessa página, você pode usar os botões no grupo **Exibir** na guia Painel de ações da **Requisição de compra da ordem de serviço** para realizar várias ações:
 
 - Para abrir a requisição de compra relacionada, selecione **Requisição de compra**. 
 - Para abrir a ordem de serviço relacionada, selecione **Ordem de serviço**.
@@ -39,7 +39,7 @@ A ilustração abaixo mostra um exemplo da página de listagem **Requisição de
 ![Figura 1.](media/08-work-orders.png)
 
 
-A página de listagem **Compra de ordem de serviço** (**Gerenciamento de ativos** > **Comum** > **Compras** > **Requisição de compra de ordem de serviço**) mostra uma lista de ordens de compra que estão relacionadas a ordens de serviço. Ao selecionar um trabalho de ordem de serviço nessa página, você pode usar os botões no grupo **Exibir** na guia Painel de ações da **Compra da ordem de serviço** para realizar várias ações:
+A página de listagem **Compra da ordem de serviço** (**Gerenciamento de ativos** > **Compras** > **Compra de ordem de serviço**) mostra uma lista de ordens de compra que estão relacionadas a ordens de serviço. Ao selecionar um trabalho de ordem de serviço nessa página, você pode usar os botões no grupo **Exibir** na guia Painel de ações da **Compra da ordem de serviço** para realizar várias ações:
 
 - Para abrir a ordem de compra relacionada, selecione **Ordem de compra**. 
 - Para abrir a ordem de serviço relacionada, selecione **Ordem de serviço**.
@@ -69,7 +69,7 @@ Para uma requisição de compra, a data no campo **Data solicitada** na Guia Rá
 
 Na página de listagem **Todas as ordens de serviço**, você pode selecionar um trabalho de ordem de serviço e criar uma ordem de compra relacionada ou uma requisição de compra relacionada. Dessa forma, você ajuda a garantir que existam relações de projeto entre a ordem de compra ou a requisição de compra e a ordem de serviço.
 
-1. Selecione **Gerenciamento de ativos** > **Comum** > **Ordens de serviço** > **Todas as ordens de serviço** ou **Ordens de serviço ativas**.
+1. Selecione **Gerenciamento de ativos** > **Ordens de serviço** > **Todas as ordens de serviço** ou **Ordens de serviço ativas**.
 
 2. Selecione a ordem de serviço para criar uma ordem de compra e, em seguida, selecione **Editar**.
 

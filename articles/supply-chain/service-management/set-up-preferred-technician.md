@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: sorenand
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: e59271771a5f332ad8470b0b8f8f54b52a25543d
-ms.sourcegitcommit: 9166e531ae5773f5bc3bd02501b67331cf216da4
+ms.openlocfilehash: 4c9495bbc8e5f7cb603c027a125887feba1f0e2d
+ms.sourcegitcommit: cfe8fbc202c3eb05d894076fdf99e46704f17365
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/03/2022
-ms.locfileid: "8671664"
+ms.lasthandoff: 06/15/2022
+ms.locfileid: "9017193"
 ---
 # <a name="set-up-a-preferred-technician"></a>Configurar um técnico preferido 
 
@@ -31,13 +31,13 @@ Você pode selecionar qualquer trabalhador como um técnico preferido para um co
 
 ## <a name="assign-employee-to-a-dispatch-team"></a>Atribuir funcionário a uma equipe de expedição
 
-1.  Clique em **Recursos humanos** \> **Comum** \> **Trabalhadores** \> **Trabalhadores**. Clique duas vezes em um trabalhador para abrir a página de detalhes sobre ele. No **Painel de Ação**, clique em **Configuração** \>**Equipe de expedição** para abrir o formulário **Trabalhadores de expedição**.
+1.  Clique em **Recursos humanos** \> **Trabalhadores** \> **Trabalhadores**. Clique duas vezes em um trabalhador para abrir a página de detalhes sobre ele. No **Painel de Ação**, clique em **Configuração** \>**Equipe de expedição** para abrir o formulário **Trabalhadores de expedição**.
 
 2.  No formulário **Equipe de expedição**, selecione a equipe para a qual o trabalhador será atribuído.
 
 ## <a name="assign-a-preferred-technician-to-a-service-agreement"></a>Atribuir um técnico preferido a um contrato de serviço
 
-1.  Clique em **Gerenciamento de serviços** \> **Comum** \> **Contratos de serviço** \> **Contratos de serviço**. Clique duas vezes em um contrato de serviço para abrir o formulário de detalhes.
+1.  Clique em **Gerenciamento de serviços** \> **Contratos de serviço** \> **Contratos de serviço**. Clique duas vezes em um contrato de serviço para abrir o formulário de detalhes.
 
 2.  Na guia **Geral**, selecione o campo **Técnico preferido** e então selecione um membro da equipe de expedição apropriada como o técnico preferido para o contrato de serviço.
 

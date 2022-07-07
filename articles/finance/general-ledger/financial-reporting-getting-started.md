@@ -2,7 +2,7 @@
 title: Visão geral do Financial Reporting
 description: Este artigo descreve onde acessar relatórios financeiros no Microsoft Dynamics 365 Finance e como usar os recursos de relatório financeiro.
 author: aprilolson
-ms.date: 03/31/2022
+ms.date: 06/20/2022
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: aolson
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 3b09adc738ac36625436e5cc3197e79603fff9b8
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: f2c31e8b8b8022e5dfdb1f8dc4836d3d95174078
+ms.sourcegitcommit: d9d111d7420ca8f1071689afe38a1ccf4b8051f4
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8853399"
+ms.lasthandoff: 06/21/2022
+ms.locfileid: "9033650"
 ---
 # <a name="get-started-with-financial-reporting"></a>Introdução aos Relatórios financeiros 
 
@@ -30,14 +30,17 @@ ms.locfileid: "8853399"
 
 Este artigo descreve onde acessar o Financial Reporting e como usar as capacidades do relatório financeiro. Ele também inclui uma descrição de relatórios financeiros padrão fornecidos.
 
-## <a name="accessing-financial-reporting"></a>Avaliando relatórios financeiros
+## <a name="enable-financial-reporting"></a>Habilitar relatórios financeiros
+Para usar o serviço de relatório financeiro para sua organização, um administrador do Lifecycle Services (LCS) deve habilitar esse serviço no portal do LCS para a organização. Se os relatórios financeiros não foram provisionados para o seu ambiente, contate o administrador do LCS para habilitar o serviço. 
+
+## <a name="accessing-financial-reporting"></a>Acessando relatórios financeiros
 
 Você pode encontrar o menu **Relatórios financeiros** nos seguintes locais:
 
-- **Contabilidade** &gt; **Consultas e relatórios**
-- **Orçamento** &gt; **Consultas e relatórios** &gt; **Orçamento básico**
-- **Orçamento** &gt; **Consultas e relatórios** &gt; **Planejamento de orçamento**
-- **Orçamento** &gt; **Consultas e relatórios** &gt; **Controle de orçamento**
+- **Contabilidade** > **Consultas e relatórios**
+- **Orçamento** > **Consultas e relatórios** > **Orçamento básico**
+- **Orçamento** > **Consultas e relatórios** > **Planejamento de orçamento**
+- **Orçamento** > **Consultas e relatórios** > **Controle de orçamento**
 - Consolidações
 
 Para criar e gerar relatórios financeiros para uma entidade legal, você deve configurar as informações a seguir para essa entidade legal:
@@ -99,7 +102,7 @@ Na versão 10.0.8, foi introduzido o conceito de datas de vencimento. Um novo re
 
 Quando uma expiração, como 90 dias, é selecionada, ela é aplicada 90 dias a partir de hoje. Esse comportamento é diferente de 90 dias a partir da data da geração original definida quando o relatório foi gerado. 
 
-Opções adicionais serão consideradas em futuras funcionalidades. O vencimento de 90 dias será o padrão, e os usuários com as permissões apropriadas poderão substituir o padrão na página de lista **Relatórios financeiros**.
+Opções adicionais serão consideradas em futuras funcionalidades. O vencimento de 90 dias será o padrão, e os usuários com as permissões apropriadas poderão substituir o padrão na página de listagem **Relatórios financeiros**.
 
 ## <a name="default-reports"></a>Relatórios padrão
 

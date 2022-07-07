@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: mirzaab
 ms.search.validFrom: 2021-03-08
 ms.dyn365.ops.version: 10.0.18
-ms.openlocfilehash: 3347db6395b7da396c42f84881060f476346d2e9
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: 60bf4ab6944bd982e022ead6431adae417ddfb43
+ms.sourcegitcommit: cfe8fbc202c3eb05d894076fdf99e46704f17365
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8851265"
+ms.lasthandoff: 06/15/2022
+ms.locfileid: "9014609"
 ---
 # <a name="wave-creation-and-processing"></a>Criação e processamento de ciclo
 
@@ -60,9 +60,9 @@ Para criar manualmente um ciclo, siga estas etapas:
 1. Verifique se os [Modelos de ciclo](wave-templates.md) relevantes não foram definidos para criar automaticamente um ciclo para os tipos de depósito e ordem em que você deseja fazer isso manualmente.
 1. Dependendo do tipo de ciclo a ser criado, siga um destes procedimentos:
 
-    - Acesse **Gerenciamento de depósito** \> **Comum** \> **Ciclos** \> **Ciclos de remessa** \> **Todos os ciclos**. No Painel de Ações, selecione **Ciclo**.
-    - Acesse **Gerenciamento de depósito** \> **Comum** \> **Ciclos** \> **Ciclos de produção** \> **Todos os ciclos de produção**. No Painel de Ações, selecione **Ciclo de produção**.
-    - Acesse **Gerenciamento de depósito** \> **Comum** \> **Ciclos** \> **Ciclos de kanban** \> **Todos os ciclos de kanban**. No Painel de Ações, selecione **Criar ciclo**.
+    - Acesse **Gerenciamento de depósito** \> **Ondas de saída** \> **Ondas de remessa** \> **Todas as ondas**. No Painel de Ações, selecione **Ciclo**.
+    - Acesse **Gerenciamento de depósito** \> **Ondas de saída** \> **Ondas de produção** \> **Todas as ondas de produção**. No Painel de Ações, selecione **Ciclo de produção**.
+    - Acesse **Gerenciamento de depósito** \> **Onda de saída** \> **Ondas kanban** \> **Todas as ondas kanban**. No Painel de Ações, selecione **Criar ciclo**.
 
 1. No campo **Descrição**, insira uma curta descrição do ciclo. Isso deve indicar o que você está processando no ciclo.
 
@@ -87,9 +87,9 @@ Quando um ciclo for criado , mas ainda não liberado, você poderá especificar 
 
 1. Dependendo do tipo de ciclo ao qual adicionar linhas, siga um destes procedimentos:
 
-    - Acesse **Gerenciamento de depósito** \> **Comum** \> **Ciclos** \> **Ciclos de remessa** \> **Todos os ciclos**. No Painel de Ações, selecione **Ciclo**.
-    - Acesse **Gerenciamento de depósito** \> **Comum** \> **Ciclos** \> **Ciclos de produção** \> **Todos os ciclos de produção**. No Painel de Ações, selecione **Ciclo de produção**.
-    - Acesse **Gerenciamento de depósito** \> **Comum** \> **Ciclos** \> **Ciclos de kanban** \> **Todos os ciclos de kanban**. No Painel de Ações, selecione **Criar ciclo**.
+    - Acesse **Gerenciamento de depósito** \> **Ondas de saída** \> **Ondas de remessa** \> **Todas as ondas**. No Painel de Ações, selecione **Ciclo**.
+    - Acesse **Gerenciamento de depósito** \> **Ondas de saída** \> **Ondas de produção** \> **Todas as ondas de produção**. No Painel de Ações, selecione **Ciclo de produção**.
+    - Acesse **Gerenciamento de depósito** \> **Onda de saída** \> **Ondas kanban** \> **Todas as ondas kanban**. No Painel de Ações, selecione **Criar ciclo**.
 
 1. Selecione o ciclo. No Painel de Ações, selecione uma destas opções:
 
@@ -121,9 +121,9 @@ Para processar manualmente um ciclo com todo o conteúdo necessário, siga estas
 
 1. Dependendo do tipo de ciclo a ser processado, siga um destes procedimentos:
 
-    - Selecione **Gerenciamento de depósito** \> **Comum** \> **Ciclos** \> **Ciclos de remessa** \> **Todos os ciclos**. No Painel de Ações, selecione **Ciclo**.
-    - Selecione **Gerenciamento de depósito** \> **Comum** \> **Ciclos** \> **Ciclos de produção** \> **Todos os ciclos de produção**. No Painel de Ações, selecione **Ciclo de produção**.
-    - Selecione **Gerenciamento de depósito** \> **Comum** \> **Ciclos** \> **Ciclos de kanban** \> **Todos os ciclos de kanban**. No Painel de Ações, selecione **Criar ciclo**.
+    - Selecione **Gerenciamento de depósito** \> **Ondas de saída** \> **Ondas de remessa** \> **Todas as ondas**. No Painel de Ações, selecione **Ciclo**.
+    - Selecione **Gerenciamento de depósito** \> **Ondas de saída** \> **Ondas de produção** \> **Todas as ondas de produção**. No Painel de Ações, selecione **Ciclo de produção**.
+    - Selecione **Gerenciamento de depósito** \> **Ondas de saída** \> **Ondas kanban** \> **Todas as ondas kanban**. No Painel de Ações, selecione **Criar ciclo**.
 
 1. Selecione o ciclo a ser processado. No Painel de Ação, selecione **Processo**.
 
@@ -141,9 +141,9 @@ Para liberar um ciclo manualmente, siga estas etapas:
 
 1. Dependendo do tipo de ciclo a ser liberado, siga um destes procedimentos:
 
-      - Selecione **Gerenciamento de depósito** \> **Comum** \> **Ciclos** \> **Ciclos de remessa** \> **Todos os ciclos**. No Painel de Ações, selecione **Ciclo**.
-      - Selecione **Gerenciamento de depósito** \> **Comum** \> **Ciclos** \> **Ciclos de produção** \> **Todos os ciclos de produção**. No Painel de Ações, selecione **Ciclo de produção**.
-      - Selecione **Gerenciamento de depósito** \> **Comum** \> **Ciclos** \> **Ciclos de kanban** \> **Todos os ciclos de kanban**. No Painel de Ações, selecione **Criar ciclo**.
+      - Selecione **Gerenciamento de depósito** \> **Ondas de saída** \> **Ondas de remessa** \> **Todas as ondas**. No Painel de Ações, selecione **Ciclo**.
+      - Selecione **Gerenciamento de depósito** \> **Ondas de saída** \> **Ondas de produção** \> **Todas as ondas de produção**. No Painel de Ações, selecione **Ciclo de produção**.
+      - Selecione **Gerenciamento de depósito** \> **Ondas de saída** \> **Ondas kanban** \> **Todas as ondas kanban**. No Painel de Ações, selecione **Criar ciclo**.
 
 1. Selecione o ciclo a ser liberado. No Painel de Ações, selecione **Liberar ciclo**.
 
@@ -179,9 +179,9 @@ Se necessário, você pode cancelar um ciclo que foi processado. Para cancelar u
 
 1. Dependendo do tipo de ciclo a ser cancelado, siga um destes procedimentos:
 
-      - Acesse **Gerenciamento de depósito** \> **Comum** \> **Ciclos** \> **Ciclos de remessa** \> **Todos os ciclos**.
-      - Acesse **Gerenciamento de depósito** \> **Comum** \> **Ciclos** \> **Ciclos de produção** \> **Todos os ciclos de produção**.
-      - Acesse **Gerenciamento de depósito** \> **Comum** \> **Ciclos** \> **Ciclos de kanban** \> **Todos os ciclos de kanban**.
+      - Acesse **Gerenciamento de depósito** \> **Ondas de saída** \> **Ondas de remessa** \> **Todas as ondas**.
+      - Acesse **Gerenciamento de depósito** \> **Ondas de saída** \> **Ondas de produção** \> **Todas as ondas de produção**.
+      - Acesse **Gerenciamento de depósito** \> **Onda de saída** \> **Ondas kanban** \> **Todas as ondas kanban**.
 
 1. Selecione o ciclo a ser cancelado. No Painel de Ações, na guia **Trabalho**, selecione **Cancelar**.
 

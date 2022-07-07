@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: johanho
 ms.search.validFrom: 2018-08-30
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: 6b4d0bf82dc0dfe12991b4a48fd68a029a2ff2f3
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: 2d4385fdd3e94d48a65baf195efa1d687fbf95c3
+ms.sourcegitcommit: cfe8fbc202c3eb05d894076fdf99e46704f17365
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8887592"
+ms.lasthandoff: 06/15/2022
+ms.locfileid: "9016758"
 ---
 # <a name="maintenance-job-types-categories-variants-trades-and-checklists"></a>Tipos de trabalhos de manutenção, categorias, variantes, negócios e listas de verificação
 
@@ -243,7 +243,7 @@ Você pode configurar um trabalho em lotes para atualizar as referências padrã
 
 Após criar as combinações padrão do tipo de trabalho de manutenção necessárias, você pode usar a página **Todos os ativos** para obter uma visão geral do padrão do tipo de trabalho de manutenção atual que é relacionado a um ativo específico. A visão geral mostra todas as combinações padrão do tipo de trabalho de manutenção que podem ser usadas no tipo de ativo selecionado para o ativo. Essas combinações incluem as combinações que têm variações de grades do tipo de trabalho de manutenção e ofício do trabalho de manutenção.
 
-1. Selecione **Gerenciamento de ativos** \> **Comum** \> **Ativos** \> **Todos os ativos** ou **Ativos ativos**.
+1. Selecione **Gerenciamento de ativos** \> **Ativos** \> **Todos os ativos** ou **Ativos ativos**.
 2. Na lista, selecione o ativo para ver uma visão geral de combinações do tipo de trabalho de manutenção.
 3. No Painel de Ação, na guia **Geral**, no grupo **Informações Relacionadas**, selecione **Tipos de trabalho de manutenção**.
 

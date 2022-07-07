@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: johanho
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: e0c382efda81067ad4c0cd977e5cfbf37b4e3fc6
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: fd7482cfe943347840e9fb070151d66fbe5ef9ca
+ms.sourcegitcommit: cfe8fbc202c3eb05d894076fdf99e46704f17365
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8908704"
+ms.lasthandoff: 06/15/2022
+ms.locfileid: "9016526"
 ---
 # <a name="inbound-and-outbound-assets"></a>Ativos de entrada e saída
 
@@ -37,7 +37,7 @@ A configuração do Gerenciamento de Ativos determina se você pode trabalhar co
 
 ## <a name="register-assets-as-inbound"></a>Registre ativos como entrada
 
-1. Selecione **Gerenciamento de ativos** \> **Comum** \> **Solicitações de manutenção** \> **Solicitações manutenção de ativos**.
+1. Selecione **Gerenciamento de ativos** \> **Solicitações de manutenção** \> **Solicitações manutenção ativas**.
 2. Selecione a solicitação de manutenção.
 3. Selecione **Atualizar estado de solicitação de manutenção**.
 4. Selecione **Entrada** (ou outro estado do ciclo de vida que você criou para ativos de entrada) e **OK**.
@@ -46,10 +46,10 @@ A configuração do Gerenciamento de Ativos determina se você pode trabalhar co
 
 ## <a name="register-inbound-assets-as-received"></a>Registre ativos de entrada como recebido
 
-1. Selecione **Gerenciamento de ativos** \> **Comum** \> **Entrada/saída** \> **Ativos de entrada**.
+1. Selecione **Gerenciamento de ativos** \> **Entrada/saída** \> **Ativos de entrada**.
 2. Selecione o ativo ou a solicitação de manutenção.
 3. Selecione **Receber ativos**.
-4. No campo **Recebido**, insira a data e a hora. Em seguida, selecione **OK**. O registro é removido da página de lista **Ativos de entrada**.
+4. No campo **Recebido**, insira a data e a hora. Em seguida, selecione **OK**. O registro é removido da página de listagem **Ativos de entrada**.
 
 ![Registre ativos de entrada como recebido.](media/08-manage-maintenance-requests.png)
 
@@ -57,17 +57,17 @@ A configuração do Gerenciamento de Ativos determina se você pode trabalhar co
 
 Quando terminar o trabalho de manutenção ou de reparo, você pode registrar o ativo como devolvido.
 
-1. Selecione **Gerenciamento de ativos** \> **Comum** \> **Solicitações de manutenção** \> **Solicitações manutenção de ativos**.
+1. Selecione **Gerenciamento de ativos** \> **Solicitações de manutenção** \> **Solicitações manutenção ativas**.
 2. Selecione a solicitação de manutenção.
 3. Selecione **Atualizar estado de solicitação de manutenção**.
 4. Selecione **Saída** (ou outro estado do ciclo de vida que você criou para ativos de saída) e **OK**.
 
 ## <a name="register-outbound-assets-as-delivered"></a>Registre ativos de saída como entregue
 
-1. Selecione **Gerenciamento de ativos** \> **Comum** \> **Entrada/saída** \> **Ativos de saída**.
+1. Selecione **Gerenciamento de ativos** \> **Entrada/saída** \> **Ativos de saída**.
 2. Selecione o ativo ou a solicitação de manutenção.
 3. Selecione **Entregar ativos**.
-4. No campo **Entregue**, insira a data e a hora. Em seguida, selecione **OK**. O registro é removido da página de lista **Ativos de saída**.
+4. No campo **Entregue**, insira a data e a hora. Em seguida, selecione **OK**. O registro é removido da página de listagem **Ativos de saída**.
 
 
 [!INCLUDE[footer-include](../../../includes/footer-banner.md)]

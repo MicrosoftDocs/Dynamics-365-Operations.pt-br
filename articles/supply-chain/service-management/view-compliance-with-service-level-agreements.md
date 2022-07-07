@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: sorenand
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: e3a91417e771902ffdc099591434befad2a3c137
-ms.sourcegitcommit: 9166e531ae5773f5bc3bd02501b67331cf216da4
+ms.openlocfilehash: 17ada399e131f247ac7017e8819df4168d463cf5
+ms.sourcegitcommit: cfe8fbc202c3eb05d894076fdf99e46704f17365
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/03/2022
-ms.locfileid: "8678537"
+ms.lasthandoff: 06/15/2022
+ms.locfileid: "9015425"
 ---
 # <a name="view-compliance-with-service-level-agreements"></a>Exibir a conformidade com contratos de nível de serviço    
 
@@ -29,7 +29,7 @@ ms.locfileid: "8678537"
 
 ## <a name="view-compliance-with-a-service-level-agreement"></a>Exibir a conformidade com um contrato de nível de serviço
 
-1.  Clique em **Gerenciamento de serviços** \> **Comum** \> **Ordens de serviço** \> **Ordens de serviço**. Selecione uma ordem de serviço e clique duas vezes para abrir o formulário de detalhes da ordem.
+1.  Clique em **Gerenciamento de serviços** \> **Ordens de serviço** \> **Ordens de serviço**. Selecione uma ordem de serviço e clique duas vezes para abrir o formulário de detalhes da ordem.
 
 2.  Clique na guia **Geral** e, no campo **Conformidade**, exiba o percentual de tempo que foi despendido com a ordem de serviço, em comparação com o intervalo de tempo especificado no contrato de nível de serviço.
 

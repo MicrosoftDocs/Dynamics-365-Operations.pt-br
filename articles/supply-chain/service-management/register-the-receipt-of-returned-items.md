@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: sorenand
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: f4ff01a8c4ed5fb8372ff7b498d0febdcd2f1e89
-ms.sourcegitcommit: 9166e531ae5773f5bc3bd02501b67331cf216da4
+ms.openlocfilehash: f4942e455350844ac5614e70fef21b37461540a6
+ms.sourcegitcommit: cfe8fbc202c3eb05d894076fdf99e46704f17365
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/03/2022
-ms.locfileid: "8672756"
+ms.lasthandoff: 06/15/2022
+ms.locfileid: "9017279"
 ---
 # <a name="register-the-receipt-of-returned-items"></a>Registrar o recebimento de itens devolvidos 
 
@@ -87,7 +87,7 @@ Você pode usar o formulário **Visão geral de entrada** para identificar uma r
 
 Como uma alternativa ao usar o formulário de **Visão geral de entrada**, você pode usar o formulário de **Registro** para registrar a entrada de itens devolvidos.
 
-1.  Clique em **Vendas e marketing** \> **Comum** \> **Ordens de devolução** \> **Todas as ordens de devolução**. Crie uma nova ordem de devolução ou abra a ordem de devolução na lista. Na Guia Rápida **Linhas**, selecione a ordem de devolução apropriada. Clique em **Atualizar linha** e em **Registro**.
+1.  Clique em **Vendas e marketing** \> **Devoluções de vendas** \> **Todas as ordens de devolução**. Crie uma nova ordem de devolução ou abra a ordem de devolução na lista. Na Guia Rápida **Linhas**, selecione a ordem de devolução apropriada. Clique em **Atualizar linha** e em **Registro**.
 
 2.  Atribua um código de disposição no campo de **Código de disposição**, e clique em **OK**.
     

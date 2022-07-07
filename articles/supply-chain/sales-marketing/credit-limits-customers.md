@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: henrikan
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: f7f15c0f15302c271fac7199b21b7bcd3dcfe88a
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: b4a98b90491093f55ce6974b9b11ff326c0c2f5c
+ms.sourcegitcommit: cfe8fbc202c3eb05d894076fdf99e46704f17365
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8903859"
+ms.lasthandoff: 06/15/2022
+ms.locfileid: "9015308"
 ---
 # <a name="credit-limits-for-customers"></a>Limites de crédito para clientes
 
@@ -117,7 +117,7 @@ Use o formulário **Parâmetros de contas a receber** para especificar se deseja
 
 Use o formulário **Clientes** para especificar o valor do limite de crédito de um cliente específico. Você deve ser membro de uma função de segurança que tenha os direitos Manter cliente mestre (CustCustomersMaintain) atribuídos a ela para fazer alterações nesse formulário.
 
-1.  Clique em **Contas a receber** \> **Comum** \> **Clientes** \> **Todos os clientes**. Clique duas vezes em uma conta de cliente.
+1.  Clique em **Contas a receber** \> **Clientes** \> **Todos os clientes**. Clique duas vezes em uma conta de cliente.
 
 2.  No formulário **Clientes** , no painel de ações, clique em **Editar**.
 
@@ -132,7 +132,7 @@ Use o formulário **Clientes** para especificar o valor do limite de crédito de
 
 Às vezes, você terá que verificar manualmente o limite de crédito de um cliente. Por exemplo, você pode verificar manualmente o limite de crédito de um cliente antes de começar a inserir uma ordem de venda. É possível usar o formulário **Ordem de venda** para verificar manualmente os limites de crédito. Você deve ser membro de uma função de segurança que tenha os direitos Manter ordem de venda (SalesOrderMaintain) atribuídos a ela para fazer alterações nesse formulário.
 
-1.  Clique em **Vendas e marketing** \> **Comum** \> **Ordens de venda** \> **Todas as ordens de venda**. Clique duas vezes em uma ordem de venda.
+1.  Clique em **Vendas e marketing** \> **Ordens de venda** \> **Todas as ordens de venda**. Clique duas vezes em uma ordem de venda.
 
 2.  No formulário **Ordem de venda** , no painel de ação, na guia **Gerenciar** , clique em **Verificar limite de crédito**.
 

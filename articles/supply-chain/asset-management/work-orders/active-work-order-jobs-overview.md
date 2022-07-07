@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: johanho
 ms.search.validFrom: 2019-09-30
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: a3e48ceec2e95f796b6e7662af42e6bc1c3f01b7
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: 80072381c59b6cc0e0ea512a50900f8754a413a0
+ms.sourcegitcommit: cfe8fbc202c3eb05d894076fdf99e46704f17365
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8895863"
+ms.lasthandoff: 06/15/2022
+ms.locfileid: "9016990"
 ---
 # <a name="active-work-order-maintenance-jobs-overview"></a>Visão geral dos trabalhos de manutenção ativos de ordem de serviço
 
@@ -29,7 +29,7 @@ ms.locfileid: "8895863"
 
 Na página de listagem **Trabalhos de manutenção ativos de ordem de serviço**, você pode obter uma visão geral das ordens de serviço em relação à quantidade de ordens de serviço criadas em ativos, tipos de ativos, fabricantes, modelos, tipos de trabalhos de manutenção específicos e assim por diante. Ao selecionar um trabalho de ordem de serviço e então selecionar **Editar**, você poderá abrir a ordem de serviço relacionada. Selecionando um trabalho da ordem de serviço e selecionando um dos botões na guia **Trabalhos de manutenção da ordem de serviço** do Painel de Ação, você poderá exibir os dados da ordem de serviço à qual o trabalho da ordem de serviço está relacionado.
 
-Para abrir a página de listagem, selecione **Gerenciamento de ativos** > **Comum** > **Ordens de serviço** > **Trabalhos de manutenção de ordem de serviço ativos** para abrir a lista. A página lista todos os trabalhos ativos da ordem de serviço e também algumas das informações relacionadas ao trabalho da ordem de serviço ou da ordem de serviço.
+Para abrir a página de listagem, selecione **Gerenciamento de ativos** > **Ordens de serviço** > **Trabalhos de manutenção da ordem de serviço ativos**. A página lista todos os trabalhos ativos da ordem de serviço e também algumas das informações relacionadas ao trabalho da ordem de serviço ou da ordem de serviço.
 
 Na coluna **%**, um número mostra a conclusão da ordem de serviço como uma porcentagem. A conclusão é baseada em dois cálculos: horas lançadas em comparação às horas previstas e o número de listas de verificação de manutenção concluídas.
 

@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: johanho
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: e1454f41bb0b43e22c5278463f63aa4178696eef
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: 0a6b5a2904d21782ae422d06eaaf03c5d5e51ab9
+ms.sourcegitcommit: cfe8fbc202c3eb05d894076fdf99e46704f17365
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8872113"
+ms.lasthandoff: 06/15/2022
+ms.locfileid: "9015553"
 ---
 # <a name="move-replace-and-install-assets"></a>Mover, substituir e instalar ativos
 
@@ -44,7 +44,7 @@ Use a função **Mover ativo** para mover um ativo para outra estrutura de ativo
 > [!NOTE]
 > Não use essa função se os ativos estiverem sendo reparados ou substituídos temporariamente. Em seu lugar, use a funcionalidade **Substituir ativo**, que será descrita posteriormente neste artigo.
 
-1. Selecione **Gerenciamento de ativos** \> **Comum** \> **Ativos** \> **Todos os ativos** ou **Ativos ativos**.
+1. Selecione **Gerenciamento de ativos** \> **Ativos** \> **Todos os ativos** ou **Ativos ativos**.
 2. Na lista, selecione o ativo a ser movido. Se o ativo tiver ativos secundários, você também os moverá.
 3. Selecione **Mover ativo**.
 4. Para mover o ativo para que se torne parte de uma estrutura de ativos, selecione o novo ativo pai no campo **Ativo pai**. Se você estiver movendo um ativo secundário, e se quiser torná-lo um ativo autônomo sem nenhuma relação de estrutura, deixe o campo **Ativo pai** em branco.
@@ -58,7 +58,7 @@ Use a função **Substituir ativo** em conjunto com reparos, restauração ou su
 > [!NOTE]
 > Se uma oficina estiver relacionada ao departamento de produção, você poderá criar locais funcionais como **Reparo**, **Sucata** e **Armazenamento** para controlar o reparo e a substituição de ativos.
 
-1. Selecione **Gerenciamento de ativos** \> **Comum** \> **Ativos** \> **Todos os ativos** ou **Ativos ativos**.
+1. Selecione **Gerenciamento de ativos** \> **Ativos** \> **Todos os ativos** ou **Ativos ativos**.
 2. Na lista, selecione o ativo secundário a ser substituído. Se o ativo tiver ativos secundários, você também os substituirá.
 3. Selecione **Substituir ativo**.
 
@@ -79,7 +79,7 @@ Use a função **Instalar ativo** para instalar uma estrutura de ativos em um lo
 > [!NOTE]
 > Sempre selecione um ativo pai. O ativo pai e os ativos secundários relacionados serão movidos para o local funcional selecionado.
 
-1. Selecione **Gerenciamento de ativos** \> **Comum** \> **Ativos** \> **Todos os ativos** ou **Ativos ativos**.
+1. Selecione **Gerenciamento de ativos** \> **Ativos** \> **Todos os ativos** ou **Ativos ativos**.
 2. Na lista, selecione o ativo pai para instalar em outro local funcional.
 3. Selecione **Instalar ativo**.
 

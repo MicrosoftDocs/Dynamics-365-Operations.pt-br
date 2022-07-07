@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: johanho
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 71b861ec31e704e001aab29245b9e24ce8beb0de
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: 665c705e3ffb617fc159a1223cb3f776878d5cd2
+ms.sourcegitcommit: cfe8fbc202c3eb05d894076fdf99e46704f17365
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8882769"
+ms.lasthandoff: 06/15/2022
+ms.locfileid: "9016236"
 ---
 # <a name="asset-boms"></a>BOMs de Ativos
 
@@ -57,7 +57,7 @@ A configuração de histórico de peças sobressalentes se baseia em grupos de i
 
 Depois de lançar o consumo de itens em uma ordem de serviço, você poderá exibir o consumo de item registrado na página **BOM de ativos**.
 
-1. Selecione **Gerenciamento de ativos** \> **Comum** \> **Ativos** \> **Ativos ativos**. Selecione o ativo da lista e depois selecione **BOM de ativos**.
+1. Selecione **Gerenciamento de ativos** \> **Ativos** \> **Ativos ativos**. Selecione o ativo da lista e depois selecione **BOM de ativos**.
 
     > [!NOTE]
     > Para exibir todos os registros do consumo de item em todos os ativos, selecione **Gerenciamento de ativos** \> **Consultas** \> **Ativos** \> **BOM de ativos**.

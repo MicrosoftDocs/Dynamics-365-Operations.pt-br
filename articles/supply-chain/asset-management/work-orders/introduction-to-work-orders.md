@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: johanho
 ms.search.validFrom: 2019-09-30
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: dcee5fd729de6e96d57462879f7851756f287dc9
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: 5eb911ec4ba9655c4ecaea3bf9a4f8736fa036c2
+ms.sourcegitcommit: cfe8fbc202c3eb05d894076fdf99e46704f17365
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8902821"
+ms.lasthandoff: 06/15/2022
+ms.locfileid: "9016700"
 ---
 # <a name="introduction-to-work-orders"></a>Introdução a ordens de serviço
 
@@ -47,15 +47,15 @@ As ordens de serviço podem ser criadas das seguintes maneiras:
 
 ## <a name="all-work-orders"></a>Todas as ordens de serviço
 
-Selecione **Gerenciamento de ativos** > **Comum** > **Ordens de serviço** > **Todas as ordens de serviço** para abrir a página de listagem **Todas as ordens de serviço**. Esta página mostra todas as ordens de serviço e algumas das informações relacionadas a cada um.
+Selecione **Gerenciamento de ativos** > **Ordens de serviço** > **Todas as ordens de serviço** para abrir a página de listagem **Todas as ordens de serviço**. Esta página mostra todas as ordens de serviço e algumas das informações relacionadas a cada um.
 
 A ilustração a seguir mostra um exemplo da página de listagem **Todas as ordens de serviço**.
 
 ![Figura 1.](media/01-work-orders.png)
 
-Para exibir uma lista apenas de ordens de serviço ativas, selecione **Gerenciamento de ativos** > **Comum** > **Ordens de serviço** > **Ordens de serviço ativas**. 
+Para exibir uma lista somente das ordens de serviço ativas, selecione **Gerenciamento de ativos** > **Ordens de serviço** > **Ordens de serviço ativas**. 
 
-Para exibir uma lista de trabalhos de ordem de serviço que contêm ativos instalados em locais funcionais aos quais você está relacionado como trabalhador, selecione **Gerenciamento de ativos** > **Comum** > **Ordens de serviço** > **Meus trabalhos de manutenção da ordem de serviço do local funcional**. (A relação entre trabalhadores e locais funcionais é configurada na página **Trabalhadores**. Para obter mais informações, consulte [Trabalhadores de manutenção e grupos de trabalhadores](../setup-for-objects/workers-and-worker-groups.md).)
+Para exibir uma lista de trabalhos de ordem de serviço que contêm ativos instalados em locais funcionais aos quais você está relacionado como trabalhador, selecione **Gerenciamento de ativos** > **Ordens de serviço** > **Meus trabalhos de manutenção da ordem de serviço do local funcional**. (A relação entre trabalhadores e locais funcionais é configurada na página **Trabalhadores**. Para obter mais informações, consulte [Trabalhadores de manutenção e grupos de trabalhadores](../setup-for-objects/workers-and-worker-groups.md).)
 
 Aqui estão algumas maneiras pelas quais você pode usar a página **Todas as ordens de serviço**:
 

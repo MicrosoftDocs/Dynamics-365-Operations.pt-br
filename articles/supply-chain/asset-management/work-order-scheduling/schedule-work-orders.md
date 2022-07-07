@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: johanho
 ms.search.validFrom: 2019-08-31
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: a3fc3e6ef2332a883ef4a612a669142da1794454
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: 6592b94105777525c777950132d5099d1e8abb0e
+ms.sourcegitcommit: cfe8fbc202c3eb05d894076fdf99e46704f17365
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8845044"
+ms.lasthandoff: 06/15/2022
+ms.locfileid: "9016729"
 ---
 # <a name="schedule-work-orders"></a>Agendar ordens de serviço
 
@@ -30,11 +30,11 @@ ms.locfileid: "8845044"
 
 Este artigo explica como agendar ordens de serviço no Gerenciamento de Ativo. 
 
-O número necessário de horas para uma ordem de serviço é definido pela soma das horas previstas menos as horas lançadas. Se mais tempo for necessário, a previsão deve ser ajustada de acordo. Em **Gerenciamento de ativos** > **Comum** > **Ordens de serviço** > **Todas as ordens de serviço** ou **Ordens de serviço ativas**, você pode exibir ou editar previsões em uma ordem de serviço selecionando ordem de serviço e clicando em **Previsão** na guia **Ordem de serviço**. Quando ordens de serviço foram criadas e estimadas, a próxima etapa para concluir ordens de serviço é alocar os funcionários de manutenção necessários e ferramentas.
+O número necessário de horas para uma ordem de serviço é definido pela soma das horas previstas menos as horas lançadas. Se mais tempo for necessário, a previsão deve ser ajustada de acordo. Em **Gerenciamento de ativos** > **Ordens de serviço** > **Todas as ordens de serviço** ou **Ordens de serviço ativas**, você pode exibir ou editar previsões em uma ordem de serviço selecionando a ordem de serviço e clicando em **Previsão** na guia **Ordem de serviço**. Depois que as ordens de serviço foram criadas e estimadas, a próxima etapa para concluí-las é alocar os funcionários de manutenção e as ferramentas necessários.
 
 Somente ordens de serviço com um estado de ciclo de vida da ordem de serviço que permite agendamento podem ser agendadas. Permitir agendamento é configurado na Guia Rápida **Gerenciamento de ativos** > **Configuração** > **Ordens de serviço** > **Estados de ciclo de vida** > **Geral** > **Permitir agendamento**.
 
-1. Clique em **Gerenciamento de ativo** > **Comum** > **Ordens de serviço** > **Todas as ordens de serviço**.
+1. Clique em **Gerenciamento de ativos** > **Ordens de serviço** > **Todas as ordens de serviço**.
 
 2. Selecione as ordens de serviço que deseja agendar na lista. Por exemplo, você pode classificar a lista por **Estado do ciclo de vida atual**.
 

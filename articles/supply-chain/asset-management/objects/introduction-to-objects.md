@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: johanho
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: ee61c43f93d68747a7095dc9317674a435553c8a
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: d8498d6099112cea2c57a6387e7596adb5bcd84e
+ms.sourcegitcommit: cfe8fbc202c3eb05d894076fdf99e46704f17365
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8874178"
+ms.lasthandoff: 06/15/2022
+ms.locfileid: "9015976"
 ---
 # <a name="introduction-to-assets"></a>Introdução aos ativos
 
@@ -36,7 +36,7 @@ Um ativo é atualizado automaticamente com informações relacionadas. Por exemp
 
 ## <a name="all-assets"></a>Todos os ativos
 
-Selecione **Gerenciamento de ativos** \> **Comum** \> **Ativos** \> **Todos os ativos**. A página de lista **Todos os ativos** mostra todos os ativos e algumas informações relacionadas a eles. Para exibir somente ativos que estão ativos, selecione **Ativos ativos**. Para exibir somente ativos que estão instalados em locais funcionais aos quais você está relacionado como um trabalhador de manutenção, selecione **Meus ativos ativos**. (Essa relação é configurada na página **Trabalhadores**. Para obter mais informações, consulte [Trabalhadores de manutenção e grupos de trabalhadores](../setup-for-objects/workers-and-worker-groups.md).)
+Selecione **Gerenciamento de ativos** \> **Ativos** \> **Todos os ativos**. A página de listagem **Todos os ativos** mostra todos os ativos e algumas informações relacionadas a eles. Para exibir somente ativos que estão ativos, selecione **Ativos ativos**. Para exibir somente ativos que estão instalados em locais funcionais aos quais você está relacionado como um trabalhador de manutenção, selecione **Meus ativos ativos**. (Essa relação é configurada na página **Trabalhadores**. Para obter mais informações, consulte [Trabalhadores de manutenção e grupos de trabalhadores](../setup-for-objects/workers-and-worker-groups.md).)
 
 Na exibição de grade **Todos os ativos**, selecione um link na coluna **Ativo** para exibir os detalhes do registro selecionado. Para editar o registro, selecione o botão **Editar**. A exibição de detalhes mostra informações detalhadas relacionadas ao ativo. Um painel **Informações relacionadas** à direita contém informações adicionais relativas ao ativo. Expanda o painel para mostrar as informações relacionadas para o ativo selecionado.
 
@@ -51,15 +51,15 @@ Os botões no Painel de Ação estão organizados em guias. A tabela a seguir de
 | Substituir ativo        | Substitua um ativo filho em uma hierarquia de ativos por outro outro.                                                                                                  |
 | Instalar ativo        | Instale um ativo em um local funcional.                                                                                                                          |
 | Copiar ativo           | Copie uma hierarquia de ativos em outro ativo.                                                                                                                          |
-| Solicitações             | Abra a página de lista **Solicitações de ativos**, em que você pode exibir solicitações de manutenção que foram criadas para o ativo selecionado.                                                                         |
+| Solicitações             | Abra a página de listagem **Solicitações de ativos**, em que você pode exibir solicitações de manutenção que foram criadas para o ativo selecionado.                                                                         |
 | Histórico de eventos        | Exiba uma visão geral de vários registros feitos no ativo.                                                                                                         |
 | BOM de ativos            | Exiba uma lista de todos os itens (peças sobressalentes e itens) usados em um ativo.                                                                                  |
-| Ordens de serviço          | Abra a página de lista **Ordens de serviço ativas**, em que você pode exibir ordens de serviço para o ativo.                                                                                        |
+| Ordens de serviço          | Abra a página de listagem **Ordens de serviço ativas**, em que você pode exibir ordens de serviço para o ativo.                                                                                        |
 | Lista de Verificação            | Exiba uma visão geral das listas de verificação de manutenção e medidas que foram registradas no ativo.                                                                                                 |
 | Tempo de inatividade de manutenção | Crie ou exiba registros de tempo de inatividade de manutenção no ativo.                                                                                                       |
 | Transações do Projeto | Exiba todas as transações lançadas relativas a ordens de trabalho que foram criadas para o ativo.                                                                                       |
 | Medidas de ativos       | Crie ou exiba medidas de ativo no ativo.                                                                                                               |
-| Agendamento de manutenção | Abra a página de lista **Agenda de manutenção aberta**, em que você pode exibir planos de manutenção, solicitações de manutenção e rounds de manutenção que estão associados ao ativo e que têm o status **Criado**. |
+| Agendamento de manutenção | Abra a página de listagem **Agenda de manutenção aberta**, em que você pode exibir planos de manutenção, solicitações de manutenção e rounds de manutenção que estão associados ao ativo e que têm o status **Criado**. |
 | Atualizar estado do ativo   | Atualize o estado de ciclo de vida do ativo. Você pode selecionar vários ativos na página **Todos os ativos** e atualizar o estado do ciclo de vida do ativo para todos ao mesmo tempo.              |
 | Log de estados de ciclo de vida  | Abra um log que mostre os estados de ciclo de vida do ativo selecionado.                                                                                                                 |
 | Documentos do ativo      | Exibir uma lista dos documentos anexados a um ativo. Esses documentos são configurados em **Gerenciamento de ativos** \> **Configuração** \> **Documentos de ativo**.                 |
@@ -68,7 +68,7 @@ Os botões no Painel de Ação estão organizados em guias. A tabela a seguir de
 | Ativos pai        | Exiba o histórico do ativo pai para o ativo selecionado.                                                                                                                |
 | Locais funcionais | Exiba o histórico do local funcional para o ativo selecionado.                                                                                                          |
 | Avaliação de condição | Registre medidas de avaliação de condição no ativo.                                                                                                         |
-| Falhas               | Abra a página de lista **Falhas de ativo**, em que você pode exibir falhas que foram registradas no ativo.                                                                                             |
+| Falhas               | Abra a página de listagem **Falhas de ativo**, em que você pode exibir falhas que foram registradas no ativo.                                                                                             |
 | Controle de Custo         | Compare custos reais e de orçamento no ativo.                                                                                                              |
 | Controle de horas         | Compare horas previstas e horas reais no ativo.                                                                                                              |
 | KPIs do ativo           | Calcule e exiba indicadores chave de desempenho (KPIs) para o ativo.                                                                                              |

@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: johanho
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 90b41b57dfa6db8b5874bbc2d4bcac7b4c634f20
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: 5ab715be3bfdc380f5736fadd901af3ed78d7035
+ms.sourcegitcommit: cfe8fbc202c3eb05d894076fdf99e46704f17365
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8860918"
+ms.lasthandoff: 06/15/2022
+ms.locfileid: "9016294"
 ---
 # <a name="create-an-asset"></a>Crie um ativo
 
@@ -30,7 +30,7 @@ ms.locfileid: "8860918"
 
 Este artigo descreve como criar um ativo em Gerenciamento de Ativos.
 
-1. Clique em **Gerenciamento de ativos** > **Comum** > **ativos** > **Todos os ativos** ou **Ativos ativos**.
+1. Clique em **Gerenciamento de ativos** > **Ativos** > **Todos os ativos** ou **Ativos ativos**.
 2. Clique no botão **Novo**.
 3. Na caixa de diálogo **Criar ativos**, insira dados sobre o **Ativo** (a ID do ativo) e o nome do ativo. Selecione a data e a hora do ativo no campo **Efetivo**. A partir dessa data, é possível instalar o ativo em um local funcional bem como mover e substituir o ativo em uma estrutura de ativos.
 4. No campo **Tipo de ativo**, selecione o tipo de ativo para o ativo (campo obrigatório). Se necessário, selecione **Fabricante do ativo** e **Modelo de ativo** para o ativo. Se apenas um produto foi configurado, esse produto será automaticamente selecionado no campo **Fabricante de ativo**. As seleções disponíveis nos campos **Fabricante de ativo** e **Modelo de ativo** dependem da configuração em [Fabricantes e modelos de ativo](../setup-for-objects/product-and-model.md).

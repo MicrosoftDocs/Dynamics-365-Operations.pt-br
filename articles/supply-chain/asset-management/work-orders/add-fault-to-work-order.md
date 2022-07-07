@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: johanho
 ms.search.validFrom: 2019-09-30
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: 7905dcd4c29872ec2601359baefa78545140397c
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: 210db3259a6c64a508119b30598a34dbda2d2dd2
+ms.sourcegitcommit: cfe8fbc202c3eb05d894076fdf99e46704f17365
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8857885"
+ms.lasthandoff: 06/15/2022
+ms.locfileid: "9014988"
 ---
 # <a name="add-fault-to-work-order"></a>Adicionar falha à ordem de serviço
 
@@ -30,7 +30,7 @@ ms.locfileid: "8857885"
 
 É possível adicionar falhas que foram configuradas no designer de falhas a uma ordem de serviço. Um ou mais registros de falha devem estar conectados aos tipos de ativo usados para o ativo selecionado na ordem de serviço. Para obter mais informações sobre a configuração, consulte [Gerenciamento de falhas](../setup-for-work-orders/fault-management.md).
 
-1. Selecione **Gerenciamento de ativos** > **Comum** > **Ordens de serviço** > **Todas as ordens de serviço** ou **Ordens de serviço ativas**.
+1. Selecione **Gerenciamento de ativos** > **Ordens de serviço** > **Todas as ordens de serviço** ou **Ordens de serviço ativas**.
 
 2. Selecione a ordem de serviço para a qual será criado um registro de falha e, em seguida, no Painel de Ação, na guia **Ordem de serviço**, no grupo **Ativo**, selecione **Falha de ativo**.
 
@@ -64,7 +64,7 @@ Na página de listagem **Falhas de ativo**, é possível obter uma visão geral 
 
 Na página de listagem **Todos os ativos**, você pode imprimir um relatório de falhas de ativos que mostre todos os registros de falha e uma visão geral gráfica das estatísticas de falhas.
 
-1. Selecione **Gerenciamento de ativos** > **Comum** > **Ativos** > **Todos os ativos**.
+1. Selecione **Gerenciamento de ativos** > **Ativos** > **Todos os ativos**.
 
 2. Selecione o ativo para o qual será impresso um relatório de falha.
 

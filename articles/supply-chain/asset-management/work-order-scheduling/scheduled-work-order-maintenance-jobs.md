@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: johanho
 ms.search.validFrom: 2019-08-31
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: 99613369084ca1e708761179dfb2688014b011f7
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: 72813325c19c639c3c8e7ea9c7436730d23eb61b
+ms.sourcegitcommit: cfe8fbc202c3eb05d894076fdf99e46704f17365
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8849609"
+ms.lasthandoff: 06/15/2022
+ms.locfileid: "9017019"
 ---
 # <a name="scheduled-work-order-maintenance-jobs"></a>Trabalhos de manutenção da ordem de serviço agendados
 
@@ -32,7 +32,7 @@ A página **Trabalhos de manutenção de ordens de serviço agendadas** mostra u
 
 ## <a name="view-scheduled-work-order-maintenance-jobs"></a>Exibir trabalhos de manutenção de ordens de serviço agendadas
 
-1. Clique em **Gerenciamento de ativos** > **Comum** > **Ordens de serviço** > **Trabalhos de manutenção de ordens de serviço agendadas**. Você verá uma lista de todas as ordens de serviço definidas para o estado de ciclo de vida da ordem de serviço "Agendado" ou "Em progresso".
+1. Clique em **Gerenciamento de ativos** > **Ordens de serviço** > **Trabalhos de manutenção de ordens de serviço agendados**. Você verá uma lista de todas as ordens de serviço definidas para o estado de ciclo de vida da ordem de serviço "Agendado" ou "Em progresso".
 
 2. Você pode classificar a lista, por exemplo, pelo funcionário de manutenção. Você também pode usar o filtro para limitar a lista a exibir ordens de serviço alocadas a um recurso específico ou funcionário de manutenção.
 

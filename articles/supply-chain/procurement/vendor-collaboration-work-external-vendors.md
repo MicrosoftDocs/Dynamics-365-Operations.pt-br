@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: gfedorova
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: 4ae943592c18dd0383aafbce59617cc983dc979b
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: 25561802996514f6f60fc9400c22dc61a30ef1c8
+ms.sourcegitcommit: bad64015da0c96a6b5d81e389708281406021d4f
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8907280"
+ms.lasthandoff: 06/17/2022
+ms.locfileid: "9023778"
 ---
 # <a name="vendor-collaboration-with-external-vendors"></a>Colaboração de fornecedores com fornecedores externos
 
@@ -29,9 +29,6 @@ ms.locfileid: "8907280"
 O módulo **Colaboração do fornecedor** é destinado a fornecedores que não tenham integração EDI (Troca de dados eletrônica) com o Microsoft Dynamics 365 Supply Chain Management. Ele permite que os fornecedores trabalhem com ordens de compra (OCs), faturas, informações de estoque de consignação e solicitações de cotação (RFQs), e também os permitem acessar parte dos dados mestre de fornecedor. Este artigo explica como você pode colaborar com fornecedores externos que usam a interface de colaboração do fornecedor para trabalhar com OCs, RFQs e estoque de consignação. Ele também explica como habilitar um fornecedor específico para usar a colaboração do fornecedor e como definir as informações que todos os fornecedores verão ao responderem a uma OC.
 
 Para saber mais sobre o que os fornecedores externos podem fazer na interface de colaboração do fornecedor, consulte [Colaboração do fornecedor com clientes](vendor-collaboration-work-customers-dynamics-365-operations.md).
-
-> [!NOTE]
-> As informações sobre a colaboração de fornecedor neste artigo se aplicam apenas à versão atual do Supply Chain Management. No Microsoft Dynamics AX 7.0. (fevereiro de 2016) e no aplicativo do Microsoft Dynamics AX versão 7.0.1 (maio de 2016), você colabora com fornecedores usando o módulo **Portal do fornecedor**. Para obter informações sobre o módulo **Portal do fornecedor**, consulte [Colaborar com fornecedores usando o Portal do fornecedor](collaborate-vendors-vendor-portal.md).
 
 Para saber mais sobre como os fornecedores podem usar a colaboração do fornecedor nos processos de faturamento, consulte [Espaço de trabalho de faturamento de colaboração do fornecedor](../../finance/accounts-payable/vendor-portal-invoicing-workspace.md). Para saber mais sobre como provisionar novos usuários de colaboração do fornecedor, consulte [Gerenciar usuários de colaboração do fornecedor](manage-vendor-collaboration-users.md).
 
@@ -57,8 +54,25 @@ Um administrador configura as definições gerais para a colaboração do fornec
 
 Antes que as contas de usuário possam ser criadas para um fornecedor externo, você deve configurar a conta de fornecedor para permitir que ele use a colaboração do fornecedor. Na página **Fornecedores**, na guia **Geral**, defina o campo **Ativação de colaboração**. As opções a seguir estão disponíveis:
 
-- **Ativo (a OC é confirmada automaticamente)**– as OCs são confirmadas automaticamente, se o fornecedor as aceita sem alterações.
+- **Ativo (a OC é confirmada automaticamente)**– as OCs são confirmadas automaticamente, se o fornecedor as aceita sem alterações. Se você usar esta opção, certifique-se de agendar o trabalho em lotes *Confirmar ordens de compra aceitas da colaboração do fornecedor*, que é responsável por processar as confirmações. Para obter instruções, consulte a próxima seção.
 - **Ativo (a OC não é confirmada automaticamente)**– as OCs precisam ser confirmadas manualmente por sua organização depois que o fornecedor aceitá-las.
+
+### <a name="scheduling-the-auto-confirmation-batch-job"></a>Agendando o trabalho em lotes de confirmação automática
+
+Se usar a opção **Ativo (confirmação automática de OC)** para um ou mais fornecedores (conforme descrito na seção anterior), você deverá agendar o trabalho em lotes *Confirmar ordens de compra aceitas da colaboração do fornecedor*, que é responsável por processar e confirmar suas OCs Caso contrário, as confirmações automáticas nunca ocorrerão. Use o procedimento a seguir para agendar esse trabalho.
+
+1. Acesse **Compras e Fornecimento \> Ordens de compra \> Confirmação de ordem de compra \> Confirmar ordens de compra aceitas da colaboração do fornecedor**.
+1. Na caixa de diálogo **Confirmar ordens de compra aceitas da colaboração do fornecedor**, na Guia Rápida **Executar em segundo plano**, selecione **Recorrência**.
+1. Na caixa de diálogo **Definir recorrência**, defina a agenda na qual o trabalho deve ser executado. Quando estiver escolhendo a agenda, considere as seguintes questões:
+
+    - Se o seu sistema processa um grande volume de dados e executa vários trabalhos em lote, o desempenho pode ser um problema. Nesse caso, você provavelmente não deve executar esse trabalho mais do que a cada 10 minutos (dependendo dos outros requisitos). Se o desempenho não for um problema, você poderá executá-lo a cada um ou dois minutos se necessário.
+    - Se os seus fornecedores tendem a entregar os bens com rapidez (no dia que foi acordado), a recorrência deve ser frequente (a cada 10 a 30 minutos ou algo semelhante). Dessa forma, os operadores de depósito poderão receber as mercadorias da OC confirmada após a conclusão da confirmação.
+    - Se os seus fornecedores tendem a ter um prazo de entrega longo (mais de 24 horas), você pode definir essa tarefa para ser executada apenas uma vez por dia ou algo semelhante.
+
+1. Selecione **OK** para aplicar a agenda e retorne à caixa de diálogo **Confirmar ordens de compra aceitas da colaboração do fornecedor**.
+1. Defina outras opções em segundo plano conforme necessário. A caixa de diálogo fornece as opções usuais para a configuração de trabalhos em lotes no Supply Chain Management.
+
+Para obter mais informações sobre trabalhos em lote, consulte [Visão geral do processamento em lote](../../fin-ops-core/dev-itpro/sysadmin/batch-processing-overview.md).
 
 ### <a name="specifying-whether-the-vendor-should-see-price-information"></a>Especificando se o fornecedor deverá ver as informações sobre preço
 

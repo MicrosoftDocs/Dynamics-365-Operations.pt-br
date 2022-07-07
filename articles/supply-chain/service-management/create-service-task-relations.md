@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: sorenand
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 80980d83248612037999c665b6058c4d0bbf6a7c
-ms.sourcegitcommit: 9166e531ae5773f5bc3bd02501b67331cf216da4
+ms.openlocfilehash: 51ea26a0f6519d26f5207a7b6c8afbcdfa358be9
+ms.sourcegitcommit: cfe8fbc202c3eb05d894076fdf99e46704f17365
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/03/2022
-ms.locfileid: "8678224"
+ms.lasthandoff: 06/15/2022
+ms.locfileid: "9015249"
 ---
 # <a name="create-service-task-relations"></a>Criar relações de tarefas de serviço    
 
@@ -30,7 +30,7 @@ Você pode associar tarefas de serviço a contratos de serviço ou ordens de ser
 
 ## <a name="create-a-relation-with-a-service-agreement"></a>Criar uma relação com um contrato de serviço
 
-1.  Acesse **Gerenciamento de serviços** \> **Comum** \> **Contratos de serviço** \> **Contratos de serviço**.
+1.  Acesse **Gerenciamento de serviços** \> **Contratos de serviço** \> **Contratos de serviço**.
 
 2.  Selecione um contrato de serviço existente ou crie um novo.
 
@@ -48,7 +48,7 @@ Uma relação de tarefas de serviço que é criada em um contrato de serviço es
 
 ## <a name="create-a-relation-with-a-service-order"></a>Criar uma relação com uma ordem de serviço
 
-1.  Acesse **Gerenciamento de serviços** \> **Comum** \> **Ordens de serviço** \> **Ordens de serviço**.
+1.  Acesse **Gerenciamento de serviços** \> **Ordens de serviço** \> **Ordens de serviço**.
 
 2.  Selecione uma ordem de serviço existente ou crie uma nova.
 

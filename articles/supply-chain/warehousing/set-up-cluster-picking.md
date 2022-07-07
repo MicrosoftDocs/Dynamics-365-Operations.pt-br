@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: mirzaab
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 3094649da2ce9a700a4d1cde236609013f4b9744
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: 0ec3de073def2ff63af3c04b5696cbcec4f09948
+ms.sourcegitcommit: cfe8fbc202c3eb05d894076fdf99e46704f17365
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8862298"
+ms.lasthandoff: 06/15/2022
+ms.locfileid: "9014710"
 ---
 # <a name="set-up-cluster-picking"></a>Configurar separação de cluster
 
@@ -74,9 +74,14 @@ Quando a separação do cluster é aplicada, confirmação do item é importante
 
 ### <a name="set-up-item-verification-with-cluster-picking"></a>Configurar verificação do item com separação de cluster
 
-1. No item de menu do dispositivo móvel, abra o formulário de configuração para a confirmação de trabalho: **Gerenciamento de depósito** \> **Gerenciamento de depósito** \> **Configuração** \> **Dispositivo móvel** \> **Itens de menu do dispositivo móvel**.
+1. Acesse **Gerenciamento de depósito** > **Configuração** > **Dispositivo móvel** > **Itens de menu de dispositivo móvel**.
+1. No painel de lista, selecione o item de menu que deseja configurar.
+1. No Painel de Ações, selecione **Configuração de confirmação de trabalho**.
+1. Execute uma destas ações:
+    - Se já houver uma linha para o **Tipo de trabalho** que você deseja configurar, selecione-a e, em seguida, selecione **Editar** no Painel de Ações.
+    - Se uma linha apropriada não existir, selecione **Novo** no Painel de Ações e defina o **Tipo de trabalho** como o tipo apropriado.
+1. Marque a caixa de seleção **Confirmação do produto** para a linha nova ou a linha selecionada. Isso permitirá que os trabalhadores verifiquem cada peça de estoque usando o dispositivo móvel.
 
-1. Do item de menu de dispositivo móvel, abra a **Configuração de confirmação de trabalho**. A opção **Confirmação do produto** permite que você verifique cada peça de estoque no dispositivo móvel quando verificado.
 
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

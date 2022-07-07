@@ -11,12 +11,12 @@ ms.search.region: Global
 ms.author: yanansong
 ms.search.validFrom: 2021-06-18
 ms.dyn365.ops.version: 10.0.20
-ms.openlocfilehash: 493e0be8ab56abc2a3253876107b7f4fefabf4ad
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: cbe6bff6fab96900b8bd4e112a8858363fff86d1
+ms.sourcegitcommit: 9870b773a2ea8f5675651199fdbc63ca7a1b4453
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8891079"
+ms.lasthandoff: 06/15/2022
+ms.locfileid: "9013545"
 ---
 # <a name="get-started-with-global-inventory-accounting"></a>Introdução à Contabilidade de estoque global
 
@@ -69,37 +69,6 @@ Antes de habilitar a funcionalidade de suplemento, você deve se integrar ao Mic
 
 Para obter mais informações, consulte a página [Habilitar após a implantação do ambiente](../../fin-ops-core/dev-itpro/power-platform/enable-power-platform-integration.md#enable-after-deploy).
 
-### <a name="set-up-dataverse"></a>Configurar Dataverse
-
-Antes de configurar o Dataverse, adicione os princípios do Contabilidade de estoque global ao seu locatário seguindo essas etapas.
-
-1. Instale o módulo Azure AD para Windows PowerShell v2, conforme descrito em [Instalar o Azure Active Directory PowerShell para o Graph](/powershell/azure/active-directory/install-adv2).
-1. Execute o comando do PowerShell a seguir.
-
-    ```powershell
-    Connect-AzureAD # (open a sign in window and sign in as a tenant user)
-
-    New-AzureADServicePrincipal -AppId "7a1dd80f-c961-4a67-a2f5-d6a5d2f52cf9" -DisplayName "d365-scm-costaccountingservice"
-
-    New-AzureADServicePrincipal -AppId "5f58fc56-0202-49a8-ac9e-0946b049718b" -DisplayName "d365-scm-operationdataservice"
-    ```
-
-Em seguida, crie usuários de aplicativos para a Contabilidade de estoque global do Dataverse seguindo essas etapas.
-
-1. Abra a URL do ambiente do Dataverse.
-1. Acesse **Configuração Avançada \> Sistema \> Segurança \> Usuários** e crie um usuário de aplicativo. Use o campo **Visualizar** para alterar a exibição de página para *Usuários do Aplicativo*.
-1. Selecione **Novo**.
-1. Defina o campo **ID do Aplicativo** como *7a1dd80f-c961-4a67-a2f5-d6a5d2f52cf9*.
-1. Selecione **Atribuir Função** e, depois, selecione *Administrador do Sistema*. Se houver uma função denominada *Usuário do Common Data Service*, selecione-a.
-1. Repita as etapas anteriores, mas defina o campo **ID do aplicativo** para *5f58fc56-0202-49a8-ac9e-0946b049718b*.
-
-Para obter mais informações, consulte [Criar um usuário de aplicativo](/power-platform/admin/create-users-assign-online-security-roles#create-an-application-user).
-
-Se o idioma padrão da sua instalação do Dataverse não for inglês, siga estas etapas.
-
-1. Acesse **Configurações avançadas \> Administração \> Idiomas**.
-1. Selecione *Inglês* (*LanguageCode = 1033*) e selecione **Aplicar**.
-
 ## <a name="install-the-add-in"></a><a name="install"></a>Instalar o suplemento
 
 Siga estas etapas para instalar o suplemento para que você possa usar a Contabilidade de estoque global.
@@ -109,11 +78,21 @@ Siga estas etapas para instalar o suplemento para que você possa usar a Contabi
 1. Acesse **Detalhes completos**.
 1. Acesse **Integração do Power Platform** e selecione **Configuração**.
 1. Na caixa de diálogo **Configuração do ambiente do Power Platform**, marque a caixa de seleção e selecione **Configuração**. Normalmente, a configuração leva entre 60 e 90 minutos.
-1. Após a configuração do ambiente do Microsoft Power Platform ser concluída, na Guia Rápida **Suplementos do ambiente**, selecione **Instalar um novo suplemento**.
+1. Depois de concluir a configuração do ambiente do Microsoft Power Platform, entre no [Centro de administração do Power Platform](https://admin.powerplatform.microsoft.com) e instale o suplemento da Contabilidade de Estoque Global seguindo estas etapas:
+   1. Selecione o ambiente em que deseja instalar o suplemento.
+   1. Selecione **Aplicativos do Dynamics 365**.
+   1. Selecione **Instalar aplicativo**.
+   1. Selecione **Contabilidade de Estoque Global do Dynamics 365**.
+   1. Selecione **Avançar** para instalar.
+1. Volte para o ambiente do LCS. Na Guia Rápida **Complementos do ambiente**, selecione **Instalar um novo complemento**.
 1. Selecione **Contabilidade de estoque global**.
 1. Acompanhe o guia de instalação e concorde com os termos e condições.
 1. Selecione **Instalar**.
 1. Na Guia Rápida **Suplementos do ambiente**, você verá que o Contabilidade de estoque global está sendo instalado. Após alguns minutos, o status deve mudar de *Instalando* para *Instalado*. (Talvez seja necessário atualizar a página para ver essa alteração.) Nesse momento, a Contabilidade de estoque global já está pronto para uso.
+
+Se o idioma padrão da sua instalação do Dataverse não for inglês, siga estas etapas:
+1. Acesse **Configurações avançadas \> Administração \> Idiomas**.
+1. Selecione *Inglês* (*LanguageCode = 1033*) e selecione **Aplicar**.
 
 ## <a name="set-up-the-integration"></a>Configurar a integração
 

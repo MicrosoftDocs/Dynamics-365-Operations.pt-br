@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: johanho
 ms.search.validFrom: 2019-08-30
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: fa4fe7af46996e8de76ea61d5395327e7617e736
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: 2e63161aa32ecbc99baace9bb0cc649aedc600ed
+ms.sourcegitcommit: cfe8fbc202c3eb05d894076fdf99e46704f17365
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8906114"
+ms.lasthandoff: 06/15/2022
+ms.locfileid: "9015982"
 ---
 # <a name="warranties-on-assets-and-asset-types"></a>Garantias em ativos e tipos de ativo
 
@@ -39,7 +39,7 @@ Este artigo explica como configurar garantias em ativos e tipos de ativos no Ger
 
 ## <a name="set-up-a-warranty-on-an-asset"></a>Configurar uma garantia em um ativo
 
-1. Selecione **Gerenciamento de ativos** \> **Comum** \> **Ativos** \> **Todos os ativos**.
+1. Selecione **Gerenciamento de ativos** \> **Ativos** \> **Todos os ativos**.
 2. Selecione o ativo, e depois **Editar**.
 3. Na Guia Rápida **Fornecedor**, na seção **Garantia de fornecedor**, no campo **Garantia**, selecione o contrato de garantia.
 4. Nos campos **Data de início de garantia** e **Data de término de garantia**, selecione as datas de início e de término.

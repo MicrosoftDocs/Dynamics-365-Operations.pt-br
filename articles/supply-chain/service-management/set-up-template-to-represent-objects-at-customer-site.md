@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: sorenand
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 8c91fc2478ce4799fd51140a1416df0b674c1bce
-ms.sourcegitcommit: 9166e531ae5773f5bc3bd02501b67331cf216da4
+ms.openlocfilehash: 02e15375eb4757e84627206c4617edc7bf51ebf2
+ms.sourcegitcommit: cfe8fbc202c3eb05d894076fdf99e46704f17365
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/03/2022
-ms.locfileid: "8673400"
+ms.lasthandoff: 06/15/2022
+ms.locfileid: "9016874"
 ---
 # <a name="set-up-template-to-represent-objects-at-customer-site"></a>Configurar modelo para representar objetos no local do cliente 
 
@@ -29,7 +29,7 @@ ms.locfileid: "8673400"
 
 Use este procedimento para configurar um modelo que representa objetos no local do cliente.
 
-1.  Clique em **Gerenciamento de serviços** \> **Comum** \> **Contratos de serviço** \> **Contratos de serviço**.
+1.  Clique em **Gerenciamento de serviços** \> **Contratos de serviço** \> **Contratos de serviço**.
 
 2.  Clique duas vezes em um contrato de serviço ou clique em **Contrato de serviço** para criar um novo contrato de serviço.
 

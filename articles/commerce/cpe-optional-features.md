@@ -1,8 +1,8 @@
 ---
-title: Configurar recursos opcionais para um ambiente de avaliação do Dynamics 365 Commerce
-description: Este artigo explica como configurar recursos opcionais para um ambiente de avaliação do Microsoft Dynamics 365 Commerce.
+title: Configurar recursos opcionais para um ambiente de área restrita do Dynamics 365 Commerce
+description: Este artigo explica como configurar recursos opcionais para um ambiente de área restrita do Microsoft Dynamics 365 Commerce.
 author: psimolin
-ms.date: 07/16/2020
+ms.date: 06/14/2022
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -14,24 +14,24 @@ ms.search.region: Global
 ms.author: psimolin
 ms.search.validFrom: 2019-12-10
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: 39d4784e21c4fb42ca218d507616d49eff309ee1
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: 201628eb0c3e81d5fee0df9e53d93f5b1839adfb
+ms.sourcegitcommit: 252cb41c3029b623354698463f7b44a29fd9f184
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8861905"
+ms.lasthandoff: 06/15/2022
+ms.locfileid: "9013229"
 ---
-# <a name="configure-optional-features-for-a-dynamics-365-commerce-evaluation-environment"></a>Configurar recursos opcionais para um ambiente de avaliação do Dynamics 365 Commerce
+# <a name="configure-optional-features-for-a-dynamics-365-commerce-sandbox-environment"></a>Configurar recursos opcionais para um ambiente de área restrita do Dynamics 365 Commerce
 
 [!include [banner](includes/banner.md)]
 
-Este artigo explica como configurar recursos opcionais para um ambiente de avaliação do Microsoft Dynamics 365 Commerce.
+Este artigo explica como configurar recursos opcionais para um ambiente de área restrita do Microsoft Dynamics 365 Commerce.
 
 ## <a name="prerequisites"></a>Pré-requisitos
 
-Se quiser avaliar os recursos transacionais de email, os seguintes pré-requisitos deverão ser atendidos:
+Se quiser fazer uma demonstração dos recursos transacionais de email, os seguintes pré-requisitos deverão ser atendidos:
 
-- Há um servidor de email disponível (servidor Simple Mail Transfer Protocol \[SMTP\]) que pode ser usado da assinatura do Microsoft Azure onde você provisionou o ambiente de avaliação.
+- Você tem um servidor de email disponível (servidor Simple Mail Transfer Protocol \[SMTP\]) que pode ser usado da assinatura de Microsoft Azure onde você provisionou o ambiente de área restrita.
 - Você tem o nome de domínio totalmente qualificado (FQDN)/endereço IP do servidor, o número da porta SMTP e os detalhes de autenticação disponíveis.
 
 ## <a name="configure-the-image-back-end"></a>Configurar o back-end de imagem
@@ -39,10 +39,10 @@ Se quiser avaliar os recursos transacionais de email, os seguintes pré-requisit
 ### <a name="find-your-media-base-url"></a>Encontrar sua URL base da mídia
 
 > [!NOTE]
-> Antes de concluir este procedimento, você deve concluir as etapas em [Configurar seu site no Commerce](cpe-post-provisioning.md#set-up-your-site-in-commerce).
+> Antes de concluir este procedimento, você deve concluir as etapas em [Configurar seu site no Commerce](cpe-post-provisioning.md#set-up-your-e-commerce-sites).
 
 1. Entre no construtor de sites do Commerce usando a URL que você anotou ao inicializar o e-Commerce durante o provisionamento (consulte [Inicializar o e-Commerce](provisioning-guide.md#initialize-e-commerce)).
-1. Abra o site **Fabrikam**.
+1. Abra o site **Fabrikam**, **Adventure Works** ou **Adventure Works para empresas** com o qual você deseja trabalhar.
 1. No menu à esquerda, selecione **Biblioteca de Mídia**.
 1. Selecione qualquer ativo único da imagem.
 1. No Inspetor de propriedades à direita, localize a propriedade de **URL pública**. O valor é uma URL. Este é um exemplo:
@@ -98,9 +98,9 @@ Para cada evento transacional para o qual você deseja enviar emails, você deve
 
 ## <a name="customize-email-templates"></a>Personalizar modelos de email
 
-Você pode desejar personalizar os modelos de email para que eles usem imagens diferentes. Ou, talvez queira atualizar os links nos modelos para que eles levem você ao seu ambiente de avaliação. Esse procedimento explica como baixar os modelos padrão, personalizá-los e atualizar os modelos no sistema.
+Você pode desejar personalizar os modelos de email para que eles usem imagens diferentes. Ou, talvez queira atualizar os links nos modelos para que eles possam direcionar para o seu ambiente de área restrita. Esse procedimento explica como baixar os modelos padrão, personalizá-los e atualizar os modelos no sistema.
 
-1. Em um navegador da Web, baixe o [arquivo zip de modelos de email padrão para a Avaliação do Microsoft Dynamics 365 Commerce](https://download.microsoft.com/download/d/7/b/d7b6c4d4-fe09-4922-9551-46bbb29d202d/Commerce.Preview.Default.Email.Templates.zip) no seu computador local. Esse arquivo contém os seguintes documentos HTML:
+1. Em um navegador da Web, baixe o [arquivo zip de modelos de email padrão para demonstração do Microsoft Dynamics 365 Commerce](https://download.microsoft.com/download/d/7/b/d7b6c4d4-fe09-4922-9551-46bbb29d202d/Commerce.Preview.Default.Email.Templates.zip) no seu computador local. Esse arquivo contém os seguintes documentos HTML:
 
     - Módulo de confirmação da ordem
     - Emitir modelo de vale-presente
@@ -167,15 +167,11 @@ Os seguintes tokens são substituídos com valores para cada produto no pedido.
 
 ## <a name="additional-resources"></a>Recursos adicionais
 
-[Visão geral do ambiente de avaliação do Dynamics 365 Commerce](cpe-overview.md)
+[Provisionar um ambiente de área restrita do Dynamics 365 Commerce](provisioning-guide.md)
 
-[Provisionar um ambiente de avaliação do Dynamics 365 Commerce](provisioning-guide.md)
+[Configurar um ambiente de área restrita do Dynamics 365 Commerce](cpe-post-provisioning.md)
 
-[Configurar um ambiente de avaliação do Dynamics 365 Commerce](cpe-post-provisioning.md)
-
-[Configurar BOPIS em um ambiente de avaliação do Dynamics 365 Commerce](cpe-bopis.md)
-
-[Perguntas frequentes sobre o ambiente de avaliação do Dynamics 365 Commerce](cpe-faq.md)
+[Configurar BOPIS em um ambiente de área restrita do Dynamics 365 Commerce](cpe-bopis.md)
 
 [Microsoft Lifecycle Services (LCS)](/dynamics365/unified-operations/dev-itpro/lifecycle-services/lcs-user-guide)
 

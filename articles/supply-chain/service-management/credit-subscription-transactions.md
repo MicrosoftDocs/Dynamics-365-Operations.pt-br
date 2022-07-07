@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: sorenand
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: e23d471e270d7cbeda2bbaa161e729f30e1ebecd
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: 482a276a86d4b4174d276d775513069d423c17a4
+ms.sourcegitcommit: cfe8fbc202c3eb05d894076fdf99e46704f17365
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8854055"
+ms.lasthandoff: 06/15/2022
+ms.locfileid: "9015889"
 ---
 # <a name="credit-subscription-transactions"></a>Creditar transações de assinatura 
 
@@ -29,7 +29,7 @@ ms.locfileid: "8854055"
 
 ## <a name="credit-subscription-transactions"></a>Creditar transações de assinatura
 
-1.  Clique em **Gerenciamento de serviço** \> **Comum** \> **Subscrições de serviço** \> **Todas as subscrições de serviço**.
+1.  Clique em **Gerenciamento de serviço** \> **Subscrições de serviço** \> **Todas as subscrições de serviço**.
 
 2.  Selecione a subscrição anexada à transação de subscrição para a qual deseja criar uma nota de crédito.
 

@@ -1,8 +1,8 @@
 ---
 title: Vídeos
-description: Essa página lista "como fazer" criados pela Microsoft e conversas tecnológicas em vídeos relacionadas a aplicativos do Finance and Operations que estão disponíveis no YouTube e em outros sites.
+description: Essa página lista vídeos de instruções e conversas sobre tecnologia relacionados aos aplicativos do Finance and Operations que estão disponíveis no YouTube e em outros sites.
 author: sericks007
-ms.date: 09/15/2021
+ms.date: 06/13/2022
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -14,18 +14,18 @@ ms.search.region: global
 ms.author: sericks
 ms.search.validFrom: 2018-04-30
 ms.dyn365.ops.version: AX 7.0.0, AX 8.0
-ms.openlocfilehash: 3fe44a9a7fcef2f22dff3be00ddfadd5b8c59574
-ms.sourcegitcommit: 7a2001e4d01b252f5231d94b50945fd31562b2bc
+ms.openlocfilehash: 76fe61c13490afbd7b5dcd39f3c631cbab43bb9e
+ms.sourcegitcommit: 0686b56b4699ffefd2c208d0fe496d5860296520
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 09/15/2021
-ms.locfileid: "7487982"
+ms.lasthandoff: 06/13/2022
+ms.locfileid: "8958128"
 ---
 # <a name="videos"></a>Vídeos 
 
 [!include [banner](../includes/banner.md)]
 
-No [canal do Microsoft Dynamics no YouTube](https://www.youtube.com/channel/UCJGCg4rB3QSs8y_1FquelBQ), você pode localizar os vídeos criados pela Microsoft que demonstram uma ampla gama de soluções empresariais para produtos do Dynamics 365. Esta seção lista vídeos de "como fazer" para aplicativos do Finance and Operations que são armazenados no canal.
+No [canal do Microsoft Dynamics no YouTube](https://www.youtube.com/channel/UCJGCg4rB3QSs8y_1FquelBQ), você pode localizar os vídeos criados pela Microsoft que demonstram uma ampla gama de soluções empresariais para produtos do Dynamics 365. Esta seção lista vídeos de instruções dos aplicativos do Finance and Operations que são armazenados no canal.
 
 > [!Note]
 > Alguns dos vídeos listados foram publicados sob um nome de produto anterior, mas ainda aplicáveis.
@@ -42,8 +42,7 @@ No [canal do Microsoft Dynamics no YouTube](https://www.youtube.com/channel/UCJG
 
 ### <a name="development"></a>Desenvolvimento
 
-- [Como resolver conflitos no Visual Studio](https://youtu.be/4rxO0zUN2zU)
-- [Consultor de otimização](https://www.youtube.com/watch?v=MRsAzgFCUSQ&t=4s)
+- [Assistente de otimização](https://www.youtube.com/watch?v=MRsAzgFCUSQ&t=4s)
 - [Configurando uma filial e uma compilação de desenvolvimento](https://www.youtube.com/watch?v=qXLd-NMx9OY)
 - [Configurando uma máquina de desenvolvimento](https://www.youtube.com/watch?v=cqp9MetfiyM)
 - [Integração do Azure DevOps ao Lifecycle Services](https://www.youtube.com/watch?v=0QyyyUp1zHQ&t=1s)
@@ -51,8 +50,8 @@ No [canal do Microsoft Dynamics no YouTube](https://www.youtube.com/channel/UCJG
 ### <a name="intelligence"></a>Inteligência
 
 - [Como editar um relatório inserido em um espaço de trabalho analítico](https://youtu.be/_8WlwmSggcQ)
-- [Como inserir relatórios do PowerBI.com nos aplicativos do Finance and Operations](https://youtu.be/gGWuNJDoi-M)
-- [Traga sua própria base de dados (BYOD) para os aplicativos do Finance and Operations](https://www.youtube.com/watch?v=-MaxtBJu2_o&feature=youtu.be)
+- [Como inserir relatórios do PowerBI.com em aplicativos do Finance and Operations](https://youtu.be/gGWuNJDoi-M)
+- [Trazer sua própria base de dados (BYOD) para aplicativos do Finance and Operations](https://www.youtube.com/watch?v=-MaxtBJu2_o&feature=youtu.be)
 - [Como usar o conteúdo do Power BI de gerenciamento de custo no Dynamics 365](https://www.youtube.com/watch?v=5jWHnM_C7WM&feature=youtu.be)
 
 ### <a name="lifecycle-services-lcs"></a>LCS (Lifecycle Services)

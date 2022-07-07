@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: johanho
 ms.search.validFrom: 2019-09-30
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: 25e9139ce57283482d8da4b7f1e5d6275c74ad28
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: 70b83de50105cf664bbc6b6095203d01d83cd79b
+ms.sourcegitcommit: cfe8fbc202c3eb05d894076fdf99e46704f17365
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8854519"
+ms.lasthandoff: 06/15/2022
+ms.locfileid: "9016671"
 ---
 # <a name="maintenance-checklists"></a>Listas de verificação de manutenção
 
@@ -35,7 +35,7 @@ Quando você trabalha com listas de verificação de manutenção em uma ordem d
 
 ## <a name="fill-in-a-maintenance-checklist"></a>Preencher uma lista de verificação de manutenção
 
-1. Clique em **Gerenciamento de ativos** > **Comum** > **Ordens de serviço** > **Todas as ordens de serviço** ou **Ordens de serviço ativas**.
+1. Clique em **Gerenciamento de ativos** > **Ordens de serviço** > **Todas as ordens de serviço** ou **Ordens de serviço ativas**.
 
 2. Selecione a ordem de serviço e, no Painel de Ação, na guia **Ordem de serviço**, no grupo **Linhas**, selecione **Lista de verificação de manutenção**.
 

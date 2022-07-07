@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: johanho
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: aa326a01bb63bd0b59c0df7a3c751a5242a3dd37
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: c43424a0955d7a046186e8a4120c050990df6060
+ms.sourcegitcommit: cfe8fbc202c3eb05d894076fdf99e46704f17365
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8872084"
+ms.lasthandoff: 06/15/2022
+ms.locfileid: "9015046"
 ---
 # <a name="condition-assessment"></a>Avaliação de condições
 
@@ -47,7 +47,7 @@ A avaliação da condição é criada em ativos. Você configura um modelo de av
 
 ## <a name="create-condition-assessment-registration-on-an-asset"></a>Crie o registro de avaliação de condição em um ativo
 
-1. Selecione **Gerenciamento de ativos** > **Comum** > **Ativos** > **Todos os Ativos**.
+1. Selecione **Gerenciamento de ativos** > **Ativos** > **Todos os ativos**.
 2. Na lista, selecione o ativo para o qual deseja criar um registro de avaliação de condição.
 3. Na guia **Geral**, clique em **Avaliação de condição**.
 4. Clique em **Novo** para criar um novo registro.
@@ -62,7 +62,7 @@ A avaliação da condição é criada em ativos. Você configura um modelo de av
 Após fazer um registro de avaliação de condição em um ativo, você poderá imprimir um relatório de avaliação de condição.
 
 >[!NOTE]
->Você também pode registrar a avaliação de condição em uma ordem de serviço (botão **Gerenciamento de ativos** > **Comum** > **Ordens de serviço** > **Todas as ordens de serviço** > **Avaliação de condição**.)
+>Você também pode registrar a avaliação de condição em uma ordem de serviço (**Gerenciamento de ativos** > **Ordens de serviço** > **Todas as ordens de serviço** > botão **Avaliação de condição**)
 
 
 [!INCLUDE[footer-include](../../../includes/footer-banner.md)]

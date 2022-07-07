@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: johanho
 ms.search.validFrom: 2019-08-31
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: bf78d53e8e2d7bee24a0a7789ca1a96cdd8f1415
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: 588da2a217a56d2bc25f85c9a10c6589f90b16a1
+ms.sourcegitcommit: cfe8fbc202c3eb05d894076fdf99e46704f17365
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8886034"
+ms.lasthandoff: 06/15/2022
+ms.locfileid: "9015075"
 ---
 # <a name="register-consumption"></a>Registrar consumo
 
@@ -35,7 +35,7 @@ Em alguns casos, você pode adicionar ou excluir linhas de previsão em uma orde
 >[!NOTE]
 >É possível configurar o lançamento automático de diários em um estado de ciclo de vida de ordem de serviço. Consulte [Estados de ciclo de vida de ordem de serviço](../setup-for-work-orders/work-order-lifecycle-states.md) para obter mais informações.
 
-1. Clique em **Gerenciamento de ativos** > **Comum** > **Ordens de serviço** > **Todas as ordens de serviço** ou **Ordens de serviço ativas**.
+1. Clique em **Gerenciamento de ativos** > **Ordens de serviço** > **Todas as ordens de serviço** ou **Ordens de serviço ativas**.
 
 2. Selecione a ordem de serviço e clique em **Diários**.
 
@@ -61,7 +61,7 @@ A captura de tela a seguir mostra um exemplo de registros de hora e item em uma 
 
 Se uma ordem de serviço contiver vários trabalhos de ordem de serviço, você poderá registrar horas de trabalho usando a funcionalidade **Dividir horas**, o que significa que a linha de registro de uma hora pode ser distribuída uniformemente em cada trabalho de ordem de serviço.
 
-1. Clique em **Gerenciamento de ativos** > **Comum** > **Ordens de serviço** > **Todas as ordens de serviço** ou **Ordens de serviço ativas**.
+1. Clique em **Gerenciamento de ativos** > **Ordens de serviço** > **Todas as ordens de serviço** ou **Ordens de serviço ativas**.
 
 2. Selecione a ordem de serviço e clique em **Diários**.
 

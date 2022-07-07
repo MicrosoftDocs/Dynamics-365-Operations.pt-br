@@ -16,12 +16,12 @@ ms.search.industry: Manufacturing
 ms.author: johanho
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: d74b6c82c573810da9cbfe14745f997f40d408fc
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: 8d9c756d8aaf2e7b2f6593e78fbb645dafee4552
+ms.sourcegitcommit: cfe8fbc202c3eb05d894076fdf99e46704f17365
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8873656"
+ms.lasthandoff: 06/15/2022
+ms.locfileid: "9016149"
 ---
 # <a name="production-parameters-in-manufacturing-execution"></a>Parâmetros de produção em Execução de fabricação
 
@@ -63,7 +63,7 @@ Na página **Parâmetros de produção**, o consumo automático de BOM é config
 
 Para cada estágio, o campo **Consumo automático de BOM** permite selecionar um dos três métodos para separar itens de uma ordem de produção:
 
-- **Princípio de liberação** – Esta opção é usada em combinação com uma opção definida para a lista de materiais no módulo **Produção**. Clique em **Controle de produção** &gt; **Comum** &gt; **Ordens de produção** &gt; **Todas as ordens de produção**. Na página **Todas as ordens de produção**, selecione uma ordem de produção na lista e, em seguida, no painel de ações, clique em **BOM**. Na página **BOM**, na guia **Configuração**, no campo **Princípio de liberação**, selecione uma destas opções:
+- **Princípio de liberação** – Esta opção é usada em combinação com uma opção definida para a lista de materiais no módulo **Produção**. Clique em **Controle de produção** &gt; **Ordens de produção** &gt; **Todas as ordens de produção**. Na página **Todas as ordens de produção**, selecione uma ordem de produção na lista e, em seguida, no painel de ações, clique em **BOM**. Na página **BOM**, na guia **Configuração**, no campo **Princípio de liberação**, selecione uma destas opções:
 
   - **Iniciar**
   - **Concluir**

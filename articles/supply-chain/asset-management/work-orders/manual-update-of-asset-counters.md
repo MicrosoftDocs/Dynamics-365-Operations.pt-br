@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: johanho
 ms.search.validFrom: 2019-09-30
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: f3a9ee0a96e6a9097608b4c7cd1f65085e95b8ca
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: 30c672286c16a4353556a507019960edb93f8b1b
+ms.sourcegitcommit: cfe8fbc202c3eb05d894076fdf99e46704f17365
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8897709"
+ms.lasthandoff: 06/15/2022
+ms.locfileid: "9016584"
 ---
 # <a name="manual-update-of-asset-counters"></a>Atualização manual de contadores de ativo
 
@@ -34,7 +34,7 @@ O tipo selecionado para um contador deve ser definido para herdar valores do con
 
 Na página **Todos os ativos**, você pode criar os registros de contador de horas ou quantidade em um ativo com base nas leituras do ativo.
 
-1. Selecione **Gerenciamento de ativos** > **Comum** > **Ativos** > **Todos os ativos**.
+1. Selecione **Gerenciamento de ativos** > **Ativos** > **Todos os ativos**.
 
 2. Selecione o ativo e, depois, no Painel de Ação, na guia **Ativo** , no grupo **Preventivo** , selecione **Contadores**. A página **Contadores de ativos** exibe uma lista de todos os registros do contador anteriores que foram feitos no ativo selecionado.
 

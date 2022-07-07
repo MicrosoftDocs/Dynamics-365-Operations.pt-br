@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: sericks
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: a6e9454baa33e37fe62db2b7bd39ff00891ff855
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: 5be880a6d178743f4a2d3339609604d993f7e5d5
+ms.sourcegitcommit: cfe8fbc202c3eb05d894076fdf99e46704f17365
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8905014"
+ms.lasthandoff: 06/15/2022
+ms.locfileid: "9016389"
 ---
 # <a name="whats-new-or-changed-in-dynamics-365-for-operations-version-1611-november-2016"></a>Novidades ou alterações no Dynamics 365 for Operations versão 1611 (novembro de 2016)
 
@@ -154,7 +154,7 @@ Este artigo descreve os recursos novos ou alterados no Dynamics 365 for Operatio
 </tr>
 <tr>
 <td>Exibir transações para mais níveis de lançamento.</td>
-<td>Na página de lista <strong>Balancete</strong> e no relatório <strong>Demonstrativo de dimensão</strong>, agora é possível selecionar mais níveis de lançamento que foram adicionados à contabilidade. Ao selecionar os níveis de lançamento adicionais, os ajustes desses níveis são incluídos nos saldos na página de lista ou no relatório.</td>
+<td>Na página de listagem <strong>Balancete</strong> e no relatório <strong>Demonstrativo de dimensão</strong>, agora é possível selecionar mais níveis de lançamento que foram adicionados à contabilidade. Ao selecionar os níveis de lançamento adicionais, os ajustes desses níveis são incluídos nos saldos na página de listagem ou no relatório.</td>
 </tr>
 <tr>
 <td>Anexar documentação explicativa ao modelo de fechamento do período financeiro.</td>
@@ -174,7 +174,7 @@ Este artigo descreve os recursos novos ou alterados no Dynamics 365 for Operatio
 </tr>
 <tr>
 <td>Aproveitar a melhoria de visibilidade de atividade de faturamento de pagamento antecipado.</td>
-<td>Uma nova página de lista <strong>Pagamentos antecipados em aberto</strong> fornece instantaneamente o status da atividade de faturamento de pagamento antecipado. A página fornece ao departamento de AP informações sobre ordens de compra com valores de pagamento antecipado remanescentes que devem ser faturados, valores faturados que devem ser pagos e valores de fatura pagos que devem ser aplicados a faturas padrão. Além disso, melhorias na aplicação automática de faturas de pagamentos antecipados pagas a faturas padrão ajudam o funcionário responsável pelo faturamento a realizar entrada de dados de forma mais eficiente.</td>
+<td>Uma nova página de listagem <strong>Pagamentos antecipados em aberto</strong> fornece instantaneamente o status da atividade de faturamento de pagamento antecipado. A página fornece ao departamento de AP informações sobre ordens de compra com valores de pagamento antecipado remanescentes que devem ser faturados, valores faturados que devem ser pagos e valores de fatura pagos que devem ser aplicados a faturas padrão. Além disso, melhorias na aplicação automática de faturas de pagamentos antecipados pagas a faturas padrão ajudam o funcionário responsável pelo faturamento a realizar entrada de dados de forma mais eficiente.</td>
 </tr>
 <tr>
 <td>Use o espaço de trabalho <strong>Faturamento de colaboração do fornecedor</strong>.</td>
@@ -818,7 +818,7 @@ Atualmente, o Retail Modern POS está disponível apenas como um aplicativo do W
 | Ajustar o estoque de propriedade do fornecedor usando o diário de contagem. | É importante que você mantenha o estoque de sistema disponível em sincronia com o estoque físico real. O estoque de propriedade do fornecedor pode ser ajustado interna e externamente por meio de processos de contagem, como ajuste de quantidade e processos de diário de contagem. |
 | Saiba mais sobre o suporte de consignação no Dynamics 365 for Operations | Para obter mais informações sobre o suporte para processos de consignação, consulte [Consignação](../../../supply-chain/inventory/consignment.md), [Configurando consignação](/d365F-O/fin-ops-core/fin-ops/get-started/consignment), [Criar uma ordem de reabastecimento de consignação (guia de tarefas)](../../../supply-chain/inventory/tasks/create-consignment-replenishment-order.md) e [Alterar a propriedade de estoque de remessa com base na demanda de produção (guia de tarefas)](../../../supply-chain/inventory/tasks/change-ownership-consignment.md). |
 
-### <a name="vendor-collaboration-previously-known-as-the-vendor-portal"></a>Colaboração do fornecedor (antes conhecida como o portal do fornecedor)
+### <a name="vendor-collaboration"></a>Colaboração do fornecedor
 
 | O que você pode fazer | Por que isso é importante |
 |-----------------|-----------------------|

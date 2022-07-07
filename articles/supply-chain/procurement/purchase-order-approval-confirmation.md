@@ -16,12 +16,12 @@ ms.search.industry: ''
 ms.author: gfedorova
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 936fddb73a639564a136002354a4d3dff7798e0b
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: af33dbd38b1eb70e79392860e48c6943a4192f78
+ms.sourcegitcommit: cfe8fbc202c3eb05d894076fdf99e46704f17365
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8907367"
+ms.lasthandoff: 06/15/2022
+ms.locfileid: "9016439"
 ---
 # <a name="approve-and-confirm-purchase-orders"></a>Aprovar e confirmar ordens de compra
 
@@ -50,7 +50,7 @@ Quando o gerenciamento de alterações é habilitado, POs percorrem os seis stat
 ## <a name="confirming-purchase-orders"></a>Confirmar ordens de compra
 POs que têm um status de aprovação **Aprovado** podem passar por etapas adicionais antes que elas sejam confirmadas. Por exemplo, você terá de enviar uma consulta de compra para o fornecedor para saber mais sobre preços, descontos ou datas de entrega. Nesse caso, você pode definir a ordem de compra para o status **Na análise externa** usando a ação **Consulta de compra**.
 
-Fornecedores que estão configurados para usar o portal do fornecedor podem rever pedidos no portal e aprovar ou rejeitá-los. Durante esse processo de revisão, o pedido de compra tem um status de **Na análise externa**. O portal do fornecedor pode ser configurado para que uma confirmação do fornecedor confirme automaticamente a ordem no Supply Chain Management. Como alternativa, você pode confirmar manualmente uma ordem de compra após receber a confirmação do fornecedor. Se um fornecedor rejeita um pedido de compra, a rejeição é recebida com o motivo para a rejeição e sugestões para alterações. Nesse caso, o status do pedido de compra permanece **Na análise externa**.
+Fornecedores que estão configurados para usar o módulo de colaboração do fornecedor podem rever as ordens no portal e aprová-las ou rejeitá-las. Durante esse processo de revisão, o pedido de compra tem um status de **Na análise externa**. O módulo de colaboração do fornecedor pode ser configurado para que ocorra automaticamente uma confirmação da ordem pelo fornecedor no Supply Chain Management. Como alternativa, você pode confirmar manualmente uma ordem de compra após receber a confirmação do fornecedor. Se um fornecedor rejeita um pedido de compra, a rejeição é recebida com o motivo para a rejeição e sugestões para alterações. Nesse caso, o status do pedido de compra permanece **Na análise externa**.
 
 Há também uma opção para gerar uma confirmação pró-forma para um pedido antes da confirmação real ser processada. Essa opção apenas cria um relatório que pode ser compartilhado com o fornecedor. Ela não cria quaisquer informações de diário.
 

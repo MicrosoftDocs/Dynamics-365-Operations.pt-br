@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: johanho
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 95d0998bbacef7a4350d0fd0a58259ec35759d28
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: b00cb62926f3a482ec655235b6e2f5880edbcd04
+ms.sourcegitcommit: cfe8fbc202c3eb05d894076fdf99e46704f17365
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8868033"
+ms.lasthandoff: 06/15/2022
+ms.locfileid: "9016265"
 ---
 # <a name="asset-manufacturers-and-models"></a>Fabricantes e modelos de ativo
 
@@ -53,7 +53,7 @@ Este artigo explica como configurar fabricantes de ativo e modelos relacionados 
 
 ## <a name="select-a-manufacturer-and-model-on-an-object"></a>Selecionar um fabricante e modelo em um objeto
 
-1. Selecione **Gerenciamento de ativos** \> **Comum** \> **Ativos** \> **Todos os ativos**.
+1. Selecione **Gerenciamento de ativos** \> **_Ativos_* \> **Todos os ativos**.
 2. Na coluna **Ativo**, selecione o link para o ativo. A página **Detalhes** aparece.
 3. Selecione **Editar**.
 4. Na Guia Rápida **Geral**, selecione valores nos campos **Fabricante** e **Modelo**.

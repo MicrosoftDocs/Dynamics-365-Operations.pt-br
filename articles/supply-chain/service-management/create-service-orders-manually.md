@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: sorenand
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: f969e3de9586c0c47214201b34a16f8afad5ca90
-ms.sourcegitcommit: 9166e531ae5773f5bc3bd02501b67331cf216da4
+ms.openlocfilehash: 1764d97d4492e7b982a5d2c9f7e7f1c15380be1d
+ms.sourcegitcommit: cfe8fbc202c3eb05d894076fdf99e46704f17365
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/03/2022
-ms.locfileid: "8678252"
+ms.lasthandoff: 06/15/2022
+ms.locfileid: "9014841"
 ---
 # <a name="create-service-orders-manually"></a>Criar ordens de serviço manualmente    
 
@@ -34,7 +34,7 @@ Você pode criar ordens de serviço manualmente usando um contrato de serviço o
 
 ## <a name="create-a-service-order-manually-from-a-service-agreement"></a>Criar uma ordem de serviço manualmente a partir de um contrato de serviço
 
-1.  Selecione **Gerenciamento de serviços** \> **Comum** \> **Contratos de serviço** \> **Contratos de serviço**.
+1.  Selecione **Gerenciamento de serviços** \> **Contratos de serviço** \> **Contratos de serviço**.
 
 2.  Selecione um contrato de serviço ou crie um novo.
 
@@ -42,7 +42,7 @@ Você pode criar ordens de serviço manualmente usando um contrato de serviço o
 
 ## <a name="create-a-service-order-manually-in-the-service-orders-form"></a>Criar uma ordem de serviço manualmente no formulário Ordens de serviço
 
-1.  Selecione **Gerenciamento de serviços** \> **Comum** \> **Ordens de serviço** \> **Ordens de serviço**.
+1.  Selecione **Gerenciamento de serviços** \> **Ordens de serviço** \> **Ordens de serviço**.
 
 2.  Selecione **Novo** para criar uma nova ordem de serviço.
 
@@ -53,7 +53,7 @@ Você pode criar ordens de serviço manualmente usando um contrato de serviço o
 
 ## <a name="create-a-service-order-from-a-project"></a>Criar uma ordem de serviço a partir de um projeto
 
-1.  Acesse **Gerenciamento e contabilidade de projeto** \> **Comum** \> **Projetos** \> **Todos os projetos**.
+1.  Vá para **Gerenciamento e contabilidade de projeto** \> **Projetos** \> **Todos os projetos**.
 
 2.  No formulário **Projetos**, no **Painel de Ações**, selecione a guia **Gerenciar** \> selecione **Serviço** \> **Ordens de serviço**.
 
@@ -66,7 +66,7 @@ Você pode criar ordens de serviço manualmente usando um contrato de serviço o
 
 Você pode criar uma ordem de serviço do formulário **Ordens de venda** usando o assistente **Criar uma nova ordem de serviço com base na ordem de venda**.
 
-1.  Acesse **Vendas e marketing** \> **Comum** \> **Ordens de venda** \> **Todas as ordens de venda**.
+1.  Acesse **Vendas e marketing** \> **Ordens de venda** \> **Todas as ordens de venda**.
 
 2.  Abra a ordem de venda relevante.
 

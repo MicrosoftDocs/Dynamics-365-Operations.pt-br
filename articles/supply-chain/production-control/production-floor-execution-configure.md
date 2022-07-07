@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: johanho
 ms.search.validFrom: 2020-10-05
 ms.dyn365.ops.version: 10.0.15
-ms.openlocfilehash: 9eefde163473e11b01bfa0adf9b3694c830f1488
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: 14a49d1d6c956b37ff9b2bec387615dc75d060e1
+ms.sourcegitcommit: d770f0e6a012675a3027641704be804beb99754b
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8899401"
+ms.lasthandoff: 06/16/2022
+ms.locfileid: "9022554"
 ---
 # <a name="configure-the-production-floor-execution-interface"></a>Configurar a interface de execução de piso de produção
 
@@ -113,9 +113,6 @@ Para usar essa funcionalidade, ative o seguinte recurso em [Gerenciamento de rec
 
 ### <a name="enable-the-my-day-dialog"></a>Habilitar a caixa de diálogo "Meu dia"
 
-[!INCLUDE [preview-banner-section](../../includes/preview-banner-section.md)]
-<!-- KFM: preview until 10.0.27 GA -->
-
 A caixa de diálogo **Meu dia** oferece aos trabalhadores uma visão geral dos registros diários e dos saldos atuais de tempo pago, hora extra paga, ausência e ausência paga.
 
 Para usar essa funcionalidade, ative o seguinte recurso em [Gerenciamento de recursos](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md):
@@ -124,9 +121,6 @@ Para usar essa funcionalidade, ative o seguinte recurso em [Gerenciamento de rec
 
 ### <a name="enable-teams"></a>Habilitar equipes
 
-[!INCLUDE [preview-banner-section](../../includes/preview-banner-section.md)]
-<!-- KFM: preview until 10.0.27 GA -->
-
 Quando vários trabalhadores são designados para o mesmo trabalho de produção, eles podem formar uma equipe. A equipe pode designar um trabalhador como coordenador. Os trabalhadores restantes se tornarão automaticamente assistentes desse coordenador. Para a equipe resultante, somente o coordenador deve registrar o status do trabalho. Os registros de hora se aplicam a todos os membros da equipe.
 
 Para usar essa funcionalidade, ative o seguinte recurso em [Gerenciamento de recursos](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md):
@@ -134,9 +128,6 @@ Para usar essa funcionalidade, ative o seguinte recurso em [Gerenciamento de rec
 - *Equipes de produção na interface de execução de piso de produção*
 
 ### <a name="enable-additional-configuration-in-the-production-floor-execution-interface"></a>Habilitar a configuração adicional na interface de execução de piso de produção
-
-[!INCLUDE [preview-banner-section](../../includes/preview-banner-section.md)]
-<!-- KFM: preview until 10.0.27 GA -->
 
 Esse recurso adiciona configurações para a seguinte funcionalidade na página **Configurar execução de piso de produção**:
 

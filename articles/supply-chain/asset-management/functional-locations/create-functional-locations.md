@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: johanho
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 503150e7cfc580821c5ed8d4c4c9b56998f6ff13
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: f7c36fe230db38bfdbfd70fec7bdfd0a313d5a15
+ms.sourcegitcommit: cfe8fbc202c3eb05d894076fdf99e46704f17365
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8869710"
+ms.lasthandoff: 06/15/2022
+ms.locfileid: "9015831"
 ---
 # <a name="create-functional-locations"></a>Criar locais funcionais
 
@@ -41,7 +41,7 @@ Para poder trabalhar com locais funcionais, você começa criando duas "categori
 
 Ao utilizar locais funcionais, comece criando um local padrão a ser usado quando você criar novos ativos. Este local funcional é o que você seleciona no link **Gerenciamento de ativos** > **Configuração** > **Parâmetros de gerenciamento de ativos** > **Ativos** > campo **Local funcional padrão**. O local funcional padrão pode ser usado quando você cria novos ativos e ainda não configurou uma estrutura de local funcional para esses ativos.
 
-1. Selecione **Gerenciamento de ativos** > **Comum** > **Locais funcionais** > **Todos os locais funcionais**.  
+1. Selecione **Gerenciamento de ativos** > **Locais funcionais** > **Todos os locais funcionais**.  
 2. Em **Todos os locais funcionais**, selecione **Novo**.
 3. Insira um ID no campo **Local funcional**; por exemplo, "0000" ou "Padrão", para indicar que este é um local funcional especial.
 4. Insira um nome para o local funcional padrão no campo **Nome**.
@@ -53,7 +53,7 @@ Ao utilizar locais funcionais, comece criando um local padrão a ser usado quand
 
 O procedimento a seguir descreve como você cria locais funcionais necessários para o gerenciamento de manutenção em sua empresa.
 
-1. Selecione **Gerenciamento de ativos** > **Comum** > **Locais funcionais** > **Todos os locais funcionais**. Você pode criar um local funcional na exibição de grade ou na exibição de detalhes.
+1. Selecione **Gerenciamento de ativos** > **Locais funcionais** > **Todos os locais funcionais**. Você pode criar um local funcional na exibição de grade ou na exibição de detalhes.
 2. Selecione o botão **Novo**.
 3. Insira uma ID no campo **Local funcional**.
 4. Insira um nome para o local funcional no campo **Nome**.
@@ -111,7 +111,7 @@ Quando os dados em relação a **Site**, **Depósito**, **Endereço** e **Dimens
 Se sua empresa tiver vários locais funcionais com estruturas de local semelhantes, você poderá usar a função de cópia em Gerenciamento de Ativos para criar rapidamente um número de hierarquias de locais semelhantes. Ao copiar um local funcional específico ou uma estrutura inteira, o novo local ou estrutura terá o mesmo nome daquele que você copiou. Após o procedimento de cópia, você pode alterar facilmente o nome ou outras configurações no novo local funcional, desde que o estado do ciclo de vida do local funcional selecionado para o novo local funcional permita isso.
 
 1. Em **Todos os locais funcionais**, selecione o local funcional a ser copiado. Por exemplo, você selecionará uma local superior (pai) se desejar copiar a estrutura inteira de local funcional, que inclui sublocais.
-2. Selecione o botão **Copiar a estrutura do local funcional**. O local selecionado na página de lista é mostrado no campo **Copiar de**.
+2. Selecione o botão **Copiar a estrutura do local funcional**. O local selecionado na página de listagem é mostrado no campo **Copiar de**.
 3. Insira o nome do novo local no campo **Novo local funcional**.
 4. No campo **Responsável por colar abaixo**, você só deverá inserir uma ID pai se o local que estiver criando fizer parte de uma estrutura de local funcional existente.
 5. Clique em **OK**. A nova estrutura de local funcional é mostrada em **Todos os locais funcionais**.

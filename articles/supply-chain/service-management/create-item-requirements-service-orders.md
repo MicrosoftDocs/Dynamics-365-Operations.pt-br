@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: sorenand
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 5c2c90ff76121b436d0fec532268cd3383de0eab
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: f21cda0abb334432d22cc7e0ccfdab724253d91e
+ms.sourcegitcommit: cfe8fbc202c3eb05d894076fdf99e46704f17365
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8888402"
+ms.lasthandoff: 06/15/2022
+ms.locfileid: "9016939"
 ---
 # <a name="create-item-requirements-for-service-orders"></a>Criar requisições de itens para ordens de serviço
 
@@ -34,14 +34,14 @@ As requisições de itens para ordens de serviço são processadas através de u
 
 ## <a name="create-an-item-requirement-for-a-service-order"></a>Criar uma requisição de itens para uma ordem de serviço
 
-1. Acesse **Gerenciamento de serviços** \> **Comum** \> **Ordens de serviço** \> **Ordens de serviço**.
+1. Acesse **Gerenciamento de serviços** \> **Ordens de serviço** \> **Ordens de serviço**.
 1. Selecione a ordem de serviço para a qual você deseja criar uma requisição de item.
 1. No **Painel de Ações**, na guia **Expedição**, selecione **Requisição de itens**.
 1. No formulário **Requisição de itens**, insira informações sobre o item requisitado. Para obter informações sobre os campos específicos, consulte [Requisição de itens (formulário)](https://technet.microsoft.com/library/aa552021\(v=ax.60\)).
 
 ## <a name="create-an-item-requirement-for-a-service-agreement"></a>Criar uma requisição de item para um contrato de serviço
 
-1. Acesse **Gerenciamento de serviços** \> **Comum** \> **Contratos de serviço** \> **Contratos de serviço**.
+1. Acesse **Gerenciamento de serviços** \> **Contratos de serviço** \> **Contratos de serviço**.
 1. Abra o contrato de serviço para o qual você deseja criar uma requisição de item.
 1. Na Guia Rápida **Linhas**, selecione **Adicionar** para criar uma linha.
 1. No campo **Tipo de transação**, selecione **Item**.

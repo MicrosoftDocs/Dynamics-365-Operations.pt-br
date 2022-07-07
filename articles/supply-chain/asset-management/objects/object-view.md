@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: johanho
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: a416dbea0bab8f6a506ae5cfbfc4feeae8edfe29
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: 495f3dbf9bab9d550ebdbb7dda52aca80d5ea635
+ms.sourcegitcommit: cfe8fbc202c3eb05d894076fdf99e46704f17365
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8882711"
+ms.lasthandoff: 06/15/2022
+ms.locfileid: "9017106"
 ---
 # <a name="asset-view"></a>Exibição do ativo
 
@@ -30,7 +30,7 @@ ms.locfileid: "8882711"
 
 Este artigo descreve a exibição de ativos no Gerenciamento de Ativos. A página **Exibição de ativos** mostra os ativos e locais funcionais em uma exibição de árvore. Portanto, você pode obter com facilidade uma visão geral das relações de ativos a locais funcionais. Além disso, você pode exibir informações detalhadas sobre locais funcionais, ativos e listas de materiais (BOMs) relacionadas. Você também pode obter uma rápida visão geral de solicitações de manutenção ativa e ordens de serviço relacionadas a um ativo.
 
-1. Selecione **Gerenciamento de ativos** \> **Comum** \> **Ativos** \> **Exibição de ativos**.
+1. Selecione **Gerenciamento de ativos** \> **Ativos** \> **Exibição de ativos**.
 2. Para alterar a exibição mostrada na página, selecione um novo valor no campo **Exibir**.
 
     > [!NOTE]

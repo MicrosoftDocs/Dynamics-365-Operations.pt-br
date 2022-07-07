@@ -10,12 +10,12 @@ ms.search.region: Global
 ms.author: kamaybac
 ms.search.validFrom: 2021-02-01
 ms.dyn365.ops.version: 10.0.25
-ms.openlocfilehash: 1fa2ec6e21026552a4f14a67188db0720d3feae5
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: af344d3771583a99851c070e3735258ac964b5d7
+ms.sourcegitcommit: 78576abe5c7cbab1bb69d26c999b038e8c24873a
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8850776"
+ms.lasthandoff: 06/13/2022
+ms.locfileid: "8954481"
 ---
 # <a name="whats-new-or-changed-in-dynamics-365-supply-chain-management-10025-april-2022"></a>Novidades ou alterações no Dynamics 365 Supply Chain Management 10.0.25 (Abril de 2022)
 
@@ -155,7 +155,7 @@ A tabela também lista recursos que anteriormente estavam na versão preliminar 
 | Gerenciamento de depósito | [Processamento adiado da operação de movimentação de estoque manual](../warehousing/deferred-processing-manual-inventory-movement.md) | Obrigatório |
 | Gerenciamento de depósito | Não permitir a criação de cargas que não atendam aos requisitos do modelo de criação de carga de ciclo | Obrigatório |
 | Gerenciamento de depósito | [Layouts aprimorados da etiqueta da placa de licença](../warehousing/document-routing-layout-for-license-plates.md) | Obrigatório |
-| Gerenciamento de depósito | [Avaliar todas as ações para diretivas de localização de várias SKUs](../troubleshooting/warehousing/evaluate-multiple-location-directive-actions.md) | Obrigatório |
+| Gerenciamento de depósito | [Avaliar todas as ações para diretivas de localização de várias SKUs](/troubleshoot/dynamics-365/supply-chain/warehousing/evaluate-multiple-location-directive-actions) | Obrigatório |
 | Gerenciamento de depósito | Ocultar o campo Valor Total nas páginas "Todas as Cargas" e "Detalhes da Carga" | Obrigatório |
 | Gerenciamento de depósito | Configuração de criação de etiqueta de placa de licença | Obrigatório |
 | Gerenciamento de depósito | Correção manual da linha de carga para administrador ou usuários confiáveis de cargo semelhante | Obrigatório |

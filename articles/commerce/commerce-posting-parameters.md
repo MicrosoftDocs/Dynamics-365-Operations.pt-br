@@ -9,17 +9,16 @@ ms.reviewer: v-chgriffin
 ms.search.region: Global
 ms.author: analpert
 ms.search.validFrom: 2022-04-12
-ms.openlocfilehash: 10ea650b7c5c0cad7e1a3d7556c073aecef06036
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: 56a2d1d2bcafdcdd9d88c132986e8ef485bf6b24
+ms.sourcegitcommit: 6616b969afd6beb11a79d8e740560bf00016ea7f
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8887105"
+ms.lasthandoff: 06/17/2022
+ms.locfileid: "9027219"
 ---
 # <a name="commerce-posting-parameters"></a>Parâmetros de lançamento do Commerce
 
 [!include [banner](includes/banner.md)]
-[!include [banner](includes/preview-banner.md)]
 
 Este artigo descreve os parâmetros específicos do lançamento de transações financeiras e físicas no Microsoft Dynamics 365 Commerce. Os parâmetros de lançamento estão localizados no Commerce headquarters em **Varejo e Comércio \> Configuração do headquarters \> Parâmetros \> Parâmetros do Commerce \> Lançamentos**.
 

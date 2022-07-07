@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: sorenand
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: b9c886e4a2570c2627523fd1a27706e4affdc6e0
-ms.sourcegitcommit: 9166e531ae5773f5bc3bd02501b67331cf216da4
+ms.openlocfilehash: c44b896895817beee61fc96861631743fc2481ba
+ms.sourcegitcommit: cfe8fbc202c3eb05d894076fdf99e46704f17365
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/03/2022
-ms.locfileid: "8678509"
+ms.lasthandoff: 06/15/2022
+ms.locfileid: "9015104"
 ---
 # <a name="view-stage-reason-codes"></a>Exibir códigos de motivo de estágio 
 
@@ -29,7 +29,7 @@ ms.locfileid: "8678509"
 
 Exiba e modifique a lista de motivos de estágio de uma ordem de serviço. Use os motivos de estágio para indicar o motivo do status de uma ordem de serviço. Por exemplo, você pode criar um estágio **Cancelado** atribuído um código de motivo **Cancelado pelo cliente**.
 
-  - Clique em **Gerenciamento de serviços** \> **Comum** \> **Ordens de serviço** \> **Ordens de serviço**. Abra uma ordem de serviço.
+  - Clique em **Gerenciamento de serviços** \> **Ordens de serviço** \> **Ordens de serviço**. Abra uma ordem de serviço.
 
   - No formulário **Ordens de serviço**, no **Painel de Ação**, na guia **Expedição**, clique em **Motivos da fase**.
 

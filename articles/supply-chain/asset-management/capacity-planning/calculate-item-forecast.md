@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: johanho
 ms.search.validFrom: 2019-08-31
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: 2d0552c38ddc31ad6322e9e2e0f2c2c722c045f4
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: 25e9b00533fb183b27c1bbe616cf6f414b44b5e7
+ms.sourcegitcommit: cfe8fbc202c3eb05d894076fdf99e46704f17365
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8870890"
+ms.lasthandoff: 06/15/2022
+ms.locfileid: "9016091"
 ---
 # <a name="calculate-item-forecast"></a>Calcular previsão de itens
 
@@ -36,7 +36,7 @@ Da mesma forma que você pode fazer cálculos de capacidade máxima, descritos n
 
 Isso é útil se você deseja obter uma visão geral do consumo esperado de itens (peças sobressalentes e outros itens necessários para concluir as ordens de serviço) por um período específico. O cálculo da previsão do item pode ser feito em todos os ativos ou ativos selecionados. Também é possível fazer um cálculo em uma atividade de tempo de inatividade de manutenção (**Todas as atividades de inatividade de manutenção** ou **Atividades de inatividade de manutenção ativa**) ou em um conjunto de ordens de serviço (**Todos os grupos de ordens de serviço** ou **Grupos de ordens de serviço ativos**).
 
-1. Clique em **Gerenciamento de ativos** > **Consultas** > **Previsão de item** ou **Gerenciamento de ativos** > **Comum** > **Grupos de ordens de serviço** > **Todos os grupos de ordens de serviço** / **Grupos de ordens de serviço ativos** > selecione o grupo de ordens de serviço na lista > botão **Previsão de Item** ou **Gerenciamento de ativos** > **Comum** > **Atividades de tempo de inatividade de manutenção** > **Todas as atividades de inatividade de manutenção** / **Grupos de ordens de serviço ativos** > selecione a atividade de tempo de inatividade de manutenção na lista > botão **Previsão de item**.
+1. Clique em **Gerenciamento de ativos** > **Consultas** > **Previsão de itens** ou em **Gerenciamento de ativos** > **Grupos de ordens de serviço** > **Todos os grupos de ordens de serviço** / **Grupos de ordens de serviço ativos** > selecione o grupo de ordens de serviço na lista > botão **Previsão de itens** ou em **Gerenciamento de ativos** > **Atividades de tempo de inatividade de manutenção** > **Todas as atividades de inatividade de manutenção** / **Atividades de tempo de inatividade de manutenção ativas** > selecione a atividade de tempo de inatividade de manutenção na lista > botão **Previsão de itens**.
 
 2. Na caixa de diálogo **Calcular previsão de itens**, selecione um período para o cálculo nos campos **Data/hora inicial** e **Data/hora final**.
 

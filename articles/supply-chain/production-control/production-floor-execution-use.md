@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: johanho
 ms.search.validFrom: 2020-10-05
 ms.dyn365.ops.version: 10.0.24
-ms.openlocfilehash: 9c0d87dfb4c432f9cff0f1172139dbcda6308275
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: 2ee316a3e6a6baef7aa8b5d46b04a2d1bb07a641
+ms.sourcegitcommit: d770f0e6a012675a3027641704be804beb99754b
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8860657"
+ms.lasthandoff: 06/16/2022
+ms.locfileid: "9022494"
 ---
 # <a name="how-workers-use-the-production-floor-execution-interface"></a>Como os trabalhadores usam a interface de execução de piso de produção
 
@@ -263,9 +263,6 @@ Um trabalhador registra uma interrupção selecionando **Interrupção** e, em s
 
 ## <a name="view-the-my-day-dialog"></a>Visualizar a caixa de diálogo "Meu dia"
 
-[!INCLUDE [preview-banner-section](../../includes/preview-banner-section.md)]
-<!-- KFM: preview until 10.0.27 GA -->
-
 A caixa de diálogo **Meu dia** fornece aos trabalhadores uma visão geral dos registros e dos saldos. A caixa de diálogo é dividida nas três seções a seguir:
 
 - A seção principal lista os registros feitos pelo trabalhador atual em uma data selecionada. Ela mostra os registros do dia atual e fornece um selecionador de data que permite ao trabalhador exibir outros dias.
@@ -275,9 +272,6 @@ A caixa de diálogo **Meu dia** fornece aos trabalhadores uma visão geral dos r
 Os administradores podem adicionar esse recurso à interface colocando o botão **Meu dia** em uma barra de ferramentas para cada guia relevante, conforme descrito em [Criar a interface de execução de piso de produção](production-floor-execution-tabs.md).
 
 ## <a name="working-in-teams"></a>Trabalhar em equipes
-
-[!INCLUDE [preview-banner-section](../../includes/preview-banner-section.md)]
-<!-- KFM: preview until 10.0.27 GA -->
 
 Quando vários trabalhadores são designados para o mesmo trabalho de produção, eles podem formar uma equipe. A equipe pode designar um trabalhador como coordenador. Os trabalhadores restantes se tornarão automaticamente assistentes desse coordenador. Para a equipe resultante, somente o coordenador deve registrar o status do trabalho. Os registros de hora se aplicam a todos os membros da equipe.
 

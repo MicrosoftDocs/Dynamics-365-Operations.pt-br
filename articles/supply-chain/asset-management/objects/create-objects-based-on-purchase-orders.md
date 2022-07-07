@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: johanho
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 8bee66e2d35af6daa8d86539e52b558bde3c79a1
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: ccd14493aac6484dc54ccf51ae159a071c8697a5
+ms.sourcegitcommit: cfe8fbc202c3eb05d894076fdf99e46704f17365
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8893690"
+ms.lasthandoff: 06/15/2022
+ms.locfileid: "9015599"
 ---
 # <a name="create-assets-based-on-purchase-orders"></a>Crie ativos com base em ordens de compra
 
@@ -45,12 +45,12 @@ Primeiro, você configura os itens a serem usados para a criação de ativos de 
 
 ## <a name="create-assets-from-pending-assets"></a>Crie ativos a partir de ativos pendentes
 
-1. Clique em **Gerenciamento de ativos** > **Comum** > **Ativos** > **Ativos Pendentes**.
+1. Clique em **Gerenciamento de ativos** > **Ativos** > **Ativos Pendentes**.
 2. Você verá uma lista atualizada das ordens de compra com base nos itens selecionados em **Itens de ativo**.
 3. Você pode filtrar o status de ordens de compra para selecionar em que estado do ciclo de vida o ativo deve ser criado. Por exemplo, talvez você só queira criar ativos quando o recebimento de um produto for lançado em uma ordem de compra.
 4. Selecione o link **Número de referência** em uma linha de ordem de compra para exibir informações detalhadas sobre o item.
 5. Se desejar editar as dimensões que serão exibidas na Guia Rápida **Dimensões de estoque**, clique no botão **Exibir Dimensões** e faça seleções.
-6. Se desejar criar um ativo com base em uma linha de ordem de compra, marque a caixa de seleção na coluna **Marcar** para essa linha na página de lista e clique em **Criar ativos**. Uma mensagem será exibida, informando a ID do ativo.
+6. Se desejar criar um ativo com base em uma linha de ordem de compra, marque a caixa de seleção na coluna **Marcar** para essa linha na página de listagem e clique em **Criar ativos**. Uma mensagem será exibida, informando a ID do ativo.
 7. Selecione o ativo na lista **Todos os ativos** e clique em **Editar** para adicionar mais informações ao ativo.
 8. Em **Ativos pendentes**, se desejar excluir uma linha porque você não deseja criar um ativo, marque a caixa de seleção na coluna **Marcar** para essa linha e clique em **Descartar ativos pendentes**. Uma mensagem será exibida, informando a ID do ativo. Você não está excluindo a ordem de compra ou a ordem de venda, mas apenas o registro de onde poderia ter criado um ativo em **Gerenciamento de Ativos**.
 

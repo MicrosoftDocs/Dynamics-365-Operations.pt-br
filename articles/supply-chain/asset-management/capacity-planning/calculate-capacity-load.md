@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: johanho
 ms.search.validFrom: 2019-08-31
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: 8eb0b152f0a4b4e0f61d519262c24d02b71b8fc3
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: 95d1e38db8e4658a57f36139836264b87d525e61
+ms.sourcegitcommit: cfe8fbc202c3eb05d894076fdf99e46704f17365
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8849638"
+ms.lasthandoff: 06/15/2022
+ms.locfileid: "9016120"
 ---
 # <a name="calculate-capacity-load"></a>Calcular a capacidade máxima
 
@@ -35,7 +35,7 @@ No Gerenciamento de Ativos, você pode calcular a capacidade máxima em:
 
 Isso é útil para obter uma visão geral da capacidade máxima esperada por um período específico. O cálculo da capacidade máxima pode ser feito em todos os ativos ou ativos selecionados. Você também pode fazer um cálculo sobre atividades de tempo de inatividade de manutenção ou conjuntos de ordens de serviço.
 
-1. Clique em **Gerenciamento de ativos** > **Consultas** > **Capacidade máxima** ou **Gerenciamento de ativos** > **Comum** > **Grupos de ordens de serviço** > **Todos os grupos de ordens de serviço** / **Grupos de ordens de serviço ativos** > selecione o grupo de ordens de serviço na lista > botão **Capacidade máxima** ou **Gerenciamento de ativos** > **Comum** > **Atividades de tempo de inatividade de manutenção** > **Todas as atividades de inatividade de manutenção** / **Grupos de ordens de serviço ativos** > selecione a atividade de manutenção na lista > botão **Capacidade máxima**.
+1. Clique em **Gerenciamento de ativos** > **Consultas** > **Capacidade máxima**, ou em **Gerenciamento de ativos** > **Grupos de ordens de serviço** > **Todos os grupos de ordens de serviço** / **Grupos de ordens de serviço ativos** > selecione o grupo de ordens de serviço na lista > botão **Capacidade máxima**, ou em **Gerenciamento de ativos** > **Atividades de tempo de inatividade de manutenção** > **Todas as atividades de inatividade de manutenção** / **Atividades de tempo de inatividade de manutenção ativas** > selecione a atividade de manutenção na lista > botão **Capacidade máxima**.
 
 2. Na caixa de diálogo **Calcular capacidade máxima**, selecione um período para o cálculo nos campos **Data/hora inicial** e **Data/hora final**.
 
