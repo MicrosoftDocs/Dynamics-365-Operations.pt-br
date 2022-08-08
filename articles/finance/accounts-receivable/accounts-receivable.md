@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: kfend
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 412b900b5eb9a3a01feb5f4dd67529a5128e52b7
-ms.sourcegitcommit: 04e6c1c9400e1b582180cf3e0e4767434e736c26
+ms.openlocfilehash: ef08d7880a0695527cbfb4ba4e11aae05aec7fc8
+ms.sourcegitcommit: 28a726b3b0726ecac7620b5736f5457bc75a5f84
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/05/2022
-ms.locfileid: "8711844"
+ms.lasthandoff: 06/29/2022
+ms.locfileid: "9065355"
 ---
 # <a name="accounts-receivable-home-page"></a>Home page de Contas a receber
 
@@ -83,9 +83,9 @@ Acesse o [Roteiro do Microsoft Dynamics 365](/dynamics365/release-plans/) para v
 
 #### <a name="blogs"></a>Blogs
 
-Você encontra opiniões, notícias, além de informações sobre Contas a receber e outras soluções no [blog do Microsoft Dynamics 365](https://community.dynamics.com/b/msftdynamicsblog?c=Enterprise) e no [blog de finanças do Microsoft Dynamics 365 Finance and Operations](https://community.dynamics.com/365/financeandoperations/b/financials).
+Você encontra opiniões, notícias, além de informações sobre Contas a receber e outras soluções no [blog do Microsoft Dynamics 365](https://community.dynamics.com/b/msftdynamicsblog?c=Enterprise) e no [blog de finanças e operações — finanças do Microsoft Dynamics 365](https://community.dynamics.com/365/financeandoperations/b/financials).
 
-O [Blog da Comunidade de Parceiros do Microsoft Dynamics Operations](https://community.dynamics.com/partner/b/operationspartnercommunityblog) fornece aos parceiros do Microsoft Dynamics um recurso único para saberem mais sobre as novidades e as tendências do Dynamics 365.
+O [blog da Comunidade de parceiros do Microsoft Dynamics Operations](https://community.dynamics.com/partner/b/operationspartnercommunityblog) fornece aos parceiros do Microsoft Dynamics um recurso único para saberem mais sobre as novidades e as tendências do Dynamics 365.
 
 #### <a name="task-guides"></a>Guias de tarefas
 Há ajuda adicional disponível, como guias de tarefas, dentro do aplicativo. Para acessar os guias de tarefas, clique no botão Ajuda em qualquer página.
@@ -103,3 +103,4 @@ Confira os vídeos de instruções que agora estão disponíveis no [canal do Mi
 
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]
+

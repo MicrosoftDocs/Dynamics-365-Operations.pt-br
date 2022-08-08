@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: moaamer
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 57e81aaefd61eb9e695d8fe0d1c7cac4091bece7
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: d50af9deb5309a31b886441780fe6b40b8b152ae
+ms.sourcegitcommit: 28a726b3b0726ecac7620b5736f5457bc75a5f84
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8880806"
+ms.lasthandoff: 06/29/2022
+ms.locfileid: "9065326"
 ---
 # <a name="fixed-assets-home-page"></a>Home page de ativos fixos
 
@@ -44,9 +44,9 @@ Acesse os [planos de versão do Microsoft Dynamics 365](/dynamics365/release-pla
 
 #### <a name="blogs"></a>Blogs
 
-Você encontra opiniões, notícias e outras informações no [blog do Microsoft Dynamics 365](https://community.dynamics.com/b/msftdynamicsblog?c=Enterprise) e no [blog de finanças do Microsoft Dynamics 365 Finance and Operations](https://community.dynamics.com/365/financeandoperations/b/financials).
+Você encontra opiniões, notícias e outras informações no [blog do Microsoft Dynamics 365](https://community.dynamics.com/b/msftdynamicsblog?c=Enterprise) e no [blog de finanças e operações — finanças do Microsoft Dynamics 365](https://community.dynamics.com/365/financeandoperations/b/financials).
 
-O [Blog da Comunidade de Parceiros do Microsoft Dynamics Operations](https://community.dynamics.com/partner/b/operationspartnercommunityblog) fornece aos parceiros do Microsoft Dynamics um recurso único para saberem mais sobre as novidades e as tendências do Dynamics 365.
+O [blog da Comunidade de parceiros do Microsoft Dynamics Operations](https://community.dynamics.com/partner/b/operationspartnercommunityblog) fornece aos parceiros do Microsoft Dynamics um recurso único para saberem mais sobre as novidades e as tendências do Dynamics 365.
 
 #### <a name="task-guides"></a>Guias de tarefas
 Há ajuda adicional disponível, como guias de tarefas. Para acessar os guias de tarefas, clique no botão Ajuda em qualquer página.
@@ -63,3 +63,4 @@ Confira os vídeos de instruções que agora estão disponíveis no [canal do Mi
 
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]
+

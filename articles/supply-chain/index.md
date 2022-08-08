@@ -15,12 +15,12 @@ ms.search.industry: ''
 ms.author: kamaybac
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: 189239ad6142af200e41cfe9cfcdbb56be65b0b7
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: dbf77b57f7a107918c3b8a03290e208ed1c4803b
+ms.sourcegitcommit: 28a726b3b0726ecac7620b5736f5457bc75a5f84
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8879066"
+ms.lasthandoff: 06/29/2022
+ms.locfileid: "9066047"
 ---
 # <a name="supply-chain-management-home-page"></a>Home page do Supply Chain Management
 
@@ -56,24 +56,24 @@ Para obter mais informações sobre o Dynamics 365 Finance, acesse a [ home page
 
 ## <a name="videos"></a>Vídeos
 
-Este breve vídeo resume os novos recursos do gerenciamento da cadeia de suprimentos adicionados ao Microsoft Dynamics 365 for Finance and Operations versão 8.0 (abril de 2018).
+Este breve vídeo resume os novos recursos do gerenciamento da cadeia de suprimentos adicionados ao Microsoft Dynamics 365 Finance versão 8.0 (abril de 2018).
 
-- [Sincronizar uma ordem de serviço entre o Field Service e o Finance and Operations](https://youtu.be/hAB4TDVMjxU)
+- [Sincronizar uma ordem de serviço entre o Field Service e as finanças e operações](https://youtu.be/hAB4TDVMjxU)
 
-Estes breves vídeos resumem os novos recursos do gerenciamento da cadeia de suprimentos adicionados ao Microsoft Dynamics 365 for Finance and Operations Enterprise Edition 7.3 (dezembro de 2017).
+Estes breves vídeos resumem os novos recursos do gerenciamento da cadeia de suprimentos adicionados ao Microsoft Dynamics 365 Finance, Enterprise Edition 7.3 (dezembro de 2017).
 
 - [Assistente de otimização](https://www.youtube.com/watch?v=MRsAzgFCUSQ&t=4s)
 - [Usar modelo do depósito para copiar a configuração](https://www.youtube.com/watch?v=K2WIfFlqJYs&feature=youtu.be)
 
-Estes breves vídeos resumem os novos recursos do gerenciamento da cadeia de suprimentos adicionados ao Microsoft Dynamics 365 for Finance and Operations Enterprise Edition (julho de 2017).
+Estes breves vídeos resumem os novos recursos do gerenciamento da cadeia de suprimentos adicionados ao Microsoft Dynamics 365 Finance, Enterprise Edition (julho de 2017).
 
-- [Introdução à Contabilidade de custos](https://youtu.be/1pUDtJQZ8FU)
+- [Introdução à Contabilização de custos](https://youtu.be/1pUDtJQZ8FU)
 - [Espaço de trabalho móvel de controle de custos](https://youtu.be/imsuTg8rUVk)
 - [Usar o Excel para análise de custos](https://youtu.be/-HKHYdClvx8)
 - [Aprovar ordens de compra em um dispositivo móvel](https://youtu.be/gZ-gOlJe7H8)
 - [Agendamento visual com gráfico de Gantt para ordens de produção e de lote](https://youtu.be/BtbuShkGj4I)
 
-As gravações de conferência técnica a seguir abordam a funcionalidade do gerenciamento da cadeia de suprimento de versões anteriores do Finance and Operations. Esta funcionalidade agora faz parte do Dynamics 365 Supply Chain Management; os mesmos conceitos ainda são aplicáveis e os procedimentos são semelhantes na versão atual.
+As gravações de conferência técnica a seguir abordam a funcionalidade do gerenciamento da cadeia de suprimento de versões anteriores de finanças e operações. Esta funcionalidade agora faz parte do Dynamics 365 Supply Chain Management; os mesmos conceitos ainda são aplicáveis e os procedimentos são semelhantes na versão atual.
 
 - **Gerenciamento de custos:**
   - [Visão geral do gerenciamento de custos](https://www.youtube.com/watch?v=vXzlC-mOBcg&feature=youtu.be)
@@ -106,3 +106,4 @@ Para saber sobre cursos e treinamentos online, confira [Dynamics 365 Supply Chai
 
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]
+

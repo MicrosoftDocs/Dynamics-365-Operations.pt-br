@@ -7,21 +7,21 @@ ms.topic: index-page
 ms.prod: ''
 ms.technology: ''
 audience: Application User, IT Pro
-ms.reviewer: kfend
-ms.custom:
-- "27681"
-- intro-internal
-ms.assetid: c4624bc8-3661-49e6-9cb4-87778acdc302
+ms.reviewer: sericks
 ms.search.region: Global
 ms.author: sericks
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 4be3c576cd0fac1239113efcdd7e97810b193a88
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.custom:
+- "27681"
+- intro-internal
+ms.assetid: c4624bc8-3661-49e6-9cb4-87778acdc302
+ms.openlocfilehash: 119292dccc2f2d7131f0fa39aa35a8253b948d40
+ms.sourcegitcommit: 3c4dd125ed321af8a983e89bcb5bd6e5ed04a762
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8906623"
+ms.lasthandoff: 07/28/2022
+ms.locfileid: "9206465"
 ---
 # <a name="reporting-and-analytics-with-power-bi-home-page"></a>Relatórios e análises com a home page do Power BI
 
@@ -30,9 +30,9 @@ ms.locfileid: "8906623"
 Este artigo indica os recursos que você pode usar para saber mais sobre as ferramentas de business intelligence (BI) e de relatório que estão disponíveis.
 
 ## <a name="get-started"></a>Introdução
-- [Acesso a informações e relatório](information-access-reporting.md)
-- [Conversa sobre tecnologia: opções de relatório](https://www.youtube.com/watch?v=NzZONjKs5xA) (vídeo)
-- [Finance and Operations: blog de análise e serviços de relatório do Power BI](https://community.dynamics.com/365/financeandoperations/b/powerbianalyticsandreporting) (blog)
+- [Acesso a informações e relatórios](information-access-reporting.md)
+- [Tech Talk: opções de relatório](https://www.youtube.com/watch?v=NzZONjKs5xA) (vídeo)
+- [Finanças e operações: blog de análise e serviços de relatório do Power BI](https://community.dynamics.com/365/financeandoperations/b/powerbianalyticsandreporting) (blog)
 
 ## <a name="analytical-workspaces"></a>Espaços de trabalho analíticos
 Os espaços de trabalho podem usar infográficos e recursos visuais sofisticados compatíveis com o Microsoft Power BI. Esses infográficos e recursos visuais incluem muitos controles fornecidos por terceiros. Portanto, os espaços de trabalho podem proporcionar uma experiência altamente visual e interativa aos usuários.

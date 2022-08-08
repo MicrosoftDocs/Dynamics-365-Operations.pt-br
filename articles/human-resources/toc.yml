@@ -6,9 +6,9 @@
           href: index.md
         - name: Novidades ou alterações
           items:
-            - name: Novidades ou alterações nos aplicativos de Finanças e Operações
+            - name: Novidades ou alterações nos aplicativos de finanças e operações
               href: ../fin-ops-core/fin-ops/get-started/whats-new-changed.md?toc=/dynamics365/finance/toc.json
-            - name: Novidades ou mudanças no Human Resources
+            - name: Novidades ou alterações no Human Resources
               items:
                 - name: Human Resources 10.0.28 (infraestrutura mesclada)
                   href: ./get-started/whats-new-changed-10.0.28.md
@@ -58,6 +58,12 @@
                       href: hr-whats-new-2021-01-28.md
                     - name: 21 de janeiro de 2021
                       href: hr-whats-new-2021-01-21.md
+                - name: Recursos removidos ou preteridos
+                  items:
+                    - name: Home page de recursos removidos ou preteridos
+                      href: ../fin-ops-core/fin-ops/get-started/removed-deprecated-features-home-page.md?toc=/dynamics365/finance/toc.json
+                    - name: Recursos removidos ou preteridos do Dynamics 365 Human Resources
+                      href: get-started/removed-deprecated-features-hr.md
         - name: Introdução
           items:
             - name: Visão geral
@@ -66,14 +72,18 @@
               href: hr-admin-system-requirements.md
             - name: Configurar e gerenciar instâncias
               items:
-                - name: Provisionar o Human Resources
-                  href: hr-admin-setup-provision.md
-                - name: Copiar uma instância
-                  href: hr-admin-setup-copy-instance.md
-                - name: Remover uma instância
-                  href: hr-admin-setup-remove-instance.md
-                - name: Atualizar processo
-                  href: hr-admin-setup-update-process.md
+                - name: Provisionar o Human Resources na infraestrutura de finanças e operações
+                  href: hr-admin-setup-provision-fo.md
+                - name: Provisionar o Human Resources na infraestrutura independente
+                  items:
+                    - name: Provisionar o Human Resources
+                      href: hr-admin-setup-provision.md
+                    - name: Copiar uma instância
+                      href: hr-admin-setup-copy-instance.md
+                    - name: Remover uma instância
+                      href: hr-admin-setup-remove-instance.md
+                    - name: Atualizar processo
+                      href: hr-admin-setup-update-process.md
             - name: Configurar integração de dados
               items:
                 - name: Escolher uma tecnologia de integração de dados
@@ -99,91 +109,91 @@
                 - name: Integrar com o Office
                   items:
                     - name: Tutorial de integração do Office
-                      href: ../fin-ops-core/dev-itpro/office-integration/office-integration-tutorial.md?toc=%2fdynamics365%2fhuman-resources%2ftoc.json
+                      href: ../fin-ops-core/dev-itpro/office-integration/office-integration-tutorial.md?context=/dynamics365/context/human-resources
                     - name: Atualizar dados da entidade no Excel
-                      href: ../fin-ops-core/dev-itpro/office-integration/use-excel-add-in.md?toc=%2fdynamics365%2fhuman-resources%2ftoc.json
+                      href: ../fin-ops-core/dev-itpro/office-integration/use-excel-add-in.md?context=/dynamics365/context/human-resources
                     - name: Perguntas frequentes sobre experiências Abrir no Excel
-                      href: ../fin-ops-core/dev-itpro/office-integration/office-integration-edit-excel.md?toc=%2fdynamics365%2fhuman-resources%2ftoc.json
+                      href: ../fin-ops-core/dev-itpro/office-integration/office-integration-edit-excel.md?context=/dynamics365/context/human-resources
                     - name: Solucionar problemas de integração do Office
-                      href: ../fin-ops-core/dev-itpro/office-integration/office-integration-troubleshooting.md?toc=%2fdynamics365%2fhuman-resources%2ftoc.json
+                      href: ../fin-ops-core/dev-itpro/office-integration/office-integration-troubleshooting.md?context=/dynamics365/context/human-resources
                 - name: Configurar gerenciamento de dados
                   items:
                     - name: Visão geral da estrutura de gerenciamento de dados
-                      href: ../fin-ops-core/dev-itpro/data-entities/data-entities-data-packages.md?toc=%2fdynamics365%2fhuman-resources%2ftoc.json
+                      href: ../fin-ops-core/dev-itpro/data-entities/data-entities-data-packages.md?context=/dynamics365/context/human-resources
                     - name: Entidades de dados
                       items:
                         - name: Visão geral de entidades de dados
-                          href: ../fin-ops-core/dev-itpro/data-entities/data-entities.md?toc=%2fdynamics365%2fhuman-resources%2ftoc.json
+                          href: ../fin-ops-core/dev-itpro/data-entities/data-entities.md?context=/dynamics365/context/human-resources
                         - name: Projetos de dados de configuração
-                          href: ../fin-ops-core/dev-itpro/data-entities/configuration-data-projects.md?toc=%2fdynamics365%2fhuman-resources%2ftoc.json
+                          href: ../fin-ops-core/dev-itpro/data-entities/configuration-data-projects.md?context=/dynamics365/context/human-resources
                     - name: Copiar dados de configuração entre empresas ou entidades legais
                       items:
                         - name: Visão geral de cópia de dados de configuração
-                          href: ../fin-ops-core/dev-itpro/data-entities/copy-configuration.md?toc=%2fdynamics365%2fhuman-resources%2ftoc.json
+                          href: ../fin-ops-core/dev-itpro/data-entities/copy-configuration.md?context=/dynamics365/context/human-resources
                         - name: Pacotes de dados de configuração
-                          href: ../fin-ops-core/dev-itpro/data-entities/configuration-data-packages.md?toc=%2fdynamics365%2fhuman-resources%2ftoc.json
+                          href: ../fin-ops-core/dev-itpro/data-entities/configuration-data-packages.md?context=/dynamics365/context/human-resources
                         - name: Pacotes de dados de configuração (somente a versão de julho de 2017)
-                          href: ../fin-ops-core/dev-itpro/data-entities/configuration-data-packages.md?toc=%2fdynamics365%2fhuman-resources%2ftoc.json
+                          href: ../fin-ops-core/dev-itpro/data-entities/configuration-data-packages.md?context=/dynamics365/context/human-resources
                         - name: Modelos de dados de configuração
-                          href: ../fin-ops-core/dev-itpro/data-entities/configuration-data-templates.md?toc=%2fdynamics365%2fhuman-resources%2ftoc.json
+                          href: ../fin-ops-core/dev-itpro/data-entities/configuration-data-templates.md?context=/dynamics365/context/human-resources
                         - name: Controlar alterações em uma entidade
-                          href: ../fin-ops-core/dev-itpro/data-entities/entity-change-track.md?toc=%2fdynamics365%2fhuman-resources%2ftoc.json
+                          href: ../fin-ops-core/dev-itpro/data-entities/entity-change-track.md?context=/dynamics365/context/human-resources
                         - name: Encontrar informações sobre entidades de dados padrão
-                          href: ../fin-ops-core/dev-itpro/data-entities/data-entities-report.md?toc=%2fdynamics365%2fhuman-resources%2ftoc.json
+                          href: ../fin-ops-core/dev-itpro/data-entities/data-entities-report.md?context=/dynamics365/context/human-resources
                         - name: Modelos de dados com várias planilhas
-                          href: ../fin-ops-core/dev-itpro/data-entities/excel-template-multiple.md?toc=%2fdynamics365%2fhuman-resources%2ftoc.json
+                          href: ../fin-ops-core/dev-itpro/data-entities/excel-template-multiple.md?context=/dynamics365/context/human-resources
                         - name: Habilitar o controle de alterações para entidades
-                          href: ../fin-ops-core/dev-itpro/data-entities/entity-change-track.md?toc=%2fdynamics365%2fhuman-resources%2ftoc.json
+                          href: ../fin-ops-core/dev-itpro/data-entities/entity-change-track.md?context=/dynamics365/context/human-resources
                         - name: Chaves de configuração e entidades de dados
-                          href: ../fin-ops-core/dev-itpro/data-entities/config-key-entities.md?toc=%2fdynamics365%2fhuman-resources%2ftoc.json
+                          href: ../fin-ops-core/dev-itpro/data-entities/config-key-entities.md?context=/dynamics365/context/human-resources
                         - name: Pacotes de dados de configuração
-                          href: ../fin-ops-core/dev-itpro/data-entities/configuration-data-packages.md?toc=%2fdynamics365%2fhuman-resources%2ftoc.json
+                          href: ../fin-ops-core/dev-itpro/data-entities/configuration-data-packages.md?context=/dynamics365/context/human-resources
                     - name: Trabalhos de importação e exportação de dados
                       items:
                         - name: Visão geral de trabalhos de importação e exportação de dados
-                          href: ../fin-ops-core/dev-itpro/data-entities/data-import-export-job.md?toc=%2fdynamics365%2fhuman-resources%2ftoc.json
+                          href: ../fin-ops-core/dev-itpro/data-entities/data-import-export-job.md?context=/dynamics365/context/human-resources
                         - name: ​Práticas recomendadas para importar comprovantes usando a entidade Diário geral​
-                          href: ../fin-ops-core/dev-itpro/data-entities/tips-tricks-import-general-journal-entity.md?toc=%2fdynamics365%2fhuman-resources%2ftoc.json
+                          href: ../fin-ops-core/dev-itpro/data-entities/tips-tricks-import-general-journal-entity.md?context=/dynamics365/context/human-resources
                     - name: Desenvolvimento para entidades de dados
                       items:
                         - name: Princípios e práticas recomendadas de Design para entidades de dados
-                          href: ../fin-ops-core/dev-itpro/dev-tools/design-best-practices.md?toc=%2fdynamics365%2fhuman-resources%2ftoc.json
+                          href: ../fin-ops-core/dev-itpro/dev-tools/design-best-practices.md?context=/dynamics365/context/human-resources
                         - name: Criar novas entidades de dados
-                          href: ../fin-ops-core/dev-itpro/data-entities/build-consuming-data-entities.md?toc=%2fdynamics365%2fhuman-resources%2ftoc.json
+                          href: ../fin-ops-core/dev-itpro/data-entities/build-consuming-data-entities.md?context=/dynamics365/context/human-resources
                         - name: Propriedades da entidade de dados
-                          href: ../fin-ops-core/dev-itpro/data-entities/behavioral-properties-data-entities.md?toc=%2fdynamics365%2fhuman-resources%2ftoc.json
+                          href: ../fin-ops-core/dev-itpro/data-entities/behavioral-properties-data-entities.md?context=/dynamics365/context/human-resources
                         - name: Criar colunas computadas e campos virtuais
-                          href: ../fin-ops-core/dev-itpro/data-entities/data-entity-computed-columns-virtual-fields.md?toc=%2fdynamics365%2fhuman-resources%2ftoc.json
+                          href: ../fin-ops-core/dev-itpro/data-entities/data-entity-computed-columns-virtual-fields.md?context=/dynamics365/context/human-resources
                         - name: Comportamento interempresarial
-                          href: ../fin-ops-core/dev-itpro/data-entities/cross-company-behavior.md?toc=%2fdynamics365%2fhuman-resources%2ftoc.json
+                          href: ../fin-ops-core/dev-itpro/data-entities/cross-company-behavior.md?context=/dynamics365/context/human-resources
                         - name: Manuseio de códigos de países/regiões
-                          href: ../fin-ops-core/dev-itpro/data-entities/countryregion-codes-configuration-keys.md?toc=%2fdynamics365%2fhuman-resources%2ftoc.json
+                          href: ../fin-ops-core/dev-itpro/data-entities/countryregion-codes-configuration-keys.md?context=/dynamics365/context/human-resources
                         - name: Padrões de herança
-                          href: ../fin-ops-core/dev-itpro/data-entities/support-super-type-sub-type.md?toc=%2fdynamics365%2fhuman-resources%2ftoc.json
+                          href: ../fin-ops-core/dev-itpro/data-entities/support-super-type-sub-type.md?context=/dynamics365/context/human-resources
                         - name: Regras do assistente de entidade de dados
-                          href: ../fin-ops-core/dev-itpro/data-entities/data-entity-wizard-rules.md?toc=%2fdynamics365%2fhuman-resources%2ftoc.json
+                          href: ../fin-ops-core/dev-itpro/data-entities/data-entity-wizard-rules.md?context=/dynamics365/context/human-resources
                         - name: Propriedades de metadados
-                          href: ../fin-ops-core/dev-itpro/data-entities/behavioral-properties-data-entities.md?toc=%2fdynamics365%2fhuman-resources%2ftoc.json
+                          href: ../fin-ops-core/dev-itpro/data-entities/behavioral-properties-data-entities.md?context=/dynamics365/context/human-resources
                         - name: 'Validações, padrões e campos não mapeados'
-                          href: ../fin-ops-core/dev-itpro/data-entities/validations-defaults-unmapped-fields.md?toc=%2fdynamics365%2fhuman-resources%2ftoc.json
+                          href: ../fin-ops-core/dev-itpro/data-entities/validations-defaults-unmapped-fields.md?context=/dynamics365/context/human-resources
                         - name: Segurança e entidades de dados
-                          href: ../fin-ops-core/dev-itpro/data-entities/security-data-entities.md?toc=%2fdynamics365%2fhuman-resources%2ftoc.json
+                          href: ../fin-ops-core/dev-itpro/data-entities/security-data-entities.md?context=/dynamics365/context/human-resources
                         - name: Usar o utilitário de teste de serviço de terceiros
-                          href: ../fin-ops-core/dev-itpro/data-entities/third-party-service-test.md?toc=%2fdynamics365%2fhuman-resources%2ftoc.json
+                          href: ../fin-ops-core/dev-itpro/data-entities/third-party-service-test.md?context=/dynamics365/context/human-resources
                         - name: Criar entidades somente leitura que exponham dimensões financeiras
-                          href: ../fin-ops-core/dev-itpro/financial/read-only-entity-financial.md?toc=%2fdynamics365%2fhuman-resources%2ftoc.json
+                          href: ../fin-ops-core/dev-itpro/financial/read-only-entity-financial.md?context=/dynamics365/context/human-resources
                     - name: Trazer seu próprio banco de dados
-                      href: ../fin-ops-core/dev-itpro/analytics/export-entities-to-your-own-database.md?toc=%2fdynamics365%2fhuman-resources%2ftoc.json
+                      href: ../fin-ops-core/dev-itpro/analytics/export-entities-to-your-own-database.md?context=/dynamics365/context/human-resources
                     - name: Otimizar trabalhos em lote de BYOD
                       href: hr-admin-integration-byod-batch-jobs.md
                     - name: Atualização do repositório de Entidades Automatizadas
-                      href: ../fin-ops-core/dev-itpro/analytics/automated-entity-store-refresh.md?toc=%2fdynamics365%2fhuman-resources%2ftoc.json
+                      href: ../fin-ops-core/dev-itpro/analytics/automated-entity-store-refresh.md?context=/dynamics365/context/human-resources
                     - name: Automação de tarefa de dados
-                      href: ../fin-ops-core/dev-itpro/data-entities/data-task-automation.md?toc=%2fdynamics365%2fhuman-resources%2ftoc.json
+                      href: ../fin-ops-core/dev-itpro/data-entities/data-task-automation.md?context=/dynamics365/context/human-resources
                     - name: Espaço de trabalho da lista de verificação de validação de dados
-                      href: ../fin-ops-core/dev-itpro/user-interface/data-validation-workspace.md?toc=%2fdynamics365%2fhuman-resources%2ftoc.json
+                      href: ../fin-ops-core/dev-itpro/user-interface/data-validation-workspace.md?context=/dynamics365/context/human-resources
                     - name: Descrições dos erros de gerenciamento de dados
-                      href: ../fin-ops-core/dev-itpro/data-entities/dm-error-descriptions.md?toc=%2fdynamics365%2fhuman-resources%2ftoc.json
+                      href: ../fin-ops-core/dev-itpro/data-entities/dm-error-descriptions.md?context=/dynamics365/context/human-resources
                     - name: Gerenciar recursos
                       href: hr-admin-manage-features.md
                     - name: Configurar e gerenciar o log de banco de dados
@@ -232,8 +242,10 @@
                   href: hr-admin-go-live-prepare.md
                 - name: Perguntas frequentes sobre o Go Live
                   href: hr-admin-go-live-faq.md
-                - name: Perguntas frequentes sobre de fusão de infraestruturas do Human Resources
+                - name: Perguntas frequentes sobre a mesclagem de infraestruturas do Human Resources
                   href: hr-infrastructure-merge-faq.md
+                - name: Perguntas frequentes sobre a migração do Human Resources
+                  href: customer-migration.md
                 - name: Recursos de documentação
                   items:
                     - name: Sistema da Ajuda
@@ -994,7 +1006,7 @@
                   href: hr-admin-integration-payroll-api-benefit-plan-type-cover.md
                 - name: Status do plano de benefícios do funcionário
                   href: hr-admin-integration-payroll-api-benefit-employee-plan-status.md
-    - name: Desenvolvimento e administração de aplicativos de Finanças e Operações
+    - name: Desenvolvimento e administração de aplicativos de finanças e operações
       href: ../fin-ops-core/dev-itpro/index.md
     - name: Dynamics 365 Finance
       href: ../finance/index.md

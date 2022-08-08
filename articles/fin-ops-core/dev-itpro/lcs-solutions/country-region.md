@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: kfend
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 4935d54a911701fda4740e3a1116c139730ceb08
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: abfba49c1b5e410cdc47db9965ffee26fbaebb9e
+ms.sourcegitcommit: 28a726b3b0726ecac7620b5736f5457bc75a5f84
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8866527"
+ms.lasthandoff: 06/29/2022
+ms.locfileid: "9067672"
 ---
 # <a name="globalization-resources"></a>Recursos de globalização
 
@@ -63,10 +63,10 @@ Os recursos a seguir fornecem informações sobre recursos de localização novo
 Os [planos de versão do Dynamics 365](/business-applications-release-notes/) fornecem descrições dos recursos novos e aprimorados que são planejados para os aplicativos de negócios do Dynamics 365 e para as plataformas de aplicativos. 
 
 #### <a name="finance-and-operations-apps-whats-new"></a>Novidades dos aplicativos de finanças e operações
-A [home page Novidades ou alterações no Finance and Operations](../../fin-ops/get-started/whats-new-changed.md) lista os recursos que estão incluídos em versões específicas dos aplicativos de finanças e operações.
+A [home page Novidades ou alterações em finanças e operações](../../fin-ops/get-started/whats-new-changed.md) lista os recursos que estão incluídos em versões específicas dos aplicativos de finanças e operações.
 
-### <a name="electronic-reporting"></a>Relatório eletrônico
-A ferramenta ER (Relatório eletrônico) permite configurar formatos para documentos eletrônicos de acordo com os requisitos legais de vários países/regiões. O ER permite gerenciar esses formatos durante seu ciclo de vida. Para obter mais informações, confira um dos tópicos a seguir:
+### <a name="electronic-reporting"></a>Relatório Eletrônico
+A ferramenta ER (Relatório Eletrônico) permite configurar formatos para documentos eletrônicos de acordo com os requisitos legais de vários países/regiões. O ER permite gerenciar esses formatos durante seu ciclo de vida. Para obter mais informações, confira um dos tópicos a seguir:
 -   [Visão geral de Relatório eletrônico (ER)](../analytics/general-electronic-reporting.md)
 -   [Gerenciar o ciclo de vida da configuração de Relatório eletrônico (ER)](../analytics/general-electronic-reporting-manage-configuration-lifecycle.md)
 -   [Criar configurações de Relatório eletrônico (ER)](../analytics/electronic-reporting-configuration.md)
@@ -133,3 +133,4 @@ Para saber mais, consulte [Sistema de ajuda](../../fin-ops/get-started/help-over
 
 
 [!INCLUDE[footer-include](../../../includes/footer-banner.md)]
+
