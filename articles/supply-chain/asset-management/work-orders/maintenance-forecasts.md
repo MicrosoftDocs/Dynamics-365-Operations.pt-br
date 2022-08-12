@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: johanho
 ms.search.validFrom: 2019-09-30
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: be6ef12f34e85b90c24c43c6e55ad169c271810a
-ms.sourcegitcommit: cfe8fbc202c3eb05d894076fdf99e46704f17365
+ms.openlocfilehash: 4e3da8ab9a739c8455d2c1d2720f94f91a42927d
+ms.sourcegitcommit: 6781fc47606b266873385b901c302819ab211b82
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/15/2022
-ms.locfileid: "9016613"
+ms.lasthandoff: 07/02/2022
+ms.locfileid: "9111590"
 ---
 # <a name="maintenance-forecasts"></a>Previsões de manutenção
 
@@ -107,7 +107,7 @@ A ilustração a seguir mostra um exemplo da página **Previsão de manutenção
 
 ## <a name="automatic-update-of-work-order-forecasts"></a>Atualização automática de previsões de ordem de serviço
 
-Se os valores de custos por hora, custos do item e despesas forem atualizados em outros módulos do Microsoft Dynamics 365 for Finance and Operations, as previsões da ordem de serviço no Gerenciamento de Ativos poderão ser automaticamente atualizadas para refletir essas alterações. Esse recurso ajuda a garantir que os preços de custo mais recentes sejam sempre usados nas previsões de ordem de serviço. Você também pode fazer atualizações semelhantes para [previsões de tipo de trabalho de manutenção](../setup-for-work-orders/job-groups-and-job-types-variants-trades-and-checklists.md).
+Se os custos por hora, custos do item e despesas forem atualizados em outros módulos, as previsões da ordem de serviço no Gerenciamento de Ativos poderão ser automaticamente atualizadas para refletir essas alterações. Esse recurso ajuda a garantir que os preços de custo mais recentes sejam sempre usados nas previsões de ordem de serviço. Você também pode fazer atualizações semelhantes para [previsões de tipo de trabalho de manutenção](../setup-for-work-orders/job-groups-and-job-types-variants-trades-and-checklists.md).
 
 1. Selecione **Gerenciamento de ativos** > **Periódico** > **Previsão** > **Atualizar previsão da ordem de serviço**.
 

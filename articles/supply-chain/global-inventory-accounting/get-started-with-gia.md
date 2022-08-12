@@ -11,18 +11,16 @@ ms.search.region: Global
 ms.author: yanansong
 ms.search.validFrom: 2021-06-18
 ms.dyn365.ops.version: 10.0.20
-ms.openlocfilehash: cbe6bff6fab96900b8bd4e112a8858363fff86d1
-ms.sourcegitcommit: 9870b773a2ea8f5675651199fdbc63ca7a1b4453
+ms.openlocfilehash: 463a66002ec7a6536c9ff829f9ea2c3734138eae
+ms.sourcegitcommit: 6221a25f81aa83ab335de7cb6b6c3014dbec0116
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/15/2022
-ms.locfileid: "9013545"
+ms.lasthandoff: 07/19/2022
+ms.locfileid: "9177138"
 ---
 # <a name="get-started-with-global-inventory-accounting"></a>Introdução à Contabilidade de estoque global
 
 [!include [banner](../includes/banner.md)]
-[!INCLUDE [preview-banner](../includes/preview-banner.md)]
-<!--KFM: Preview until 4/30/2022 -->
 
 A Contabilidade de estoque global de custos permite realizar múltiplas contabilidades de inventário nos razões da Contabilidade de estoque global. É necessário associar cada razão da Contabilidade de estoque global a uma *convenção*. Uma convenção é uma coleção dos seguintes tipos de políticas de contabilidade:
 
@@ -69,28 +67,34 @@ Antes de habilitar a funcionalidade de suplemento, você deve se integrar ao Mic
 
 Para obter mais informações, consulte a página [Habilitar após a implantação do ambiente](../../fin-ops-core/dev-itpro/power-platform/enable-power-platform-integration.md#enable-after-deploy).
 
-## <a name="install-the-add-in"></a><a name="install"></a>Instalar o suplemento
+## <a name="install-or-update-the-add-in-and-solution"></a><a name="install"></a>Instalar ou atualizar o suplemento e a solução
 
-Siga estas etapas para instalar o suplemento para que você possa usar a Contabilidade de estoque global.
+Use o procedimento a seguir para instalar ou atualizar o suplemento e a solução de Contabilidade de Estoque Global. A parte do procedimento a ser seguida, caso você esteja instalando o pela primeira vez ou apenas precise atualizar a solução para uma instalação existente.
+
+- Se você nunca instalou o suplemento antes, siga o procedimento completo para instalar o suplemento e a solução.
+- Se você já estiver usando a Contabilidade de Estoque Global, mas precisa atualizar a solução no [centro de administração do Power Platform](https://admin.powerplatform.microsoft.com), execute somente a etapa 6 e pule todas as outras etapas.
+
+Para instalar ou atualizar o suplemento e a solução:
 
 1. Entre no [LCS](https://lcs.dynamics.com/Logon/Index).
 1. Abra o ambiente LCS ao qual deseja adicionar o serviço.
 1. Acesse **Detalhes completos**.
-1. Acesse **Integração do Power Platform** e selecione **Configuração**.
+1. Vá para **Integração do Power Platform** e selecione **Configuração**.
 1. Na caixa de diálogo **Configuração do ambiente do Power Platform**, marque a caixa de seleção e selecione **Configuração**. Normalmente, a configuração leva entre 60 e 90 minutos.
-1. Depois de concluir a configuração do ambiente do Microsoft Power Platform, entre no [Centro de administração do Power Platform](https://admin.powerplatform.microsoft.com) e instale o suplemento da Contabilidade de Estoque Global seguindo estas etapas:
-   1. Selecione o ambiente em que deseja instalar o suplemento.
+1. Depois de concluir a configuração do ambiente do Microsoft Power Platform, entre no [Centro de administração do Power Platform](https://admin.powerplatform.microsoft.com) e instale ou atualize a solução da Contabilidade de Estoque Global seguindo estas etapas:
+   1. Selecione o ambiente em que deseja instalar ou atualizar a solução.
    1. Selecione **Aplicativos do Dynamics 365**.
    1. Selecione **Instalar aplicativo**.
    1. Selecione **Contabilidade de Estoque Global do Dynamics 365**.
    1. Selecione **Avançar** para instalar.
-1. Volte para o ambiente do LCS. Na Guia Rápida **Complementos do ambiente**, selecione **Instalar um novo complemento**.
+1. Depois que a solução for completamente instalada, volte para o ambiente LCS. Na Guia Rápida **Complementos do ambiente**, selecione **Instalar um novo complemento**.
 1. Selecione **Contabilidade de estoque global**.
 1. Acompanhe o guia de instalação e concorde com os termos e condições.
 1. Selecione **Instalar**.
 1. Na Guia Rápida **Suplementos do ambiente**, você verá que o Contabilidade de estoque global está sendo instalado. Após alguns minutos, o status deve mudar de *Instalando* para *Instalado*. (Talvez seja necessário atualizar a página para ver essa alteração.) Nesse momento, a Contabilidade de estoque global já está pronto para uso.
 
 Se o idioma padrão da sua instalação do Dataverse não for inglês, siga estas etapas:
+
 1. Acesse **Configurações avançadas \> Administração \> Idiomas**.
 1. Selecione *Inglês* (*LanguageCode = 1033*) e selecione **Aplicar**.
 

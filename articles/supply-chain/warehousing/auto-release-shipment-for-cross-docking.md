@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: mirzaab
 ms.search.validFrom: 2019-10-1
 ms.dyn365.ops.version: 10.0.6
-ms.openlocfilehash: 34283422bafaeabef9ac454957b60db84eb5a9c7
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: c7199f5a5a401e627bb5fac9dece3950900e5f97
+ms.sourcegitcommit: 28a726b3b0726ecac7620b5736f5457bc75a5f84
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8903772"
+ms.lasthandoff: 06/29/2022
+ms.locfileid: "9067901"
 ---
 # <a name="auto-release-shipment-for-cross-docking"></a>Remessa da versão automática para a distribuição integrada
 
@@ -40,8 +40,8 @@ Essa funcionalidade de distribuição integrada tem duas vantagens:
 
 | Pré-requisito | Descrição |
 |---|---|
-| Item | O item deve ser habilitado para os processos de gerenciamento de depósito.<p>**Observação:** os itens habilitados para peso variável não podem ser incluídos nos processos de distribuição integrada.</p> |
-| Depósito | O depósito deve ser habilitado para os processos de gerenciamento de depósito. |
+| Item | O item deve ser habilitado para os processos de gerenciamento de depósito (WMS).<p>**Observação:** os itens habilitados para peso variável não podem ser incluídos nos processos de distribuição integrada.</p> |
+| Depósito | O depósito deve ser habilitado para os processos de gerenciamento de depósito (WMS). |
 | Modelos de distribuição integrada | Pelo menos um método de distribuição integrada que use a política de liberação de demanda **No recebimento do fornecimento** deve ser configurado para um depósito específico. |
 | Classe de trabalho | Uma ID da classe de trabalho de distribuição integrada deve ser criada para o tipo de ordem de serviço **Distribuição integrada**. |
 | Modelos do trabalho | Os modelos de tipo de ordem de serviço **Distribuição integrada** são necessários para criar a separação de distribuição integrada e o trabalho de colocação. |

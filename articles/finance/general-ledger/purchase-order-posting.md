@@ -10,12 +10,12 @@ ms.search.form: InventPosting, InventTrans
 audience: Application User
 ms.search.region: Global
 ms.author: raprofit
-ms.openlocfilehash: 0793c58b07d2c0a133e1a5bc0607483f22206b95
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: 38a9e2740232b18255109ba867fcdddd5b890774
+ms.sourcegitcommit: 9310c943ac76896663e5604209034da9f8d6139c
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8849921"
+ms.lasthandoff: 07/14/2022
+ms.locfileid: "9151022"
 ---
 # <a name="purchase-order-posting"></a>Lançamento de ordem de compra
 
@@ -93,10 +93,10 @@ A tabela a seguir mostra exemplos dos tipos de lançamento padrão com as princi
 
 | Tipo de lançamento | Exemplo de conta principal | Exemplo de nome de conta principal | Tipo de conta | Débito/Crédito? | Conta de compensação | P/F | Seguir | Descrição |
 |--------------|---------------------|-------------------------|----------------|----------------|--------------------|----|----------|-----------|
-| Custo de materiais comprados recebidos | 140100</br>140101 | Estoque de materiais</br>Materiais enviados não faturados | Ativo | Débito | Sim | S | Custo de materiais comprados faturados | Usado quando um recebimento de produto do pedido de compra é lançado. A contrapartida para a conta é a despesa de compra, não faturada. O valor nessa conta é revertido quando uma fatura de pedido de compra é lançada. |
+| Custo de materiais comprados recebidos | 140100</br>140101 | Estoque de materiais</br>Materiais enviados não faturados | Ativo | Débito | Sim | S | Custo de materiais comprados faturados | Usado quando um recebimento de produto de ordem de compra é lançado, a compensação na conta é Despesa de compra, não faturada. O valor nessa conta é revertido quando uma fatura de pedido de compra é lançada. |
 | Despesa de compra, não faturada | 600180 | Recebimentos de material | Despesa | Débito | Sim | S | |Usado quando um recebimento de produto do pedido de compra é lançado. Dois comprovantes são criados para o recebimento para rastrear variações de preço de compra quando o custo padrão é usado. A contrapartida para a conta no primeiro comprovante é o acúmulo de compra. A compensação no segundo comprovante é a soma do custo dos materiais adquiridos recebidos e das contas de variação do preço de compra. Os valores lançados nesta conta são revertidos quando uma fatura de pedido de compra é lançada. |
 | Custo de materiais comprados faturados | 140100 | Estoque de materiais | Ativo | Débito | Número | S  |Custo de materiais comprados recebidos | Usado quando uma fatura de pedido de compra é lançada. A contrapartida para essa conta é a despesa de compra do produto. Essa conta representa o estoque em seu balanço. A conta usada costuma ser a mesma usada para custo de unidades entregues e custo de unidades faturadas para o pedido de venda. |
-| Despesa de compra para produto | 600180 | Recebimento de material | Despesa | Crédito | Número | S  | |Usado quando uma fatura de pedido de compra é lançada. A contrapartida para esta conta é o custo dos materiais adquiridos. Essa conta representa o estoque em seu balanço. |
+| Despesa de compra para produto | 600180 | Recebimento de material | Despesa | Crédito | Sim | S  | |Usado quando uma fatura de pedido de compra é lançada. Dois comprovantes são criados para a fatura para rastrear variações de preço de compra quando o custo padrão for usado. O deslocamento para essa conta é a despesa de Compra, conta não faturada que é usada no lançamento de recebimento e revertida durante o lançamento da fatura. Representa os custos do estoque comprado no faturamento que não está refletido na conta de estoque no balanço patrimonial. Este é um lançamento de lucros e perdas para a variação de preço de compra que mais costuma ser visto em compras de itens de custo padrão.|
 | Lucro do preço de recebimento fixo (compra, lucro do preço de recebimento fixo*) | 510310 | Variação de preços de compra | Despesa | Crédito | Número | S | Perda sobre preço de recebimento fixo | Usado quando uma fatura de pedido de compra é lançada e há uma diferença entre o preço faturado e o custo padrão do item. Esta conta é utilizada quando a diferença é maior. A contrapartida para esta conta é a contrapartida do preço de recebimento fixo. |
 | Perda do preço de recebimento fixo (compra, perda do preço de recebimento fixo*) | 510310 | Variação de preços de compra | Despesa | Débito | Número | S | Lucro sobre preço de recebimento fixo | Usado quando uma fatura de pedido de compra é lançada e há uma diferença entre o preço faturado e o custo padrão do item. Esta conta é utilizada quando a diferença é menor. A contrapartida para esta conta é a contrapartida do preço de recebimento fixo. |
 | Contrapartida de preço de recebimento fixo (compra, contrapartida de preço de recebimento fixo*) | 140900 | Variação de estoque | Ativo | Ambos | Número | S  | |Usado quando uma fatura de pedido de compra é lançada e há uma diferença entre o preço faturado e o custo padrão do item. Esta conta é a contrapartida para as contas de lucros e perdas de preço de recebimento fixo. |

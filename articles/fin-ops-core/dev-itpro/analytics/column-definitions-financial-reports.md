@@ -1,26 +1,27 @@
 ---
 title: Definições de coluna nos relatórios financeiros
 description: Este artigo fornece informações sobre definições de coluna. Uma definição de coluna é um componente de relatório, que define o conteúdo das colunas em um relatório.
-author: ShylaThompson
+author: aprilolson
 ms.date: 10/10/2019
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
-ms.search.form: FinancialReports
 audience: Application User
-ms.reviewer: kfend
-ms.custom: 106601
-ms.assetid: 66e72a48-edab-4e9d-815f-596a1623c258
+ms.reviewer: twheeloc
 ms.search.region: Global
 ms.author: aolson
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: 199dceb91195a3488dd269786a8cd59811d8d828db686c3636e3d6320c77bbeb
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.custom:
+- "106601"
+ms.assetid: 66e72a48-edab-4e9d-815f-596a1623c258
+ms.search.form: FinancialReports
+ms.openlocfilehash: 30d00f50844f7ad040d3c054726b7cc1a7e85d01
+ms.sourcegitcommit: 3c4dd125ed321af8a983e89bcb5bd6e5ed04a762
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6729086"
+ms.lasthandoff: 07/28/2022
+ms.locfileid: "9206372"
 ---
 # <a name="column-definitions-in-financial-reports"></a>Definições de coluna nos relatórios financeiros
 
@@ -547,7 +548,7 @@ A seguinte tabela mostra os resultados do relatório que podem ocorrer em vária
 
 ### <a name="calculation-column-in-a-column-definition"></a>Coluna de cálculo em uma definição de coluna
 
-Um tipo de coluna de **CALC** em uma definição de coluna que permite cálculos complexos na célula **Fórmula** e pode incluir os operadores **+**, **-**, **\**e*/** e também as Instruções **IF/THEN/ELSE**. Uma coluna de cálculo também pode fazer referência a qualquer outra coluna, até mesmo colunas subsequentes. Além disso, uma coluna de cálculo também pode incluir o ano fiscal e o período para dar suporte aos cabeçalhos da coluna. A fórmula de cálculo pode ter até 1024 caracteres. Para expressar o resultado do cálculo como uma porcentagem, use uma substituição de formato especial.
+Um tipo de coluna de **CALC** em uma definição de coluna que permite cálculos complexos na célula **Fórmula** e pode incluir os operadores **+**, **-**, **\**_ e _*/** e também as Instruções **IF/THEN/ELSE**. Uma coluna de cálculo também pode fazer referência a qualquer outra coluna, até mesmo colunas subsequentes. Além disso, uma coluna de cálculo também pode incluir o ano fiscal e o período para dar suporte aos cabeçalhos da coluna. A fórmula de cálculo pode ter até 1024 caracteres. Para expressar o resultado do cálculo como uma porcentagem, use uma substituição de formato especial.
 
 > [!NOTE]
 > Os resultados das fórmulas de cálculo não incluem os valores em intervalos não imprimíveis da coluna. Por exemplo, **A:D** imprime **0** (zero), enquanto **A+B+C** dos valores sem impressão calcula o valor.

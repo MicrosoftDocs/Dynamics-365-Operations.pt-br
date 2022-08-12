@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: jasongre
 ms.search.validFrom: 2018-02-28
 ms.dyn365.ops.version: Platform update 14
-ms.openlocfilehash: fb81aa058e749df346ee87bbe83427b20b234b72
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: d7dc45e56c5fa616c288ebb4b919f039b7358794
+ms.sourcegitcommit: 873d66c03a51ecb7082e269f30f5f980ccd9307f
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8898388"
+ms.lasthandoff: 07/06/2022
+ms.locfileid: "9123644"
 ---
 # <a name="embed-canvas-apps-from-power-apps"></a>Inserir aplicativos de tela do Power Apps
 
@@ -27,7 +27,7 @@ ms.locfileid: "8898388"
 
 [!INCLUDE [PEAP](../../../includes/peap-1.md)]
 
-O Microsoft Power Apps é um serviço que permite que desenvolvedores e usuários não técnicos criem aplicativos de negócios personalizados para dispositivos móveis, tablets e a Web sem precisar escrever código. Integração do suporte a aplicativos de Finanças e Operações com o Power Apps. Aplicativos de tela que você, sua organização ou o ecossistema mais amplo desenvolvem podem ser inseridos em aplicativos de Finanças e Operações para aumentar a funcionalidade do produto. Por exemplo, você pode criar um aplicativo de tela no Power Apps que complemente o aplicativo de Finanças e Operações com informações recuperadas de outro sistema.
+O Microsoft Power Apps é um serviço que permite que desenvolvedores e usuários não técnicos criem aplicativos de negócios personalizados para dispositivos móveis, tablets e a Web sem precisar escrever código. Integração do suporte a aplicativos de finanças e operações ao Power Apps. Aplicativos de tela que você, sua organização ou o ecossistema mais amplo desenvolvem podem ser inseridos em aplicativos de finanças e operações para aumentar a funcionalidade do produto. Por exemplo, você pode criar um aplicativo de tela no Power Apps que complemente o aplicativo de finanças e operações com informações recuperadas de outro sistema.
 
 Para saber mais sobre como incorporar aplicativos de tela, assista ao breve vídeo [Como inserir aplicativos de tela](https://www.youtube.com/watch?v=x3qyA1bH-NY).
 
@@ -35,7 +35,7 @@ Para saber mais sobre como incorporar aplicativos de tela, assista ao breve víd
 
 Antes de inserir um aplicativo de tela do Power Apps no cliente, você deve encontrar ou criar um aplicativo que tenha os recursos visuais ou funcionalidades desejados. Este artigo não inclui uma descrição detalhada do processo de criação de aplicativos. Se você está começando a usar o Power Apps, consulte a [documentação do Power Apps](/powerapps/).
 
-Há três maneiras de incorporar um aplicativo de tela a um aplicativo de Finanças e Operações. Você pode usar a abordagem que melhor atende ao seu cenário. 
+Há três maneiras de incorporar um aplicativo de tela a um aplicativo de finanças e operações. Você pode usar a abordagem que melhor atende ao seu cenário. 
 
 - Insira o aplicativo de tela no botão do **Power Apps** no Painel de Ação padrão de uma página. Os aplicativos que você adiciona dessa maneira aparecem como itens no botão de menu do **Power Apps** e os aplicativos abertos em painéis laterais. 
 - Insira o aplicativo de tela diretamente em uma página existente como uma nova página de guia (guia dinâmica, Guia Rápida, folha ou seção de espaço de trabalho).
@@ -68,7 +68,7 @@ O procedimento a seguir mostra como inserir um aplicativo de tela em uma página
 
 ### <a name="embedding-a-canvas-app-as-a-full-page-experience-from-the-dashboard"></a>Inserindo um aplicativo de tela como uma experiência de página inteira do painel
 
-Talvez você deseje inserir um aplicativo de tela do painel se o aplicativo não estiver relacionado a uma página existente, ou se você quiser destacar o aplicativo como uma experiência de página inteira no aplicativo de Finanças e Operações.
+Talvez você queira inserir um aplicativo de tela do painel se o aplicativo não estiver relacionado a uma página existente, ou se quiser apenas destacar o aplicativo como uma experiência de página inteira no aplicativo de finanças e operações.
 
 > [!NOTE]
 > Para disponibilizar esse recurso, você deve ativar o recurso **Aplicativos de página inteira** no gerenciamento de Recursos. 
@@ -86,7 +86,7 @@ Ao incorporar um aplicativo de tela, você deve definir os seguintes parâmetros
 
 - **Nome** – insira o texto que deve ser mostrado para o botão ou guia que conterá o aplicativo inserido. Geralmente, convém repetir o nome do aplicativo neste campo.
 - **ID do Aplicativo** - especifica o identificador global exclusivo (GUID) para o aplicativo de tela que você deseja inserir. Para recuperar este valor, localize o aplicativo no [make.powerapps.com](https://make.powerapps.com) e localize o campo **ID do Aplicativo** em **Detalhes**.
-- **Contexto de entrada para o aplicativo** – você pode selecionar o campo contendo os dados que você quer informar para o aplicativo como entrada. Para obter informações sobre como o aplicativo pode acessar os dados enviados de aplicativos de finanças e operações, consulte a seção [Criar um aplicativo que aproveita dados enviados de aplicativos de finanças e operações](#building-a-canvas-app-that-uses-data-that-is-sent-from-finance-and-operations-apps) mais adiante neste artigo.
+- **Contexto de entrada para o aplicativo** – você pode selecionar o campo contendo os dados que você quer informar para o aplicativo como entrada. Para obter informações sobre como o aplicativo pode acessar os dados enviados de aplicativos de finanças e operações, consulte a seção [Criando um aplicativo que aproveita dados enviados de aplicativos de finanças e operações](#building-a-canvas-app-that-uses-data-that-is-sent-from-finance-and-operations-apps) mais adiante neste artigo.
 
     A partir da versão 10.0.19, a entidade legal atual também será passada como contexto para o aplicativo de tela por meio do parâmetro da URL **cmp**. Esse comportamento não afetará no aplicativo de tela de destino até que o aplicativo use essas informações.
 
@@ -107,15 +107,15 @@ Depois de inserir um aplicativo de tela em uma página e confirmar que ele está
     - Se o recurso **Exibições salvas** estiver desativado, o administrador do sistema poderá fornecer uma personalização que inclui o aplicativo de tela para o conjunto apropriado de usuários por meio da página **Personalização**. Como alternativa, você pode exportar as personalizações de sua página e enviá-las a um ou mais usuários. Cada um desses usuários pode então importar a personalização. A barra de ferramentas contém botões que permitem exportar e importar personalizações.
 
 > [!NOTE]
-> Se o aplicativo de tela foi compartilhado com usuários externos, esses usuários não podem usar o aplicativo inserido em aplicativos de Finanças e Operações. No entanto, eles podem acessar o aplicativo diretamente no Power Apps. Os usuários externos incluem convidados e usuários que não pertencem ao Microsoft 365 Azure Directory onde o aplicativo de Finanças e Operações é implantado.
+> Se o aplicativo de tela foi compartilhado com usuários externos, esses usuários não poderão usar o aplicativo inserido em aplicativos de finanças e operações. No entanto, eles podem acessar o aplicativo diretamente no Power Apps. Os usuários externos incluem convidados e usuários que não pertencem ao Microsoft 365 Azure Directory onde o aplicativo de finanças e operações está implantado.
 
 Consulte [Personalizar a experiência do usuário](personalize-user-experience.md) para obter mais detalhes sobre os recursos de personalização do produto e como usá-los.
 
-## <a name="building-a-canvas-app-that-uses-data-that-is-sent-from-finance-and-operations-apps"></a>Criar um aplicativo de tela que usa dados enviados de aplicativos de Finanças e Operações
+## <a name="building-a-canvas-app-that-uses-data-that-is-sent-from-finance-and-operations-apps"></a>Criando um aplicativo de tela que usa dados enviados de aplicativos de finanças e operações
 
-Ao criar um aplicativo de tela que será inserido em um aplicativo de Finanças e Operações, uma parte importante do processo é usar os dados de entrada desse aplicativo de Finanças e Operações. A partir da experiência de desenvolvimento do Power Apps, os dados de entrada transferidos de um aplicativo de Finanças e Operações podem ser acessados usando a variável **Param("EntityId")**. Somado a isso, a partir da versão 10.0.19, a entidade legal atual também será passada para o aplicativo de tela por meio da variável **Param("cmp")**. 
+Ao criar um aplicativo de tela que será inserido em um aplicativo de finanças e operações, uma parte importante do processo é usar os dados de entrada desse aplicativo de finanças e operações. A partir da experiência de desenvolvimento do Power Apps, os dados de entrada transferidos de um aplicativo de finanças e operações podem ser acessados usando a variável **Param("EntityId")**. Somado a isso, a partir da versão 10.0.19, a entidade legal atual também será passada para o aplicativo de tela por meio da variável **Param("cmp")**. 
 
-Por exemplo, na função OnStart do aplicativo, você pode definir os dados de entrada de aplicativos de Finanças e Operações para uma variável como esta:
+Por exemplo, na função OnStart do aplicativo, você pode definir os dados de entrada de aplicativos de finanças e operações para uma variável como esta:
 
 ``` Power Apps
 If(!IsBlank(Param("EntityId")), Set(FinOpsInput, Param("EntityId")), Set(FinOpsInput, ""));
@@ -125,7 +125,7 @@ If(!IsBlank(Param("cmp")), Set(FinOpsLegalEntity, Param("cmp")), Set(FinOpsLegal
 
 ## <a name="viewing-a-canvas-app"></a>Exibição de um aplicativo de tela
 
-Para exibir um aplicativo de tela inserido em uma página em aplicativos de Finanças e Operações, basta ir para uma página que tenha um aplicativo inserido. Lembre-se de que os aplicativos podem ser acessados usando o botão **Power Apps** no Painel de Ações padrão. Se preferir, eles podem aparecer diretamente na página como uma nova guia, guia rápida, folha ou uma nova seção em um espaço de trabalho. Quando os usuários tentarem carregar um aplicativo pela primeira vez em uma página, eles serão solicitados a fazer logon. Essa etapa garante que os usuários tenham as permissões apropriadas para usar o aplicativo.
+Para exibir um aplicativo de tela inserido em uma página em aplicativos de finanças e operações, basta ir para uma página que tenha um aplicativo inserido. Lembre-se de que os aplicativos podem ser acessados usando o botão **Power Apps** no Painel de Ações padrão. Se preferir, eles podem aparecer diretamente na página como uma nova guia, guia rápida, folha ou uma nova seção em um espaço de trabalho. Quando os usuários tentarem carregar um aplicativo pela primeira vez em uma página, eles serão solicitados a fazer logon. Essa etapa garante que os usuários tenham as permissões apropriadas para usar o aplicativo.
 
 ## <a name="editing-an-embedded-app"></a>Editando um aplicativo inserido
 
@@ -184,3 +184,4 @@ public final class ClassTest_Extension
 ```
 
 [!INCLUDE[footer-include](../../../includes/footer-banner.md)]
+

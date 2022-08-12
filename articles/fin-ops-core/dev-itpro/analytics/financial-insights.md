@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: kweekley
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: 7.2999999999999998
-ms.openlocfilehash: 304cf3f6c913586e08e0a3771ebfe40bc5d2b102
-ms.sourcegitcommit: 3cb1f49a02e4a849fc34ffeb81fe507f0608b35e
+ms.openlocfilehash: 21d7d045c812c54d6776394ad9a0b025b55df8e1
+ms.sourcegitcommit: 3289478a05040910f356baf1995ce0523d347368
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/22/2022
-ms.locfileid: "8464899"
+ms.lasthandoff: 07/01/2022
+ms.locfileid: "9109102"
 ---
 # <a name="financial-analysis"></a>Análise financeira
 
@@ -78,7 +78,7 @@ No momento, os dados nos relatórios incorporados do Power BI não podem ser lim
 | Obrigação                                    | Funções | descrição |
 |-----------------------------------------|-------|------------|
 | Exibir análise financeira da empresa atual | <ul><li>Contador</li><li>Gerente de contabilidade</li><li>Supervisor de contabilidade</li><li>Auditor</li><li>Gerente de orçamentos</li><li>Diretor executivo</li><li>Diretor financeiro</li><li>Controlador financeiro</li></ul> | Esta obrigação fornece acesso à análise financeira. Por padrão, a empresa ativa é usada como um filtro. Você não pode adicionar outras entidades legais. |
-| Exibir análise financeira de toda a empresa   | No Microsoft Dynamics 365 for Finance and Operations Enterprise Edition 7.3, esse direito não é atribuído a uma função. Na próxima versão, essa obrigação será atribuída à função Diretor financeiro. | Esta obrigação fornece acesso ao item de menu do espaço de trabalho visão geral de CFO. Por padrão, a empresa ativa é usada como um filtro. Entretanto, você pode adicionar todas as entidades legais, independentemente de o usuário ter acesso às outras entidades legais. |
+| Exibir análise financeira de toda a empresa   | No Microsoft Dynamics 365 Finance, Enterprise Edition 7.3, esse direito não é atribuído a uma função. Na próxima versão, essa obrigação será atribuída à função Diretor financeiro. | Esta obrigação fornece acesso ao item de menu do espaço de trabalho visão geral de CFO. Por padrão, a empresa ativa é usada como um filtro. Entretanto, você pode adicionar todas as entidades legais, independentemente de o usuário ter acesso às outras entidades legais. |
 
 
 ## <a name="financial-reporting-vs-financial-analysis"></a>Relatório financeiro vs. Análise financeira
@@ -96,7 +96,7 @@ O gráfico de comparação a seguir ajudará a diferenciar as duas opções:
 | **Hierarquia de relatórios com suporte/hierarquia organizacional**   | Sim                                                               | Não |
 | **Relatório de dados no razão auxiliar**                             | Sim Limitado somente ao fornecedor, cliente                              | Sim Fornecedor, cliente, grupos de fornecedores/clientes, endereços de fornecedor/cliente, etc. |
 | **Moeda de Relatório**                                   | Sim Moeda contábil e traduz para a moeda de relatório       | Não Somente moeda contábil |
-| **Segurança**                                             | Sim Adere ao Finance e à segurança da hierarquia organizacional | A exibição limitada relata para todas as empresas (independentemente segurança do Finance and Operations) ou somente para a empresa ativa |
+| **Segurança**                                             | Sim Adere ao Finance e à segurança da hierarquia organizacional | A exibição limitada relata para todas as empresas (independentemente da segurança de finanças e operações) ou somente para a empresa ativa |
 | **Oferece suporte a diferentes planos de contas e anos fiscais** | Sim                                                               | Não |
 | **relatório sobre dados esternos**                              | Não                                                                | Não |
 | **Oferece suporte a consolidações**                               | Sim                                                               | Limitado Pode reportar sobre várias empresas mas usa somente a moeda contábil |
@@ -244,3 +244,4 @@ As informações nos seguintes recursos não são necessárias para habilitar re
 
 
 [!INCLUDE[footer-include](../../../includes/footer-banner.md)]
+

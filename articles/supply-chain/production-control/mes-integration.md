@@ -11,12 +11,12 @@ ms.search.region: Global
 ms.author: johanho
 ms.search.validFrom: 2021-10-01
 ms.dyn365.ops.version: 10.0.23
-ms.openlocfilehash: 208ed2d6c8b411d12888966d9c175730e828eb44
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: 46f6db3dd9942131b379216e6fffe5551d6c8fc3
+ms.sourcegitcommit: 28a726b3b0726ecac7620b5736f5457bc75a5f84
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8860628"
+ms.lasthandoff: 06/29/2022
+ms.locfileid: "9068021"
 ---
 # <a name="integrate-with-third-party-manufacturing-execution-systems"></a>Integração com sistemas de execução de fabricação de terceiros
 
@@ -252,9 +252,10 @@ Após o MES enviar uma mensagem para o Supply Chain Management, talvez seja rele
 Nesses casos, você pode aproveitar o recurso de alerta padrão no Supply Chain Management. Para obter informações sobre como alertas padrão funcionam, consulte os seguintes recursos:
 
 - Artigo da ajuda: [Visão geral de alertas](../../fin-ops-core/fin-ops/get-started/alerts-overview.md)
-- Vídeo: [Opções de regras de alerta no Dynamics 365 for Finance and Operations](https://www.youtube.com/watch?v=cpzimwOjicM&ab_channel=MicrosoftDynamics365)
+- Vídeo: [Opções de regra de alerta em finanças e operações](https://www.youtube.com/watch?v=cpzimwOjicM&ab_channel=MicrosoftDynamics365)
 
 Por exemplo, você pode configurar os seguintes alertas para fornecer comentários sobre o estado de uma mensagem:
 
 - Crie um evento de negócios ("Enviar externamente") que é usado quando uma mensagem *Falha*.
 - Envie uma notificação e um email para o administrador de TI ou o gerente de piso de produção.
+

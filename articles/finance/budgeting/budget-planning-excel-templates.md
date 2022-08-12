@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: panolte
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: 6bc190a48d0212e24c5bd72255ed6b6b3caf942c
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: 8996ad5d03327b9273be7860a3905dc25efa7e90
+ms.sourcegitcommit: 28a726b3b0726ecac7620b5736f5457bc75a5f84
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8872489"
+ms.lasthandoff: 06/29/2022
+ms.locfileid: "9070654"
 ---
 # <a name="budget-planning-templates-for-excel"></a>Modelos de plano de orçamento para Excel
 
@@ -79,7 +79,7 @@ O grupo de campos selecionado exibe a coluna que está disponível no modelo. Cl
 [![Adicione e insira a coluna.](./media/bpt12-1024x565.png)](./media/bpt12.png)
 
 > [!NOTE] 
-> Para definir a fórmula, crie a fórmula na planilha e depois copie-a na janela **Design**. Uma tabela vinculada do Finance and Operations geralmente será nomeada como "AXTable1". Por exemplo, para resumir as colunas Solicitação Q1 : Solicitação Q4 na planilha, a fórmula = AxTable1\[Solicitação Q1\]+AxTable1\[Solicitação Q2\]+AxTable1\[Solicitação Q3\]+AxTable1\[Solicitação Q4\].
+> Para definir a fórmula, crie a fórmula na planilha e depois copie-a na janela **Design**. Uma tabela limitada de finanças e operações geralmente será nomeada como "AXTable1". Por exemplo, para resumir as colunas Solicitação Q1 : Solicitação Q4 na planilha, a fórmula = AxTable1\[Solicitação Q1\]+AxTable1\[Solicitação Q2\]+AxTable1\[Solicitação Q3\]+AxTable1\[Solicitação Q4\].
 
 Repita essas etapas para inserir a coluna **Ajuste**. Use a fórmula = AxTable1\[Total da solicitações\]\*$I$1 para essa coluna. Isso usará o valor na célula I1 e multiplicará os valores na coluna **Total de solicitações** para calcular os valores de ajuste.
 
@@ -129,3 +129,4 @@ Você também pode criar e usar tabelas e gráficos dinâmicos para mais agrupam
 
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]
+

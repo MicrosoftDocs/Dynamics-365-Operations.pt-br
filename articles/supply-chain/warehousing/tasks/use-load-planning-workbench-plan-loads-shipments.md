@@ -14,12 +14,12 @@ ms.search.industry: Distribution
 ms.author: mirzaab
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 8ad9c91051c1a1140661c93d7c5e86a78de5ec3f
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: 0e53b7667dd4589a7c6c14b8aaf8ba51017eee0d
+ms.sourcegitcommit: 28a726b3b0726ecac7620b5736f5457bc75a5f84
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8877324"
+ms.lasthandoff: 06/29/2022
+ms.locfileid: "9068320"
 ---
 # <a name="plan-loads-and-shipments-using-the-load-planning-workbench"></a>Planejar cargas e remessas usando a Bancada de planejamento de carga
 
@@ -38,7 +38,7 @@ Este artigo mostra como usar a bancada de planejamento de carga para criar uma c
 7. Selecione o item **A0001**. **A0001** está habilitado para o gerenciamento de transporte.  
 8. No campo **Site**, selecione o botão suspenso para abrir a pesquisa e então selecione um item.
 9. No campo **Quantidade.**, insira um número
-10. No campo **Depósito**, digite '24' neste exemplo. Este depósito está habilitado para o gerenciamento de transporte e para o gerenciamento de depósito avançado.  
+10. No campo **Depósito**, digite '24' neste exemplo. Este depósito está habilitado para o gerenciamento de transporte e para os processos do gerenciamento de depósito (WMS).  
 11. Selecione **Salvar**.
 12. Feche a página.
 

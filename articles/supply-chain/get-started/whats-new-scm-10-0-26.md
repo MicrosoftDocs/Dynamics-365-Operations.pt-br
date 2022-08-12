@@ -10,12 +10,12 @@ ms.search.region: Global
 ms.author: kamaybac
 ms.search.validFrom: 2021-03-01
 ms.dyn365.ops.version: 10.0.26
-ms.openlocfilehash: d47f3f377a7de87b9c24a18e4542e5a48235d270
-ms.sourcegitcommit: 78576abe5c7cbab1bb69d26c999b038e8c24873a
+ms.openlocfilehash: 8be79f259505c084a8680c453ec15a4cef1a890f
+ms.sourcegitcommit: 873d66c03a51ecb7082e269f30f5f980ccd9307f
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/13/2022
-ms.locfileid: "8954470"
+ms.lasthandoff: 07/06/2022
+ms.locfileid: "9124484"
 ---
 # <a name="whats-new-or-changed-in-dynamics-365-supply-chain-management-10026-may-2022"></a>Novidades ou alterações no Dynamics 365 Supply Chain Management 10.0.26 (maio de 2022)
 
@@ -33,7 +33,7 @@ A tabela a seguir lista os recursos incluídos nesta versão. Podemos atualizar 
 
 | Área de recursos | Recurso | Mais informações | Habilitado por   |
 |---|---|---|---|
-| Estoque e logística | [Consulta disponível de visibilidade de estoque para suporte a itens de gerenciamento de depósito avançado](/dynamics365-release-plan/2022wave1/finance-operations/dynamics365-supply-chain-management/inventory-visibility-support-advanced-warehouse-management) | [Suporte à visibilidade de estoque para itens de WHS](../inventory/inventory-visibility-whs-support.md) | Gerenciamento de recursos:<br>*Habilitar itens de depósito em Visibilidade de Estoque* |
+| Estoque e logística | [Consulta disponível de visibilidade de estoque para suporte a itens de gerenciamento de depósito avançado](/dynamics365-release-plan/2022wave1/finance-operations/dynamics365-supply-chain-management/inventory-visibility-support-advanced-warehouse-management) | [Suporte à visibilidade de estoque para itens de WMS](../inventory/inventory-visibility-whs-support.md) | Gerenciamento de recursos:<br>*Habilitar itens de depósito em Visibilidade de Estoque* |
 | Estoque e logística | [Disponível para promessa do suplemento de visibilidade de estoque](/dynamics365-release-plan/2022wave1/finance-operations/dynamics365-supply-chain-management/available-to-promise-inventory-visibility-add-in) | [Agendas de alterações disponíveis e disponível para promessa de Visibilidade de Estoque](../inventory/inventory-visibility-available-to-promise.md) | Habilitado por configuração de serviço |
 | Fabricação | [Itens de peso variável para a interface de execução do piso de produção](/dynamics365-release-plan/2022wave1/finance-operations/dynamics365-supply-chain-management/catch-weight-items-production-floor-execution-interface) | [Como os trabalhadores usam a interface de execução de piso de produção](../production-control/production-floor-execution-use.md) | Gerenciamento de recursos:<br>*(Versão preliminar) Relatório de itens de peso variável da interface de execução do piso de produção* |
 | Fabricação | Guia Meus trabalhos na interface de execução de piso de produção <!-- KFM: Add link to release plan when available --> | [Como os trabalhadores usam a interface de execução de piso de produção](../production-control/production-floor-execution-use.md) | Gerenciamento de recursos:<br>*Guia Meus trabalhos na interface de execução de piso de produção* |
@@ -47,9 +47,9 @@ Se quiser ativar o desativar qualquer um desses recursos, você deverá fazer is
 | Módulo | Nome do recurso no gerenciamento de recursos | Mais informações |
 |---|---|---|
 | Compras | Lançar quantidades registradas de produtos em estoque e restantes de produtos sem estoque para recebimentos e faturas de fornecedor | Esse recurso altera a forma como quantidades de produtos não estocados (como serviços) são lançadas ao processar faturas de fornecedor e remessas de entrada em ordens de compra. O recurso modifica o comportamento da opção de quantidade *Quantidade registrada e serviços* para lançar recebimentos e faturas do fornecedor, alterando-o para corresponder ao comportamento da opção *Quantidade registrada e produtos não estocados* já fornecido ao lançar quantidades para guias de remessa de venda.<br><br>Quando você lança um recebimento de produtos ou uma fatura de fornecedor usando a opção de quantidade *Quantidade registrada e serviços*, o sistema lança a quantidade registrada de produtos em estoque e lança a quantidade pendente de produtos não estocados (incluindo serviços e não serviços). Sem esse recurso, o sistema ainda lança a quantidade registrada de produtos em estoque (incluindo serviços configurados como itens em estoque), mas sempre lança toda a quantidade solicitada de produtos e serviços não estocados (e ignora produtos não estocados que não são do tipo *Serviço*). |
-| Compras | Sincronizar dimensões de rastreamento em linhas de ordem de compra e venda intercompanhia | Esse recurso permite controlar se as dimensões de controle de série e de número de lote são sincronizadas entre as linhas da ordem de compra e de venda intercompanhia. Ele adiciona novas configurações às guias **Políticas de ordem de compra** e **Políticas de ordem de venda** da página de configuração **Intercompanhia** para clientes e fornecedores. Ele também atualiza os nomes de algumas configurações relacionadas e próximas para clareza.<br><br>Se você estiver usando o WMS (gerenciamento de depósito avançado), lembre-se de que esse recurso só sincronizará números de lote e de série quando essas dimensões estiverem acima do local na hierarquia de reservas de destino. |
+| Compras | Sincronizar dimensões de rastreamento em linhas de ordem de compra e venda intercompanhia | Esse recurso permite controlar se as dimensões de controle de série e de número de lote são sincronizadas entre as linhas da ordem de compra e de venda intercompanhia. Ele adiciona novas configurações às guias **Políticas de ordem de compra** e **Políticas de ordem de venda** da página de configuração **Intercompanhia** para clientes e fornecedores. Ele também atualiza os nomes de algumas configurações relacionadas e próximas para clareza.<br><br>Se você estiver usando os processos de gerenciamento de depósito (WMS), lembre-se de que esse recurso só sincronizará números de lote e de série quando essas dimensões estiverem acima do local na hierarquia de reservas de destino. |
 | Gerenciamento de informações sobre o produto | Limpar valores de atributo de produto | Esse recurso adiciona uma tarefa periódica chamada **Limpar valores de atributo de produto**, que limpa os registros de valor de atributo de produto que não estão mais associados a produtos por meio de uma categoria de produto. |
-| Gerenciamento de estoque e depósito | (Rússia) Evitar discrepâncias ao emitir GTDs para ordens de compra que incluam itens habilitados para o serviço Gerenciamento de Fluxo de Trabalho | Esse recurso se destina apenas a localizações em russo. Ele impede discrepâncias que ocorrem durante a emissão de GTDs (números da declaração alfandegária) russos para importar ordens de compra que incluem itens habilitados para WMS (armazenamento avançado). O processo de emissão de GTD altera alguns valores de dimensão de estoque nas transações de estoque relacionadas para faturas incluídas no diário personalizado, que leva a discrepâncias entre os registros de trabalho para a ordem de compra e as transações de estoque para a compra. Quando esse recurso é habilitado, o processo de emissão de GTD gera um trabalho de ajuste que elimina essas discrepâncias. |
+| Gerenciamento de estoque e depósito | (Rússia) Evitar discrepâncias ao emitir GTDs para ordens de compra que incluam itens habilitados para o serviço Gerenciamento de Fluxo de Trabalho | Esse recurso se destina apenas a localizações em russo. Ele impede discrepâncias que ocorrem durante a emissão de GTDs (números da declaração alfandegária) russos para importar ordens de compra que incluem itens habilitados para processos de gerenciamento de depósito (WMS). O processo de emissão de GTD altera alguns valores de dimensão de estoque nas transações de estoque relacionadas para faturas incluídas no diário personalizado, que leva a discrepâncias entre os registros de trabalho para a ordem de compra e as transações de estoque para a compra. Quando esse recurso é habilitado, o processo de emissão de GTD gera um trabalho de ajuste que elimina essas discrepâncias. |
 | Gerenciamento de depósito | Analisador aprimorado de códigos de barra GS1 | Este recurso adiciona um analisador aprimorado para dados de símbolo de GS1. O novo analisador implementa o algoritmo de especificação geral de GS1 para analisar símbolos de GS1 e fornece validação de dados mais forte. Para obter mais informações, consulte [Digitalização do código de barras GS1](../warehousing/gs1-barcodes.md). |
 | Gerenciamento de depósito | Novas páginas da bancada de planejamento de carga | Adiciona duas novas páginas de bancada de planejamento de carga: **Workbench de planejamento de carga de entrada** e **Workbench de planejamento de carga de saída**. |
 | Gerenciamento de depósito | Aplicativo Warehouse Management – GTD em branco | Esse recurso se destina apenas a localizações em russo. Ele permite que os trabalhadores que usam o aplicativo móvel Warehouse Management deixem GTDs (números de declaração alfandegária) em branco quando necessário. Se a dimensão de rastreamento GTD estiver configurada para permitir valores em branco, o sistema aceitará valores em branco para GTD para que as operações de estoque fornecidas no estoque disponível estejam disponíveis. |
@@ -64,9 +64,9 @@ Recentemente, adicionamos ou atualizamos significativamente os seguintes artigos
 
 ## <a name="additional-resources"></a>Recursos adicionais
 
-### <a name="platform-updates-for-finance-and-operations-apps"></a>Atualizações da plataforma para aplicativos do Finanças e operações
+### <a name="platform-updates-for-finance-and-operations-apps"></a>Atualizações da plataforma para aplicativos de finanças e operações
 
-O Microsoft Dynamics 365 Supply Chain Management 10.0.26 inclui atualizações de plataforma. Para saber mais, consulte [Atualizações de plataforma para a versão 10.0.26 de aplicativos de finanças e operações (maio de 2022)](../../fin-ops-core/dev-itpro/get-started/whats-new-platform-updates-10-0-26.md).
+O Microsoft Dynamics 365 Supply Chain Management 10.0.26 inclui atualizações de plataforma. Para saber mais, consulte [Atualizações da plataforma para a versão 10.0.26 de aplicativos de finanças e operações (maio de 2022)](../../fin-ops-core/dev-itpro/get-started/whats-new-platform-updates-10-0-26.md).
 
 ### <a name="bug-fixes"></a>Correções de bug
 
@@ -90,3 +90,4 @@ Antes que qualquer recurso seja removido do produto, o aviso de substituição s
 Para as últimas alterações que afetam somente o tempo de compilação, mas são compatíveis binárias com a área restrita e os ambientes de produção, o tempo de substituição será inferior a 12 meses. Normalmente, essas são atualizações funcionais que precisam ser feitas no compilador.
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]
+

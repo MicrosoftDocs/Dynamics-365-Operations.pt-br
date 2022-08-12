@@ -11,12 +11,12 @@ ms.search.region: Global
 ms.author: yufeihuang
 ms.search.validFrom: 2020-10-26
 ms.dyn365.ops.version: 10.0.15
-ms.openlocfilehash: 782545ea38a209eb4430607f5bca96e4e930efdc
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: 274f9b368a6074725d1938de5f2172d2810a5985
+ms.sourcegitcommit: 28a726b3b0726ecac7620b5736f5457bc75a5f84
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8897622"
+ms.lasthandoff: 06/29/2022
+ms.locfileid: "9066630"
 ---
 # <a name="inventory-visibility-add-in-overview"></a>Visão geral do Suplemento Visibilidade de Estoque
 
@@ -61,9 +61,9 @@ A visibilidade do estoque projetada futura (incluindo o fornecimento, a demanda 
 
 O recurso ATP é fácil de adotar no seu processo diário de preenchimento de ordens. O mais importante, como outras ofertas de Visibilidade de Estoque, o recurso ATP é *global e em tempo real*. Portanto, você pode configurar várias fórmulas de cálculo de ATP para ter consultas de disponibilidade de estoque completo que abranjam todos os canais de negócios e fontes de dados. Para obter mais informações, consulte [Agenda de alterações disponíveis e disponível para promessa de Visibilidade de Estoque](inventory-visibility-available-to-promise.md).
 
-### <a name="compatibility-with-advanced-warehouse-management-items"></a>Compatibilidade com itens de gerenciamento de depósito avançado
+### <a name="compatibility-with-warehouse-management-processes-wms-items"></a>Compatibilidade com itens dos processos de gerenciamento de depósito (WMS)
 
-A Microsoft pretende fornecer integração pronta com o WHS (Advanced Warehouse Management), de forma que os clientes de WHS também possam desfrutar das vantagens do serviço de Visibilidade de Estoque. De acordo com a versão 2022 do Wave 1 (demonstração pública em março), o serviço de estoque oferece suporte a consultas disponíveis do item de WHS e ATP. O recurso de reserva e alocação flexível terá suporte para clientes de WHS no próximo ciclo. Para obter mais informações, consulte [Suporte do Visibilidade de Estoque para itens WHS](inventory-visibility-whs-support.md).
+A Microsoft pretende fornecer integração pronta com os processos de gerenciamento de depósito (WMS), de forma que os clientes de WMS também possam desfrutar das vantagens do serviço de Visibilidade de Estoque. De acordo com a versão 2022 do Wave 1 (demonstração pública em março), o serviço de estoque oferece suporte a consultas disponíveis do item de WMS e ATP. O recurso de reserva e alocação flexível terá suporte para clientes de WMS no próximo ciclo. Para obter mais informações, consulte [Suporte do Visibilidade de Estoque para itens WMS](inventory-visibility-whs-support.md).
 
 ## <a name="licensing"></a>Licenciamento
 

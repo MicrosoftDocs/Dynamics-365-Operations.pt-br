@@ -1,6 +1,6 @@
 ---
 title: Remover uma instância
-description: Este artigo mostra o processo de remoção de um ambiente de produção ou de test drive do Microsoft Dynamics 365 Human Resources.
+description: Este artigo descreve o processo de remoção de um ambiente de produção ou de test drive do Microsoft Dynamics 365 Human Resources.
 author: twheeloc
 ms.date: 08/11/2021
 ms.topic: article
@@ -14,16 +14,22 @@ ms.search.region: Global
 ms.author: twheeloc
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 4256938be70f301d3d7b7663f10addb19725b048
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: 0ce676c93e133cc04ad9c49417ed2ca0d6791e93
+ms.sourcegitcommit: 1401d66b6b64c590ca1f8f339d622e922920cf15
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8859623"
+ms.lasthandoff: 07/20/2022
+ms.locfileid: "9178460"
 ---
 # <a name="remove-an-instance"></a>Remover uma instância
 
-[!include [Applies to Human Resources](../includes/applies-to-hr.md)]
+_**Aplica-se a:** Human Resources na infraestrutura autônoma_ 
+
+> [!NOTE]
+> A partir de 2022 de julho, novos ambientes do Human Resources não podem ser provisionados na infraestrutura autônoma do Human Resources, e novos projetos do Lifecycle Services (LCS) do Microsoft Dynamics não podem ser criados nele. Os clientes podem implantar ambientes de Recursos Humanos na infraestrutura de aplicativos de finanças e operações. Para obter mais informações, consulte [Provisionar Recursos Humanos na infraestrutura de finanças e operações](/hr-admin-setup-provision-fo.md).
+
+> [!IMPORTANT]
+> A infraestrutura de aplicativos de finanças e operações oferece suporte à exclusão de um ambiente. Para obter informações sobre como excluir um ambiente, consulte [Excluir um ambiente](../fin-ops-core/dev-itpro/deployment/deployenvironment-newinfrastructure.md#delete-an-environment).
 
 Este artigo explica o processo de remoção de um ambiente de produção ou de test drive do Microsoft Dynamics 365 Human Resources.
 
@@ -42,10 +48,13 @@ O ambiente de test drive existente será removido. Quando for removido, inscreva
 
 Este tópico pressupõe que você adquiriu o Human Resources por meio de um Provedor de Soluções na Nuvem (CSP) ou de um contrato de arquitetura da empresa (EA). 
 
-Como um ambiente único do Human Resources é contido em um ambiente único do Power Apps, há duas opções a serem consideradas. A primeira opção envolve a remoção de todo o ambiente do Power Apps; a segunda opção envolve somente a remoção do Human Resources. A primeira opção é preferível quando você tiver criado um ambiente do Power Apps especificamente para provisionar o Human Resources e tiver acabado de iniciar a implementação, ou se não tiver nenhuma integração estabelecida. A segunda opção será recomendável quando você tiver um ambiente estabelecido do Power Apps preenchido com dados avançados aproveitados no Power Apps e no Power Automate.
+Como um ambiente único do Human Resources é contido em um ambiente único do Power Apps, há duas opções a serem consideradas ao remover um ambiente: 
+- **Remover todo o ambiente do Power Apps.** Esta opção é preferencial quando o ambiente do Power Apps tiver sido criado com o objetivo de provisionar o Human Resources e tiver acabado de iniciar a implementação, ou se não tiver nenhuma integração estabelecida.  
+- **Remover somente Human Resources.** Esta opção é apropriada quando houver um ambiente estabelecido do Power Apps preenchido com dados usados no Microsoft Power Apps e no Power Automate.
+
 
 > [!Important]
-> Antes de remover o ambiente do Power Apps, verifique se ele não está sendo usado para integrações de dados avançados fora do escopo do Human Resources. Observe também que os ambientes do Power Apps não podem ser removidos. 
+> Antes de remover o ambiente do Power Apps, verifique se ele não está sendo usado para integrações de dados fora do escopo do Human Resources. Observe também que os ambientes do Power Apps não podem ser removidos. 
 
 Para remover todo o ambiente do Power Apps, incluindo o Human Resources e os aplicativos e fluxos associados:
 
@@ -73,7 +82,7 @@ Para remover um ambiente do Human Resources de um ambiente existente do Power Ap
 
 ## <a name="recover-a-soft-deleted-environment"></a>Recuperar um ambiente excluído de forma reversível
 
-Se você excluir o ambiente do Power Apps ao qual o seu ambiente de Recursos Humanos está conectado, o status do ambiente de Recursos Humanos no Lifecycle Services será **Excluído de forma reversível**. Nesse caso, os usuários não podem se conectar aos Recursos Humanos.
+Se você excluir o ambiente do Power Apps ao qual o seu ambiente do Human Resources está conectado, o status do ambiente do Human Resources no LCS será **Excluído de forma temporária**. Nesse caso, os usuários não podem se conectar aos Recursos Humanos.
 
 Para restaurar o ambiente:
 

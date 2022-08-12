@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: mirzaab
 ms.search.validFrom: 2019-08-31
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: 2963589562e2d646670183e9db35df33255e8894
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: e5816a7cddf509260511368b74655a9fd5bfc485
+ms.sourcegitcommit: 28a726b3b0726ecac7620b5736f5457bc75a5f84
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8903743"
+ms.lasthandoff: 06/29/2022
+ms.locfileid: "9067871"
 ---
 # <a name="shipment-auto-updates"></a>Atualizações automáticas de remessas
 
@@ -30,7 +30,7 @@ A funcionalidade de atualização automática de remessas atualiza automaticamen
 
 Quando a funcionalidade de atualização automática de remessas não é usada, apenas as reduções de quantidade fluem automaticamente até que o trabalho do depósito seja criado. Os usuários devem atualizar ou excluir linhas manualmente e depois precisam liberar as linhas novamente, caso as quantidades da ordem aumentem ou sejam adicionadas novas linhas na ordem. Ao usar a funcionalidade de atualização automática de remessas, as empresas podem fornecer atualizações para o depósito continuamente, sem precisar se preocupar que as remessas e cargas relacionadas não refletirão as atualizações da linhas das ordens.
 
-A funcionalidade de atualização automática de remessas aplica-se a linhas de ordens de venda e a linhas de ordens de transferência, e é ativada para um depósito específico. Portanto, as empresas podem aplicar políticas de atualização automática de remessas diferentes nos vários depósitos conforme necessário. Por padrão, a política de atualização automática de remessas para reduções de quantidade é aplicada a todos os depósitos que usam processos de gerenciamento de depósito. Quando essa configuração de política padrão é usada, apenas as reduções de quantidade fluem automaticamente até uma remessa e carga até que o trabalho do depósito seja criado. Esse comportamento é semelhante ao usado antes da introdução da funcionalidade de atualização automática de remessas.
+A funcionalidade de atualização automática de remessas aplica-se a linhas de ordens de venda e a linhas de ordens de transferência, e é ativada para um depósito específico. Portanto, as empresas podem aplicar políticas de atualização automática de remessas diferentes nos vários depósitos conforme necessário. Por padrão, a política de atualização automática de remessas para reduções de quantidade é aplicada a todos os depósitos que usam processos de gerenciamento de depósito (WMS). Quando essa configuração de política padrão é usada, apenas as reduções de quantidade fluem automaticamente até uma remessa e carga até que o trabalho do depósito seja criado. Esse comportamento é semelhante ao usado antes da introdução da funcionalidade de atualização automática de remessas.
 
 ## <a name="main-elements-of-the-functionality"></a>Principais elementos da funcionalidade
 

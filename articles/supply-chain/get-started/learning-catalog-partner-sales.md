@@ -12,12 +12,12 @@ ms.reviewer: kamaybac
 ms.search.region: Global
 ms.search.validFrom: 2020-07-27
 ms.dyn365.ops.version: 8.0999999999999996
-ms.openlocfilehash: d5a7ce80f02729de450e558f57464248d69910ef
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: d7caaf0097022eddd33319c6bd4a066da61de23b
+ms.sourcegitcommit: 873d66c03a51ecb7082e269f30f5f980ccd9307f
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8901021"
+ms.lasthandoff: 07/06/2022
+ms.locfileid: "9123550"
 ---
 # <a name="learning-catalog-for-microsoft-partner-sales-and-marketing-roles-for-dynamics-365-supply-chain-management"></a>Catálogo de aprendizagem para funções de marketing e vendas para parceiros Microsoft do Dynamics 365 Supply Chain Management
 
@@ -31,7 +31,7 @@ O catálogo a seguir é organizado com base no conhecimento fundamental para dom
 |---------|-------------|--------|--------|
 | [Conheça o valor comercial do Microsoft Dynamics 365 e do Power Platform](/learn/paths/learn-business-value-of-dynamics-365-and-power-platform/) | Quer aprender mais sobre aplicativos de negócios? Talvez você não saiba onde começar com Microsoft Dynamics 365 e aplicativos do Power Platform? Saiba como o poder dos aplicativos comerciais pode ajudar a transformar seus negócios. | Caminho de aprendizado online, gratuito, baseado no seu ritmo | 7 horas |
 | [Conceitos básicos do Dynamics 365 e do Power Platform](/learn/paths/dyn-power-plat-bus-app-fundamentals/) | Quer aprender mais sobre aplicativos de negócios? Comece com este caminho de aprendizado para ver como os aplicativos do Dynamics 365 são usados. Aprenda sobre os conceitos de nuvem, sobre o Power Platform e como usar os aplicativos do Dynamics 365. | Caminho de aprendizado online, gratuito, baseado no seu ritmo | 5.5 horas |
-| [Introdução aos aplicativos de Finanças e Operações](/learn/paths/get-started-finance-operations/) | Aprender como os aplicativos de Finanças e Operações dão suporte para que as empresas gerenciem sistemas financeiros globais, processos de negócios operacionais e cadeias de fornecedores simplificadas permitindo aos usuários tomarem decisões rápidas e conscientes. Na primeira etapa de sua carreira trabalhando com aplicativos de Finanças e Operações, você deve se familiarizar com os recursos e as funcionalidades, independentemente de sua função desejada. | Caminho de aprendizado online, gratuito, baseado no seu ritmo | 2 horas |
+| [Introdução aos aplicativos de finanças e operações](/learn/paths/get-started-finance-operations/) | Aprenda como os aplicativos de finanças e operações dão suporte para que as empresas gerenciem sistemas financeiros globais, processos de negócios operacionais e cadeias de fornecedores simplificadas permitindo aos usuários tomarem decisões rápidas e conscientes. Na primeira etapa de sua carreira trabalhando com aplicativos de finanças e operações, você deve se familiarizar com os recursos e as funcionalidades, independentemente de sua função desejada. | Caminho de aprendizado online, gratuito, baseado no seu ritmo | 2 horas |
 | [Curso MB-900T01-A: Conceitos básicos do Dynamics 365](https://www.microsoft.com/learning/course.aspx?cid=MB-900T01) | Este curso apresentará ao aprendiz as funcionalidades e o valor comercial do Dynamics 365. Ele abrangerá os aplicativos do Dynamics 365, o Power Platform, conceitos de nuvem, o modelo de segurança e considerações de licenciamento. | Treinamento online ou presencial com instrutor; o preço varia de acordo com a região e o parceiro | 1 dia |
 
 ## <a name="exam"></a>Exame<a name="exam"></a>
@@ -41,3 +41,4 @@ O catálogo a seguir é organizado com base no conhecimento fundamental para dom
 | [Conceitos básicos do Dynamics 365](/learn/certifications/d365-fundamentals?wt.mc_id=learningredirect_certs-web-wwl) | Prove que você entende o Microsoft Dynamics 365; o Power Platform; conceitos de nuvem; opções de licenciamento; e opções de implantação e liberação. | Exame; o custo varia de acordo com a região |
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]
+

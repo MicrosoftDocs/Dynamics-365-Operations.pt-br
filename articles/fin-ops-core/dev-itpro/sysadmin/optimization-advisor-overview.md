@@ -15,12 +15,12 @@ ms.search.industry: ''
 ms.author: sericks
 ms.search.validFrom: 2017-12-01
 ms.dyn365.ops.version: 7.2999999999999998
-ms.openlocfilehash: 1dd66e27098b4125b03c4fe6b52825afe2ff34cf
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: fb71453c37572c4956d98d4309d3526a7fbc1124
+ms.sourcegitcommit: 3289478a05040910f356baf1995ce0523d347368
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8865851"
+ms.lasthandoff: 07/01/2022
+ms.locfileid: "9109030"
 ---
 # <a name="optimization-advisor-overview"></a>Visão geral do Assistente de otimização
 
@@ -28,7 +28,7 @@ ms.locfileid: "8865851"
 
 Este artigo descreve como você pode usar o Assistente de otimização para ajudar a garantir a configuração ideal dos aplicativos de finanças e operações.
 
-## <a name="overview"></a>Visão Geral
+## <a name="overview"></a>Visão geral
 
 A definição e a configuração incorretas de um módulo podem afetar negativamente a disponibilidade de recursos de aplicativos, o desempenho do sistema e a operação suave dos processos de negócios. A qualidade dos dados corporativos (por exemplo, exatidão, integridade e limpeza de dados) também afeta o desempenho do sistema e recursos de tomada de decisão da organização, produtividade etc.
 
@@ -44,7 +44,7 @@ As políticas de segurança padrão se aplicam às oportunidades de otimização
 
 Quando você toma a ação em algumas oportunidades de otimização, o sistema calcula o impacto de oportunidade em termos de redução no tempo de execução de processos comerciais. Infelizmente, este recurso não está disponível para todas as oportunidades de otimização.
 
-Para saber mais sobre o Assistente de otimização, assista ao vídeo curto [Assistente de otimização no Dynamics 365 for Finance and Operations](https://www.youtube.com/watch?v=MRsAzgFCUSQ).
+Para saber mais sobre o Assistente de otimização, assista ao vídeo curto [Assistente de otimização no Dynamics 365 Finance](https://www.youtube.com/watch?v=MRsAzgFCUSQ).
 
 ## <a name="optimization-rules"></a>Regras de otimização
 
@@ -90,7 +90,7 @@ Para desativar a avaliação de regras específicas, selecione a oportunidade qu
 
 [Criar regras para o Supervisor de otimização](./create-rules-optimization-advisor.md)
 
-[Assistente de otimização no Dynamics 365 for Finance and Operations (Vídeo)](https://www.youtube.com/watch?v=MRsAzgFCUSQ)
+[Assistente de otimização no Dynamics 365 Finance (vídeo)](https://www.youtube.com/watch?v=MRsAzgFCUSQ)
 
 
 [!INCLUDE[footer-include](../../../includes/footer-banner.md)]

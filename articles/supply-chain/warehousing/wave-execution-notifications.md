@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: mirzaab
 ms.search.validFrom: 2021-04-01
 ms.dyn365.ops.version: 10.0.0
-ms.openlocfilehash: 6f8f43bcdaae9a14350c66039d204caf38d33768
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: 5c8fa259e51f024d19c1f2f7e84ed7edd0ddb7e1
+ms.sourcegitcommit: 28a726b3b0726ecac7620b5736f5457bc75a5f84
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8906932"
+ms.lasthandoff: 06/29/2022
+ms.locfileid: "9069018"
 ---
 # <a name="wave-execution-notifications"></a>Notificações de execução do ciclo
 
@@ -28,7 +28,7 @@ O recurso *Notificações de execução do ciclo* usa eventos comerciais e a Cen
 
 O botão **Mostrar mensagens** (símbolo de sino) no lado direito da barra de navegação indica quando uma mensagem da Central de ações está disponível para o usuário atual. O usuário pode selecionar o botão **Mostrar mensagens** para abrir a Central de ações e revisar as mensagens.
 
-Os eventos comerciais ocorrem quando processos comerciais são executados. Os processos comerciais são compostos de tarefas. Durante um processo comercial, os usuários que participam dele executam ações comerciais para concluir essas tarefas. Os eventos de negócios fornecem um mecanismo que permite que os sistemas externos recebam notificações de aplicativos de Finanças e Operações. Dessa forma, os sistemas podem executar ações comerciais em resposta aos eventos comerciais. Para obter mais informações, consulte [Visão geral de alertas comerciais](../../fin-ops-core/dev-itpro/business-events/home-page.md).
+Os eventos comerciais ocorrem quando processos comerciais são executados. Os processos comerciais são compostos de tarefas. Durante um processo comercial, os usuários que participam dele executam ações comerciais para concluir essas tarefas. Os eventos de negócios fornecem um mecanismo para os sistemas externos receberem notificações de aplicativos de finanças e operações. Dessa forma, os sistemas podem executar ações comerciais em resposta aos eventos comerciais. Para obter mais informações, consulte [Visão geral de alertas comerciais](../../fin-ops-core/dev-itpro/business-events/home-page.md).
 
 ## <a name="turn-the-wave-execution-notifications-feature-on-or-off"></a>Ativar ou desativar o recurso Notificações de execução do ciclo
 
@@ -125,3 +125,4 @@ Dependendo da configuração dos eventos comerciais, você receberá, eventualme
 > Abrir detalhes do ciclo
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]
+

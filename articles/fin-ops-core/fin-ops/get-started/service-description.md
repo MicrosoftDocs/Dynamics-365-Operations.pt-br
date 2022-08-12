@@ -9,18 +9,18 @@ ms.reviewer: sericks
 ms.search.region: Global
 ms.author: whigginb
 ms.search.validFrom: 2021-09-03
-ms.openlocfilehash: 756895ab0ccdbd2bc42f0a750ad9895ee7b284a4
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: 9e5160cc3961703475ffb8dc4a4daf2ae872aaba
+ms.sourcegitcommit: 873d66c03a51ecb7082e269f30f5f980ccd9307f
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8847150"
+ms.lasthandoff: 07/06/2022
+ms.locfileid: "9124915"
 ---
 # <a name="service-description-for-finance-and-operations-apps"></a>Descrição de serviço para aplicativos de finanças e operações
 
 [!include[banner](../includes/banner.md)]
 
-Os aplicativos de finanças e operações são ofertas de SaaS (software como serviço) de ERP (planejamento de recursos empresariais) criados no [Microsoft Azure](https://azure.microsoft.com/overview/what-is-azure/) e para ele. O serviço Finanças e operações fornece às empresas a funcionalidade de ERP que oferece suporte a suas necessidades exclusivas, ajudando-as a se ajustar aos ambientes comerciais em constantemente mudança, sem exigir que elas gerenciem a infraestrutura. Os aplicativos de finanças e operações podem incluir uma ou mais das seguintes áreas de solução:
+Os aplicativos de finanças e operações são ofertas de SaaS (software como serviço) de ERP (planejamento de recursos empresariais) criados no e para o [Microsoft Azure](https://azure.microsoft.com/overview/what-is-azure/). O serviço do aplicativo de finanças e operações fornece às empresas a funcionalidade de ERP que oferece suporte a suas necessidades exclusivas, ajudando-as a se ajustar aos ambientes comerciais em constantemente mudança, sem exigir que elas gerenciem a infraestrutura. Os aplicativos de finanças e operações podem incluir uma ou mais das seguintes áreas de solução:
 
 - [Dynamics 365 Finance](/dynamics365/finance/)
 - [Dynamics 365 Human Resources](/dynamics365/human-resources/)
@@ -32,7 +32,7 @@ Juntamente com [business intelligence](/power-bi/fundamentals/power-bi-service-o
 
 - [Experiência de personalização interna](personalize-user-experience.md)
 - Ferramentas do [Microsoft Power Platform](../../dev-itpro/power-platform/overview.md)
-- [Kit de desenvolvimento do software (SDK) de Finanças e Operações](../../dev-itpro/dev-tools/developer-home-page.md) e [automação de compilação do Azure DevOps](../../dev-itpro/dev-tools/developer-home-page.md#build-automation-using-azure) [baseados no Visual Studio](https://visualstudio.microsoft.com)
+- [Kit de desenvolvimento de software (SDK) do aplicativo de finanças e operações](../../dev-itpro/dev-tools/developer-home-page.md) e [automação de compilação do Azure DevOps](../../dev-itpro/dev-tools/developer-home-page.md#build-automation-using-azure) baseado no [Visual Studio](https://visualstudio.microsoft.com)
 - Soluções de ISV (fornecedor independente de software) do [AppSource](https://appsource.microsoft.com/partners)
 
 Com base nas necessidades, os clientes escolhem a abordagem da solução. Eles funcionam com seu parceiro de implementação para definir, desenvolver e testar sua solução usando as ferramentas e práticas recomendadas fornecidas nos [LCS (Microsoft Dynamics Lifecycle Services)](../../dev-itpro/lifecycle-services/lcs.md). Há quatro cenários comuns:
@@ -61,7 +61,7 @@ Os clientes trabalham com seus parceiros e o [Microsoft FastTrack](/dynamics365/
 
 ### <a name="microsoft-responsibilities"></a>Responsabilidades da Microsoft
 
-A Microsoft gerencia o serviço Finanças e operações implantando, monitorando ativamente e fazendo a manutenção dos ambientes de produção e de área restrita do cliente na assinatura do Microsoft SaaS. Esse gerenciamento inclui a alocação da infraestrutura de sistema necessária para executar o serviço e se comunicar proativamente com os clientes sobre a saúde do serviço. As responsabilidades incluem:
+A Microsoft gerencia o serviço de finanças e operações implantando, monitorando ativamente e fazendo a manutenção dos ambientes de produção e de área restrita do cliente na assinatura do Microsoft SaaS. Esse gerenciamento inclui a alocação da infraestrutura de sistema necessária para executar o serviço e se comunicar proativamente com os clientes sobre a saúde do serviço. As responsabilidades incluem:
 
 **Gerenciamento de infraestrutura**
 - Segurança e isolamento
@@ -93,7 +93,7 @@ A Microsoft configura ambientes de produção do cliente que são dimensionados 
 
 Para garantir que uma implementação seja configurada para alto desempenho, os clientes deverão executar estas tarefas:
 
-- Forneça informações de uso precisas sobre a implementação de Finanças e Operações no [Avaliador de assinatura do LCS](../../dev-itpro/lifecycle-services/subscription-estimator.md).
+- Forneça informações de uso precisas sobre a implementação do aplicativo de finanças e operações no [Avaliador de assinatura do LCS](../../dev-itpro/lifecycle-services/subscription-estimator.md).
 - Compile e teste extensões de desempenho e escala.
 - Teste adequadamente as configurações de dados para desempenho.
 - Garanta a escalabilidade fazendo [testes de desempenho](https://community.dynamics.com/365/b/techtalks/posts/performance-testing-approach-april-30-2018) antes da ativação.
@@ -116,13 +116,13 @@ Os aplicativos de finanças e operações são fornecidos a partir de várias re
 
 ### <a name="countryregion-specific-considerations"></a>Considerações específicas do país/região
 
-- Os clientes em organizações industriais ou comerciais reguladas que fazem negócios com entidades na França que exijam dados de residência local devem examinar [Finanças e Operações na França](../../dev-itpro/deployment/france-local-deployment.md).
-- Os clientes com operações na China devem examinar o [guia estratégico do Azure China](/azure/china/) e [Finanças e Operações operado pela 21Vianet na China](../../dev-itpro/deployment/china-local-deployment.md).
+- Os clientes em organizações industriais ou comerciais reguladas que fazem negócios com entidades na França que exijam dados de residência local devem examinar [aplicativo de finanças e operações na França](../../dev-itpro/deployment/france-local-deployment.md).
+- Os clientes com operações na China devem examinar o [guia estratégico do Azure China](/azure/china/) e [aplicativo de finanças e operações operado pela 21Vianet na China](../../dev-itpro/deployment/china-local-deployment.md).
 - Os clientes com operações na Rússia devem revisar a [Legislação de localização de dados pessoais na Rússia](/business-applications-release-notes/october18/dynamics365-finance-operations/russian-regulations-on-prem#when-will-the-cloud-deployment-option-of-dynamics-365-for-finance-and-operations-be-generally-available-for-russia).
 
 ### <a name="general-data-protection-regulation-gdpr"></a>Regulamento Geral sobre a Proteção de Dados (GDPR)
 
-Para os aplicativos de finanças e operações, a Microsoft atua como um processador. Como um processador de dados, o Finanças e Operações fornece processos e recursos que ajudam os clientes a cumprir as obrigações do RGPD como um controlador de dados. Para obter mais informações, consulte [Visão geral da GDPR](../../dev-itpro/gdpr/gdpr-guide.md).
+Para os aplicativos de finanças e operações, a Microsoft atua como um processador. Como um processador de dados, o aplicativo de finanças e operações fornece processos e recursos que ajudam os clientes a cumprir as obrigações do RGPD como um controlador de dados. Para obter mais informações, consulte [Visão geral da GDPR](../../dev-itpro/gdpr/gdpr-guide.md).
 
 ## <a name="environment-and-data-management"></a>Ambiente e gerenciamento de dados
 
@@ -182,7 +182,7 @@ O LCS fornece [provisionamento de autoatendimento](../../dev-itpro/deployment/in
 
 ## <a name="data-backup-and-retention"></a>Backup e retenção de dados
 
-Os bancos de dados para ambientes de Finanças e Operações na assinatura do SaaS são protegidos por backups automáticos. Para ambientes de produção, os backups automáticos serão mantidos por 28 dias, a menos que a Microsoft faça uma reversão. Para os ambientes de área restrita (Camada 2+), eles serão mantidos por sete dias. Uma reversão do ambiente de produção poderá ser realizada se ocorrer uma falha durante uma atualização de manutenção planejada.
+Os bancos de dados para ambientes de finanças e operações na assinatura do SaaS são protegidos por backups automáticos. Para ambientes de produção, os backups automáticos serão mantidos por 28 dias, a menos que a Microsoft faça uma reversão. Para os ambientes de área restrita (Camada 2+), eles serão mantidos por sete dias. Uma reversão do ambiente de produção poderá ser realizada se ocorrer uma falha durante uma atualização de manutenção planejada.
 
 Para obter mais informações sobre backups automáticos, consulte [Backups automatizados - Banco de Dados SQL do Azure e Instância Gerenciada do SQL](/azure/azure-sql/database/automated-backups-overview?tabs=single-database).
 
@@ -255,7 +255,7 @@ Para obter mais informações, revise os seguintes tópicos:
 
 ## <a name="security-and-administrative-access"></a>Segurança e acesso administrativo
 
-O acesso administrativo a um ambiente de produção de Finanças e Operações é estritamente controlado e registrado. Os dados do cliente são manuseados de acordo com os [Termos do Microsoft Online Services](https://www.microsoft.com/licensing/terms/productoffering). 
+O acesso administrativo a um ambiente de produção do aplicativo de finanças e operações é estritamente controlado e registrado. Os dados do cliente são manuseados de acordo com os [Termos do Microsoft Online Services](https://www.microsoft.com/licensing/terms/productoffering). 
 
 ### <a name="customer-administrative-access"></a>Acesso administrativo do cliente
 
@@ -264,7 +264,7 @@ O administrador de locatários do cliente pode acessar instâncias de produção
 | Tipo de ambiente | Finalidade | Nível de acesso do cliente |
 |---|---|---|
 | **Não produção**<br>Área restrita de Camada 1 | Um ambiente de não produção que os clientes implantam para fins de desenvolvimento, demonstração ou treinamento. | Uma área restrita de Camada 1 (também conhecida como um ambiente hospedado em nuvem) é uma VM gerenciada pelo cliente que é implantada na assinatura do Azure do cliente do LCS. Como é uma VM na assinatura do Azure do cliente, o cliente tem acesso administrativo total ao ambiente por meio da Área de Trabalho Remota. |
-| **Não produção**<br>Área restrita de Camada 2 (ou superior) | Um ambiente de não produção que os clientes implantam para testes de aceitação de usuários, testes de integração, treinamento, preparo ou qualquer outro cenário de pré-produção. | As áreas restritas de Camada 2 e superior são implantadas na assinatura do SaaS de Finanças e Operações. O acesso aos bancos de dados SQL do Azure associados ao ambiente de não produção é concedido por meio do [acesso just-in-time](../../dev-itpro/database/database-just-in-time-jit-access.md). O acesso à Área de Trabalho Remota não está disponível. |
+| **Não produção**<br>Área restrita de Camada 2 (ou superior) | Um ambiente de não produção que os clientes implantam para testes de aceitação de usuários, testes de integração, treinamento, preparo ou qualquer outro cenário de pré-produção. | As áreas restritas de Camada 2 e superior são implantadas na assinatura do SaaS do aplicativo de finanças e operações. O acesso aos bancos de dados SQL do Azure associados ao ambiente de não produção é concedido por meio do [acesso just-in-time](../../dev-itpro/database/database-just-in-time-jit-access.md). O acesso à Área de Trabalho Remota não está disponível. |
 | **Produção** | Um ambiente de produção é implantado quando o projeto está [pronto para a ativação inicial](../imp-lifecycle/environment-planning.md#production-system-readiness). | Os ambientes de produção são implantados na assinatura do SaaS. Todo o acesso é feito por meio do navegador, de pontos de extremidade de serviço ou do LCS. |
 
 ### <a name="microsoft-administrative-access"></a>Acesso administrativo da Microsoft
@@ -307,17 +307,17 @@ A Microsoft fornece continuidade de negócios e recuperação de desastres para 
 
 Se a recuperação de desastre for usada para recuperar a instância de produção do cliente, a Microsoft e o cliente atenderão às responsabilidades de [gerenciamento de incidentes](service-description.md#incident-management).
 
-Os planos e procedimentos de Recuperação de Desastre da Microsoft são examinados regularmente por meio de auditorias de SOC (Controles de Sistema e Organização). Essas auditorias de conformidade atestam o processo técnico e de procedimentos do DR da Microsoft, incluindo os aplicativos de Finanças e Operações do Dynamics 365. Os relatórios de auditoria de [conformidade com SOC](/compliance/regulatory/offering-soc-2) e todos os outros relatórios de conformidade estão disponíveis em [Ofertas de Conformidade da Central de Confiabilidade da Microsoft](/compliance/regulatory/offering-home).
+Os planos e procedimentos de Recuperação de Desastre da Microsoft são examinados regularmente por meio de auditorias de SOC (Controles de Sistema e Organização). Essas auditorias de conformidade atestam o processo técnico e de procedimentos do DR da Microsoft, incluindo os aplicativos de finanças e operações do Dynamics 365. Os relatórios de auditoria de [conformidade com SOC](/compliance/regulatory/offering-soc-2) e todos os outros relatórios de conformidade estão disponíveis em [Ofertas de Conformidade da Central de Confiabilidade da Microsoft](/compliance/regulatory/offering-home).
 
-## <a name="finance-and-operations-support-offerings"></a>Ofertas de suporte de Finanças e Operações
+## <a name="finance-and-operations-support-offerings"></a>Ofertas de suporte do aplicativo de finanças e operações
 
-O suporte técnico está disponível em mercados onde os serviços de Finanças e Operações são oferecidos. [Experiências de suporte](../../dev-itpro/lifecycle-services/lcs-support.md) são fornecidas no LCS ou nos aplicativos de finanças e operações Veja alguns exemplos:
+O suporte técnico está disponível em mercados onde os serviços de finanças e operações são oferecidos. [Experiências de suporte](../../dev-itpro/lifecycle-services/lcs-support.md) são fornecidas no LCS ou nos aplicativos de finanças e operações. Veja alguns exemplos:
 
 - [Pesquisa de problemas](../../dev-itpro/lifecycle-services/issue-search-lcs.md) no LCS
 - [Suporte técnico integrado](../../dev-itpro/lifecycle-services/support-experience.md) nos aplicativos de finanças e operações
 - [Suporte habilitado para a nuvem](../../dev-itpro/lifecycle-services/cloud-powered-support-lcs.md) no LCS
 
-A Microsoft oferece aos clientes de Finanças e Operações três planos de suporte: Premier, Professional Direct e o suporte incluído na assinatura. O nível de suporte difere por plano. A tabela a seguir mostra uma comparação entre os três planos.
+A Microsoft oferece aos clientes de finanças e operações três planos de suporte: Premier, Professional Direct e o suporte incluído na assinatura. O nível de suporte difere por plano. A tabela a seguir mostra uma comparação entre os três planos.
 
 | Recurso de suporte | Premier | Professional Direct | Assinatura |
 |---|---|---|---|
@@ -340,7 +340,7 @@ A Microsoft está comprometida com uma taxa de disponibilidade de 99,9% por mês
 
 ## <a name="important-resources"></a>Recursos importantes
 
-- **[Central de Confiabilidade](https://www.microsoft.com/trust-center)** – obtenha informações sobre onde seus dados de Finanças e Operações estão armazenados, além de informações adicionais sobre privacidade, conformidade e procedimentos de segurança.
+- **[Central de Confiabilidade](https://www.microsoft.com/trust-center)** – obtenha informações sobre onde seus dados do aplicativo de finanças e operações estão armazenados, além de informações adicionais sobre privacidade, conformidade e procedimentos de segurança.
 - **[Termos de licenciamento e documentação](https://www.microsoftvolumelicensing.com/)** – acesse rapidamente os termos de licenciamento, as condições e as informações complementares relevantes ao uso de produtos e serviços licenciados por meio de programas de licenciamento por volume da Microsoft.
 - **[Condições de licenciamento](https://www.microsoft.com/licensing/product-licensing/)** – os recursos nesta página definem os termos e as condições para o software e os produtos de serviços online que você compra por meio dos programas de licenciamento comercial da Microsoft.
 - **[Política de Ciclo de Vida da Microsoft](/lifecycle/)** – esta página fornece diretrizes consistentes e previsíveis para a disponibilidade de suporte durante toda a vida de um produto.
@@ -377,11 +377,11 @@ Qualquer período no qual os usuários não podem entrar ou acessar seu locatár
 
 ### <a name="implementation-partner"></a>Parceiro de implementação
 
-O parceiro que o cliente seleciona para personalizar, configurar, implementar e gerenciar suas soluções de Finanças e Operações.
+O parceiro que o cliente seleciona para personalizar, configurar, implementar e gerenciar suas soluções do aplicativo de finanças e operações.
 
 ### <a name="incident"></a>Incidente
 
-Um problema que os clientes encontram enquanto usam o serviço de Finanças e Operações e para o qual enviam um tíquete via LCs.
+Um problema que os clientes encontram enquanto usam o serviço do aplicativo de finanças e operações e para o qual enviam um tíquete via LCs.
 
 ### <a name="microsoft-customer-support-services-css"></a>CSS (Serviços de Atendimento ao Cliente) da Microsoft
 
@@ -403,7 +403,7 @@ Para obter mais informações sobre as Camadas 2 a 5, consulte [Seleção do amb
 
 ### <a name="production-instance"></a>Instância de produção
 
-Um ambiente de Finanças e Operações usado pelo cliente para gerenciar as transações diárias e os processos de negócios "ativos".
+Um ambiente do aplicativo de finanças e operações usado pelo cliente para gerenciar as transações diárias e os processos de negócios "ativos".
 
 ### <a name="sandbox-environment"></a>Ambiente de área restrita
 
@@ -419,7 +419,7 @@ O SLA se aplica aos serviços online da Microsoft. Para obter mais informações
 
 ### <a name="service-update"></a>Atualização de serviço
 
-Os ambientes de Finanças e Operações de serviços Microsoft em uma base consistente por meio de atualizações de serviço. Os clientes definem seu próprio calendário de atualização de serviço, com base nas necessidades comerciais. Para obter informações, consulte [Atualizações do serviço One Version](../../dev-itpro/lifecycle-services/oneversion-overview.md).
+Os ambientes do aplicativo de finanças e operações de serviços Microsoft em uma base consistente por meio de atualizações de serviço. Os clientes definem seu próprio calendário de atualização de serviço, com base nas necessidades comerciais. Para obter informações, consulte [Atualizações do serviço One Version](../../dev-itpro/lifecycle-services/oneversion-overview.md).
 
 ### <a name="success-by-design"></a>[Success by Design](/dynamics365/fasttrack/success-by-design-overview)
 
@@ -427,4 +427,5 @@ A estrutura que orienta sistematicamente uma implementação por meio de uma sé
 
 ### <a name="user"></a>Usuário
 
-Uma única pessoa que use ambientes de Finanças e Operações e que esteja associada ao locatário de um cliente.
+Uma única pessoa que use ambientes do aplicativo de finanças e operações e que esteja associada ao locatário de um cliente.
+

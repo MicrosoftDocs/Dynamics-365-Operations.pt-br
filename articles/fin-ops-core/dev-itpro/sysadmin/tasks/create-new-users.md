@@ -13,26 +13,26 @@ ms.search.region: Global
 ms.author: peakerbl
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 480d181e8abb3af5a7406efd13c8bd9961a7490a
-ms.sourcegitcommit: e40a9fac5bac9f57a6dcfe73a1f21856eab9b6a9
+ms.openlocfilehash: 00da7c69ff18abd02ca0cd7984e9b2de5e453a0c
+ms.sourcegitcommit: 12b3dbee905f8b2eb2e6c383c822a0fc9fccf063
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/02/2021
-ms.locfileid: "7595377"
+ms.lasthandoff: 07/01/2022
+ms.locfileid: "9103315"
 ---
 # <a name="create-new-users"></a>Criar usuários
 
 [!include [banner](../../includes/banner.md)]
 
-Para poder acessar os aplicativos do Finance and Operations, você deve ser adicionado à página **Usuários** (**Administração do sistema \> Usuários \> Usuários**). Os usuários incluem funcionários internos da sua organização ou clientes e fornecedores externos. Os usuários podem ser importados ou adicionados manualmente. Todos os usuários devem estar licenciados corretamente para uso em conformidade.
+Para poder acessar os aplicativos de finanças e operações, você deve ser adicionado à página **Usuários** (**Administração do sistema \> Usuários \> Usuários**). Os usuários incluem funcionários internos da sua organização ou clientes e fornecedores externos. Os usuários podem ser importados ou adicionados manualmente. Todos os usuários devem estar licenciados corretamente para uso em conformidade.
 
-Para obter informações sobre como comprar e obter licença para aplicativos do Finance and Operations, consulte o [Guia de licenciamento do Microsoft Dynamics 365](https://go.microsoft.com/fwlink/?LinkId=866544&amp;clcid=0x409).
+Para obter informações sobre como comprar e obter licença para aplicativos de finanças e operações, consulte o [Guia de licenciamento do Microsoft Dynamics 365](https://go.microsoft.com/fwlink/?LinkId=866544&amp;clcid=0x409).
 
 ## <a name="assign-a-license-to-a-user"></a>Atribuir uma licença a um usuário
 Os administradores do sistema podem [atribuir licenças a usuários](/office365/admin/subscriptions-and-billing/assign-licenses-to-users) no [Centro de administração do Microsoft 365](/office365/admin/admin-overview/about-the-admin-center).
 
 ## <a name="add-an-external-user-in-azure-ad-and-assign-a-license"></a>Adicionar um usuário externo no Azure AD e atribuir uma licença 
-Os usuários externos devem ser representados no seu diretório de locatários (Azure Active Directory (Azure AD)) para poderem receber licenças. Esses usuários externos devem ser adicionados ao locatário no Azure AD como usuários convidados para depois poderem receber as licenças apropriadas. Um requisito para aplicativos do Finance and Operations é que a empresa do usuário convidado use o Azure AD. Para obter mais informações, consulte [Adicionar usuários de colaboração B2B do Azure Active Directory no portal do Azure](/azure/active-directory/b2b/add-users-administrator).
+Os usuários externos devem ser representados no seu diretório de locatários (Azure Active Directory (Azure AD)) para poderem receber licenças. Esses usuários externos devem ser adicionados ao locatário no Azure AD como usuários convidados para depois poderem receber as licenças apropriadas. Um requisito para aplicativos de finanças e operações é que a empresa do usuário convidado use o Azure AD. Para obter mais informações, consulte [Adicionar usuários de colaboração B2B do Azure Active Directory no portal do Azure](/azure/active-directory/b2b/add-users-administrator).
 
 ## <a name="import-new-users-from-azure-ad"></a>Importar novos usuários do Azure AD 
 1. Acesse **Administração do sistema** \> **Usuários** \> **Usuários**.

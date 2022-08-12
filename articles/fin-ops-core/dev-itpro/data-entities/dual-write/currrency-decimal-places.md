@@ -9,12 +9,12 @@ ms.reviewer: tfehr
 ms.search.region: global
 ms.author: ramasri
 ms.search.validFrom: 2020-04-06
-ms.openlocfilehash: 809906c3926b200e7beac84e780314aec1f8c2ca
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: 85b3a45c054144e414aebb28b3d8080ab295f52f
+ms.sourcegitcommit: 6781fc47606b266873385b901c302819ab211b82
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8855577"
+ms.lasthandoff: 07/02/2022
+ms.locfileid: "9112264"
 ---
 # <a name="currency-data-type-migration-for-dual-write"></a>Migração de tipo de dados de moeda para gravação dupla
 
@@ -29,7 +29,7 @@ O processo de alterar o número de casas decimais tem duas etapas:
 1. Solicite a migração da Microsoft.
 2. Altere o número de casas decimais no Dataverse.
 
-O aplicativo de Finanças e Operações e o Dataverse devem oferecer suporte ao mesmo número de casas decimais e, valores de moeda. Caso contrário, pode haver perda de dados quando essas informações forem sincronizadas entre aplicativos. O processo de migração reconfigura a maneira como os valores de moeda e da taxa de câmbio são armazenados, mas não altera nenhum dado. Após a conclusão da migração, é possível aumentar o número de casas decimais para códigos de moeda e preços, e os dados que os usuários inserem e visualizam poderão ter maior precisão decimal.
+O aplicativo de finanças e operações e o Dataverse devem dar suporte ao mesmo número de casas decimais em valores de moeda. Caso contrário, pode haver perda de dados quando essas informações forem sincronizadas entre aplicativos. O processo de migração reconfigura a maneira como os valores de moeda e da taxa de câmbio são armazenados, mas não altera nenhum dado. Após a conclusão da migração, é possível aumentar o número de casas decimais para códigos de moeda e preços, e os dados que os usuários inserem e visualizam poderão ter maior precisão decimal.
 
 A migração é opcional. Se você puder se beneficiar com o suporte para mais casas decimais, recomendamos que considere a migração. As organizações que não exigem valores com mais de quatro casas decimais não precisam migrar.
 
@@ -37,7 +37,7 @@ A migração é opcional. Se você puder se beneficiar com o suporte para mais c
 
 O armazenamento para colunas de moeda existentes no Dataverse não pode oferecer suporte para mais de quatro casas decimais. Portanto, durante o processo de migração, os valores de moeda são copiados para novas colunas internas no banco de dados. Esse processo ocorre continuamente até que todos os dados tenham sido migrados. Internamente, no final da migração, os novos tipos de armazenamento substituem os tipos de armazenamento antigos, mas os valores dos dados permanecem inalterados. As colunas de moeda podem oferecer suporte para até 10 casas decimais. Durante o processo de migração, o Dataverse pode continuar sendo usado sem interrupção.
 
-Ao mesmo tempo, as taxas de câmbio são modificadas para que ofereçam suporte para até 12 casas decimais em vez do limite atual de 10. Essa alteração é necessária para que o número de casas decimais seja o mesmo no aplicativo de Finanças e Operações e no Dataverse.
+Ao mesmo tempo, as taxas de câmbio são modificadas para que ofereçam suporte para até 12 casas decimais em vez do limite atual de 10. Essa alteração é necessária para que o número de casas decimais seja o mesmo no aplicativo de finanças e operações e no Dataverse.
 
 A migração não altera os dados. Depois que as colunas de moeda e taxa de câmbio forem convertidos, os administradores podem configurar o sistema para usar até 10 casas decimais para colunas de moeda ao especificar o número de casas decimais para cada moeda da transação e para preços.
 
@@ -100,3 +100,4 @@ Para obter o comportamento esperado da precisão decimal da moeda padrão em cen
 |          | Precisão decimal máxima visível no banco de dados e na interface do usuário de resultados da consulta de BD | 10 dígitos. No entanto, somente 4 são significativos com todos os zeros além dos 4 dígitos decimais. Isso permite uma migração mais simples e rápida da organização, se necessário. | 10 dígitos      | 10 dígitos     |
 
 [!INCLUDE[footer-include](../../../../includes/footer-banner.md)]
+

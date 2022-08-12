@@ -9,12 +9,12 @@ ms.reviewer: tfehr
 ms.search.region: global
 ms.author: ramasri
 ms.search.validFrom: 2020-01-26
-ms.openlocfilehash: 8e5c11e535bd61e9955a4abf1491e88991ee40f1
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: 91cc0e59405bc085e09f01f05ef02e4a0260481e
+ms.sourcegitcommit: 6781fc47606b266873385b901c302819ab211b82
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8894256"
+ms.lasthandoff: 07/02/2022
+ms.locfileid: "9111881"
 ---
 # <a name="migrate-prospect-to-cash-data-from-data-integrator-to-dual-write"></a>Migrar dados de Cliente potencial ao pagamento à vista do Integrador de Dados para gravação dupla
 
@@ -32,7 +32,7 @@ A solução Cliente potencial ao pagamento à vista disponível para o Integrado
 
 Para migrar os dados de Cliente potencial ao pagamento à vista do Integrador de Dados para gravação dupla, siga estas etapas.
 
-1. Execute os trabalhos do Integrador de Dados de Cliente potencial ao pagamento à vista para executar uma sincronização completa final. Dessa forma, você garantirá que ambos os sistemas (aplicativos de Finanças e Operações e engajamento do cliente) têm todos os dados.
+1. Execute os trabalhos do Integrador de Dados de Cliente potencial ao pagamento à vista para executar uma sincronização completa final. Dessa forma, você garantirá que ambos os sistemas (aplicativos de finanças e operações e de engajamento do cliente) têm todos os dados.
 2. Para ajudar a impedir possíveis perdas de dados, exporte o Cliente potencial ao pagamento à vista do Microsoft Dynamics 365 Sales para um arquivo Excel ou um arquivo de valores separados por vírgula (CSV). Exportar dados das seguintes entidades:
 
     - [Conta](#account-table)
@@ -47,25 +47,25 @@ Para migrar os dados de Cliente potencial ao pagamento à vista do Integrador de
 
 3. Desinstale a solução Cliente potencial ao pagamento à vista do ambiente do Sales. Esta etapa remove as colunas e os dados correspondentes introduzidos pela solução Cliente potencial ao pagamento à vista.
 4. Instale a solução de gravação dupla.
-5. Crie uma conexão de gravação dupla entre o aplicativo de Finanças e Operações e o aplicativo de engajamento do cliente para uma ou mais entidades legais.
+5. Crie uma conexão de gravação dupla entre o aplicativo de finanças e operações e o aplicativo de engajamento do cliente para uma ou mais entidades legais.
 6. Habilite mapas de tabela de gravação dupla e execute a sincronização inicial dos dados de referência necessários. (Para obter mais informações, consulte [Considerações para sincronização inicial](initial-sync-guidance.md).) Os exemplos de dados necessários incluem grupos de clientes, condições e planos de pagamento. Não habilite mapas de gravação dupla em tabelas que exigem inicialização, como as tabelas de conta, cotação, linha de cotação, ordem e de linha de ordem.
 7. No aplicativo Customer Engagement, acesse **Configurações Avançadas \> Configurações do Sistema \> Gerenciamento de Dados \> Regras de detecção de duplicidades** e desabilite todas as regras.
 8. Inicialize as tabelas listadas na etapa 2. Para obter instruções, consulte as outras seções deste artigo.
-9. Abra o aplicativo de Finanças e Operações e habilite os mapas de tabela, como os mapas de tabela de contas, cotação, linha de cotação e linha de ordem. Depois, execute a sincronização inicial. (Para obter mais informações, consulte [Considerações para sincronização inicial](initial-sync-guidance.md).) Este processo sincronizará todas as informações adicionais do aplicativo de Finanças e Operações, como status de processamento, endereços de envio e cobrança, locais e depósitos.
+9. Abra o aplicativo de finanças e operações e habilite os mapas de tabela, como os mapas de tabela de contas, cotação, linha de cotação e linha de ordem. Depois, execute a sincronização inicial. (Para obter mais informações, consulte [Considerações para sincronização inicial](initial-sync-guidance.md).) Este processo sincronizará todas as informações adicionais do aplicativo de finanças e operações, como status de processamento, endereços de envio e cobrança, locais e depósitos.
 
 ## <a name="account-table"></a>Tabela de contas
 
 1. Na coluna **Empresa**, insira o nome da empresa, como **USMF**.
 2. Na coluna **Tipo de Relacionamento**, insira **Cliente** como valor estático. Não convém classificar cada registro de conta como cliente na lógica comercial.
-3. Na coluna **ID do Grupo de Clientes**, insira o número do grupo de clientes do aplicativo de Finanças e Operações. O valor padrão da solução Cliente potencial ao pagamento à vista é **10**.
-4. Se você estiver usando a solução Cliente potencial ao pagamento à vista sem qualquer personalização de **Número da Conta**, insira um valor em **Número da Conta** na coluna **Número do Participante**. Se houver personalizações e você não souber o número do participante, extraia essas informações do aplicativo de Finanças e Operações.
+3. Na coluna **ID do Grupo de Clientes**, insira o número do grupo de clientes do aplicativo de finanças e operações. O valor padrão da solução Cliente potencial ao pagamento à vista é **10**.
+4. Se você estiver usando a solução Cliente potencial ao pagamento à vista sem qualquer personalização de **Número da Conta**, insira um valor em **Número da Conta** na coluna **Número do Participante**. Se houver personalizações e você não souber o número do participante, extraia essas informações do aplicativo de finanças e operações.
 
 ## <a name="contact-table"></a>Tabela de contatos
 
 1. Na coluna **Empresa**, insira o nome da empresa, como **USMF**.
 2. Defina as seguintes colunas com base no valor **IsActiveCustomer** no arquivo CSV:
 
-    - Se **IsActiveCustomer** estiver definido como **Sim** no arquivo CSV, defina a coluna **Comercializável** como **Sim**. Na coluna **ID do Grupo de Clientes**, insira o número do grupo de clientes do aplicativo de Finanças e Operações. O valor padrão da solução Cliente potencial ao pagamento à vista é **10**.
+    - Se **IsActiveCustomer** estiver definido como **Sim** no arquivo CSV, defina a coluna **Comercializável** como **Sim**. Na coluna **ID do Grupo de Clientes**, insira o número do grupo de clientes do aplicativo de finanças e operações. O valor padrão da solução Cliente potencial ao pagamento à vista é **10**.
     - Se **IsActiveCustomer** estiver definido como **Não** no arquivo CSV, defina a coluna **Comercializável** como **Não** e defina a coluna **Contato Para** como **Cliente**.
 
 3. Se estiver usando a solução Cliente potencial ao pagamento à vista sem qualquer personalização do **Número de Contato**, defina as seguintes colunas:
@@ -76,7 +76,7 @@ Para migrar os dados de Cliente potencial ao pagamento à vista do Integrador de
 
 ## <a name="invoice-table"></a>Tabela de faturas
 
-Como os dados da tabela **Fatura** são projetados para fluir do aplicativo de Finanças e Operações para o aplicativo de engajamento do cliente, a inicialização não é necessária. Execute a sincronização inicial para migrar todos os dados necessários do aplicativo de Finanças e Operações para o aplicativo de engajamento do cliente. Para obter mais informações, consulte [Considerações para sincronização inicial](initial-sync-guidance.md).
+Como os dados da tabela **Fatura** são projetados para fluir do aplicativo de finanças e operações para o aplicativo de engajamento do cliente, a inicialização não é necessária. Execute a sincronização inicial para migrar todos os dados necessários do aplicativo de finanças e operações para o aplicativo de engajamento do cliente. Para obter mais informações, consulte [Considerações para sincronização inicial](initial-sync-guidance.md).
 
 ## <a name="order-table"></a>Tabela de ordens
 
@@ -94,7 +94,7 @@ Como os dados da tabela **Fatura** são projetados para fluir do aplicativo de F
 
 ## <a name="products-table"></a>Tabela de produtos
 
-Como os dados da tabela **Produtos** são projetados para fluir do aplicativo de Finanças e Operações para o aplicativo de engajamento do cliente, a inicialização não é necessária. Execute a sincronização inicial para migrar todos os dados necessários do aplicativo de Finanças e Operações para o aplicativo de engajamento do cliente. Para obter mais informações, consulte [Considerações para sincronização inicial](initial-sync-guidance.md).
+Como os dados da tabela **Produtos** são projetados para fluir do aplicativo de finanças e operações para o aplicativo de engajamento do cliente, a inicialização não é necessária. Execute a sincronização inicial para migrar todos os dados necessários do aplicativo de finanças e operações para o aplicativo de engajamento do cliente. Para obter mais informações, consulte [Considerações para sincronização inicial](initial-sync-guidance.md).
 
 ## <a name="quote-and-quote-product-tables"></a>Tabelas de Cotação e Produto da cotação
 
@@ -102,3 +102,4 @@ Para a tabela **Cotação**, siga as instruções na seção [Tabela de ordens](
 
 
 [!INCLUDE[footer-include](../../../../includes/footer-banner.md)]
+

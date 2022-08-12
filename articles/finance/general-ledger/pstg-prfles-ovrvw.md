@@ -15,16 +15,16 @@ ms.search.region: Global
 ms.author: kweekley
 ms.search.validFrom: 2022-01-03
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: e7ef3be13e82ff3722fc81247b5cd581b0b571b0
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: 91078352b6376ee99e7d9ce4546ed200cb80a25a
+ms.sourcegitcommit: 6b209919de39c15e0ebe4abc9cbcd30618f2af0b
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8876114"
+ms.lasthandoff: 07/11/2022
+ms.locfileid: "9135833"
 ---
 # <a name="posting-profiles-overview"></a>Visão geral de perfis de lançamentos
 
-Em aplicativos Finance and Operations, o termo *perfis de lançamentos* é usado para descrever as configurações que controlam como contas contábeis são convertidas em contas principais para que possam ser usadas em transações lançadas na contabilidade. Por exemplo, eles controlam como o cliente é convertido em uma conta principal de contas a receber quando uma fatura é lançada.
+Em aplicativos de finanças e operações, o termo *perfis de lançamentos* é usado para descrever as configurações que controlam como contas contábeis são convertidas em contas principais para que possam ser usadas em transações lançadas na contabilidade. Por exemplo, eles controlam como o cliente é convertido em uma conta principal de contas a receber quando uma fatura é lançada.
 
 Alguns módulos e recursos têm uma página que inclui as palavras "perfil de lançamentos" no nome (por exemplo, **Perfil de lançamentos do cliente** ou **Perfil de lançamentos de fornecedores**). Além disso, alguns módulos têm várias opções para configurar o lançamento contábil para transações geradas pelo razão auxiliar. Por exemplo, no módulo **Controle de produção**, você pode configurar o lançamento por grupo de produção, recurso ou grupo de recursos.
 
@@ -34,7 +34,7 @@ Antes de configurar os perfis de lançamentos, as definições de lançamento ou
 
 ## <a name="posting-types"></a>Tipos de lançamentos
 
-Em aplicativos Finance and Operations, um tipo de lançamento é usado para definir uma categoria geral para um débito ou um crédito. Esta categoria é independente da conta principal na contabilidade. Há tipos de lançamentos para cada débito ou crédito na contabilidade.
+Em aplicativos de finanças e operações, um tipo de lançamento é usado para definir uma categoria geral para um débito ou um crédito. Esta categoria é independente da conta principal na contabilidade. Há tipos de lançamentos para cada débito ou crédito na contabilidade.
 
 Um único comprovante pode ter um ou mais tipos de lançamentos. Por exemplo, uma transação lançada por meio de um diário geral em que a conta e a contrapartida são definidas como **razão** terão um lançamento do tipo **Diário-razão** para o débito e o crédito. Por outro lado, uma fatura de fornecedor terá vários tipos de lançamentos. Esses tipos de lançamento incluirão uma linha para o saldo do fornecedor e linhas adicionais para a entrada de compensação, como **Diário-razão**.
 
@@ -111,13 +111,14 @@ Muitos módulos no Dynamics 365 Finance, Dynamics 365 Supply Chain Management, D
 - Lançamento de gerenciamento de despesas (em breve)
 - [Perfil de lançamentos de ativos fixos](../fixed-assets/tasks/set-up-fixed-asset-posting-profiles.md)
 - Lançamento contábil intercompanhia (em breve)
-- Perfil de lançamento de estoque (em breve)
+- [Lançamento de estoque](inventory-posting.md)
 - [Lançamento de custo de entrega](../../supply-chain/landed-cost/costing-parameters-setup.md)
 - [Visão geral de definições de lançamento](posting-definitions.md)
-- Lançamento de controle de produção (em breve)
+- [Lançamento de Produção](production-posting.md)
 - Lançamento de gerenciamento e contabilidade de projetos (em breve)
 - Lançamento de gerenciamento de serviços (em breve)
 - Lançamento de impostos (em breve)
 - Lançamento de tempo e presença (em breve)
 - Lançamento de gerenciamento de transporte (em breve)
 - Perfis de lançamento de gerenciamento de reembolsos (em breve)
+

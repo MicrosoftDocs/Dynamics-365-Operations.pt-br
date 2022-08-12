@@ -10,12 +10,12 @@ ms.search.region: Global
 ms.author: kamaybac
 ms.search.validFrom: 2021-10-15
 ms.dyn365.ops.version: 10.0.23
-ms.openlocfilehash: acffe97cf1844f16a70c716a7f2078b1e9a072d1
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: ded645ebaea1230b68525c247ee91e3893211774
+ms.sourcegitcommit: 873d66c03a51ecb7082e269f30f5f980ccd9307f
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8849464"
+ms.lasthandoff: 07/06/2022
+ms.locfileid: "9124518"
 ---
 # <a name="whats-new-or-changed-in-dynamics-365-supply-chain-management-10023-january-2022"></a>Novidades ou alterações no Dynamics 365 Supply Chain Management 10.0.23 (janeiro de 2022)
 
@@ -81,9 +81,9 @@ Recentemente, adicionamos ou atualizamos significativamente os seguintes artigos
 
 ## <a name="additional-resources"></a>Recursos adicionais
 
-### <a name="platform-updates-for-finance-and-operations-apps"></a>Atualizações da plataforma para aplicativos do Finanças e operações
+### <a name="platform-updates-for-finance-and-operations-apps"></a>Atualizações da plataforma para aplicativos de finanças e operações
 
-O Microsoft Dynamics 365 Supply Chain Management 10.0.23 inclui atualizações de plataforma. Para saber mais, consulte [Atualizações de plataforma para a versão 10.0.23 dos aplicativos Finanças e operações (novembro de 2021)](../../fin-ops-core/dev-itpro/get-started/whats-new-platform-updates-10-0-23.md).
+O Microsoft Dynamics 365 Supply Chain Management 10.0.23 inclui atualizações de plataforma. Para saber mais, consulte [Atualizações da plataforma para a versão 10.0.23 dos aplicativos de finanças e operações (novembro de 2021)](../../fin-ops-core/dev-itpro/get-started/whats-new-platform-updates-10-0-23.md).
 
 ### <a name="bug-fixes"></a>Correções de bug
 
@@ -107,3 +107,4 @@ Antes que qualquer recurso seja removido do produto, o aviso de substituição s
 Para as últimas alterações que afetam somente o tempo de compilação, mas são compatíveis binárias com a área restrita e os ambientes de produção, o tempo de substituição será inferior a 12 meses. Normalmente, essas são atualizações funcionais que precisam ser feitas no compilador.
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]
+

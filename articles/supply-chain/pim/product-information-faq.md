@@ -10,12 +10,12 @@ ms.search.region: Global
 ms.author: benebotg
 ms.search.validFrom: 2021-06-03
 ms.dyn365.ops.version: 10.0.18
-ms.openlocfilehash: b8767df25f0c42b6ee72692aac4e08032828a90d
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: 510b6d2f6f7c1efd68cb78ec10eabc0f0ffa86db
+ms.sourcegitcommit: 28a726b3b0726ecac7620b5736f5457bc75a5f84
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8885918"
+ms.lasthandoff: 06/29/2022
+ms.locfileid: "9069202"
 ---
 # <a name="product-information-management-faq"></a>Perguntas frequentes sobre gerenciamento de informações de produtos
 
@@ -25,7 +25,8 @@ Este artigo fornece respostas a perguntas frequentes (FAQs) sobre a funcionalida
 
 ## <a name="can-i-change-the-item-number-of-a-released-product"></a>Posso alterar o número do item de um produto liberado?
 
-Na maioria dos casos, não é possível editar os números dos itens para produtos liberados, porque essa alteração fará com que os dados sejam corrompidos. Você pode editar o número do item apenas se precisar reparar dados corrompidos por uma renomeação anterior da chave primária desse produto liberado, conforme mencionado na lista de [recursos removidos ou preteridos do Finance and Operations 10.0.0 com atualização da plataforma 24](../../fin-ops-core/dev-itpro/migration-upgrade/deprecated-features.md#finance-and-operations-1000-with-platform-update-24).
+Na maioria dos casos, não é possível editar os números dos itens para produtos liberados, porque essa alteração fará com que os dados sejam corrompidos. Você pode editar o número do item apenas se precisar reparar dados corrompidos por uma renomeação anterior da chave primária desse produto liberado, conforme mencionado na lista de [recursos removidos ou preteridos do finanças e operações 10.0.0 com atualização da plataforma 24](../../fin-ops-core/dev-itpro/migration-upgrade/deprecated-features.md#finance-and-operations-1000-with-platform-update-24).
 
 Se você quiser editar os números dos itens de produtos liberados, [vote nessa ideia no portal de ideias](https://experience.dynamics.com/ideas/idea/?ideaid=660fcb15-875d-ea11-b698-0003ff68bc25).
+
 

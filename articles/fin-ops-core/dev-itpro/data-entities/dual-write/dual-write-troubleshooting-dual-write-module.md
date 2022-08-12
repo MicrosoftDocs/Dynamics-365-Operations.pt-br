@@ -1,6 +1,6 @@
 ---
 title: Solucionar problemas de gravação dupla em aplicativos de finanças e operações
-description: Este artigo fornece informações sobre solução de problemas que podem ajudá-lo a corrigir problemas no módulo de dupla gravação em aplicativos de finanças e operações.
+description: Este artigo fornece informações sobre solução de problemas que podem ajudar a corrigir problemas no módulo de dupla gravação em aplicativos de finanças e operações.
 author: RamaKrishnamoorthy
 ms.date: 04/18/2022
 ms.topic: article
@@ -9,12 +9,12 @@ ms.reviewer: tfehr
 ms.search.region: global
 ms.author: ramasri
 ms.search.validFrom: 2020-03-16
-ms.openlocfilehash: 36f7969eb0bdbc64ade14a5bb97b4b708486d226
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: 2743b99538b332af7cc6ad8d951eede562c14235
+ms.sourcegitcommit: 6781fc47606b266873385b901c302819ab211b82
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8864562"
+ms.lasthandoff: 07/02/2022
+ms.locfileid: "9111160"
 ---
 # <a name="troubleshoot-dual-write-issues-in-finance-and-operations-apps"></a>Solucionar problemas de gravação dupla em aplicativos de finanças e operações
 
@@ -22,7 +22,7 @@ ms.locfileid: "8864562"
 
 
 
-Este artigo fornece informações de solução de problemas para a integração de gravação dupla entre aplicativos de finanças e operações e o Dataverse. Especificamente, ele fornece informações que podem ajudá-lo a corrigir problemas no módulo de **dupla gravação** em aplicativos de finanças e operações.
+Este artigo fornece informações de solução de problemas para a integração de gravação dupla entre aplicativos de finanças e operações e o Dataverse. Especificamente, ele fornece informações que podem ajudar a corrigir problemas no módulo **Gravação dupla** em aplicativos de finanças e operações.
 
 > [!IMPORTANT]
 > Alguns dos problemas que este artigo aborda podem exigir a função de administrador do sistema ou as credenciais de administrador do locatário Microsoft Azure Active Directory (Azure AD). A seção para cada problema explica se uma função ou credenciais específicas são necessárias.
@@ -73,7 +73,7 @@ Para corrigir o problema, crie um tíquete para a equipe de integração de dado
 
 ## <a name="enable-parallel-processing-in-finance-and-operations-apps-to-improve-performance"></a>Habilite o processamento paralelo em aplicativos de finanças e operações para melhorar o desempenho
 
-A habilitação do processamento paralelo pode reduzir o tempo necessário para importar dados dos aplicativos Dynamics 365 Customer Engagement e do Microsoft Dataverse para aplicativos de finanças e operações. 
+A habilitação do processamento paralelo pode reduzir o tempo necessário para importar dados dos aplicativos do Dynamics 365 Customer Engagement e do Microsoft Dataverse para aplicativos de finanças e operações. 
 
 Para habilitar o processamento paralelo em aplicativos de finanças e operações, siga as etapas a seguir.
 
@@ -97,7 +97,7 @@ Talvez você recebe um erro como o seguinte ao tentar executar a sincronização
 Quando você tenta definir esse estado de um mapeamento como **Em execução**, você pode receber este erro. A correção depende da causa do erro:
 
 + Se o mapeamento tiver mapeamentos dependentes, certifique-se de habilitar os mapeamentos dependentes deste mapeamento de tabela.
-+ Pode haver colunas de origem ou de destino ausentes no mapeamento. Se um campo no aplicativo de Finanças e Operações estiver ausente, siga as etapas na seção [Problemas de colunas de tabela ausentes em mapas](dual-write-troubleshooting-finops-upgrades.md#missing-table-columns-issue-on-maps). Se a coluna no Dataverse estiver ausente, clique no botão **Atualizar tabelas** no mapeamento para que as colunas sejam automaticamente preenchidas no mapeamento.
++ Pode haver colunas de origem ou de destino ausentes no mapeamento. Se uma coluna no aplicativo de finanças e operações estiver ausente, siga as etapas na seção [Problemas de colunas de tabela ausentes em mapas](dual-write-troubleshooting-finops-upgrades.md#missing-table-columns-issue-on-maps). Se a coluna no Dataverse estiver ausente, clique no botão **Atualizar tabelas** no mapeamento para que as colunas sejam automaticamente preenchidas no mapeamento.
 
 ### <a name="version-mismatch-error-and-upgrading-dual-write-solutions"></a>Erro de incompatibilidade de versão e atualizando soluções de gravação dupla
 
@@ -112,3 +112,4 @@ Talvez você receba as seguintes mensagens de erro ao tentar executar os mapeame
 Para corrigir os problemas, atualize as soluções de gravação dupla no Dataverse. Certifique-se de atualizar para a última solução que corresponde à versão da solução necessária.
 
 [!INCLUDE[footer-include](../../../../includes/footer-banner.md)]
+

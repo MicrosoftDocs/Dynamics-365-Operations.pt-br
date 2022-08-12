@@ -13,18 +13,18 @@ ms.search.region: Global
 ms.author: jasongre
 ms.search.validFrom: 2021-04-30
 ms.dyn365.ops.version: 10.0.19
-ms.openlocfilehash: 3c07befc7150ff0a121fd3aaa0b5233df9f431e5
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: ef5ed6c3c99d62010643940f3e2f158963ff0dc2
+ms.sourcegitcommit: 873d66c03a51ecb7082e269f30f5f980ccd9307f
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8868598"
+ms.lasthandoff: 07/06/2022
+ms.locfileid: "9123708"
 ---
 # <a name="embed-third-party-apps"></a>Inserir aplicativos de terceiros
 
 [!include [banner](../includes/banner.md)]
 
-Muitos clientes usam vários aplicativos para executar negócios. Alguns desses aplicativos são aplicativos Web de terceiros que funcionam junto com aplicativos de finanças e operações. Para fornecer uma experiência de usuário mais uniforme, você pode usar o recurso (Versão preliminar) **Aplicativos de página completa** para inserir diretamente os aplicativos de terceiros em aplicativos de finanças e operações (desde que os aplicativos de terceiros permitam serem inseridos). Dessa forma, os usuários podem acessar os sites e os aplicativos necessários sem precisar alternar guias ou janelas.
+Muitos clientes usam vários aplicativos para executar negócios. Alguns desses aplicativos são aplicativos Web de terceiros que funcionam com aplicativos de finanças e operações. Para proporcionar uma experiência de usuário mais uniforme, você pode usar o recurso **Aplicativos de página inteira** para inserir diretamente os aplicativos de terceiros em aplicativos de finanças e operações (desde que os aplicativos de terceiros permitam serem inseridos). Dessa forma, os usuários podem acessar os sites e os aplicativos necessários sem precisar alternar guias ou janelas.
 
 Antes de inserir aplicativos de terceiros no produto, você deve ativar o recurso **Aplicativos de página completa** no gerenciamento de Recursos. Você pode usar um dos métodos a seguir para inserir um aplicativo ou site de terceiros. Esses métodos são análogos aos métodos usados para inserir aplicativos de tela do Microsoft Power Apps em aplicativos de finanças e operações.
 
@@ -129,3 +129,4 @@ Se um site não for renderizado corretamente após ser inserido em um aplicativo
 Embora este artigo foque a inserção de aplicativos ou sites de terceiros por meio de personalização, os desenvolvedores também podem inseri-los em um formulário usando a experiência de desenvolvimento do Visual Studio. Basta adicionar um controle **WebsiteHostControl** ao formulário. As propriedades de metadados disponíveis para o controle fornecem os mesmos recursos que a experiência de personalização.
 
 [!INCLUDE[footer-include](../../../includes/footer-banner.md)]
+

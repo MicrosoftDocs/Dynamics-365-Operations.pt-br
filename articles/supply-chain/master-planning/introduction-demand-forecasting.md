@@ -18,12 +18,12 @@ ms.search.industry: Manufacturing
 ms.author: benebotg
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: e1648808667c8bb9487e7a47b87d8e73cf442d82
-ms.sourcegitcommit: d98ecbd9457197ec8f8e281f9c2f24dcce7b8269
+ms.openlocfilehash: 5c764cc186b5c8742ccfd90b5928f6625f3360c8
+ms.sourcegitcommit: 28a726b3b0726ecac7620b5736f5457bc75a5f84
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/14/2022
-ms.locfileid: "8960162"
+ms.lasthandoff: 06/29/2022
+ms.locfileid: "9065587"
 ---
 # <a name="demand-forecasting-overview"></a>Visão geral da previsão de demanda
 
@@ -56,7 +56,7 @@ Os três temas principais são implementados na previsão de demanda:
 - **Modularidade** – A previsão de demanda é modular e fácil de configurar. Você pode ativar e desativar a funcionalidade alterando a chave de configuração em **Comércio** &gt; **Previsão de estoque** &gt; **Previsão de demanda**.
 - **Reutilização da Microsoft Stack** – O Machine Learning, que agora faz parte do Microsoft Cortana Analytics Suite, permite criar experimentos de análise preditiva de maneira rápida e fácil, como experiências de estimativa de demanda, usando algoritmos R ou linguagens de programação Python e uma interface simples de arrastar e soltar.
   - Você pode baixar os experimentos de previsão de demanda, alterá-los para atender às suas necessidades de negócios, publicá-los como um serviço Web no Azure e usá-los para gerar previsões de demanda. Os experimentos estarão disponíveis para download se você tiver adquirido uma assinatura do Supply Chain Management para um planejador de produção como usuário em nível empresarial.
-  - Você pode baixar qualquer experimento de previsão de demanda atualmente disponível na [Galeria de Análise da Cortana](https://gallery.cortanaanalytics.com/). Enquanto os experimentos de previsão de demanda são automaticamente integrados ao Supply Chain Management, os clientes e parceiros devem lidar com a integração dos experimentos baixados da [Galeria de Análise da Cortana](https://gallery.cortanaanalytics.com/). Portanto, os experimentos da [Galeria de Análise da Cortana](https://gallery.cortanaanalytics.com/) não são tão simples de usar quanto os experimentos de previsão de demanda do Finance and Operations. Você deve modificar o código dos experimentos de modo que eles usem a API (interface de programação de aplicativo) do Finance and Operations.
+  - Você pode baixar qualquer experimento de previsão de demanda atualmente disponível na [Galeria de Análise da Cortana](https://gallery.cortanaanalytics.com/). Enquanto os experimentos de previsão de demanda são automaticamente integrados ao Supply Chain Management, os clientes e parceiros devem lidar com a integração dos experimentos baixados da [Galeria de Análise da Cortana](https://gallery.cortanaanalytics.com/). Portanto, os experimentos da [Galeria de Análise da Cortana](https://gallery.cortanaanalytics.com/) não são tão simples de usar quanto os experimentos de previsão de demanda do aplicativo de finanças e operações. Você deve modificar o código dos experimentos de modo que eles usem a API (interface de programação de aplicativo) do aplicativo de finanças e operações.
   - Você pode criar seus próprios experimentos no Microsoft Azure Machine Learning Studio (clássico), publicá-los como serviços no Azure e usá-los para gerar previsões de demanda.
   - Se você não precisar de alto desempenho ou que uma grande quantidade de dados seja processada, use a camada gratuita do Aprendizado de Máquina. É recomendável que você sempre comece nessa camada, especialmente durante as fases de implementação e de teste. Se você precisar de desempenho mais alto e de armazenamento adicional, poderá usar a camada padrão do Aprendizado de Máquina. Essa camada requer uma assinatura do Azure e envolve custos adicionais. Para obter detalhes sobre os preços do Aprendizado de Máquina, consulte [Definição de preços do Machine Learning Studio](https://aka.ms/machine-learning-price-info).
 - **Redução de previsão em qualquer ponto de dissociação** – A previsão de demanda baseia-se nessa funcionalidade, que permite prever a demanda dependente e independente em qualquer ponto de dissociação.
@@ -101,3 +101,4 @@ Observe que a UOM de previsão de demanda não precisa ter um significado espec�
 - [Webinar: Previsão de demanda com a Série do Azure Machine Learning.](https://aka.ms/DemandForecastingwithAzureMachineLearningSeries)
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]
+

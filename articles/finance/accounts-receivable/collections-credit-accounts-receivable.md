@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 03d1304c39628323c6d6e15181263a73ba965930
-ms.sourcegitcommit: 04e6c1c9400e1b582180cf3e0e4767434e736c26
+ms.openlocfilehash: 00e536241710fc8a75158472688757320abf4247
+ms.sourcegitcommit: 28a726b3b0726ecac7620b5736f5457bc75a5f84
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/05/2022
-ms.locfileid: "8710347"
+ms.lasthandoff: 06/29/2022
+ms.locfileid: "9067198"
 ---
 # <a name="collections-in-accounts-receivable"></a>Cobranças em Contas a receber
 
@@ -65,7 +65,7 @@ As seguintes páginas de lista ajudam você a organizar as informações de cobr
 
 > [!NOTE]
 > Um instantâneo de classificação por vencimento deve ser criado para que você possa exibir as informações nessas páginas de lista. As informações são exibidas somente para os clientes que o instantâneo de classificação por vencimento foi criado. Os registros que são mostrados na página de lista podem ser filtrados adicionalmente, da seguinte maneira:
-> <li>Por padrão, um usuário do Finance and Operations tem acesso a todos os clientes com um instantâneo de classificação por vencimento.</li>
+> <li>Por padrão, um usuário dos aplicativos de finanças e operações tem acesso a todos os clientes com um instantâneo de classificação por vencimento.</li>
 > <li>Se os grupos de clientes existem, um usuário deve ser configurado como um agente de cobranças para usar os grupos para filtrar as informações nas páginas de lista de cobranças. As informações são limitadas aos clientes incluídos no grupo de clientes selecionado.</li>
 > <li>Se um usuário estiver configurado como um agente de cobranças, apenas os grupos selecionados para esse agente de cobranças estarão disponíveis na página de lista. Se o botão de alternância Permitir que o agente exiba todos os grupos de clientes estiver selecionado na página Agente de cobranças do agente de cobranças, todos os grupos estarão disponíveis para esse agente.</li>
 
@@ -110,3 +110,4 @@ Você pode processar pagamentos NSF ao clicar em Pagamento NSF na página Cobran
 
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]
+

@@ -9,12 +9,12 @@ ms.reviewer: tfehr
 ms.search.region: global
 ms.author: ramasri
 ms.search.validFrom: 2020-03-16
-ms.openlocfilehash: 620f6f999859eff0ccd8aeb1cff12ddd56fa9926
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: 2f263e331d23ce0ddf60a4abc2467513aa342445
+ms.sourcegitcommit: 6781fc47606b266873385b901c302819ab211b82
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8853645"
+ms.lasthandoff: 07/02/2022
+ms.locfileid: "9112354"
 ---
 # <a name="general-troubleshooting"></a>Solução de problemas gerais
 
@@ -55,28 +55,28 @@ Para exibir o log de rastreamento, siga estas etapas.
 
 Você pode copiar o conteúdo dos logs de rastreamento e colá-los em outro aplicativo, como o Bloco de notas, ou outras ferramentas para exibir logs ou arquivos de texto para ver mais facilmente todo o conteúdo. 
 
-## <a name="enable-debug-mode-to-troubleshoot-live-synchronization-issues-in-finance-and-operations-apps"></a>Habilitar modo de depuração para solucionar problemas de sincronização dinâmica em aplicativos de Finanças e Operações
+## <a name="enable-debug-mode-to-troubleshoot-live-synchronization-issues-in-finance-and-operations-apps"></a>Habilitar modo de depuração para solucionar problemas de sincronização dinâmica em aplicativos de finanças e operações
 
 **Função necessária para exibir os erros:** administrador do sistema
 
 Os erros de gravação dupla originados no Dataverse podem aparecer no aplicativo de finanças e operações. Para habilitar o registro detalhado de erros ao seguir estas etapas:
 
 1. Para todas as configurações de projeto em aplicativos de finanças e operações, há um sinalizador **IsDebugMode** na tabela **DualWriteProjectConfiguration**.
-2. Abra a tabela **DualWriteProjectConfiguration** usando um suplemento do Excel. Para usar o suplemento, habilite o modo de design no complemento do Excel no Finance and Operations e adicione o **DualWriteProjectConfiguration** à planilha. Para obter mais informações, consulte [Exibir e atualizar dados da entidade com o Excel](../../office-integration/use-excel-add-in.md).
+2. Abra a tabela **DualWriteProjectConfiguration** usando um suplemento do Excel. Para usar o suplemento, habilite o modo de design no complemento do Excel em finanças e operações e adicione **DualWriteProjectConfiguration** à planilha. Para obter mais informações, consulte [Exibir e atualizar dados da entidade com o Excel](../../office-integration/use-excel-add-in.md).
 3. Defina **Isdebugmode** como **Sim** no projeto.
 4. Execute o cenário que está gerando erros.
 5. Os logs detalhados são armazenados na tabela **DualWriteErrorLog**.
 6. Para pesquisar dados no navegador de tabelas, use o seguinte link: `https://999aos.cloudax.dynamics.com/?mi=SysTableBrowser&tableName=DualWriteErrorLog` substituindo `999`, conforme necessário.
 7. Atualize novamente após a [KB 4595434](https://fix.lcs.dynamics.com/Issue/Details?kb=4595434&bugId=527820&dbType=3&qc=98e5dc124ac125c57ad633d885ac612aea3ddb8f4abf9d71ab3aa354f2e06cbe), que está disponível para atualizações de plataforma 37 e posterior. Se você tiver essa correção instalada, o modo de depuração capturará mais logs.  
 
-## <a name="check-synchronization-errors-on-the-virtual-machine-for-the-finance-and-operations-app"></a>Verificar erros de sincronização na máquina virtual para o aplicativo de Finanças e Operações
+## <a name="check-synchronization-errors-on-the-virtual-machine-for-the-finance-and-operations-app"></a>Verificar erros de sincronização na máquina virtual para o aplicativo de finanças e operações
 
 **Função necessária para exibir os erros:** administrador do sistema
 
 1. Entre Microsoft Dynamics Lifecycle Services (LCS).
 2. Abra o projeto LCS escolhido para realizar testes de gravação dupla.
 3. Selecione o bloco **Ambientes hospedados na nuvem**.
-4. Use área de trabalho remota para entrar na máquina virtual (VM) do aplicativo de Finanças e Operações. Use a conta local que é mostrada em LCS.
+4. Use Área de Trabalho Remota para entrar na VM (máquina virtual) do aplicativo de finanças e operações. Use a conta local que é mostrada em LCS.
 5. Abra o Visualizador de Eventos.
 6. Selecione **Registros de aplicativos e serviços \> Microsoft \> Dynamics \> AX-DualWriteSync \> Operacional**.
 7. Revise a lista de erros recentes.
@@ -132,9 +132,9 @@ Para habilitar novamente a opção de formulário de **Informações**, siga est
 3. Selecione o formulário de **Informações** e clique em **Habilitar funções de segurança**.
 4. Altere a configuração de segurança para **Exibir para todos**.
 
-## <a name="how-to-ensure-data-integration-is-using-the-most-current-finance-and-operations-schema"></a>Como garantir a integração de dados usando o esquema de finanças e operações mais atual
+## <a name="how-to-ensure-data-integration-is-using-the-most-current-finance-and-operations-schema"></a>Como garantir que a integração de dados esteja usando o esquema de finanças e operações mais atual
 
-Você pode enfrentar problemas de dados na integração de dados se o esquema mais atual não estiver sendo usado. As etapas a seguir ajudarão você a atualizar a lista de entidades nos aplicativos de finanças e operações e as entidades no integrador de dados.
+Você pode enfrentar problemas de dados na integração de dados se o esquema mais atual não estiver sendo usado. As etapas a seguir ajudarão você a atualizar a lista de entidades nos aplicativos de finanças e operações e as entidades no Integrador de dados.
 
 ### <a name="refresh-entity-list-in-finance-and-operations-environment"></a>Atualizar a lista de entidades no ambiente de finanças e operações
 1.  Faça logon no ambiente de finanças e operações.
@@ -174,3 +174,4 @@ Talvez a equipe de suporte precise revisar os rastreamentos de rede para solucio
 4. Selecione **Salvar** para exportar os resultados como Har.
 
 [!INCLUDE[footer-include](../../../../includes/footer-banner.md)]
+

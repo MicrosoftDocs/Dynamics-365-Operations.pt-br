@@ -11,12 +11,12 @@ ms.search.region: Global
 ms.author: raprofit
 ms.search.validFrom: 2022-05-03
 ms.dyn365.ops.version: 10.0.27
-ms.openlocfilehash: 467839b1d0ca6788a92ae60d46686374d0a58046
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: 5a1d86e7e9cca159d0a820680714a08dc73c0688
+ms.sourcegitcommit: 28a726b3b0726ecac7620b5736f5457bc75a5f84
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8850834"
+ms.lasthandoff: 06/29/2022
+ms.locfileid: "9068383"
 ---
 # <a name="inventory-costing-faq"></a>Perguntas frequentes sobre o custo de estoque
 
@@ -112,11 +112,11 @@ Não, você não pode habilitar a opção **Estoque financeiro** para a dimensã
 
 ### <a name="should-i-enable-the-use-warehouse-management-processes-option-for-the-storage-dimension-group"></a>Devo habilitar a opção Usar processos de gerenciamento de depósito para o grupo de dimensões de armazenamento?
 
-Se achar que talvez queira usar os recursos avançados de gerenciamento de depósito no futuro, você deverá habilitar a opção **Usar processos de gerenciamento de depósito**. Depois que salvar um grupo de dimensões de armazenamento, não será mais possível alterar a configuração da opção **Usar processos de gerenciamento de depósito** para ele. Se decidir usar os processos de gerenciamento de depósito posteriormente, será necessário criar um depósito onde a opção estiver habilitada. Não há nenhum processo automatizado que possa ser usado para mover todo o estoque de um depósito para outro ou para copiar configurações relacionadas em um novo depósito.
+Se achar que talvez queira usar os recursos dos processos de gerenciamento de depósito (WMS) no futuro, você deverá habilitar a opção **Usar processos de gerenciamento de depósito**. Depois que salvar um grupo de dimensões de armazenamento, não será mais possível alterar a configuração da opção **Usar processos de gerenciamento de depósito** para ele. Se decidir usar os processos de gerenciamento de depósito posteriormente, será necessário criar um depósito onde a opção estiver habilitada. Não há nenhum processo automatizado que possa ser usado para mover todo o estoque de um depósito para outro ou para copiar configurações relacionadas em um novo depósito.
 
-### <a name="can-i-enable-the-use-warehouse-management-processes-for-the-storage-dimension-group-even-if-im-not-planning-to-use-advanced-warehousing"></a>Posso habilitar a opção Usar processos de gerenciamento de depósito para o grupo de dimensões de armazenamento mesmo que eu não esteja planejando usar o depósito avançado?
+### <a name="can-i-enable-the-use-warehouse-management-processes-for-the-storage-dimension-group-even-if-im-not-planning-to-use-warehouse-management-processes-wms"></a>Posso habilitar a opção Usar processos de gerenciamento de depósito para o grupo de dimensões de armazenamento mesmo que eu não esteja planejando usar os processos de gerenciamento de depósito (WMS)?
 
-Sim, mesmo que não esteja planejando usar os recursos de gerenciamento de depósito avançado, você pode habilitar a opção **Usar processos de gerenciamento de depósito** para o grupo de dimensões de armazenamento. Para criar e processar as transações, você deverá concluir a configuração mínima, com as hierarquias de reserva e os grupos de sequência de unidade. No entanto, as configurações de depósito avançado geralmente são ignoradas quando você processa listas de separação, guias de remessa e recebimentos de produtos manualmente (por exemplo, nas página da ordem de venda ou da ordem de compra).
+Sim, mesmo que não esteja planejando usar os recursos de processos de gerenciamento de depósito (WMS), você pode habilitar a opção **Usar processos de gerenciamento de depósito** para o grupo de dimensões de armazenamento. Para criar e processar as transações, você deverá concluir a configuração mínima, com as hierarquias de reserva e os grupos de sequência de unidade. No entanto, as configurações de WMS geralmente são ignoradas quando você processa listas de separação, guias de remessa e recebimentos de produtos manualmente (por exemplo, nas página da ordem de venda ou da ordem de compra).
 
 ### <a name="when-should-i-enable-the-physical-inventory-option-for-a-storage-or-tracking-dimension-group"></a>Quando devo habilitar a opção Estoque físico para um grupo de dimensões de armazenamento?
 

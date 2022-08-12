@@ -14,18 +14,19 @@ ms.search.region: Global
 ms.author: twheeloc
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 9d13372d8cc1f1f0f1407ea69bee4f98ae5065c2
-ms.sourcegitcommit: cfe8fbc202c3eb05d894076fdf99e46704f17365
+ms.openlocfilehash: 6fc44b52e2f7662fc6be609562cec903a8755d1b
+ms.sourcegitcommit: 1401d66b6b64c590ca1f8f339d622e922920cf15
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/15/2022
-ms.locfileid: "9015327"
+ms.lasthandoff: 07/20/2022
+ms.locfileid: "9178493"
 ---
 # <a name="provision-human-resources"></a>Provisionar o Human Resources
 
-[!include [Applies to Human Resources](../includes/applies-to-hr.md)]
+_**Aplica-se a:** Human Resources na infraestrutura autônoma_ 
 
-
+> [!NOTE]
+> Iniciando em junho de 2022, os ambientes de Recursos Humanos podem ser implantados somente na infraestrutura de aplicativos de finanças e operações. Para obter mais informações, consulte [Provisionar Recursos Humanos na infraestrutura de finanças e operações](hr-admin-setup-provision-fo.md).
 
 Este artigo explica o processo de provisionar um novo ambiente de produção para o Microsoft Dynamics 365 Human Resources. 
 
@@ -40,14 +41,14 @@ Antes de começar o provisionamento de um novo ambiente de produção, os seguin
 ## <a name="provision-a-human-resources-trial-environment"></a>Provisionamento de um ambiente de teste de Recursos Humanos
 
 >[!NOTE]
-> A partir de 2022 de abril, os ambientes de teste de Recursos Humanos não estarão disponíveis no aplicativo independente. Os clientes potenciais interessados em avaliar as funcionalidades dos Recursos Humanos em aplicativos de finanças e operações podem fazer isso usando a avaliação gratuita de 30 dias, junto com os dados de demonstração. O Dynamics 365 Finance incluirá as funcionalidades de Recursos Humanos trazidas para a infraestrutura de finanças por meio da mesclagem do aplicativo autônomo. Para obter mais informações, consulte [Mesclagem de ofertas de RH reúne funcionalidades para os clientes](https://cloudblogs.microsoft.com/dynamics365/it/2021/09/15/merging-of-hr-offerings-brings-capabilities-together-for-customers) Para obter mais informações sobre os testes do Dynamics 365 Finance, consulte o [guia passo a passo](../fin-ops-core/fin-ops/get-started/before-you-buy.md). 
+> A partir de 2022 de abril, os ambientes de teste de Recursos Humanos não estarão disponíveis no aplicativo independente. Os clientes potenciais interessados em avaliar as funcionalidades do Human Resources em aplicativos de finanças e operações podem fazer isso usando a avaliação gratuita de 30 dias, junto com os dados de demonstração. O Dynamics 365 Finance incluirá as funcionalidades de Recursos Humanos trazidas para a infraestrutura de finanças por meio da mesclagem do aplicativo autônomo. Para obter mais informações, consulte [Mesclagem de ofertas de RH reúne funcionalidades para os clientes](https://cloudblogs.microsoft.com/dynamics365/it/2021/09/15/merging-of-hr-offerings-brings-capabilities-together-for-customers). Para obter mais informações sobre as avaliações do Dynamics 365 Finance, consulte o [guia passo a passo](../fin-ops-core/fin-ops/get-started/before-you-buy.md). 
 
 
 Antes de provisionar sua primeira área restrita ou ambiente de produção, pode ser interessante provisionar um [ambiente de teste de Recursos Humanos](https://go.microsoft.com/fwlink/p/?LinkId=2115962) para validar a funcionalidade de Recursos Humanos. Os ambientes de avaliação contêm dados fictícios que podem ser usados para explorar o programa de forma segura. Embora um ambiente de avaliação seja propriedade do usuário que o solicitou, outros usuários podem ser convidados por meio da experiência de administração do sistema para o Human Resources. 
 
-Os ambientes de avaliação fornecem a capacidade de avaliar a funcionalidade de recursos humanos para indivíduos que ainda não têm acesso a um ambiente de Recursos Humanos. Se você estiver provisionando um ambiente de avaliação e o usuário autenticado já tiver acesso a um ou mais ambientes de Recursos Humanos existentes, o usuário será redirecionado para o ambiente existente ou para a lista de ambientes.
+Os ambientes de avaliação ajudam a avaliar a funcionalidade de recursos humanos para indivíduos que ainda não têm acesso a um ambiente do Human Resources. Se você estiver provisionando um ambiente de avaliação e o usuário autenticado já tiver acesso a um ou mais ambientes de Recursos Humanos existentes, o usuário será redirecionado para o ambiente existente ou para a lista de ambientes.
 
-Ambientes de avaliação não devem ser usados como ambientes de produção. Eles estão limitados a um período de avaliação de 30 dias. Quando um ambiente de avaliação expirar, o ambiente e todos os dados que estão nele serão excluídos e não poderão ser recuperados. O ambiente não pode ser convertido em uma área restrita ou ambiente de produção. Você pode inscrever-se para um novo ambiente de avaliação após o ambiente existente expirar.
+Ambientes de avaliação não devem ser usados como ambientes de produção. Eles estão limitados a um período de avaliação de 30 dias. Quando um período de avaliação expirar, o ambiente e todos os dados que estão nele serão excluídos e não poderão ser recuperados. O ambiente não pode ser convertido em uma área restrita ou em um ambiente de produção. Você pode inscrever-se para um novo ambiente de avaliação após o ambiente existente expirar.
 
 Ao criar um ambiente de avaliação do Human Resources, um ambiente de avaliação do Power Apps também é criado no locatário e vinculado ao ambiente do Human Resources. O ambiente do Power Apps, chamado de "TestDrive", tem o mesmo período de avaliação do ambiente do Human Resources.
 
@@ -56,14 +57,14 @@ Ao criar um ambiente de avaliação do Human Resources, um ambiente de avaliaç�
 
 ## <a name="plan-human-resources-environments"></a>Planejar ambientes do Human Resources
 
-Antes de criar seu primeiro ambiente do Human Resources, você deve planejar cuidadosamente as necessidades ambientais do seu projeto. Uma assinatura básica do Human Resources inclui dois ambientes: um ambiente de produção e um ambiente de área restrita. Dependendo da complexidade do projeto, talvez você precise comprar ambientes adicionais de área restrita para apoiar as atividades do projeto. 
+Antes de criar seu primeiro ambiente do Human Resources, você deve planejar cuidadosamente as necessidades ambientais do seu projeto. Uma assinatura básica do Human Resources inclui dois ambientes: um ambiente de produção e um ambiente de área restrita. Dependendo da complexidade do projeto, talvez seja necessário comprar ambientes adicionais de área restrita para apoiar as atividades do projeto. 
 
 Considerações para ambientes adicionais:
 
-- **Migração de dados**: Talvez seja necessário considerar um ambiente adicional para atividades de migração de dados para permitir que o ambiente de área restrita seja usado para fins de teste durante todo o projeto. Ter um ambiente adicional permite que as atividades de migração de dados continuem, enquanto as atividades de teste e configuração ocorrem simultaneamente em um ambiente diferente.
-- **Integração**: Talvez seja preciso considerar um ambiente adicional para configurar e testar integrações. Isso pode incluir integrações nativas, como as integrações do Ceridian Dayforce ou LinkedIn Talent Hub, ou integrações personalizadas, como as de folha de pagamento, sistemas de rastreamento de candidatos ou sistemas e provedores de benefícios.
-- **Treinamento**: Talvez você precise de um ambiente separado que seja configurado com um conjunto de dados de treinamento para treinar funcionários sobre o uso do novo sistema. 
-- **Projeto multi-fase**: Talvez precise de um ambiente adicional para dar suporte a configuração, migração de dados, testes ou outras atividades em uma fase de projeto que é planejada após a ativação inicial do projeto.
+- **Migração de dados**: atividades de migração de dados para permitir que o ambiente de área restrita seja usado para fins de teste durante todo o projeto. Ter um ambiente adicional permite que as atividades de migração de dados continuem, enquanto as atividades de teste e configuração ocorrem simultaneamente em um ambiente diferente.
+- **Integração**: configurar e testar integrações, que podem incluir integrações nativas, como Ceridian Dayforce ou integrações personalizadas.
+- **Treinamento**: talvez você precise de um ambiente separado que seja configurado com um conjunto de dados de treinamento para treinar funcionários sobre o uso do novo sistema. 
+- **Projeto multi-fase**: dar suporte a configuração, migração de dados, testes ou outras atividades em uma fase de projeto que é planejada após a ativação inicial do projeto.
 
  > [!IMPORTANT]
  > Ao considerar seu ambiente, recomendamos o seguinte:
@@ -111,7 +112,7 @@ Depois de criar um projeto de LCS, você pode provisionar o Human Resources em u
 
 6. Selecione **Sim** para concordar com os termos e começar a implantação.
 
-   Seu novo ambiente aparece na lista de ambientes no painel de navegação à esquerda. Porém, você não pode começar a usar o ambiente enquanto o status de implantação não for atualizado para **Implantado**. Este processo normalmente leva alguns minutos. Se ocorrer uma falha no processo de provisionamento, você deve entrar em contato com o Suporte.
+   Seu novo ambiente aparece na lista de ambientes no painel de navegação à esquerda. Porém, você não pode começar a usar o ambiente enquanto o status de implantação não for atualizado para **Implantado**. Este processo normalmente leva alguns minutos. Se ocorrer uma falha no processo de provisionamento, entre em contato com o Suporte.
 
 7. Selecione **Fazer logon no Human Resources** para usar o novo ambiente.
 
@@ -140,7 +141,7 @@ Use as seguintes orientações ao determinar para qual ambiente do Power Apps o 
    
     - **Geografias sem suporte** - o ambiente deve estar em uma geografia com suporte. Para obter mais informações, consulte [Geografias com suporte](hr-admin-setup-provision.md#supported-geographies).
 
-6. Recursos de gravação dupla para a integração de dados de Recursos Humanos com o ambiente do Power Apps só poderão ser usados se a opção **Habilitar aplicativos do Dynamics 365** estiver selecionada para o ambiente. Consulte a [Home page da gravação dupla](../fin-ops-core/dev-itpro/data-entities/dual-write/dual-write-home-page.md) para obter mais informações sobre gravação dupla.
+6. Recursos de gravação dupla para a integração de dados de Recursos Humanos com o ambiente do Power Apps só poderão ser usados se a opção **Habilitar aplicativos do Dynamics 365** estiver selecionada para o ambiente. Para obter mais informações, consulte [Home page de gravação dupla](../fin-ops-core/dev-itpro/data-entities/dual-write/dual-write-home-page.md).
 
     > [!NOTE]
     > A opção **Habilitar aplicativos do Dynamics 365** deve ser selecionada quando o ambiente do Power Apps é criado. Se a opção não estiver selecionada no momento do provisionamento, não será possível usar a gravação dupla para integrar dados entre o Dynamics 365 Human Resources e o ambiente Power Apps ou instalar aplicativos do Dynamics 365, como o Dynamics 365 Sales e o Field Service, no ambiente. Esta opção não é reversível. 
@@ -175,3 +176,4 @@ Por padrão, o administrador global que criou o ambiente tem acesso a ele. Os us
 
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]
+

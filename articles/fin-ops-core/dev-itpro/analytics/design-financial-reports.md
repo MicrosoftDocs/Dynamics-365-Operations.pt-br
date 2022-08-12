@@ -6,23 +6,24 @@ ms.date: 10/02/2019
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
-ms.search.form: FinancialReportingSetup
 audience: Application User
-ms.reviewer: kfend
-ms.custom: 10814
-ms.assetid: cd5f6483-c09b-4c2d-9336-d22eb6ab6e4f
+ms.reviewer: sericks
 ms.search.region: Global
 ms.author: jcart
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: c13169ab05dd506f75b2c9d28f05fcf4471f5a7c8f0a563c974bc38949993295
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.custom:
+- "10814"
+ms.assetid: cd5f6483-c09b-4c2d-9336-d22eb6ab6e4f
+ms.search.form: FinancialReportingSetup
+ms.openlocfilehash: 77756b9f32268b091361e1e69be05a11eac19846
+ms.sourcegitcommit: 3c4dd125ed321af8a983e89bcb5bd6e5ed04a762
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6724434"
+ms.lasthandoff: 07/28/2022
+ms.locfileid: "9205654"
 ---
-# <a name="view-and-design-financial-reports"></a>Exibição e criação de relatórios financeiros
+# <a name="view-and-design-financial-reports"></a>Exibir e criar relatórios financeiros
 
 [!include [banner](../includes/banner.md)]
 
@@ -151,7 +152,7 @@ Para este ano, você modificará um relatório padrão existente. Você adiciona
 4. Selecione **Arquivo** &gt; **Salvar como** e nomeie o relatório **Balanço consolidado e o demonstrativo de renda lado a lado**.
 5. Alterar o ano base para 2012.
 6. Clique no menu suspenso de árvore e selecione **Hierarquias da organização**.
-7. Clique no menu suspenso da árvore e selecione **Contoso Holdings**.
+7. Clique no menu suspenso de árvore e selecione **Retenções da Contoso**.
 8. Salve as alterações e gere o relatório. Se solicitado, selecione todas as unidades de relatório. Depois que a geração do relatório for concluída e ele for aberto, é possível explorar o relatório.
 9. Selecione **Opções do relatório**.
 10. Selecione **Adicionar filtro da dimensão** e escolha **Departamento**.

@@ -12,12 +12,12 @@ ms.search.region: Global
 ms.author: benebotg
 ms.search.validFrom: 2020-09-28
 ms.dyn365.ops.version: 10.0.21
-ms.openlocfilehash: 6c9bfcdef91ad07b8346498b8944e1d741d623a1
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: 3a27548fff9728c74814fb92438da1d0c17b5e2b
+ms.sourcegitcommit: 28a726b3b0726ecac7620b5736f5457bc75a5f84
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8862646"
+ms.lasthandoff: 06/29/2022
+ms.locfileid: "9067382"
 ---
 # <a name="engineering-change-management-overview"></a>Visão geral do gerenciamento de alterações de engenharia
 
@@ -40,7 +40,7 @@ O gerenciamento de alterações de engenharia ajuda a planejar e gerenciar o con
 
 > [!VIDEO https://www.microsoft.com/videoplayer/embed/RE4HE6B]
 
-O vídeo anterior ([Recursos de gerenciamento de alterações no Dynamics 365 Supply Chain Management](https://youtu.be/N313FqvRuBc)) está incluído na [playlist Finance and Operations](https://www.youtube.com/playlist?list=PLcakwueIHoT_SYfIaPGoOhloFoCXiUSyW) disponível no YouTube.
+O vídeo anterior ([Recursos de gerenciamento de alterações no Dynamics 365 Supply Chain Management](https://youtu.be/N313FqvRuBc)) está incluído na [playlist finanças e operações](https://www.youtube.com/playlist?list=PLcakwueIHoT_SYfIaPGoOhloFoCXiUSyW) disponível no YouTube.
 
 ## <a name="turn-on-the-engineering-change-management-features-for-your-system"></a>Ativar os recursos de gerenciamento de alterações de engenharia para o sistema
 
@@ -88,3 +88,4 @@ Depois de ativar os recursos básicos de gerenciamento de alterações de engenh
 | Geração de grades para produtos de engenharia | <p>Este recurso permite gerar grades para produtos de engenharia, com base nos valores de dimensão disponíveis.</p><p>Para obter mais informações, consulte [Gerar variantes para produtos de engenharia](engineering-variants.md).</p> |
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]
+

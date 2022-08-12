@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: wangchen
 ms.search.validFrom: 2021-04-01
 ms.dyn365.ops.version: 10.0.18
-ms.openlocfilehash: 24d4a722ee143dc0869f758475aaf377e7a9e084
-ms.sourcegitcommit: 78576abe5c7cbab1bb69d26c999b038e8c24873a
+ms.openlocfilehash: 817d7db5952f96fa741671166d88fffddaac84e9
+ms.sourcegitcommit: 5b34b41ae74269ba639e2876bc5862ef468da1cc
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/13/2022
-ms.locfileid: "8954490"
+ms.lasthandoff: 07/15/2022
+ms.locfileid: "9166829"
 ---
 # <a name="tax-calculation-overview"></a>Visão geral do Cálculo de Imposto
 
@@ -29,7 +29,7 @@ O Cálculo de Imposto é um serviço multilocatário hiperescalável que permite
 O cálculo de impostos é integrado ao Dynamics 365 Finance e ao Dynamics 365 Supply Chain Management. Futuramente, também será integrado ao Dynamics 365 Project Operations, Dynamics 365 Commerce e a outros aplicativos próprios e de terceiros.
 
 > [!IMPORTANT]
-> Ao habilitar o Cálculo de Imposto, algumas operações em dados relacionados podem ser executadas em um data center diferente do data center que mantém os dados do serviço. Revise os [Termos e Condições](../../fin-ops-core/fin-ops/get-started/public-preview-terms.md) antes de habilitar o Cálculo de Imposto. Sua privacidade é importante para nós. Para saber mais, leia nossa [política de privacidade](https://go.microsoft.com/fwlink/?LinkId=521839).
+> Ao habilitar o Cálculo de Imposto, algumas operações em dados relacionados podem ser executadas em um data center diferente do data center que mantém os dados do serviço. Revise os [Termos e Condições](https://go.microsoft.com/fwlink/?linkid=2156043) antes de habilitar o Cálculo de Imposto. Sua privacidade é importante para nós. Para saber mais, leia nossa [política de privacidade](https://go.microsoft.com/fwlink/?LinkId=521839).
 
 O Cálculo de Imposto é um mecanismo de imposto baseado em microsserviço que oferece escalabilidade exponencial e pode ajudá-lo a executar as seguintes tarefas:
 

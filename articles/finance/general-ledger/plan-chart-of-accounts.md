@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: aolson
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 6e797117199ff57cb4d3beae187ae7649579d33b
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: 10906d7b30628dfe69907cfa69ae1022fde33243
+ms.sourcegitcommit: 28a726b3b0726ecac7620b5736f5457bc75a5f84
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8853338"
+ms.lasthandoff: 06/29/2022
+ms.locfileid: "9070624"
 ---
 # <a name="plan-your-chart-of-accounts"></a>Planejar seu plano de contas
 
@@ -43,7 +43,7 @@ Veja alguns dos fatores que você deve considerar ao planejar a estrutura do pla
 Você cria o plano de contas na página **Plano de contas**. Você pode criar as contas principais na página **Plano de contas** ou na página **Contas principais**. Suas contas principais não devem usar caracteres especiais que são utilizados como delimitadores do plano de contas. Caso contrário, você pode se deparar com instabilidade, ou pode ser necessário sempre usar pesquisas ou a caixa de diálogo, ao inserir combinações de contas e dimensões. Para saber mais, consulte [Criar uma conta principal](tasks/create-main-account.md).
 
 > [!NOTE]
-> No Dynamics 365 for Finance and Operations versão 8.0 (Abril 2018), você pode modificar o delimitador de plano de contas da página **Parâmetros de contabilidade**.
+> Na versão 8.0 do Dynamics 365 Finance (abril de 2018), você pode modificar o delimitador de plano de contas da página **parâmetros de Contabilidade**.
 
 É recomendável vincular as contas principais a categorias de conta principal, de forma que você possa aproveitar as vantagens dos relatórios financeiros padrão sem ter que fazer modificações. Consequentemente, você poderá projetar e manter relatórios de forma mais rápida e fácil.
 
@@ -60,3 +60,4 @@ Para obter mais informações, consulte os seguintes tópicos:
 
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]
+

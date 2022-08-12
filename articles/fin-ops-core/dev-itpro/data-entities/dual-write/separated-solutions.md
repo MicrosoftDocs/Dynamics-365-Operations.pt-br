@@ -10,12 +10,12 @@ ms.custom: separate-solution
 ms.search.region: global
 ms.author: ramasri
 ms.search.validFrom: 2021-11-29
-ms.openlocfilehash: 504939f1f98c18005c092cabc1d040b420402c93
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: 28c321ee2815b2886c07bfb0996870e536458145
+ms.sourcegitcommit: 6781fc47606b266873385b901c302819ab211b82
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8874802"
+ms.lasthandoff: 07/02/2022
+ms.locfileid: "9111650"
 ---
 # <a name="separated-dual-write-application-orchestration-package"></a>Pacote de orquestração de aplicativos com gravação dupla separado
 
@@ -26,14 +26,14 @@ ms.locfileid: "8874802"
 Anteriormente, o pacote de orquestração de aplicativos com gravação dupla era um pacote único que continha as seguintes soluções:
 
 - Notas do Dynamics 365
-- Âncora do Dynamics 365 Finance and Operations Common
-- Mapas de Entidade de Gravação Dupla do Dynamics 365 Finance and Operations
+- Âncora Comum dos aplicativos de finanças e operações do Dynamics 365
+- Mapas de Entidade de Gravação Dupla do aplicativo de finanças e operações do Dynamics 365
 - Aplicativo de Gerenciamento de Ativos do Dynamics 365
 - Gerenciamento de Ativos do Dynamics 365
 - HCM comum
 - Dynamics 365 Supply Chain Extended
 - Dynamics 365 Finance Extended
-- Dynamics 365 Finance and Operations Common
+- Comum do aplicativo de finanças e operações do Dynamics 365
 - Dynamics 365 Company
 - Taxas de Câmbio
 - Field Service Common
@@ -247,7 +247,7 @@ O pacote do Notes com gravação dupla contém as soluções e os mapas necessá
 
 Os seguintes mapas estão disponíveis neste pacote.
 
-| Finance and Operations                     | Customer Engagement |
+| Finanças e operações                     | Customer Engagement |
 |--------------------------------------------|---------------------|
 | Anexos de documento de cabeçalho de ordem de venda    | anotações         |
 | Anexos do Cliente                       | anotações         |
@@ -344,3 +344,4 @@ As soluções de catálogo de endereços global e entidade de gravação dupla d
 - Pacote de núcleos de aplicativos com gravação dupla
 - Pacote do Finance com gravação dupla
 - Pacote do Supply Chain com gravação dupla
+

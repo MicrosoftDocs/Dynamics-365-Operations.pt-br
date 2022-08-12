@@ -16,12 +16,12 @@ ms.search.industry: ''
 ms.author: benebotg
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 76ad64c19fe088ec85fafba4a3276a4d8c23a18c
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: 9b0b53da17bd106be60966d856d29d81a1e57f91
+ms.sourcegitcommit: 28a726b3b0726ecac7620b5736f5457bc75a5f84
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8852350"
+ms.lasthandoff: 06/29/2022
+ms.locfileid: "9065507"
 ---
 # <a name="solver-strategy-for-product-configuration"></a>Estratégia do agente de resolução para configuração de produto
 
@@ -29,7 +29,7 @@ ms.locfileid: "8852350"
 
 Este artigo descreve como você pode usar a estratégia do agente de resolução para melhorar o desempenho da configuração de produto.
 
-O conceito de estratégias do agente de resolução foi apresentado pela primeira vez na atualização cumulativa 7 (CU7) do Microsoft Dynamics AX 2012 R2. Foi estendido na atualização cumulativa 8 (CU8) do Microsoft Dynamics AX 2012 R3 e do Microsoft Dynamics 365 for Finance and Operations, Enterprise edition 7.3.
+O conceito de estratégias do agente de resolução foi apresentado pela primeira vez na atualização cumulativa 7 (CU7) do Microsoft Dynamics AX 2012 R2. Foi estendido na atualização cumulativa 8 (CU8) do Microsoft Dynamics AX 2012 R3 e aplicativos de finanças e operações, Enterprise edition 7.3.
 
 O conceito de estratégia do agente de resolução agora consiste nas seguintes estratégias:
 

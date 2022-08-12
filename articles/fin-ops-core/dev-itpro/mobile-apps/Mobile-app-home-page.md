@@ -14,19 +14,19 @@ ms.search.region: Global
 ms.author: cgarty
 ms.dyn365.ops.version: Platform update 4
 ms.search.validFrom: 2017-02-28
-ms.openlocfilehash: d73a8d3cf8a7899f16db87148456671dea773636
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: 973fdcd81a83b6b70e8fa941c4f0c9d24b5cb559
+ms.sourcegitcommit: 28a726b3b0726ecac7620b5736f5457bc75a5f84
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8868749"
+ms.lasthandoff: 06/29/2022
+ms.locfileid: "9066443"
 ---
 # <a name="mobile-app-home-page"></a>Home page do aplicativo móvel
 
 [!include [banner](../includes/banner.md)]
 [!include [mobile app deprecation](../includes/mobile-app-deprecation-banner.md)]
 
-Este artigo descreve o aplicativo móvel de **finanças e operações (Dynamics 365)** e fornece links para recursos que podem ajudar você a implementá-lo em sua organização.
+Este artigo descreve o aplicativo móvel de **Finanças e operações (Dynamics 365)** e fornece links para recursos que podem ajudar você a implementá-lo em sua organização.
 
 ## <a name="overview"></a>Visão Geral
 
@@ -77,7 +77,7 @@ A tabela a seguir inclui links para recursos que podem ajudá-lo a implementar o
 <tr class="odd">
 <td>1</td>
 <td>Administrador do sistema</td>
-<td>Implemente o aplicativo de finanças e operações em sua organização.</td>
+<td>Implementar o aplicativo de finanças e operações em sua organização.</td>
 <td><ul><li>Caso ainda não tenha implantado uma versão do Microsoft Dynamics 365, consulte <a href="../deployment/deploy-demo-environment.md">Implantar um ambiente de demonstração</a>.</li><li>Para ver uma lista dos espaços de trabalho móveis que podem ser usados, consulte <a href="mobile-workspaces-released.md">Espaços de trabalho móveis lançados recentemente</a>.</li></ul></td>
 </tr>
 <tr class="even">
@@ -132,8 +132,8 @@ A tabela a seguir inclui links para recursos que podem ajudá-lo a implementar o
 <td>Usuário</td>
 <td>Baixe e instale o aplicativo móvel.</td>
 <td>
-<a href="https://go.microsoft.com/fwlink/?linkid=850662">Aplicativo do Finance and Operations para Android</a><BR/>
-<a href="https://go.microsoft.com/fwlink/?linkid=850663">Aplicativo do Finance and Operations para iOS</a><BR/>
+<a href="https://go.microsoft.com/fwlink/?linkid=850662">Aplicativo de finanças e operações para Android</a><BR/>
+<a href="https://go.microsoft.com/fwlink/?linkid=850663">Aplicativo de finanças e operações para iOS</a><BR/>
 (Windows Phone não tem suporte)
 </td>
 </tr>
@@ -152,3 +152,4 @@ A tabela a seguir inclui links para recursos que podem ajudá-lo a implementar o
 
 
 [!INCLUDE[footer-include](../../../includes/footer-banner.md)]
+

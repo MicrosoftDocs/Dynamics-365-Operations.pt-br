@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: perlynne
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: c0de12620bca54c7e43713138d7a152c2bd6edff3453f81cf779f9b875cf77eb
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: ca1c18a293d66ab78f41cac857461249826ce4c9
+ms.sourcegitcommit: 28a726b3b0726ecac7620b5736f5457bc75a5f84
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6714827"
+ms.lasthandoff: 06/29/2022
+ms.locfileid: "9069112"
 ---
 # <a name="unit-of-measure-and-stocking-policies"></a>Unidade de medida e políticas de estoque
 
@@ -28,7 +28,7 @@ ms.locfileid: "6714827"
 
 Este artigo descreve como as unidades padrão, as sequências de unidade e as conversões de unidade são usadas em processos de depósito.
 
-Os grupos de sequências de unidade definem a sequência de unidades que podem ser usadas em operações de depósito. São criados na página **Grupos de sequência de unidade**. A sequência mostra a relação das várias unidades. Por exemplo, você armazena os paletes que contêm as caixas, que contêm partes individuais de itens. Nesse caso, você deve fornecer as três diferentes unidades e a ordem lógica de camadas. Os grupos de sequências da unidade permitem definir políticas para o agrupamento de placas de licenças, e as unidades padrão que devem ser usadas para vários processos do depósito. Este artigo se aplica à solução de armazenamento avançado que está disponível no Gerenciamento de depósito e na solução de armazenamento mais básica que está disponível no Gerenciamento de estoque.
+Os grupos de sequências de unidade definem a sequência de unidades que podem ser usadas em operações de depósito. São criados na página **Grupos de sequência de unidade**. A sequência mostra a relação das várias unidades. Por exemplo, você armazena os paletes que contêm as caixas, que contêm partes individuais de itens. Nesse caso, você deve fornecer as três diferentes unidades e a ordem lógica de camadas. Os grupos de sequências da unidade permitem definir políticas para o agrupamento de placas de licenças, e as unidades padrão que devem ser usadas para vários processos do depósito. Este artigo é relevante para os processos de gerenciamento de depósito (WMS) disponíveis no módulo de gerenciamento de depósito e a solução de armazenamento mais básica do módulo Gerenciamento de estoque.
 
 ## <a name="unit-sequence-groups-for-released-products"></a>Grupos de sequências da unidade para produtos liberados
 Se quiser usar produtos liberados nos processos de trabalho de depósito, um grupo de sequências da unidade deverá ser atribuído. Se você validar um produto que está associado a um Grupo de dimensões de armazenamento e a opção **Usar processos de gerenciamento de depósito** para o Grupo de dimensões de armazenamento for definida como **Sim**, você receberá uma mensagem de erro se uma ID de grupo de sequências da unidade não for definida para o produto. Se o grupo de sequências da unidade que você usa contiver várias linhas (e consequentemente várias unidades), você deverá configurar uma conversão de unidades entre as unidades. Você conclui esta configuração na página **Conversões de unidade**. A menor unidade em um grupo de sequências que você associa a um produto liberado deverá corresponder à unidade de estoque que é definida para o produto correspondente. A unidade de estoque é a unidade usada em cálculos de base do estoque disponível. Você também pode configurar as conversões de unidade de medida para variantes do produto de produtos mestre usando a opção **Habilitar as conversões de unidade de medida**.

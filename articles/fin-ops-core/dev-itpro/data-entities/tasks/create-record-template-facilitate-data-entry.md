@@ -1,24 +1,24 @@
 ---
 title: Criar um modelo de registro para facilitar a entrada de dados
 description: Este artigo demonstra como criar um modelo de registro para que os valores de campo usados frequentemente não tenham que ser inseridos explicitamente para cada novo registro.
-author: margoc
+author: peakerbl
 ms.date: 07/29/2019
 ms.topic: business-process
 ms.prod: ''
 ms.technology: ''
-ms.search.form: AssetTable, SysRecordInfo, SysRecordTemplatePromptOnCreate
 audience: Application User
 ms.reviewer: sericks
 ms.search.region: Global
-ms.author: margoc
+ms.author: peakerbl
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 43bbc790d0e3145ffc9d7cb9dda7b8b3f7048e23
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.search.form: AssetTable, SysRecordInfo, SysRecordTemplatePromptOnCreate
+ms.openlocfilehash: 77d10d3c7811ef8ed4b503759ff6a9b3b4f1a840
+ms.sourcegitcommit: 3c4dd125ed321af8a983e89bcb5bd6e5ed04a762
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8880186"
+ms.lasthandoff: 07/28/2022
+ms.locfileid: "9206278"
 ---
 # <a name="create-a-record-template-to-facilitate-data-entry"></a>Criar um modelo de registro para facilitar a entrada de dados
 

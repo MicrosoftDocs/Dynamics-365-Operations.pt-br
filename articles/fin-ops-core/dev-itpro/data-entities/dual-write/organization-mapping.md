@@ -9,12 +9,12 @@ ms.reviewer: tfehr
 ms.search.region: global
 ms.author: ramasri
 ms.search.validFrom: 2019-07-15
-ms.openlocfilehash: a4edaf5b9c50e9d8781ff703328ac786d71ee782
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: 2f900637855bee3e21916652a373c683e6bf1392
+ms.sourcegitcommit: 6781fc47606b266873385b901c302819ab211b82
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8884722"
+ms.lasthandoff: 07/02/2022
+ms.locfileid: "9112008"
 ---
 # <a name="organization-hierarchy-in-dataverse"></a>Hierarquia da organização no Dataverse
 
@@ -28,11 +28,11 @@ Embora o Dataverse não tenha o conceito de uma hierarquia da organização, ele
 
 ## <a name="data-flow"></a>Fluxo de dados
 
-Um ecossistema comercial que consiste em aplicativos do Finance and Operations e no Dataverse continuará a ter uma hierarquia da organização. Essa hierarquia da organização é criada nos aplicativos do Finance and Operations, mas é exposta no Dataverse para fins informativos e de extensibilidade. A ilustração a seguir mostra informações da hierarquia da organização que é exposta no Dataverse como um fluxo de dados unidirecional de aplicativos do Finance and Operations para o Dataverse.
+Um ecossistema comercial que consiste em aplicativos de finanças e operações e no Dataverse continuará a ter uma hierarquia da organização. Essa hierarquia da organização é criada nos aplicativos de finanças e operações, mas é exposta no Dataverse para fins informativos e de extensibilidade. A ilustração a seguir mostra informações da hierarquia da organização que é exposta no Dataverse como um fluxo de dados unidirecional de aplicativos de finanças e operações para o Dataverse.
 
 ![Imagem de arquitetura.](media/dual-write-data-flow.png)
 
-Os mapas da tabela da hierarquia da organização estão disponíveis para sincronização unidirecional de dados de aplicativos de Finanças e Operações para o Dataverse.
+Os mapas da tabela da hierarquia da organização estão disponíveis para sincronização unidirecional de dados de aplicativos de finanças e operações para o Dataverse.
 
 ## <a name="templates"></a>Modelos
 
@@ -52,3 +52,4 @@ Aplicativos do Finance and Operations | Aplicativos do Customer Engagement     |
 As informações internas da organização no Dataverse vêm de duas tabelas, **Unidade operacional** e **Entidades legais**.
 
 [!INCLUDE[footer-include](../../../../includes/footer-banner.md)]
+

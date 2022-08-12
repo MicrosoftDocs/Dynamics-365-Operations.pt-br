@@ -10,12 +10,12 @@ ms.search.region: Global
 ms.author: kamaybac
 ms.search.validFrom: 2021-02-01
 ms.dyn365.ops.version: 10.0.25
-ms.openlocfilehash: af344d3771583a99851c070e3735258ac964b5d7
-ms.sourcegitcommit: 78576abe5c7cbab1bb69d26c999b038e8c24873a
+ms.openlocfilehash: c54534ae32aa037f36a16600a058bca6d433002c
+ms.sourcegitcommit: 5b34b41ae74269ba639e2876bc5862ef468da1cc
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/13/2022
-ms.locfileid: "8954481"
+ms.lasthandoff: 07/15/2022
+ms.locfileid: "9167721"
 ---
 # <a name="whats-new-or-changed-in-dynamics-365-supply-chain-management-10025-april-2022"></a>Novidades ou alterações no Dynamics 365 Supply Chain Management 10.0.25 (Abril de 2022)
 
@@ -36,8 +36,7 @@ A tabela a seguir lista os recursos incluídos nesta versão. Podemos atualizar 
 | Estoque&nbsp;e&nbsp;logística | [Aprimoramentos nos materiais perigosos](/dynamics365-release-plan/2022wave1/finance-operations/dynamics365-supply-chain-management/hazardous-materials-enhancements) | Em breve | Gerenciamento de recursos:<br>*Aprimoramentos nos materiais perigosos* |
 | Estoque&nbsp;e&nbsp;logística | [Trabalho de embalagem para estações de embalagem](/dynamics365-release-plan/2022wave1/finance-operations/dynamics365-supply-chain-management/packing-work-packing-stations) | Em breve | Gerenciamento de recursos:<br>*Trabalho de embalagem para estações de embalagem* |
 | Estoque&nbsp;e&nbsp;logística | [Digitalizar códigos de barras no depósito usando padrões de formato GS1](/dynamics365-release-plan/2022wave1/finance-operations/dynamics365-supply-chain-management/scan-barcodes-warehouse-using-gs1-format-standards) | [Códigos de barras de GS1 e códigos QR](../warehousing/gs1-barcodes.md) | Gerenciamento de recursos:<br>*Digitalizar códigos de barras GS1* |
-| Fabricação | [Reservas e consumo de material na interface de execução do piso de produção](/dynamics365-release-plan/2022wave1/finance-operations/dynamics365-supply-chain-management/material-consumption-reservations-production-floor-execution-interface) | [Como os trabalhadores usam a interface de execução de piso de produção](../production-control/production-floor-execution-use.md) | Gerenciamento de recursos:<br>*(Versão preliminar) Registrar consumo de material na interface de execução do piso de produção (não WMS)*<br><br>E/ou:<br><br>Gerenciamento de recursos:<br>*(Versão preliminar) Registrar consumo de materiais na interface de execução de piso de produção (habilitado para WMS)* |
-| Fabricação | [Registrar consumo de materiais em unidades de escala](/dynamics365-release-plan/2022wave1/finance-operations/dynamics365-supply-chain-management/register-material-consumption-scale-units) | [Cargas de trabalho de execução de fabricação para unidades de escala de nuvem e borda](../cloud-edge/cloud-edge-workload-manufacturing.md) | Gerenciamento de recursos:<br>*Registrar consumo de materiais no aplicativo móvel em uma unidade de escala* |
+| Fabricação | [Reservas e consumo de material na interface de execução do piso de produção](/dynamics365-release-plan/2022wave1/finance-operations/dynamics365-supply-chain-management/material-consumption-reservations-production-floor-execution-interface) | [Como os trabalhadores usam a interface de execução de piso de produção](../production-control/production-floor-execution-use.md) | Gerenciamento de recursos:<br>*Registrar consumo de material na interface de execução do piso de produção (não WMS)*<br><br>E/ou:<br><br>Gerenciamento de recursos:<br>*(Versão preliminar) Registrar consumo de materiais na interface de execução de piso de produção (habilitado para WMS)* |
 | Planejamento | [Manutenção centralizada do calendário para otimização de planejamento](/dynamics365-release-plan/2022wave1/finance-operations/dynamics365-supply-chain-management/planning-optimization-centralized-calendar-maintenance) | [Calendários e planejamento mestre](../master-planning/supply-chain-calendars-master-planning.md) | Habilitado por padrão |
 | Planejamento | [Planejando sugestões de otimização para otimizar fornecimento existente](/dynamics365-release-plan/2022wave1/finance-operations/dynamics365-supply-chain-management/planning-optimization-suggestions-optimize-existing-supply) | [Mensagens de ação](../master-planning/action-messages.md) | Habilitado por padrão |
 | Planejamento | Ordens planejadas simplificadas | [Ordens planejadas simplificadas](../master-planning/planning-optimization/planned-orders-simplified.md ) | Gerenciamento de recursos:<br>*Ordens planejadas simplificadas* |
@@ -183,9 +182,9 @@ A tabela também lista recursos que anteriormente estavam na versão preliminar 
 
 ## <a name="additional-resources"></a>Recursos adicionais
 
-### <a name="platform-updates-for-finance-and-operations-apps"></a>Atualizações da plataforma para aplicativos do Finanças e operações
+### <a name="platform-updates-for-finance-and-operations-apps"></a>Atualizações da plataforma para aplicativos de finanças e operações
 
-O Microsoft Dynamics 365 Supply Chain Management 10.0.25 inclui atualizações de plataforma. Para saber mais, consulte [Atualizações de plataforma para a versão 10.0.25 dos aplicativos de Finanças e Operações (abril de 2022)](../../fin-ops-core/dev-itpro/get-started/whats-new-platform-updates-10-0-25.md).
+O Microsoft Dynamics 365 Supply Chain Management 10.0.25 inclui atualizações de plataforma. Para saber mais, consulte [Atualizações da plataforma para a versão 10.0.25 dos aplicativos de finanças e operações (abril de 2022)](../../fin-ops-core/dev-itpro/get-started/whats-new-platform-updates-10-0-25.md).
 
 ### <a name="bug-fixes"></a>Correções de bug
 
@@ -209,3 +208,4 @@ Antes que qualquer recurso seja removido do produto, o aviso de substituição s
 Para as últimas alterações que afetam somente o tempo de compilação, mas são compatíveis binárias com a área restrita e os ambientes de produção, o tempo de substituição será inferior a 12 meses. Normalmente, essas são atualizações funcionais que precisam ser feitas no compilador.
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]
+

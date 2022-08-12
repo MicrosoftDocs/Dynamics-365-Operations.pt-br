@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: twheeloc
 ms.search.validFrom: 2021-29-11
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 0c9efae1061e96c0c42d5ca6a100bb36889ce56b
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: 9640f460ed7b0b1a0cfdffb7c318bf833f8627fc
+ms.sourcegitcommit: 28a726b3b0726ecac7620b5736f5457bc75a5f84
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8859656"
+ms.lasthandoff: 06/29/2022
+ms.locfileid: "9065283"
 ---
 # <a name="create-links-from-human-resources-to-another-finance-environment"></a>Criar links do Human Resources para outro ambiente do Finance
 
@@ -53,7 +53,7 @@ Cada link criado terá as seguintes informações definidas:
 
    Para localizar o item de menu necessário:
    1. Acesse o ambiente do Finance e a página que é o destino da navegação. 
-   2. Copie o item de menu da URL. Por exemplo, se desejar que o link execute a lista de funcionários em Finance and Operations, insira o valor que surge após "&mi" na URL. 
+   2. Copie o item de menu da URL. Por exemplo, se desejar que o link execute a lista de funcionários em finanças e operações, insira o valor que aparece após "&mi" na URL. 
    3. O item de menu para navegar para a página de listagem de funcionário neste exemplo é: HcmWorkerListPage_Employees.
 
  - **Link para fonte de dados**: selecione a fonte de dados com o qual o link está fazendo referência. As origens mais comuns como **Trabalhador** e **Posição** estão disponíveis.
@@ -63,4 +63,5 @@ Cada link criado terá as seguintes informações definidas:
 Os administradores de sistema verão links recém-criados em páginas definidas se a opção **Habilitar esse link** estiver definida como **Não**. Isso pode ser usado antes testando links para aparecerem para outros funcionários. Todas funções restantes considerarão links configurados somente depois que a opção **Habilitar esse link** estiver definida como **Sim**. Os funcionários que têm acesso a páginas dos links terão acesso aos links.
 
 Os usuários também devem ter direitos de segurança no ambiente secundário definido para acessar as páginas nesse ambiente. Se não tiverem, uma caixa de diálogo de segurança será exibida usando o link.
+
 

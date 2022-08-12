@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: johanho
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: 953a3bfec70235524067a47b8764f6dbb40d3c7b
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: 357ce65792ceef37abda523e7693069f1bc1ab43
+ms.sourcegitcommit: 28a726b3b0726ecac7620b5736f5457bc75a5f84
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8849290"
+ms.lasthandoff: 06/29/2022
+ms.locfileid: "9065544"
 ---
 # <a name="flushing-principles"></a>Princípios de liberação
 
@@ -50,9 +50,9 @@ Os princípios de liberação são configurados em uma hierarquia de valores pad
 ## <a name="description-of-the-flushing-principles"></a>Descrição dos princípios de liberação
 
 ### <a name="manual"></a>Manual
-O princípio de liberação Manual indica que o registro de consumo de materiais é uma operação manual. Esse princípio será relevante, por exemplo, se você quiser controlar o tempo e se a quantidade de números de lote ou números de série tiver de ser contabilizada para fins de rastreamento. O consumo manual é registrado em um diário de lista de separação de produção. Para os itens habilitados para processos avançados de depósito, um fluxo portátil poderá ser aplicado.
+O princípio de liberação Manual indica que o registro de consumo de materiais é uma operação manual. Esse princípio será relevante, por exemplo, se você quiser controlar o tempo e se a quantidade de números de lote ou números de série tiver de ser contabilizada para fins de rastreamento. O consumo manual é registrado em um diário de lista de separação de produção. Para os itens habilitados para processos de gerenciamento de depósito (WMS), um fluxo portátil poderá ser aplicado.
 
-### <a name="start"></a>Início
+### <a name="start"></a>Inicial
 O princípio de liberação Inicial indica se o material será consumido automaticamente quando a ordem de produção for iniciada. O valor do material consumido é proporcional à quantidade iniciada. Quando o princípio de liberação Inicial for usado com o sistema de execução de fabricação, também poderá ser usado para liberar materiais quando uma operação ou um trabalho de processo for iniciado. Esse princípio será relevante, por exemplo, se a variação no consumo for baixa, se os materiais forem de baixo valor, se não houver requisitos de rastreamento ou se houver um tempo de execução curto em operações. 
 
 ### <a name="finish"></a>Concluir

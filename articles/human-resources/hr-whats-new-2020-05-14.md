@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: jaredha
 ms.search.validFrom: 2020-05-14
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 308dd4fc75ab656359e80b518cec00fc74d42ea6
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: 5a139134fe5122e29b7087bca5ff2ee998fd4669
+ms.sourcegitcommit: 28a726b3b0726ecac7620b5736f5457bc75a5f84
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8852933"
+ms.lasthandoff: 06/29/2022
+ms.locfileid: "9070132"
 ---
 # <a name="whats-new-or-changed-in-dynamics-365-human-resources-may-14-2020"></a>Novidades ou alterações no Dynamics 365 Human Resources (14 de maio de 2020)
 
@@ -31,7 +31,7 @@ Este artigo descreve os recursos novos ou alterados no Dynamics 365 Human Resour
 
 ## <a name="platform-changes"></a>Alterações na plataforma
 
-As alterações de plataforma são incluídas na versão desta semana. Para mais informações, consulte [Atualizações de plataforma para a versão 10.0.10 dos aplicativos de Finanças e Operações (maio de 2020)](../fin-ops-core/dev-itpro/get-started/whats-new-platform-update-34.md). Esta versão inclui correções de bug e alterações nas exibições salvas.
+As alterações de plataforma são incluídas na versão desta semana. Para mais informações, consulte [Atualizações de plataforma para a versão 10.0.10 dos aplicativos de finanças e operações (maio de 2020)](../fin-ops-core/dev-itpro/get-started/whats-new-platform-update-34.md). Esta versão inclui correções de bug e alterações nas exibições salvas.
  
 ## <a name="ensure-dataverse-picklists-are-consistent-with-leave-enums-436343"></a>Verifique se as listas de separação do Dataverse estão consistentes com as enumerações Licença (436343)
 

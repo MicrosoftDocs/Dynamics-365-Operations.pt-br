@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: richdi
 ms.search.validFrom: 2018-3-30
 ms.dyn365.ops.version: Platform update 15
-ms.openlocfilehash: 4b63ac8a09efb9ab449b651d030bd14a24d5cc36
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: b81eb8e0be4c7d7357a6b8b7b5f0ac025b9ab8ca
+ms.sourcegitcommit: 873d66c03a51ecb7082e269f30f5f980ccd9307f
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8850054"
+ms.lasthandoff: 07/06/2022
+ms.locfileid: "9124248"
 ---
 # <a name="alerts-overview"></a>Visão geral dos alertas
 
@@ -77,13 +77,13 @@ Uma regra de alerta tem cinco componentes:
 
 > [!VIDEO https://www.microsoft.com/videoplayer/embed/RE3DWZ3]
 
-O vídeo [Como usar alertas para monitorar dados filtrados](https://youtu.be/ZYKMcv6kl9s) (exibido acima) está incluído na [playlist Finance and Operations](https://www.youtube.com/playlist?list=PLcakwueIHoT_SYfIaPGoOhloFoCXiUSyW) disponível no YouTube.
+O vídeo [Como usar alertas para monitorar dados filtrados](https://youtu.be/ZYKMcv6kl9s) (exibido acima) está incluído na [playlist de finanças e operações](https://www.youtube.com/playlist?list=PLcakwueIHoT_SYfIaPGoOhloFoCXiUSyW) disponível no YouTube.
 
 ### <a name="alert-rule-options"></a>Opções de regras de alerta
 
 > [!VIDEO https://www.microsoft.com/videoplayer/embed/RE3E4PV]
 
-O vídeo [Opções de regras de alerta](https://youtu.be/cpzimwOjicM) (mostrado acima) está incluído na [playlist Finance and Operations](https://www.youtube.com/playlist?list=PLcakwueIHoT_SYfIaPGoOhloFoCXiUSyW) disponível no YouTube.
+O vídeo [Opções de regras de alerta](https://youtu.be/cpzimwOjicM) (mostrado acima) está incluído na [playlist de finanças e operações](https://www.youtube.com/playlist?list=PLcakwueIHoT_SYfIaPGoOhloFoCXiUSyW) disponível no YouTube.
 
 
 

@@ -1,6 +1,6 @@
 ---
-title: Novidades ou alterações na home page dos aplicativos de Finanças e Operações
-description: Esta página indica tópicos que podem ajudar você a conhecer os novos recursos das versões mais recentes dos aplicativos do Finance and Operations.
+title: Novidades ou alterações na home page dos aplicativos de finanças e operações
+description: Esta página indica tópicos sobre os novos recursos das versões mais recentes dos aplicativos de finanças e operações.
 author: josaw1
 ms.date: 02/14/2020
 ms.topic: article
@@ -17,21 +17,21 @@ ms.search.region: Global
 ms.author: josaw
 ms.search.validFrom: 2016-09-30
 ms.dyn365.ops.version: Platform update 2
-ms.openlocfilehash: 2430e75897a8ddc78a6b1b9288b23458aa44108a
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: 0dc3b9b39fb5cb3aaae1247f0229d802410ea5f8
+ms.sourcegitcommit: 873d66c03a51ecb7082e269f30f5f980ccd9307f
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8908217"
+ms.lasthandoff: 07/06/2022
+ms.locfileid: "9125106"
 ---
-# <a name="whats-new-or-changed-in-finance-and-operations-apps-home-page"></a>Novidades ou alterações na home page dos aplicativos de Finanças e Operações
+# <a name="whats-new-or-changed-in-finance-and-operations-apps-home-page"></a>Novidades ou alterações na home page dos aplicativos de finanças e operações
 
 [!include [banner](../includes/banner.md)]
 
 
 ## <a name="application-releases"></a>Versões do aplicativo
 
-Para ver o que há de novo ou alterado em cada versão de um aplicativo de Finanças e Operações, consulte os seguintes tópicos:
+Para ver as novidades e o que mudou em cada versão de um aplicativo de finanças e operações, consulte os seguintes tópicos:
 
 - **Finance:** [Novidades ou alterações no Dynamics 365 Finance](../../../finance/get-started/whats-new-home-page.md)
 - **Recursos Humanos (infra-estrutura mesclada):** [O que há de novo ou alterado no Microsoft Dynamics 365 Human Resources](../../../human-resources/get-started/hr-whats-new-changed-10-0-26.md)  
@@ -60,3 +60,4 @@ Para ver o que há de novo ou alterado no Lifecycle Services, consulte o seguint
 
 
 [!INCLUDE[footer-include](../../../includes/footer-banner.md)]
+

@@ -12,12 +12,12 @@ ms.search.region: Global
 ms.author: mirzaab
 ms.search.validFrom: 2021-03-08
 ms.dyn365.ops.version: 10.0.18
-ms.openlocfilehash: 2a64cba837faf84f3e8470a9831d1641213a5cc4
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: e02cd80a3b7692f496fc70e50b812fae358103bc
+ms.sourcegitcommit: 28a726b3b0726ecac7620b5736f5457bc75a5f84
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8909602"
+ms.lasthandoff: 06/29/2022
+ms.locfileid: "9067841"
 ---
 # <a name="warehouse-parameters-for-wave-processing"></a>Parâmetros de depósito para o processamento do ciclo
 
@@ -52,7 +52,7 @@ Para configurar parâmetros de depósito para o processamento do ciclo, siga est
 > [!NOTE]
 > No modelo de onda usado para processar a onda, você pode especificar as configurações que automatizam o processamento de onda. Se você configurar um plano para o trabalho em lotes, deverá coordenar o tempo com as configurações para a automação no modelo de onda. Para obter mais informações, consulte [Criar um modelo do ciclo](wave-templates.md).
 >
-> Se estiver usando *Gerenciamento de transporte* e *Gerenciamento de depósito avançado*, você poderá especificar se haverá a consolidação de cargas no processamento de um ciclo. Por exemplo, isso será útil quando várias cargas pequenas puderem ser enviadas ao mesmo tempo. Para consolidar cargas ao processar um ciclo, na guia **Cargas**, marque a caixa de seleção **Consolidar cargas durante o processamento do ciclo**.</P>
+> Se estiver usando *Gerenciamento de transporte* e *processos de gerenciamento de depósito (WMS)*, você poderá especificar se haverá a consolidação de cargas no processamento de um ciclo. Por exemplo, isso será útil quando várias cargas pequenas puderem ser enviadas ao mesmo tempo. Para consolidar cargas ao processar um ciclo, na guia **Cargas**, marque a caixa de seleção **Consolidar cargas durante o processamento do ciclo**.</P>
 
 ## <a name="set-up-full-or-partial-reservation-for-production-waves"></a>Configurar a reserva total ou parcial de ciclos de produção
 

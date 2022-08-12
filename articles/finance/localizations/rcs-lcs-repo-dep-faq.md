@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: janeaug
 ms.search.validFrom: 2020-05-01
 ms.dyn365.ops.version: AX 10.0.19
-ms.openlocfilehash: 4a35941d1521d26f95bacf29213fee42daeb42ab
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: 65d45eaf618075e0c78881634fc77bda0fab277e
+ms.sourcegitcommit: 28a726b3b0726ecac7620b5736f5457bc75a5f84
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8849721"
+ms.lasthandoff: 06/29/2022
+ms.locfileid: "9065664"
 ---
 # <a name="regulatory-configuration-service-rcs--lifecycle-services-lcs-storage-deprecation"></a>Regulatory Configuration Service (RCS) - Suspensão do armazenamento do Lifecycle Services (LCS)
 
@@ -29,8 +29,8 @@ ms.locfileid: "8849721"
 O uso do Microsoft Dynamics Lifecycle Services (LCS) como repositório de armazenamento para configurações do ER (Relatório Eletrônico) está sendo suspenso. Esta suspensão envolverá as seguintes mudanças:
 
 - As configurações feitas pela Microsoft que são usadas nos aplicativos do Microsoft Dynamics 365 não serão publicadas na Biblioteca de ativos compartilhados no LCS. Em vez disso, elas serão publicadas somente por meio do repositório Global do RCS. No entanto, as configurações para o Dynamics AX 2012 continuarão sendo publicadas na Biblioteca de ativos compartilhados no LCS até que o ciclo de vida de suporte para o AX 2012 termine.
-- Será desativada a funcionalidade que permite a você carregar configurações à Biblioteca de ativos de projeto no LCS de aplicativos de finanças e operações e do RCS. No entanto, você ainda poderá usar o navegador no LCS para carregar configurações na Biblioteca de ativos de projetos. No entanto, você ainda poderá adicionar o navegador ao LCS para que elas sejam incluídas nos pacotes de solução.
-- A importação das configurações a partir do LCS continuará disponível e com suporte nos aplicativos de finanças e operações e no RCS por algum tempo. No entanto, essa funcionalidade será suspensa eventualmente. (A data exata da suspensão será anunciada posteriormente.)
+- Será desativada a funcionalidade que permite que você carregue configurações na Biblioteca de ativos de projeto no LCS de aplicativos de finanças e operações e do RCS. No entanto, você ainda poderá usar o navegador no LCS para carregar configurações na Biblioteca de ativos de projetos. No entanto, você ainda poderá adicionar o navegador ao LCS para que elas sejam incluídas nos pacotes de solução.
+- A importação das configurações do LCS continuará disponível e com suporte nos aplicativos de finanças e operações e no RCS durante algum tempo. No entanto, essa funcionalidade será suspensa eventualmente. (A data exata da suspensão será anunciada posteriormente.)
 
 ## <a name="deprecation-notice"></a>Aviso de suspensão
 
@@ -73,7 +73,7 @@ Use o Repositório de globalização para as seguintes finalidades:
 
 ### <a name="does-this-change-mean-that-lcs-cant-be-used-as-central-storage-for-configurations"></a>Esta mudança significa que o LCS não pode ser usado como armazenamento central para configurações?
 
-Sim. Será suspensa a funcionalidade que permite a você carregar configurações à Biblioteca de ativos de projeto no LCS de aplicativos de finanças e operações. No entanto, você ainda pode usar o navegador no LCS para carregar configurações na Biblioteca de ativos de projetos conforme necessário.
+Sim. Será suspensa a funcionalidade que permite a você carregar configurações na Biblioteca de ativos de projeto no LCS de aplicativos de finanças e operações. No entanto, você ainda pode usar o navegador no LCS para carregar configurações na Biblioteca de ativos de projetos conforme necessário.
 
 ### <a name="i-thought-that-rcs-was-a-replacement-repository-for-importing-global-template-files-i-didnt-think-that-its-used-to-store-configurations-which-is-correct"></a>Eu pensei que o RCS fosse um repositório substituto para importar arquivos de modelo global. Eu não achei que ele fosse usado para armazenar configurações. Qual opção está correta?
 

@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: kailiang
 ms.search.validFrom: 2021-04-01
 ms.dyn365.ops.version: 10.0.18
-ms.openlocfilehash: 281ee90b7cae2d24d37d0684ad9975118560bb3e
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: b611abb2d68d93178d0c26ba40b22f1b8d26b191
+ms.sourcegitcommit: 6d9fcb52d723ac5022a3002e0ced8e7b56e9bc2a
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8869971"
+ms.lasthandoff: 07/27/2022
+ms.locfileid: "9203099"
 ---
 # <a name="tax-feature-support-for-transfer-orders"></a>Suporte a recursos de imposto para ordens de transferência
 
@@ -111,7 +111,10 @@ Siga estas etapas para configurar o imposto envolvido em uma ordem de transferê
 6. Defina a aplicabilidade do grupo de impostos de item.
 
     1. Selecione **Gerenciar colunas** e selecione as colunas que devem ser usadas para criar a tabela de aplicabilidade.
-    2. Inclua regras de aplicabilidade. Não deixe o campo **Grupo de Impostos do Item** em branco.
+    2. Inclua regras de aplicabilidade.
+        
+       > [!NOTE]
+       > Se o grupo de impostos sobre vendas de itens padrão nas linhas do documento tributável já estiver correto, deixe esta matriz em branco. 
         
         Inclua uma nova regra para a remessa e recebimento da ordem de transferência.
         1. Na página **Regras de aplicabilidade**, selecione **Adicionar**.

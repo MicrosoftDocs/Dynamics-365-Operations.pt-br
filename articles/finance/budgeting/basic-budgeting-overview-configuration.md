@@ -1,6 +1,6 @@
 ---
 title: Visão geral de orçamento
-description: Quase todas as empresas que usam a funcionalidade Finanças no Microsoft Dynamics 365 Finance precisarão ser capazes de criar relatórios de orçamento versus valores reais. Este artigo explica a configuração mínima necessária para criar orçamentos no Finance and Operations ou carregá-los no programa de um terceiro.
+description: Quase todas as empresas que usam a funcionalidade Finanças no Microsoft Dynamics 365 Finance precisarão ser capazes de criar relatórios de orçamento versus valores reais. Este artigo explica a configuração mínima necessária para criar orçamentos em finanças e operações ou carregá-los no programa de um terceiro.
 author: panolte
 ms.date: 04/29/2021
 ms.topic: overview
@@ -17,20 +17,20 @@ ms.search.region: global
 ms.author: panolte
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 48fcfec7126b4835b7d05e431bbc6ad7b9176bbe
-ms.sourcegitcommit: 04e6c1c9400e1b582180cf3e0e4767434e736c26
+ms.openlocfilehash: 380afc399a050215bb2d7b1e5ddb20088226f654
+ms.sourcegitcommit: 28a726b3b0726ecac7620b5736f5457bc75a5f84
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/05/2022
-ms.locfileid: "8710403"
+ms.lasthandoff: 06/29/2022
+ms.locfileid: "9068950"
 ---
-# <a name="budgeting-overview"></a>Visão geral de orçamento 
+# <a name="budgeting-overview"></a>Visão geral de orçamento
 
 [!include [banner](../includes/banner.md)]
 
-Quase todas as empresas que usam a funcionalidade Finanças no Microsoft Dynamics 365 Finance precisarão ser capazes de criar relatórios de orçamento versus valores reais. Este artigo explica a configuração mínima necessária para criar orçamentos no Finance and Operations ou carregá-los no programa de um terceiro.
+Quase todas as empresas que usam a funcionalidade Finanças no Microsoft Dynamics 365 Finance precisarão ser capazes de criar relatórios de orçamento versus valores reais. Este artigo explica a configuração mínima necessária para criar orçamentos em finanças e operações ou carregá-los no programa de um terceiro.
 
-## <a name="overview"></a>Visão Geral
+## <a name="overview"></a>Visão geral
 
 O orçamento aprovado para uma entidade legal é mantido em um documento que é conhecido como *entrada de registro de orçamento*. As linhas de um documento de entrada de registros de orçamento são conhecidas como entradas da *conta de orçamento* e contêm informações de dimensão financeira, datas e os valores de orçamento aprovado. O documento de entrada do registro de orçamento é integrado às páginas de relatórios financeiros básicos e de consulta onde os valores reais do razão são comparados aos valores de orçamento. 
 
@@ -89,3 +89,4 @@ Uma empresa que está usando a funcionalidade de planejamento de orçamento pode
 
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]
+

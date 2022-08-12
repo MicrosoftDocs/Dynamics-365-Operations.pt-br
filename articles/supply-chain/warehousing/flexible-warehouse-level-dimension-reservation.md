@@ -13,18 +13,18 @@ ms.search.region: Global
 ms.author: perlynne
 ms.search.validFrom: 2020-01-15
 ms.dyn365.ops.version: 10.0.13
-ms.openlocfilehash: fb42d4ccd2d8797a34f6351caf7dedbc1e957fd5
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: d515fb46dcc2d135412d140b98f0578cae89c409
+ms.sourcegitcommit: 28a726b3b0726ecac7620b5736f5457bc75a5f84
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8885802"
+ms.lasthandoff: 06/29/2022
+ms.locfileid: "9065888"
 ---
 # <a name="flexible-warehouse-level-dimension-reservation-policy"></a>Política flexível de reserva de dimensão no nível de depósito
 
 [!include [banner](../includes/banner.md)]
 
-Quando uma hierarquia de reservas de estoque do tipo *Abaixo do lote\[local\]* estiver associada a produtos, as empresas que vendem produtos rastreados por lote e executam suas logísticas como operações que são habilitadas para o Microsoft Dynamics 365 Warehouse Management System (WMS) não podem reservar lotes específicos desses produtos para ordens de venda do cliente.
+Quando uma hierarquia de reservas de estoque do tipo *Abaixo do lote\[local\]* estiver associada a produtos, as empresas que vendem produtos rastreados por lote e executam suas logísticas como operações que são habilitadas para os processos de gerenciamento de depósito (WMS) não podem reservar lotes específicos desses produtos para ordens de venda do cliente.
 
 De forma semelhante, as placas de licença específicas não podem ser reservadas para produtos em ordens de venda quando esses produtos são associados à hierarquia de reserva padrão.
 

@@ -1,6 +1,6 @@
 ---
 title: Gerenciamento de qualidade para processos de depósito
-description: Este artigo fornece informações sobre o recurso Gestão de qualidade para processos de depósito. Ele amplia os recursos de gerenciamento da qualidade e permite que os usuários integrem controles de amostragem de item ao processo de recebimento do depósito, usando o gerenciamento avançado de depósito.
+description: Este artigo fornece informações sobre o recurso Gestão de qualidade para processos de depósito. Ele amplia os recursos de gerenciamento da qualidade e permite que os usuários integrem controles de amostragem de item ao processo de recebimento do depósito, usando os processos de gerenciamento de depósito (WMS).
 author: yufeihuang
 ms.date: 03/23/2021
 ms.topic: article
@@ -12,18 +12,18 @@ ms.search.region: Global
 ms.author: yufeihuang
 ms.search.validFrom: 2020-04-02
 ms.dyn365.ops.version: 10.0.10
-ms.openlocfilehash: 7f806b58c5e956e4f26158e8ea5c90a559296655
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: 13c9bf522ededb5896c5f8462bfe123e9a9edb2c
+ms.sourcegitcommit: 28a726b3b0726ecac7620b5736f5457bc75a5f84
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8857827"
+ms.lasthandoff: 06/29/2022
+ms.locfileid: "9069232"
 ---
-# <a name="quality-management-for-warehouse-processes"></a>Gestão de qualidade para processos de depósito
+# <a name="quality-management-for-warehouse-processes"></a>Gerenciamento de qualidade para processos de depósito
 
 [!include [banner](../includes/banner.md)]
 
-O recurso _Gestão de qualidade para processos de depósito_ permite integrar controles de amostragem de item ao processo de recebimento do depósito, usando o gerenciamento avançado de depósito. O trabalho de depósito pode ser gerado automaticamente para mover o estoque para o local de controle de qualidade, com base em uma porcentagem ou quantidade fixa ou com base na posição que a placa de licença ocupa. Após a conclusão de uma ordem de qualidade, o trabalho pode ser gerado automaticamente para mover o estoque para o próximo local no processo, dependendo dos resultados da qualidade.
+O recurso _Gerenciamento de qualidade para processos de depósito_ permite integrar controles de amostragem de item ao processo de recebimento do depósito, usando os processos de gerenciamento de depósito (WMS). O trabalho de depósito pode ser gerado automaticamente para mover o estoque para o local de controle de qualidade, com base em uma porcentagem ou quantidade fixa ou com base na posição que a placa de licença ocupa. Após a conclusão de uma ordem de qualidade, o trabalho pode ser gerado automaticamente para mover o estoque para o próximo local no processo, dependendo dos resultados da qualidade.
 
 O recurso _Gerenciamento de qualidade para processos de depósito_ estende as possibilidades do recurso básico de gerenciamento da qualidade. Ele fornece a opção de criar ordens de qualidade para o estoque enviado ao local de controle de qualidade, embora nem sempre sejam necessárias. Portanto, ele permite um processo simples de controle de qualidade baseado no trabalho de depósito.
 
@@ -77,7 +77,7 @@ Antes que o recurso _Gestão de qualidade para processos de depósito_ possa ser
 
 1. Acesse **Gerenciamento de depósito \> Configuração \> Depósito \> Depósitos**.
 1. Selecione o depósito para habilitar o gerenciamento de qualidade.
-1. Na FastTab **Depósito**, defina a opção **Habilitar ordem de qualidade para processos de depósito** como _Sim_. (Observe que essa opção pode ser definida como _Sim_ apenas para depósitos que usam processos de gerenciamento de depósito.)
+1. Na FastTab **Depósito**, defina a opção **Habilitar ordem de qualidade para processos de depósito** como _Sim_. (Observe que essa opção pode ser definida como _Sim_ apenas para depósitos que usam processos de gerenciamento de depósito (WMS).)
 
 Quando a opção **Habilitar ordem de qualidade para processos de depósito** é definida como _Sim_, a configuração da associação de qualidade monitora se o recurso _Gestão de qualidade para processos de depósito_ é realmente aplicado ao depósito selecionado. Você pode alterar a configuração da opção para _Não_ a qualquer momento. Nesse caso, o recurso não será mais aplicado ao depósito, independentemente da configuração da associação de qualidade.
 
@@ -97,7 +97,7 @@ Cada [registro de associação de qualidade](enable-quality-management.md) tamb�
     - **Todos** – Desative o recurso _Gestão de qualidade para processos de depósito_. Selecione esse valor para todos os tipos de referência, exceto *Compra* e *Produção*.
 
 > [!NOTE]
-> O recurso _Gestão de qualidade para processos de depósito_ entra em vigor somente se o item na linha de documento de origem usar processos avançados de gerenciamento de depósito e se a opção **Habilitar ordem de qualidade para processos de depósito** estiver definida como _Sim_ para o depósito na linha do documento de origem.
+> O recurso _Gerenciamento de qualidade para processos de depósito_ entra em vigor somente se o item na linha de documento de origem usar processos gerenciamento de depósito (WMS) e se a opção **Habilitar ordem de qualidade para processos de depósito** estiver definida como _Sim_ para o depósito na linha do documento de origem.
 
 À medida que cada item é registrado (ou relatado como concluído), o sistema determina quais associações de qualidade se aplicam a ele.
 

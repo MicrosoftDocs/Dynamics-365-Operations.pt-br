@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: mirzaab
 ms.search.validFrom: 2020-03-21
 ms.dyn365.ops.version: 10.0.10
-ms.openlocfilehash: 100b1972801f117560a5caf338a1ac640737ccdf
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: 43102cb867243a872a5d1df777d8c4102a48e235
+ms.sourcegitcommit: 28a726b3b0726ecac7620b5736f5457bc75a5f84
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8855922"
+ms.lasthandoff: 06/29/2022
+ms.locfileid: "9070309"
 ---
 # <a name="warehouse-handling-of-inbound-loads-for-purchase-orders"></a>Processamento de cargas de entrada das ordens de compra no depósito
 
@@ -56,7 +56,7 @@ A ilustração a seguir mostra o fluxo típico de processamento de cargas de ent
 
 ## <a name="register-item-quantities-that-arrive-on-an-inbound-load"></a><a name="register-item-quantities-arriving"></a>Registrar quantidades de itens que chegam em uma carga de entrada
 
-O Microsoft Dynamics 365 Supply Chain Management oferece suporte a várias abordagens operacionais para registrar a entrada de produtos solicitados. Portanto, você pode configurar o sistema para corresponder aos seus requisitos comerciais específicos. Esta seção descreve como registrar quantidades de itens recebidos usando um dispositivo móvel quando o gerenciamento de depósito avançado está ativado no sistema. No entanto, há um fluxo alternativo baseado no uso do diário de entrada de itens em vez de em um dispositivo móvel. Para obter mais informações sobre esse fluxo, consulte [Registrar itens para um item habilitado de depósito avançado usando um diário de entrada de item](tasks/register-items-advanced-warehousing.md).
+O Microsoft Dynamics 365 Supply Chain Management oferece suporte a várias abordagens operacionais para registrar a entrada de produtos solicitados. Portanto, você pode configurar o sistema para corresponder aos seus requisitos comerciais específicos. Esta seção descreve como registrar quantidades de itens recebidos usando um dispositivo móvel quando os processos de gerenciamento de depósito (WMS) estiverem ativados no sistema. No entanto, há um fluxo alternativo baseado no uso do diário de entrada de itens em vez de em um dispositivo móvel. Para obter mais informações sobre esse fluxo, consulte [Registrar itens habilitados para processos de gerenciamento de depósito usando um diário de entrada de item](tasks/register-items-advanced-warehousing.md).
 
 Quando uma carga de entrada chega primeiro ao depósito, os funcionários do depósito devem registrar as quantidades de itens incluídas na remessa. Em geral, eles usam scanners portáteis. Esse fluxo de trabalho está disponível apenas se os seguintes itens estiverem presentes no sistema:
 

@@ -12,12 +12,12 @@ ms.search.region: Global
 ms.author: henrikan
 ms.search.validFrom: 2020-04-22
 ms.dyn365.ops.version: 10.0.13
-ms.openlocfilehash: ff074e62489fe74f0c2de6dae0e02d1da7e7f6ae
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: 7f34acd78966cc9f26242653e9d0d16fdf22e0b2
+ms.sourcegitcommit: 12b3dbee905f8b2eb2e6c383c822a0fc9fccf063
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8901898"
+ms.lasthandoff: 07/01/2022
+ms.locfileid: "9103820"
 ---
 # <a name="customer-portal-for-dynamics-365-supply-chain-management-overview"></a>Visão geral do portal do cliente para o Dynamics 365 Supply Chain Management
 
@@ -42,7 +42,7 @@ O modelo de portal de clientes tem todos os recursos de personalização ofereci
 
 > [!VIDEO https://www.microsoft.com/videoplayer/embed/RE4ylwW]
 
-O vídeo [Visão geral do modelo Portal do cliente no Dynamics 365 Supply Chain Management](https://youtu.be/nPrqoLuHfV8) (exibido acima) foi incluído na [playlist do Finance and Operations](https://www.youtube.com/playlist?list=PLcakwueIHoT_SYfIaPGoOhloFoCXiUSyW) disponível no YouTube.
+O vídeo [Visão geral do modelo Portal do cliente no Dynamics 365 Supply Chain Management](https://youtu.be/nPrqoLuHfV8) (exibido acima) foi incluído na [playlist de finanças e operações](https://www.youtube.com/playlist?list=PLcakwueIHoT_SYfIaPGoOhloFoCXiUSyW) disponível no YouTube.
 
 ## <a name="who-should-use-it"></a>Quem deve usá-lo?
 
@@ -62,7 +62,7 @@ O portal do cliente é fornecido como um modelo de portais do Power Apps. Ele de
 
 [Portais do Power Apps](/powerapps/maker/portals/overview) é um recurso que permite aos usuários criar um site externo que as pessoas fora da organização podem acessar. Pouca ou nenhuma codificação é necessária para criar portais. O portal do cliente é um dos muitos [modelos de portal Dynamics 365](/powerapps/maker/portals/portal-templates#environment-with-model-driven-apps-in-dynamics-365) disponibilizados pela Microsoft.
 
-A [gravação dupla](/powerapps/maker/portals/overview) é um produto pronto para uso que fornece interação quase em tempo real entre aplicativos do Customer Engagement e aplicativos de finanças e operações. A gravação dupla fornece integração bidirecional entre aplicativos de finanças e operações e o Microsoft Dataverse. Portanto, ela fornece uma experiência de usuário integrada nos aplicativos. O portal do cliente depende das tabelas sincronizadas com a gravação dupla. Para que os dados do Supply Chain Management sejam exibidos no portal do cliente, a gravação dupla deve ser habilitada para todas as tabelas apropriadas.
+A [gravação dupla](/powerapps/maker/portals/overview) é um produto de infraestrutura pronta para uso que fornece interação quase em tempo real entre aplicativos de engajamento do cliente e aplicativos de finanças e operações. A gravação dupla fornece integração bidirecional entre aplicativos de finanças e operações e o Microsoft Dataverse. Portanto, ela fornece uma experiência de usuário integrada nos aplicativos. O portal do cliente depende das tabelas sincronizadas com a gravação dupla. Para que os dados do Supply Chain Management sejam exibidos no portal do cliente, a gravação dupla deve ser habilitada para todas as tabelas apropriadas.
 
 ![Dependências do portal do cliente.](media/customer-portal-elements.png "Dependências do portal do cliente")
 

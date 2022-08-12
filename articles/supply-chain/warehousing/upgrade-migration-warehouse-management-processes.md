@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: perlynne
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: d85f4e5c44db511970b3e22490341228fa0d1abd
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: 7a88c5a615ec860890578873eaee736fabbeaf08
+ms.sourcegitcommit: 28a726b3b0726ecac7620b5736f5457bc75a5f84
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8857073"
+ms.lasthandoff: 06/29/2022
+ms.locfileid: "9065798"
 ---
 # <a name="upgrade-warehouse-management-from-microsoft-dynamics-ax-2012-to-supply-chain-management"></a>Atualizar o gerenciamento de depósito do Microsoft Dynamics AX 2012 para o Supply Chain Management 
 
@@ -37,11 +37,11 @@ Durante uma atualização, todos os produtos que estão associados a um grupo de
 Após a atualização, você pode usar um conjunto de opções no formulário **Alterar grupo de dimensão de armazenamento para itens** para desbloquear produtos que foram bloqueados durante a atualização, e depois processe as transações desses produtos.
 
 ### <a name="enabling-items-in-supply-chain-management"></a>Ativando itens no Supply Chain Management 
-Essa alteração é necessária porque no Supply Chain Management, o rastreamento de itens faz parte dos processos de gerenciamento de depósito. Para esses processos, todos os depósitos e seus locais devem estar associados a um perfil de localização. Se você quiser usar processos de gerenciamento de depósito, o seguinte deve ser configurado:
--   Os depósitos existentes devem ser habilitados para usar processos de gerenciamento de armazém 
--   Os produtos lançados existentes devem estar associados a um grupo de dimensão de armazenamento que usa processos de gerenciamento de depósito. 
+Essa alteração é necessária porque, no Supply Chain Management, o rastreamento de itens faz parte dos processos de gerenciamento de depósito (WMS). Para esses processos, todos os depósitos e seus locais devem estar associados a um perfil de localização. Para usar o WMS, configure o seguinte:
+-   Depósitos existentes precisam ser habilitados para usar o WMS 
+-   Os produtos existentes e já lançados precisam estar associados a um grupo de dimensão de armazenamento que usa o WMS 
 
-Se os grupos de dimensão de armazenamento de origem usarem a dimensão de estoque da ID do palete, os locais do estoque disponível existente que usaram a dimensão de estoque da ID do palete deverão estar associados a um perfil de localização, no qual o parâmetro **Usar monitoramento de placa de licença** está selecionado. Se os depósitos existentes não precisarem ser habilitados para usar processos de gerenciamento de depósito, você pode alterar os grupos de dimensões de armazenamento do estoque existente disponível para grupos que manipulam apenas as dimensões de estoque Site, Depósito e Localização. 
+Se os grupos de dimensão de armazenamento de origem usarem a dimensão de estoque da ID do palete, os locais do estoque disponível existente que usaram a dimensão de estoque da ID do palete deverão estar associados a um perfil de localização, no qual o parâmetro **Usar monitoramento de placa de licença** está selecionado. Se não for necessário habilitar o uso do WMS nos depósitos existentes, você poderá mudar os grupos de dimensões de armazenamento do estoque existente disponível para grupos que trabalham apenas com as dimensões de estoque Site, Depósito e Localização. 
 
 > [!NOTE] 
 >  Você pode alterar o grupo de dimensões de armazenamento de itens, mesmo que existam operações de inventário abertas.
@@ -56,12 +56,12 @@ Para ser usado como parte de um processo de gerenciamento de armazém, um item d
 Para desbloquear produtos que foram bloqueados durante a atualização, você deve selecionar um novo grupo de dimensão de armazenamento para os produtos. Observe que você pode alterar o grupo de dimensões de armazenamento, mesmo que existam operações de inventário abertas. Para usar itens que foram bloqueados durante a atualização, você tem duas opções:
 
 -   Altere o grupo de dimensões de armazenamento do item para um grupo de dimensões de armazenamento que usa apenas as dimensões de estoque Site, Depósito e Localização. Como resultado dessa alteração, a dimensão do estoque da ID do palete não é mais utilizada.
--   Altere o grupo de dimensões de armazenamento do item para um grupo de dimensões de armazenamento que usa os processos de gerenciamento do depósito. Como resultado dessa alteração, a dimensão do estoque da placa de licença é usada agora.
+-   Mude o grupo de dimensões de armazenamento do item para um grupo de dimensões de armazenamento que usa o WMS. Como resultado dessa alteração, a dimensão do estoque da placa de licença é usada agora.
 
-## <a name="configure-warehouse-management-processes"></a>Configurar processos de gerenciamento de depósito
+## <a name="configure-wms"></a>Configurar WMS
 Para usar produtos lançados no módulo **Gerenciamento de depósito**, os produtos devem usar um grupo de dimensão de estoque onde o parâmetro **Usar processos de gerenciamento de depósito** está selecionado.
 
-### <a name="enable-warehouses-to-use-warehouse-management-processes"></a>Permitir que depósitos usem processos de gerenciamento de depósito
+### <a name="enable-warehouses-to-use-wms"></a>Habilitar o uso do WMS nos depósitos
 
 1.  Crie pelo menos um novo perfil de localização.
 2.  Clique em **Gerenciamento de depósito** &gt; **Configuração** &gt; **Habilitar processos de gerenciamento de depósito** &gt; **Habilitar configuração de depósito**.
@@ -70,7 +70,7 @@ Para usar produtos lançados no módulo **Gerenciamento de depósito**, os produ
 5.  Valide as alterações. Como parte do processo de validação, ocorrem várias validações de integridade de dados. Como parte de um processo de atualização maior, os problemas que ocorrem podem ter que ser ajustados na implementação de origem. Neste caso, será necessária uma atualização adicional de dados.
 6.  Processe as alterações.
 
-### <a name="change-the-storage-dimension-group-for-items-so-that-it-uses-warehouse-management-processes"></a>Altere o grupo de dimensões de armazenamento para itens, de modo que ele use processos de gerenciamento de depósito
+### <a name="change-the-storage-dimension-group-for-items-so-that-it-uses-wms"></a>Mude o grupo de dimensões de armazenamento para itens de modo a usar o WMS
 
 1.  Crie um novo valor **Status de estoque**, e a atribua a ele o valor **ID padrão do status de estoque** nas configurações dos **Parâmetros de gerenciamento de depósito**.
 2.  Crie um novo grupo de dimensão de estoque onde o parâmetro **Usar processos de gerenciamento de depósito** está selecionado.

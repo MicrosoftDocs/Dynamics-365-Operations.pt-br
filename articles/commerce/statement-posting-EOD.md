@@ -9,22 +9,22 @@ ms.reviewer: josaw
 ms.search.region: Global
 ms.author: analpert
 ms.search.validFrom: 2018-04-30
-ms.openlocfilehash: a7f25a7cc1e214b5c08013055126728b2ad10f3f
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: 33b4f17cd46338b62bed96f0a285e7b9634cc87a
+ms.sourcegitcommit: 28a726b3b0726ecac7620b5736f5457bc75a5f84
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8886897"
+ms.lasthandoff: 06/29/2022
+ms.locfileid: "9067810"
 ---
 # <a name="improvements-to-statement-posting-functionality"></a>Aprimoramentos na funcionalidade de postagem de demonstrativo
 
 [!include [banner](includes/banner.md)]
 
-Este artigo descreve o primeiro conjunto das melhorias feitas no recurso de postagem do demonstrativo. As melhorias estão disponíveis no Microsoft Dynamics 365 for Finance and Operations 7.3.2.
+Este artigo descreve o primeiro conjunto das melhorias feitas no recurso de postagem do demonstrativo. As melhorias estão disponíveis no Microsoft Dynamics 365 Finance 7.3.2.
 
 ## <a name="activation"></a>Ativação
 
-Por padrão, durante a implementação de Finance and Operations 7.3.2, o programa é configurado para usar o recurso herdado para postagens do demonstrativo. Para habilitar o recurso aprimorado de postagem da instrução, você deve ativar a chave de configuração para ele.
+Por padrão, durante a implantação do aplicativo de finanças e operações 7.3.2, o programa é configurado para usar o recurso herdado para postagens do demonstrativo. Para habilitar o recurso aprimorado de postagem da instrução, você deve ativar a chave de configuração para ele.
 
 - Acesse **Administração de sistemas** \> **Configuração** \> **Configuração de licença**, e depois, no nó **Retail e Commerce**, desmarque a caixa de seleção **Demonstrativos (herdados)**, e marque a caixa de seleção **Demonstrativos**.
 
@@ -190,3 +190,4 @@ Além disso, melhorias finais que os usuários podem ver foram feitas no recurso
 
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]
+

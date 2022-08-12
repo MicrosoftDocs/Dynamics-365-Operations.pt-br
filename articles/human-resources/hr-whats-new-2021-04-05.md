@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: marcelbf
 ms.search.validFrom: 2021-04-05
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 1b8074877b8d2b2c05596406cbf2d98febd2e8cc
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: 9388b2f43762bedf07c89a7a565935d2043ee90c
+ms.sourcegitcommit: 28a726b3b0726ecac7620b5736f5457bc75a5f84
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8899517"
+ms.lasthandoff: 06/29/2022
+ms.locfileid: "9067991"
 ---
 # <a name="whats-new-or-changed-in-dynamics-365-human-resources-april-5-2021"></a>Novidades ou alterações no Dynamics 365 Human Resources 5 de abril de 2021
 
@@ -71,7 +71,7 @@ Os novos recursos a seguir estão em versão preliminar. Para obter mais informa
 | Recurso | Detalhes |
 | --- | --- |
 | As habilidades inseridas por um gerente para os funcionários podem ser aprovadas automaticamente por um fluxo de trabalho | Em breve. |
-| Atualização da plataforma 10.0.17 (41) | A atualização da plataforma 10.0.17 está agendada para começar a ser implementada na próxima versão, em 19 de abril de 2021. Para mais informações, consulte [Atualizações de plataforma para a versão 10.0.17 dos aplicativos de finanças e operações (abril de 2021)](../fin-ops-core/dev-itpro/get-started/whats-new-platform-updates-10-0-17.md). |
+| Atualização da plataforma 10.0.17 (41) | A atualização da plataforma 10.0.17 está agendada para começar a ser implementada na próxima versão, em 19 de abril de 2021. Para mais informações, consulte [Atualizações de plataforma para a versão 10.0.17 dos aplicativos de Finanças e Operações (abril de 2021)](../fin-ops-core/dev-itpro/get-started/whats-new-platform-updates-10-0-17.md). |
 
 Para obter uma lista completa de recursos planejados e suas versões agendadas, consulte [Visão geral do Dynamics 365 Human Resources 2021 ciclo de lançamentos 1](/dynamics365-release-plan/2021wave1/human-resources/dynamics365-human-resources/).
 

@@ -1,7 +1,7 @@
 ---
 title: Configurar o processo de importação de reconciliação bancária avançada
 description: O recurso Reconciliação bancária avançada permite que você importe extratos bancários eletrônicos e os reconcilie automaticamente com as transações bancárias do Microsoft Dynamics 365 Finance. Este artigo explica como configurar a funcionalidade de importação para seus extratos bancários.
-author: panolte
+author: angelad116
 ms.date: 06/20/2017
 ms.topic: article
 ms.prod: ''
@@ -12,19 +12,23 @@ ms.reviewer: kfend
 ms.custom: 106853
 ms.assetid: 45dae275-ea45-4c7e-b38f-89297c7b5352
 ms.search.region: Global
-ms.author: panolte
+ms.author: angelading
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 0616d8f85f742ed2679450c9b59814345f764bc9
-ms.sourcegitcommit: 631d2cea52590af15f208e9af584446e85540fcf
+ms.openlocfilehash: d8d186e6b3e44222410c8be94390d7c58a90e352
+ms.sourcegitcommit: 0b7a034e644f4d93fe55c7baca5a3f89dbe56898
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/07/2022
-ms.locfileid: "8727360"
+ms.lasthandoff: 07/14/2022
+ms.locfileid: "9151512"
 ---
-# <a name="set-up-the-advanced-bank-reconciliation-import-process"></a>Configurar o processo de importação de reconciliação bancária avançada
+# <a name="set-up-the-advanced-bank-reconciliation-import-process"></a>Configurar processo de importação de reconciliação bancária avançada
 
 [!include [banner](../includes/banner.md)]
+
+> [!NOTE]
+> Essa funcionalidade será preterida em 2022 de setembro, os novos usuários devem usar a emissão de relatórios eletrônicos. Para obter mais informações, consulte [Configurar a importação avançada de reconciliação bancária usando Relatórios eletrônicos](../accounts-payable/import-bai2-er.md).
+
 
 O recurso Reconciliação bancária avançada permite que você importe extratos bancários eletrônicos e os reconcilie automaticamente com as transações bancárias do Dynamics 365 Finance. Este artigo explica como configurar a funcionalidade de importação para seus extratos bancários. 
 

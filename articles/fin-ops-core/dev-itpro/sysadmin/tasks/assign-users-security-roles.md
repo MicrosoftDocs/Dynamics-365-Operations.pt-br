@@ -1,6 +1,6 @@
 ---
 title: Atribuir usuários a funções de segurança
-description: Para acessar os aplicativos Finance and Operations, os usuários devem ser atribuídos a funções de segurança.
+description: Para acessar os aplicativos de finanças e operações, os usuários devem ser atribuídos a direitos de acesso.
 author: Peakerbl
 ms.date: 02/09/2022
 ms.topic: business-process
@@ -13,18 +13,18 @@ ms.search.region: Global
 ms.author: peakerbl
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 36874b996cc5708f6fd7fbc45251f3066b5b1c97
-ms.sourcegitcommit: f2a78e0d7d461ca843ac2f9abff7690275db9196
+ms.openlocfilehash: b5e69a79f123daff3f85d0100647615ad818288e
+ms.sourcegitcommit: 12b3dbee905f8b2eb2e6c383c822a0fc9fccf063
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/09/2022
-ms.locfileid: "8105529"
+ms.lasthandoff: 07/01/2022
+ms.locfileid: "9103858"
 ---
 # <a name="manage-users-and-security-roles"></a>Gerenciar usuários e funções de segurança
 
 [!include [banner](../../includes/banner.md)]
 
-Para usar qualquer coisa além das funcionalidades comuns nos aplicativos de Finanças e Operações, os usuários devem ser atribuídos a funções de segurança. Você pode atribuir usuários a funções automaticamente, com base em regras e dados comerciais, excluir usuários da atribuição de função automática ou adicionar usuários a funções manualmente.
+Para usar qualquer coisa além das funcionalidades comuns nos aplicativos de finanças e operações, os usuários devem ser atribuídos a direitos de acesso. Você pode atribuir usuários a funções automaticamente, com base em regras e dados comerciais, excluir usuários da atribuição de função automática ou adicionar usuários a funções manualmente.
 
 ## <a name="automatically-assign-users-to-roles"></a>Atribuir automaticamente usuários às funções
 Este procedimento explica como os administradores do sistema podem atribuir usuários a funções automaticamente com base em dados corporativos. 
@@ -73,3 +73,4 @@ Os usuários que são atribuídos manualmente a direitos de acesso também devem
    4. No **Painel de ação**, selecione **Excluir da função**. Agora, a coluna **Modo de atribuição** foi atualizada para **Manual** e os usuários foram excluídos da função.
 
 [!INCLUDE[footer-include](../../../../includes/footer-banner.md)]
+

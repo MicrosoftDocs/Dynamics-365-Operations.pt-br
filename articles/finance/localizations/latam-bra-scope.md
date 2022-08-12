@@ -12,12 +12,12 @@ ms.search.region: Brazil
 ms.author: sndray
 ms.search.validFrom: 2018-4-30
 ms.dyn365.ops.version: 8
-ms.openlocfilehash: b57513697f9a7df1354e075085bf817b1ad29c96
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: c640fbc8dff995c21491a705b2945db8ec643e9b
+ms.sourcegitcommit: 28a726b3b0726ecac7620b5736f5457bc75a5f84
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8899794"
+ms.lasthandoff: 06/29/2022
+ms.locfileid: "9067664"
 ---
 # <a name="scope-of-the-brazilian-localization"></a>Escopo da localização brasileira
 
@@ -465,8 +465,8 @@ Os seguintes requisitos de relatórios de impostos estão fora do escopo para li
 - Requisitos de agências ou autarquias regulatórias, como SUFRAMA, ANVISA e ANATEL
 - IN86
 - GIA para outros estados fora de São Paulo
-- Atualização dos dados dos livros fiscais do AX 2009 para AX 2012 R3 e o Finance and Operations
-- Atualização das notas fiscais do AX 2009 para AX 2012 R3 e o Finance and Operations
+- Atualização dos dados dos livros fiscais do AX 2009 para AX 2012 R3 e o aplicativo de finanças e operações
+- Atualização dos dados de notas fiscais do AX 2009 para AX 2012 R3 e o aplicativo de finanças e operações
 
 ## <a name="references"></a>Referências
 
@@ -511,3 +511,4 @@ O [Portal de Localização do Microsoft Dynamics](/dynamics/s-e/) fornece inform
 
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]
+

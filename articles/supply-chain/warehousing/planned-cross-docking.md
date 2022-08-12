@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: mirzaab
 ms.search.validFrom: 2020-07-01
 ms.dyn365.ops.version: 10.0.7
-ms.openlocfilehash: 28ebf1b4fb966fd6801e75e7b3a6c8741114938d
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: 4f379b3cdb6830f989199afde7d751842047df79
+ms.sourcegitcommit: 28a726b3b0726ecac7620b5736f5457bc75a5f84
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8863669"
+ms.lasthandoff: 06/29/2022
+ms.locfileid: "9070279"
 ---
 # <a name="planned-cross-docking"></a>Distribuição integrada planejada
 
@@ -118,7 +118,7 @@ A distribuição integrada planejada é implementada como um método de lançame
     - **Fonte de fornecimento:** *Ordem de compra*
 
 > [!NOTE]
-> Você pode configurar uma consulta para determinar quando um modelo de distribuição integrada específico será usado. A consulta para modelos de distribuição integrada tem somente a tabela *InventTable* (itens) e a tabela interna conjunta *WHSInventTable* (itens WHS). Se quiser adicionar outras tabelas à consulta, você poderá associá-las usando somente *existir junções* ou *não existir junções*. Ao filtrar pelas tabelas conjuntas, um registro da tabela principal é recuperado para cada registro correspondente na tabela conjunta. Se o tipo de junção for *existir junções*, a pesquisa terminará depois que a primeira correspondência for encontrada. Por exemplo, se você unir a tabela de linha da ordem de venda à tabela de itens, o sistema validará e retornará os itens para os quais pelo menos uma linha da ordem de venda tem a condição definida. Basicamente, os dados são recuperados da tabela pai (itens), e não da tabela filho (linha da ordem de venda). Portanto, a filtragem por documentos de origem, como linhas de ordem de venda ou clientes, não pode ser realizada.
+> Você pode configurar uma consulta para determinar quando um modelo de distribuição integrada específico será usado. A consulta para modelos de distribuição integrada tem somente a tabela *InventTable* (itens) e a tabela interna conjunta *WHSInventTable* (itens WMS). Se quiser adicionar outras tabelas à consulta, você poderá associá-las usando somente *existir junções* ou *não existir junções*. Ao filtrar pelas tabelas conjuntas, um registro da tabela principal é recuperado para cada registro correspondente na tabela conjunta. Se o tipo de junção for *existir junções*, a pesquisa terminará depois que a primeira correspondência for encontrada. Por exemplo, se você unir a tabela de linha da ordem de venda à tabela de itens, o sistema validará e retornará os itens para os quais pelo menos uma linha da ordem de venda tem a condição definida. Basicamente, os dados são recuperados da tabela pai (itens), e não da tabela filho (linha da ordem de venda). Portanto, a filtragem por documentos de origem, como linhas de ordem de venda ou clientes, não pode ser realizada.
 
 ### <a name="create-a-work-class"></a>Criar uma classe de trabalho
 

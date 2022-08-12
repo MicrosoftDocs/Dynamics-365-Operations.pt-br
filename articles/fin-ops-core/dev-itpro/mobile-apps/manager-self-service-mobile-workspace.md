@@ -12,12 +12,12 @@ ms.search.region: Global
 ms.author: shielas
 ms.search.validFrom: 2017-06-30
 ms.dyn365.ops.version: July 2017 update
-ms.openlocfilehash: f15ac24e5c32a42863cac8a9c9754c95aa4ff734
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: 11a4b1667e3d97b651b8019c9dbe577ab30aed67
+ms.sourcegitcommit: 28a726b3b0726ecac7620b5736f5457bc75a5f84
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8868688"
+ms.lasthandoff: 06/29/2022
+ms.locfileid: "9068189"
 ---
 # <a name="my-team-mobile-workspace"></a>Meu espaço de trabalho móvel em equipe
 
@@ -26,9 +26,9 @@ ms.locfileid: "8868688"
 
 Este artigo fornece informações sobre a área de trabalho móvel **Minha equipe**. Esse espaço de trabalho permite que gerentes visualizem os seus subordinados diretos e a sua equipe estendida. Eles também podem enviar elogios a indivíduos em sua cadeia de subordinação.
 
-Esse espaço de trabalho móvel deve ser usado com o aplicativo móvel Finance and Operations.
+Esse espaço de trabalho móvel deve ser usado com o aplicativo móvel de finanças e operações.
 
-## <a name="overview"></a>Visão Geral 
+## <a name="overview"></a>Visão geral 
 O espaço de trabalho móvel **Minha equipe** permite que os gerentes executem as seguintes tarefas:
 
 - Exibir a lista de subordinados diretos do gerente.
@@ -50,12 +50,12 @@ Antes de usar este espaço de trabalho móvel, os seguintes pré-requisitos deve
 <tbody>
 <tr class="odd">
 <td>Um destes seguintes produtos deve ser implantado na sua organização:
-<ul><li>Um aplicativo do Finance and Operations</li>
+<ul><li>Um aplicativo de finanças e operações</li>
 <li>Microsoft Dynamics 365 Human Resources</li>
 </ul>
 </td>
 <td>Administrador do sistema</td>
-<td>Se ainda não tiver um aplicativo do Finance and Operations implantado na sua organização, consulte <a href="../deployment/deploy-demo-environment.md">Implantar um ambiente de demonstração</a>. Se o Human Resources ainda não está implantado na organização, o administrador do sistema pode acessar uma versão de avaliação na <a href="https://dynamics.microsoft.com/human-resources/overview/">página da Web do Human Resources</a>.
+<td>Se ainda não tiver um aplicativo de finanças e operações implantado na sua organização, consulte <a href="../deployment/deploy-demo-environment.md">Implantar um ambiente de demonstração</a>. Se o Human Resources ainda não está implantado na organização, o administrador do sistema pode acessar uma versão de avaliação na <a href="https://dynamics.microsoft.com/human-resources/overview/">página da Web do Human Resources</a>.
 </td>
 </tr>
 <tr class="even">
@@ -68,7 +68,7 @@ Antes de usar este espaço de trabalho móvel, os seguintes pré-requisitos deve
 
 ## <a name="download-and-install-the-mobile-app"></a>Baixa e instala o aplicativo móvel.
 
-Baixe e instale o aplicativo móvel Finance and Operations:
+Baixe e instale o aplicativo móvel de finanças e operações:
 
 -   [Para telefones Android](https://go.microsoft.com/fwlink/?linkid=850662)
 -   [Para iPhones](https://go.microsoft.com/fwlink/?linkid=850663)
@@ -99,3 +99,4 @@ Baixe e instale o aplicativo móvel Finance and Operations:
 
 
 [!INCLUDE[footer-include](../../../includes/footer-banner.md)]
+

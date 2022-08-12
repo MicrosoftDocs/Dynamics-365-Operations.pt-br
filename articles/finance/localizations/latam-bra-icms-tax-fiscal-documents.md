@@ -14,12 +14,12 @@ ms.search.region: Brazil
 ms.author: sndray
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: 4f6458a6b801ed69a5d5274514c6d274af3a3e72
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: 0cb3d376d6d62eef833fe5a17f755b231ce6c112
+ms.sourcegitcommit: 28a726b3b0726ecac7620b5736f5457bc75a5f84
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8880599"
+ms.lasthandoff: 06/29/2022
+ms.locfileid: "9068477"
 ---
 # <a name="icms-tax-fiscal-documents-for-brazil"></a>Notas fiscais de transferência ou apropriação de imposto ICMS para o Brasil
 
@@ -85,7 +85,7 @@ ICMS recuperável, longo prazo (conta diferida)
 
 **Saldo de Ativo de longo prazo** (conta diferida): R$ 9.000,00
 
-**Ajuste de ICMS do mês** **Finance and Operations: Emissão de uma Nota fiscal de entrada**
+**Ajuste de ICMS do mês** **finanças e operações: emissão de uma Nota fiscal de entrada**
 
 Conta de ICMS recuperável
 

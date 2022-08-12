@@ -14,18 +14,18 @@ ms.search.region: Global
 ms.author: kailiang
 ms.search.validFrom: 2021-08-02
 ms.dyn365.ops.version: 10.0.21
-ms.openlocfilehash: a711eb73c171cd099947b44e2376cad2455059f0
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: 79296a452e146bb17b197e9ca40db016664df6f9
+ms.sourcegitcommit: 28a726b3b0726ecac7620b5736f5457bc75a5f84
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8859685"
+ms.lasthandoff: 06/29/2022
+ms.locfileid: "9068838"
 ---
 # <a name="tax-calculation-data-model"></a>Modelo de dados de cálculo de imposto
 
 Este artigo fornece informações sobre o modelo de dados de imposto e sobre como os valores de campo de cada modelo de dados de imposto são determinados nas transações de cálculo de imposto.
 
-O *modelo de dados de imposto* é composto de campos que são necessários para cálculos de imposto. A Microsoft fornece o *modelo de dados de cálculo de impostos*, que inclui os campos de cabeçalho e os campos de linha dos documentos de transação nos aplicativos Finanças e operações. Os campos definidos no modelo de dados de cálculo de impostos são as colunas disponíveis das tabelas de regras de aplicabilidade na configuração da configuração do recurso de cálculo de imposto.
+O *modelo de dados de imposto* é composto de campos que são necessários para cálculos de imposto. A Microsoft fornece o *modelo de dados de cálculo de impostos*, que inclui os campos de cabeçalho e os campos de linha dos documentos de transação nos aplicativos de finanças e operações. Os campos definidos no modelo de dados de cálculo de impostos são as colunas disponíveis das tabelas de regras de aplicabilidade na configuração da configuração do recurso de cálculo de imposto.
 
 > [!NOTE] 
 > Alguns nós definidos no modelo de dados, como **ID do Registro** e **ID da Tabela**, são para fins técnicos. Elas não são colunas disponíveis na configuração do recurso de cálculo de imposto.
@@ -54,7 +54,7 @@ Você também pode exibir o modelo de dados de cálculo de impostos e as colunas
 
     [![Gerenciar colunas.](./media/tax-calculation-model-mapping-3.png)](./media/tax-calculation-model-mapping-3.png)
 
-O modelo de dados de cálculo de imposto é integrado aos aplicativos Finanças e operações. Durante cada transação relacionada ao cálculo de imposto, os valores dos campos definidos nas tabelas de regras de aplicabilidade são coletados e enviados ao serviço de cálculo de imposto para cálculo. Na versão 40.46, 57 modelos de dados predefinidos estão disponíveis para os seguintes tipos de transação: ordens de compra, ordens de venda, ordens de transferência, requisições de compra, solicitações de cotação e cotações de venda.
+O modelo de dados de cálculo de imposto é integrado aos aplicativos de finanças e operações. Durante cada transação relacionada ao cálculo de imposto, os valores dos campos definidos nas tabelas de regras de aplicabilidade são coletados e enviados ao serviço de cálculo de imposto para cálculo. Na versão 40.46, 57 modelos de dados predefinidos estão disponíveis para os seguintes tipos de transação: ordens de compra, ordens de venda, ordens de transferência, requisições de compra, solicitações de cotação e cotações de venda.
 
 ## <a name="version-updates-and-restrictions"></a>Atualizações e restrições de versão
 
@@ -134,3 +134,4 @@ Os vinte e seis modelos de dados são incluídos como campos nas linhas de uma t
 | Unidade                          | <ul><li>**Ordem de venda:** unidade</li><li>**Ordem de compra:** unidade</li><li>**Ordem de transferência – Remeter:** unidade</li><li>**Ordem de transferência – Receber:** unidade</li><li>**Requisição de compra:** unidade</li><li>**Solicitação de cotação:** unidade</li><li>**Cotação de venda:** unidade</li></ul> |
 | Número da grade                | <ul><li>**Ordem de venda:** número da grade</li><li>**Ordem de compra:** número da grade</li><li>**Cotação de venda:** número da grade</li></ul> |
 | Depósito                     | <ul><li>**Ordem de venda:**<ol><li>Linha &gt; Depósito</li><li>Produto &gt; Depósito</li></ol></li><li>**Ordem de compra:**<ol><li>Linha &gt; Depósito</li><li>Produto &gt; Depósito</li></ol></li><li>**Ordem de transferência - Remeter:** depósito de origem</li><li>**Ordem de transferência - Receber:** depósito de destino</li><li>**Requisição de compra:** Linha &gt; Depósito</li><li>**Solicitação de cotação:** Linha &gt; Depósito</li><li>**Cotação de venda:**<ol><li>Linha &gt; Depósito</li><li>Produto &gt; Depósito</li></ol></li></ul> |
+

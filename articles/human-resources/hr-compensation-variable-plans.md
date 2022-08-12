@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: twheeloc
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0, Human Resources
-ms.openlocfilehash: 22788dff1ee29b6920426d8ff00d412c3d5564e0
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: f2f51a095a23b651dca645b14e652519f20037e2
+ms.sourcegitcommit: 28a726b3b0726ecac7620b5736f5457bc75a5f84
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8853064"
+ms.lasthandoff: 06/29/2022
+ms.locfileid: "9070548"
 ---
 # <a name="create-variable-compensation-plans"></a>Criar planos de remuneração variável
 
@@ -42,7 +42,11 @@ Os **Tipos de remuneração variável** é um componente necessário. Os **tipos
 Como alternativa, as empresas podem configurar **Regras de benefício proporcional diferido**. **Regras de benefício proporcional diferido** descrevem como o prêmio variável deve ser alocado com o tempo. Por exemplo, uma regra pode informar que o funcionário receberá 25% da recompensa total todo ano, pelos próximos quatro anos. Regras de benefício proporcional diferido são apenas informações.
 
 ## <a name="variable-compensation-plans"></a>Planos de remuneração variável
-O **plano de remuneração variável** contém as regras, os métodos de cálculos e os valores padrão para o cálculo da remuneração variável para os funcionários inscritos. Ao criar um plano de remuneração variável, você deve definir o tipo de remuneração variável. O tipo de remuneração variável determina se o sistema calcula um valor monetário ou um número de unidades como prêmio. Você também deve definir o método de cálculo:
+O **plano de remuneração variável** contém as regras, os métodos de cálculos e os valores padrão para o cálculo da remuneração variável para os funcionários inscritos. Ao criar um plano de remuneração variável, você deve definir o tipo de remuneração variável. O tipo de remuneração variável determina se o sistema calcula um valor monetário ou um número de unidades como prêmio. 
+
+O parâmetro **Restringir o acesso às funções selecionadas** restringe o acesso ao plano de remuneração para os direitos de acesso selecionados que foram atribuídos a esse plano no Human Resources. Por exemplo, quando você cria planos de remuneração para executivos e não deve estar visível a todas as funções específicas de RH, é possível usar esse parâmetro para restringir o acesso a esses planos de remuneração. 
+
+Você também deve definir o método de cálculo:
 
 -   **Pontual** – O cálculo do prêmio variável é baseado na remuneração fixa que o funcionário recebeu em uma data específica. A data é especificada no evento de processo quando novos valores de remuneração são processados.
 -   **Composição** – O valor de um prêmio é calculado para cada taxa de pagamento exclusiva de remuneração fixa que o funcionário recebeu entre a data de início do ciclo e a data final do ciclo do evento de processo. As taxas são então adicionadas conjuntamente para determinar o prêmio final. Por exemplo, durante o ciclo, um funcionário transferido para uma posição diferente que recebeu uma taxa de pagamento diferente. Nesse caso, o prêmio variável será ajustado para o período de tempo em que o funcionário recebeu cada taxa de pagamento.

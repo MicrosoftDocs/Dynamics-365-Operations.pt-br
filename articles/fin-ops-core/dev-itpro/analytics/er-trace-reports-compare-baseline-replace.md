@@ -1,6 +1,6 @@
 ---
 title: Melhorar rastreamento dos resultados dos relatórios de ER gerados para comparar com valores de linha de base
-description: Este artigo descreve melhorias no recurso de linha de base ER no Microsoft Dynamics 365 for Finance and Operations versão 10.0.3 (junho de 2019).
+description: Este artigo descreve melhorias no recurso de linha de base ER no Microsoft Dynamics 365 Finance versão 10.0.3 (junho de 2019).
 author: NickSelin
 ms.date: 06/19/2019
 ms.topic: article
@@ -14,18 +14,18 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2018-04-01
 ms.dyn365.ops.version: Release 8.0
-ms.openlocfilehash: 3b9ac7dcac4d020759d04fec75e17c43ed627e25
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: bb2e76492ac9f6feb71811d0fbfd25919b59ac4d
+ms.sourcegitcommit: 3289478a05040910f356baf1995ce0523d347368
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8847391"
+ms.lasthandoff: 07/01/2022
+ms.locfileid: "9109132"
 ---
 # <a name="improve-tracing-the-results-of-generated-er-reports-to-compare-with-baseline-values"></a>Melhorar rastreamento dos resultados dos relatórios de ER gerados para comparar com valores de linha de base
 
 [!include[banner](../includes/banner.md)]
 
-Este artigo descreve o primeiro conjunto de melhorias feitas no recurso de linha de base da estrutura ER (relatório eletrônico). Essas melhorias estão disponíveis no Microsoft Dynamics 365 for Finance and Operations versão 10.0.3 (junho de 2019) e posterior.
+Este artigo descreve o primeiro conjunto de melhorias feitas no recurso de linha de base da estrutura ER (relatório eletrônico). Essas melhorias estão disponíveis no Microsoft Dynamics 365 Finance versão 10.0.3 (junho de 2019) e posterior.
 
 ## <a name="automate-the-setting-of-baseline-rules"></a>Automatize a configuração de regras de linha de base
 
@@ -208,3 +208,4 @@ Para importar configurações de linha base de um arquivo XML armazenado no Micr
 
 
 [!INCLUDE[footer-include](../../../includes/footer-banner.md)]
+

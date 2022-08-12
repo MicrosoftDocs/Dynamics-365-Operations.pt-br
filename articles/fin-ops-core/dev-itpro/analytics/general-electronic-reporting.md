@@ -17,12 +17,12 @@ ms.search.region: global
 ms.author: nselin
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 65f7a642d3b2c2ddfca1e2d92570b49ef2f8c2b4
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: 1f3853e0c1da0a5abb3f92171370cc4aeabbd829
+ms.sourcegitcommit: 3289478a05040910f356baf1995ce0523d347368
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8869247"
+ms.lasthandoff: 07/01/2022
+ms.locfileid: "9109570"
 ---
 # <a name="electronic-reporting-er-overview"></a>Visão geral de Relatório eletrônico (ER)
 
@@ -66,7 +66,7 @@ O ER é compatível com os formatos de planilha TEXT, XML, JSON, PDF, Microsoft 
 
 O mecanismo ER tem os seguintes recursos:
 
-- Ele representa uma única ferramenta compartilhada para relatórios eletrônicos em domínios diferentes e substitui mais de 20 mecanismos diferentes que geram algum tipo de relatório eletrônico para o Finance and Operations.
+- Ele representa uma única ferramenta compartilhada para relatórios eletrônicos em domínios diferentes e substitui mais de 20 mecanismos diferentes que geram algum tipo de relatório eletrônico para o aplicativo de finanças e operações.
 - Isso torna o formato do relatório isolado da implementação atual. Em outras palavras, o formato é aplicável a várias versões.
 - Ele suporta a criação de um formato personalizado que é baseado no formato original. Ele também inclui recursos para atualizar automaticamente o formato personalizado quando o formato original é alterado devido aos requisitos de localização/personalização.
 - Ele se torna o padrão principal de suporte de requisitos de localização no relatório eletrônico para a Microsoft e parceiros da Microsoft.
@@ -126,7 +126,7 @@ Uma configuração de ER é compartilhada para empresas do aplicativo.
 
 #### <a name="provider"></a><a name="Provider"></a>Provedor
 
-O provedor de ER é a identificação de uma parte que é usada para indicar o autor (proprietário) de cada configuração de ER. ER permite que você gerencie a lista de provedores de configuração. As configurações de formato que são liberadas para documentos eletrônicos como parte da solução do Finance and Operations são marcadas como pertencentes ao fornecedor de configuração da **Microsoft**.
+O provedor de ER é a identificação de uma parte que é usada para indicar o autor (proprietário) de cada configuração de ER. ER permite que você gerencie a lista de provedores de configuração. As configurações de formato que são liberadas para documentos eletrônicos como parte da solução de finanças e operações são marcadas como pertencentes ao provedor de configuração da **Microsoft**.
 
 Para aprender a registrar um novo provedor de ER, execute a guia de tarefas **ER Criar um provedor de configuração e marcá-lo como ativo** (parte do processo comercial **7.5.4.3 Adquirir/Desenvolver componentes de solução/serviço de TI (10677)**).
 
@@ -270,3 +270,4 @@ A lista de configurações de er para finanças é constantemente atualizada. Ab
 
 
 [!INCLUDE[footer-include](../../../includes/footer-banner.md)]
+

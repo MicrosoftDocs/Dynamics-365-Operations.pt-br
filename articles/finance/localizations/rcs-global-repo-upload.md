@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: janeaug
 ms.search.validFrom: 2020-02-01
 ms.dyn365.ops.version: AX 10.0.9
-ms.openlocfilehash: 8cfbcfea3c6056d87eb600c9a2f9e0d1727c30ff
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: f73f7189ad82d85169a4e0df573dd26dab8bb009
+ms.sourcegitcommit: 28a726b3b0726ecac7620b5736f5457bc75a5f84
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8894733"
+ms.lasthandoff: 06/29/2022
+ms.locfileid: "9070590"
 ---
 # <a name="create-er-configurations-in-regulatory-configuration-services-rcs-and-upload-them-to-the-global-repository"></a>Criar configurações de ER no Regulatory Configuration Services (RCS) e carregá-las no Repositório global
 
@@ -37,7 +37,7 @@ Antes de concluir esses procedimentos, conclua os seguintes pré-requisitos:
 
 Você deve verificar se um ambiente RCS foi provisionado para sua organização. Se você não tiver uma instância RCS configurada para sua organização, poderá fazer isso usando as seguintes etapas:
 
-1. Em um aplicativo Finance and Operations, vá para **Administração da organização** \> **Espaços de trabalho** \> **Relatório eletrônico**.
+1. Em um aplicativo de finanças e operações, vá para **Administração da organização** \> **Espaços de trabalho** \> **Relatório eletrônico**.
 2. Em **Links relacionados/Links externos**, selecione **Regulatory services – Configuração** e siga as instruções para **Entrar** para provisionar um.
 
 Se um ambiente RCS já foi provisionado para sua organização, use a URL da página para acessá-lo e selecione a opção **Entrar**.
@@ -105,3 +105,4 @@ A versão de configuração é excluída e a mensagem de confirmação é exibid
 
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]
+

@@ -11,18 +11,18 @@ ms.search.region: Global
 ms.author: benebotg
 ms.search.validFrom: 2021-10-15
 ms.dyn365.ops.version: 10.0.23
-ms.openlocfilehash: 4997ba123f105f683daaa6b29fe8c5ee72cb47cb
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: 8f46a4d4e087a99c00ab7b4eabc74f60043cbf21
+ms.sourcegitcommit: 529fc10074b06f4c4dc52f2b4dc1f159c36e8dbc
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8873801"
+ms.lasthandoff: 07/22/2022
+ms.locfileid: "9186473"
 ---
 # <a name="priority-based-planning"></a>Planejamento baseado em prioridade
 
 [!include [banner](../../includes/banner.md)]
 
-Este artigo descreve o recurso de planejamento baseado em prioridade do Microsoft Dynamics 365 Supply Chain Management. O recurso adiciona o suporte para planejamento orientado por demanda, que é uma etapa do planejamento de requisitos de material (DDMRP) por demanda. O planejamento baseado em prioridade permite que a Otimização do Planejamento gere ordens planejadas que são controladas por prioridades de planejamento em vez de datas de requisito.
+Este artigo descreve o recurso de planejamento baseado em prioridade do Microsoft Dynamics 365 Supply Chain Management. O recurso adiciona o suporte para planejamento orientado por demanda, que é uma etapa do [Planejamento de Requisitos de Material (DDMRP) por Demanda](ddmrp-overview.md). O planejamento baseado em prioridade permite que a Otimização do Planejamento gere ordens planejadas que são controladas por prioridades de planejamento em vez de datas de requisito.
 
 O planejamento baseado em prioridade permite priorizar as ordens de reabastecimento para garantir que a demanda urgente seja priorizada em relação à demanda menos importante. Por exemplo, uma ordem de reabastecimento de estoque será priorizada em uma ordem de reabastecimento de reabastecimento padrão. O sistema pode dividir automaticamente ordens maiores em ordens menores separadas em que as linhas da ordem são agrupadas por prioridade. Em seguida, ele pode processar todas as ordens de alta prioridade primeiro.
 

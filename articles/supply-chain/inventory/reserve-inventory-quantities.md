@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: yufeihuang
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 0c407b45f3df91d569c2bf043ff9f83b640837bb
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: e0c0e283189998473469164398fa6f43c8e8825e
+ms.sourcegitcommit: 3a882de1f1c27654a8e92ebc1999c75678cc9a53
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8899430"
+ms.lasthandoff: 07/27/2022
+ms.locfileid: "9201856"
 ---
 # <a name="reserve-inventory-quantities"></a>Reservar quantidades do estoque
 
@@ -75,7 +75,7 @@ Uma ordem de venda que deve ser reservada automaticamente e entregue em 4 de abr
 
 Há duas opções relacionadas a reservas na página **Parâmetros de gerenciamento de estoque e depósito**:
 -   A opção **Reservar itens encomendados** na guia **Geral** permite reservar recebimentos de itens solicitados para saídas de itens em Contas a receber, Gerenciamento de projetos e contabilidade e Controle de produção. Se você desmarcar esta opção, será possível reservar somente itens recebidos fisicamente. Se um item particular tiver sido configurado para aceitar estoque negativo, este campo não será importante.
--   A opção **Reservar itens automaticamente** na guia **Transporte** determina a configuração padrão se itens são automaticamente reservados para ordens de transferência. A configuração padrão pode ser substituída em ordens de transferência individuais.
+-   A opção **Reservar itens automaticamente** na guia **Transferir** determina a configuração padrão se os itens forem automaticamente reservados para ordens de transferência. A configuração padrão pode ser substituída em ordens de transferência individuais.
 
 ### <a name="inventory-reservation-policies-on-the-production-parameters-page"></a>Políticas de reserva de estoque na página Parâmetros de produção
 

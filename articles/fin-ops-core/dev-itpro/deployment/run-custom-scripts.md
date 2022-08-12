@@ -11,12 +11,12 @@ ms.search.region: Global
 ms.author: aevengir
 ms.search.validFrom: 2021-12-16
 ms.dyn365.ops.version: 10.0.25
-ms.openlocfilehash: ff01e2ff8ec105603bb91e0b555301f36e8985b4
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: aad48fbd3ee2f28f39f6061b5e922f5c4f47c8f6
+ms.sourcegitcommit: 12b3dbee905f8b2eb2e6c383c822a0fc9fccf063
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8867319"
+ms.lasthandoff: 07/01/2022
+ms.locfileid: "9103510"
 ---
 # <a name="run-custom-x-scripts-with-zero-downtime"></a>Executar scripts X + + personalizados com tempo de inatividade zero
 
@@ -120,7 +120,7 @@ A lista a seguir descreve algumas das práticas recomendadas para gravar, implem
 
 Use os seguintes procedimentos para carregar e executar um script.
 
-1. No seu aplicativo de Finanças e Operações, vá para **Administração do sistema \> Tarefas periódicas \> Banco de dados \> Scripts personalizados**.
+1. No seu aplicativo de finanças e operações, vá para **Administração do sistema \> Tarefas periódicas \> Banco de dados \> Scripts personalizados**.
 1. Selecione **Carregar**.
 1. Selecione o pacote implantável criado, conforme descrito anteriormente neste artigo. Será solicitado que você especifique a finalidade do script.
 1. Agora, o script deve ser aprovado por um usuário diferente do usuário que o carregou. O aprovador deve seguir estas etapas:
@@ -149,6 +149,7 @@ A seleção na última etapa define o estado final do script. Você pode repetir
 
 ## <a name="upload-and-run-a-deployable-package-through-lcs"></a>Carregue e execute um pacote implantado pelo LCS
 
-Em vez de implantar seu pacote implantado por meio da interface do usuário para seu aplicativo de Finanças e Operações, conforme descrito na seção anterior, você pode carregá-lo para LCS e usar o procedimento regular para implantá-lo. Para obter mais informações, consulte [Instalar pacotes implantáveis da linha de comando](../deployment/install-deployable-package.md).
+Em vez de implantar seu pacote implantado por meio da interface do usuário para seu aplicativo de finanças e operações, conforme descrito na seção anterior, você pode carregá-lo para LCS e usar o procedimento regular para implantá-lo. Para obter mais informações, consulte [Instalar pacotes implantáveis da linha de comando](../deployment/install-deployable-package.md).
 
 Embora essa abordagem tenha menos restrições, ela fornece menos proteção de erro. Além disso, por exigir uma reinicialização de todos os servidores, isso causará algum tempo de inatividade.
+

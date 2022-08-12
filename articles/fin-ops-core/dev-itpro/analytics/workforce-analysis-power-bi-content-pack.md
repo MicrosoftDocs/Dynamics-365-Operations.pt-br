@@ -6,21 +6,22 @@ ms.date: 12/19/2017
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
-ms.search.form: HcmWorkforceWorkspace
 audience: Application User, IT Pro
-ms.reviewer: kfend
-ms.custom: 264084
-ms.assetid: 8e700583-3a7d-4f5f-9ac8-58c4feed1a02
+ms.reviewer: sericks
 ms.search.region: Global
 ms.author: jcart
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: e45e4fb58bd535b66b7ad0dad8c4efa37e4336b7
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.custom:
+- "264084"
+ms.assetid: 8e700583-3a7d-4f5f-9ac8-58c4feed1a02
+ms.search.form: HcmWorkforceWorkspace
+ms.openlocfilehash: 156657e5f9876bd051f317f0bbcd8664807dd7d3
+ms.sourcegitcommit: 3c4dd125ed321af8a983e89bcb5bd6e5ed04a762
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8884478"
+ms.lasthandoff: 07/28/2022
+ms.locfileid: "9206609"
 ---
 # <a name="workforce-metrics-power-bi-content"></a>Conteúdo do Power BI Métricas de força de trabalho
 
@@ -58,7 +59,7 @@ Você pode filtrar os gráficos e blocos nesses relatórios e fixá-los no paine
 Certifique-se de baixar o conteúdo do Power BI **Métricas da força de trabalho** que se aplica à versão do Microsoft Dynamics 365 que você está usando.
 
 > [!NOTE]
-> Os arquivos .pbix disponíveis no Lifecycle Services aplicam-se somente aos aplicativos do Finance and Operations.
+> Os arquivos .pbix disponíveis no Lifecycle Services são válidos somente para os aplicativos de finanças e operações.
 
 ## <a name="understanding-the-data-model-and-entities"></a>Noções básicas sobre o modelo de dados e as entidades
 A seguinte tabela mostra as entidades nas quais o conteúdo foi baseado.

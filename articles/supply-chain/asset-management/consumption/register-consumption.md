@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: johanho
 ms.search.validFrom: 2019-08-31
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: 588da2a217a56d2bc25f85c9a10c6589f90b16a1
-ms.sourcegitcommit: cfe8fbc202c3eb05d894076fdf99e46704f17365
+ms.openlocfilehash: 729ef6aae228ad1e528945031567b92c44cdf256
+ms.sourcegitcommit: 6781fc47606b266873385b901c302819ab211b82
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/15/2022
-ms.locfileid: "9015075"
+ms.lasthandoff: 07/02/2022
+ms.locfileid: "9111744"
 ---
 # <a name="register-consumption"></a>Registrar consumo
 
@@ -90,7 +90,7 @@ Quando você cria registros de consumo, as dimensões financeiras relacionados a
 - *Registros de Item:* primeiro, as dimensões financeiras do cabeçalho de diário são adicionadas, se houver. Então, as dimensões financeiras do projeto de ordem de serviço relacionado são adicionadas. Em seguida, as dimensões financeiras do site são adicionadas. Por fim, as dimensões financeiras do item são adicionadas.
 
 >[!NOTE]
->Para todos os três tipos de registro, a combinação de dimensão financeira é validada, e as combinações inválidas são anuladas. Essa é a instalação padrão com outros aplicativos do Finance and Operations.
+>Para todos os três tipos de registro, a combinação de dimensão financeira é validada, e as combinações inválidas são anuladas. Essa é a instalação padrão com outros aplicativos de finanças e operações.
 
 
 

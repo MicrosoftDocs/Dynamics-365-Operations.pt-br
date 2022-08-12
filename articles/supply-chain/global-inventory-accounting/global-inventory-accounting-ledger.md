@@ -10,18 +10,16 @@ ms.search.region: Global
 ms.author: yanansong
 ms.search.validFrom: 2021-06-18
 ms.dyn365.ops.version: 10.0.20
-ms.openlocfilehash: 4d3779d7d335a903d7eabfadfed79e47652c6835
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: 4f860e0c64573ccfe60e4854697c1e06feeed0c2
+ms.sourcegitcommit: 6b209919de39c15e0ebe4abc9cbcd30618f2af0b
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8897651"
+ms.lasthandoff: 07/11/2022
+ms.locfileid: "9135379"
 ---
 # <a name="global-inventory-accounting-ledger"></a>Razão do Contabilidade de estoque global
 
 [!include [banner](../includes/banner.md)]
-[!INCLUDE [preview-banner](../includes/preview-banner.md)]
-<!--KFM: Preview until 4/30/2022 -->
 
 A Contabilidade de estoque global tem seu próprio conjunto de razões. Toda vez que uma transação relacionada ao inventário é processada para uma entidade legal relevante, o sistema pode considerar essa transação em qualquer número de razões da Contabilidade de estoque global, conforme necessário.
 

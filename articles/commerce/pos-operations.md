@@ -15,12 +15,12 @@ ms.search.industry: Retail
 ms.author: jeffbl
 ms.search.validFrom: 2017-09-27
 ms.dyn365.ops.version: AX 7.0.0, Retail July 2017 update
-ms.openlocfilehash: 23805a88fab34d925241c51ae449bd81e15d5337
-ms.sourcegitcommit: 6616b969afd6beb11a79d8e740560bf00016ea7f
+ms.openlocfilehash: 3948fff15108568df514406ad443d4f538653e62
+ms.sourcegitcommit: 1af2b01aea6b5a4d88ee3fae6faa0eaf1976c5dd
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/17/2022
-ms.locfileid: "9027274"
+ms.lasthandoff: 07/13/2022
+ms.locfileid: "9146476"
 ---
 # <a name="online-and-offline-point-of-sale-pos-operations"></a>Operações de ponto de venda (PDV) online e offline
 
@@ -271,7 +271,7 @@ As seguintes colunas especificam onde as operações podem ser invocados:
 | 1218 | Forçar desbloqueio de periférico                           | O sistema usa essa operação internamente para desbloquear periféricos PDV.                                                                                                                                           | Não aplicável | Não aplicável     | Não aplicável | Não aplicável    | Número              |
 | 1219 | Abrir URL no PDV                                   | Abra uma URL configurada pelo administrador no PDV.                                                                                                                                                                           | Sim            | Sim                | Sim            | Sim               | Número              |
 | 1220 | Gerenciar cofre                                       | Gerencie o Cofre para diferentes caixas registradoras.                                                                                                                                                                       | Sim            | Sim                | Sim            | Sim               | Número              |
-| 1221 | Transações Suspensas Anuladas                       | Transações suspensas anuladas.                                                                                                                                                                               | Sim            | Sim                | Sim            | Sim               | Número              |
+| 1221 | Transações Suspensas Anuladas                       | Transações suspensas anuladas.                                                                                                                                                                               | Sim            | Número                | Número            | Sim               | Número              |
 | 1300 | Ignorar registro fiscal                          | Ignore o registro fiscal.                                                                                                                                                                                       | Número            | Número                | Número            | Sim               | Número             |
 | 1301 | Marcar evento fiscal registrado                      |  Marque o evento fiscal como registrado.                                                                                                                                                                                  | Número            | Número                | Número            | Sim               | Número             |
 | 1302 | Concluir processo de registro fiscal              | Conclua o processo de registro fiscal.                                                                                                                                                                           | Número            | Número                | Sim            | Sim               | Sim             |

@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: perlynne
 ms.search.validFrom: 2020-04-03
 ms.dyn365.ops.version: 10.0.12
-ms.openlocfilehash: 7f054f4f479affe8ca2e041c77bd6fd11d51378e
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: a82a3b26f2bf7cb546383da047d18c2997569ca5
+ms.sourcegitcommit: 28a726b3b0726ecac7620b5736f5457bc75a5f84
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8900496"
+ms.lasthandoff: 06/29/2022
+ms.locfileid: "9065109"
 ---
 # <a name="warehouse-management-on-hand-entries-cleanup-job"></a>Trabalho de limpeza de entradas disponíveis do gerenciamento de depósito
 
@@ -26,11 +26,11 @@ ms.locfileid: "8900496"
 
 O desempenho das consultas que são usadas para calcular o estoque disponível é afetado pelo número de registros nas tabelas envolvidas. Uma forma de ajudar a melhorar o desempenho é reduzir o número de registros que o banco de dados deve considerar.
 
-Este artigo descreve o trabalho de limpeza de entradas disponíveis, que exclui registros desnecessários nas tabelas InventSum e WHSInventReserve. Essas tabelas armazenam informações disponíveis para itens habilitados para processamento de gerenciamento de depósito. (Esses itens são mencionados como itens de WHS). A exclusão desses registros pode melhorar significativamente o desempenho dos cálculos disponíveis.
+Este artigo descreve o trabalho de limpeza de entradas disponíveis, que exclui registros desnecessários nas tabelas `InventSum` e `WHSInventReserve`. Essas tabelas armazenam informações disponíveis para itens habilitados para processamento de gerenciamento de depósito. (Esses itens são mencionados como itens de WMS). A exclusão desses registros pode melhorar significativamente o desempenho dos cálculos disponíveis.
 
 ## <a name="what-the-cleanup-job-does"></a>O que o trabalho de limpeza faz
 
-O trabalho de limpeza de entradas disponíveis exclui quaisquer registros nas tabelas WHSInventReserve e InventSum em que todos os valores de campo sejam *0* (zero). Esses registros podem ser excluídos porque não contribuem para as informações disponíveis. O trabalho exclui somente os registros que estão abaixo do nível de **Localização**.
+O trabalho de limpeza de entradas disponíveis exclui quaisquer registros nas tabelas `WHSInventReserve` e `InventSum` em que todos os valores de campo sejam *0* (zero). Esses registros podem ser excluídos porque não contribuem para as informações disponíveis. O trabalho exclui somente os registros que estão abaixo do nível de **Localização**.
 
 Se o estoque físico negativo for permitido, talvez o trabalho de limpeza não consiga excluir todas as entradas relevantes. O motivo dessa limitação é que o trabalho deve permitir um cenário especial no qual uma placa de licença tem vários números de série, e um desses números de série se tornou negativo. Por exemplo, o sistema tiver zero disponível no nível da placa de licença quando uma placa de licença tiver mais de 1 pcs de número de série 1 e -1 pcs de número de série 2. Para esse cenário especial, o trabalho faz uma exclusão em primeiro nível, em que ele tenta excluir primeiro dos níveis inferiores.
 

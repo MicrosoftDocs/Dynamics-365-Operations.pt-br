@@ -11,12 +11,12 @@ ms.search.region: Global
 ms.author: yufeihuang
 ms.search.validFrom: 2021-08-02
 ms.dyn365.ops.version: 10.0.21
-ms.openlocfilehash: 2bdb2ca0067ea430b249ac619a38c8bcec75f2f7
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: cd5d2cf112a9d2ccdf6226ee79f0ff488d51066b
+ms.sourcegitcommit: 28a726b3b0726ecac7620b5736f5457bc75a5f84
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8895805"
+ms.lasthandoff: 06/29/2022
+ms.locfileid: "9066660"
 ---
 # <a name="configure-inventory-visibility"></a>Configurar Inventory Visibility
 
@@ -55,7 +55,7 @@ O Suplemento de Visibilidade de Estoque adiciona vários recursos novos à sua i
 | *OnHandMostSpecificBackgroundService* | Este recurso fornece um resumo de estoque para produtos juntamente com todas as dimensões. Os dados do resumo de estoque serão sincronizados periodicamente de Visibilidade de Estoque. Para obter mais informações, consulte [Resumo de estoque](inventory-visibility-power-platform.md#inventory-summary). |
 | *OnhandChangeSchedule* | Esse recurso habilita o plano de alterações disponível e os recursos disponíveis para promessa (ATP). Para obter mais informações, consulte [Agenda de alterações disponíveis e disponível para promessa de Visibilidade de Estoque](inventory-visibility-available-to-promise.md). |
 | *Alocação* | Esse recurso opcional permite que a Visibilidade de Estoque tenha a capacidade de proteção de inventário (ringfencing) e controle de venda excessiva. Para obter mais informações, consulte [Alocação de estoque de visibilidade do estoque](inventory-visibility-allocation.md). |
-| *Habilitar itens de depósito em Visibilidade de Estoque* | Esse recurso opcional permite que a visibilidade do estoque dê suporte a itens habilitados para processos de depósito avançados (itens de WHS). Para obter mais informações, consulte [Suporte do Visibilidade de Estoque para itens WHS](inventory-visibility-whs-support.md). |
+| *Habilitar itens de depósito em Visibilidade de Estoque* | Esse recurso opcional permite que a Visibilidade do Estoque dê suporte a itens habilitados para processos de gerenciamento de depósito (WMS). Para obter mais informações, consulte [Suporte do Visibilidade de Estoque para itens WMS](inventory-visibility-whs-support.md). |
 
 ## <a name="find-the-service-endpoint"></a><a name="get-service-endpoint"></a>Localizar o ponto de extremidade de serviço
 
@@ -809,3 +809,4 @@ A tabela a seguir mostra a hierarquia de reserva padrão.
 | `ExtendedDimension8` | 33 |
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]
+

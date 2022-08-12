@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: jasongre
 ms.search.validFrom: 2019-07-31
 ms.dyn365.ops.version: Platform update 28
-ms.openlocfilehash: 1218497bbb112c9a9ebeaa4cabdcb9314c604a7f
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: 14369b02f1d7553be5c732f3bdf768825267998b
+ms.sourcegitcommit: 873d66c03a51ecb7082e269f30f5f980ccd9307f
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8845403"
+ms.lasthandoff: 07/06/2022
+ms.locfileid: "9125140"
 ---
 # <a name="saved-views"></a>Exibições salvas
 
@@ -215,7 +215,7 @@ Para obter uma lista de problemas conhecidos com exibições salvas, consulte os
 ### <a name="how-do-i-enable-saved-views-in-my-environment"></a>Como faço para habilitar as exibições salvas no meu ambiente?
 
 > [!NOTE]
-> O recurso **Exibições salvas** exige que o sistema de Personalização no Finanças e Operações esteja habilitado. Se a personalização estiver desativada para todo o ambiente, as exibições serão desabilitadas mesmo se você seguir as etapas abaixo. 
+> O recurso **Exibições salvas** exige que o sistema de Personalização nos aplicativos de finanças e operações esteja habilitado. Se a personalização estiver desativada para todo o ambiente, as exibições serão desabilitadas mesmo se você seguir as etapas abaixo. 
 
 Você pode ativar e desativar o recurso **Exibições salvas** por meio do Gerenciamento de recursos em qualquer ambiente. Após serem ativadas, as exibições salvas serão habilitadas em todas as sessões de usuário subsequentes.
 
@@ -255,3 +255,4 @@ Se você publicar uma exibição para uma entidade legal específica, mas não p
 - **Versão 10.0.21 ou posterior:** se o recurso **Suporte à entidade legal aperfeiçoado para exibições salvas** estiver ativado, o seletor de exibição só mostrará a exibição para as entidades legais especificadas. Esse comportamento ocorre porque o recurso permite que as exibições (inclusive exibições pessoais) sejam vinculadas a entidades legais específicas.
 
 [!INCLUDE[footer-include](../../../includes/footer-banner.md)]
+

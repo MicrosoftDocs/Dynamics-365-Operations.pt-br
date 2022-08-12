@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: panolte
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: a6a00bdae34e2aebcc4a015626eb044d90cd2887
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: db15c52ddde08bcc9d390c51efc676c20aac0a7e
+ms.sourcegitcommit: 28a726b3b0726ecac7620b5736f5457bc75a5f84
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8864387"
+ms.lasthandoff: 06/29/2022
+ms.locfileid: "9067419"
 ---
 # <a name="budgeting-home-page"></a>Home page de Orçamento
 
@@ -38,7 +38,7 @@ O ciclo de planejamento de recursos para uma empresa consiste, em geral, em plan
 
 Os processos de planejamento estratégico de longo prazo e planejamento de orçamento anual têm suporte por meio de um documento de plano de orçamento. Os documentos do plano de orçamento são totalmente integrados ao Microsoft Excel. Os usuários podem configurar cenários monetários e quantitativos ilimitados, além de definir uma hierarquia da organização de orçamento para oferecer suporte aos métodos de orçamento de cima para baixo e de baixo para cima. Após um orçamento ser estabelecido e aprovado no aplicativo, você converte o plano de orçamento em uma entrada de registro de orçamento. As entradas de registro de orçamento fornecem ferramentas para manter o orçamento e manter os valores rastreáveis através de códigos de orçamento. As entradas de registro de orçamento permitem revisar orçamentos originais, executar transferências, e manter valores de orçamento do ano anterior. Com base no orçamento estabelecido, uma empresa por habilitar o controle de orçamento. O nível de controle depende da cultura organizacional e do nível organizacional de maturidade. As organizações que têm um nível de maturidade baixo podem deixar o orçamento "no estado em que se encontra" e talvez sejam mais reativas do que pró-ativas se um orçamento não atender às expectativas. Outras organizações podem habilitar políticas de controle de orçamento que impedem os usuários de fazer compras se os fundos de orçamento não estão disponíveis.
 
-Por fim, as organizações muito maduras podem estabelecer uma cultura organizacional na qual os funcionários são instruídos sobre os objetivos organizacionais e acompanham esses objetivos por meio de políticas como "Considerar reunião online em vez de deslocamento". O aplicativo inclui uma estrutura de controle de orçamento que permite ao gerenciamento da empresa optar pelo controle rígido (o qual evita lançamentos que excedem o orçamento) ou controle flexível (em que os usuários são alertados de que excederão os fundos de orçamento disponíveis, mas podem decidir como proceder). Por fim, você pode usar as previsões contínuas. Uma previsão de rolamento é uma comparação regular de orçamento com números reais e é usada para definir o quão bem a empresa opera em relação ao orçamento. Uma previsão de rolamento também é usada para identificar tendências. No Finance and Operations, as previsões de rolamento têm suporte por meio de um documento de plano de orçamento na forma de atividades iniciais de planejamento. As previsões contínuas podem ser executadas em paralelo ao planejamento para o próximo ciclo orçamentário.
+Por fim, as organizações muito maduras podem estabelecer uma cultura organizacional na qual os funcionários são instruídos sobre os objetivos organizacionais e acompanham esses objetivos por meio de políticas como "Considerar reunião online em vez de deslocamento". O aplicativo inclui uma estrutura de controle de orçamento que permite ao gerenciamento da empresa optar pelo controle rígido (o qual evita lançamentos que excedem o orçamento) ou controle flexível (em que os usuários são alertados de que excederão os fundos de orçamento disponíveis, mas podem decidir como proceder). Por fim, você pode usar as previsões contínuas. Uma previsão de rolamento é uma comparação regular de orçamento com números reais e é usada para definir o quão bem a empresa opera em relação ao orçamento. Uma previsão de rolamento também é usada para identificar tendências. Nos aplicativos de finanças e operações, as previsões de rolamento têm suporte por meio de um documento de plano de orçamento na forma de atividades iniciais de planejamento. As previsões contínuas podem ser executadas em paralelo ao planejamento para o próximo ciclo orçamentário.
 
 -   [Visão geral de orçamento](basic-budgeting-overview-configuration.md)
 -   [Visão geral de controle de orçamento](budget-control-overview-configuration.md)
@@ -72,3 +72,4 @@ Por exemplo, você pode definir quem faz o orçamento, o que é orçado e a apar
 
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]
+

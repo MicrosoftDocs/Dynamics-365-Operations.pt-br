@@ -1,7 +1,7 @@
 ---
 title: Solução de problemas de importação do arquivo de extrato bancário
 description: Este artigo explica como corrigir problemas causados por pequenas diferenças no arquivo de extrato bancário.
-author: panolte
+author: angelad116
 ms.date: 03/29/2021
 ms.topic: article
 ms.prod: ''
@@ -12,19 +12,22 @@ ms.reviewer: kfend
 ms.custom: 141273
 ms.assetid: 3ee2f32b-02aa-420b-8990-e6aa5fc6bda3
 ms.search.region: global
-ms.author: panolte
+ms.author: angelading
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 422b2df6c4de3a948b0e62bfb70f99b12e04a8f9
-ms.sourcegitcommit: 04e6c1c9400e1b582180cf3e0e4767434e736c26
+ms.openlocfilehash: 44658ea48b9f7dae76c34c5f3d8828c9e8c4ac32
+ms.sourcegitcommit: 0b7a034e644f4d93fe55c7baca5a3f89dbe56898
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/05/2022
-ms.locfileid: "8711163"
+ms.lasthandoff: 07/14/2022
+ms.locfileid: "9151750"
 ---
 # <a name="bank-statement-file-import-troubleshooting"></a>Solução de problemas de importação do arquivo de extrato bancário
 
 [!include [banner](../includes/banner.md)]
+
+>[!NOTE]
+>Essa funcionalidade será preterida em 2022 de setembro, os novos usuários devem usar a emissão de relatórios eletrônicos.
 
 É importante que o arquivo de extrato bancário do banco corresponda ao layout ao qual o Microsoft Dynamics 365 Finance oferece suporte. Devido a padrões restritos de extratos bancários, a maioria das integrações funcionarão corretamente. No entanto, algumas vezes, o arquivo de extrato bancário não é importado ou apresenta resultados incorretos. Normalmente, esses problemas são causados por pequenas diferenças no arquivo de extrato bancário. Este artigo explica como corrigir essas diferenças e resolver os problemas.
 
@@ -39,7 +42,7 @@ Após tentar importar um arquivo de extrato bancário, acesse o histórico de tr
 Compare a definição de layout do arquivo bancário com a definição de importação do Finance e observe todas as diferenças nos campos e nos elementos. Compare o arquivo de extrato bancário com o arquivo de exemplo relacionado do Finance. Nos arquivos ISO20022, todas as diferenças devem ser fáceis de ver.
 
 ## <a name="time-zone-differences-on-imported-bank-statements"></a>Diferenças de fuso horário em extratos bancários importados
-Os valores de data/hora no arquivo de importação podem diferir dos valores de data/hora exibidos no Finance and Operations. Para evitar essa discrepância, insira uma preferência de fuso horário na página **Configurar fontes de dados**. Para obter mais informações sobre como inserir uma preferência de fuso horário, consulte [Configurar o processo de importação de reconciliação bancária avançada](set-up-advanced-bank-reconciliation-import-process.md).
+Os valores de data/hora no arquivo de importação podem diferir dos valores de data/hora exibidos no aplicativo de finanças e operações. Para evitar essa discrepância, insira uma preferência de fuso horário na página **Configurar fontes de dados**. Para obter mais informações sobre como inserir uma preferência de fuso horário, consulte [Configurar o processo de importação de reconciliação bancária avançada](set-up-advanced-bank-reconciliation-import-process.md).
 
 ## <a name="transformations"></a>Transformações
 Normalmente, a alteração deve ser feita em uma das três transformações. Cada transformação é gravada em um padrão específico.
@@ -109,3 +112,4 @@ A tabela a seguir lista exemplos das definições de layout técnico de arquivos
 
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]
+

@@ -12,12 +12,12 @@ ms.reviewer: margoc
 ms.search.region: Global
 ms.search.validFrom: 2020-07-27
 ms.dyn365.ops.version: 8.0999999999999996
-ms.openlocfilehash: c0ec643046d871000220fbe82df04866599bcdf7
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: eba7c10d08ade65f7ddf93cae06446b7e3452e37
+ms.sourcegitcommit: 28a726b3b0726ecac7620b5736f5457bc75a5f84
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8907824"
+ms.lasthandoff: 06/29/2022
+ms.locfileid: "9065261"
 ---
 # <a name="learning-catalog-for-business-decision-makers-considering-dynamics-365-finance"></a>Catálogo de aprendizagem para tomadores de decisões de negócios que consideram o Dynamics 365 Finance
 
@@ -31,7 +31,7 @@ O catálogo a seguir é organizado com base no conhecimento fundamental para dom
 |---------|-------------|--------|--------|
 | [Conheça o valor comercial do Microsoft Dynamics 365 e do Power Platform](/learn/paths/learn-business-value-of-dynamics-365-and-power-platform/) | Quer aprender mais sobre aplicativos de negócios? Talvez você não saiba onde começar com Microsoft Dynamics 365 e aplicativos do Power Platform? Saiba como o poder dos aplicativos comerciais pode ajudar a transformar seus negócios. | Caminho de aprendizado online, gratuito, baseado no seu ritmo | 7 horas |
 | [Conceitos básicos do Dynamics 365 e do Power Platform](/learn/paths/dyn-power-plat-bus-app-fundamentals/) | Quer aprender mais sobre aplicativos de negócios? Comece com este caminho de aprendizado para ver como os aplicativos do Dynamics 365 são usados. Aprenda sobre os conceitos de nuvem, sobre o Power Platform e como usar os aplicativos do Dynamics 365. | Caminho de aprendizado online, gratuito, baseado no seu ritmo | 5.5 horas |
-| [Introdução aos aplicativos de Finanças e Operações](/learn/paths/get-started-finance-operations/) | Aprender como os aplicativos de Finanças e Operações dão suporte para que as empresas gerenciem sistemas financeiros globais, processos de negócios operacionais e cadeias de fornecedores simplificadas permitindo aos usuários tomarem decisões rápidas e conscientes. Na primeira etapa de sua carreira trabalhando com aplicativos de Finanças e Operações, você deve se familiarizar com os recursos e as funcionalidades, independentemente de sua função desejada. | Caminho de aprendizado online, gratuito, baseado no seu ritmo | 2 horas |
+| [Introdução aos aplicativos de finanças e operações](/learn/paths/get-started-finance-operations/) | Aprenda como os aplicativos de finanças e operações dão suporte para que as empresas gerenciem sistemas financeiros globais, processos de negócios operacionais e cadeias de fornecedores simplificadas permitindo aos usuários tomarem decisões rápidas e conscientes. Na primeira etapa de sua carreira trabalhando com aplicativos de finanças e operações, você deve se familiarizar com os recursos e as funcionalidades, independentemente de sua função desejada. | Caminho de aprendizado online, gratuito, baseado no seu ritmo | 2 horas |
 | [Introdução ao Dynamics 365 Finance](/learn/modules/get-started-financial-management-dyn365-finance/) | O Dynamics 365 Finance permite que os usuários de negócios se adaptem a ambientes comerciais que mudam rapidamente. Fornece às empresas tudo que elas precisam para controlar as finanças e gerenciar fundos com informações precisas, a qualquer momento para fins de planejamento, e ajuda as empresas a ficarem atualizadas com ferramentas analíticas. Como a parte financeira é a essência de qualquer negócio, é importante conhecer os recursos do Dynamics 365 Finance. | Módulo de aprendizado online, gratuito, baseado no seu ritmo | 1 hora |
 | [Comece com o gerenciamento de despesas no Dynamics 365 Project Operations](/learn/modules/get-started-expense-management/) | O módulo de gerenciamento de despesas no Dynamics 365 Project Operations permite que as organizações rastreiem e gerenciem despesas de funcionários. O gerenciamento de despesas permite armazenar informações de pagamento, importar transações de cartão de crédito e rastrear dinheiro gasto por funcionários quando incorrem em despesas para sua organização. Você também pode configurar políticas de despesas, automatizar aprovações e fornecer um processo comercial simplificado usando o Project Operations. | Caminho de aprendizado online, gratuito, baseado no seu ritmo | 1 hora |
 | [Introdução ao Dynamics 365 Intelligent Order Management](/learn/modules/get-started-intelligent-order-management/) | Com o Dynamics 365 Intelligent Order Management, os clientes podem gerenciar a orquestração das ordens até o atendimento. Essas funcionalidades permitem que as organizações orquestrem fluxos de ordens em diferentes plataformas e aplicativos. | Módulo de aprendizado online, gratuito, baseado no seu ritmo | 30 minutos |

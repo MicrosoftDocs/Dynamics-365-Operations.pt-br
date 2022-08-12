@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: perlynne
 ms.search.validFrom: 2017-09-20
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 591c93eef61992507188323909f37e3f33550a7d
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: e0b21c0000f6bf1cbbb318c898a519e51ca7e9b8
+ms.sourcegitcommit: 28a726b3b0726ecac7620b5736f5457bc75a5f84
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8888373"
+ms.lasthandoff: 06/29/2022
+ms.locfileid: "9068621"
 ---
 # <a name="batch-release-of-partially-reserved-transfer-orders"></a>Versão do lote de ordens de transferência parcialmente reservadas
 
@@ -28,7 +28,7 @@ ms.locfileid: "8888373"
 A funcionalidade de liberação de lote de ordens de transferência reservada parcialmente permite que você libere as ordens se transferência parcialmente para um depósito usando um trabalho de lote.
 Como você tem a opção de liberar uma quantidade parcial, você não terá que esperar a quantidade total da ordem ficar disponível no depósito antes de liberar uma ordem.
 
-A liberação de ordens para um depósito é um processo de gerenciamento de depósito avançado. Este processo envolve atividades como separação, embalagem e entrega que um trabalhador do depósito pode executar usando um dispositivo móvel.
+A liberação de ordens para um depósito é um processo de gerenciamento de depósito (WMS) avançado. Este processo envolve atividades como separação, embalagem e entrega que um trabalhador do depósito pode executar usando um dispositivo móvel.
 
 ## <a name="where-it-applies"></a>Aplica-se a
 

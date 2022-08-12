@@ -1,6 +1,6 @@
 ---
-title: Registrar itens para um item habilitado de depósito avançado usando um diário de entrada de item
-description: Este artigo apresenta um cenário que mostra como registrar itens usando o diário de entrada de itens quando você estiver usando processos de gerenciamento de depósito avançado.
+title: Registrar itens habilitados para processos de gerenciamento de depósito usando um diário de entrada de item
+description: Este artigo apresenta um cenário que mostra como registrar itens usando o diário de entrada de itens quando você estiver usando processos de gerenciamento de depósito (WMS).
 author: Mirzaab
 ms.date: 03/24/2021
 ms.topic: business-process
@@ -14,18 +14,18 @@ ms.search.industry: Distribution
 ms.author: mirzaab
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: ac4a681484f0cd843ccd73633040f0fa0be0475e
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: 5241c982675d6b9a9bc9596b8ac9ed2798903287
+ms.sourcegitcommit: 28a726b3b0726ecac7620b5736f5457bc75a5f84
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8863611"
+ms.lasthandoff: 06/29/2022
+ms.locfileid: "9066957"
 ---
-# <a name="register-items-for-an-advanced-warehousing-enabled-item-using-an-item-arrival-journal"></a>Registrar itens para um item habilitado de depósito avançado usando um diário de entrada de item
+# <a name="register-items-enabled-for-warehouse-management-processes-using-an-item-arrival-journal"></a>Registrar itens habilitados para processos de gerenciamento de depósito usando um diário de entrada de item
 
 [!include [banner](../../includes/banner.md)]
 
-Este artigo apresenta um cenário que mostra como registrar itens usando o diário de entrada de itens quando você estiver usando processos de gerenciamento de depósito avançado. Normalmente isso é feito por um vendedor de remessa.
+Este artigo apresenta um cenário que mostra como registrar itens usando o diário de entrada de itens quando você estiver usando processos de gerenciamento de depósito (WMS). Normalmente isso é feito por um vendedor de remessa.
 
 ## <a name="enable-sample-data"></a>Habilitar dados de exemplo
 
@@ -36,7 +36,7 @@ Você pode trabalhar por meio desse cenário substituindo valores de seus própr
 - Você deve ter uma ordem de compra confirmada com uma linha de ordem de compra aberta.
 - O item na linha deve ser estocado. Ele não deve usar grades de produto e não deve ter dimensões de rastreamento.
 - O item deve estar associado a um grupo de dimensões de armazenamento com um processo de gerenciamento de depósito habilitado.
-- O depósito usado deve ser habilitado para processos de gerenciamento de depósito, e a localização usada para recebimento deve ser controlada por placa de licença.
+- O depósito usado deve ser habilitado para WMS, e a localização usada para recebimento deve ser controlada por placa de licença.
 
 ## <a name="create-an-item-arrival-journal-header-that-uses-warehouse-management"></a>Criar um cabeçalho do diário de entrada de item que use o gerenciamento de depósito
 

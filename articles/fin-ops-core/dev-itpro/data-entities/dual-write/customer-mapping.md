@@ -1,6 +1,6 @@
 ---
 title: Cliente mestre integrado
-description: Este artigo descreve a integração de dados do cliente entre o Finance and Operations e o Dataverse.
+description: Este artigo descreve a integração de dados do cliente entre finanças e operações e o Dataverse.
 author: RamaKrishnamoorthy
 ms.date: 07/15/2019
 ms.topic: article
@@ -9,12 +9,12 @@ ms.reviewer: tfehr
 ms.search.region: global
 ms.author: ramasri
 ms.search.validFrom: 2019-07-15
-ms.openlocfilehash: 042042bb19b32d3c96b4e0c8521a8b1d65e7ab22
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: 1b16eab5c107a3176f0890372d397947698e71de
+ms.sourcegitcommit: 6781fc47606b266873385b901c302819ab211b82
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8890446"
+ms.lasthandoff: 07/02/2022
+ms.locfileid: "9111714"
 ---
 # <a name="integrated-customer-master"></a>Cliente mestre integrado
 
@@ -30,9 +30,9 @@ Os dados do cliente podem ser dominados em mais de um aplicativo do Dynamics 365
 
 ![Fluxo de dados do cliente.](media/dual-write-customer-data-flow.png)
 
-Os clientes podem ser classificados amplamente em dois tipos: clientes comerciais/organizacionais e clientes/usuários finais. Esses dois tipos de cliente são armazenados e processados de maneiras diferentes no Finance and Operations e no Dataverse.
+Os clientes podem ser classificados amplamente em dois tipos: clientes comerciais/organizacionais e clientes/usuários finais. Esses dois tipos de cliente são armazenados e processados de maneiras diferentes em finanças e operações e no Dataverse.
 
-No Finance and Operations, os clientes comerciais/organizacionais e os clientes/usuários finais são dominados em uma única tabela denominada **CustTable** (CustCustomerV3Entity) e são classificados com base no atributo **Tipo**. (Se **Tipo** estiver definido como **Organização**, o cliente será um cliente comercial/organizacional. Se **Tipo** estiver definido como **Pessoa**, o cliente terá um cliente/usuário final.) As informações da pessoa de contato principal é manipulada através da tabela SMMContactPersonEntity.
+Em finanças e operações, os clientes comerciais/organizacionais e os clientes/usuários finais são dominados em uma única tabela denominada **CustTable** (CustCustomerV3Entity) e são classificados com base no atributo **Tipo**. (Se **Tipo** estiver definido como **Organização**, o cliente será um cliente comercial/organizacional. Se **Tipo** estiver definido como **Pessoa**, o cliente terá um cliente/usuário final.) As informações da pessoa de contato principal é manipulada através da tabela SMMContactPersonEntity.
 
 No Dataverse, clientes comerciais/organizacionais são dominados na tabela Conta e identificados como clientes quando o atributo **RelationshipType** é definido como **Cliente**. Os clientes/usuários finais e a pessoa de contato são representados pela tabela Contato. Para fornecer uma separação clara entre um consumidor/usuário final e uma pessoa de contato, a tabela **Contato** tem um sinalizador booliano denominado **Comercializável**. Quando **Comercializável** for **Verdadeiro**, o contato será um cliente/usuário final; as cotações e ordens podem ser criadas para esse contato. Quando **Comercializável** for **Falso**, o contato será apenas uma pessoa de contato principal de um cliente.
 
@@ -42,7 +42,7 @@ Quando um contato não comercializável participar de uma cotação ou processo 
 
 Os dados do cliente incluem todas as informações sobre ele, como o grupo de clientes, os endereços, as informações de contato, o perfil do pagamento, o perfil da fatura e o status de fidelidade. Diversos mapas de tabelas trabalham juntos durante a interação de dados do cliente, conforme mostrado na tabela a seguir.
 
-Aplicativos do Finance and Operations | Aplicativos do Customer Engagement         | Descrição
+Aplicativos do Finance and Operations | Aplicativos do Customer Engagement         | descrição
 ----------------------------|---------------------------------|------------
 [Contatos do CDS V2](mapping-reference.md#115) | contatos | Este modelo sincroniza todas as informações de contato principais, secundárias e terciárias de clientes e fornecedores.
 [Grupos de clientes](mapping-reference.md#126) | msdyn_customergroups | Este modelo sincroniza informações do grupo de clientes.
@@ -57,3 +57,4 @@ Aplicativos do Finance and Operations | Aplicativos do Customer Engagement      
 [Condições de pagamento](mapping-reference.md#161) | msdyn_paymentterms | Este modelo sincroniza dados de referência de condições de pagamento (condições de pagamento) de clientes e fornecedores.
 
 [!INCLUDE[footer-include](../../../../includes/footer-banner.md)]
+

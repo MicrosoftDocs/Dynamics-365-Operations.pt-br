@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: jasongre
 ms.search.validFrom: 2020-02-29
 ms.dyn365.ops.version: Platform update 33
-ms.openlocfilehash: 5259e1d7d6c95074337164d8427d7f035e00dbd9
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: 07791afb2de670a5b9b910e441395c2949460394
+ms.sourcegitcommit: 873d66c03a51ecb7082e269f30f5f980ccd9307f
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8890048"
+ms.lasthandoff: 07/06/2022
+ms.locfileid: "9124700"
 ---
 # <a name="grid-capabilities"></a>Recursos de grade
 
@@ -86,7 +86,7 @@ Para dar suporte a esse novo comportamento, uma nova coluna para o status da lin
 Quando os usuários inserem dados antes do local em que o servidor está processando, eles podem esperar algumas degradações na experiência de entrada de dados, como a falta de pesquisas, a validação no nível de controle e a entrada de valores padrão. Recomenda-se que os usuários que precisam de uma lista suspensa para localizar um valor aguardem até que o servidor volte para a linha atual. A validação do nível de controle e a entrada de valores padrão também ocorrerão quando o servidor processar essa linha.
 
 ### <a name="pasting-from-excel"></a>Colando a partir do Excel
-Os usuários sempre foram capazes de exportar dados de grades em aplicativos de finanças e operações para o Microsoft Excel usando o mecanismo **Exportação para o Excel**. No entanto, a capacidade de inserir dados antes do sistema permite que a nova grade dê suporte à cópia de tabelas do Excel e colando-as diretamente em grades em aplicativos de finanças e operações. A célula de grade na qual a operação de colagem é iniciada determina onde a tabela copiada começa a ser colada. O conteúdo da grade é substituído pelo conteúdo da tabela copiada, exceto em dois casos:
+Os usuários sempre foram capazes de exportar dados de grades em aplicativos de finanças e operações para o Microsoft Excel usando o mecanismo **Exportar para Excel**. No entanto, a capacidade de inserir dados antes do sistema permite que a nova grade dê suporte à cópia de tabelas do Excel e colando-as diretamente em grades em aplicativos de finanças e operações. A célula de grade na qual a operação de colagem é iniciada determina onde a tabela copiada começa a ser colada. O conteúdo da grade é substituído pelo conteúdo da tabela copiada, exceto em dois casos:
 
 - Se o número de colunas na tabela copiada exceder o número de colunas que permanecem na grade, iniciando a partir do local de colagem, o usuário será notificado de que as colunas extras foram ignoradas. 
 - Se o número de linhas na tabela copiada exceder o número de linhas na grade, a partir do local de colagem, as células existentes serão sobrescritas pelo conteúdo colado e todas as linhas extras da tabela copiadas serão inseridas como novas linhas na parte inferior da grade. 
@@ -97,7 +97,7 @@ Como um acelerador de produtividade, os usuários podem inserir fórmulas matem�
 Para que o sistema reconheça um valor como uma expressão, inicie o valor com um sinal de igualdade (**=**). Para obter mais informações sobre os operadores e a sintaxe permitidos, consulte [Símbolos matemáticos permitidos](http://bugwheels94.github.io/math-expression-evaluator/#supported-maths-symbols).
 
 ## <a name="grouping-tabular-data"></a>Agrupando de dados tabulares
-Geralmente, os usuários corporativos precisam executar análises ad hoc de dados. Embora isso possa ser feito por meio da exportação de dados do Microsoft Excel e usando tabelas dinâmicas, o recurso **Agrupamento em grandes**, que depende do novo recurso de controle de grade, permite que usuários organizem dados tabulares de forma interessante em aplicativos de finanças e operações. Como esse recurso estende o recurso **Totais**, o **Agrupamento** permite obter insights significativos sobre os dados fornecendo subtotais no nível de grupo.
+Geralmente, os usuários corporativos precisam executar análises ad hoc de dados. Embora isso possa ser feito por meio da exportação de dados para o Microsoft Excel e usando tabelas dinâmicas, o recurso **Agrupamento em grandes**, que depende do novo recurso de controle de grade, permite que usuários organizem dados tabulares de forma interessante em aplicativos de finanças e operações. Como esse recurso estende o recurso **Totais**, o **Agrupamento** permite obter insights significativos sobre os dados fornecendo subtotais no nível de grupo.
 
 Para usar esse recurso, clique com o botão direito do mouse na coluna a ser agrupada e selecione **Agrupar por esta coluna**. Essa ação classificará os dados pela coluna selecionada, adicionará nova coluna **Agrupar por** ao início da grade e inserirá "linhas de cabeçalho" no início de cada grupo. Essas linhas de cabeçalho fornecem as seguintes informações sobre cada grupo:
 
@@ -168,7 +168,7 @@ Se você tiver recusado o uso da nova grade em uma página individual, convém r
 ## <a name="developer-opting-individual-grids-out-of-the-typing-ahead-of-the-system-capability"></a>[Desenvolvedor] Optar por grades individuais fora da digitação antes do recurso da capacidade
 Alguns cenários surgiram que não são propícios a um funcionamento com a capacidade de *Digitação antes do recurso do sistema* da grade. (Por exemplo, um código disparado quando uma linha é validada faz com que uma pesquisa de fonte de dados seja disparada e, em seguida, a pesquisa pode corromper edições não confirmadas em linhas existentes.) Se a sua organização descobre tal cenário, há uma API disponível que permite que um desenvolvedor opte por uma grade individual fora da validação de linha assíncrona e reverta para o comportamento herdado.
 
-Quando a validação de linha assíncrona está desabilitada em uma grade, os usuários não podem criar uma nova linha ou mover para uma linha existente diferente na grade enquanto houver problemas de validação na linha atual. Como um efeito colateral dessa ação, as tabelas não podem ser coladas do Excel em grades do Finance and Operations.
+Quando a validação de linha assíncrona está desabilitada em uma grade, os usuários não podem criar uma nova linha ou mover para uma linha existente diferente na grade enquanto houver problemas de validação na linha atual. Como um efeito colateral dessa ação, as tabelas não podem ser coladas do Excel em grades do aplicativo de finanças e operações.
 
 Para optar por uma grade individual fora da validação da linha assíncrona, adicionar a seguinte chamada após `super()` no método do formulário `run()`.
 
@@ -200,3 +200,4 @@ Esta seção mantém uma lista de problemas conhecidos para o novo controle de g
 
 
 [!INCLUDE[footer-include](../../../includes/footer-banner.md)]
+

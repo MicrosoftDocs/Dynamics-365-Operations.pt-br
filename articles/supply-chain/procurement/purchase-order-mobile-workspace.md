@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: gfedorova
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: 224d3ce5c9163e95de817a3446a57f07c85df757
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: b5336549937edca6beb94137896f84b460f257f7
+ms.sourcegitcommit: 6781fc47606b266873385b901c302819ab211b82
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8863843"
+ms.lasthandoff: 07/02/2022
+ms.locfileid: "9111320"
 ---
 # <a name="purchase-order-approval-mobile-workspace"></a>Área de trabalho móvel para aprovação de ordem de compra
 
@@ -71,7 +71,7 @@ Se o Microsoft Dynamics 365 for Operations versão 1611 com a atualização de p
 </table>
 
 ## <a name="download-and-install-the-mobile-app"></a>Baixa e instala o aplicativo móvel.
-Baixe e instale o aplicativo móvel Finance and Operations:
+Baixe e instale o aplicativo móvel de finanças e operações:
 
 - [Para telefones Android](https://go.microsoft.com/fwlink/?linkid=850662)
 - [Para iPhones](https://go.microsoft.com/fwlink/?linkid=850663)
@@ -114,3 +114,4 @@ Depois de ver a ordem de compra que lhe foi atribuído e ler as instruções de 
 
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]
+

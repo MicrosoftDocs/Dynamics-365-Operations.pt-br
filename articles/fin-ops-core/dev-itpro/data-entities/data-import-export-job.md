@@ -12,12 +12,12 @@ ms.search.region: Global
 ms.author: peakerbl
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 1407c6def22b9759723e49fb2fa6d4d68f180891
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: 18a15928eef4d7158f778729506d691dd587e013
+ms.sourcegitcommit: 3289478a05040910f356baf1995ce0523d347368
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8860154"
+ms.lasthandoff: 07/01/2022
+ms.locfileid: "9109452"
 ---
 # <a name="data-import-and-export-jobs-overview"></a>Visão geral de trabalhos de importação e exportação de dados
 
@@ -209,7 +209,7 @@ Ao agendar o processo de limpeza, os parâmetros a seguir devem ser especificado
 ## <a name="job-history-clean-up-and-archival"></a>Limpeza e arquivamento do histórico de trabalho 
 A funcionalidade de limpeza e arquivamento do histórico de trabalho substitui as versões anteriores da funcionalidade de limpeza. Esta seção explicará esses novos recursos.
 
-Uma das principais alterações feitas na funcionalidade de limpeza é o uso do trabalho em lotes do sistema para limpar o histórico. O uso do trabalho em lotes do sistema permite que aplicativos de finanças e operações agendem e executem automaticamente o trabalho em lote de limpeza assim que o sistema estiver pronto. Não é mais necessário agendar o trabalho em lotes manualmente. Neste modo de execução padrão, o trabalho em lotes será executado de hora em hora a partir da meia-noite e manterá o histórico de execução dos últimos 7 dias. O histórico removido é arquivado para recuperação futura. A partir da versão 10.0.20, este recurso está sempre ativo.
+Uma das principais alterações feitas na funcionalidade de limpeza é o uso do trabalho em lotes do sistema para limpar o histórico. O uso do trabalho em lote do sistema permite que aplicativos de finanças e operações agendem e executem automaticamente o trabalho em lote de limpeza assim que o sistema estiver pronto. Não é mais necessário agendar o trabalho em lotes manualmente. Neste modo de execução padrão, o trabalho em lotes será executado de hora em hora a partir da meia-noite e manterá o histórico de execução dos últimos 7 dias. O histórico removido é arquivado para recuperação futura. A partir da versão 10.0.20, este recurso está sempre ativo.
 
 A segunda alteração no processo de limpeza é o arquivamento do histórico de execução removido. O trabalho de limpeza arquivará os registros excluídos no armazenamento de blobs que o DIXF usa para integrações normais. O item arquivado estará no formato de pacote DIXF e ficará disponível por 7 dias no blob durante os quais ele pode ser baixado. A longevidade padrão de 7 dias do item arquivado pode ser alterada para um máximo de 90 dias nos parâmetros.
 
@@ -235,3 +235,4 @@ Para baixar o histórico de execução arquivado, Acesse o espaço de trabalho g
 
 
 [!INCLUDE[footer-include](../../../includes/footer-banner.md)]
+

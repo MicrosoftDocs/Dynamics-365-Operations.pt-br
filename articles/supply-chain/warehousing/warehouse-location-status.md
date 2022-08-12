@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: mirzaab
 ms.search.validFrom: 2020-07-01
 ms.dyn365.ops.version: 10.0.7
-ms.openlocfilehash: d2632ed1f5c733e45f5d927643bdaef430bc4009
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: 6d04ca43895935329b711f2658360c41f611975e
+ms.sourcegitcommit: 28a726b3b0726ecac7620b5736f5457bc75a5f84
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8850399"
+ms.lasthandoff: 06/29/2022
+ms.locfileid: "9065454"
 ---
 # <a name="warehouse-location-status"></a>Status da localização do depósito
 
@@ -165,7 +165,7 @@ O cenário de exemplo requer que você prepare dois perfis de local.
 1. Observe que o campo **Status do local** para o local de onde o trabalho de ordem de venda foi coletado está definido como *Separação* e o campo **Data e hora da última atividade** foi atualizado.
 
 > [!NOTE]
-> Os campos de localização são atualizados somente por transações de depósito. Se você mover o estoque usando um diário ou outros processos não-WHS, os campos não serão atualizados.
+> Os campos de localização são atualizados somente por transações de depósito. Se você mover o estoque usando um diário ou outros processos não-WMS, os campos não serão atualizados.
 
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

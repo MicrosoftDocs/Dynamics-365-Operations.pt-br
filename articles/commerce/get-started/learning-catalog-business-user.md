@@ -12,12 +12,12 @@ ms.reviewer: margoc
 ms.search.region: Global
 ms.search.validFrom: 2020-07-27
 ms.dyn365.ops.version: 8.0999999999999996
-ms.openlocfilehash: afbd23768c86775e8007f72cb8af4126e4452336
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: 8d5d1a1a2a5f4bc3d2bdea8ae87865fb3dbfc8c7
+ms.sourcegitcommit: 28a726b3b0726ecac7620b5736f5457bc75a5f84
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8897063"
+ms.lasthandoff: 06/29/2022
+ms.locfileid: "9066928"
 ---
 # <a name="learning-catalog-for-users-of-dynamics-365-commerce"></a>Catálogo de aprendizagem para usuários do Dynamics 365 Commerce
 
@@ -53,3 +53,4 @@ Para obter treinamento sobre recursos compartilhados com outros aplicativos de f
 
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]
+

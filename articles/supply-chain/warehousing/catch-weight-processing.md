@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: perlynne
 ms.search.validFrom: 2019-1-31
 ms.dyn365.ops.version: 8.1.3
-ms.openlocfilehash: d0f0e44cfafec722f6eed3d18ba8be4739be30c1
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: 881c3c4aa655a5ad30adffce108ba2fc3e6691c5
+ms.sourcegitcommit: 28a726b3b0726ecac7620b5736f5457bc75a5f84
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8900670"
+ms.lasthandoff: 06/29/2022
+ms.locfileid: "9070399"
 ---
 # <a name="catch-weight-product-processing-with-warehouse-management"></a>Processamento de produtos de peso variável com gerenciamento de depósito
 
@@ -82,7 +82,7 @@ Se o peso real é capturado na estação de embalagem durante os processos de em
 > [!NOTE]
 > Como a opção **Embalagem** faz com que o estoque seja atualizado com o peso separado médio, isso pode acionar uma discrepância que pode causar um ajuste de lucros/perdas de peso variável e/ou uma diferença entre o peso do estoque disponível e o peso da marca de peso variável.
 
-Para processos internos de gerenciamento de depósito, como correções de contagem e ajuste, você pode definir se o peso deve ser capturado. Se ele não é capturado, é usado o peso nominal. Outras opções permitem capturar o peso por unidade de peso variável e por quantidade de contagem.
+Para processos internos, como correções de contagem e ajuste, você pode definir se o peso deve ser capturado. Se ele não é capturado, é usado o peso nominal. Outras opções permitem capturar o peso por unidade de peso variável e por quantidade de contagem.
 
 Você também pode configurar como peso é capturado. Em um dos dois fluxos principais, marcas de peso variável são rastreadas e usadas para capturar o peso. No outro fluxo, as marcas de peso variável não são rastreadas.
 
@@ -183,7 +183,7 @@ Nem todos os fluxos de trabalho dão suporte ao processamento de produtos de pes
 ### <a name="other-restrictions-and-behaviors-for-catch-weight-product-processing-with-warehouse-management"></a>Outras restrições e comportamentos para o processamento de produtos de peso variável com gerenciamento de depósito
 
 - Durante os processos de separação nos quais o usuário não é solicitado a identificar dimensões de rastreamento, a atribuição de peso é feita com base no peso médio. Esse comportamento ocorre quando, por exemplo, uma combinação de dimensões de rastreamento é usada no mesmo local e, depois que um usuário processa a separação, somente um valor de dimensão de rastreamento permanece no local.
-- Quando o estoque é reservado para um produto de peso variável configurado para processos de gerenciamento de depósito, a reserva é feita com base no peso mínimo definido, mesmo se essa quantidade for a última quantidade de manuseio disponível. Esse comportamento difere do comportamento de itens que não estão configurados para processos de gerenciamento de depósito. Há uma exceção a essa restrição. Para a separação de produção, quando a última quantidade de manuseio de um produto de peso variável controlado por número de série é separada, o peso real é usado.
+- Quando o estoque é reservado para um produto de peso variável configurado para processos de gerenciamento de depósito (WMS), a reserva é feita com base no peso mínimo definido, mesmo se essa quantidade for a última quantidade de manuseio disponível. Esse comportamento difere do comportamento de itens que não estão configurados para WMS. Há uma exceção a essa restrição. Para a separação de produção, quando a última quantidade de manuseio de um produto de peso variável controlado por número de série é separada, o peso real é usado.
 - Os processos que usam o peso como parte dos cálculos de capacidade (limites de onda, máximo de divisões de trabalho, máximos de contêineres, capacidades de carga da localização, entre outros) não usam o peso real do estoque. Em vez disso, os processos são baseados no peso de manuseio físico definido para o produto.
 - De forma geral, a funcionalidade de comércio não tem suporte para produtos de peso variável.
 - Para produtos de peso variável, o status de estoque não pode ser atualizado em **Alteração de status do depósito**.

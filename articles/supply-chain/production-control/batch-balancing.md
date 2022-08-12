@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: johanho
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 8.0.0
-ms.openlocfilehash: 50392e8aa0deb568a57e1df59ced70625a4f8a78
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: 939066fbf4ab7b316283d406c321f1a7936c187f
+ms.sourcegitcommit: 28a726b3b0726ecac7620b5736f5457bc75a5f84
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8856038"
+ms.lasthandoff: 06/29/2022
+ms.locfileid: "9066536"
 ---
 # <a name="batch-balancing"></a>Balanceamento de lote
 
@@ -165,22 +165,22 @@ No subprocesso Balancear ingredientes do lote, a quantidade de ingredientes a se
 
 ### <a name="confirm-and-release-the-formula"></a>Confirmar e liberar a fórmula
 
-Depois que as quantidades dos ingredientes forem calculadas, você poderá confirmar e liberar a fórmula. O processo de liberação difere, dependendo de os produtos estarem habilitados ou não para os processos de gerenciamento de depósito:
+Depois que as quantidades dos ingredientes forem calculadas, você poderá confirmar e liberar a fórmula. O processo de liberação difere, dependendo de os produtos estarem habilitados ou não para os processos de gerenciamento de depósito (WMS):
 
-- Se um produto estiver habilitado para os processos de gerenciamento de depósito, a linha de fórmula será liberada para o depósito de acordo com os princípios dos processos de gerenciamento de depósito. A linha de fórmula é liberada em quantidades correspondentes às quantidades balanceadas e para os lotes específicos que são selecionados para os princípios ativos.
+- Se um produto for habilitado para WMS, a linha da fórmula será liberada para o depósito de acordo com os princípios do WMS. A linha de fórmula é liberada em quantidades correspondentes às quantidades balanceadas e para os lotes específicos que são selecionados para os princípios ativos.
 
     > [!NOTE]
     > As linhas de fórmula podem ser liberadas para o depósito somente como parte do processo de balanceamento de lote. Embora haja outras opções para liberar materiais de produção para o depósito, essas opções não podem ser usadas para linhas de fórmula.
 
-- Se um produto não estiver habilitado para os processos de gerenciamento de depósito, uma lista de separação de produção será criada para o produto quando você confirmar e liberar a fórmula.
+- Se um produto não estiver habilitado para WMS, uma lista de separação de produção será criada para o produto quando você confirmar e liberar a fórmula.
 
-Em uma única fórmula, você pode combinar os produtos habilitados e os produtos não habilitados para os processos de gerenciamento de depósito. Quando os dois tipos de produtos são incluídos em uma fórmula, os produtos habilitados para os processos de gerenciamento de depósito são liberados para o depósito. Para os produtos não habilitados para os processos de gerenciamento de depósito, uma lista de separação será criada quando a fórmula for confirmada e liberada.
+Em uma única fórmula, você pode combinar os produtos habilitados e os produtos não habilitados para os processos de gerenciamento de depósito. Quando os dois tipos de produto são incluídos em uma fórmula, os produtos habilitados para WMS são liberados para o depósito. Para os produtos não habilitados para WMS, uma lista de separação será criada quando a fórmula for confirmada e liberada.
 
 ### <a name="batch-orders-that-arent-applicable-for-batch-balancing"></a>Ordens de lote não aplicáveis ao balanceamento de lote
 
 Há duas exceções à regra de que as ordens de lote são aplicáveis ao balanceamento de lote se a fórmula tiver pelo menos uma linha de fórmula em que o **Tipo de ingrediente** seja *Ativo*.
 
-1. Se uma fórmula contiver um princípio ativo para um produto habilitado para os processos de gerenciamento de depósito, mas o número de lote estiver abaixo da localização na hierarquia de reservas, a ordem de lote não será aplicável ao balanceamento de lote.
+1. Se uma fórmula contiver um princípio ativo para um produto habilitado para o WMS, mas o número de lote estiver abaixo da localização na hierarquia de reservas, a ordem de lote não será aplicável ao balanceamento de lote.
 1. Se a unidade de medida da fórmula for diferente da unidade de medida do estoque do princípio ativo, a ordem de lote não será aplicável ao balanceamento de lotes.
 
 Uma ordem de lote não aplicável ao balanceamento de lote passa pelo ciclo de processo normal para ordens de lote.

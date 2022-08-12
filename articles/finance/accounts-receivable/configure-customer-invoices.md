@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 93d25a260cfc94e898ef50c618b2cbc640c963bc
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: 04c26eec8be61d60908bef67c75958287e7e1a01
+ms.sourcegitcommit: 85141b21ac90f3db1b378c21f9c7f3d8f74e182f
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8876315"
+ms.lasthandoff: 07/09/2022
+ms.locfileid: "9129502"
 ---
 # <a name="create-a-customer-invoice"></a>Criar uma fatura de cliente
 
@@ -90,6 +90,14 @@ Você pode configurar a divisão de faturas de clientes de ordens de venda por s
 
 ## <a name="post-to-revenue-account-for-sales-order-lines-that-have-no-price-and-no-cost"></a>Lançar na Conta de receita para linhas de ordem de venda sem preço e sem custo
 Você terá a opção de atualizar a conta de **Receita** na **Contabilidade** para linhas de ordem de venda sem preço e sem custo. Para configurar ou exibir essas informações, acesse o parâmetro **Lançar na Conta de receita para linhas de fatura de ordem de venda e custo zero** na guia **Razão e imposto** da página **Parâmetros de contas a receber**. (**Contas a receber > Configuração > Parâmetros de contas a receber**). Selecione **Sim** para atualizar a conta de **Receita** de linhas da fatura da ordem de venda sem preço e sem custo. Se esta opção for selecionada, o comprovante conterá 0,00 entradas para os tipos de lançamento **Saldo do cliente** e **Receita**. Uma conta de receita é definida na página do parâmetro **Lançamento de estoque**, na guia de definição de conta **Ordem de venda**. Se esta opção não for selecionada, as linhas sem informações de preço ou custo não serão lançadas na conta de **Receita**. O comprovante conterá uma entrada 0,00 para o tipo de lançamento **Saldo do cliente**.
+
+## <a name="line-creation-sequence-number-information"></a>Informações do número da sequência de criação de linha
+Ao lançar linhas da fatura do cliente, você terá a opção de criar números de sequência da criação de linha sequencial. Os números de sequência de criação de linha são atribuídos durante o processo de lançamento. Ao permitir a numeração não sequencial, você pode ajudar a melhorar o desempenho do lançamento de faturas dos clientes. Os números de sequência de criação de linha podem ser usados por integrações de terceiros que esperam pedidos sequenciais. Consulte seu departamento de TI sobre extensões que podem ser integradas aos números de sequência de criação de linha.
+
+Para configurar ou exibir essas informações, na página **Parâmetros de contas a receber**, na guia **Atualizações**, defina a opção **Atribuir números de linha sequenciais ao lançar linhas de fatura de cliente**:
+
+- Defina a opção como **Não** para usar numeração não sequencial para números de sequência de criação de linha.
+- Defina a opção como **Sim** para usar a numeração sequencial. Você deve definir a opção como **Sim** para entidades legais que têm um endereço principal na Itália. Essa opção também deverá ser definida como **Sim** se a disponibilização da versão piloto **CustInvoiceTransRandLineCreationSeqNumFlight** for desabilitada.
 
 ## <a name="additional-settings-that-change-the-posting-behavior"></a>Configurações adicionais que alteram o comportamento dos lançamentos
 Os seguintes campos alteram o comportamento do processo de lançamento.

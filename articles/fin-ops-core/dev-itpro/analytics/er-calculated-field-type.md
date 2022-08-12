@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: ''
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: 4a4933c429982d1371c7c9a9412789ae08e08f43
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: 5a4eb70144957ecdbeba4246fb8c7cd6a20cb08c
+ms.sourcegitcommit: 3289478a05040910f356baf1995ce0523d347368
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8934695"
+ms.lasthandoff: 07/01/2022
+ms.locfileid: "9108319"
 ---
 # <a name="support-parameterized-calls-of-er-data-sources-of-the-calculated-field-type"></a>Suporte a chamadas parametrizadas de fontes de dados de ER do tipo Campo calculado
 
@@ -36,7 +36,7 @@ Para concluir os exemplos neste artigo, você deve ter o seguinte acesso:
     - Consultor funcional de relatório eletrônico
     - Administrador do sistema
 
-- Acesso ao Regulatory Configuration Services (RCS) que foi provisionado para o mesmo locatário como Finance and Operations para uma das seguintes funções:
+- Acesso ao Regulatory Configuration Services (RCS) que foi provisionado para o mesmo locatário de finanças e operações para uma das seguintes funções:
 
     - Desenvolvedor de relatório eletrônico
     - Consultor funcional de relatório eletrônico
@@ -84,7 +84,7 @@ Neste exemplo, você criará uma configuração para a empresa de exemplo, Litwa
             - Soma dos valores do imposto.
             - Valor mínimo da taxas de impostos aplicada.
 
-    O mapeamento de modelos nesta configuração implementa o modelo de dados de base para qualquer dos formatos de ER criados para esse modelo e executados no Finance and Operations. Consequentemente, o conteúdo das fontes de dados **Imposto** e **Gr** é exposto para formatos de ER, como fontes de dados abstratos.
+    O mapeamento de modelos nesta configuração implementa o modelo de dados de base para qualquer um dos formatos de ER criados para esse modelo e executados em finanças e operações. Consequentemente, o conteúdo das fontes de dados **Imposto** e **Gr** é exposto para formatos de ER, como fontes de dados abstratos.
 
     ![Página do Designer de mapeamento de modelos mostrando as fontes de dados Imposto e Gr.](media/er-calculated-field-type-01.png)
 
@@ -343,3 +343,4 @@ Você pode importar configurações revisadas do RCS usando o repositório de ER
 
 
 [!INCLUDE[footer-include](../../../includes/footer-banner.md)]
+

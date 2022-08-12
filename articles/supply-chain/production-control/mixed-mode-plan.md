@@ -16,12 +16,12 @@ ms.search.industry: Manufacturing
 ms.author: johanho
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 186dcdca9d6db5ca16d84f084c66700ddfe8bb5d
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: 335bdc9690b3111f4a04adc7e82d62de36ff4caf
+ms.sourcegitcommit: 28a726b3b0726ecac7620b5736f5457bc75a5f84
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8857421"
+ms.lasthandoff: 06/29/2022
+ms.locfileid: "9065978"
 ---
 # <a name="mixed-mode-planning---combine-discrete-process-and-lean-sourcing"></a>Planejamento de modo misto - Combinar discreto, processo e lean sourcing
 
@@ -33,7 +33,7 @@ Você pode selecionar a estratégia geral para fornecer um produto, seja qual fo
 
 Por exemplo, você pode ter o controle do kanban no assembly, onde o material é originário da área do assembly por ordens de produção, kanbans, transferências, ordens de lote ou qualquer combinação adequado às características da sua cadeia de fornecimento, mas você ainda pode ter visibilidade total em fornecimentos. Este recurso resulta em processos otimizados da cadeia de suprimentos e na visibilidade avançada na cadeia de suprimentos.  
 
-A granularidade das políticas de fornecimento que são usadas no planejamento mestre depende das dimensões de armazenamento que são habilitadas como dimensões de cobertura. Para habilitar o planejamento mestre para controlar o reabastecimento e o fornecimento de tipos diferentes de locais (por exemplo, separando o andar de produção para diferentes unidades de produção, ou separando tipos diferentes de materiais e de depósitos de bens acabados), recomendamos que você habilite Local e Depósito como dimensões de cobertura. Outra alternativa é omitir o depósito como uma dimensão de cobertura. Nesse caso, ao usar o gerenciamento de depósito avançado, todos os movimentos em um depósito são controlados pelo trabalho de depósito, enquanto todos os movimentos em depósitos podem ser controlados por kanbans de retirada.
+A granularidade das políticas de fornecimento que são usadas no planejamento mestre depende das dimensões de armazenamento que são habilitadas como dimensões de cobertura. Para habilitar o planejamento mestre para controlar o reabastecimento e o fornecimento de tipos diferentes de locais (por exemplo, separando o andar de produção para diferentes unidades de produção, ou separando tipos diferentes de materiais e de depósitos de bens acabados), recomendamos que você habilite Local e Depósito como dimensões de cobertura. Outra alternativa é omitir o depósito como uma dimensão de cobertura. Nesse caso, ao usar os processos de gerenciamento de depósito (WMS), todos os movimentos em um depósito são controlados pelo trabalho de depósito, enquanto todos os movimentos em depósitos podem ser controlados por kanbans de retirada.
 
 ## <a name="supply-policies"></a>Políticas de fornecimento
 O planejamento em modo misto controla como um produto é fornecido e, com base no fornecimento, como os requisitos derivados (consumo de itens de uma lista de materiais \[BOM\]) são emitidos. Com base no tipo de ordem, o sistema automaticamente origina material para corresponder aos requisitos.  

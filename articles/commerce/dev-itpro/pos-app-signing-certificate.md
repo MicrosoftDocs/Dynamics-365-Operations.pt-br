@@ -10,17 +10,16 @@ ms.custom: 28021
 ms.search.region: Global
 ms.author: mumani
 ms.search.validFrom: 2019-09-2019
-ms.openlocfilehash: 7e998514081cad1c7302aacb1cd74373f896f2d0
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: 4cbdfcb5229be2f04531031c80f41f672b2a4747
+ms.sourcegitcommit: c271b2edc4bf777f7194b09139ccbd174a359c75
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8865960"
+ms.lasthandoff: 07/16/2022
+ms.locfileid: "9169090"
 ---
 # <a name="sign-the-mpos-appx-file-with-a-code-signing-certificate"></a>Assine o arquivo MPOS .appx com um certificado de assinatura de código
 
 [!include [banner](../includes/banner.md)]
-[!include [banner](../includes/preview-banner.md)]
 
 Para instalar o Modern POS (MPOS), você deve assinar o aplicativo MPOS com um certificado de autenticação de código de um fornecedor confiável e instalar o mesmo certificado em todas as máquinas em que o MPOS está instalado na pasta raiz confiável para o usuário atual.
 

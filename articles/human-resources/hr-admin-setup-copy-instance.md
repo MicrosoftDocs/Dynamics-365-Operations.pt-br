@@ -14,17 +14,22 @@ ms.search.region: Global
 ms.author: twheeloc
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: d0da71c87364eacf60b9a82a200996292b863b6a
-ms.sourcegitcommit: a58dfb892e43921157014f0784bd411f5c40e454
+ms.openlocfilehash: 935c2e6cb45df193e6cbf70634f3561154c6fe38
+ms.sourcegitcommit: 1401d66b6b64c590ca1f8f339d622e922920cf15
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/04/2022
-ms.locfileid: "8692412"
+ms.lasthandoff: 07/20/2022
+ms.locfileid: "9178523"
 ---
 # <a name="copy-an-instance"></a>Copiar uma instância
 
-[!include [Applies to Human Resources](../includes/applies-to-hr.md)]
+_**Aplica-se a:** Human Resources na infraestrutura autônoma_ 
 
+> [!NOTE]
+> Iniciando em junho de 2022, os ambientes de Recursos Humanos podem ser implantados somente na infraestrutura de aplicativos de finanças e operações. Para obter mais informações, consulte [Provisionar Recursos Humanos na infraestrutura de finanças e operações](hr-admin-setup-provision-fo.md).
+
+> [!IMPORTANT]
+> A infraestrutura de finanças e operações não oferece suporte a uma função de cópia de instância. Você pode implantar novos ambientes e usar movimentos de banco de dados para criar cópias. Para obter mais informações sobre implantações de autoatendimento, consulte [Visão geral da Implantação de autoatendimento](../fin-ops-core/dev-itpro/deployment/infrastructure-stack.md). Para obter mais informações sobre os movimentos do banco de dados na infraestrutura de finanças e operações, consulte [Home page de operações de movimentação do banco de dados](../fin-ops-core/dev-itpro/database/dbmovement-operations.md).
 
 É possível usar o Microsoft Dynamics Lifecycle Services (LCS) para copiar um banco de dados do Microsoft Dynamics 365 Human Resources para um ambiente de área restrita. Se houver outro ambiente de área restrita, você também poderá copiar o banco de dados daquele ambiente para um ambiente de área restrita direcionado.
 
@@ -50,7 +55,7 @@ Os seguintes eventos ocorrem ao copiar um banco de dados do Human Resources:
 
 - Os documentos do armazenamento em Microsoft Azure Blob não são copiados de um ambiente para outro. Como consequência, quaisquer documentos e modelos anexados não serão copiados e permanecerão no ambiente de origem.
 
-- Todos os usuários, exceto aqueles com a função de segurança "Administrador do Sistema" e outras contas de usuário de serviço interno, não estarão disponíveis. O usuário administrador pode excluir ou ofuscar dados antes que outros usuários tenham permissão de volta para o sistema.
+- Todos os usuários, exceto aqueles com a função de segurança "Administrador do Sistema" e outras contas de usuário de serviço interno, não estarão disponíveis. O usuário administrador pode excluir dados antes que outros usuários tenham permissão para voltar ao sistema.
 
 - Qualquer usuário com a função de segurança "Administrador do Sistema" deve fazer as alterações de configuração necessárias, como reconectar pontos de extremidade de integração a serviços ou URLs específicos.
 
@@ -67,15 +72,17 @@ Para concluir essa tarefa, primeiro copie uma instância e efetue login na centr
 
 3. Selecione a instância a ser copiada e selecione **Copiar**.
 
-4. No painel de tarefas **Copiar uma instância**, selecione a instância a ser substituída e, em seguida, selecione **Copiar**. Aguarde o valor do campo **Copiar status** ser atualizado para **Concluído**.
+4. No painel de tarefas **Copiar uma instância**, selecione a instância a ser substituída e, em seguida, selecione **Copiar**. Aguarde até o campo **Copiar status** ser atualizado para **Concluído**.
 
-   ![[Selecionar a instância a ser substituída.](./media/copy-instance-select-target-instance.png)](./media/copy-instance-select-target-instance.png)
+   ![[Selecione a instância a ser substituída.](./media/copy-instance-select-target-instance.png)](./media/copy-instance-select-target-instance.png)
 
 5. Selecione **Power Platform**, e entre na central de administração do Microsoft Power Platform.
 
-   ![[Selecionar Power Platform.](./media/copy-instance-select-power-platform.png)](./media/copy-instance-select-power-platform.png)
+   ![[Selecione Power Platform.](./media/copy-instance-select-power-platform.png)](./media/copy-instance-select-power-platform.png)
 
 6. Selecione o ambiente do Power Apps a ser copiada e selecione **Copiar**.
+
+Para obter mais informações sobre cópia de ambientes do Power Apps, consulte [Copiar um ambiente](/power-platform/admin/copy-environment#copy-an-environment-1).
 
 7. Quando o processo de cópia for concluído, efetue login na instância de destino e habilite a integração do Dataverse. Para saber mais informações e instruções, consulte [Configurar a integração do Dataverse](./hr-admin-integration-common-data-service.md).
 

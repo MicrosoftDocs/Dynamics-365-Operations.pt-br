@@ -2,7 +2,7 @@
 title: Recursos removidos ou preteridos do Dynamics 365 Commerce
 description: Este artigo descreve os recursos que já foram removidos ou foram planejados para remoção do Dynamics 365 Commerce.
 author: josaw
-ms.date: 04/27/2022
+ms.date: 07/11/2022
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -12,12 +12,12 @@ ms.search.region: Global
 ms.author: josaw
 ms.search.validFrom: 2020-04-30
 ms.dyn365.ops.version: Platform update 33
-ms.openlocfilehash: 2725ff2b8bfbaadbca1bc070e32cee7c5d2754be
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: a59d62ad846eed659fa4e70390ebafc40127df0f
+ms.sourcegitcommit: ef56b5d0ed26e373add5dec63168e08ade40573e
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8910515"
+ms.lasthandoff: 07/12/2022
+ms.locfileid: "9138577"
 ---
 # <a name="removed-or-deprecated-features-in-dynamics-365-commerce"></a>Recursos removidos ou preteridos do Dynamics 365 Commerce
 
@@ -31,7 +31,20 @@ Este artigo descreve os recursos que já foram removidos ou foram planejados par
 Esta lista é destinada a ajudá-lo a considerar essas remoções e reprovações para seu próprio planejamento. 
 
 > [!NOTE]
-> Informações detalhadas sobre objetos em aplicativos de Finanças e Operações podem ser encontradas nos [Relatórios de referência técnica](/dynamics/s-e/). Você pode comparar as diferentes versões desses relatórios para aprender sobre objetos que foram alterados ou removidos em cada versão de aplicativos de Finanças e Operações.
+> Informações detalhadas sobre objetos em aplicativos de finanças e operações podem ser encontradas nos [Relatórios de referência técnica](/dynamics/s-e/). Você pode comparar as diferentes versões desses relatórios para aprender sobre objetos que foram alterados ou removidos em cada versão de aplicativos de finanças e operações.
+
+## <a name="feature-deprecation-effective-july-2022"></a>Substituição de recurso efetiva em julho de 2022
+
+### <a name="commerce-analytics-preview"></a>Commerce Analytics (Versão preliminar)
+
+| &nbsp;  | &nbsp; |
+|------------|--------------------|
+| **Motivo para a reprovação/remoção** | A equipe do Dynamics 365 Commerce analisou o uso e a tomada do recurso de análise de Commerce (Versão preliminar), e uma decisão foi tomada para não avançar mais na disponibilização do recurso para a disponibilidade geral.   |
+| **Substituída por outro recurso?**   | No momento, o Commerce Analytics (Versão preliminar) não será substituído por outro recurso ou solução. A exportação de transações brutas e dados mestre de aplicativos de finanças e operações para o Azure Data Lake continua disponível, conforme explicado em [Exportar para Data Lake nos aplicativos de finanças e operações](../../fin-ops-core/dev-itpro/data-entities/finance-data-azure-data-lake.md). Parceiros e clientes podem usar o fluxo de dados para criar relatórios de análise pretendidos para suas necessidades comerciais.
+| **Áreas afetadas do produto**         | Commerce Analytics (Versão preliminar) |
+| **Opção de implantação**              | Todos |
+| **Status**                         | Vamos observar a desativação deste recurso em 30 de agosto de 2022.  A partir desta data, nenhuma atualização ocorrerá nos relatórios atuais do Power BI fornecidos pelo Commerce Analytics (Versão preliminar).     |
+
 
 ## <a name="features-removed-or-deprecated-in-the-commerce-10025-release"></a>Recursos removidos ou substituídos na versão 10.0.25 do Commerce
 
@@ -195,3 +208,4 @@ Para saber mais sobre os recursos que foram removidos ou preteridos em versões 
 
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]
+

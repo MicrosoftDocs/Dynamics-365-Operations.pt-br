@@ -9,12 +9,12 @@ ms.reviewer: tfehr
 ms.search.region: global
 ms.author: ramasri
 ms.search.validFrom: 2019-07-15
-ms.openlocfilehash: 394bb19000076eace6377e07bb3a939c8345da8a
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: a2c32ef546a5bc74e090591c0ac9d51529299041
+ms.sourcegitcommit: 6781fc47606b266873385b901c302819ab211b82
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8905305"
+ms.lasthandoff: 07/02/2022
+ms.locfileid: "9112184"
 ---
 # <a name="integrated-vendor-master"></a>Fornecedor mestre integrado
 
@@ -37,7 +37,7 @@ Se quiser continuar armazenando dados do fornecedor na tabela **Conta/Contato**,
 ![Fluxo de dados estendidos do fornecedor.](media/dual-write-vendor-detail.jpg)
 
 > [!TIP]
-> Se você estiver usando os portais do Power Apps para fornecedores de autoatendimento, as informações do fornecedor poderão entrar diretamente nos aplicativos de Finanças e Operações.
+> Se você estiver usando os portais do Power Apps para fornecedores de autoatendimento, as informações do fornecedor poderão entrar diretamente nos aplicativos de finanças e operações.
 
 ## <a name="templates"></a>Modelos
 
@@ -52,8 +52,9 @@ Aplicativos do Finance and Operations | Aplicativos do Customer Engagement     |
 [Linhas de plano de pagamento](mapping-reference.md#159) | msdyn_paymentschedulelines | Sincroniza dados de referência de linhas de plano de pagamento de clientes e fornecedores.
 [Agenda de pagamento](mapping-reference.md#160) | msdyn_paymentschedules | Este modelo sincroniza dados de referência de planos de pagamento de clientes e fornecedores.
 [Condições de pagamento](mapping-reference.md#161) | msdyn_paymentterms | Este modelo sincroniza dados de referência de condições de pagamento (condições de pagamento) de clientes e fornecedores.
-[Fornecedores V2](mapping-reference.md#202) | msdyn_vendors | As empresas que usam uma solução personalizado para fornecedores podem aproveitar o conceito de fornecedor pronto para uso que está sendo apresentado no Dataverse com a integração de aplicativos do Finance and Operations.
+[Fornecedores V2](mapping-reference.md#202) | msdyn_vendors | As empresas que usam uma solução personalizada para os fornecedores podem aproveitar o conceito pronto para uso que está sendo apresentado no Dataverse com a integração de aplicativos de finanças e operações.
 [Grupos de fornecedores](mapping-reference.md#200) | msdyn_vendorgroups | Este modelo sincroniza informações do grupo de fornecedores.
 [Método de pagamento do fornecedor](mapping-reference.md#201) | msdyn_vendorpaymentmethods | Este modelo sincroniza informações sobre o método de pagamento dos fornecedores.
 
 [!INCLUDE[footer-include](../../../../includes/footer-banner.md)]
+

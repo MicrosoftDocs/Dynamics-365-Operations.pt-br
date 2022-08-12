@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: henrikan
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: a16a39d95605900be0fa1e339b8cd0755ba85189
-ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
+ms.openlocfilehash: 24290ec873da9e871c001bcdc97e14dcad0e3d1e
+ms.sourcegitcommit: 6781fc47606b266873385b901c302819ab211b82
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 09/29/2021
-ms.locfileid: "7573408"
+ms.lasthandoff: 07/02/2022
+ms.locfileid: "9111097"
 ---
 # <a name="create-a-new-trade-agreement"></a>Criar um novo contrato comercial
 
@@ -78,7 +78,7 @@ Para obter mais informações, baixe o white paper a seguir (escrito para dar su
 
 ### <a name="community-blogs"></a>Blogs da comunidade
 
-- [Preços de venda no Dynamics 365 for Finance and Operations](https://financefunction.tech/2018/11/14/sales-prices-in-dynamics-365-for-finance-and-operations/#sales_price_in_trade_agreements)
+- [Preços de venda em finanças e operações](https://financefunction.tech/2018/11/14/sales-prices-in-dynamics-365-for-finance-and-operations/#sales_price_in_trade_agreements)
 
 
 [!INCLUDE[footer-include](../../../includes/footer-banner.md)]

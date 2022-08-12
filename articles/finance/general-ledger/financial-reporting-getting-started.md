@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: aolson
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: f2c31e8b8b8022e5dfdb1f8dc4836d3d95174078
-ms.sourcegitcommit: d9d111d7420ca8f1071689afe38a1ccf4b8051f4
+ms.openlocfilehash: 9d0c2e821ee504cd62a536674ef91ee89a25c0a9
+ms.sourcegitcommit: 28a726b3b0726ecac7620b5736f5457bc75a5f84
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/21/2022
-ms.locfileid: "9033650"
+ms.lasthandoff: 06/29/2022
+ms.locfileid: "9066407"
 ---
 # <a name="get-started-with-financial-reporting"></a>Introdução aos Relatórios financeiros 
 
@@ -151,7 +151,7 @@ Você pode criar um número ilimitado de árvores de relatórios para exibir os 
 
 ## <a name="update-the-financial-reporting-version-through-slipstreaming"></a>Atualizar a versão do Financial reporting com a integração
 
-Os aplicativos de finanças e operações são atualizados todos os meses. No entanto, o Financial reporting não é necessariamente atualizado nessa cadência. Além disso, os clientes têm mais opções sobre ao implementar atualizações para aplicativos de finanças e operações. As atualizações do Financial reporting são instaladas automaticamente. O Financial reporting tem uma versão designada consumida em um ambiente de cliente quando uma atualização de serviço é implementada, quando o tempo de inatividade é iniciado ou quando o ambiente de um cliente está em modo de Manutenção. Esse processo é conhecido como *correção* ou *real*, pois todas as implementações de clientes são definidas como a mesma versão do Financial reporting.
+Os aplicativos de finanças e operações são atualizados todos os meses. No entanto, o Financial reporting não é necessariamente atualizado nessa cadência. Além disso, os clientes têm mais opções ao implementar atualizações para aplicativos de finanças e operações. As atualizações do Financial reporting são instaladas automaticamente. O Financial reporting tem uma versão designada consumida em um ambiente de cliente quando uma atualização de serviço é implementada, quando o tempo de inatividade é iniciado ou quando o ambiente de um cliente está em modo de Manutenção. Esse processo é conhecido como *correção* ou *real*, pois todas as implementações de clientes são definidas como a mesma versão do Financial reporting.
 
 As alterações liberadas em cada versão podem ser encontradas em [Novidades ou alterações no Dynamics 365 Finance](../../finance/get-started/whats-new-home-page.md). As atualizações de plataforma e correção de bugs podem ser encontradas na seção "Recursos Adicionais", na parte inferior da página, para cada liberação.
 
@@ -254,3 +254,4 @@ Problema: Você recebe o erro "Não é possível conectar ao servidor do Financi
 - [Definições da árvore de relatórios em relatórios financeiros](../../fin-ops-core/dev-itpro/analytics/financial-reporting-tree-definitions.md)
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]
+

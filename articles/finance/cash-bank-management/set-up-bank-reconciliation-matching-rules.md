@@ -1,7 +1,7 @@
 ---
 title: Configurar regras de correspondência de reconciliação bancária
 description: Este artigo explica como configurar regras de correspondência de reconciliação e a regra de correspondência de reconciliação para ajudar no processo de reconciliação bancária. As regras correspondência de reconciliação são um conjunto de critérios usados para filtrar as linhas de extrato bancário e as linhas de documento bancário durante o processo de reconciliação.
-author: panolte
+author: angelad116
 ms.date: 08/24/2020
 ms.topic: article
 ms.prod: ''
@@ -12,15 +12,15 @@ ms.reviewer: kfend
 ms.custom: 12971
 ms.assetid: b5073f83-31dc-404f-af42-3fd84a02a7c6
 ms.search.region: Global
-ms.author: panolte
+ms.author: angelading
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: baea7ea7ec98c905e9ae896a8cf1e4ac54fb4a9d
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: ed8572eca14beb8a0e3c382f0f328cc6d118491c
+ms.sourcegitcommit: 0b7a034e644f4d93fe55c7baca5a3f89dbe56898
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8899919"
+ms.lasthandoff: 07/14/2022
+ms.locfileid: "9151301"
 ---
 # <a name="set-up-bank-reconciliation-matching-rules"></a>Configurar regras de correspondência de reconciliação bancária
 
@@ -44,7 +44,8 @@ Por padrão, as regras de correspondência coincidirão com o primeiro documento
 |--------|---------------|----------------------------------------------------------|
 | **Fazer a correspondência com o documento bancário**       | Criar critérios para especificar como fazer a correspondência dos documentos bancários e das linhas de extrato bancário quando a regra de correspondência é executada na página **Planilha de reconciliação bancária**. As linhas de transação são selecionadas de acordo com os critérios adicionais configurados nas Guias Rápidas.                                | **Etapa 1: Definir a regra de correspondência** – Selecione os critérios para especificar para quais extratos bancários deve ser feita uma correspondência com transações bancárias do Finance. **Etapa 2 (opcional): Selecione as linhas do demonstrativo para executar regras de correspondência:**  Aplicar um filtro na linha do demonstrativo para executar as regras.                                                                                                                                                                                                                                                                                                               |
 | **Limpar linhas de demonstrativo de estorno** | Crie critérios para especificar como as linhas do demonstrativo de estorno deve ser removido da página **Planilha da reconciliação bancária** quando a correspondência for executada. Esta opção é usada quando um erro bancário faz com que duas linhas do extrato bancário sejam listadas no extrato bancário importado e as linhas devem ser reconciliadas. | **Etapa 1**:**Localizar linhas do demonstrativo de estorno**– Adicionar critérios de seleção para selecionar linhas do extrato bancário do estorno. Por exemplo, para selecionar somente cheques, selecione o campo **Código de transação bancária**, selecione o sinal de (+) no campo **Operador**, e insira **Cheques** no campo Valor. **Etapa 2: Localizar linhas do demonstrativo original** – Você pode adicionar critérios de seleção para fazer a correspondência das linhas de documento bancário com as linhas de extrato bancário. **Etapa 3: Localizar transações bancárias do Finance** – É possível adicionar critérios de seleção para fazer a correspondências das transações bancárias do Finance com as linhas do extrato bancário. |
-| **Marcar novas transações**          | Crie critérios para especificar como as novas transações devem ser marcadas na página **Planilha da reconciliação bancária** quando a correspondência é executada.                                                                                                                                                                 | **Etapa 1: Localizar linhas do demonstrativo**– Adicionar campos de seleção para especificar quais linhas do extrato bancário devem ser selecionadas na página **Planilha de reconciliação bancária**. **Etapa 2: Localizar o Finance and Operations** – É possível adicionar critérios de seleção para pesquisar linhas do documento bancário. Se nenhum documento bancário for localizado, uma linha do demonstrativo será marcada como uma nova transação.                                                                                                                                                                                                                                             |
+| **Marcar novas transações**          | Crie critérios para especificar como as novas transações devem ser marcadas na página **Planilha da reconciliação bancária** quando a correspondência é executada.                                                                                                                                                                 | **Etapa 1: Localizar linhas do demonstrativo**– Adicionar campos de seleção para especificar quais linhas do extrato bancário devem ser selecionadas na página **Planilha de reconciliação bancária**. **Etapa 2: Localizar finanças e operações** – É possível adicionar critérios de seleção para pesquisar linhas do documento bancário. Se nenhum documento bancário for localizado, uma linha do demonstrativo será marcada como uma nova transação.                                                                                                                                                                                                                                             |
 
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]
+

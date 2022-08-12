@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: e7d8e55fc1293e2b33b15f3862498363a6b23f1f
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: 0449a13989bad45cf0456a2678e5724036d2af3d
+ms.sourcegitcommit: 28a726b3b0726ecac7620b5736f5457bc75a5f84
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8883406"
+ms.lasthandoff: 06/29/2022
+ms.locfileid: "9070684"
 ---
 # <a name="invoice-automation-for-scanned-documents"></a>Automação de fatura para documentos digitalizados
 
@@ -86,7 +86,7 @@ As faturas que são importadas através de pacotes de dados podem ser associadas
 
 ## <a name="exception-processing"></a>Processamento de exceções
 
-Nos cenários em que as faturas dos fornecedores entram no Finance and Operations por meio da integração, deve haver uma maneira fácil para um membro da equipe de contas a pagar processar exceções ou faturas que falharam e criar faturas pendentes fora das faturas que falharam. Esse processamento de exceção para faturas de fornecedores agora é parte do Finance and Operations.
+Nos cenários em que as faturas dos fornecedores entram nas finanças e operações por meio da integração, deve haver uma maneira fácil para um membro da equipe de contas a pagar processar exceções ou faturas que falharam e criar faturas pendentes fora daquelas que falharam. Esse processamento de exceção para faturas de fornecedores agora é parte das finanças e operações.
 
 ### <a name="vendor-invoices-that-failed-to-import-list-page"></a>Faturas de fornecedores que não importaram páginas de lista
 
@@ -225,3 +225,4 @@ Por padrão, se a função do usuário fornecer direitos de edição em qualquer
 
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]
+

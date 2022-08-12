@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: sericks
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: ef906c0d60639da763f2a9c1e1adf508b0849b8978dff17cd0e7b3936fc4779e
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 5bb0b306cca715cad64d62fff843987a8e98eb99
+ms.sourcegitcommit: 3289478a05040910f356baf1995ce0523d347368
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6771863"
+ms.lasthandoff: 07/01/2022
+ms.locfileid: "9108754"
 ---
 # <a name="plan-your-organizational-hierarchy"></a>Planejar sua hierarquia organizacional
 
@@ -42,7 +42,7 @@ Quando estiver planejando hierarquias, também é importante considerar a relaç
 
 É necessário ter pelo menos uma entidade legal para representar a sua empresa. Uma entidade legal podem participar de contratos legais e são obrigadas a preparar demonstrativos financeiros que registram seu desempenho.
 
-As entidades legais podem ser usadas para negócios transacionais ou consolidação. Isso significa que uma entidade legal no Finance and Operations não necessariamente representa uma entidade real em sua empresa. Por exemplo, uma empresa que participa das transações pode possuir entidades legais subsidiárias. Nesse cenário, uma entidade legal é necessária para transações, e uma entidade legal virtual é necessária para consolidar os resultados e os saldos da entidade legal subsidiária.
+As entidades legais podem ser usadas para negócios transacionais ou consolidação. Isso significa que uma entidade legal no aplicativo de finanças e operações não necessariamente representa uma entidade real na sua empresa. Por exemplo, uma empresa que participa das transações pode possuir entidades legais subsidiárias. Nesse cenário, uma entidade legal é necessária para transações, e uma entidade legal virtual é necessária para consolidar os resultados e os saldos da entidade legal subsidiária.
 
 As organizações internas da empresa, como os escritórios regionais, podem ser representadas como entidades legais adicionais ou como unidades operacionais da entidade legal principal. Uma unidade operacional não precisa ser uma organização legalmente definida. As unidades operacionais são usadas para controlar os recursos econômicos e os processos operacionais da empresa. Por exemplo, os departamentos e os centros de custo são unidades operacionais.
 
@@ -171,7 +171,7 @@ Para os países/regiões com suporte, a maioria dos relatórios de impostos pode
 
 #### <a name="if-the-organization-is-modeled-as-an-operating-unit"></a>Se a organização for modelada como uma unidade operacional
 
-Os relatórios de impostos devem ser criados usando outro aplicativo. É necessário verificar se os dados foram capturados em aplicativos do Finance and Operations para dar suporte aos requisitos de cada unidade operacional, onde eles diferem dos requisitos da matriz.
+Os relatórios de impostos devem ser criados usando outro aplicativo. É necessário verificar se os dados foram capturados nos aplicativos de finanças e operações para dar suporte aos requisitos de cada unidade operacional, onde eles diferem dos requisitos da matriz.
 
 ### <a name="currency"></a>Moeda
 
@@ -242,3 +242,4 @@ Considere estas práticas recomendadas quando implementar uma hierarquia organiz
 
 
 [!INCLUDE[footer-include](../../../includes/footer-banner.md)]
+

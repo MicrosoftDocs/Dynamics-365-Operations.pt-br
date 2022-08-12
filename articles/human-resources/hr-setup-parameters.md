@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: twheeloc
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: dd645dcc79672e7f69afe47b803b90a04c22305d
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: 13a25d3f1f72d8053ed3951b036522cfa3a15959
+ms.sourcegitcommit: 28a726b3b0726ecac7620b5736f5457bc75a5f84
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8856270"
+ms.lasthandoff: 06/29/2022
+ms.locfileid: "9065634"
 ---
 # <a name="configure-human-resources-parameters"></a>Configurar parâmetros do Human Resources
 
@@ -27,7 +27,7 @@ ms.locfileid: "8856270"
 
 As configurações de alguns parâmetros do Human Resources são compartilhadas entre empresas, enquanto as configurações de outros parâmetros são específicas da empresa. Este artigo explica como configurar parâmetros específicos da empresa no Human Resources.
 
-Duas páginas são usadas para definir parâmetros de recursos humanos. Para os parâmetros que são compartilhados entre empresas, use a página **Parâmetros compartilhados de recursos humanos**. Para os parâmetros que são específicos da empresa (ou seja, as configurações se aplicam a uma única empresa), use a página **Parâmetros de recursos humanos**.
+Duas páginas são usadas para definir parâmetros de recursos humanos. Para os parâmetros que são compartilhados entre empresas, use a página **Parâmetros compartilhados de recursos humanos**. Para os parâmetros que são específicos da empresa, use a página **Parâmetros de recursos humanos**.
 
 ![Acesse Parâmetros de recursos humanos.](./media/hr-employee-self-service-human-resources-parameters.png)
 
@@ -74,9 +74,10 @@ No Dynamics 365 Finance, as configurações na guia **Remuneração** definem se
 
 No Human Resources, você pode usar a guia **Remuneração** para optar por restringir o acesso aos planos de remuneração e definir uma moeda padrão.
 
-Para obter mais informações sobre remuneração, consulte [Visão geral de planos de remuneração](hr-compensation-overview.md).
+> [!NOTE]
+> Na infraestrutura mesclada, o parâmetro padrão da **Moeda** na guia **Remuneração** da página **Parâmetros de recursos humanos** foi removido. Adiante, a moeda será tratada pelo parâmetro **Moeda do razão** para garantir que não haja conflitos para a funcionalidade de finanças e operações existentes e para impedir a duplicação. Para obter mais informações sobre como usar a funcionalidade da moeda do razão, consulte [Configurar razões](/general-ledger/configure-ledger#configuring-currencies-for-the-ledger.md). 
 
-![Guia Remuneração.](./media/hr-setup-parameters-compensation.png)
+Para obter mais informações sobre remuneração, consulte [Visão geral de planos de remuneração](hr-compensation-overview.md).
 
 ## <a name="number-sequences"></a>Sequências numéricas
 
@@ -122,7 +123,7 @@ Para obter mais informações sobre como configurar o **Autoatendimento para fun
 As configurações na guia **Autoatendimento para gerentes** afetam o que gerentes veem em **Autoatendimento para gerentes**. Nessa guia, você pode configurar as seguintes opções:
 
 - O intervalo de registros em vencimento
-- Os gerentes de informações podem ver em registros em vencimento
+- Informações que os gerentes podem ver em registros em vencimento
 - Se os gerentes podem exibir posições abertas para relatórios estendidos
 - Exibições de trabalhadores saindo da empresa
 - Links úteis para gerentes

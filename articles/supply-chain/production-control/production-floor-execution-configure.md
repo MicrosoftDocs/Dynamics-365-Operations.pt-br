@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: johanho
 ms.search.validFrom: 2020-10-05
 ms.dyn365.ops.version: 10.0.15
-ms.openlocfilehash: 14a49d1d6c956b37ff9b2bec387615dc75d060e1
-ms.sourcegitcommit: d770f0e6a012675a3027641704be804beb99754b
+ms.openlocfilehash: f740b68128b90fc7c9ce2f74edc4f3c06f03debd
+ms.sourcegitcommit: 5b34b41ae74269ba639e2876bc5862ef468da1cc
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/16/2022
-ms.locfileid: "9022554"
+ms.lasthandoff: 07/15/2022
+ms.locfileid: "9167751"
 ---
 # <a name="configure-the-production-floor-execution-interface"></a>Configurar a interface de execução de piso de produção
 
@@ -92,9 +92,9 @@ A partir da versão 10.0.25 do Supply Chain Management, este recurso está ativa
 
 Esse recurso permite que os trabalhadores usem a interface de execução do piso de produção para registrar o consumo de materiais, os números de lote e os números de série. Alguns fabricantes, especialmente no setor de processamento, devem registrar explicitamente a quantidade de material que é consumido para cada ordem de produção ou lote. Por exemplo, os trabalhadores podem usar uma escala para avaliar a quantidade de material que é consumido conforme trabalham. Para garantir a rastreabilidade total do material, essas organizações também devem registrar os números de lote que foram consumidos para produzir cada produto.
 
-Existem duas versões deste recurso. Um oferece suporte a itens que *não estão* habilitados para usar processos avançados de depósito (WMS). O outro dá suporte a itens que *estão* habilitados para usar o WMS. Para usar essa funcionalidade, ative um ou ambos os seguintes recursos no [Gerenciamento de recursos](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) (nesta ordem), dependendo da existência de itens habilitados para o WMS:
+Existem duas versões deste recurso. Um oferece suporte a itens que *não estão* habilitados para usar processos de gerenciamento de depósito (WMS). O outro dá suporte a itens que *estão* habilitados para usar o WMS. Para usar essa funcionalidade, ative um ou ambos os seguintes recursos no [Gerenciamento de recursos](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) (nesta ordem), dependendo da existência de itens habilitados para o WMS:
 
-- *(Versão preliminar) Registrar consumo de material na interface de execução do piso de produção (não WMS)*
+- *Registrar consumo de material na interface de execução do piso de produção (não WMS)*
 - *(Versão preliminar) Registrar consumo de materiais na interface de execução de piso de produção (habilitado para WMS)*
 
 > [!IMPORTANT]

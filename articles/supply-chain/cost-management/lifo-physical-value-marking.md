@@ -12,12 +12,12 @@ ms.search.region: Global
 ms.author: yanansong
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 45316c40cce988c0758e70af627b0123ec1f7873
-ms.sourcegitcommit: 9166e531ae5773f5bc3bd02501b67331cf216da4
+ms.openlocfilehash: c1acc103291c5d648ac7e179a598348cd9cc2a93
+ms.sourcegitcommit: 6b209919de39c15e0ebe4abc9cbcd30618f2af0b
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/03/2022
-ms.locfileid: "8670430"
+ms.lasthandoff: 07/11/2022
+ms.locfileid: "9135559"
 ---
 # <a name="lifo-with-physical-value-and-marking"></a>UEPS com marcação e valor físico
 
@@ -128,7 +128,7 @@ A ilustração a seguir mostra essas transações:
 - 6a. Saída física de estoque para uma quantidade de 1 ao preço de custo de USD 23,00 (média ponderada de transações lançadas financeiramente)
 - 7\. O fechamento de estoque é executado. Com base no princípio de marcação que utiliza o método PEPS, as transações selecionadas serão liquidadas uma em função da outra. Neste exemplo, 3b é liquidado contra 2b, e um ajuste para USD 6,00 é lançado em 3b para trazer o valor para USD 22,00. Neste exemplo, nenhuma liquidação adicional é feita, pois o fechamento cria liquidações somente para transações atualizadas financeiramente.
 
-O novo preço de custo médio reflete a média das transações atualizadas financeira e fisicamente, em BRL 27,50.
+O novo preço de custo médio reflete a média das transações atualizadas financeira e fisicamente, em BRL 17,50.
 
 A ilustração a seguir mostra os efeitos do modelo de estoque UEPS nesta série de transações quando a marcação entre saídas e recebimentos é usada.
 

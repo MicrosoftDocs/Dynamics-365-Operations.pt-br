@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: mirzaab
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: efbf9072c3bbcb20f38e144f9a15d8178d96d708
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: ef392fd744a68c54bc0438152b3487233ac5c7f3
+ms.sourcegitcommit: 28a726b3b0726ecac7620b5736f5457bc75a5f84
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8905563"
+ms.lasthandoff: 06/29/2022
+ms.locfileid: "9070339"
 ---
 # <a name="set-up-mobile-devices-for-warehouse-work"></a>Configurar dispositivos móveis para trabalho de depósito
 
@@ -123,13 +123,13 @@ Você pode configurar um item de menu que cria trabalho para outro trabalhador, 
 <td>Recebimento do item da ordem de transferência</td>
 <td>Registre o recebimento de uma quantidade de um item e crie trabalho de armazenamento para outro trabalhador.
 
-<strong>Observação:</strong> Use essa opção somente se os itens forem remetidos de um depósito que não esteja habilitado para processos de gerenciamento de depósito.</td>
+<strong>Observação:</strong> use essa opção somente se os itens forem remetidos de um depósito que não esteja habilitado para processos de gerenciamento de depósito (WMS).</td>
 </tr>
 <tr>
 <td>Recebimento e armazenamento do item da ordem de transferência</td>
 <td>Registre o recebimento de uma quantidade de um item e armazene os itens. O mesmo trabalhador executa as duas ações.
 
-<strong>Observação:</strong> Use essa opção somente se os itens forem remetidos de um depósito que não esteja habilitado para processos de gerenciamento de depósito.</td>
+<strong>Observação:</strong> use essa opção somente se os itens forem remetidos de um depósito que não esteja habilitado para processos de gerenciamento de depósito (WMS).</td>
 </tr>
 <tr>
 <td>Recebimento da linha da ordem de transferência</td>

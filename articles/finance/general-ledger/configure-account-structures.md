@@ -2,7 +2,7 @@
 title: Configurar estruturas de conta
 description: Este artigo fornece informações sobre estruturas de contas e dimensões financeiras.
 author: aprilolson
-ms.date: 06/03/2019
+ms.date: 07/12/2022
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: aolson
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: f0a3febf8d269caec847ad879f60ac042e5fec9e
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: 0f816f0fc894b902c444a3113abfd48d4146d485
+ms.sourcegitcommit: e59990780830ac8e3382fea5df851abe86fbf496
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8907970"
+ms.lasthandoff: 07/13/2022
+ms.locfileid: "9141268"
 ---
 # <a name="configure-account-structures"></a>Configurar estruturas de conta
 
@@ -91,6 +91,8 @@ Para continuar adicionando critérios adicionais, clique em **Duplicar no Segmen
 Ao configurar suas estruturas de conta há algumas práticas recomendadas que você pode seguir. Entretanto, esta é apenas uma orientação para uma discussão holística sobre sua empresa, plano de crescimento e plano de manutenção sejam consideradas como parte dessa discussão.
 
 - Torne a conta principal primeira ou o mais próximo possível da estrutura da conta, para que os usuários obtenham a melhor experiência guiada possível durante a entrada da conta.
+  
+  - Verifique se as soluções de terceiros que você pretende usar dão suporte à conta principal na primeira posição.
 
 - Reutilize as estruturas de contas o quanto possível para reduzir a manutenção em todas as suas entidades legais.
 

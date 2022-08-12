@@ -9,12 +9,12 @@ ms.reviewer: tfehr
 ms.search.region: global
 ms.author: ramasri
 ms.search.validFrom: 2020-01-06
-ms.openlocfilehash: 7131e6c2c4ca4d9c6bb84ad74bf425faf28bd92c
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: d5191f5dd9c3a286abac622aede07d04fb72a8f7
+ms.sourcegitcommit: 6781fc47606b266873385b901c302819ab211b82
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8884449"
+ms.lasthandoff: 07/02/2022
+ms.locfileid: "9111349"
 ---
 # <a name="verify-dual-write-configuration-in-finance-and-operations-apps-and-dataverse"></a>Verificar a configuração de gravação dupla em aplicativos de finanças e operações e no Dataverse
 
@@ -32,11 +32,11 @@ Para determinar se os erros que você vê ao tentar salvar linhas para atualiza�
 
 + Se você tiver privilégios de administrador no aplicativo de finanças e operações, acesse **Espaços de trabalho \> Gerenciamento de dados** e selecione o bloco **Gravação dupla**. Se os detalhes dos ambientes vinculados e a lista de mapas de tabela que estão sendo executados são exibidos, a gravação dupla é configurada.
 
-    ![Verificar a conexão do aplicativo de finanças e operações quando você não tem privilégios administrativos.](media/verify_fin_ops_1.png)
+    ![Verificando a conexão do aplicativo de finanças e operações quando você tem privilégios administrativos.](media/verify_fin_ops_1.png)
 
-+ Se você não tiver privilégios de administrador, receberá uma mensagem de erro *Não é possível gravar dados na entidade \<entity name\>*. No exemplo da ilustração a seguir, não é possível criar uma linha de cliente no aplicativo de finanças e operações, porque a gravação dupla está configurada, mas o grupo de clientes e os dados de referência das condições de pagamento não existem no Dataverse.
++ Se você não tiver privilégios de administrador, receberá uma mensagem de erro *Não é possível gravar dados na entidade \<entity name\>*. No exemplo da ilustração a seguir, não é possível criar uma linha de cliente no aplicativo de finanças e operações porque a gravação dupla está configurada, mas o grupo de clientes e os dados de referência das condições de pagamento não existem no Dataverse.
 
-    ![Verificar a conexão do aplicativo de finanças e operações quando você não tem privilégios administrativos.](media/verify_fin_ops_2.png)
+    ![Verificando a conexão do aplicativo de finanças e operações quando você não tem privilégios administrativos.](media/verify_fin_ops_2.png)
 
 Para obter informações sobre como corrigir problemas ao criar dados em aplicativos de finanças e operações, consulte [Solucionar problemas de sincronização ao vivo](dual-write-troubleshooting-live-sync.md).
 

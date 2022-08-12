@@ -9,12 +9,12 @@ ms.reviewer: tfehr
 ms.search.region: global
 ms.author: ramasri
 ms.search.validFrom: 2020-01-06
-ms.openlocfilehash: 954268b03be2be90f67dc9b7756f33215856864a
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: b75034cbc8ca7a24472cfec1ad93d3dfef4a8fdc
+ms.sourcegitcommit: 6781fc47606b266873385b901c302819ab211b82
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8882132"
+ms.lasthandoff: 07/02/2022
+ms.locfileid: "9111130"
 ---
 # <a name="troubleshoot-issues-from-upgrades-of-finance-and-operations-apps"></a>Solucionar problemas de atualizações de aplicativos de finanças e operações
 
@@ -33,7 +33,7 @@ Este artigo fornece informações de solução de problemas para a integração 
 
 **Função necessária para corrigir o problema:** administrador do sistema
 
-Você pode receber uma mensagem de erro semelhante à seguinte ao tentar usar a tabela **DualWriteProjectConfiguration** para atualizar um aplicativo de finanças e operações para atualização de plataforma 30.
+Você pode receber uma mensagem de erro semelhante à seguinte ao tentar usar a tabela **DualWriteProjectConfiguration** para atualizar um aplicativo de finanças e operações para Atualização de plataforma 30.
 
 ```console
 Infolog diagnostic message: 'Cannot select a row in Dual write project sync (DualWriteProjectConfiguration). The SQL database has issued an error.' on category 'Error'. 10/28/2019 15:18:20: Infolog diagnostic message: 'Object Server Database Synchronizer: ' on category 'Error'. 10/28/2019 15:18:20: Infolog diagnostic message: '[Microsoft][ODBC Driver 17 for SQL Server][SQL Server]Invalid column name 'ISDELETE'.' on category 'Error'. 10/28/2019 15:18:20: Infolog diagnostic message: 'SELECT T1.PROJECTNAME,T1.EXTERNALENTITYNAME,T1.INTERNALENTITYNAME,T1.EXTERNALENVIRONMENTURL,T1.STATUS,T1.ENABLEBATCHLOOKUP,T1.PARTITIONMAP,T1.QUERYFILTEREXPRESSION,T1.INTEGRATIONKEY,T1.ISDELETE,T1.ISDEBUGMODE,T1.RECVERSION,T1.PARTITION,T1.RECID FROM DUALWRITEPROJECTCONFIGURATION T1 WHERE (PARTITION=5637144576)' on category 'Error'. 10/28/2019 15:18:20: Infolog diagnostic message: 'session 1043 (Admin)' on category 'Error'. 10/28/2019 15:18:20: Infolog diagnostic message: 'Stack trace: Call to TTSCOMMIT without first calling TTSBEGIN.' on category 'Error'.
@@ -43,7 +43,7 @@ Microsoft.Dynamics.AX.Framework.Database.TableSyncException: Custom action threw
 
 Para corrigir o problema, siga estas etapas.
 
-1. Entre na máquina virtual (VM) para o aplicativo de finanças e operações.
+1. Entre na VM (máquina virtual) para o aplicativo de finanças e operações.
 2. Abra Visual Studio como um administrador e abra a AOT (árvore de objetos de aplicativo).
 3. Procure **DualWriteProjectConfiguration**.
 4. No AOT, clique com o botão direito em **DualWriteProjectConfiguration** e selecione **Adicionar ao novo projeto**. Selecione **OK** para criar o novo projeto que usa opções padrão.
@@ -65,10 +65,10 @@ Na página **Gravação dupla**, você pode receber uma mensagem de erro parecid
 
 Para corrigir o problema, primeiro siga estas etapas para verificar se as colunas estão na tabela.
 
-1. Entre na VM para o aplicativo de Finanças e Operações.
+1. Entre na VM para o aplicativo de finanças e operações.
 2. Acesse **Espaços de trabalho \> Gerenciamento de dados**, selecione o bloco **Parâmetros de estrutura** e, em seguida, na guia **Configurações da tabela**, selecione **Atualizar lista de tabelas** para atualizar as tabelas.
 3. Acesse **Espaços de trabalho \> Gerenciamento de dados**, selecione a guia **Tabelas de dados** e certifique-se de que a tabela esteja listada. Se a tabela não estiver listada, entre na VM para o aplicativo de finanças e operações e certifique-se de que a tabela esteja disponível.
-4. Abra a página **Mapeamento da tabela** na página **Gravação dupla** no aplicativo de Finanças e Operações.
+4. Abra a página **Mapeamento da tabela** na página **Gravação dupla** no aplicativo de finanças e operações.
 5. Selecione **Atualizar lista de tabelas** para preencher automaticamente as colunas nos mapeamentos de tabela.
 
 Se o problema ainda não for solucionado, siga estas etapas.
@@ -76,10 +76,10 @@ Se o problema ainda não for solucionado, siga estas etapas.
 > [!IMPORTANT]
 > Essas etapas o orientam no processo de exclusão de uma tabela e, em seguida, a adiciona novamente. Para evitar problemas, certifique-se de seguir as etapas exatamente.
 
-1. No aplicativo de Finanças e Operações, acesse **Espaços de trabalho \> Gerenciamento de dados** e selecione o bloco **Tabelas de dados**.
+1. No aplicativo de finanças e operações, acesse **Espaços de trabalho \> Gerenciamento de dados** e selecione o bloco **Tabelas de dados**.
 2. Encontre a tabela que está sem o atributo. Clique em **Modificar mapeamento de destino** na barra de ferramentas.
 3. No painel **Mapear preparo para destino**, clique em **gerar mapeamento**.
-4. Abra a página **Mapeamento da tabela** na página **Gravação dupla** no aplicativo de Finanças e Operações.
+4. Abra a página **Mapeamento da tabela** na página **Gravação dupla** no aplicativo de finanças e operações.
 5. Se o atributo não estiver preenchido automaticamente no mapa, adicione-o manualmente, clicando no botão **Adicionar atributo** e clicando em **Salvar**. 
 6. Selecione o mapa e clique em **Executar**.
 

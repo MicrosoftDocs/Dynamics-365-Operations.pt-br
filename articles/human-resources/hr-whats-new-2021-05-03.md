@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: marcelbf
 ms.search.validFrom: 2021-05-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 01ebd15e09e181a7ea0ec5bf70c8df731d2169c0
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: df8bd0277e4f27c23ba25c886d12f589913e5d46
+ms.sourcegitcommit: 28a726b3b0726ecac7620b5736f5457bc75a5f84
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8902850"
+ms.lasthandoff: 06/29/2022
+ms.locfileid: "9066213"
 ---
 # <a name="whats-new-or-changed-in-dynamics-365-human-resources-may-3-2021"></a>Novidades ou alterações na versão do Dynamics 365 Human Resources de 3 de maio de 2021
 
@@ -70,7 +70,7 @@ Os novos recursos a seguir estão em versão preliminar. Para obter mais informa
 
 | Recurso | Detalhes |
 | --- | --- |
-| Atualização da plataforma 10.0.18 (42) | A atualização da plataforma 10.0.18 está agendada para começar a ser implementada na versão de serviço, em 17 de maio de 2021. Para mais informações, consulte [Atualizações de plataforma para a versão 10.0.18 dos aplicativos de Finanças e Operações (maio de 2021)](/dynamics365/fin-ops-core/dev-itpro/get-started/whats-new-platform-updates-10-0-18). |
+| Atualização da plataforma 10.0.18 (42) | A atualização da plataforma 10.0.18 está agendada para começar a ser implementada na versão de serviço, em 17 de maio de 2021. Para mais informações, consulte [Atualizações de plataforma para a versão 10.0.18 dos aplicativos de finanças e operações (maio de 2021)](/dynamics365/fin-ops-core/dev-itpro/get-started/whats-new-platform-updates-10-0-18). |
 | Suporte a campo personalizado em Regras de qualificação de gerenciamento de benefícios  | [Suporte a campos personalizados para processamento de qualificação](/dynamics365-release-plan/2021wave1/human-resources/dynamics365-human-resources/custom-field-support-eligibility-processing) |
 
 Para obter uma lista completa de recursos planejados e suas versões agendadas, consulte [Visão geral do Dynamics 365 Human Resources 2021 ciclo de lançamentos 1](/dynamics365-release-plan/2021wave1/human-resources/dynamics365-human-resources/).
@@ -83,3 +83,4 @@ Para obter uma lista completa de recursos planejados e suas versões agendadas, 
 [Gerenciar recursos](hr-admin-manage-features.md)
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]
+

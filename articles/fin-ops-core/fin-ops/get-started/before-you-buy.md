@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: sericks
 ms.search.validFrom: 2017-06-30
 ms.dyn365.ops.version: AX 7.0.0, Operations
-ms.openlocfilehash: 9c2f658fbf7fd4db38d572ff80e9d500b5548e0a
-ms.sourcegitcommit: d1683d033fc74adbc4465dd26f7b0055e7639753
+ms.openlocfilehash: fc3cf3b5d28a4e512f921db6ba090dd5731391cc
+ms.sourcegitcommit: 873d66c03a51ecb7082e269f30f5f980ccd9307f
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/05/2022
-ms.locfileid: "8713266"
+ms.lasthandoff: 07/06/2022
+ms.locfileid: "9123972"
 ---
 # <a name="before-you-buy"></a>Antes de comprar
 
@@ -26,7 +26,7 @@ ms.locfileid: "8713266"
 
 Novo no Dynamics 365 Finance, Dynamics 365 Supply Chain Management ou Dynamics 365 Commerce? Reunimos orientações passo a passo para avaliação ou para quando você estiver pronto para fazer uma compra.
 
-## <a name="step-one-try-out-finance-and-operations-free-for-30-days"></a>Etapa um: Teste gratuitamente o Finance and Operations por 30 dias
+## <a name="step-one-try-out-finance-and-operations-free-for-30-days"></a>Etapa um: Teste gratuitamente os aplicativos de finanças e operações por 30 dias
 
 Você pode testar o Dynamics 365 for Finance, Dynamics 365 Supply Chain Management ou Dynamics 365 Commerce por 30 dias por meio de uma assinatura de email simples. A versão de avaliação dos aplicativos de finanças e operações inclui guias de tarefas de introdução que fornecem instruções passo a passo que permitem a exibição de cenários específicos em ação. O produto está disponível para os cenários de exploração e de exercícios, mas não pode ser personalizado. Dados de demonstração são incluídos para facilitar o uso do produto e tornar a experiência mais significativa. Um lembrete por email será enviado 3 dias antes da expiração da versão de avaliação. Para mais detalhes, consulte [Inscrever-se em assinaturas de versão preliminar](../../dev-itpro/dev-tools/sign-up-preview-subscription.md#subscribe).
 
@@ -62,7 +62,7 @@ Um provedor de soluções na nuvem da Microsoft pode trabalhar em estreita colab
 
 ### <a name="buy-through-a-dynamics-partner-on-premises"></a>Comprar por meio de um parceiro do Dynamics (localmente)
 
-É preciso trabalhar com um parceiro para comprar o Finance and Operations local. Para obter mais informações, consulte [Comprar o Finance + Operations (local)](purchase-on-premises.md).
+É preciso trabalhar com um parceiro para comprar o Finance + Operations (on-premises). Para obter mais informações, consulte [Comprar o Finance + Operations (local)](purchase-on-premises.md).
 
 ### <a name="buy-through-volume-licensing-cloud-or-on-premises"></a>Comprar por meio do licenciamento por volume (na nuvem ou local)
 
@@ -94,3 +94,4 @@ Se você é um cliente que está atualizando do Microsoft Dynamics AX 2012 ou mi
 
 
 [!INCLUDE[footer-include](../../../includes/footer-banner.md)]
+

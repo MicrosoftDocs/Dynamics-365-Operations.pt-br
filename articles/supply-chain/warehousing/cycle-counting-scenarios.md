@@ -11,12 +11,12 @@ ms.search.region: Global
 ms.author: gfedorova
 ms.search.validFrom: 2021-06-08
 ms.dyn365.ops.version: 10.0.20
-ms.openlocfilehash: 90a3f132a96081b56ab60f5b0ba5cc328b820879
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: 4f6f3f2db6efcc4d4d6ae3d278751a230fca9a64
+ms.sourcegitcommit: 28a726b3b0726ecac7620b5736f5457bc75a5f84
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8899314"
+ms.lasthandoff: 06/29/2022
+ms.locfileid: "9068586"
 ---
 # <a name="cycle-counting-example-scenarios"></a>Cenários de exemplo de contagem cíclica
 
@@ -127,7 +127,7 @@ Siga estas etapas para confirmar que todos os dados de demonstração necessári
 1. No painel da lista, selecione o depósito *61*. Se nenhum registro existente tiver esse nome, crie-o.
 1. Na Guia Rápida **Depósito**, defina os seguintes valores:
 
-    - **Usar o processo de gerenciamento de depósito:** *Sim* (Esse valor habilita o depósito para processos de gerenciamento de depósito.)
+    - **Usar o processo de gerenciamento de depósito:** *Sim* (Esse valor habilita o depósito para processos de gerenciamento de depósito (WMS).)
     - **Permitir movimentações de placa de licença durante a contagem cíclica:** *Sim* (Este valor permite que os trabalhadores movam placas de licença durante uma contagem cíclica.)
 
 ## <a name="scenario-1-guided-cycle-counting"></a>Cenário 1: Contagem cíclica guiada

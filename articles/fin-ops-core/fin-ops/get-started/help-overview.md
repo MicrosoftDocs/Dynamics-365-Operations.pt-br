@@ -17,14 +17,14 @@ ms.search.region: Global
 ms.author: edupont
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 924af44a6f0b1430859f0f6354ef55ff67a1b677
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: 57c17cab920c531b3eb125260064d01dd8662576
+ms.sourcegitcommit: 873d66c03a51ecb7082e269f30f5f980ccd9307f
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8898359"
+ms.lasthandoff: 07/06/2022
+ms.locfileid: "9124184"
 ---
-# <a name="help-system"></a>Sistema de ajuda
+# <a name="help-system"></a>Sistema da ajuda
 
 [!include [banner](../includes/banner.md)]
 
@@ -98,7 +98,7 @@ Para obter mais informações, consulte o [Guia de colaborador de docs](/contrib
 
 Um guia de tarefa é uma experiência controlada, guiada, interativa que irá guiá-lo durante as etapas de uma tarefa, ou processo comercial. Você pode abrir (executar) um guia de tarefa através do painel de **Ajuda**. Quando você selecionar pela primeira vez um guia de tarefas, o painel de **Ajuda** exibirá as instruções passo a passo para a tarefa. Os guias de tarefas localizados estão disponíveis.
 
-A Microsoft lançou bibliotecas de guias de tarefas para versões do produto na versão de dezembro de 2017 do Dynamics 365 for Finance and Operations. A seção [Acessando guias de tarefas pelo painel de Ajuda](#accessing-task-guides-from-the-help-pane) deste artigo explica como localizar as guias de tarefas corretas para o seu produto.
+A Microsoft lançou bibliotecas de guias de tarefas para versões do produto na versão de dezembro de 2017 dos aplicativos de Finanças e Operações do Dynamics 365. A seção [Acessando guias de tarefas pelo painel de Ajuda](#accessing-task-guides-from-the-help-pane) deste artigo explica como localizar as guias de tarefas corretas para o seu produto.
 
 ![Exibição de leitura do Guia de tarefas.](./media/task-guide-ops.png)
 
@@ -182,3 +182,4 @@ A tabela a seguir lista nossos sites. Os sites que têm um asterisco (\*) ao lad
 
 
 [!INCLUDE[footer-include](../../../includes/footer-banner.md)]
+

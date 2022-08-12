@@ -16,12 +16,12 @@ ms.search.industry: Retail
 ms.author: mumani
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0, Retail July 2017 update
-ms.openlocfilehash: f9f3e17a6c67dc1cc1d4ba423ce258f2ed1d1ec0
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: 0b8723da9b80d007cd0a3196affdfa854eff095f
+ms.sourcegitcommit: 45bb77244a31fa174adf85d1b54e9700109ca0c4
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8847591"
+ms.lasthandoff: 07/27/2022
+ms.locfileid: "9198371"
 ---
 # <a name="task-recorder-and-help-for-retail-modern-pos-mpos-and-cloud-pos"></a>Gravador de tarefa e Ajuda do Retail Modern POS (MPOS) e Cloud POS
 
@@ -107,7 +107,7 @@ Para retomar a sessão de gravação depois de pausá-la, clique em **Continuar*
 O Gravador de tarefas pode capturar telas da interface do usuário do Retail Modern POS à medida que você registra um processo de negócios. Para ativar o recurso de captura de tela, defina a opção **Capturar tela** como **Sim** e, em seguida, faça a gravação. Depois que o registro for concluído, clique em **Interromper** e baixar o documento do Word. O documento conterá as etapas a capturas de tela relevantes.
 
 > [!NOTE]
-> A funcionalidade Capturar tela não tem suporte no Cloud POS.
+> Não há suporte para a funcionalidade Capturar telas no comércio do Store Commerce, Commerce Modern POS e PDV em Nuvem.
 
 ### <a name="start-task-and-end-task"></a>Iniciar tarefa e Finalizar tarefa
 

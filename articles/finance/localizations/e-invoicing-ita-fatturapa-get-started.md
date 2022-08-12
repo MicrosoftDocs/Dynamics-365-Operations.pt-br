@@ -2,7 +2,7 @@
 title: Configurar a integração direta do FatturaPA com SDI
 description: Este artigo fornece informações que ajudarão você a começar a usar o Faturamento eletrônico da Itália e configurar a integração direta do FatturaPA italiano com o sistema do Exchange (SDI).
 author: abaryshnikov
-ms.date: 01/15/2022
+ms.date: 07/27/2022
 ms.topic: article
 audience: Application User, Developer
 ms.reviewer: kfend
@@ -10,12 +10,12 @@ ms.search.region: Global
 ms.author: abaryshnikov
 ms.search.validFrom: 2021-10-18
 ms.dyn365.ops.version: AX 10.0.20
-ms.openlocfilehash: 510cf05e7bbc925478f9a1a4ea2ea27fe397c570
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: 363b7b5e3d5abbb990fea8f8ad4d0c1bebf80102
+ms.sourcegitcommit: 6d9fcb52d723ac5022a3002e0ced8e7b56e9bc2a
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8853182"
+ms.lasthandoff: 07/27/2022
+ms.locfileid: "9203159"
 ---
 # <a name="set-up-direct-integration-of-italian-fatturapa-with-sdi"></a>Configurar a integração direta do FatturaPA com SDI
 
@@ -69,10 +69,13 @@ Esta seção complementa a seção [Configuração específica do país da confi
     - Para a ação **Assinar documento**, no campo **Nome do certificado**, especifique o certificado de assinatura digital.
     - Para a ação **Enviar**, defina os campos **Endereço da URL** e **Certificados**. O valor do campo **Certificados** é uma cadeia de certificados, a primeira que é o certificado da CA raiz (caentrate.cer) e a segunda que é o certificado de clientes.
 
-4. Selecione **Validar** para garantir que todos os campos obrigatórios sejam definidos.
-5. Salve suas alterações e feche a página.
-6. Na guia **Configurações**, selecione **Faturas de projeto** e, em seguida, **Editar**.
-7. Repita as etapas 3 a 5 para faturas de projeto.
+4. Na seção **Regras de aplicabilidade**, analise as cláusulas e revise ou defina os campos obrigatórios:
+    - Revise a cláusula **LegalEntityID** e atualize com o valor correto da sua entidade legal.
+
+5. Selecione **Validar** para garantir que todos os campos obrigatórios sejam definidos.
+6. Salve suas alterações e feche a página.
+7. Na guia **Configurações**, selecione **Faturas de projeto** e, em seguida, **Editar**.
+8. Repita as etapas 3 a 6 para faturas de projeto.
 
 ### <a name="configure-the-processing-pipeline-for-import"></a>Configurar o pipeline de processamento para importação
 

@@ -9,12 +9,12 @@ ms.reviewer: sericks
 ms.search.region: Global
 ms.author: hasaid
 ms.search.validFrom: 2021-11-09
-ms.openlocfilehash: 90e64fec512307af209ace128d5897475de7aee5
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: 41789d574cc7348dbf8a18db97da9c428da09602
+ms.sourcegitcommit: 12b3dbee905f8b2eb2e6c383c822a0fc9fccf063
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8867263"
+ms.lasthandoff: 07/01/2022
+ms.locfileid: "9103928"
 ---
 # <a name="dynamics-365-finance-supply-chain-management-and-commerce-in-us-government-community-cloud-gcc"></a>Dynamics 365 Finance, Supply Chain Management e Commerce na GCC (Nuvem da Comunidade Governamental) nos EUA
 
@@ -38,9 +38,9 @@ Depois que a integração inicial for concluída, siga as instruções em [Integ
 
 ## <a name="environment-deployment"></a>Implantação do ambiente
 
-Depois de concluir a integração do projeto, você poderá revisar os recursos adicionais do LCS descritos em [Lifecycle Services (LCS) para clientes dos aplicativos de Finanças e Operações](../../../fin-ops-core/dev-itpro/lifecycle-services/lcs-works-lcs.md). Em seguida, siga para a implantação do ambiente.
+Depois de concluir a integração do projeto, você poderá revisar os recursos adicionais do LCS descritos em [Lifecycle Services (LCS) para clientes dos aplicativos de finanças e operações](../../../fin-ops-core/dev-itpro/lifecycle-services/lcs-works-lcs.md). Em seguida, siga para a implantação do ambiente.
 
-- Para implantar ambientes gerenciados pela Microsoft via LCS, siga as instruções em [Lifecycle Services (LCS) para clientes dos aplicativos de Finanças e Operações](../../../fin-ops-core/dev-itpro/lifecycle-services/lcs-works-lcs.md#new-deployment-experience).
+- Para implantar ambientes gerenciados pela Microsoft via LCS, siga as instruções em [Lifecycle Services (LCS) para clientes dos aplicativos de finanças e operações](../../../fin-ops-core/dev-itpro/lifecycle-services/lcs-works-lcs.md#new-deployment-experience).
 - Para ambientes hospedados na nuvem, consulte [Implantar e acessar ambientes de desenvolvimento](../../../fin-ops-core/dev-itpro/dev-tools/access-instances.md). Você também deve concluir o processo de integração do Gerenciador de Recursos para seus conectores, conforme descrito em [Concluir o processo de integração do Azure Resource Manager para projetos de Lifecycle Services do governo dos EUA](arm-onbarding-us-goverment.md).
 
 > [!NOTE]
@@ -84,3 +84,4 @@ Sim. No entanto, se o parceiro usar uma identidade que não seja da GCC, o tíqu
 - [Visão geral da implantação de nuvem](../../../fin-ops-core/dev-itpro/deployment/cloud-deployment-overview.md)
 
 [!INCLUDE[footer-include](../../../includes/footer-banner.md)]
+

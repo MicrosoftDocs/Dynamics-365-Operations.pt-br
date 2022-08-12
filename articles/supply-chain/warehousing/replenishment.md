@@ -18,12 +18,12 @@ ms.search.industry: Distribution
 ms.author: mirzaab
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 3dceb8e6300d19eb9253e88debbaaef0b6987420
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: 075e74845eb8e0363cdb706f1f3af0dc9cfddfaa
+ms.sourcegitcommit: 28a726b3b0726ecac7620b5736f5457bc75a5f84
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8893081"
+ms.lasthandoff: 06/29/2022
+ms.locfileid: "9069172"
 ---
 # <a name="replenishment-overview"></a>Visão geral de reabastecimento
 
@@ -70,8 +70,8 @@ Em vez de ter que somar a demanda no final de um processo de alocação e fazer 
 
 |      Pré-requisito       |                                                                                                                                descrição                                                                                                                                 |
 |-------------------------|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-|          Item           |                                                                                                        O item deve ser habilitado para os processos de gerenciamento de depósito.                                                                                                        |
-|        Depósito        | O depósito deve ser habilitado para os processos de gerenciamento de depósito. Para habilitar um depósito para processos de gerenciamento de depósito, na página <strong>Depósitos</strong>, selecione o depósito e selecione a opção <strong>Usar processos de gerenciamento de depósito</strong>. |
+|          Item           |                                                                                                        O item deve ser habilitado para os processos de gerenciamento de depósito (WMS).                                                                                                        |
+|        Depósito        | O depósito deve ser habilitado para os processos de gerenciamento de depósito (WMS). Para habilitar um depósito para WMS, na página <strong>Depósitos</strong>, selecione o depósito e selecione a opção <strong>Usar processos de gerenciamento de depósito</strong>. |
 | Modelos de reabastecimento |                                                                   Pelo menos um modelo de reabastecimento deve ser configurado para reabastecimento mín./máx., reabastecimento de demanda de onda ou reabastecimento de demanda de carga.                                                                   |
 |        Locais        |                                                                                                       Locais devem ser criados e conectados a um perfil de local.                                                                                                       |
 |    Perfis de localização    |                                                                                                        Perfis de local são necessários para criar locais.                                                                                                        |

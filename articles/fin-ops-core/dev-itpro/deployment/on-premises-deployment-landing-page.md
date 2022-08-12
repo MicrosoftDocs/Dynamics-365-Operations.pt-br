@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: sericks
 ms.search.validFrom: 2016-08-30
 ms.dyn365.ops.version: Platform update 8
-ms.openlocfilehash: b73e0cc31fd0e5a22ee330f623b9125de9237e29
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: 87bab110d99bd756038b9f556aa15ed9fd02fb97
+ms.sourcegitcommit: 12b3dbee905f8b2eb2e6c383c822a0fc9fccf063
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8867402"
+ms.lasthandoff: 07/01/2022
+ms.locfileid: "9103962"
 ---
 # <a name="on-premises-deployment-home-page"></a>Home page de Implantação local
 
@@ -52,8 +52,8 @@ Você pode implantar o Dynamics 365 Finance + Operations (on-premises). Quando v
 - [Configurar gerenciamento de documentos](../../fin-ops/organization-administration/configure-document-management.md)
 - [Importar configurações de Relatório eletrônico (ER)](../analytics/electronic-reporting-import-ger-configurations.md)
 - [Geração, publicação e impressão de documentos em implantações locais​](../analytics/printing-capabilities-on-premises.md)
-- [Configurar proxies para ambientes locais](onprem-reverseproxy.md)
-- [Configurar o suporte técnico para aplicativos do Finance and Operations](../lifecycle-services/support-experience.md)
+- [Configurar proxies reversos para ambientes locais](onprem-reverseproxy.md)
+- [Configurar o suporte técnico para aplicativos de finanças e operações](../lifecycle-services/support-experience.md)
 - [Conectividade da Internet do cliente](../user-interface/client-disconnected.md)
 - [Aplicar atualizações a implantações locais](apply-updates-on-premises.md)
 - [Implantar novamente ambientes locais](redeploy-on-prem.md)
@@ -73,9 +73,10 @@ Você pode implantar o Dynamics 365 Finance + Operations (on-premises). Quando v
 - [Scripts para resolver problemas em ambientes locais](onprem-tsg-implementations.md)
 - [Rotação de certificados](certificate-rotation-on-prem.md)
 - [Diagnósticos locais](on-premises-diagnostics.md)
-- [Recursos removidos ou preteridos de Finance and Operations](../migration-upgrade/deprecated-features.md)
+- [Recursos removidos ou preteridos do aplicativo de finanças e operações](../migration-upgrade/deprecated-features.md)
 - [Política de ciclo de vida do software e versões locais](../migration-upgrade/on-prem-version-update-policy.md)
  
 
 
 [!INCLUDE[footer-include](../../../includes/footer-banner.md)]
+

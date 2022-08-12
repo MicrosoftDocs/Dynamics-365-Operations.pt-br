@@ -15,12 +15,12 @@ ms.search.industry: ''
 ms.author: henrikan
 ms.dyn365.ops.version: July 2017 update
 ms.search.validFrom: 2017-07-8
-ms.openlocfilehash: b0427d33ac39d34bccc302e58bb84e1ad4c3598c
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: 12a9c57e2587150914c6087c041d63af9783c1f3
+ms.sourcegitcommit: 12b3dbee905f8b2eb2e6c383c822a0fc9fccf063
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8888431"
+ms.lasthandoff: 07/01/2022
+ms.locfileid: "9103687"
 ---
 # <a name="integration-with-microsoft-dynamics-365-field-service-overview"></a>Visão geral da integração com o Microsoft Dynamics 365 Field Service
 
@@ -73,7 +73,7 @@ A funcionalidade adicional nesta segunda fase está centrada em fornecer aos té
 ### <a name="system-requirements-for-supply-chain-management"></a>Requisitos de sistema do Supply Chain Management
 A integração do Field Service é compatível com as seguintes versões:
 
-- O Dynamics 365 for Finance and Operations versão 8.1.2 (dezembro de 2018) foi lançada em dezembro de 2018 e tem o número da compilação de aplicativo 8.1.195 com a atualização de plataforma 22 (7.0.5095). 
+- Finanças e operações do Dynamics 365 versão 8.1.2 (dezembro de 2018) foi liberado em dezembro de 2018 e tem o número de compilação de aplicativo 8.1.195 com a atualização de plataforma 22 (7.0.5095). 
 
 ### <a name="system-requirements-for-field-service"></a>Requisitos do sistema para o Field Service
 Para usar a solução de integração do Field Service, você deve instalar os seguintes componentes:

@@ -10,18 +10,35 @@ ms.search.region: Global
 ms.author: mirzaab
 ms.search.validFrom: 2021-06-07
 ms.dyn365.ops.version: 10.0.21
-ms.openlocfilehash: ac750ede78bb4547f90b57426cc9cb10d2a282b3
-ms.sourcegitcommit: 78576abe5c7cbab1bb69d26c999b038e8c24873a
+ms.openlocfilehash: 19193cc445bc9c7d79463734d7d5787737ecc4f7
+ms.sourcegitcommit: 6989ac8a20c16d384b8307b707eeaf498c32d64e
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/13/2022
-ms.locfileid: "8954653"
+ms.lasthandoff: 07/25/2022
+ms.locfileid: "9188981"
 ---
 # <a name="whats-new-or-changed-in-the-warehouse-management-mobile-app"></a>Novidades ou alterações no aplicativo móvel Warehouse Management
 
 [!include [banner](../includes/banner.md)]
 
 Este artigo lista recursos novos, correções, aprimoramentos e problemas conhecidos para cada versão lançada do aplicativo móvel do Warehouse Management para o Microsoft Dynamics 365 Supply Chain Management.
+
+## <a name="version-20300"></a>Versão 2.0.30.0
+
+Esta versão introduz os novos recursos, correções e aprimoramentos a seguir:
+
+- Estabilidade aprimorada.
+
+## <a name="version-20280"></a>Versão 2.0.28.0
+
+Esta versão introduz os novos recursos, correções e aprimoramentos a seguir:
+
+- Estabilidade aprimorada.
+- Introduziu a capacidade de continuar a varredura mesmo enquanto uma caixa de diálogo de erro é exibida na tela.
+- Suporte adicionado para ASCII 10 em códigos de barras.
+- Melhoria da usabilidade das caixas de diálogo de instruções de etapa.
+- Corrigido um problema em que a tela em branco pode ser exibida.
+- Corrigido um problema em que as listas de trabalho não rolaram corretamente ao executar no Microsoft Windows.
 
 ## <a name="version-20250"></a>Versão 2.0.25.0
 

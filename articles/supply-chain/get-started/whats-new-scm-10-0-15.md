@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: kamaybac
 ms.search.validFrom: 2020-10-09
 ms.dyn365.ops.version: 10.0.15
-ms.openlocfilehash: 3141cea22b6ab80f36f5562fd450b0cd547d235d
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: b9f372cfd36dc0a764c1fa01be5fe59e088e4728
+ms.sourcegitcommit: 873d66c03a51ecb7082e269f30f5f980ccd9307f
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8879124"
+ms.lasthandoff: 07/06/2022
+ms.locfileid: "9124578"
 ---
 # <a name="whats-new-or-changed-in-dynamics-365-supply-chain-management-10015-january-2021"></a>Novidades ou alterações no Dynamics 365 Supply Chain Management 10.0.15 (janeiro de 2021)
 
@@ -57,9 +57,9 @@ A maioria desses recursos deve ser habilitada usando [Gerenciamento de recursos]
 
 ## <a name="additional-resources"></a>Recursos adicionais
 
-### <a name="platform-updates-for-finance-and-operations-apps"></a>Atualizações da plataforma para aplicativos do Finanças e operações
+### <a name="platform-updates-for-finance-and-operations-apps"></a>Atualizações da plataforma para aplicativos de finanças e operações
 
-O Microsoft Dynamics 365 Supply Chain Management 10.0.15 inclui atualizações de plataforma. Para saber mais, consulte [Atualizações de plataforma para a versão 10.0.15 dos aplicativos de Finanças e Operações (outubro de 2020)](../../fin-ops-core/dev-itpro/get-started/whats-new-platform-updates-10-0-15.md).
+O Microsoft Dynamics 365 Supply Chain Management 10.0.15 inclui atualizações de plataforma. Para saber mais, consulte [Atualizações da plataforma para a versão 10.0.15 dos aplicativos de finanças e operações (outubro de 2020)](../../fin-ops-core/dev-itpro/get-started/whats-new-platform-updates-10-0-15.md).
 
 ### <a name="bug-fixes"></a>Correções de bug
 

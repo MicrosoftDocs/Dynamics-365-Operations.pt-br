@@ -1,7 +1,7 @@
 ---
 title: Visão geral da reconciliação bancária avançada
 description: Este artigo descreve o fluxo do processo de reconciliação avançado do banco. O recurso avançado de reconciliação bancária permite que você importe os extratos bancários que podem ser reconciliados automaticamente nas transações bancárias.
-author: panolte
+author: angelad116
 ms.date: 06/20/2017
 ms.topic: overview
 ms.prod: ''
@@ -14,15 +14,15 @@ ms.custom:
 - intro-internal
 ms.assetid: b0705653-1fa6-4d94-9728-bcf9fb387ad1
 ms.search.region: Global
-ms.author: panolte
+ms.author: angelading
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: d6dadc5fd49a7103df8e1cacfd3be09c24a06e67
-ms.sourcegitcommit: 04e6c1c9400e1b582180cf3e0e4767434e736c26
+ms.openlocfilehash: 96542aa2ee1fed85864b7695199df464ca7866be
+ms.sourcegitcommit: 0b7a034e644f4d93fe55c7baca5a3f89dbe56898
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/05/2022
-ms.locfileid: "8711398"
+ms.lasthandoff: 07/14/2022
+ms.locfileid: "9151643"
 ---
 # <a name="advanced-bank-reconciliation-overview"></a>Visão geral da reconciliação bancária avançada
 

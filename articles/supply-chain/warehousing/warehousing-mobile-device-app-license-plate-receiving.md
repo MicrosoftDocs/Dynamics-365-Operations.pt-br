@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: perlynne
 ms.search.validFrom: 2020-03-31
 ms.dyn365.ops.version: 10.0.11
-ms.openlocfilehash: fe083f16bd47b3f7bdfd366ae4b0fe4a02f49185
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: 657c29ec6ddfb2be918424e06eaf219f51a30a02
+ms.sourcegitcommit: 28a726b3b0726ecac7620b5736f5457bc75a5f84
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8906990"
+ms.lasthandoff: 06/29/2022
+ms.locfileid: "9069052"
 ---
 # <a name="license-plate-receiving-via-the-warehouse-management-mobile-app"></a>Recebimento da placa de licença pelo aplicativo móvel Warehouse Management
 
@@ -26,7 +26,7 @@ ms.locfileid: "8906990"
 
 Este tópico explica como configurar o aplicativo móvel Warehouse Management para oferecer suporte ao uso de um processo de recebimento de placa de licença para receber um estoque físico.
 
-Você pode usar esta funcionalidade para registrar rapidamente o recebimento de um estoque de entrada relacionado a um aviso de embarque (ASN). O sistema automaticamente cria um ASN quando os processos de gerenciamento do depósito forem usados para remeter uma ordem de transferência. Para o processo da ordem de compra, um ASN pode ser registrado manualmente ou importado automaticamente usando um processo de entidade de dados do ASN de entrada.
+Você pode usar esta funcionalidade para registrar rapidamente o recebimento de um estoque de entrada relacionado a um aviso de embarque (ASN). O sistema criará automaticamente um ASN quando os processos de gerenciamento de depósito (WMS) forem usados para enviar uma ordem de transferência. Para o processo da ordem de compra, um ASN pode ser registrado manualmente ou importado automaticamente usando um processo de entidade de dados do ASN de entrada.
 
 Os dados do ASN são vinculados a cargas e remessas por meio de *estruturas de embalagem*, nas quais os paletes (placas de licença pai) podem conter caixas (placas de licença aninhadas).
 

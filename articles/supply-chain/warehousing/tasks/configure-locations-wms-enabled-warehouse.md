@@ -1,6 +1,6 @@
 ---
 title: Configurar localizações em um depósito habilitado para WMS
-description: Este guia mostra como definir a configuração da localização para um novo depósito habilitado para WMS (um depósito que utiliza processos avançados de gerenciamento de depósito).
+description: Este guia mostra como definir a configuração da localização para um novo depósito habilitado para WMS (um depósito que utiliza processos de gerenciamento de depósito (WMS)).
 author: perlynne
 ms.date: 06/26/2019
 ms.topic: business-process
@@ -14,18 +14,18 @@ ms.search.industry: Distribution
 ms.author: perlynne
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: b5273a388b30a41b75bd76c92fa4b9ff05c8f8d6
-ms.sourcegitcommit: db80edbe0c32e3a5f22aae6154781f3ff8a2ab2a
+ms.openlocfilehash: 45195698b48d6a22697f99044a8ae49beaf7156e
+ms.sourcegitcommit: 28a726b3b0726ecac7620b5736f5457bc75a5f84
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/04/2021
-ms.locfileid: "7599339"
+ms.lasthandoff: 06/29/2022
+ms.locfileid: "9067263"
 ---
 # <a name="configure-locations-in-a-wms-enabled-warehouse"></a>Configurar localizações em um depósito habilitado para WMS
 
 [!include [banner](../../includes/banner.md)]
 
-Este guia mostra como definir a configuração da localização para um novo depósito habilitado para WMS (um depósito que utiliza processos avançados de gerenciamento de depósito). O processo é normalmente feito por um gerente de depósito. Você pode executar esse guia na empresa de dados demonstrativos USMF ou usando seus próprios dados. Uma pré-condição é que você tenha pelo menos um local configurado.
+Este guia mostra como definir a configuração da localização para um novo depósito habilitado para WMS (um depósito que utiliza processos de gerenciamento de depósito (WMS)). O processo é normalmente feito por um gerente de depósito. Você pode executar esse guia na empresa de dados demonstrativos USMF ou usando seus próprios dados. Uma pré-condição é que você tenha pelo menos um local configurado.
 
 
 ## <a name="create-a-new-warehouse"></a>Criar um novo depósito
@@ -35,7 +35,7 @@ Este guia mostra como definir a configuração da localização para um novo dep
 4. No campo **Nome**, digite um valor.
 5. No campo **Site**, selecione ou digite um valor de site existente.
 6. Expanda a seção **Depósito**.
-7. Defina a opção **Usar processos de gerenciamento de depósito** como Sim. Essa configuração permite que você execute processos de armazenamento avançados utilizando trabalho de depósito e dispositivos móveis.
+7. Defina a opção **Usar processos de gerenciamento de depósito** como Sim. Essa configuração permite que você execute processos de gerenciamento de depósito (WMS) utilizando trabalho de depósito e dispositivos móveis.
 8. Feche a página.
 
 ## <a name="define-a-location-format"></a>Definir um formato de localização
@@ -68,7 +68,7 @@ Este guia mostra como definir a configuração da localização para um novo dep
 5. Feche a página.
 
 ## <a name="define-location-profile"></a>Definir perfil de localização
-1. Acesse **Painel de navegação > Módulos > Gerenciamento de depósito > Configuração > Depósito > Perfis de localização**. A definição de perfis de localização é muito importante. A capacidade de localizações agrupadas pode ser controlada aqui, assim como as políticas relacionadas a qual estoque é armazenado, e como é armazenado. Perfis de localização podem ser utilizadas como opções de filtragem para controlar os diferentes processos de gerenciamento do depósito. No mínimo, você deve criar um perfil de localização do usuário para habilitar os processos de gerenciamento do depósito.
+1. Acesse **Painel de navegação > Módulos > Gerenciamento de depósito > Configuração > Depósito > Perfis de localização**. A definição de perfis de localização é muito importante. A capacidade de localizações agrupadas pode ser controlada aqui, assim como as políticas relacionadas a qual estoque é armazenado, e como é armazenado. Perfis de localização podem ser utilizadas como opções de filtragem para controlar os diferentes processos de gerenciamento do depósito. No mínimo, você deve criar um perfil de localização de usuário para habilitar o WMS.
 2. Clique em **Novo**.
 3. No campo **ID do perfil de localização**, digite um valor.
 4. No campo **Nome**, digite um valor.

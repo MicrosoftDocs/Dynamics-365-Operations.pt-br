@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2019-11-06
 ms.dyn365.ops.version: AX 10.0.8
-ms.openlocfilehash: 54655d2b1cfb4b11f32842d4c3cff2f4d8e97ef5
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: 5d2c811ac48a6bf29267192f61a33b6b47721659
+ms.sourcegitcommit: 28a726b3b0726ecac7620b5736f5457bc75a5f84
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8856789"
+ms.lasthandoff: 06/29/2022
+ms.locfileid: "9068156"
 ---
 # <a name="customer-payment-insights-preview"></a>Insights de pagamento de cliente (versão preliminar)
 
@@ -69,9 +69,10 @@ Envie um email para [Insights de pagamento de cliente (versão preliminar)](mail
 
 ## <a name="privacy-notice"></a>Aviso de Privacidade
 
-Versões preliminares (1) podem utilizar menos medidas de privacidade e segurança que o serviço do Dynamics 365 Finance e de Operations, (2) não estão incluídas no contrato de nível de serviço desse serviço, (3) não devem ser usadas para processar dados pessoais ou outros dados sujeitos a requisitos de conformidade legais ou regulatórios e (4) têm suporte limitado.
+Versões preliminares (1) podem utilizar menos medidas de privacidade e segurança que o serviço do finanças e operações do Dynamics 365, (2) não estão incluídas no contrato de nível de serviço desse serviço, (3) não devem ser usadas para processar dados pessoais ou outros dados sujeitos a requisitos de conformidade legais ou regulatórios e (4) têm suporte limitado.
 
 
 
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]
+

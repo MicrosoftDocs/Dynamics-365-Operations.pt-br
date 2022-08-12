@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: moaamer
 ms.search.validFrom: 2017-12-20
 ms.dyn365.ops.version: 7.2999999999999998
-ms.openlocfilehash: 9adbf8f5baa829fb28977d618a4f8beee31ef080
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: a4d423b149957e624269231aede510190f0c14c7
+ms.sourcegitcommit: 28a726b3b0726ecac7620b5736f5457bc75a5f84
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8870123"
+ms.lasthandoff: 06/29/2022
+ms.locfileid: "9068770"
 ---
 # <a name="fixed-assets-roll-forward-report"></a>Relatório de roll forward de ativo fixo
 
@@ -30,7 +30,7 @@ O relatório **Relatório de roll forward de ativos fixos** fornece em um format
 
 O relatório **Roll forward de ativos fixos** usa a estrutura de Relatório eletrônico (ER). Antes de executar o relatório, as configurações de roll-forward de Ativo fixo e do modelo de Ativos fixos devem ser importadas do Microsoft Dynamics Lifecycle Services (LCS). Para obter instruções, consulte [Baixar configurações do Relatório eletrônico no Lifecycle Services](/dynamics365/unified-operations/dev-itpro/analytics/download-electronic-reporting-configuration-lcs).
 
-Este relatório estará disponível no Microsoft Dynamics 365 for Finance and Operations, Enterprise edition 7.3, ou como um hotfix para Microsoft Dynamics 365 for Finance and Operations, Enterprise edition (Julho de 2017). Três hotfixes devem ser aplicados aos ambientes com a versão de julho de 2017:
+Esse relatório estará disponível no Microsoft Dynamics 365 Finance, Enterprise edition 7.3, ou como um hotfix para Microsoft Dynamics 365 Finance, Enterprise edition (Julho de 2017). Três hotfixes devem ser aplicados aos ambientes com a versão de julho de 2017:
 
 - **KB 4041754:** A configuração de ER (relatório eletrônico) não pode ser baixada de LCS como não aplicável para a versão atual após a utilização do pacote de atualização da plataforma.
 - **KB 4056107:** Atualização 5 cumulativa do relatório eletrônico (GER)
@@ -67,3 +67,4 @@ A tabela a seguir descreve os campos disponíveis no relatório.
 
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]
+

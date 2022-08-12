@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: perlynne
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 28e026b01bbc2b2534556ce6018eec66fc5517d6
-ms.sourcegitcommit: 3754d916799595eb611ceabe45a52c6280a98992
+ms.openlocfilehash: 7643a333c269a7e1976563ff0f10b89c1fb91674
+ms.sourcegitcommit: 28a726b3b0726ecac7620b5736f5457bc75a5f84
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 01/15/2022
-ms.locfileid: "7982989"
+ms.lasthandoff: 06/29/2022
+ms.locfileid: "9065172"
 ---
 # <a name="warehouse-configuration-overview"></a>Visão geral da configuração de depósito
 
@@ -31,10 +31,10 @@ ms.locfileid: "7982989"
 Este artigo explica como configurar um depósito. Ele inclui informações sobre como habilitar um layout de depósito e processos de depósito.
 
 > [!NOTE]
-> Este artigo se aplica aos recursos no módulo **Gerenciamento de depósito** (armazenagem avançada). Não se aplica aos recursos de depósito no módulo de **Gerenciamento de depósito**.
+> Este artigo se aplica aos recursos do módulo **Warehouse Management**. Não se aplica aos recursos de depósito no módulo de **Gerenciamento de depósito**.
 
 ## <a name="warehouse-layout"></a>Layout do depósito
-O sistema de gerenciamento de depósito no Supply Chain Management proporciona uma maneira flexível de definir o layout de depósito para atender às necessidades em constante mudança, de forma que você possa obter máxima eficiência de depósito.
+Os processos de gerenciamento de depósito (WMS) no Supply Chain Management confere flexibilidade para definir o layout de depósito a fim de atender às necessidades em constante mudança, de forma que você aproveite toda a eficiência do depósito.
 
 -   Você pode liquidar áreas de armazenamento de alta e baixa prioridade para o posicionamento ideal de mercadorias.
 -   Você pode dividir o depósito em zonas para acomodar várias necessidades de armazenamento, como requisitos de temperatura, ou várias taxas de devolução de itens.
@@ -42,7 +42,7 @@ O sistema de gerenciamento de depósito no Supply Chain Management proporciona u
 -   Você pode agrupar locais usando as configurações de restrição de capacidade física.
 -   Você pode controlar como os itens são armazenados e separados, com base em regras definidas pela consulta.
 
-Para usar o gerenciamento de depósito no Supply Chain Management, você deve criar um depósito e habilitá-lo para as atividades de gerenciamento de depósito mais avançados ou mais especializadas. Na página **Depósitos**, selecione a opção **Usar processos de gerenciamento de depósito**.
+Para usar o WMS no Supply Chain Management, você precisa criar um depósito e habilitá-lo para o WMS. Na página **Depósitos**, selecione a opção **Usar processos de gerenciamento de depósito**.
 
 ### <a name="zone-groups-zones-location-types-and-locations"></a>Grupos de zonas, zonas, tipos de localização, e localizações
 

@@ -9,12 +9,12 @@ ms.reviewer: tfehr
 ms.search.region: global
 ms.author: ramasri
 ms.search.validFrom: 2020-03-16
-ms.openlocfilehash: 5ebb14dad723fad5b17b4dfca153bf153e77bbd4
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: 2e2759ff15dd8d146c642fc0da90d1a38fe855d1
+ms.sourcegitcommit: 6781fc47606b266873385b901c302819ab211b82
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8882074"
+ms.lasthandoff: 07/02/2022
+ms.locfileid: "9111190"
 ---
 # <a name="troubleshoot-issues-during-initial-setup"></a>Solucionar problemas durante a configuração inicial
 
@@ -77,7 +77,7 @@ Este erro ocorre quando a etapa de consentimento do aplicativo não é concluíd
 > [!NOTE]
 > Se isso não funcionar, inicie a URL no modo particular do Microsoft Edge ou no modo Incognito do Chrome.
 
-## <a name="finance-and-operations-environment-is-not-discoverable"></a>O ambiente do Finance and Operations não é detectável
+## <a name="finance-and-operations-environment-is-not-discoverable"></a>O ambiente de finanças e operações não é detectável
 
 Você poderá receber a seguinte mensagem de erro:
 
@@ -85,7 +85,8 @@ Você poderá receber a seguinte mensagem de erro:
 
 Há duas coisas que podem fazer com que um ambiente não seja detectável:
 
-+ O usuário usado para logon não está no mesmo locatário da instância do Finance and Operations.
-+ Existem algumas instâncias herdadas do Finance and Operations que foram hospedadas pela Microsoft que tinham um problema com a descoberta. Para corrigir isso, atualize a instância do Finance and Operations. O ambiente torna-se detectável com qualquer atualização.
++ O usuário usado para logon não está no mesmo locatário da instância de finanças e operações.
++ Existem algumas instâncias herdadas de finanças e operações que eram hospedadas pela Microsoft que tinham um problema com a descoberta. Para corrigir isso, atualize a instância de finanças e operações. O ambiente torna-se detectável com qualquer atualização.
 
 [!INCLUDE[footer-include](../../../../includes/footer-banner.md)]
+

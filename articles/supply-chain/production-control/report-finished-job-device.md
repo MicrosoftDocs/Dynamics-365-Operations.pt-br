@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: johanho
 ms.search.validFrom: 2020-05-18
 ms.dyn365.ops.version: 10.0.13
-ms.openlocfilehash: 3d1a45ad00e59581f27f2e822ccb47430219c501
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: 38372f08db0258de8b5e653b4757c9fda96c8d70
+ms.sourcegitcommit: 28a726b3b0726ecac7620b5736f5457bc75a5f84
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8857363"
+ms.lasthandoff: 06/29/2022
+ms.locfileid: "9070459"
 ---
 # <a name="report-as-finished-from-the-job-card-device"></a>Relatar como concluído no dispositivo de ficha de trabalho
 
@@ -50,7 +50,7 @@ Para obter mais informações sobre como trabalhar com a página **Padrões de o
 
 ## <a name="report-batch-controlled-items-as-finished"></a>Relatar itens controlados por lote como concluídos
 
-O dispositivo de ficha de trabalho dá suporte a três cenários de relatório sobre itens de lote. Esses cenários se aplicam aos itens habilitados para processos de depósito avançados e a itens que não estão habilitados para processos avançados de depósito.
+O dispositivo de ficha de trabalho dá suporte a três cenários de relatório sobre itens de lote. Esses cenários se aplicam aos itens habilitados para processos de gerenciamento de depósito (WMS) e a itens que não estão habilitados para WMS.
 
 - **Números de lote atribuídos manualmente** – trabalhadores inserem um número de lote personalizado. Esse número de lote pode vir de uma fonte externa que não é conhecida pelo sistema.
 - **Números de lote predefinidos** – trabalhadores selecionam um número de lote em uma lista de números de lote que o sistema gera automaticamente antes de a ordem de produção ser liberada para o dispositivo de ficha de trabalho.
@@ -129,7 +129,7 @@ Quando você usa esse cenário, o campo **Número de lote** que a página **Anda
 
 ## <a name="report-serial-controlled-items-as-finished"></a>Relatar itens controlados por número de série como concluídos
 
-O dispositivo de ficha de trabalho oferece suporte a três cenários de relatório sobre itens controlados por número de série. Esses cenários se aplicam aos itens habilitados para processos de depósito avançados e a itens que não estão habilitados para processos avançados de depósito.
+O dispositivo de ficha de trabalho oferece suporte a três cenários de relatório sobre itens controlados por número de série. Esses cenários se aplicam aos itens habilitados para processos de gerenciamento de depósito (WMS) e a itens que não estão habilitados para WMS.
 
 - **Números de série atribuídos manualmente** – trabalhadores inserem um número de série personalizado. Esse número de série pode vir de uma fonte externa que não é conhecida pelo sistema.
 - **Números de série predefinidos** – trabalhadores selecionam um número de série em uma lista de números de série que o sistema gera automaticamente antes de a ordem de produção ser liberada para o dispositivo de ficha de trabalho.
@@ -212,7 +212,7 @@ Quando você usa esse cenário, o campo **Número de série**, que a página **A
 
 ## <a name="report-as-finished-to-a-license-plate"></a>Relatar como concluído para uma placa de licença
 
-Os processos de depósito avançados podem usar a dimensão de placa de licença para rastrear o estoque em locais de depósito que foram configurados para essa finalidade. Nesse caso, o número da placa de licença é necessário quando um trabalhador relata quantidades como concluídas.
+Os processos de gerenciamento de depósito (WMS) podem usar a dimensão de placa de licença para rastrear o estoque em locais de depósito que foram configurados para essa finalidade. Nesse caso, o número da placa de licença é necessário quando um trabalhador relata quantidades como concluídas.
 
 ### <a name="enable-license-plate-reporting-and-label-printing"></a>Habilitar relatórios e impressão de etiqueta da placa de licença
 

@@ -9,12 +9,12 @@ ms.reviewer: tfehr
 ms.search.region: global
 ms.author: ramasri
 ms.search.validFrom: 2020-01-06
-ms.openlocfilehash: 5cccba580d23c3a0e9aed62f76a305926a58585f
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: a002bae22044ea10be30340a87a191305f6c6b92
+ms.sourcegitcommit: 6781fc47606b266873385b901c302819ab211b82
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8879794"
+ms.lasthandoff: 07/02/2022
+ms.locfileid: "9111960"
 ---
 # <a name="dual-write-setup-from-lifecycle-services"></a>Configuração da gravação dupla do Lifecycle Services
 
@@ -28,8 +28,8 @@ Este artigo explica como habilitar a gravação dupla do Microsoft Dynamics Life
 
 Os clientes devem concluir a integração da Power Platform conforme descrito nos tópicos a seguir:
 
-- Se você ainda não usa a Microsoft Power Platform e deseja expandir seus ambientes de finanças e operações adicionando recursos de plataforma, consulte [Integração da Power Platform - Habilitar durante a implantação do ambiente](../../power-platform/enable-power-platform-integration.md#enable-during-deploy).
-- Se você já tem ambientes do Dataverse e da Power Platform e deseja conectá-los a ambientes de finanças e operações, consulte [Integração da Power Platform - Habilitar após a implantação do ambiente](../../power-platform/enable-power-platform-integration.md#enable-after-deploy).
+- Se você ainda não usa o Microsoft Power Platform e deseja expandir seus ambientes do aplicativo de finanças e operações adicionando recursos de plataforma, consulte [Integração do Power Platform - Habilitar durante a implantação do ambiente](../../power-platform/enable-power-platform-integration.md#enable-during-deploy).
+- Se você já tiver ambientes do Dataverse e do Power Platform e deseja conectá-los a ambientes do aplicativo de finanças e operações, consulte [Integração do Power Platform - Habilitar após a implantação do ambiente](../../power-platform/enable-power-platform-integration.md#enable-after-deploy).
 
 ## <a name="set-up-dual-write-for-new-or-existing-dataverse-environments"></a>Configurar a gravação dupla para ambientes novos ou existentes do Dataverse
 
@@ -53,7 +53,7 @@ Siga estas etapas para configurar a gravação dupla da página **Detalhes de am
 
     :::image type="content" source="media/powerplat_integration_step3.png" alt-text="Vincular ao ambiente da Power Platform.":::
 
-8. Quando a vinculação for concluída, um hiperlink será exibido. Use o link para acessar a área de administração de gravação dupla no ambiente do Finance and Operations. A partir daí, você pode configurar mapeamentos de entidade.
+8. Quando a vinculação for concluída, um hiperlink será exibido. Use o link para acessar a área de administração de gravação dupla no ambiente do aplicativo de finanças e operações. A partir daí, você pode configurar mapeamentos de entidade.
 
 ## <a name="linking-mismatch"></a>Incompatibilidade de vinculação
 
@@ -71,3 +71,4 @@ Se você receber esse aviso, tente uma das seguintes soluções:
 No passado, uma opção de ticket de suporte manual estava disponível, mas isso foi antes da opção 1 acima existir.  A Microsoft não oferece mais suporte a solicitações de revinculação manuais por meio de tickets de suporte.
 
 [!INCLUDE[footer-include](../../../../includes/footer-banner.md)]
+

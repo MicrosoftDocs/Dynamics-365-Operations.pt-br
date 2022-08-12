@@ -16,12 +16,12 @@ ms.search.industry: Manufacturing
 ms.author: benebotg
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: AX 10.0.5
-ms.openlocfilehash: b9595aece264f55c706ebc84010b927fae56b512
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: e853c8a482b8fd0b92c9861fe022c056915ab405
+ms.sourcegitcommit: 6781fc47606b266873385b901c302819ab211b82
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8900960"
+ms.lasthandoff: 07/02/2022
+ms.locfileid: "9112170"
 ---
 # <a name="get-started-with-planning-optimization"></a>Introdução à Otimização de Planejamento
 
@@ -40,7 +40,7 @@ Antes de ativar a Otimização de Planejamento, recomendamos enfaticamente que v
 
 ## <a name="availability"></a>Disponibilidade
 
-A otimização de planejamento está disponível atualmente nos seguintes ambientes do Azure: Estados Unidos, Canadá, Brasil, Europa, Reino Unido, Austrália, Pacífico Asiático, Japão e Índia. Se você tentar instalar o suplemento de outra região geográfica, o LCS mostrará uma mensagem informando que esse ambiente não é suportado. Para obter mais informações sobre regiões do Azure e regiões relacionadas, consulte [Regiões do Azure](https://azure.microsoft.com/global-infrastructure/geographies/#geographies).
+A otimização de planejamento está disponível atualmente nos seguintes ambientes do Azure: Estados Unidos, Canadá, Brasil, Europa, França, Reino Unido, Austrália, Pacífico Asiático, Japão e Índia. Se você tentar instalar o suplemento de outra região geográfica, o LCS mostrará uma mensagem informando que esse ambiente não é suportado. Para obter mais informações sobre regiões do Azure e regiões relacionadas, consulte [Regiões do Azure](https://azure.microsoft.com/global-infrastructure/geographies/#geographies).
 
 Observe que a otimização de planejamento não oferece suporte a implantações locais do Dynamics 365 Supply Chain Management.
 
@@ -58,7 +58,7 @@ Antes de instalar o suplemento de otimização de planejamento, é preciso atend
 
 - É necessário executar o Supply Chain Management em um ambiente de alta disponibilidade habilitado para LCS, camada 2 ou superior (não um ambiente OneBox), com o Dynamics 365 Supply Chain Management versão 10.0.7 ou posterior. Se você tentar instalar o suplemento em um ambiente do OneBox, a instalação não será concluída e será necessário cancelar a instalação.
 
-- O sistema deve estar configurado para integração do Power Platform. Para obter mais informações, consulte [integração do Microsoft Power Platform com os aplicativos de Finanças e Operações](../../../fin-ops-core/dev-itpro/power-platform/overview.md).
+- O sistema deve estar configurado para integração do Power Platform. Para obter mais informações, consulte [integração do Microsoft Power Platform com os aplicativos de finanças e operações](../../../fin-ops-core/dev-itpro/power-platform/overview.md).
 
 ### <a name="enable-the-planning-optimization-license"></a>Habilitar a licença da otimização de planejamento
 
@@ -135,3 +135,4 @@ Se Otimização de Planejamento estiver ativado, o planejamento mestre será fei
 
 
 [!INCLUDE[footer-include](../../../includes/footer-banner.md)]
+

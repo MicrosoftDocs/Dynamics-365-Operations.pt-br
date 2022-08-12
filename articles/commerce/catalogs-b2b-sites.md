@@ -2,19 +2,19 @@
 title: Criar catálogos do Commerce para sites B2B
 description: Este artigo descreve como criar catálogos do Commerce para sites B2B (entre empresas) do Microsoft Dynamics 365 Commerce.
 author: ashishmsft
-ms.date: 05/18/2022
+ms.date: 07/11/2022
 ms.topic: article
 audience: Application User, Developer, IT Pro
 ms.reviewer: v-chgriffin
 ms.search.region: Global
 ms.author: asharchw
 ms.search.validFrom: 2022-02-28
-ms.openlocfilehash: 2cc9014d273b4ab6f23a38140d0cfcd3ffa4d630
-ms.sourcegitcommit: 6616b969afd6beb11a79d8e740560bf00016ea7f
+ms.openlocfilehash: 7d4ed3e2a76924c2c3c0ba55e21ba648e8da7b76
+ms.sourcegitcommit: d1491362421bf2fcf72a81dc2dc2d13d3b98122b
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/17/2022
-ms.locfileid: "9027023"
+ms.lasthandoff: 07/11/2022
+ms.locfileid: "9136817"
 ---
 # <a name="create-commerce-catalogs-for-b2b-sites"></a>Criar catálogos do Commerce para sites B2B
 
@@ -25,10 +25,13 @@ Este artigo descreve como criar catálogos de produtos do Commerce para sites B2
 > [!NOTE]
 > Este artigo se aplica ao Dynamics 365 Commerce versão 10.0.27 e a versões posteriores.
 
-Você pode usar catálogos do Commerce para identificar os produtos que deseja oferecer em suas lojas online B2B. Quando você cria um catálogo, identifica as lojas online em que os produtos são oferecidos, adiciona os produtos desejados e melhora as ofertas de produtos adicionando detalhes das mercadorias. Você pode criar vários catálogos para as lojas online B2B.
+Você pode usar catálogos do Commerce para identificar os produtos que deseja oferecer em suas lojas online B2B. Quando você cria um catálogo, identifica as lojas online em que os produtos são oferecidos, adiciona os produtos desejados e melhora as ofertas de produtos adicionando detalhes das mercadorias. Você pode criar vários catálogos para cada loja online B2B, conforme mostrado na ilustração a seguir.
+
+![Visualização de catálogos de produtos do Commerce.](./media/Commerce_Catalogs.png)
 
 Os catálogos de produtos do Commerce permitem definir as seguintes informações:
 
+- **Tipo de catálogo** – configure o valor como **B2B**. Você pode definir propriedades específicas de catálogo B2B, como uma hierarquia de navegação, uma hierarquia de cliente e metadados de atributo para o catálogo. 
 - **Hierarquia de navegação específica do catálogo** – as organizações podem criar uma estrutura de categoria distinta para o catálogo específico.
 - **Metadados de atributos específicos do catálogo** – os atributos contêm detalhes sobre um produto. Atribuindo atributos a uma categoria da hierarquia de navegação, você pode definir valores para esses atributos no nível de produtos atribuídos a essa categoria. As organizações podem concluir estas tarefas:
 
@@ -41,11 +44,14 @@ Os catálogos de produtos do Commerce permitem definir as seguintes informaçõe
 - **Grupos de preços** – você pode configurar preços e promoções específicos para um determinado catálogo. Esse recurso é o principal motivo para definir um catálogo para um canal B2B. Os grupos de preços dos catálogos permitem que as organizações disponibilizem produtos para as organizações B2B pretendidas e apliquem seus preços e descontos preferenciais. Os clientes B2B que fazem pedidos de um catálogo configurado podem se beneficiar de preços e promoções especiais após entrarem em um site B2B do Commerce. Para configurar preços específicos do catálogo, selecione **Grupos de preços** na guia **Catálogos** para vincular um ou mais grupos de preços ao catálogo. Todos os contratos comerciais, diários de ajuste de preço e descontos avançados que forem vinculados ao mesmo grupo de preços serão aplicados quando os clientes fizerem pedidos usando este catálogo. (Os descontos avançados incluem os descontos de limite, quantidade e compra combinada.) Para obter mais informações sobre grupos de preços, consulte [Grupos de preços](price-management.md#price-groups).
 
 > [!NOTE]
-> Este recurso está disponível a partir da versão 10.0.27 do Dynamics 365 Commerce. Para definir configurações específicas do catálogo, como hierarquia de navegação e hierarquia de clientes, no Commerce headquarters, abra o espaço de trabalho **Gerenciamento de recursos** (**Administração do sistema \> Espaços de trabalho \> Gerenciamento de recursos**), habilite o recurso **Habilitar o uso de vários catálogos em canais de varejo** e execute o trabalho **1110 CDX**.
+> Este recurso está disponível a partir da versão 10.0.27 do Dynamics 365 Commerce. Para definir configurações específicas do catálogo, como hierarquia de navegação e hierarquia de cliente, no Commerce headquarters, vá para o espaço de trabalho **Gerenciamento de recursos** (**Administração do sistema \> Espaços de trabalho \> Gerenciamento de recursos**), habilite o recurso **Habilitar o uso de vários catálogos em canais de varejo** e execute o trabalho **1110 CDX**. Ao habilitar esse recurso, todos os catálogos existentes que são usados para lojas de PDV ou um call center serão marcados como **Tipo de catálogo = B2C** na página **Catálogos**. Somente os catálogos novos e existentes que são marcados como **Tipo de catálogo = B2C** são aplicáveis às lojas de PDV e um call center. 
 
-## <a name="catalog-process-flow"></a>Fluxo do processo do catálogo
+## <a name="b2b-catalog-process-flow"></a>Fluxo do processo do catálogo B2B
 
 O processo de criação e processamento de um catálogo tem quatro etapas gerais. Cada etapa será explicada em detalhes na próxima seção.
+
+> [!NOTE]
+> Antes de continuar, verifique se o catálogo está marcado como **Tipo de catálogo = B2B**.
 
 1. **[Configuração](#configure-the-catalog)**
 
@@ -73,7 +79,7 @@ Use as informações desta seção para configurar o catálogo.
 
 No Commerce headquarters, acesse **Varejo e comércio \> Catálogos e sortimentos \> Todos os catálogos** para configurar o catálogo.
 
-Ao criar um novo catálogo, é necessário primeiro associá-lo a um ou mais canais. Somente os itens vinculados ao canal selecionado [sortimentos](/dynamics365/unified-operations/retail/assortments) podem ser usados quando o catálogo é criado. Para associar o catálogo a um ou mais canais, selecione **Adicionar** na guia rápida **Canais do Commerce** da página **Configuração do catálogo**.
+Ao criar um novo catálogo, é necessário primeiro associá-lo a um ou mais canais. Somente os itens vinculados ao canal selecionado [sortimentos](/dynamics365/unified-operations/retail/assortments) podem ser usados quando o catálogo é criado. Para associar o catálogo a um ou mais canais, selecione **Adicionar** na guia rápida **Canais do Commerce** da página **Configuração do catálogo**. Verifique se o catálogo está marcado como **Tipo de catálogo = B2B**.
 
 #### <a name="associate-the-navigation-hierarchy"></a>Associar a hierarquia de navegação
 
@@ -90,6 +96,17 @@ Para configurar os produtos a serem adicionados ao catálogo, no Commerce headqu
 Como alternativa, selecione um nó na hierarquia de navegação. Em seguida, será possível adicionar produtos diretamente a uma categoria no catálogo.
 
 #### <a name="associate-price-groups"></a>Associar grupos de preços
+
+Para configurar os produtos a serem adicionados ao catálogo, no Commerce headquarters, acesse **Varejo e comércio \> Catálogos e sortimentos \> Todos os catálogos**. Em seguida, na guia **Catálogos**, selecione **Adicionar produtos**. 
+
+Os produtos que foram adicionados a um catálogo do nó raiz da hierarquia de navegação com a seleção de **Adicionar produtos** no Painel de Ações herdarão suas categorias se a hierarquia de navegação de origem também estiver associada ao catálogo. As alterações nas categorias feitas na hierarquia de navegação de origem serão refletidas imediatamente nos catálogos. Você deve republicar os catálogos para atualizar os canais.
+
+Como alternativa, você pode selecionar um nó na hierarquia de navegação e adicionar produtos diretamente a uma categoria selecionada no catálogo. 
+
+Quando você adicionar produtos, a opção **Inclua automaticamente todas as grades quando apenas o produto mestre estiver selecionado** estará disponível. Para impedir a inclusão de todas as grades, selecione pelo menos uma grade para o produto mestre. 
+
+> [!NOTE]
+> Se você optar por incluir automaticamente todas as grades em uma grande seleção de produtos mestres, talvez os tempos de processamento sejam mais longos. Para seleções grandes, recomendamos selecionar **Incluir todas as grades** no Painel de Ações da página catálogos para executar a operação no modo de lote. Se você tiver incluído somente o produto mestre no catálogo e não tiver incluído grades, o seletor de grade pode não estar disponível na navegação para uma página de detalhes do produto. 
 
 Para configurar preços específicos do catálogo, é necessário vincular um ou mais grupos de preços ao catálogo. Para associar grupos de preços a um catálogo, no Commerce headquarters, acesse **Varejo e comércio \> Catálogos e sortimentos \> Todos os catálogos**. Em seguida, na guia **Catálogos**, em **Preço**, selecione **Grupos de preços**. Todos os contratos comerciais, diários de ajuste de preço e descontos avançados (limite, quantidade e descontos de compra combinada) que forem vinculados ao mesmo grupo de preços serão aplicados quando os clientes solicitarem o catálogo.
 
@@ -122,6 +139,9 @@ Para validar um catálogo, siga estas etapas.
 1. Na guia **Catálogos** da página **Todos os catálogos**, em **Validar**, selecione **Validar catálogo** para executar uma validação. Esta etapa é obrigatória. Ela validará se a configuração necessária for precisa.
 1. Selecione **Exibir resultados** para exibir os detalhes da validação. Se forem encontrados erros, será necessário corrigir os dados e, em seguida, executar a validação novamente até que ela seja aprovada.
 
+> [!NOTE]
+> Se o **Tipo de catálogo = B2B**, a validação falhará se você tiver adicionado lojas de PDV ou um call center ao catálogo. Os catálogos B2B devem ter somente canais online B2B associados a eles. A validação também falhará se nenhuma hierarquia de cliente estiver associada a um catálogo B2B. 
+
 ### <a name="approve-the-catalog"></a>Aprovar o catálogo
 
 Depois que um catálogo é validado, ele deve ser aprovado.
@@ -143,3 +163,5 @@ Depois que um catálogo estiver no status **Aprovado**, você poderá publicá-l
 [Impacto da extensibilidade de catálogos do Commerce para personalizações B2B](catalogs-b2b-sites-dev.md)
 
 [Perguntas frequentes sobre Catálogos do Commerce para B2B](catalogs-b2b-sites-FAQ.md)
+
+[Módulo de seletor de catálogo](catalog-picker.md)

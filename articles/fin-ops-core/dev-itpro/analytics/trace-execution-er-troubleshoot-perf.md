@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: ''
 ms.dyn365.ops.version: 10.0.1
-ms.openlocfilehash: 886781764b44ca76b327ad49f25f11f6c370a706
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: 4ea6901f8d9632b021c35b9ee899385e688fc77e
+ms.sourcegitcommit: 3289478a05040910f356baf1995ce0523d347368
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8851941"
+ms.lasthandoff: 07/01/2022
+ms.locfileid: "9108846"
 ---
 # <a name="trace-the-execution-of-er-formats-to-troubleshoot-performance-issues"></a>Rastrear a execução dos formatos ER para solucionar problemas de desempenho
 
@@ -98,7 +98,7 @@ Suponha que você tenha começado a criar uma solução de ER para gerar um novo
 
 Suponha que você tenha terminado de criar a primeira versão da solução de ER. Agora você deseja testá-la em sua instância e analisar o desempenho da execução.
 
-### <a name="import-an-er-configuration-from-rcs-into-finance-and-operations"></a><a id='import-configuration'></a>Importar uma configuração de ER do RCS para Finance and Operations
+### <a name="import-an-er-configuration-from-rcs-into-finance-and-operations"></a><a id='import-configuration'></a>Importe uma configuração de ER do RCS para finanças e operações
 
 1. Entre na sua instância do aplicativo.
 2. Para este tutorial, você importará configurações de sua instância do RCS (onde você projeta seus componentes de ER) em sua instância (onde você testa e finalmente as utiliza). Portanto, você deve se certificar de que todos os artefatos necessários foram preparados. Para obter instruções, consulte o procedimento [Importar configurações do ER (Relatório eletrônico) dos RCS (Serviços de configuração regulatória)](rcs-download-configurations.md).
@@ -305,7 +305,7 @@ Também pode ser útil reduzir o número de chamadas feitas à fonte de dados Le
 
 ### <a name="import-the-modified-er-model-mapping-configuration-from-rcs-into-the-application"></a>Importar a configuração de mapeamento do modelo de ER modificado do RCS para o aplicativo
 
-Repita as etapas na seção [Importar uma configuração de ER do RCS para finanças e operações](#import-configuration) anteriormente neste artigo para importar a versão 1.2 da configuração **Mapeamento de rastreamento de desempenho**.
+Repita as etapas anteriores na seção [Importe uma configuração de ER do RCS para finanças e operações](#import-configuration) deste artigo para importar a versão 1.2 da configuração **Mapeamento de rastreamento de desempenho**.
 
 ## <a name="run-the-modified-er-solution-to-trace-execution"></a>Executar a solução de ER modificada para rastrear a execução
 
@@ -363,7 +363,7 @@ Observe que o navegador da Web oferece um arquivo zip para download. Este arquiv
 
 ## <a name="use-external-tools-to-review-an-execution-trace-that-includes-database-queries"></a>Use ferramentas externas para revisar um rastreamento de execução que inclua consultas a bancos de dados
 
-Devido as melhorias feitas na estrutura de ER, o rastreamento de desempenho que é gerado no formato PerfView agora oferece mais detalhes sobre a execução do formato ER. No Microsoft Dynamics 365 for Finance and Operations versão 10.0.4 (julho de 2019), este rastreamento também pode incluir detalhes de consultas SQL executadas para o banco de dados do aplicativo.
+Devido as melhorias feitas na estrutura de ER, o rastreamento de desempenho que é gerado no formato PerfView agora oferece mais detalhes sobre a execução do formato ER. No Microsoft Dynamics 365 Finance versão 10.0.4 (julho de 2019), este rastreamento também pode incluir detalhes de consultas SQL executadas para o banco de dados do aplicativo.
 
 ### <a name="configure-user-parameters"></a>Configurar parâmetros de usuário
 
@@ -392,3 +392,4 @@ Observe que o navegador da Web oferece um arquivo zip para download. Este arquiv
 
 
 [!INCLUDE[footer-include](../../../includes/footer-banner.md)]
+
