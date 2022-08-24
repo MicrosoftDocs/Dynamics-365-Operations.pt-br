@@ -1,26 +1,26 @@
 ---
 title: Criar um formato de ER para gerar um relatório no formato Excel com imagens incorporadas em cabeçalhos ou rodapés de página
 description: Este artigo explica como usar Relatórios eletrônicos (ER) para gerar documentos comerciais que têm imagens e formas incorporadas em cabeçalhos ou rodapés de página.
-author: NickSelin
+author: kfend
 ms.date: 08/11/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
-ms.search.form: EROperationDesigner, ERParameters
 audience: Application User, Developer, IT Pro
 ms.reviewer: kfend
-ms.custom: ''
-ms.assetid: ''
 ms.search.region: Global
-ms.author: nselin
+ms.author: filatovm
 ms.search.validFrom: 2021-06-01
 ms.dyn365.ops.version: 10.0.21
-ms.openlocfilehash: 1cfde60459e440c851edb97276321216b1654e40
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.custom: ''
+ms.assetid: ''
+ms.search.form: EROperationDesigner, ERParameters
+ms.openlocfilehash: 5b46d92094bb3f2dab67a5cb2f0e1a34b05d52f0
+ms.sourcegitcommit: 87e727005399c82cbb6509f5ce9fb33d18928d30
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8854833"
+ms.lasthandoff: 08/12/2022
+ms.locfileid: "9281802"
 ---
 # <a name="design-an-er-format-to-generate-a-report-in-excel-format-with-embedded-images-in-page-headers-or-footers"></a>Criar um formato de ER para gerar um relatório no formato Excel com imagens incorporadas em cabeçalhos ou rodapés de página
 
@@ -196,7 +196,7 @@ Neste caso, como representante da Litware, Ltda., você deve criar (derivar) uma
 
 ![Criação de uma configuração para um formato de pagamento personalizado na caixa de diálogo Criar configuração.](./media/er-embed-images-header-footer-excel-reports-add-derived-format.png)
 
-A versão 240.112.1 da configuração de formato de ER **Fatura de texto livre (Excel) personalizada** é criada. Essa versão tem um [status](general-electronic-reporting.md#component-versioning) de **Rascunho** e pode ser editada. O conteúdo atual do formato de ER personalizado corresponde ao conteúdo do formato fornecido pela Microsoft.
+A versão 240.112.1 da configuração de formato de ER **Fatura de texto livre (Excel) personalizada** é criada. Essa versão tem um status de **Rascunho** e pode ser editada. O conteúdo atual do formato de ER personalizado corresponde ao conteúdo do formato fornecido pela Microsoft.
 
 ![Nova versão da configuração de formato de ER criada na página Configurações.](./media/er-embed-images-header-footer-excel-reports-derived-format-configuration1.png)
 
@@ -244,7 +244,7 @@ Configure seu formato personalizado para que a imagem do logotipo de uma empresa
 
 ### <a name="mark-the-custom-format-as-runnable"></a><a id="MarkFormatRunnable"></a>Marcar o formato personalizado como executável
 
-Como a primeira versão do formato personalizado foi criada e tem o status de **Rascunho**, você pode executar o formato para fins de teste. Para executar o relatório, processe um pagamento de fornecedor usando o método de pagamento que se refere ao seu formato de ER personalizado. Por padrão, quando você chama um formato de ER no aplicativo, somente as versões que têm o status **Concluída** ou **Compartilhada** são [consideradas](general-electronic-reporting.md#component-versioning). Esse comportamento ajuda a impedir que formatos de ER com designs não concluídos sejam utilizados. No entanto, para as execuções de teste, você pode forçar o aplicativo a usar a versão do seu formato de ER que tem o status de **Rascunho**. Dessa forma, é possível ajustar a versão do formato atual se modificações forem necessárias. Para obter mais informações, consulte [Aplicabilidade](electronic-reporting-destinations.md#applicability).
+Como a primeira versão do formato personalizado foi criada e tem o status de **Rascunho**, você pode executar o formato para fins de teste. Para executar o relatório, processe um pagamento de fornecedor usando o método de pagamento que se refere ao seu formato de ER personalizado. Por padrão, quando você chama um formato de ER no aplicativo, somente as versões que têm o status **Concluída** ou **Compartilhada** são consideradas. Esse comportamento ajuda a impedir que formatos de ER com designs não concluídos sejam utilizados. No entanto, para as execuções de teste, você pode forçar o aplicativo a usar a versão do seu formato de ER que tem o status de **Rascunho**. Dessa forma, é possível ajustar a versão do formato atual se modificações forem necessárias. Para obter mais informações, consulte [Aplicabilidade](electronic-reporting-destinations.md#applicability).
 
 Para usar a versão de rascunho de um formato de ER, você deve marcar o formato de ER explicitamente.
 

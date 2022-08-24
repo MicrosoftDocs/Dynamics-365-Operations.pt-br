@@ -11,12 +11,12 @@ ms.search.region: Global
 ms.author: mirzaab
 ms.search.validFrom: 2021-08-02
 ms.dyn365.ops.version: 10.0.25
-ms.openlocfilehash: 67c54f344ff7091f4a25198fdafa745c6c84d5d0
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: 34f74c2a889b3a659831897897e2086b277256e0
+ms.sourcegitcommit: c98d55a4a6e27239ae6b317872332f01cbe8b875
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8907135"
+ms.lasthandoff: 08/02/2022
+ms.locfileid: "9219768"
 ---
 # <a name="gs1-bar-codes"></a>Códigos de barras de GS1
 
@@ -72,7 +72,7 @@ Veja alguns exemplos que mostram como o número *123456* será interpretado por 
 
 ## <a name="scanning-gs1-bar-codes-in-supply-chain-management"></a>Lendo códigos de barras de GS1 no Supply Chain Management
 
-Para ler códigos de barras de GS1, os operadores de depósito usam um scanner integrado ou conectado a um dispositivo móvel. O scanner transmite o código de barras lido para o Warehouse Management Mobile App como uma série de eventos de teclado. Esse modo de operação também é conhecido como *leitura do teclado* ou *leitura*. O aplicativo móvel envia o texto recebido como está para o Supply Chain Management. Quando o sistema recebe dados de entrada, ele primeiro determina se os dados começam com um dos prefixos configurados que indicam que os dados são um código de barras de GS1 (consulte a seção [Configurar opções de GS1 globais](#set-gs1-options)). Se os dados lidos começarem com um desses prefixos, o sistema usará um analisador de GS1 para analisar os dados e extrair elementos de dados individuais de acordo com seus identificadores de aplicativo. Depois que os dados tiverem sido analisados, o campo de entrada atual ou vários campos serão preenchidos com os dados digitalizados.
+Para ler códigos de barras de GS1, os operadores de depósito usam um scanner integrado ou conectado a um dispositivo móvel. O scanner transmite o código de barras lido para o aplicativo móvel Warehouse Management como uma série de eventos de teclado. Esse modo de operação também é conhecido como *leitura do teclado* ou *leitura*. O aplicativo móvel envia o texto recebido como está para o Supply Chain Management. Quando o sistema recebe dados de entrada, ele primeiro determina se os dados começam com um dos prefixos configurados que indicam que os dados são um código de barras de GS1 (consulte a seção [Configurar opções de GS1 globais](#set-gs1-options)). Se os dados lidos começarem com um desses prefixos, o sistema usará um analisador de GS1 para analisar os dados e extrair elementos de dados individuais de acordo com seus identificadores de aplicativo. Depois que os dados tiverem sido analisados, o campo de entrada atual ou vários campos serão preenchidos com os dados digitalizados.
 
 ### <a name="configuration-of-bar-code-scanner-hardware-and-software"></a>Configuração de hardware e software do scanner de código de barras
 
@@ -94,7 +94,7 @@ Os cinco identificadores de simbologia a seguir correspondem aos códigos de bar
 Se você usar esses identificadores, a compatibilidade com códigos de barras não GS1 exigirá que os scanners ou o software de leitura sejam configurados para remover os identificadores que não correspondem aos identificadores de GS1. Por exemplo, ao ler um código de barras de código 39 "normal", o prefixo `]A0` será adicionado. Como o sistema não compreenderá esse prefixo como um dos prefixos de GS1, ele irá interpretá-lo como dados e produzirá resultados inesperados.
 
 > [!NOTE]
-> Por conveniência, a versão 2.0.17.0 e posteriores do Warehouse Management Mobile App removerá todos os prefixos do AIM que não estejam incluídos na lista anterior. Esse comportamento oferece suporte a casos em que você pode configurar o mecanismo de leitura para adicionar o prefixo AIM, mas não para remover os prefixos indesejados.
+> Por conveniência, a versão 2.0.17.0 e posteriores do aplicativo móvel Warehouse Management removerá todos os prefixos do AIM que não estejam incluídos na lista anterior. Esse comportamento oferece suporte a casos em que você pode configurar o mecanismo de leitura para adicionar o prefixo AIM, mas não para remover os prefixos indesejados.
 
 ### <a name="single-and-multiple-field-scanning"></a>Leitura de campo único e múltiplo
 
@@ -115,7 +115,7 @@ Antes de poder usar esse recurso, você deve habilitá-lo no seu sistema. Os adm
 
 ### <a name="turn-on-the-enhanced-parser-for-gs1-barcodes-feature"></a>Ativar o Analisador avançado para o recurso de códigos de barras de GS1
 
-Se usar códigos de barras de GS1, recomendamos que você também habilite o Analisador avançado para o recurso de *Analisador aprimorado de códigos de barra GS1*. Esse recurso oferece uma implementação aprimorada do analisador de código de barras de GS1. Ele acrescenta os seguintes aperfeiçoamentos:
+Se usar códigos de barras de GS1, recomendamos que você também ative o recurso *Analisador aprimorado de códigos de barra GS1*. Esse recurso oferece uma implementação aprimorada do analisador de código de barras de GS1. Ele acrescenta os seguintes aperfeiçoamentos:
 
 - Ele segue o algoritmo de especificação geral de GS1 para a análise de dados de símbolo e valida os dados no símbolo de acordo com a especificação.
 - Não é necessário configurar um valor de **Tamanho máximo do identificador** e usar correspondência de prefixo mais longa a partir de identificadores de aplicativo configurados.

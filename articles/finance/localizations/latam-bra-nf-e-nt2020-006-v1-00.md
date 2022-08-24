@@ -9,15 +9,15 @@ ms.technology: ''
 audience: Application User
 ms.reviewer: kfend
 ms.search.region: Brazil
-ms.author: sndray
+ms.author: gionoder
 ms.search.validFrom: 2021-02-05
 ms.dyn365.ops.version: 8
-ms.openlocfilehash: c3f51379591927fec5b2793625ccf7e151a70713
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: 3aeb1d6f7af8b4070141745f4dc5145a21a8b1aa
+ms.sourcegitcommit: 87e727005399c82cbb6509f5ce9fb33d18928d30
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8861248"
+ms.lasthandoff: 08/12/2022
+ms.locfileid: "9273764"
 ---
 # <a name="nt2020006--intermediary-sales-digital-platform-for-nf-e"></a>NT 2020.006 – plataforma digital de vendas intermediárias para NF-e
 

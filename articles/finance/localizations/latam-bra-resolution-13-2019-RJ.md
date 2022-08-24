@@ -1,7 +1,7 @@
 ---
 title: Resolução SPED fiscal 13/2019 RJ
 description: Este artigo fornece informações sobre a resolução 13/2019 e como uma nota fiscal eletrônica (NF-e) deve ser emitida e registrada.
-author: v-oloski
+author: AdamTrukawka
 ms.date: 10/22/2019
 ms.topic: article
 ms.prod: ''
@@ -9,15 +9,15 @@ ms.technology: ''
 audience: Application User
 ms.reviewer: kfend
 ms.search.region: Brazil
-ms.author: roschlom
+ms.author: atrukawk
 ms.search.validFrom: 2017-12-31
 ms.dyn365.ops.version: 7
-ms.openlocfilehash: dd989affbab51324624415b191d3cb784b0fc864
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: a339fb70c0e0d9c7a76364ce21639729341c7ecd
+ms.sourcegitcommit: 87e727005399c82cbb6509f5ce9fb33d18928d30
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8891470"
+ms.lasthandoff: 08/12/2022
+ms.locfileid: "9283014"
 ---
 # <a name="sped-fiscal-resolution-132019-rj"></a>Resolução SPED fiscal 13/2019 RJ
 

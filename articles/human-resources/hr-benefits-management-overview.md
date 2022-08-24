@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: twheeloc
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: f008c273a3088353c33ae8c4b0b3cbc6b274fbcf
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: 261d71e955e4cb1a4a461d59725c631248e10b17
+ms.sourcegitcommit: e0905a3af85d8cdc24a22e0c041cb3a391c036cb
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8901137"
+ms.lasthandoff: 08/06/2022
+ms.locfileid: "9227887"
 ---
 # <a name="benefits-management-overview"></a>Visão geral do gerenciamento de benefícios
 
@@ -147,6 +147,16 @@ Antes de poder processar eventos de vida, você já deve ter executado a inscri�
 - [Processar eventos de vida](hr-benefits-process-life-events.md)
 - [Processar alterações de eventos de vida](hr-benefits-process-life-event-changes.md)
 - [Processar qualificação para eventos de vida](hr-benefits-process-life-event-eligibility.md)
+
+Depois que o processamento de eventos da vida for concluído e por enquanto o período de inscrição de evento da vida estiver aberto, os funcionários poderão fazer alterações nas opções de plano afetadas pelo evento da vida. Os administradores podem fazer as alterações em nome dos funcionários. Depois que o período de inscrição terminar e nenhum tipo de plano não confirmado estiver relacionado à transação de evento da vida, a transação será fechada.
+
+Todos os planos afetados pelo evento da vida devem ser selecionados ou renunciados e confirmados. Se um plano não estiver selecionado, não estiver renunciado e, portanto, não estiver confirmado, a transação do evento da vida não será fechada.
+
+Os administradores podem fechar manualmente uma transação de evento da vida conforme necessário, selecionando-a e selecionando **Fechar**. Se houver planos não confirmados na transação e um administrador quiser fechá-lo, o fechamento do evento da vida poderá restringir as modificações a esses planos.
+
+Não é possível excluir eventos da vida fechados.
+
+Os administradores podem reabri uma transação de evento da vida conforme necessário, selecionando-a e selecionando **Reabrir**.
 
 ## <a name="rate-updates-optional"></a>Atualizações de taxa (opcional)
 

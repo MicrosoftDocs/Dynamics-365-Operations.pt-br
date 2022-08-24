@@ -1,7 +1,7 @@
 ---
 title: Inserir uma transação CIAP (Brasil)
 description: 'Você pode inserir uma transação CIAP de duas maneiras: lançando uma nota fiscal ou inserindo uma transação.'
-author: sndray
+author: AdamTrukawka
 ms.date: 06/26/2017
 ms.topic: business-process
 ms.prod: ''
@@ -9,15 +9,15 @@ ms.technology: ''
 audience: Application User
 ms.reviewer: kfend
 ms.search.region: Brazil
-ms.author: sndray
+ms.author: atrukawk
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 000089367fdb889b1a6fb46736f041248106e3b4486605c402266eafb18f02b3
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: c1a06f5b529a041b85e9658e870506c54a0ba4ec
+ms.sourcegitcommit: 87e727005399c82cbb6509f5ce9fb33d18928d30
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6716606"
+ms.lasthandoff: 08/12/2022
+ms.locfileid: "9270576"
 ---
 # <a name="enter-a-ciap-transaction-brazil"></a>Inserir uma transação CIAP (Brasil)
 

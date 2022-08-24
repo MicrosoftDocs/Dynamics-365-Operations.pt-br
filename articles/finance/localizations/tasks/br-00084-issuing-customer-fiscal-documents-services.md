@@ -1,7 +1,7 @@
 ---
 title: Emitir notas fiscais para clientes (serviços) (Brasil)
 description: É possível emitir uma nota fiscal de serviço a um cliente que adquiriu serviços do estabelecimento fiscal.
-author: sndray
+author: AdamTrukawka
 ms.date: 06/24/2017
 ms.topic: business-process
 ms.prod: ''
@@ -9,16 +9,16 @@ ms.technology: ''
 audience: Application User
 ms.reviewer: kfend
 ms.search.region: Brazil
-ms.search.industry: Manufacturing;Distribution;Service industries
-ms.author: sndray
+ms.author: atrukawk
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 3ede773a6b7843987836b9c268f722fee8a24810d0ed41763252e9e186182af1
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.search.industry: Manufacturing;Distribution;Service industries
+ms.openlocfilehash: bc2a29c1b95f3f0af31e3de8823fabd0311028b1
+ms.sourcegitcommit: 87e727005399c82cbb6509f5ce9fb33d18928d30
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6725031"
+ms.lasthandoff: 08/12/2022
+ms.locfileid: "9267652"
 ---
 # <a name="issue-customer-fiscal-documents-services-brazil"></a>Emitir notas fiscais para clientes (serviços) (Brasil)
 

@@ -1,28 +1,26 @@
 ---
 title: Ajustar um formato ER para gerar um documento eletrônico personalizado
 description: Este artigo explica como ajustar um formato de relatório eletrônico (ER) fornecido pela Microsoft para gerar um documento eletrônico personalizado.
-author: NickSelin
+author: kfend
 ms.date: 06/22/2020
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
-ms.search.form: ERWorkspace, ERSolutionTable, ERParameters, ERDataModelDesigner, ERModelMappingTable, ERModelMappingDesigner, EROperationDesigner, ERVendorTable
 audience: Application User, Developer, IT Pro
 ms.reviewer: kfend
-ms.custom:
-- "220314"
-- intro-internal
-ms.assetid: ''
 ms.search.region: Global
-ms.author: nselin
+ms.author: filatovm
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 492964d3cea0e474a50d6d83231f33d9508b9d9d
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.custom: 220314,  ""intro-internal
+ms.assetid: ''
+ms.search.form: ERWorkspace, ERSolutionTable, ERParameters, ERDataModelDesigner, ERModelMappingTable, ERModelMappingDesigner, EROperationDesigner, ERVendorTable
+ms.openlocfilehash: 8b0bcdbd011c4c04e2693a3dcb8033c3cbe2adc7
+ms.sourcegitcommit: 87e727005399c82cbb6509f5ce9fb33d18928d30
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8886781"
+ms.lasthandoff: 08/12/2022
+ms.locfileid: "9283548"
 ---
 # <a name="adjust-an-er-format-to-generate-a-custom-electronic-document"></a>Ajustar um formato ER para gerar um documento eletrônico personalizado
 
@@ -271,7 +269,7 @@ Neste caso, como representante da Litware, Ltda., você deve criar (derivar) uma
 
 6. Selecione **Criar configuração**.
 
-A versão 1.1.1 da configuração do formato de ER **BACS (personalizado do Reino Unido)** foi criada. Essa versão tem um [status](general-electronic-reporting.md#component-versioning) de **Rascunho** e pode ser editada. O conteúdo atual do formato de ER personalizado corresponde ao conteúdo do formato fornecido pela Microsoft.
+A versão 1.1.1 da configuração do formato de ER **BACS (personalizado do Reino Unido)** foi criada. Essa versão tem um status de **Rascunho** e pode ser editada. O conteúdo atual do formato de ER personalizado corresponde ao conteúdo do formato fornecido pela Microsoft.
 
 ![Página Configurações com Versão 1.1.1 da configuração do formato de ER BACS (personalizado do Reino Unido).](./media/er-quick-start2-derived-format-configuration1.png)
 
@@ -324,7 +322,7 @@ Você deve configurar um formato personalizado de modo que ele atenda a requisit
 
 ### <a name="mark-a-custom-format-as-runnable"></a><a id="MarkFormatRunnable"></a>Marcar um formato personalizado como executável
 
-Agora que a primeira versão do formato personalizado foi criada e tem o status de **Rascunho**, você pode executá-la para fins de teste. Para executar o relatório, você deve processar um pagamento de fornecedor usando o método de pagamento que se refere ao seu formato de ER personalizado. Por padrão, quando você chama um formato de ER no aplicativo, somente as versões que têm o status **Concluída** ou **Compartilhada** são [consideradas](general-electronic-reporting.md#component-versioning). Esse comportamento ajuda a impedir que formatos de ER com designs não concluídos sejam utilizados. No entanto, para as execuções de teste, você pode forçar o aplicativo a usar a versão do seu formato de ER que tem o status de **Rascunho**. Dessa forma, é possível ajustar a versão do formato atual se modificações forem necessárias. Para obter mais informações, consulte [Aplicabilidade](electronic-reporting-destinations.md#applicability).
+Agora que a primeira versão do formato personalizado foi criada e tem o status de **Rascunho**, você pode executá-la para fins de teste. Para executar o relatório, você deve processar um pagamento de fornecedor usando o método de pagamento que se refere ao seu formato de ER personalizado. Por padrão, quando você chama um formato de ER no aplicativo, somente as versões que têm o status **Concluída** ou **Compartilhada** são consideradas. Esse comportamento ajuda a impedir que formatos de ER com designs não concluídos sejam utilizados. No entanto, para as execuções de teste, você pode forçar o aplicativo a usar a versão do seu formato de ER que tem o status de **Rascunho**. Dessa forma, é possível ajustar a versão do formato atual se modificações forem necessárias. Para obter mais informações, consulte [Aplicabilidade](electronic-reporting-destinations.md#applicability).
 
 Para usar a versão de rascunho de um formato de ER, você deve marcar o formato de ER explicitamente.
 

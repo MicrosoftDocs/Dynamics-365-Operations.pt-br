@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: twheeloc
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 15060d8bdd598476081c22d7280319da3db0cb31
-ms.sourcegitcommit: 1401d66b6b64c590ca1f8f339d622e922920cf15
+ms.openlocfilehash: 2fd8176d16178ecc4ba667e5937f2cec2e0af2c3
+ms.sourcegitcommit: bd3b55e1af28e592c97b540de1e87cd8ba9c35a8
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 07/20/2022
-ms.locfileid: "9178400"
+ms.lasthandoff: 08/03/2022
+ms.locfileid: "9221581"
 ---
 # <a name="provision-human-resources-in-the-finance-and-operations-infrastructure"></a>Provisionar o Human Resources na infraestrutura do aplicativo de finanças e operações
 
@@ -52,8 +52,8 @@ Aqui estão algumas considerações para os ambientes opcionais adicionais:
 - **Integração** – configura e testa integrações que podem incluir integrações nativas ou personalizadas, como as de folha de pagamento, sistemas de rastreamento de candidatos ou sistemas e provedores de benefícios.
 - **Treinamento**: Talvez você precise de um ambiente separado que seja configurado com um conjunto de dados de treinamento, de forma que você possa treinar funcionários sobre o uso do novo sistema. 
 - **Projeto multi-fase**: talvez precise de um ambiente adicional para dar suporte a configuração, migração de dados, testes ou outras atividades em uma fase de projeto que é planejada após a ativação inicial do projeto.
-- **Desenvolvimento** – na infraestrutura do aplicativo de finanças e operações, você pode estender a solução e desenvolver suas próprias personalizações. Cada desenvolvedor deve usar seu próprio ambiente de desenvolvimento. Para mais informações, consulte [Implantar e acessar ambientes de desenvolvimento](/fin-ops-core/dev-itpro/dev-tools/access-instances).
-- **OURO** – para novas implantações, uma prática comum é usar um ambiente OURO separado que é mantido intacto para migração de dados e configuração. Esse ambiente pode ser usado em toda a implementação para atualizar outros ambientes. Ele será usado para criar o novo ambiente de produção que tem a configuração básica e a migração de dados. Não é possível implantar um ambiente de produção na infraestrutura de finanças e operações até que você tenha concluído o processo de preparação da ativação. Para obter mais informações, consulte [Preparar para ativação](/fin-ops-core/fin-ops/imp-lifecycle/prepare-go-live).
+- **Desenvolvimento** – na infraestrutura do aplicativo de finanças e operações, você pode estender a solução e desenvolver suas próprias personalizações. Cada desenvolvedor deve usar seu próprio ambiente de desenvolvimento. Para mais informações, consulte [Implantar e acessar ambientes de desenvolvimento](../fin-ops-core/dev-itpro/dev-tools/access-instances.md).
+- **OURO** – para novas implantações, uma prática comum é usar um ambiente OURO separado que é mantido intacto para migração de dados e configuração. Esse ambiente pode ser usado em toda a implementação para atualizar outros ambientes. Ele será usado para criar o novo ambiente de produção que tem a configuração básica e a migração de dados. Não é possível implantar um ambiente de produção na infraestrutura de finanças e operações até que você tenha concluído o processo de preparação da ativação. Para obter mais informações, consulte [Preparar para ativação](../fin-ops-core/fin-ops/imp-lifecycle/prepare-go-live.md).
 
 <!--NOTE: Need to come back and verify Tier-1 can be used and if a customer cannot purchase tier 3-5 need specific documentation about this.-->
 
@@ -66,24 +66,24 @@ Aqui estão algumas considerações para os ambientes opcionais adicionais:
 
 ## <a name="create-an-lcs-project"></a>Criar um projeto LCS
 
-Para usar o LCS para gerenciar seus ambientes do Human Resources, você deve criar primeiro um projeto LCS. Se você estiver migrando seu ambiente do Human Resources para a infraestrutura do aplicativo de finanças e operações, deverá criar um novo projeto LCS para aplicativos de finanças e operações. Para obter mais informações, consulte [Migrando seu ambiente do Human Resources](hr-admin-migrate-overview). Se você já tiver um projeto LCS para outros aplicativos de finanças e operações, poderá habilitar as funcionalidades do Human Resources no espaço de trabalho **Gerenciamento de recursos**. Para obter mais informações, consulte [Visão geral do Gerenciamento de recursos](/fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview).
+Para usar o LCS para gerenciar seus ambientes do Human Resources, você deve criar primeiro um projeto LCS. Se você estiver migrando seu ambiente do Human Resources para a infraestrutura do aplicativo de finanças e operações, deverá criar um novo projeto LCS para aplicativos de finanças e operações. Se você já tiver um projeto LCS para outros aplicativos de finanças e operações, poderá habilitar as funcionalidades do Human Resources no espaço de trabalho **Gerenciamento de recursos**. Para obter mais informações, consulte [Visão geral do Gerenciamento de recursos](../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md).
 
-Quando um novo cliente se inscrever no Human Resources, a assinatura inclui um espaço de trabalho de projeto de implementação. Depois que o cliente ativa o serviço, o administrador de locatários deverá entrar em <https://lcs.dynamics.com> usando a conta de locatário. O espaço de trabalho do projeto é criado automaticamente para a organização. Para obter informações, consulte [Lifecycle Services (LCS) para clientes dos aplicativos de Finanças e Operações](/fin-ops-core/dev-itpro/lifecycle-services/lcs-works-lcs).
+Quando um novo cliente se inscrever no Human Resources, a assinatura inclui um espaço de trabalho de projeto de implementação. Depois que o cliente ativa o serviço, o administrador de locatários deverá entrar em <https://lcs.dynamics.com> usando a conta de locatário. O espaço de trabalho do projeto é criado automaticamente para a organização. Para obter informações, consulte [Lifecycle Services (LCS) para clientes dos aplicativos de Finanças e Operações](../fin-ops-core/dev-itpro/lifecycle-services/lcs-works-lcs.md).
 
 > [!NOTE]
 > Para garantir o provisionamento com êxito, a conta usada para provisionar o ambiente do Human Resources deve ser atribuída à função **Administrador do Sistema** ou **Personalizador do Sistema** no ambiente do Power Apps associado ao ambiente do Human Resources. Para obter mais informações sobre como atribuir direitos de acesso no Microsoft Power Platform, consulte [Configurar segurança do usuário para recursos](/power-platform/admin/database-security).
 
-Você deve preencher o processo de integração do projeto LCS antes de começar a implantar ambientes. Para obter mais informações, consulte [Integração do projeto](/fin-ops-core/dev-itpro/lifecycle-services/project-onboarding). Para obter mais informações sobre como usar o LCS, consulte [Guia do usuário do Lifecycle Services (LCS)](/fin-ops-core/dev-itpro/lifecycle-services/lcs-user-guide).
+Você deve preencher o processo de integração do projeto LCS antes de começar a implantar ambientes. Para obter mais informações, consulte [Integração do projeto](../fin-ops-core/dev-itpro/lifecycle-services/project-onboarding.md). Para obter mais informações sobre como usar o LCS, consulte [Guia do usuário do Lifecycle Services (LCS)](../fin-ops-core/dev-itpro/lifecycle-services/lcs-user-guide.md).
 
 ## <a name="deploy-human-resources-environments"></a>Implantar ambientes do Human Resources
 
 A implantação de aplicativos de finanças e operações, incluindo Human Resources, na nuvem requer que você compreenda o ambiente e a assinatura em que está implantando, que pode executar quais tarefas e quais dados e personalizações você deve gerenciar. É recomendável usar uma conta de serviço em vez de um usuário nomeado ao implantar novos ambientes. Para obter mais informações sobre como implantar ambientes na infraestrutura do aplicativo de finanças e operações, consulte [visão geral da implantação na Nuvem](/fin-ops-core/dev-itpro/deployment/cloud-deployment-overview).
 
-Para implantar um ambiente de produção para Human Resources na infraestrutura de finanças e operações, é necessário concluir o processo de preparação da ativação. Para obter mais informações, consulte [Preparar para ativação](/fin-ops-core/fin-ops/imp-lifecycle/prepare-go-live). Esse processo inclui o avaliador de assinatura no LCS. Para obter mais informações, consulte [Avaliador de assinatura](/fin-ops-core/dev-itpro/lifecycle-services/subscription-estimator).
+Para implantar um ambiente de produção para Human Resources na infraestrutura de finanças e operações, é necessário concluir o processo de preparação da ativação. Para obter mais informações, consulte [Preparar para ativação](../fin-ops-core/fin-ops/imp-lifecycle/prepare-go-live.md). Esse processo inclui o avaliador de assinatura no LCS. Para obter mais informações, consulte [Avaliador de assinatura](../fin-ops-core/dev-itpro/lifecycle-services/subscription-estimator.md).
 
 ## <a name="integrate-microsoft-power-platform-with-human-resources"></a>Integrar o Microsoft Power Platform ao Human Resources
 
-O Microsoft Power Platform fornece um conjunto de recursos para aplicativos Dynamics 365 por meio do centro de administração do Power Platform. Você pode integrar e estender o uso de dados do Human Resources usando as ferramentas do Microsoft Power Platform. Para obter informações sobre como integrar recursos humanos ao Microsoft Power Platform, consulte [Integração do Microsoft Power Platform com os aplicativos de Finanças e Operações](/fin-ops-core/dev-itpro/power-platform/overview).
+O Microsoft Power Platform fornece um conjunto de recursos para aplicativos Dynamics 365 por meio do centro de administração do Power Platform. Você pode integrar e estender o uso de dados do Human Resources usando as ferramentas do Microsoft Power Platform. Para obter informações sobre como integrar recursos humanos ao Microsoft Power Platform, consulte [Integração do Microsoft Power Platform com os aplicativos de Finanças e Operações](../fin-ops-core/dev-itpro/power-platform/overview.md).
 
 ## <a name="supported-geographies"></a>Geografias com suporte
 
@@ -96,8 +96,8 @@ Por padrão, o administrador global que criou o ambiente tem acesso a ele. Os us
 ## <a name="additional-resources"></a>Recursos adicionais
 Você pode aprender mais sobre como usar e gerenciar projetos nas LCS na infraestrutura de aplicativos de finanças e operações usando os seguintes recursos:
 
-- [Recursos do Lifecycle Services](/fin-ops-core/dev-itpro/lifecycle-services/lcs.md)
-- [Guia do usuário do Lifecycle Services (LCS)](/fin-ops-core/dev-itpro/lifecycle-services/lcs-user-guide.md)
+- [Recursos do Lifecycle Services](../fin-ops-core/dev-itpro/lifecycle-services/lcs.md)
+- [Guia do usuário do Lifecycle Services (LCS)](../fin-ops-core/dev-itpro/lifecycle-services/lcs-user-guide.md)
 - [Visão geral da Implantação de autoatendimento](../fin-ops-core/dev-itpro/deployment/infrastructure-stack.md)
 - [Home page de operações de movimentação do banco de dados](../fin-ops-core/dev-itpro/database/dbmovement-operations.md)
 

@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: johanho
 ms.search.validFrom: 2020-10-05
 ms.dyn365.ops.version: 10.0.15
-ms.openlocfilehash: f740b68128b90fc7c9ce2f74edc4f3c06f03debd
-ms.sourcegitcommit: 5b34b41ae74269ba639e2876bc5862ef468da1cc
+ms.openlocfilehash: 2a77924e6133158d538a3eb8365def92c9354b0e
+ms.sourcegitcommit: c98d55a4a6e27239ae6b317872332f01cbe8b875
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 07/15/2022
-ms.locfileid: "9167751"
+ms.lasthandoff: 08/02/2022
+ms.locfileid: "9220352"
 ---
 # <a name="configure-the-production-floor-execution-interface"></a>Configurar a interface de execução de piso de produção
 
@@ -87,29 +87,23 @@ A partir da versão 10.0.25 do Supply Chain Management, este recurso está ativa
 
 ### <a name="enable-registering-of-material-consumption"></a>Habilitar o registro de consumo de material
 
-[!INCLUDE [preview-banner-section](../../includes/preview-banner-section.md)]
-<!-- KFM: preview until further notice -->
-
 Esse recurso permite que os trabalhadores usem a interface de execução do piso de produção para registrar o consumo de materiais, os números de lote e os números de série. Alguns fabricantes, especialmente no setor de processamento, devem registrar explicitamente a quantidade de material que é consumido para cada ordem de produção ou lote. Por exemplo, os trabalhadores podem usar uma escala para avaliar a quantidade de material que é consumido conforme trabalham. Para garantir a rastreabilidade total do material, essas organizações também devem registrar os números de lote que foram consumidos para produzir cada produto.
 
 Existem duas versões deste recurso. Um oferece suporte a itens que *não estão* habilitados para usar processos de gerenciamento de depósito (WMS). O outro dá suporte a itens que *estão* habilitados para usar o WMS. Para usar essa funcionalidade, ative um ou ambos os seguintes recursos no [Gerenciamento de recursos](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) (nesta ordem), dependendo da existência de itens habilitados para o WMS:
 
 - *Registrar consumo de material na interface de execução do piso de produção (não WMS)*
-- *(Versão preliminar) Registrar consumo de materiais na interface de execução de piso de produção (habilitado para WMS)*
+- *Registrar consumo de materiais na interface de execução do chão de produção (habilitado para WMS)*
 
 > [!IMPORTANT]
 > Só é possível usar o recurso que não seja do WMS. Se você usar o WMS, deverá habilitar os dois recursos.
 
 ### <a name="enable-reporting-on-catch-weight-items"></a>Habilitar relatório de itens de peso variável
 
-[!INCLUDE [preview-banner-section](../../includes/preview-banner-section.md)]
-<!-- KFM: preview until further notice -->
-
 Os trabalhadores podem usar a interface de execução de piso de produção para relatar o progresso de ordens de lote para itens de peso variável. As ordens de lote são criadas com base em fórmulas, que podem ser definidas para ter itens de peso variável como itens de fórmula, coprodutos e subprodutos. Uma fórmula também pode ser definida para ter linhas de fórmula para ingredientes definidos para peso variável. Os itens de peso variável usam duas unidades de medida para rastrear o estoque: quantidade de peso variável e quantidade de estoque. Por exemplo, no setor de alimentos, a carne na caixa pode ser definida como um item de peso variável, em que a quantidade em peso variável é usada para controlar o número de caixas e a quantidade de estoque é usada para rastrear o peso das caixas.
 
 Para usar essa funcionalidade, ative o seguinte recurso em [Gerenciamento de recursos](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md):
 
-- *(Versão preliminar) Relatório de itens de peso variável da interface de execução do piso de produção*
+- *Relatório de itens de peso variável da interface de execução do piso de produção*
 
 ### <a name="enable-the-my-day-dialog"></a>Habilitar a caixa de diálogo "Meu dia"
 

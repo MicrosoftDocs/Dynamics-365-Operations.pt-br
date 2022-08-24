@@ -2,7 +2,7 @@
 title: Recursos de Platform removidos ou preteridos
 description: Este artigo descreve os recursos que foram removidos ou planejados para remoção em atualizações de plataforma de aplicativos de finanças e operações.
 author: sericks007
-ms.date: 05/24/2022
+ms.date: 08/09/2022
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -12,12 +12,12 @@ ms.search.region: Global
 ms.author: sericks
 ms.search.validFrom: 2020-02-29
 ms.dyn365.ops.version: Platform update 33
-ms.openlocfilehash: 16c77d719171e8e5cfef71178f8917d462f6d84b
-ms.sourcegitcommit: 28a726b3b0726ecac7620b5736f5457bc75a5f84
+ms.openlocfilehash: b2eec4dd71baef54877b4139a331288bf37f4960
+ms.sourcegitcommit: e4b6521337dfff3515f70086b0125d4c23308c71
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/29/2022
-ms.locfileid: "9069912"
+ms.lasthandoff: 08/11/2022
+ms.locfileid: "9262288"
 ---
 # <a name="removed-or-deprecated-platform-features"></a>Recursos de Platform removidos ou preteridos
 
@@ -31,6 +31,50 @@ Este artigo descreve os recursos que foram removidos ou planejados para remoçã
 Esta lista é destinada a ajudá-lo a considerar essas remoções e reprovações para seu próprio planejamento. 
 
 Informações detalhadas sobre objetos em aplicativos de finanças e operações podem ser encontradas nos [Relatórios de referência técnica](/dynamics/s-e/global/axtechrefrep_61). Você pode comparar as diferentes versões desses relatórios para aprender sobre objetos que foram alterados ou removidos em cada versão de aplicativos de finanças e operações.
+
+## <a name="feature-deprecation-effective-august-2022"></a>Substituição de recurso efetiva em agosto de 2022
+
+### <a name="lifecycle-services-lcs-features-deprecated-in-august-2022"></a>Recursos preteridos do Lifecycle Services (LCS) em agosto de 2022
+
+Como parte do esforço de trabalho da [Plataforma Um do One Dynamics](/dynamics365-release-plan/2022wave2/finance-operations/finance-operations-crossapp-capabilities/one-dynamics-one-platform), os seguintes recursos do LCS foram preteridos.
+
+| Nome do recurso | Usado com AX 2012? | Usado com os aplicativos de finanças e operações? | Substituída por outro recurso? |
+|--------------|--------------------|----------------------------------------|------------------------------|
+| Anúncios | Sim | Sim | Sim: as faixas existem em páginas de projeto e de ambiente individuais para notificações. |
+| Gerenciador de configurações | Sim | Número | Número |
+| Análise de travamento e despejo | Sim | Número | Número |
+| Comentários e bugs | Sim | Sim | Número |
+| Minha assinatura | Sim | Sim | Número |
+| Office 365 | Sim | Sim | Sim: portal de administração do Azure Active Directory ou da Microsoft. |
+| Análise de impacto | Número | Sim | Número |
+| Estimador de impacto econômico total | Número | Sim | Número |
+| Solicitações de serviço | Número | Sim | Sim: [Implantações de autoatendimento](../deployment/infrastructure-stack.md) |
+| Integração do SharePoint | Sim | Sim | Número |
+| Gerenciador de configurações e dados | Número | Sim | Número |
+| Pacotes de dados do processo | Número | Sim | Sim: Estrutura de Importação/Exportação de Dados (DIXF) |
+| Atualização do ambiente | Número | Sim | Sim: as atualizações do serviço [One Version](../lifecycle-services/oneversion-overview.md) estão disponíveis. |
+| Avaliador de infraestrutura | Sim | Número | Número |
+| Dimensionamento da licença | Sim | Número | Número |
+| Criador de perfil de uso | Sim | Número | Número |
+| Análise de personalizações | Sim | Número | Número |
+| Diagnóstico do sistema | Sim | Sim | Número |
+| Gerenciamento Vision do modelador de processo de negócios | Sim | Sim | Número |
+| Gerenciamento do ambiente de nuvem do AX 2012 | Sim | Número | Número |
+| Conectores do Azure RDFE | Sim | Sim | Número |
+| Versões do AX 2012 | Sim | Número | Número |
+| Itens de trabalho armazenados no armazenamento LCS | Sim | Sim | Número |
+| Solicitações de hotfix | Sim | Sim | Número |
+
+
+### <a name="transport-layer-security-tls-rsa-cipher-suites"></a>Suítes de criptografia de RSA de TLS (Transport Layer Security)
+
+| &nbsp;  | &nbsp; |
+|------------|--------------------|
+| **Motivo para a reprovação/remoção** | Estamos removendo a lista de pacotes de criptografia a seguir para cumprir os protocolos de segurança atuais.<br><br>TLS_RSA_WITH_AES_256_GCM_SHA384<br>TLS_RSA_WITH_AES_128_GCM_SHA256<br>TLS_RSA_WITH_AES_256_CBC_SHA256<br>TLS_RSA_WITH_AES_128_CBC_SHA256<br>TLS_RSA_WITH_AES_256_CBC_SHA<br>TLS_RSA_WITH_AES_256_CBC_SHA  |
+| **Substituída por outro recurso?**   | A partir de 30 de novembro de 2022, os clientes só podem usar [conjuntos de criptografia padrão](/power-platform/admin/server-cipher-tls-requirements). Essa alteração afeta os clientes e os servidores que se comunicam com os nossos servidores, por exemplo, podem impactar as integrações de terceiros que não estão seguindo os pacotes de criptografia padrão. |
+| **Áreas afetadas do produto**         | Aplicativos do Finance and Operations |
+| **Opção de implantação**              | Implantações na nuvem |
+| **Status**                         | Preterido. Os clientes devem atualizar seus servidores antes de 30 de novembro de 2022. Para obter mais informações sobre como configurar a ordem do Conjunto de Criptografia de TLS, consulte [Gerenciar TLS (Transport Layer Security)](/windows-server/security/tls/manage-tls).  |
 
 
 ## <a name="feature-deprecation-effective-june-2022"></a>Substituição de recurso efetiva em junho de 2022

@@ -1,7 +1,7 @@
 ---
 title: Guias de entrega (Brasil)
 description: Você pode lançar uma guia de entrega para uma ordem de venda com várias linhas de ordem de venda com um código CFOP (Código Fiscal de Operações e Prestações).
-author: sndray
+author: AdamTrukawka
 ms.date: 06/24/2017
 ms.topic: business-process
 ms.prod: ''
@@ -9,16 +9,16 @@ ms.technology: ''
 audience: Application User
 ms.reviewer: kfend
 ms.search.region: Brazil
-ms.search.industry: Manufacturing;Distribution;Service industries
-ms.author: sndray
+ms.author: atrukawk
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 4f4c857849c4303fd519f08b43015a636deca752ab4c6808627d92765e7db471
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.search.industry: Manufacturing;Distribution;Service industries
+ms.openlocfilehash: 2955e920be75e2fabfd762c4e5aa8e7b2d6f47bc
+ms.sourcegitcommit: 87e727005399c82cbb6509f5ce9fb33d18928d30
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6770496"
+ms.lasthandoff: 08/12/2022
+ms.locfileid: "9286615"
 ---
 # <a name="delivery-slips-brazil"></a>Guias de entrega (Brasil)
 

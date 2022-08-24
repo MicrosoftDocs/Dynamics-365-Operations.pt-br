@@ -1,7 +1,7 @@
 ---
 title: Criar uma apuração de imposto - ICMS (Brasil)
 description: Você pode criar uma apuração de imposto para o ICMS de um período de escrituração selecionado.
-author: sndray
+author: AdamTrukawka
 ms.date: 06/26/2017
 ms.topic: business-process
 ms.prod: ''
@@ -9,15 +9,15 @@ ms.technology: ''
 audience: Application User
 ms.reviewer: kfend
 ms.search.region: Brazil
-ms.author: sndray
+ms.author: atrukawk
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 5bba49f572fdd4f7a583154fef2c64b37b35b935eb5bac5668f3b76b4cbe8d54
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 665a92e7d305a4ee8b2bce0583bfb63e4bbccdb3
+ms.sourcegitcommit: 87e727005399c82cbb6509f5ce9fb33d18928d30
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6717433"
+ms.lasthandoff: 08/12/2022
+ms.locfileid: "9281604"
 ---
 # <a name="create-a-tax-assessment---icms-brazil"></a>Criar uma apuração de imposto - ICMS (Brasil)
 

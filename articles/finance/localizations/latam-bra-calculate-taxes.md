@@ -1,32 +1,30 @@
 ---
 title: Visão geral de impostos do Brasil
 description: O Microsoft Dynamics 365 Finance calcula os impostos brasileiros com base no tipo de imposto especificado para o código do imposto.
-author: sndray
+author: AdamTrukawka
 ms.date: 07/25/2019
 ms.topic: overview
 ms.prod: ''
 ms.technology: ''
 audience: Application User
 ms.reviewer: kfend
-ms.custom:
-- "268704"
-- intro-internal
 ms.search.region: Brazil
-ms.author: sndray
+ms.author: atrukawk
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: c3db13383f3cb8e43e5fd3f561d7b172dd12cd1d
-ms.sourcegitcommit: 3754d916799595eb611ceabe45a52c6280a98992
+ms.custom: 268704,  ""intro-internal
+ms.openlocfilehash: f4497171c00742dd2313e6acd42b95afd65003e0
+ms.sourcegitcommit: 87e727005399c82cbb6509f5ce9fb33d18928d30
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 01/15/2022
-ms.locfileid: "7982946"
+ms.lasthandoff: 08/12/2022
+ms.locfileid: "9283836"
 ---
 # <a name="brazil-taxes-overview"></a>Visão geral de impostos do Brasil
 
 [!include [banner](../includes/banner.md)]
 
-O Dynamics 365 Finance calcula os impostos brasileiros com base no tipo de imposto especificado para o código do imposto sobre vendas. Você pode configurar e calcular impostos para: 
+O Dynamics 365 Finance calcula os impostos brasileiros com base no tipo de imposto especificado para o código do imposto. Você pode configurar e calcular impostos para: 
 
    - Vendas
    - Compras

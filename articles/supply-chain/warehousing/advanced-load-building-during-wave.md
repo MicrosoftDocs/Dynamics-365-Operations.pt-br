@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: mirzaab
 ms.search.validFrom: 2020-07-01
 ms.dyn365.ops.version: 10.0.9
-ms.openlocfilehash: 3a630a7f388e0bbb6fee96e4de753b2380d305c3
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: 76aee3a736efa9ed7431d4e5127cd0abaccd659f
+ms.sourcegitcommit: c98d55a4a6e27239ae6b317872332f01cbe8b875
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8863756"
+ms.lasthandoff: 08/02/2022
+ms.locfileid: "9218838"
 ---
 # <a name="advanced-load-building-during-wave"></a>Criação de carga avançada durante ondas
 
@@ -50,7 +50,7 @@ Para poder usar a criação avançada de carga de onda, dois recursos devem esta
 
 ### <a name="make-sample-data-available"></a>Disponibilizar dados de exemplo
 
-Para trabalhar com essa demonstração usando os registros e valores de exemplo especificados aqui, você deve usar um sistema em que os [dados de demonstração](../../fin-ops-core/dev-itpro/deployment/deploy-demo-environment.md) padrão estejam instalados. Além disso, você deve selecionar a entidade legal **USMF** antes de começar.
+Para trabalhar com essa demonstração usando os registros e valores de exemplo especificados aqui, você deve usar um sistema em que os [dados de demonstração](../../fin-ops-core/fin-ops/get-started/demo-data.md) padrão estejam instalados. Além disso, você deve selecionar a entidade legal **USMF** antes de começar.
 
 Você também pode usar esta demonstração como orientação para usar o recurso ao trabalhar em um sistema de produção. No entanto, nesse caso, você deve substituir seus próprios valores e talvez não tenha alguns tipos de registros necessários fornecidos pelos dados de demonstração padrão.
 

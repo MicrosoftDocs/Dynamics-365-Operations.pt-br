@@ -1,7 +1,7 @@
 ---
 title: Emitir notas fiscais para clientes (ativos fixos) (Brasil)
 description: É possível emitir uma nota fiscal a um cliente que adquiriu ativo fixo do estabelecimento fiscal.
-author: sndray
+author: AdamTrukawka
 ms.date: 06/24/2017
 ms.topic: business-process
 ms.prod: ''
@@ -9,16 +9,16 @@ ms.technology: ''
 audience: Application User
 ms.reviewer: kfend
 ms.search.region: Brazil
-ms.search.industry: Manufacturing;Distribution;Service industries
-ms.author: sndray
+ms.author: atrukawk
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 0199d040099c6780001a1abce126b722369e44c74028bac056b86df2badbcf14
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.search.industry: Manufacturing;Distribution;Service industries
+ms.openlocfilehash: 5618443a5a0ffb5cda51bc82856e429a08e6eeb3
+ms.sourcegitcommit: 87e727005399c82cbb6509f5ce9fb33d18928d30
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6712135"
+ms.lasthandoff: 08/12/2022
+ms.locfileid: "9270579"
 ---
 # <a name="issue-customer-fiscal-documents-fixed-assets-brazil"></a>Emitir notas fiscais para clientes (ativos fixos) (Brasil)
 

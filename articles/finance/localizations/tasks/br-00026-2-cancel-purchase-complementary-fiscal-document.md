@@ -1,7 +1,7 @@
 ---
 title: Cancelar uma nota fiscal complementar de compra (Brasil)
 description: É possível cancelar uma nota fiscal complementar de compra incorreta e fornecer um motivo para o cancelamento.
-author: sndray
+author: AdamTrukawka
 ms.date: 06/26/2017
 ms.topic: business-process
 ms.prod: ''
@@ -9,15 +9,15 @@ ms.technology: ''
 audience: Application User
 ms.reviewer: kfend
 ms.search.region: Brazil
-ms.author: sndray
+ms.author: atrukawk
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 27c09262027b66c89800d9a721852ad7112260dabaf07ec13b40a184e2736dce
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 35d24b53220abaa3a98c25b2cdab6b411a5aca84
+ms.sourcegitcommit: 87e727005399c82cbb6509f5ce9fb33d18928d30
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6781150"
+ms.lasthandoff: 08/12/2022
+ms.locfileid: "9288495"
 ---
 # <a name="cancel-a-purchase-complementary-fiscal-document-brazil"></a>Cancelar uma nota fiscal complementar de compra (Brasil)
 

@@ -1,7 +1,7 @@
 ---
 title: Criar uma apuração de imposto - PIS e COFINS (Brasil)
 description: Você pode criar uma avaliação de imposto para contribuições de PIS/COFINS por um período de escrituração específico.
-author: sndray
+author: AdamTrukawka
 ms.date: 06/26/2017
 ms.topic: business-process
 ms.prod: ''
@@ -9,15 +9,15 @@ ms.technology: ''
 audience: Application User
 ms.reviewer: kfend
 ms.search.region: Brazil
-ms.author: sndray
+ms.author: atrukawk
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 6edc25c5a65b549b8ef058c013e927a9a08b95425d43f5d1384b04e960d34d2a
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: ee76ce646844db7ed96f4c1fb782fb5fdc576f9d
+ms.sourcegitcommit: 87e727005399c82cbb6509f5ce9fb33d18928d30
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6782802"
+ms.lasthandoff: 08/12/2022
+ms.locfileid: "9269277"
 ---
 # <a name="create-a-tax-assessment---pis-and-cofins-tax-brazil"></a>Criar uma apuração de imposto - PIS e COFINS (Brasil)
 

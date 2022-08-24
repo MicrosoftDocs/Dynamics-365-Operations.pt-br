@@ -1,7 +1,7 @@
 ---
 title: Receber notas fiscais de fornecedor (produtos) (Brasil)
 description: É possível lançar uma nota fiscal que você recebeu na aquisição de mercadorias de estoque, em que o ICMS, IPI e PIS/COFINS são deduzidos do pagamento de apuração de imposto.
-author: sndray
+author: AdamTrukawka
 ms.date: 06/24/2017
 ms.topic: business-process
 ms.prod: ''
@@ -9,16 +9,16 @@ ms.technology: ''
 audience: Application User
 ms.reviewer: kfend
 ms.search.region: Brazil
-ms.search.industry: Manufacturing;Distribution;Service industries
-ms.author: sndray
+ms.author: atrukawk
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 84826a09946f63f35df048becc99cf6e12fc06cf73fef77fc5e8eaeedfd19643
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.search.industry: Manufacturing;Distribution;Service industries
+ms.openlocfilehash: 8b940aa42063ff853a0d9fefdcf5127143b914af
+ms.sourcegitcommit: 87e727005399c82cbb6509f5ce9fb33d18928d30
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6778836"
+ms.lasthandoff: 08/12/2022
+ms.locfileid: "9283807"
 ---
 # <a name="receive-vendor-fiscal-documents-products-brazil"></a>Receber notas fiscais de fornecedor (produtos) (Brasil)
 

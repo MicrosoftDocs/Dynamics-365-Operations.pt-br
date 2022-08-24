@@ -1,25 +1,25 @@
 ---
 title: Mostrar páginas lado a lado usando o recurso Abrir em nova janela
 description: Este artigo explica como exibir páginas lado a lado.
-author: aneesmsft
+author: jasongre
 ms.date: 11/20/2020
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
 audience: Application User
 ms.reviewer: sericks
-ms.custom: 17611
-ms.assetid: fc589d76-3927-4486-ab83-e86b9b47ba2c
 ms.search.region: Global
-ms.author: aneesa
+ms.author: jasongre
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: a4c8086d511892f8965dfefca2789742a006f63f
-ms.sourcegitcommit: 3a7f1fe72ac08e62dda1045e0fb97f7174b69a25
+ms.custom: 17611
+ms.assetid: fc589d76-3927-4486-ab83-e86b9b47ba2c
+ms.openlocfilehash: bfc2aa534da17529421af0a28d1c90ee3aeb40cb
+ms.sourcegitcommit: 87e727005399c82cbb6509f5ce9fb33d18928d30
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 01/31/2022
-ms.locfileid: "8068050"
+ms.lasthandoff: 08/12/2022
+ms.locfileid: "9288621"
 ---
 # <a name="show-pages-side-by-side-using-the-open-in-new-window-feature"></a>Mostrar páginas lado a lado usando o recurso Abrir em nova janela
 

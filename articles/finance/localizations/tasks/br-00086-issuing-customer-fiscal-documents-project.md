@@ -1,7 +1,7 @@
 ---
 title: Emitir notas fiscais para clientes (projeto) (Brasil)
 description: É possível emitir uma nota fiscal para um projeto.
-author: sndray
+author: AdamTrukawka
 ms.date: 06/24/2017
 ms.topic: business-process
 ms.prod: ''
@@ -9,16 +9,16 @@ ms.technology: ''
 audience: Application User
 ms.reviewer: kfend
 ms.search.region: Brazil
-ms.search.industry: Manufacturing;Distribution;Service industries
-ms.author: sndray
+ms.author: atrukawk
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 06ff5ae199314b74f49cae1fbcc1dbb4b0d1a0d1c47d13ffff37d27716d6e36c
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.search.industry: Manufacturing;Distribution;Service industries
+ms.openlocfilehash: 5f392863835db4301b266e56d24e459445c49a86
+ms.sourcegitcommit: 87e727005399c82cbb6509f5ce9fb33d18928d30
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6763063"
+ms.lasthandoff: 08/12/2022
+ms.locfileid: "9282382"
 ---
 # <a name="issue-customer-fiscal-documents-project-brazil"></a>Emitir notas fiscais para clientes (projeto) (Brasil)
 

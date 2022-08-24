@@ -1,24 +1,24 @@
 ---
 title: Visão geral do Cálculo de Imposto
 description: Este artigo explica o escopo geral e os recursos do recurso Cálculo de Imposto.
-author: wangchen
+author: EricWangChen
 ms.date: 03/02/2022
 ms.topic: overview
 ms.prod: ''
 ms.technology: ''
-ms.search.form: TaxIntegrationTaxServiceParameters
 audience: Application user
 ms.reviewer: kfend
 ms.search.region: Global
 ms.author: wangchen
 ms.search.validFrom: 2021-04-01
 ms.dyn365.ops.version: 10.0.18
-ms.openlocfilehash: 817d7db5952f96fa741671166d88fffddaac84e9
-ms.sourcegitcommit: 5b34b41ae74269ba639e2876bc5862ef468da1cc
+ms.search.form: TaxIntegrationTaxServiceParameters
+ms.openlocfilehash: c6dabb9d2aae6f1fc759c40f870c66304d7f7c8d
+ms.sourcegitcommit: 87e727005399c82cbb6509f5ce9fb33d18928d30
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 07/15/2022
-ms.locfileid: "9166829"
+ms.lasthandoff: 08/12/2022
+ms.locfileid: "9270655"
 ---
 # <a name="tax-calculation-overview"></a>Visão geral do Cálculo de Imposto
 
@@ -54,10 +54,15 @@ O Cálculo de Imposto é implantado nas regiões do Azure a seguir. Mais regiõe
 
 - Pacífico Asiático
 - Austrália
+- Brasil
 - Canadá
 - Europa
+- França
+- Índia
 - Japão
+- África do Sul
 - Suíça
+- Emirados Árabes Unidos
 - Reino Unido
 - Estados Unidos
 
@@ -149,11 +154,15 @@ As seguintes transações são compatíveis na versão 10.0.28:
 - Diário de pagamentos do fornecedor
 - Diário de pagamentos do cliente
 
+As seguintes transações são compatíveis na versão 10.0.29: 
+
+- Periódico
+
 ## <a name="supported-countriesregions"></a>Países/regiões com suporte
 
-O Cálculo de Imposto pode ser habilitado por entidade legal. 
+O cálculo de imposto pode ser executado com os recursos de localização com suporte nos seguintes países/regiões para o endereço principal da entidade legal: 
 
-Os seguintes países/regiões do endereço principal de uma entidade legal têm suporte na versão 10.0.21:
+Versão compatível 10.0.21:
 
 - Áustria
 - Bélgica
@@ -176,10 +185,10 @@ Os seguintes países/regiões do endereço principal de uma entidade legal têm 
 - Reino Unido
 - Estados Unidos
 
-Os seguintes países/regiões do endereço principal de uma entidade legal têm suporte na versão 10.0.22:
+Versão compatível 10.0.22:
 
 - Austrália
-- Bahrein
+- Barein
 - Canadá
 - Egito
 - RAE de Hong Kong
@@ -191,22 +200,24 @@ Os seguintes países/regiões do endereço principal de uma entidade legal têm 
 - África do Sul
 - Emirados Árabes Unidos
 
-Os seguintes países/regiões do endereço principal de uma entidade legal têm suporte na versão 10.0.23:
+Versão compatível 10.0.23:
 
 - Tailândia
 - Japão
 - Malásia
 - Singapura
 
-Os seguintes países/regiões do endereço principal de uma entidade legal têm suporte na versão 10.0.24:
+Versão compatível 10.0.24:
 
 - México
 
-Os seguintes países/regiões do endereço principal de uma entidade legal têm suporte na versão 10.0.26:
+Versão compatível 10.0.26:
 
 - China
 - República Tcheca
 - Espanha
+
+Para qualquer país/região não localizado pela Microsoft, o cálculo de imposto também pode ser habilitado e executado com outros recursos globais.
 
 ## <a name="related-resources"></a>Recursos relacionados
 

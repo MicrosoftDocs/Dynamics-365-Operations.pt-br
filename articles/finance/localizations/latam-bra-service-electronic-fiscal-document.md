@@ -1,26 +1,26 @@
 ---
 title: Nota fiscal eletrônica para serviços do Brasil
 description: Este artigo oferece uma visão geral da nota fiscal eletrônica de serviço.
-author: sndray
+author: AdamTrukawka
 ms.date: 10/31/2017
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
-ms.search.form: BrazilParameters, ConfDefGroups_BR, ConfDefGroupWizard_BR, ConfDefLayout_BR, ConfExportDialog_BR, FiscalDocumentType_BR, RPSExport_BR, RPSImport_BR, TaxServiceCode_BR
 audience: Application User
 ms.reviewer: kfend
-ms.custom: 269984
-ms.assetid: 46e40a3a-784f-4a1e-b185-c4b8ad63518f
 ms.search.region: Brazil
-ms.author: sndray
+ms.author: atrukawk
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: 8b64ccfb494f8d0560134af4b78517fd53dc7472
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.custom: 269984
+ms.assetid: 46e40a3a-784f-4a1e-b185-c4b8ad63518f
+ms.search.form: BrazilParameters, ConfDefGroups_BR, ConfDefGroupWizard_BR, ConfDefLayout_BR, ConfExportDialog_BR, FiscalDocumentType_BR, RPSExport_BR, RPSImport_BR, TaxServiceCode_BR
+ms.openlocfilehash: 8fd4b124c040644538f013f5a4584e9ca19354f0
+ms.sourcegitcommit: 87e727005399c82cbb6509f5ce9fb33d18928d30
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8868279"
+ms.lasthandoff: 08/12/2022
+ms.locfileid: "9287797"
 ---
 # <a name="service-electronic-fiscal-document-for-brazil"></a>Nota fiscal eletrônica para serviços do Brasil
 

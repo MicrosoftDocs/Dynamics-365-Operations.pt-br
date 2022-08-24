@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: a420a0a366e454df14d5fe994691829bc7950306
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: 901683f2176189ce2f4186b4f9b3b5c64ec9f2b1
+ms.sourcegitcommit: e0905a3af85d8cdc24a22e0c041cb3a391c036cb
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8895186"
+ms.lasthandoff: 08/06/2022
+ms.locfileid: "9227764"
 ---
 # <a name="prepayment-invoices-vs-prepayments"></a>Faturas de pagamento antecipado versus pagamentos antecipados
 
@@ -78,6 +78,8 @@ O pagamento antecipado pode ser removido da ordem de compra, exceto se você já
 Para registrar a fatura de pagamento antecipado do fornecedor, acesse a página **Fatura de fornecedor** selecionando a opção **Fatura de pagamento antecipado** na página **Ordens de compra** (**Contas a pagar \> Comum \> Ordens de compra \> Todas as ordens de compra \>Guia de fatura \> Fatura de pagamento antecipado**). Insira as informações da fatura de pagamento antecipado, incluindo o número da fatura. Não é possível alterar os valores de uma fatura de pagamento antecipado. Se o fornecedor tiver faturado parte do valor do pagamento antecipado definido na ordem de compra, você poderá atualizar o preço unitário para refletir o valor parcial.
 
 Quando a fatura de pagamento antecipado for lançada, o saldo do fornecedor e a conta de pagamento antecipado serão atualizados. O valor da **Aplicação do pagamento antecipado** na definição de pagamento antecipado contido na ordem de compra também será atualizado. As entradas padrão de dimensão financeira do comprovante de pagamento antecipado lançado serão removidas das informações do cabeçalho da ordem de compra.
+
+Se o recurso **Bloquear dimensões financeiras nas linhas da fatura de pagamento antecipado do fornecedor** na página **Gerenciamento de recursos** estiver ativado, as dimensões nas linhas ou no cabeçalho de pagamento antecipado não poderão ser atualizadas. 
 
 ## <a name="post-and-settle-payments-for-the-prepayment-invoice"></a>Lance e faça pagamentos da fatura de pagamento antecipado
 Em seguida, a fatura do pagamento antecipado será paga na página **Diário de pagamentos**. Para acessar diários de pagamentos, clique em **Contas a pagar \> Diários \> Pagamentos \> Diários de pagamentos**. Depois de lançar o pagamento na fatura de pagamento antecipado, o valor **restante da aplicação do pagamento antecipado** da ordem de compra será atualizado.

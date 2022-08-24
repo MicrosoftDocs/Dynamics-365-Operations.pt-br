@@ -12,12 +12,12 @@ ms.search.region: Global
 ms.author: benebotg
 ms.search.validFrom: 2020-09-28
 ms.dyn365.ops.version: 10.0.15
-ms.openlocfilehash: ec5535013af9ccb253744e061de738155ac9ad22
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: e66cda6e529a70d40e599718332152bac95b061e
+ms.sourcegitcommit: c98d55a4a6e27239ae6b317872332f01cbe8b875
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8889625"
+ms.lasthandoff: 08/02/2022
+ms.locfileid: "9220017"
 ---
 # <a name="engineering-change-management-feature-walkthrough"></a>Passo a passo do recurso Gerenciamento de alterações de engenharia
 
@@ -45,7 +45,7 @@ Antes de tentar executar qualquer um dos exercícios no restante deste artigo, s
 
 ### <a name="make-standard-demo-data-available"></a>Disponibilizar dados de demonstração padrão
 
-Trabalhe em um sistema no qual os [dados de demonstração padrão estejam instalados](../../fin-ops-core/dev-itpro/deployment/deploy-demo-environment.md). Os dados de demonstração padrão adicionam dados a várias entidades legais de demonstração (empresas e organizações). Ao trabalhar nos exercícios, você usará o seletor da empresa no lado direito da barra de navegação para alternar entre uma empresa (*DEMF*) que é configurada como uma *organização de engenharia* e outra empresa (*USMF*) que é configurada como uma *organização operacional*.
+Trabalhe em um sistema em que os [dados de demonstração padrão estejam instalados](../../fin-ops-core/fin-ops/get-started/demo-data.md). Os dados de demonstração padrão adicionam dados a várias entidades legais de demonstração (empresas e organizações). Ao trabalhar nos exercícios, você usará o seletor da empresa no lado direito da barra de navegação para alternar entre uma empresa (*DEMF*) que é configurada como uma *organização de engenharia* e outra empresa (*USMF*) que é configurada como uma *organização operacional*.
 
 ### <a name="set-up-an-engineering-organization"></a>Configurar uma organização de engenharia
 

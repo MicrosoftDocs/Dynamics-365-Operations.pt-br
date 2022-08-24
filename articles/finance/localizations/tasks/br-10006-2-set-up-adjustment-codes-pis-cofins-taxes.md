@@ -1,7 +1,7 @@
 ---
 title: Configurar códigos de ajuste para impostos PIS e COFINS (Brasil)
 description: Você pode criar transações manuais de ajuste para ajustar os valores de crédito ou débito de PIS e COFINS relatados nos registros M220, M225, M620, M625, M110, M115, M510 e M515.
-author: sndray
+author: AdamTrukawka
 ms.date: 06/26/2017
 ms.topic: business-process
 ms.prod: ''
@@ -9,15 +9,15 @@ ms.technology: ''
 audience: Application User
 ms.reviewer: kfend
 ms.search.region: Brazil
-ms.author: sndray
+ms.author: atrukawk
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 6fae6c1fd6d56eb82a39fea3339880e9ae2cd51a976b1dbfc6d04bd3cee342ea
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: a394a16dc20bbf9647f2935c76e5eac6e3c93187
+ms.sourcegitcommit: 87e727005399c82cbb6509f5ce9fb33d18928d30
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6734489"
+ms.lasthandoff: 08/12/2022
+ms.locfileid: "9281601"
 ---
 # <a name="set-up-adjustment-codes-for-pis-and-cofins-taxes-brazil"></a>Configurar códigos de ajuste para impostos PIS e COFINS (Brasil)
 

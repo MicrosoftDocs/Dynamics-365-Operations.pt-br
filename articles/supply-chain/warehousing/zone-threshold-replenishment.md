@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: mirzaab
 ms.search.validFrom: 2020-07-01
 ms.dyn365.ops.version: 10.0.8
-ms.openlocfilehash: e3ec1f59e0b1d202d5591bfc1525c9034f4d8f45
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: 17e336fb059880e54a1cba7c0079e7452925c24d
+ms.sourcegitcommit: c98d55a4a6e27239ae6b317872332f01cbe8b875
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8893110"
+ms.lasthandoff: 08/02/2022
+ms.locfileid: "9219987"
 ---
 # <a name="zone-threshold-replenishment"></a>Reabastecimento de limite de zona
 
@@ -262,7 +262,7 @@ Antes de começar a trabalhar no cenário, você deve ativar os dados de exemplo
 
 #### <a name="use-the-usmf-legal-entity"></a>Usar a entidade legal USMF
 
-Para trabalhar no cenário usando os registros e valores de exemplo especificados aqui, você deve usar um sistema em que os [dados de demonstração](../../fin-ops-core/dev-itpro/deployment/deploy-demo-environment.md) padrão estejam instalados. Além disso, você deve selecionar a entidade legal **USMF** antes de começar.
+Para trabalhar no cenário usando os registros e valores de exemplo especificados aqui, você deve usar um sistema em que os [dados de demonstração](../../fin-ops-core/fin-ops/get-started/demo-data.md) padrão estejam instalados. Além disso, você deve selecionar a entidade legal **USMF** antes de começar.
 
 #### <a name="prepare-additional-sample-data"></a>Preparar dados de exemplo adicionais
 

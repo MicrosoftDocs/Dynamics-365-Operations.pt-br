@@ -1,26 +1,26 @@
 ---
 title: Inspecionar o componente de ER configurado para evitar problemas de runtime
 description: Este artigo explica como inspecionar os componentes de Relatório Eletrônico (ER) configurados para evitar problemas de runtime.
-author: NickSelin
+author: kfend
 ms.date: 01/03/2022
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
-ms.search.form: ERSolutionTable, ERDataModelDesigner, ERModelMappingTable, ERModelMappingDesigner, EROperationDesigner
 audience: Application User, Developer, IT Pro
 ms.reviewer: kfend
-ms.custom: 220314
-ms.assetid: ''
 ms.search.region: Global
-ms.author: nselin
+ms.author: filatovm
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: c30f1a0d6ca4a50645bada39abbbf2f58777abb8
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.custom: 220314
+ms.assetid: ''
+ms.search.form: ERSolutionTable, ERDataModelDesigner, ERModelMappingTable, ERModelMappingDesigner, EROperationDesigner
+ms.openlocfilehash: 53835bbceaa89793d890d8bc18921497c686e969
+ms.sourcegitcommit: 87e727005399c82cbb6509f5ce9fb33d18928d30
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8864826"
+ms.lasthandoff: 08/12/2022
+ms.locfileid: "9277840"
 ---
 # <a name="inspect-the-configured-er-component-to-prevent-runtime-issues"></a>Inspecionar o componente de ER configurado para evitar problemas de runtime
 
@@ -30,8 +30,8 @@ Cada componente de [mapeamento de modelo](er-overview-components.md#model-mappin
 
 Por padrão, a validação é aplicada automaticamente nos seguintes casos para uma configuração de ER que contém os componentes de ER mencionados acima:
 
-- Ao [importar](general-electronic-reporting.md#importing-an-er-component-from-lcs-to-use-it-internally) uma nova [versão](general-electronic-reporting.md#component-versioning) de uma configuração de ER para a instância do Microsoft Dynamics 365 Finance.
-- Ao alterar o [status](general-electronic-reporting.md#component-versioning) da configuração de ER editável de **Rascunho** para **Concluída**.
+- Ao [importar](general-electronic-reporting.md#importing-an-er-component-from-lcs-to-use-it-internally) uma nova versão de uma configuração de ER para a instância do Microsoft Dynamics 365 Finance.
+- Ao alterar o status da configuração de ER editável de **Rascunho** para **Concluído**.
 - Ao [trocar a base](general-electronic-reporting.md#upgrading-a-format-selecting-a-new-version-of-base-format-rebase) de uma configuração de ER editável aplicando uma nova versão base.
 
 É possível executar essa validação de forma explícita. Selecione uma das três opções a seguir e siga as etapas fornecidas:
@@ -770,7 +770,7 @@ Modifique o formato configurado removendo a associação do elemento de formato 
 
 ## <a name="not-linked-template"></a><a id="i12"></a>Modelo não vinculado
 
-Quando você [configurar manualmente](er-fillable-excel.md#manual-entry) um componente de formato de ER para usar um modelo de modo a gerar um documento de saída, adicione o elemento **Excel\\File** de forma manual, inclua o modelo necessário como anexo do componente editável e selecione o anexo no elemento **Excel\\File** adicionado. Dessa forma, você indica que o elemento adicionado preencherá o modelo selecionado no runtime. Ao configurar uma versão de componente de formato no [status](general-electronic-reporting.md#component-versioning) **Rascunho**, você poderá adicionar vários modelos ao componente editável e selecionar cada modelo no elemento **Excel\\Arquivo** para executar o formato ER. Dessa forma, você pode ver como os modelos diferentes são preenchidos no runtime. Se você tem modelos que não estão selecionados em nenhum elemento **Excel\\File**, o Designer de formato de ER avisa que esses modelos serão excluídos da versão do componente de formato de ER editável quando o status for alterado de **Rascunho** para **Concluído**.
+Quando você [configurar manualmente](er-fillable-excel.md#manual-entry) um componente de formato de ER para usar um modelo de modo a gerar um documento de saída, adicione o elemento **Excel\\File** de forma manual, inclua o modelo necessário como anexo do componente editável e selecione o anexo no elemento **Excel\\File** adicionado. Dessa forma, você indica que o elemento adicionado preencherá o modelo selecionado no runtime. Ao configurar uma versão do componente do formato no status **Rascunho**, você poderá adicionar vários modelos ao componente editável e selecionar cada modelo no elemento **Excel\\Arquivo** para executar o formato ER. Dessa forma, você pode ver como os modelos diferentes são preenchidos no runtime. Se você tem modelos que não estão selecionados em nenhum elemento **Excel\\File**, o Designer de formato de ER avisa que esses modelos serão excluídos da versão do componente de formato de ER editável quando o status for alterado de **Rascunho** para **Concluído**.
 
 As etapas a seguir mostram como esse problema pode ocorrer.
 

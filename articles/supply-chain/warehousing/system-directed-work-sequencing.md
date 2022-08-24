@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: mirzaab
 ms.search.validFrom: 2020-07-03
 ms.dyn365.ops.version: 10.0.7
-ms.openlocfilehash: 8dfa7d8e3bdbfd74c6f95d8b79ac1b0698f73bd6
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: 88ea680b5b3e237d117b087978d703a7f6f09465
+ms.sourcegitcommit: c98d55a4a6e27239ae6b317872332f01cbe8b875
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8849116"
+ms.lasthandoff: 08/02/2022
+ms.locfileid: "9219678"
 ---
 # <a name="system-directed-work-sequencing"></a>Sequenciamento do trabalho direcionado pelo sistema
 
@@ -44,7 +44,7 @@ Para que você possa usar o sequenciamento de trabalho direcionado pelo sistema,
 
 ### <a name="make-demo-data-available"></a>Disponibilizar dados de demonstração
 
-Para trabalhar com o cenário usando os valores apresentados neste artigo, você deve trabalhar em um sistema em que os dados de demonstração padrão estejam instalados. Além disso, você deve selecionar a entidade legal **USMF**. O cenário usa o depósito *51* dos dados de demonstração.
+Para trabalhar com o cenário usando os valores apresentados neste artigo, você deve trabalhar em um sistema em que os [dados de demonstração](../../fin-ops-core/fin-ops/get-started/demo-data.md) padrão estejam instalados. Além disso, você deve selecionar a entidade legal **USMF**. O cenário usa o depósito *51* dos dados de demonstração.
 
 > [!IMPORTANT]
 > Antes de liberar as ordens para o depósito, verifique se os locais de separação têm estoque suficiente para todos os itens nas ordens.

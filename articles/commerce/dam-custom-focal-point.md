@@ -1,26 +1,26 @@
 ---
 title: Personalizar pontos focais da imagem
 description: Este artigo descreve como personalizar pontos focais da imagem no construtor de sites do Microsoft Dynamics 365 Commerce.
-author: psimolin
+author: josaw1
 ms.date: 04/14/2020
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
 audience: Application User
-ms.reviewer: v-chgri
-ms.custom: ''
-ms.assetid: ''
+ms.reviewer: v-chgriffin
 ms.search.region: Global
-ms.search.industry: ''
-ms.author: psimolin
+ms.author: josaw
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: 9294fcc7302e3651eca1b5edefd556143e49fb93
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.custom: ''
+ms.assetid: ''
+ms.search.industry: ''
+ms.openlocfilehash: 13238b7a6e06ea59287230222cda584c7781535e
+ms.sourcegitcommit: 87e727005399c82cbb6509f5ce9fb33d18928d30
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8852806"
+ms.lasthandoff: 08/12/2022
+ms.locfileid: "9278561"
 ---
 # <a name="customize-image-focal-points"></a>Personalizar pontos focais da imagem
 

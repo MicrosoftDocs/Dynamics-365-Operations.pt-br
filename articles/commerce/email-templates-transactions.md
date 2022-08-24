@@ -7,19 +7,19 @@ ms.topic: article
 ms.prod: ''
 ms.technology: ''
 audience: Application User
-ms.reviewer: v-chgri
-ms.custom: ''
-ms.assetid: ''
+ms.reviewer: v-chgriffin
 ms.search.region: Global
 ms.author: stuharg
 ms.search.validFrom: 2020-01-20
 ms.dyn365.ops.version: Release 10.0.8
-ms.openlocfilehash: 9a4d67d901608e210b4060a655ce39f0ea707a52
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.custom: ''
+ms.assetid: ''
+ms.openlocfilehash: cc3ad01c60324d751ee52d83d93fe59593775a00
+ms.sourcegitcommit: 87e727005399c82cbb6509f5ce9fb33d18928d30
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8910541"
+ms.lasthandoff: 08/12/2022
+ms.locfileid: "9279559"
 ---
 # <a name="create-email-templates-for-transactional-events"></a>Criar modelos de email para eventos transacionais
 
@@ -117,7 +117,29 @@ O tipo de notificação *cancelamento da ordem* é disparado quando uma ordem é
 
 ### <a name="customer-created"></a>Cliente criado
 
-O tipo de notificação *cliente criado* é disparado quando uma entidade de cliente é criada no Commerce headquarters.
+O tipo de notificação *cliente criado* é disparado quando uma entidade de cliente é criada no Commerce headquarters. 
+
+Para habilitar as notificações geradas para o cliente no Commerce headquarters acesse **Retail e Commerce \> Configuração do headquarters \> Parâmetros \> Parâmetros do Commerce \> Geral**. Na lista suspensa **Perfil de notificação por e-mail**, selecione um perfil de notificação por email que contém o tipo de notificação criada pelo cliente. 
+
+Por padrão, os eventos criados pelo cliente são carregados no headquartes com o trabalho em lote **Sincronizar clientes e solicitações de canal**. Se você deseja usar uma chamada de serviço em tempo real para enviar esses eventos, defina a ID do email do modelo criado pelo cliente para **newCust**. No entanto, isso não é recomendável porque as chamadas em tempo real do serviço são chamadas do tipo "Acione e esqueça" e não têm a lógica de fallback ou de repetição que os trabalhos em lote fornecem.
+
+> [!NOTE] 
+> Ao habilitar notificações criadas pelo cliente, os clientes criados em todos os canais da entidade legal receberão um cliente criado por email. No momento, as notificações criadas pelo cliente não podem ser limitadas a um único canal.  
+
+Quando solicitado por meio do trabalho em lotes, o tipo de notificação criado pelo cliente oferece suporte ao seguinte espaço reservado.
+
+| Nome do espaço reservado | Descrição                                                      |
+| ---------------- | ------------------------------------------------------------ |
+| customername     | O nome e o sobrenome do cliente que criou uma conta. |
+
+Quando solicitado por meio de uma chamada de serviço em tempo real, o tipo de notificação criado pelo cliente oferece suporte ao seguinte espaço reservado.
+
+| Nome do espaço reservado | Descrição                                                      |
+| ---------------- | ------------------------------------------------------------ |
+| Nome             | O nome e o sobrenome do cliente que criou uma conta. |
+| Email            | O endereço de email do cliente que criou uma conta.    |
+| Telefone            | O número de telefone do cliente que criou uma conta.      |
+| URL              | A URL fornecida pelo cliente quando ele criou a conta. |
 
 ### <a name="b2b-prospect-approved"></a>Cliente potencial B2B aprovado
 

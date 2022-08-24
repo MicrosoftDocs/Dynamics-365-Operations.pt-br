@@ -1,28 +1,26 @@
 ---
 title: Visão geral de Relatório eletrônico (ER)
 description: Este artigo oferece uma visão geral da ferramenta ER. Ele descreve os principais conceitos, os cenários com suporte e os formatos que fazem parte da solução.
-author: NickSelin
+author: kfend
 ms.date: 11/02/2021
 ms.topic: overview
 ms.prod: ''
 ms.technology: ''
-ms.search.form: ERWorkspace
 audience: Application User, Developer, IT Pro
 ms.reviewer: kfend
-ms.custom:
-- "58941"
-- intro-internal
-ms.assetid: 5d51b6a6-ad12-4af9-a66d-a1eb820ae57f
 ms.search.region: global
-ms.author: nselin
+ms.author: filatovm
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 1f3853e0c1da0a5abb3f92171370cc4aeabbd829
-ms.sourcegitcommit: 3289478a05040910f356baf1995ce0523d347368
+ms.custom: 58941,  ""intro-internal
+ms.assetid: 5d51b6a6-ad12-4af9-a66d-a1eb820ae57f
+ms.search.form: ERWorkspace
+ms.openlocfilehash: e94846dd565abb6de2c1f07532d285e28307e9a2
+ms.sourcegitcommit: 87e727005399c82cbb6509f5ce9fb33d18928d30
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 07/01/2022
-ms.locfileid: "9109570"
+ms.lasthandoff: 08/12/2022
+ms.locfileid: "9269681"
 ---
 # <a name="electronic-reporting-er-overview"></a>Visão geral de Relatório eletrônico (ER)
 
@@ -78,7 +76,7 @@ O mecanismo ER tem os seguintes recursos:
 
 [![Fluxo de dados principal de ER.](./media/ger-main-data-flow.jpg)](./media/ger-main-data-flow.jpg)
 
-### <a name="components"></a>Componentes
+### <a name="component"></a>Componente
 
 O ER oferece suporte aos seguintes tipos de componentes:
 
@@ -89,32 +87,7 @@ O ER oferece suporte aos seguintes tipos de componentes:
 
 Para obter mais informações, consulte [Componentes do Relatório eletrônico](er-overview-components.md).
 
-
-#### <a name="component-versioning"></a>Controle de versão em componentes
-
-Controle de versão tem suporte para componentes ER. O seguinte fluxo de trabalho é fornecido para gerenciar alterações em componentes ER:
-
-1. A versão originalmente criada está marcada como uma versão **Rascunho**. Essa versão pode ser editada e está disponível para a execução do teste.
-2. A versão **Rascunho** pode ser convertida em uma versão **Concluída**. Essa versão pode ser usada em processos de geração de relatórios locais.
-3. A versão **Concluída** pode ser convertida em uma versão **Compartilhada**. Essa versão é publicada em LCS e pode ser usada em processos de relatórios globais.
-4. A versão **Compartilhada** pode ser convertida em uma versão **Descontinuada**. Essa versão pode ser excluída.
-
-As versões com o status **Concluída** ou **Compartilhada** estão disponíveis para outra troca de dados. As seguintes ações podem ser executadas em um componente que tem esse status:
-
-- O componente pode ser serializado em formato XML e exportado como um arquivo no formato XML.
-- O componente pode ser seriado novamente de um arquivo XML e importado para o aplicativo como uma nova versão de um componente de ER.
-
-#### <a name="component-date-effectivity"></a>Efetivação de data de componente
-
-Versão do componente ER com efetivação de data. Você pode definir a data **Efetiva a partir de** para que um componente ER especifique a data em que esse componente entra em vigor para os processos de relatório. A data da sessão do aplicativo é usada para definir se um componente é válido para execução. Se mais de uma versão é válida para uma data específica, a última versão é usada para processos de relatório.
-
-#### <a name="component-access"></a>Acesso ao componente
-
-O acesso aos componentes no formato ER depende da definição de códigos de país/região ISO. Quando essa configuração está em branco para uma versão selecionada de uma configuração de formato, um componente de formato pode ser acessado de qualquer empresa em tempo de execução. Quando essa configuração contiver códigos de país/região ISO, um componente de formato estará disponível das únicas empresas em que o endereço principal for definido para um dos códigos de país/região ISO do componente de formato.
-
-Versões diferentes de um componente de formato de dados podem ter diferentes configurações de códigos de país/região ISO.
-
-#### <a name="configuration"></a><a name="Configuration"></a>Configuração
+### <a name="configuration"></a><a name="Configuration"></a>Configuração
 
 Uma configuração ER é o wrapper de um componente ER específico. Esse componente pode ser um componente de modelo de dados ou um componente de formato. Uma configuração pode incluir versões diferentes de um componente ER. Cada configuração é marcada como propriedade de um provedor de configuração específico. A versão **Rascunho** de um componente de uma configuração está disponível para edição quando o proprietário da configuração foi selecionado como provedor ativo nas configurações ER do aplicativo.
 
@@ -124,13 +97,13 @@ A configuração de formato criada contém um componente de formato. O component
 
 Uma configuração de ER é compartilhada para empresas do aplicativo.
 
-#### <a name="provider"></a><a name="Provider"></a>Provedor
+### <a name="provider"></a><a name="Provider"></a>Provedor
 
 O provedor de ER é a identificação de uma parte que é usada para indicar o autor (proprietário) de cada configuração de ER. ER permite que você gerencie a lista de provedores de configuração. As configurações de formato que são liberadas para documentos eletrônicos como parte da solução de finanças e operações são marcadas como pertencentes ao provedor de configuração da **Microsoft**.
 
 Para aprender a registrar um novo provedor de ER, execute a guia de tarefas **ER Criar um provedor de configuração e marcá-lo como ativo** (parte do processo comercial **7.5.4.3 Adquirir/Desenvolver componentes de solução/serviço de TI (10677)**).
 
-#### <a name="repository"></a><a name="Repository"></a>Repositório
+### <a name="repository"></a><a name="Repository"></a>Repositório
 
 Um repositório armazena as configurações de RE. Os tipos de repositórios de ER a seguir têm suporte no momento: 
 
@@ -145,7 +118,7 @@ Um repositório da **biblioteca compartilhada do LCS** fornece acesso à lista d
 
 Um repositório de **Projeto LCS** fornece acesso à lista de configurações de um projeto LCS específico (biblioteca de ativos do projeto LCS) selecionado quando o repositório foi registrado. O ER permite carregar configurações compartilhadas da instância atual para um repositório específico do **Projeto do LCS**. Você também pode importar configurações de um repositório do **Projeto LCS** para a instância atual de seus aplicativos de finanças e operações.
 
-Um repositório do **Sistema de arquivos** fornece acesso à lista de definições que estão localizadas como arquivos xml na pasta específica do sistema de arquivos local do computador onde o serviço AOS está hospedado. A pasta necessária está selecionada no estágio de registro do armazenamento. Você também pode importar configurações de um repositório do **Sistema de arquivos** na instância atual. 
+Um repositório do **Sistema de arquivos** fornece acesso à lista de configurações localizadas como arquivos xml na pasta específica do sistema de arquivos local do computador onde o serviço AOS está hospedado. A pasta desejada é selecionada no estágio de registro do repositório. Você também pode importar configurações de um repositório do **Sistema de arquivos** na instância atual. 
 
 Observe que esse tipo de repositório pode ser acessado nos seguintes ambientes:
 
@@ -162,7 +135,7 @@ Um repositório **Repositório global** permite acessar a lista de configuraçõ
 
 Para obter mais informações, consulte [Importar configurações do ER (relatório eletrônico) do repositório global do serviço de configuração](./er-download-configurations-global-repo.md).
 
-Um repositório de **Recursos de operações** dá acesso à lista de configurações que a Microsoft, como provedora de configuração de ER, libera inicialmente como parte da solução do aplicativo. Essas configurações podem ser importadas para a instância atual e usadas para relatórios eletrônicos ou para a reprodução de exemplos de guias da tarefa. Elas também podem ser usadas para localizações e personalizações adicionais. Observe que as versões mais recentes fornecidas pelas configurações de Relatórios eletrônicos da Microsoft devem ser importadas da biblioteca de ativos compartilhados do LCS usando o repositório de ER correspondente.
+Um repositório de **Recursos de operações** dá acesso à lista de configurações que a Microsoft, como provedora de configuração de ER, libera inicialmente como parte da solução do aplicativo. Essas configurações podem ser importadas para a instância atual e usadas para relatórios eletrônicos ou para a reprodução de exemplos de guias da tarefa. Elas também podem ser usadas para localizações e personalizações adicionais. Observe que as versões mais recentes fornecidas pelas configurações de ER da Microsoft devem ser importadas da biblioteca de ativos compartilhados do LCS usando o repositório de ER correspondente.
 
 Os repositórios de **Projeto LCS**, **Sistema de arquivo** e **Serviços de configuração regulatória (RCS)** podem ser registrados individualmente para cada provedor de configuração da instância atual. Cada repositório pode ser dedicado a um provedor de configuração específico.
 
@@ -265,6 +238,7 @@ A lista de configurações de er para finanças é constantemente atualizada. Ab
 
 ## <a name="additional-resources"></a>Recursos adicionais
 
+- [Componentes de Relatório eletrônico](er-overview-components.md)
 - [Criar configurações de Relatório eletrônico (ER)](electronic-reporting-configuration.md)
 - [Gerenciar o ciclo de vida da configuração de relatório eletrônico (ER)](general-electronic-reporting-manage-configuration-lifecycle.md)
 

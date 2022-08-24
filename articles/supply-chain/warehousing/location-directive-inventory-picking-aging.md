@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: mirzaab
 ms.search.validFrom: 2020-07-15
 ms.dyn365.ops.version: 10.0.8
-ms.openlocfilehash: 8b75907d01a029da1ed6a8224f8a7c0ca0230550
-ms.sourcegitcommit: 28a726b3b0726ecac7620b5736f5457bc75a5f84
+ms.openlocfilehash: fc4348f8207f4f6c8a0b694bc3e57beb29449a15
+ms.sourcegitcommit: c98d55a4a6e27239ae6b317872332f01cbe8b875
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/29/2022
-ms.locfileid: "9068660"
+ms.lasthandoff: 08/02/2022
+ms.locfileid: "9219462"
 ---
 # <a name="location-directive-inventory-picking-aging"></a>Classificação por vencimento de separação de estoque de diretiva de localização
 
@@ -34,8 +34,8 @@ Quando o estoque é recebido ou criado no depósito pela primeira vez, o sistema
 
 Para disponibilizar este recurso, ative os seguintes recursos no [gerenciamento de recursos](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md), nesta ordem:
 
-1. Status da localização do depósito
-1. Classificação por vencimento de separação de estoque de diretiva de localização
+1. *Status de localização do depósito*  (a partir da versão 10.0.29, este recurso está ativado por padrão. Para obter mais informações, consulte [Status de localização de depósito](warehouse-location-status.md).)
+1. *Classificação por vencimento de separação de estoque de diretiva de localização*
 
 ## <a name="feature-requirements"></a>Requisitos do recurso
 
@@ -50,7 +50,7 @@ Esta seção contém exemplos que mostram como configurar e usar as estratégias
 
 ### <a name="make-sample-data-available"></a>Disponibilizar dados de exemplo
 
-Para analisar esses cenários usando os registros e valores de exemplo especificados aqui, você deve usar um sistema em que os [dados de demonstração](../../fin-ops-core/dev-itpro/deployment/deploy-demo-environment.md) padrão estejam instalados. Além disso, você deve selecionar a entidade legal **USMF** antes de começar.
+Para analisar esses cenários usando os registros e valores de exemplo especificados aqui, você deve usar um sistema em que os [dados de demonstração](../../fin-ops-core/fin-ops/get-started/demo-data.md) padrão estejam instalados. Além disso, você deve selecionar a entidade legal **USMF** antes de começar.
 
 Você também pode usar esses cenários como orientação para usar o recurso em um sistema de produção. No entanto, nesse caso, você deve substituir seus valores por cada configuração descrita aqui.
 

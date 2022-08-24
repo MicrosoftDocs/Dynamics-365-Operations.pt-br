@@ -1,26 +1,26 @@
 ---
 title: Complemento de ICMS-ST e processo de declaração e restituição para os estados de RS, SC e SP
 description: Este artigo fornece informações sobre o processo de cálculo e relatório da compensação e restituição de valores do ICMS-ST em operações internas para consumidores finais quando os bens são adquiridos de acordo com o regime de substituição tributária (ICMS-ST). .
-author: sndray
+author: AdamTrukawka
 ms.date: 08/30/2019
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
-ms.search.form: ''
 audience: Application User
 ms.reviewer: kfend
-ms.custom: 270254
-ms.assetid: 92223189-69a8-4a40-b867-ef9b4f14c23d
 ms.search.region: Brazil
-ms.author: sndray
+ms.author: atrukawk
 ms.search.validFrom: 2019-07-31
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: 922d332b7b2b96cf7de00fef45cefc5e2fee7669
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.custom: 270254
+ms.assetid: 92223189-69a8-4a40-b867-ef9b4f14c23d
+ms.search.form: ''
+ms.openlocfilehash: 946aaa091177f83e67bec8228d051133c4c94cdc
+ms.sourcegitcommit: 87e727005399c82cbb6509f5ce9fb33d18928d30
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8846503"
+ms.lasthandoff: 08/12/2022
+ms.locfileid: "9268530"
 ---
 # <a name="icms-st-complement-and-restitution-process-and-declaration-for-rs-sc-and-sp-states"></a>Processo e declaração de complemento e restituição do ICMS-ST para os Estados do RS, de SC e SP
 

@@ -1,7 +1,7 @@
 ---
 title: Definir contribuições SPED EFD
 description: Este artigo explica como configurar parâmetros e gerar o SPED EFD — demonstrativo de contribuições para o Brasil.
-author: sndray
+author: AdamTrukawka
 ms.date: 02/06/2020
 ms.topic: article
 ms.prod: ''
@@ -9,15 +9,15 @@ ms.technology: ''
 audience: Application User
 ms.reviewer: kfend
 ms.search.region: Brazil
-ms.author: kfend
+ms.author: atrukawk
 ms.search.validFrom: 2017-12-31
 ms.dyn365.ops.version: 7.2999999999999998
-ms.openlocfilehash: 17178c26d2330a83625426312c14f55883238aa6
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: 6da7d109933118da7fc50ee69ecf5d2ea7359dbb
+ms.sourcegitcommit: 87e727005399c82cbb6509f5ce9fb33d18928d30
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8893949"
+ms.lasthandoff: 08/12/2022
+ms.locfileid: "9287794"
 ---
 # <a name="set-sped-efd-contributions"></a>Definir contribuições SPED EFD
 

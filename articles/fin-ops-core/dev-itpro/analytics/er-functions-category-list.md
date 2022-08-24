@@ -1,25 +1,25 @@
 ---
 title: Lista de funções ER na categoria de lista
 description: Este artigo fornece informações sobre as funções de lista que são compatíveis no relatório eletrônico (ER).
-author: NickSelin
+author: kfend
 ms.date: 04/01/2020
 ms.prod: ''
 ms.technology: ''
-ms.search.form: ERDataModelDesigner, ERExpressionDesignerFormula, ERMappedFormatDesigner, ERModelMappingDesigner
 audience: Application User, IT Pro
 ms.reviewer: kfend
-ms.custom: 58771
-ms.assetid: 24223e13-727a-4be6-a22d-4d427f504ac9
 ms.search.region: Global
-ms.author: nselin
+ms.author: filatovm
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: b39da482578636d94faaa3117bd40a579f3ae636
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.custom: 58771
+ms.assetid: 24223e13-727a-4be6-a22d-4d427f504ac9
+ms.search.form: ERDataModelDesigner, ERExpressionDesignerFormula, ERMappedFormatDesigner, ERModelMappingDesigner
+ms.openlocfilehash: 6c28445f731393857cdb0c75c1244e557b5ff4a4
+ms.sourcegitcommit: 87e727005399c82cbb6509f5ce9fb33d18928d30
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8869045"
+ms.lasthandoff: 08/12/2022
+ms.locfileid: "9277682"
 ---
 # <a name="list-of-er-functions-in-the-list-category"></a>Lista de funções ER na categoria de lista
 
@@ -47,6 +47,7 @@ As funções de lista de relatório eletrônico (ER) podem ser usadas para extra
 | [ListOfFields](er-functions-list-listoffields.md)         | Essa função retorna um valor de *Lista de registros* que é criado com base na estrutura do argumento especificado do tipo *Enumeração* ou *Contêiner (registro)*. |
 | [ListOfFirstItem](er-functions-list-listoffirstitem.md)   | Essa função retorna um valor de *Lista de registros* que consiste somente no primeiro registro da lista especificada.|
 | [OrderBy](er-functions-list-orderby.md)                   | Essa função retorna a lista especificada como um valor de *Lista de registros* após ela ser classificada de acordo com os argumentos especificados. Esses argumentos podem ser definidos como expressões. |
+| [Repetir](er-functions-list-repeat.md)                     | Esta função cria um registro que contém o campo que tem um valor que corresponde à entrada especificada. Em seguida, retorna uma nova *lista de registros* de um registro repetido um determinado número de vezes. |
 | [Reverter](er-functions-list-reverse.md)                   | Essa função retorna a lista especificada como um valor de *Lista de registros* na ordem de classificação inversa. |
 | [Dividir](er-functions-list-split.md)                       | Essa função divide a cadeia de caracteres de entrada especificada em subcadeias de caracteres e retorna o resultado como um novo valor de *Lista de registros*. |
 | [SplitList](er-functions-list-splitlist.md)               | Essa função divide a lista especificada em sublistas (ou lotes) e cada uma delas contém o número de registros especificado. Em seguida, ela retorna o resultado como um novo valor de *Lista de registros* que consiste nos lotes. |

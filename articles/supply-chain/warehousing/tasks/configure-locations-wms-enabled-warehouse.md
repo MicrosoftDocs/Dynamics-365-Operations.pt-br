@@ -14,12 +14,12 @@ ms.search.industry: Distribution
 ms.author: perlynne
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 45195698b48d6a22697f99044a8ae49beaf7156e
-ms.sourcegitcommit: 28a726b3b0726ecac7620b5736f5457bc75a5f84
+ms.openlocfilehash: 4cce7ea0c06938d2ce038853a262f843ec76fe4c
+ms.sourcegitcommit: c98d55a4a6e27239ae6b317872332f01cbe8b875
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/29/2022
-ms.locfileid: "9067263"
+ms.lasthandoff: 08/02/2022
+ms.locfileid: "9219648"
 ---
 # <a name="configure-locations-in-a-wms-enabled-warehouse"></a>Configurar localizações em um depósito habilitado para WMS
 
@@ -39,7 +39,7 @@ Este guia mostra como definir a configuração da localização para um novo dep
 8. Feche a página.
 
 ## <a name="define-a-location-format"></a>Definir um formato de localização
-1. Acesse **Painel de navegação > Módulos > Gerenciamento de depósito > Configuração > Depósito > Formatos de localização**. Formatos de localização são um sistema de nomeação utilizado para criar nomes únicos e consistentes para as diferentes localizações dos compartimentos usados dentro de um depósito. Pode ser útil usar separadores como parte do formato do local para facilitar a identificação dos componentes do local tal como o número do corredor. Neste exemplo, iremos criar um nome com quatro componentes. Por exemplo, eles podem ser corredor, estante, prateleira e compartimento.
+1. Acesse **Painel de navegação > Módulos > Gerenciamento de depósito > Configuração > Depósito > Formatos de localização**. Formatos de localização são um sistema de nomeação utilizado para criar nomes únicos e consistentes para as diferentes localizações dos compartimentos usados em um depósito. Pode ser útil usar separadores como parte do formato do local para facilitar a identificação dos componentes do local tal como o número do corredor. Neste exemplo, iremos criar um nome com quatro componentes. Por exemplo, eles podem ser corredor, estante, prateleira e compartimento.
 2. Clique em **Novo**.
 3. No campo **Formato de localização**, digite um valor.
 4. No campo **Nome**, digite um valor.

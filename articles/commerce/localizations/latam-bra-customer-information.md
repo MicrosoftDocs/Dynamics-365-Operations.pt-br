@@ -1,26 +1,26 @@
 ---
 title: Gerenciar informações do cliente no PDV para o Brasil
 description: Este artigo descreve como gerenciar informações do cliente no PDV (Ponto de Venda) do Commerce para o Brasil.
-author: akviklis
-manager: annbe
+author: EvgenyPopovMBS
 ms.date: 12/01/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
-ms.search.form: ''
 audience: Application User
-ms.reviewer: v-chgri
+ms.reviewer: v-chgriffin
 ms.search.region: Brazil
-ms.search.industry: Retail
-ms.author: sepism
+ms.author: josaw
 ms.search.validFrom: 2021-01-01
 ms.dyn365.ops.version: 10.0.18
-ms.openlocfilehash: b2396d6cf73364a7c5c8b1f06d1f46b1cbd00c9b
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.search.industry: Retail
+ms.search.form: ''
+manager: annbe
+ms.openlocfilehash: 9e253d5ee5afe7918c4ca58d88c5aba7ae02a97b
+ms.sourcegitcommit: 87e727005399c82cbb6509f5ce9fb33d18928d30
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8848878"
+ms.lasthandoff: 08/12/2022
+ms.locfileid: "9275052"
 ---
 # <a name="manage-customer-information-in-pos-for-brazil"></a>Gerenciar informações do cliente no PDV para o Brasil
 

@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: mirzaab
 ms.search.validFrom: 2020-05-01
 ms.dyn365.ops.version: 10.0.3
-ms.openlocfilehash: f793cb71ff52e49534e1f11b06132f2e20610d7c
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: bec96131326b3162b3d1a138b896e85982ad3aa5
+ms.sourcegitcommit: c98d55a4a6e27239ae6b317872332f01cbe8b875
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8845914"
+ms.lasthandoff: 08/02/2022
+ms.locfileid: "9219522"
 ---
 # <a name="configure-shipment-consolidation-policies"></a>Configurar políticas de consolidação de remessa
 
@@ -61,7 +61,6 @@ Siga estas etapas para configurar políticas de consolidação de remessa padrã
 1. Na Guia Rápida **Depósito**, defina a opção **Consolidar a remessa na liberação para o depósito** como *Sim*.
 1. Repita as etapas 2 a 4 para todos os outros depósitos nos quais a consolidação é necessária.
 1. Feche a página.
-1. Use o [gerenciamento de recursos](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) para ativar o recurso *Políticas de consolidação de remessa*. No espaço de trabalho **Gerenciamento de recursos**, o recurso é chamado *Consolidar remessa*.
 1. Acesse **Gerenciamento de depósito \> Configuração \> Liberar para depósito \> Políticas de consolidação de remessa**. Talvez seja necessário atualizar o navegador para ver o novo item de menu **Políticas de consolidação de remessa** depois que você ativar o recurso.
 1. No Painel de Ações, selecione **Criar configuração padrão** para criar as seguintes políticas:
 
@@ -81,7 +80,6 @@ Siga estas etapas para configurar políticas de consolidação de remessa padrã
 
 Siga estas etapas para configurar políticas de consolidação de remessa padrão em um ambiente totalmente novo.
 
-1. Use o [gerenciamento de recursos](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) para ativar o recurso *Políticas de consolidação de remessa*, caso ainda não tenha ativado esse recurso. No espaço de trabalho **Gerenciamento de recursos**, o recurso é chamado *Consolidar remessa*.
 1. Acesse **Gerenciamento de depósito \> Configuração \> Liberar para depósito \> Políticas de consolidação de remessa**.
 1. No Painel de Ações, selecione **Criar configuração padrão** para criar as seguintes políticas:
 

@@ -1,7 +1,7 @@
 ---
 title: Calcular juros e multas sobre pagamentos de fornecedores (Brasil)
 description: Você pode aplicar juros e multas a pagamentos de fornecedor que estejam atrasados.
-author: sndray
+author: AdamTrukawka
 ms.date: 06/26/2017
 ms.topic: business-process
 ms.prod: ''
@@ -9,15 +9,15 @@ ms.technology: ''
 audience: Application User
 ms.reviewer: kfend
 ms.search.region: Brazil
-ms.author: sndray
+ms.author: atrukawk
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 313a66b871ee375ddad00487504c30787c0f6917f63297d82e52f87217be1e4e
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: d002d9cfc12772a4136279d21bd495b3b4474cf3
+ms.sourcegitcommit: 87e727005399c82cbb6509f5ce9fb33d18928d30
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6714421"
+ms.lasthandoff: 08/12/2022
+ms.locfileid: "9269280"
 ---
 # <a name="calculate-interest-and-fines-on-vendor-payments-brazil"></a>Calcular juros e multas sobre pagamentos de fornecedores (Brasil)
 

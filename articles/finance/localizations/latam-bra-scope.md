@@ -1,7 +1,7 @@
 ---
 title: Escopo da localização brasileira
 description: Este artigo descreve a estratégia e o escopo para leis e regulamentos tributários, financeiros e contábeis no Brasil.
-author: sndray
+author: AdamTrukawka
 ms.date: 11/22/2021
 ms.topic: article
 ms.prod: ''
@@ -9,15 +9,15 @@ ms.technology: ''
 audience: Application User
 ms.reviewer: kfend
 ms.search.region: Brazil
-ms.author: sndray
-ms.search.validFrom: 2018-4-30
+ms.author: atrukawk
+ms.search.validFrom: 2018-04-30
 ms.dyn365.ops.version: 8
-ms.openlocfilehash: c640fbc8dff995c21491a705b2945db8ec643e9b
-ms.sourcegitcommit: 28a726b3b0726ecac7620b5736f5457bc75a5f84
+ms.openlocfilehash: 50735c941529cc7805a44c3e142bdaf8d9b30337
+ms.sourcegitcommit: 87e727005399c82cbb6509f5ce9fb33d18928d30
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/29/2022
-ms.locfileid: "9067664"
+ms.lasthandoff: 08/12/2022
+ms.locfileid: "9278217"
 ---
 # <a name="scope-of-the-brazilian-localization"></a>Escopo da localização brasileira
 

@@ -10,12 +10,12 @@ ms.search.region: Global
 ms.author: kamaybac
 ms.search.validFrom: 2021-10-15
 ms.dyn365.ops.version: 10.0.23
-ms.openlocfilehash: ded645ebaea1230b68525c247ee91e3893211774
-ms.sourcegitcommit: 873d66c03a51ecb7082e269f30f5f980ccd9307f
+ms.openlocfilehash: 1b45cc2ba26f60ab444edca6c513c581e8332a2a
+ms.sourcegitcommit: c98d55a4a6e27239ae6b317872332f01cbe8b875
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 07/06/2022
-ms.locfileid: "9124518"
+ms.lasthandoff: 08/02/2022
+ms.locfileid: "9219114"
 ---
 # <a name="whats-new-or-changed-in-dynamics-365-supply-chain-management-10023-january-2022"></a>Novidades ou alterações no Dynamics 365 Supply Chain Management 10.0.23 (janeiro de 2022)
 
@@ -55,7 +55,7 @@ Se você quiser ativar ou desativar qualquer um desses recursos, será necessár
 | Gerenciamento de estoque e depósito | (Rússia) Usar traduções para idioma local nos principais formulários específicos de um país ou região no Gerenciamento de estoque | Para as localizações do Supply Chain Management na Rússia, este recurso permite o uso de traduções em russo de nomes de produto/item e unidades de medida nas seguintes impressões de estoque específicas da Rússia: Lista de contagem (INV-3), Lista de contagem (INV-5) e Lista de contagem (INV-6). |
 | Planejamento Mestre | Serviço do Azure Machine Learning para previsão de demanda. | Esse recurso permite que o Serviço do Azure Machine Learning gere previsões de demanda com base em dados históricos. Para obter mais informações, consulte [Configuração da previsão de demanda](../master-planning/demand-forecasting-setup.md). |
 | Compras | Limpar histórico de atualizações de ordens de compra | Esse recurso permite que você limpe registros históricos temporários relacionados a atualizações de ordens de compra. Ele adiciona um novo botão chamado **Limpar histórico de atualização de compra** ao Painel de Ações na página **Todas as ordens de compra**. Esse recurso é habilitado por padrão. |
-| Controle de produção | (Versão preliminar) Separação automática de materiais habilitados de depósito para listas de separação lançadas automaticamente | Este recurso permite que você separe automaticamente e resolva dimensões de estoque para diários de lista de separação derivados e de fluxo inverso lançados automaticamente. |
+| Controle de produção | Separação automática de materiais habilitados de depósito para listas de separação lançadas automaticamente | Este recurso permite que você separe automaticamente e resolva dimensões de estoque para diários de lista de separação derivados e de fluxo inverso lançados automaticamente. |
 | Controle de produção | Validar vencimento de matérias-primas em relação à data de consumo planejada | Este recurso altera como as datas de vencimento do lote são validadas ao reservar um lote de matéria-prima a ser usada durante a produção. Quando este recurso estiver habilitado, a data de vencimento do lote será validada em relação à data de consumo planejada (a data da matéria-prima), conforme estabelecida na linha da BOM de produção ou na linha da fórmula da ordem de lote. Quando esse recurso estiver desabilitado, a data de vencimento do lote será validada em relação à data de entrega planejada da ordem de produção ou de lote (como anteriormente). |
 | Vendas e marketing | Limpar histórico de atualizações de vendas com base na idade | Esse recurso permite definir a idade máxima dos registros a serem mantidos durante a execução da tarefa periódica **Limpeza do histórico de atualizações de vendas**. Os registros mais antigos serão excluídos. Isso é útil quando você define que a tarefa seja executada periodicamente porque a idade é sempre calculada em relação à data em que a tarefa é executada. Sem esse recurso, você só pode definir uma data específica para que os registros mais antigos sejam mantidos. Para obter mais informações, consulte [Agendar limpeza de dados de histórico de vendas](../sales-marketing/sales-update-history-cleanup-performance-improvements.md). |
 | Vendas e marketing | Melhorar o desempenho do relatório dos "100 melhores" clientes | Esse recurso melhora o desempenho do relatório dos **100 principais** clientes executando sempre o relatório em todos os clientes (o que é o uso pretendido) em vez de permitir consultas personalizadas. Quando esse recurso estiver habilitado, todas as configurações **Registros para inclusão** estarão desabilitadas no diálogo do relatório **100 principais**. |

@@ -2,19 +2,19 @@
 title: Catálogo de endereços global e de participantes
 description: Este artigo descreve o recurso Catálogo de endereços global e de participantes de gravação dupla.
 author: RamaKrishnamoorthy
-ms.date: 04/25/2022
+ms.date: 08/02/2022
 ms.topic: article
 audience: Application User, IT Pro
 ms.reviewer: sericks
 ms.search.region: global
 ms.author: ramasri
 ms.search.validFrom: 2021-02-22
-ms.openlocfilehash: 91b56d091f549838092bdefe1a6a763fde79a32c
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: 7f06b6e69b76bf12092fdceca5b45a6750b52233
+ms.sourcegitcommit: e0905a3af85d8cdc24a22e0c041cb3a391c036cb
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8892183"
+ms.lasthandoff: 08/06/2022
+ms.locfileid: "9228980"
 ---
 # <a name="party-and-global-address-book"></a>Catálogo de endereços global e de participantes
 
@@ -119,11 +119,11 @@ A grade inclui as seguintes colunas:
 
 Você pode usar o botão **Novo Endereço** acima da grade para criar o número de endereços postais desejados.
 
-Os campos **Endereço 1** e **Endereço 2** na guia **Resumo** da página **Conta** correspondem aos endereços **Entrega** e **Fatura**, respectivamente.
+Em aplicativos de envolvimento de clientes, quando um usuário insere os endereços na guia **Resumo** da página **Contas**, os campos **Endereço 1** e **Endereço 2** correspondem aos endereços de **Entrega** e **Fatura**, respectivamente. No entanto, quando um usuário cria um endereço postal em aplicativos de finanças e operações, os primeiros dois endereços do registro de cliente aparecem nos campos **Endereço 1** e **Endereço 2**, e o usuário tem a opção de alterar a finalidade de endereço para **Entrega** e **Fatura**.
 
 ![Guia Resumo para endereços postais.](media/party-gab-image5.png)
 
-Os campos **Endereço 1**, **Endereço 2** e **Endereço 3** na guia **Resumo** da página **Contato** correspondem aos endereços de **Negócios**, **Entrega** e **Fatura**, respectivamente.
+Da mesma forma, os campos **Endereço 1**, **Endereço 2** e **Endereço 3** na guia **Resumo** da página **Contato** correspondem aos endereços de **Negócios**, **Entrega** e **Fatura**, respectivamente.
 
 ## <a name="electronic-addresses"></a>Endereços eletrônicos
 

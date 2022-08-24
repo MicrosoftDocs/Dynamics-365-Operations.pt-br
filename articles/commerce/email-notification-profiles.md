@@ -7,19 +7,19 @@ ms.topic: article
 ms.prod: ''
 ms.technology: ''
 audience: Application User
-ms.reviewer: v-chgri
-ms.custom: ''
-ms.assetid: ''
+ms.reviewer: v-chgriffin
 ms.search.region: Global
 ms.author: stuharg
 ms.search.validFrom: 2020-01-20
 ms.dyn365.ops.version: Release 10.0.8
-ms.openlocfilehash: 109adcc4e8b49c665bd14ecab2b7cc56cebd2291
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.custom: ''
+ms.assetid: ''
+ms.openlocfilehash: db6c46d471e3b54982132df3e4819236833cf4a8
+ms.sourcegitcommit: 87e727005399c82cbb6509f5ce9fb33d18928d30
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8878477"
+ms.lasthandoff: 08/12/2022
+ms.locfileid: "9292126"
 ---
 # <a name="set-up-an-email-notification-profile"></a>Configurar perfil de notificação por email
 
@@ -31,17 +31,9 @@ Ao criar canais, você pode configurar um perfil de notificação por email. O p
 
 Para obter informações adicionais sobre como configurar o email, consulte [Configurar e enviar email](../fin-ops-core/fin-ops/organization-administration/configure-email.md?toc=/dynamics365/commerce/toc.json).
 
-## <a name="create-an-email-notification-profile"></a>Criar perfil de notificação por email
 
-Para criar um perfil de notificação por email, siga estas etapas.
 
-1. No painel de navegação, Acesse **Módulos \> Retail e Commerce \> Configuração do headquarters \> Perfil de notificação por email do Commerce**.
-1. No painel de ações, clique em **Novo**.
-1. No campo **Perfil de notificação por email**, insira um nome para identificar o perfil.
-1. No campo **Descrição**, insira uma descrição relevante.
-1. Defina a alternância **Ativo** como **Sim**.
-
-### <a name="create-an-email-template"></a>Criar um modelo de email
+## <a name="create-an-email-template"></a>Criar um modelo de email
 
 Antes que um tipo de notificação por email possa ser habilitado, você deve criar um modelo de email de organização no Commerce headquarters. Este modelo define o assunto do email, o remetente, o idioma padrão e o corpo do email para cada idioma com suporte.
 
@@ -63,14 +55,24 @@ A imagem a seguir mostra alguns exemplos de configurações de modelo de email.
 
 Para obter mais informações sobre como criar modelos de email, consulte [Criar modelos de email para eventos transacionais](email-templates-transactions.md). 
 
-### <a name="create-an-email-event"></a>Criar um evento de email
+## <a name="create-an-email-notification-profile"></a>Criar perfil de notificação por email
+
+Para criar um perfil de notificação por email no headquarters, siga estas etapas.
+
+1. No painel de navegação, Acesse **Módulos \> Retail e Commerce \> Configuração do headquarters \> Perfil de notificação por email do Commerce**.
+1. No painel de ação, selecione **Novo**.
+1. No campo **Perfil de notificação por email**, insira um nome para identificar o perfil.
+1. No campo **Descrição**, insira uma descrição relevante.
+1. Defina a alternância **Ativo** como **Sim**.
+
+## <a name="add-a-notification-type"></a>Adicione um tipo de notificação
 
 Para criar um evento de email, siga estas etapas.
 
 1. No painel de navegação, Acesse **Módulos \> Retail e Commerce \> Configuração do headquarters \> Perfil de notificação por email do Commerce**.
-1. Na lista, localize e selecione o registro desejado. 
-1. Selecione o modelo de email na lista suspensa **ID do Email**.
+1. Em **Configurações de notificação de e-mail de venda a varejo**, selecione **Novo**.
 1. Selecione o **Tipo de notificação por email** apropriado na lista suspensa.
+1. Selecione o modelo de email que você criou acima na lista suspensa de **ID do email**.
 1. Marque a caixa de seleção **Ativo**.
 1. No painel de ação, selecione **Salvar**.
 
@@ -78,14 +80,12 @@ A imagem a seguir mostra alguns exemplos de configurações de notificação de 
 
 ![Configurações de notificação de evento.](media/email-notification-profile.png)
 
-> [!NOTE]
-> O tipo de notificação criado pelo cliente exige uma personalização a ser implementada para que uma notificação por email possa ser enviada.
 
-### <a name="schedule-a-recurring-email-notification-process-job"></a>Agendar um trabalho de processo de notificação por email recorrente
+## <a name="schedule-a-recurring-email-notification-process-job"></a>Agendar um trabalho de processo de notificação por email recorrente
 
 Para enviar notificações por email, o trabalho **Processar notificação por email da ordem de varejo** deve estar em execução.
 
-Para configurar o trabalho **Processar notificação por email da ordem de varejo** no Commerce headquarters, se ainda não fez isso, siga estas etapas.
+Para configurar um trabalho em lotes no headquarters para enviar emails transacionais, siga estas etapas.
 
 1. Acesse **Varejo e Comércio \> TI de Varejo e Comércio \> Email e notificações \> Enviar notificação por email**.
 1. Na caixa de diálogo **Processar notificação por email da ordem de varejo**, selecione **Recorrência**.
@@ -94,9 +94,9 @@ Para configurar o trabalho **Processar notificação por email da ordem de varej
 1. Selecione **OK** para voltar à caixa de diálogo **Processar notificação por email da ordem de varejo**.
 1. Selecione **OK** para concluir a configuração do trabalho.
 
-### <a name="next-steps"></a>Próximas etapas
+## <a name="next-steps"></a>Próximas etapas
 
-Para poder enviar emails, você deve configurar seu serviço de email de saída e configurar um trabalho em lotes. Para obter mais informações, consulte [Configurar e enviar email](../fin-ops-core/fin-ops/organization-administration/configure-email.md?toc=/dynamics365/commerce/toc.json).
+Antes de poder enviar emails, você deve configurar o serviço da caixa de saída. Para obter mais informações, consulte [Configurar e enviar email](../fin-ops-core/fin-ops/organization-administration/configure-email.md?toc=/dynamics365/commerce/toc.json).
 
 ## <a name="additional-resources"></a>Recursos adicionais
 

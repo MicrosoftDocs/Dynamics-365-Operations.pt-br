@@ -2,7 +2,7 @@
 title: Exibições salvas
 description: Este artigo descreve como usar os recursos de exibições salvas.
 author: jasongre
-ms.date: 04/25/2022
+ms.date: 07/26/2022
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -13,17 +13,17 @@ ms.search.region: Global
 ms.author: jasongre
 ms.search.validFrom: 2019-07-31
 ms.dyn365.ops.version: Platform update 28
-ms.openlocfilehash: 14369b02f1d7553be5c732f3bdf768825267998b
-ms.sourcegitcommit: 873d66c03a51ecb7082e269f30f5f980ccd9307f
+ms.openlocfilehash: 6faf71ec5d14584034f9107c33ccce1cd1d393c7
+ms.sourcegitcommit: c98d55a4a6e27239ae6b317872332f01cbe8b875
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 07/06/2022
-ms.locfileid: "9125140"
+ms.lasthandoff: 08/02/2022
+ms.locfileid: "9220322"
 ---
 # <a name="saved-views"></a>Exibições salvas
 
 [!include [banner](../includes/banner.md)]
-
+[!include [preview banner](../includes/preview-banner.md)]
 
 [!INCLUDE [PEAP](../../../includes/peap-1.md)]
 
@@ -46,7 +46,12 @@ Após a disponibilização de exibições para um ambiente, a parte superior de 
 Existem duas variações de tamanho para o seletor de exibição: 
 
 - **Grandes seletores de exibição** – as páginas que apresentam de forma proeminente uma lista terão um seletor de exibição maior por alguns motivos. O mais importante é que o seletor de exibição maior indica as páginas em que a exibição pode incluir filtros e classificações definidos pelo usuário. Como os filtros e classificações são incluídos nas exibições, o tamanho de seletor maior também é garantido, pois os nomes de exibição geralmente serão a melhor descrição dos dados mostrados na tela, e a expectativa é a de que os usuários alternem entre as exibições com mais frequência nesses tipos de página. O agrupamento em uma grade também pode ser salvo em exibições de uma página com seletores de exibição grandes. 
+    
+    [![Grande seletor de exibição que oferece suporte às modificações da consulta na exibição.](./media/views-largeViewSelector.png)](./media/views-largeViewSelector.png)
+
 - **Seletores de exibição pequenos** – todas as outras páginas inteiras (exceto espaços de trabalho e o painel) têm um seletor de exibição menor que aparece ao lado da legenda da página. As exibições nessas páginas incluem apenas personalizações, não filtros definidos pelo usuário. Nessas páginas, a legenda ou o título do registro costuma ser a informação mais importante na parte superior da página. O tamanho menor do seletor de exibição também reflete a frequência mais baixa de alternância de exibição que é esperada nessas páginas. 
+    
+    [![Pequeno seletor de exibição que não oferece suporte às modificações da consulta na exibição.](./media/views-smallViewSelector.png)](./media/views-smallViewSelector.png)
  
 Se você selecionar o nome da exibição, o seletor de exibição será aberto e mostrará a lista de exibições disponíveis para a página.
 
@@ -64,6 +69,8 @@ Para alternar para uma exibição diferente, primeiro abra o seletor de exibiç�
 Diferentemente da personalização tradicional, as exibições não são salvas automaticamente quando um usuário personaliza a página ou quando um usuário aplica um filtro a uma lista ou o classifica. Uma ação explícita é necessária para salvar essas alterações em uma exibição. Esse requisito dá aos usuários a flexibilidade de criar uma exibição antes ou depois da execução das alterações associadas a essa exibição. Ele também garante que as definições de exibição não sejam alteradas acidentalmente por filtros ou personalizações ocasionais. Note que itens de uso de página típicos (por exemplo, larguras de coluna ou o estado expandido ou recolhido de seções) são salvos automaticamente na exibição atual, até mesmo para exibições bloqueadas.
 
 Para garantir que o estado atual da exibição seja conhecido, quando você começar a alterar uma exibição, personalizando-a ou filtrando-a, um asterisco (\*) aparecerá ao lado do nome da exibição atual. Esse símbolo indica que você está vendo uma versão da exibição não salva e modificada.
+
+[![Alterações não salvas em uma exibição.](./media/views-unsavedChanges.png)](./media/views-unsavedChanges.png)
 
 Se você quiser salvar essas alterações, siga as etapas a seguir.
 
@@ -117,7 +124,7 @@ Para ajudar você a entender como melhorar o gerenciamento de personalizações 
 
 Sem exibições, os administradores aplicariam um conjunto de personalizações para uma página a um usuário ou um grupo de usuários usando a página Personalização. Se esses usuários tivessem direitos de personalização, as personalizações seriam aplicadas a essa página. Contudo, não era possível impedir que os usuários personalizassem ainda mais a página, o que significava que a organização não podia garantir que seus usuários tivessem uma interface de usuário consistente. Se algum desses usuários não tiver direitos de personalização, as personalizações dadas a eles por um administrador não serão carregadas. Além disso, se novos usuários fossem contratados em uma organização, os administradores precisavam carregar manualmente um conjunto de personalizações para o usuário. Não havia mecanismo automático para especificar que um determinado conjunto de personalizações deveria estar disponível para usuários nessa função.
 
-O recurso **Exibições salvas** facilita muito o gerenciamento organizacional de personalizações porque as exibições podem ser publicadas para grupos de usuários. Depois de publicar uma exibição, qualquer usuário com uma das funções de segurança definida e acesso a uma das entidades legais especificadas poderá visualizar e usar a exibição, mesmo que esse usuário não tenha acesso para personalização. Embora todo usuário tenha uma cópia da exibição publicada, na qual itens de uso da página são aplicados automaticamente, nenhum usuário pode salvar personalizações ou atualizações de consulta para uma exibição publicada. Em outras palavras, as exibições publicadas estão bloqueadas. Além disso, se funções forem atribuídas a novos usuários em entidades legais nas quais as exibições são publicadas, eles automaticamente verão as exibições associadas às funções e entidades legais deles. O administrador não precisa executar ações adicionais. Da mesma forma, se os usuários trocarem de funções em uma organização ou receberem acesso a diferentes entidades legais, eles podem não ter mais acesso às exibições anteriormente publicadas para eles. Novamente, o administrador não precisa executar ações adicionais.
+O recurso **Exibições salvas** facilita muito o gerenciamento organizacional de personalizações porque as exibições podem ser publicadas para grupos de usuários. Depois de publicar uma exibição, qualquer usuário com um direito de acesso definido e acesso a uma das entidades legais especificadas poderá visualizar e usar a exibição, mesmo que esse usuário não tenha acesso para personalização. Embora todo usuário tenha uma cópia da exibição publicada, na qual itens de uso da página são aplicados automaticamente, nenhum usuário pode salvar personalizações ou atualizações de consulta para uma exibição publicada. Em outras palavras, as exibições publicadas estão bloqueadas. Além disso, se funções forem atribuídas a novos usuários em entidades legais nas quais as exibições são publicadas, eles automaticamente verão as exibições associadas às funções e entidades legais deles. O administrador não precisa executar ações adicionais. Da mesma forma, se os usuários trocarem de funções em uma organização ou receberem acesso a diferentes entidades legais, eles podem não ter mais acesso às exibições anteriormente publicadas para eles. Novamente, o administrador não precisa executar ações adicionais.
 
 As atualizações de uma exibição publicada podem ser facilmente distribuídas aos usuários, republicando a exibição para as funções de segurança e entidades legais apropriadas.
 
@@ -225,7 +232,7 @@ Quando as exibições estão habilitadas, todas as personalizações existentes 
 
 ### <a name="what-pages-support-views"></a>Quais páginas oferecem suporte a exibições? 
 
-As exibições estão disponíveis na maioria, mas não em todas as páginas. Especificamente, as exibições estão atualmente disponíveis em todas as páginas de tela inteira, exceto nos painéis e espaços de trabalho. As páginas que não são de tela inteira, que incluem caixas de diálogo, diálogos suspensos, pesquisas, visualizações avançadas, não oferecem suporte a exibições no momento. O suporte de exibição para tipos de página adicionais, como espaços de trabalho e caixas de diálogo, pode ser considerado para uma atualização futura.
+As exibições estão disponíveis na maioria, mas não em todas as páginas. Especificamente, as exibições estão atualmente disponíveis em todas as páginas de tela inteira, exceto nos painéis. A exibição de suporte para espaços de trabalho está disponível por meio do recurso **Suporte às exibições salvas de espaços de trabalho**. A maioria das páginas que não são de tela inteira, que incluem caixas de diálogo suspensas, pesquisas, visualizações avançadas, não oferecem suporte a exibições no momento. A exibição de suporte para caixas de diálogo está disponível por meio do recurso **Suporte às exibições salvas de caixas de diálogo**.
 
 ### <a name="who-is-allowed-to-publish-views"></a>Quem tem permissão para publicar exibições?
 

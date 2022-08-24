@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: mirzaab
 ms.search.validFrom: 2020-07-01
 ms.dyn365.ops.version: 10.0.7
-ms.openlocfilehash: 6d04ca43895935329b711f2658360c41f611975e
-ms.sourcegitcommit: 28a726b3b0726ecac7620b5736f5457bc75a5f84
+ms.openlocfilehash: 2b3c408f5a5e4ce85a235ac83c15b648e43b5e10
+ms.sourcegitcommit: c98d55a4a6e27239ae6b317872332f01cbe8b875
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/29/2022
-ms.locfileid: "9065454"
+ms.lasthandoff: 08/02/2022
+ms.locfileid: "9220047"
 ---
 # <a name="warehouse-location-status"></a>Status da localização do depósito
 
@@ -42,10 +42,7 @@ Os quatro campos a seguir na página **Locais** rastreiam informações sobre o 
 
 ## <a name="turn-on-the-warehouse-location-status-feature"></a>Ativar o recurso Status da localização do depósito
 
-Para que você possa usar o recurso *Status da localização do depósito*, ele deve estar ativado no sistema. Os administradores podem usar as configurações de [gerenciamento de recursos](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) para verificar o status do recurso e ativá-lo se necessário. No espaço de trabalho **Gerenciamento de recursos**, o recurso está listado da seguinte forma:
-
-- **Módulo:** *Gerenciamento de Depósito*
-- **Nome do recurso:** *Status da localização do depósito*
+Antes de poder usar esse recurso, você deve habilitá-lo no seu sistema. A partir da versão 10.0.29 do Supply Chain Management, este recurso está ativado por padrão. Os administradores podem ativar ou desativar essa funcionalidade procurando o recurso *Status da localização do depósito* no espaço de trabalho [Gerenciamento de recursos](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md).
 
 ## <a name="set-up-warehouse-location-status"></a>Configurar o status da localização do depósito
 
@@ -55,7 +52,7 @@ Antes de começar a trabalhar no cenário, você deve ativar os dados de exemplo
 
 #### <a name="use-the-usmf-legal-entity"></a>Usar a entidade legal USMF
 
-Para trabalhar com o cenário de exemplo usando os registros e valores de exemplo especificados aqui, você deve usar um sistema em que os [dados de demonstração](../../fin-ops-core/dev-itpro/deployment/deploy-demo-environment.md) padrão estejam instalados. Além disso, você deve selecionar a entidade legal **USMF** antes de começar.
+Para trabalhar com o cenário de exemplo usando os registros e valores de exemplo especificados aqui, você deve usar um sistema em que os [dados de demonstração](../../fin-ops-core/fin-ops/get-started/demo-data.md) padrão estejam instalados. Além disso, você deve selecionar a entidade legal **USMF** antes de começar.
 
 #### <a name="set-up-location-profiles"></a>Configurar perfis de localização
 

@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: johanho
 ms.search.validFrom: 2021-01-28
 ms.dyn365.ops.version: 10.0.17
-ms.openlocfilehash: d6ad25ec49a329c16b0290278fb614293a507eae
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: b7c2c07f3e3eb76ff20e37e8d5d485dc08232c7a
+ms.sourcegitcommit: c98d55a4a6e27239ae6b317872332f01cbe8b875
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8887679"
+ms.lasthandoff: 08/02/2022
+ms.locfileid: "9220412"
 ---
 # <a name="bill-for-maintenance-on-customer-owned-assets"></a>Cobrança por manutenção sobre ativos de propriedade do cliente
 
@@ -49,7 +49,7 @@ Antes de poder usar esse recurso, você deve habilitá-lo no seu sistema. Os adm
 
 Para saber como esse recurso funciona, veja o cenário de exemplo a seguir.
 
-Para trabalhar nesse cenário usando os registros e valores de exemplo especificados aqui, você deve usar um sistema em que os [dados de demonstração](../../../fin-ops-core/dev-itpro/deployment/deploy-demo-environment.md) padrão estejam instalados. Você deve selecionar a entidade legal **USMF** antes de começar.
+Para trabalhar nesse cenário usando os registros e valores de exemplo especificados aqui, você deve usar um sistema em que os [dados de demonstração](../../../fin-ops-core/fin-ops/get-started/demo-data.md) padrão estejam instalados. Você deve selecionar a entidade legal **USMF** antes de começar.
 
 Você também pode usar este cenário como orientação para usar o recurso ao trabalhar em um sistema de produção. No entanto, nesse caso, você deve substituir seus próprios valores e talvez não tenha alguns tipos de registros necessários fornecidos pelos dados de demonstração padrão.
 

@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: twheeloc
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 833d6cc131b3fb45d273b60ecf6778b2be31fc8a
-ms.sourcegitcommit: a58dfb892e43921157014f0784bd411f5c40e454
+ms.openlocfilehash: 87be947c829641ba809e6850ccf41ea6d142161d
+ms.sourcegitcommit: e0905a3af85d8cdc24a22e0c041cb3a391c036cb
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/04/2022
-ms.locfileid: "8687097"
+ms.lasthandoff: 08/06/2022
+ms.locfileid: "9228950"
 ---
 # <a name="plan-type-overview"></a>Visão geral do tipo de plano
 
@@ -27,6 +27,8 @@ ms.locfileid: "8687097"
 [!INCLUDE [PEAP](../includes/peap-2.md)]
 
 [!include [Applies to Human Resources](../includes/applies-to-hr.md)]
+
+[!include [banner](../includes/preview-banner.md)]
 
 Um tipo de plano é um agrupamento de alto nível de tipos específicos de benefícios. Cada tipo de plano tem um código de tipo de plano que determina as regras para o tipo de plano. Por exemplo, o tipo de plano **Vida básica** terá o código de tipo de plano **Vida** porque é um tipo de plano de seguro de vida e deve seguir as regras que foram estabelecidas para o código de tipo de plano **Vida**. Outro tipo de plano pode ser **Vida complementar**. Este tipo de plano também terá o código de tipo de plano **Vida**.
 
@@ -67,12 +69,12 @@ Um tipo de plano pode definir opções de cobertura. As opções de cobertura s�
    | --- | --- |
    | **Tipo de plano** | O tipo de plano no qual configurar opções de evento de vida. |
    | **ID do tipo de evento de vida** | A ID do tipo de evento de vida. |
-   | **Permitir cancelamento** | Especifica se um funcionário pode cancelar um plano de benefícios durante o evento de vida. |
    | **Alterar opção de cobertura** | Especifica se um funcionário pode alterar opções de cobertura durante o evento de vida. |
    | **Alterar para um novo plano** | Especifica se um funcionário pode alterar planos durante o evento de vida. |
-   | **Cancelar plano automaticamente** | Especifica se o plano deve ser cancelado automaticamente durante o evento de vida. |
    | **Verificação de qualificação para reabertura automática** | Especifica se a verificação de qualificação de inscrição no benefício será reaberta automaticamente durante o evento de vida. |
-   | **Janela do relatório** | Especifica a janela do relatório, em dias, do evento de vida. **Observação**: se você não inserir um valor, o sistema assumirá que a janela de relatório é zero e não processará o evento de vida. |
+   | **Período de inscrição em eventos da vida** | Especifica a janela do relatório, em dias, do evento de vida. **Observação**: se você não inserir um valor, o sistema assumirá que a janela de relatório é zero e não processará o evento de vida. |
+   | **Editável somente pelos administradores** | Especifica se administradores podem cancelar ou editar um plano durante um evento da vida. Nenhuma alteração pode ser feita pelo funcionário no espaço de trabalho **Autoatendimento para funcionários**. |
+   | **Cancelar plano automaticamente** | Especifica se o plano deve ser cancelado automaticamente durante o evento da vida. Depois que as alterações de evento da vida são processadas, a opção **Cancelamento automático do plano** manterá a seleção do plano. Somente os status **Confirmado** ou **Checked out** serão removidos. O plano permanece selecionado. Portanto, os funcionários que não fazem seleções de plano durante o período de inscrição do evento da vida não perderão a seleção do plano. 
 
 5. Selecione **Salvar**. 
 

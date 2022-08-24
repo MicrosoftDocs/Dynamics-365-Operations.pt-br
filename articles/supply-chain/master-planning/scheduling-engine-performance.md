@@ -16,12 +16,12 @@ ms.search.industry: ''
 ms.author: benebotg
 ms.search.validFrom: 2020-09-03
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: f5ece3672bba352e02808248c91366539423d682
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: ddc22bdd223eff513ff571501c599712ac78a7da
+ms.sourcegitcommit: c98d55a4a6e27239ae6b317872332f01cbe8b875
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8854287"
+ms.lasthandoff: 08/02/2022
+ms.locfileid: "9219897"
 ---
 # <a name="improve-scheduling-engine-performance"></a>Melhorar o desempenho do mecanismo de agendamento
 
@@ -294,7 +294,9 @@ Uma alternativa ao uso de operações paralelas é modelar os pares como recurso
 
 ### <a name="route-with-quantity-of-resources-higher-than-1"></a>Roteiro com quantidade de recursos maior que 1
 
-Se a configuração da quantidade de recursos necessários para uma operação for superior a um, o resultado será o mesmo que o uso de operações principais/secundárias, pois vários trabalhos paralelos serão enviados para o mecanismo. No entanto, nesse caso, não há uma opção de usar atribuições específicas de recursos, porque uma quantidade superior a um exige que mais de um recurso seja aplicável à operação.
+Se a quantidade de recursos necessários para uma operação for maior que um, o resultado será efetivamente o mesmo que usar operações primárias/secundárias, pois vários trabalhos paralelos serão enviados ao mecanismo. No entanto, para este caso, não é possível usar atribuições de recursos específicos porque uma quantidade maior que um exige que mais de um recurso seja aplicável à operação.
+
+Uma operação secundária que tem uma quantidade de carga de recursos maior que um indica que a quantidade especificada de recursos secundários é necessária para cada recurso da operação principal. Por exemplo, se uma operação primária tiver sua quantidade de recursos definida como dois e sua operação secundária tiver sua quantidade de recursos definida como três, será necessário um total de seis recursos para a operação secundária.
 
 ### <a name="excessive-use-of-finite-capacity"></a>Uso excessivo de capacidade finita
 

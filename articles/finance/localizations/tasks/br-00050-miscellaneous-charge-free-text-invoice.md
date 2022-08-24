@@ -1,7 +1,7 @@
 ---
 title: Encargos diversos sobre faturas de texto livre (Brasil)
 description: A legislação brasileira aplica encargos diversos que incluem frete.
-author: sndray
+author: AdamTrukawka
 ms.date: 06/23/2017
 ms.topic: business-process
 ms.prod: ''
@@ -9,16 +9,16 @@ ms.technology: ''
 audience: Application User
 ms.reviewer: kfend
 ms.search.region: Brazil
-ms.search.industry: Manufacturing;Distribution;Service industries
-ms.author: sndray
+ms.author: atrukawk
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 6a114942d1a1d80a802a58bf903298f07ca0bce5554a8bef50cadd0bba4c2ce8
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.search.industry: Manufacturing;Distribution;Service industries
+ms.openlocfilehash: 7a60f5965d45e1cc38cb2353811e7c8da852efae
+ms.sourcegitcommit: 87e727005399c82cbb6509f5ce9fb33d18928d30
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6720482"
+ms.lasthandoff: 08/12/2022
+ms.locfileid: "9269314"
 ---
 # <a name="miscellaneous-charges-on-free-text-invoices-brazil"></a>Encargos diversos sobre faturas de texto livre (Brasil)
 

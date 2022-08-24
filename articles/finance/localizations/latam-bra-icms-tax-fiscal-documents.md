@@ -1,25 +1,25 @@
 ---
 title: Notas fiscais de transferência ou apropriação de imposto ICMS para o Brasil
 description: Este artigo explica o conceito de notas fiscais de transferência ou apropriação de imposto e descreve os requisitos para gerá-las.
-author: sndray
+author: AdamTrukawka
 ms.date: 08/08/2017
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
-ms.search.form: TaxFiscalDocument_BR, TaxFiscalDocumentCancel_BR, TaxFiscalDocumentListPage_BR, TaxFiscalDocumentPost_BR
 audience: Application User
 ms.reviewer: kfend
-ms.custom: 269524
 ms.search.region: Brazil
-ms.author: sndray
+ms.author: atrukawk
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: 0cb3d376d6d62eef833fe5a17f755b231ce6c112
-ms.sourcegitcommit: 28a726b3b0726ecac7620b5736f5457bc75a5f84
+ms.custom: 269524
+ms.search.form: TaxFiscalDocument_BR, TaxFiscalDocumentCancel_BR, TaxFiscalDocumentListPage_BR, TaxFiscalDocumentPost_BR
+ms.openlocfilehash: 369f71e46367046f4da972ed1dec478a3973b75a
+ms.sourcegitcommit: 87e727005399c82cbb6509f5ce9fb33d18928d30
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/29/2022
-ms.locfileid: "9068477"
+ms.lasthandoff: 08/12/2022
+ms.locfileid: "9283017"
 ---
 # <a name="icms-tax-fiscal-documents-for-brazil"></a>Notas fiscais de transferência ou apropriação de imposto ICMS para o Brasil
 

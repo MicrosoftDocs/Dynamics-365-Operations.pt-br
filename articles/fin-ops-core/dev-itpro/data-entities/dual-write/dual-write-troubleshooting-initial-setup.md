@@ -5,22 +5,20 @@ author: RamaKrishnamoorthy
 ms.date: 08/10/2021
 ms.topic: article
 audience: Application User, IT Pro
-ms.reviewer: tfehr
+ms.reviewer: sericks
 ms.search.region: global
 ms.author: ramasri
 ms.search.validFrom: 2020-03-16
-ms.openlocfilehash: 2e2759ff15dd8d146c642fc0da90d1a38fe855d1
-ms.sourcegitcommit: 6781fc47606b266873385b901c302819ab211b82
+ms.openlocfilehash: d33fc6f4895b53f16cc6957a3a2fc6b1abe90a2f
+ms.sourcegitcommit: 87e727005399c82cbb6509f5ce9fb33d18928d30
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 07/02/2022
-ms.locfileid: "9111190"
+ms.lasthandoff: 08/12/2022
+ms.locfileid: "9289504"
 ---
 # <a name="troubleshoot-issues-during-initial-setup"></a>Solucionar problemas durante a configuração inicial
 
 [!include [banner](../../includes/banner.md)]
-
-
 
 Este artigo fornece informações de solução de problemas para a integração de gravação dupla entre aplicativos de finanças e operações e o Dataverse. Especificamente, ele fornece informações sobre como solucionar problemas que podem ajudá-lo a corrigir problemas que podem ocorrer durante a configuração inicial da integração de gravação dupla.
 
@@ -51,7 +49,7 @@ Ao vincular o ambiente de gravação dupla, a ação falha com uma mensagem de e
 
 *Falha ao salvar conjunto de conexões! Um item com a mesma chave já foi adicionado.*
 
-A gravação dupla não oferece suporte a várias entidades legais/empresas com o mesmo nome. Por exemplo, se você tiver duas empresas com o nome "DAT" no Dataverse, ele receberá essa mensagem de erro.
+A gravação dupla não oferece suporte a várias entidades legais/empresas com o mesmo nome. Por exemplo, caso você tenha duas empresas com o nome "DAT" no Dataverse, ele receberá essa mensagem de erro.
 
 Para desbloquear o cliente, remova os registros duplicados da tabela **cdm_company** no Dataverse. Além disso, se a tabela **cdm_company** tiver registros com nome em branco, remova ou corrija esses registros.
 
@@ -87,6 +85,19 @@ Há duas coisas que podem fazer com que um ambiente não seja detectável:
 
 + O usuário usado para logon não está no mesmo locatário da instância de finanças e operações.
 + Existem algumas instâncias herdadas de finanças e operações que eram hospedadas pela Microsoft que tinham um problema com a descoberta. Para corrigir isso, atualize a instância de finanças e operações. O ambiente torna-se detectável com qualquer atualização.
+
+## <a name="403-forbidden-error-while-connections-are-being-created"></a>403 (proibido), erro ao criar conexões
+
+Como parte do processo de vinculação de gravação dupla, duas conexões Power Apps (também conhecidas como conexões *Apihub*) são criadas em nome do usuário no ambiente vinculado Dataverse. Se o cliente não tiver uma licença para o ambiente Power Apps, a criação das conexões de ApiHub apresentará uma falha e um erro 403 (proibido) será exibido. Veja aqui um exemplo da mensagem de erro:
+
+> MSG =\[falha ao configurar o ambiente de gravação dual. Detalhes do erro: o código de status de resposta não indica êxito: 403 (proibido). -O código de status de resposta não indica êxito: 403 (proibido).\] RASTREAMENTO DE PILHA =\[   em Microsoft. Dynamics. Integrator. ProjectManagementService. DualWrite. DualWriteConnectionSetProcessor.\<CreateDualWriteConnectionSetAsync\>d\_\_29. MoveNext () em X:\\BT\\1158727\\repositório\\src\\ProjectManagementService\\DualWrite\\DualWriteConnectionSetProcessor.cs: linha 297---fim do rastreamento de pilha a partir do local anterior onde a exceção foi lançada---em System. Runtime. ExceptionServices. TaskAwaiter. HandleNonSuccessAndDebuggerNotification (tarefa de tarefa) em Microsoft. Dynamics. Integrator. ProjectManagementService. Controllers. DualWriteEnvironmentManagementController.\<SetupDualWriteEnvironmentAsync\>d\_\_34.MoveNext () em X:\\BT\\1158727\\os controladores\\de ProjectManagementService\\do repositório\\src\\DualWriteEnvironmentManagementController.cs: linha 265\]
+
+Este erro ocorre devido à falta de uma licença Power Apps. Atribua uma licença apropriada (por exemplo, plano de avaliação 2 para Power Apps) ao usuário, para que o usuário tenha permissão para criar as conexões. Para verificar a licença, o cliente pode ir para o [site "Minha conta"](https://portal.office.com/account/?ref=MeControl#subscriptions) a fim de exibir as licenças atribuídas ao usuário no momento.
+
+Para obter mais informações sobre a licença do Power Apps, veja os seguintes artigos:
+
+- [Atribuir licenças a usuários](/microsoft-365/admin/manage/assign-licenses-to-users?view=o365-worldwide)
+- [Comprar Power Apps para sua organização](/power-platform/admin/signup-for-powerapps-admin)
 
 [!INCLUDE[footer-include](../../../../includes/footer-banner.md)]
 

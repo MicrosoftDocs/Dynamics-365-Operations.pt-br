@@ -10,30 +10,37 @@ ms.search.region: Global
 ms.author: benebotg
 ms.search.validFrom: 2021-07-30
 ms.dyn365.ops.version: 10.0.21
-ms.openlocfilehash: 4bd6042f9dd33ba15773b251911e965cb870c5aa
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: e1c9a9b618184303efe2bd10975e46423cca9ccc
+ms.sourcegitcommit: c98d55a4a6e27239ae6b317872332f01cbe8b875
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8865111"
+ms.lasthandoff: 08/02/2022
+ms.locfileid: "9219957"
 ---
 # <a name="delay-tolerance-negative-days"></a>Tolerância de atraso (dias negativos)
 
 [!include [banner](../../includes/banner.md)]
 
-A funcionalidade de tolerância ao atraso permite que a Otimização de Planejamento considere o valor **Dias negativos** definido para grupos de cobertura. Ela é usada para estender o período de tolerância de atraso que é aplicado durante o planejamento mestre. Desta forma, você pode evitar a criação de novas ordens de suprimento se a oferta existente for capaz de cobrir a demanda após um curto atraso. O objetivo da funcionalidade é determinar se faz sentido criar uma nova ordem de suprimento para uma determinada demanda.
+A funcionalidade de tolerância ao atraso permite que a "Otimização de planejamento" considere o valor **Dias negativos** definido para grupos de cobertura, cobertura de itens e/ou planos mestre. Ela é usada para estender o período de tolerância de atraso que é aplicado durante o planejamento mestre. Desta forma, você pode evitar a criação de novas ordens de suprimento se a oferta existente for capaz de cobrir a demanda após um curto atraso. O objetivo da funcionalidade é determinar se faz sentido criar uma nova ordem de suprimento para uma determinada demanda.
 
 ## <a name="turn-on-the-feature-in-your-system"></a>Ative o recurso no seu sistema
 
-Para disponibilizar a funcionalidade de tolerância de atraso no sistema, acesse [Gerenciamento de recursos](../../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) e ative o recurso *Dias negativos para Otimização de Planejamento*.
+Para disponibilizar a funcionalidade de tolerância de atraso no sistema, acesse [Gerenciamento de recursos](../../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) e ative os recursos seguintes:
+
+- *Dias negativos para a otimização do planejamento* – este recurso permite configurações de dias negativos para grupos de cobertura e cobertura de item.
+- *Automação de fornecimento disponível sob encomenda* – este recurso permite configurações de dias negativos para planos mestre. (Para obter mais informações, consulte [Automação de fornecimento disponível sob encomenda](../make-to-order-supply-automation.md).)
 
 ## <a name="delay-tolerance-in-planning-optimization"></a>Tolerância de atraso na Otimização de Planejamento
 
 A tolerância de atraso representa o número de dias fora do prazo que você está disposto a esperar antes de encomendar um novo reabastecimento quando a oferta existente já está planejada. A tolerância de atraso é definida usando dias corridos, e não dias úteis.
 
-No momento do planejamento mestre, quando o sistema calcula a tolerância de atraso, ele considera a configuração **Dias negativos**. Você pode definir o valor de **Dias negativos** nas páginas **Grupos de cobertura** ou **Cobertura de item**.
+No momento do planejamento mestre, quando o sistema calcula a tolerância de atraso, ele considera a configuração **Dias negativos**. Você pode definir um valor para a opção **Dias negativos** nas páginas **Grupos de cobertura**, **Cobertura de item** ou **Planos mestre**. Se os dias negativos forem atribuídos em mais de um nível, o sistema aplicará a hierarquia a seguir para decidir qual configuração usar:
 
-O sistema vincula o cálculo de tolerância de atraso à *data de reabastecimento mais antiga*, que equivale à data de hoje mais o tempo de início. A tolerância de atraso é calculada usando a seguinte fórmula, na qual *max()* encontra o maior de dois valores:
+- Se os dias negativos estiverem habilitados na página **Planos mestre**, essa configuração substituirá todas as outras configurações de dias negativos quando o plano for executado.
+- Se os dias negativos forem configurados na página **Cobertura de item**, essa configuração substituirá a configuração do grupo de cobertura.
+- Os dias negativos configurados na página **Grupos de cobertura** se aplicam somente se os dias negativos não foram configurados para um item ou um plano relevante.
+
+O sistema vincula o cálculo de tolerância de atraso à *data de reabastecimento mais antiga*, que equivale à data de hoje mais o tempo de início. A tolerância de atraso é calculada usando a seguinte fórmula, na qual *max()* considera o maior de dois valores:
 
 *max (Data de reabastecimento mais antiga, data de conclusão da demanda)* – *Data de conclusão da demanda* + *Dias negativos*
 

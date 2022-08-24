@@ -1,26 +1,26 @@
 ---
 title: Componentes de Relatório eletrônico
 description: Este artigo descreve os componentes de ER (Relatório eletrônico).
-author: nselin
+author: kfend
 ms.date: 09/28/2021
+ms.topic: overview
 ms.prod: ''
 ms.technology: ''
-ms.search.form: ERWorkspace
 audience: Application User, Developer, IT Pro
 ms.reviewer: kfend
-ms.custom: 58941
-ms.assetid: 5d51b6a6-ad12-4af9-a66d-a1eb820ae57f
 ms.search.region: global
-ms.topic: overview
-ms.author: nselin
+ms.author: filatovm
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: c2b8b197fdea0cd49fc5161a12b8f547cc1a27bf
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.custom: 58941
+ms.assetid: 5d51b6a6-ad12-4af9-a66d-a1eb820ae57f
+ms.search.form: ERWorkspace
+ms.openlocfilehash: 4851374ca4943a84d35f063e0ee65b537ec3b6cd
+ms.sourcegitcommit: 87e727005399c82cbb6509f5ce9fb33d18928d30
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8892440"
+ms.lasthandoff: 08/12/2022
+ms.locfileid: "9285021"
 ---
 # <a name="electronic-reporting-components"></a>Componentes de Relatório eletrônico
 
@@ -113,7 +113,7 @@ Para executar uma única configuração de formato de ER para importar dados de 
 
 Controle de versão tem suporte para componentes ER. O seguinte fluxo de trabalho é fornecido para gerenciar alterações em componentes ER:
 
-1. A versão originalmente criada está marcada como uma versão **Rascunho**. Essa versão pode ser editada e está disponível para a execução do teste.
+1. A versão que foi originalmente criada está marcada como uma versão **Rascunho**. Essa versão pode ser editada e está disponível para a execução do teste.
 2. A versão **Rascunho** pode ser convertida em uma versão **Concluída**. Essa versão pode ser usada em processos de geração de relatórios locais.
 3. A versão **Concluída** pode ser convertida em uma versão **Compartilhada**. Essa versão é publicada no Microsoft Dynamics LCS (Lifecycle Services) e pode ser usada em processos de relatórios globais.
 4. A versão **Compartilhada** pode ser convertida em uma versão **Descontinuada**. Essa versão pode ser excluída.
@@ -123,15 +123,37 @@ As versões com o status **Concluída** ou **Compartilhada** estão disponíveis
 - O componente pode ser serializado em formato XML e exportado como um arquivo no formato XML.
 - O componente pode ser seriado novamente de um arquivo XML e importado para o aplicativo como uma nova versão de um componente de ER.
 
+Para mais informações, consulte [Importar uma nova configuração de modelos de dados](er-quick-start1-new-solution.md#ImportDataModel) e [Exportar a versão de conclusão de um formato derivado](er-calculated-field-type.md#export-completed-version-of-a-derived-format).
+
+### <a name="draft-versions-at-runtime"></a>Versões de rascunho no runtime
+
+Nos parâmetros de usuário pessoal da estrutura ER, você pode habilitar a opção que permite especificar se a versão de rascunho de uma configuração ER deve ser usada no runtime. Para obter informações sobre como disponibilizar a opção disponível **Executar rascunho** para suas configurações de ER, consulte [Marcar um formato personalizado como executável](er-quick-start2-customize-report.md#MarkFormatRunnable).
+
+> [!NOTE]
+> Os parâmetros de usuário de ER são específicos do usuário e da empresa.
+
+### <a name="draft-format-versions-at-runtime"></a>Versões de formato rascunho no runtime
+
+Por padrão, quando você executa uma solução de ER, as versões de rascunho de seus componentes de formato são ignoradas. Em vez disso, somente a versão relevante que tem um status diferente de **Rascunho** é usada. Às vezes, você pode optar por forçar o ER a usar a versão de rascunho da configuração de formato ER no runtime. Por exemplo, depois de introduzir as alterações necessárias na sua versão de rascunho, você pode usar essa versão de rascunho para executar o teste. Dessa forma, você pode validar a exatidão de suas mudanças. Para começar a usar a versão do formato "rascunho", você deve [configurar](er-quick-start2-customize-report.md#MarkFormatRunnable) a opção **Executar rascunho** da configuração relevante de ER para **Sim**.
+
+### <a name="draft-model-mapping-versions-at-runtime"></a>Versões de mapeamento de modelos de rascunho no runtime
+
+Por padrão, quando você executa uma solução de ER, as versões de rascunho de seus componentes de mapeamento do modelo são sempre utilizadas. Às vezes, você pode optar por forçar o ER a ignorar a versão de rascunho da configuração de mapeamento do modelo de ER no runtime. Na **versão 10.0.29 e posterior**, você pode habilitar o recurso **Sempre levar em consideração a opção "Executar rascunho" para mapeamentos de modelo ER** a fim de controlar a versão de mapeamento de modelos usada no runtime. Quando este recurso é habilitado, o seguinte comportamento ocorre:
+
+- Quando a opção **Executar rascunho** está definida como **Não** para uma configuração de mapeamento de modelo, a versão mais elevada sem rascunho dessa configuração é usada no runtime. Uma exceção será lançada se a configuração não estiver disponível na atual instância do Finance.
+- Quando a opção **Executar rascunho** está definida como **Sim** para uma configuração de mapeamento de modelo, a versão de rascunho dessa configuração é usada no runtime.
+
 ## <a name="component-date-effectivity"></a>Efetivação de data de componente
 
-Versão do componente ER com efetivação de data. Você pode definir a data de "efetivação inicial" para que um componente ER especifique a data em que esse componente entrará em vigor para os processos de relatório. A data da sessão do aplicativo é usada para definir se um componente é válido para execução. Se mais de uma versão for válida para uma data específica, a última versão será usada para processos de relatório.
+Versões do componente ER com efetivação de data. Você pode definir a data de "efetivação a partir de" para que um componente do formato ER especifique a data em que esse componente entrará em vigor para os processos de relatório. A data da sessão do aplicativo é usada para definir se um componente é válido para execução. Se mais de uma versão for válida para uma data específica, a última versão será usada para processos de relatório.
 
 ## <a name="component-access"></a>Acesso ao componente
 
-O acesso aos componentes do formato ER depende da configuração para o código de país/região da ISO (International Organization for Standardization). Se essa configuração estiver em branco para uma versão selecionada de uma configuração de formato, um componente de formato poderá ser acessado de qualquer empresa em runtime. Se essa configuração contiver códigos de país/região ISO, um componente de formato estará disponível das únicas empresas em que o endereço principal for definido para um dos códigos de país/região ISO do componente de formato.
+O acesso aos componentes de mapeamento do modelo do formato ER no runtime depende da configuração para o código de país/região da Organização Internacional de Normalização (ISO). Se essa configuração estiver em branco para uma versão selecionada de uma configuração de mapeamento do modelo, um componente de mapeamento do formato ou modelo poderá ser acessado de qualquer empresa em runtime. Se essa configuração contiver códigos de país/região ISO, um componente de mapeamento do formato ou modelo estará disponível apenas em empresas em que o endereço principal for definido para um dos códigos de país/região ISO do componente de formato.
 
-Versões diferentes de um componente de formato de dados podem ter diferentes configurações de códigos de país/região ISO.
+Versões diferentes de um componente de mapeamento do formato ou modelo podem ter diferentes configurações de códigos de país/região ISO.
+
+Para mais informações, consulte [Configurar mapeamentos do modelo ER dependente do contexto do país](er-country-dependent-model-mapping.md).
 
 [!INCLUDE[footer-include](../../../includes/footer-banner.md)]
 

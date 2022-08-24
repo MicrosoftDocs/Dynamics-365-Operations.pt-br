@@ -6,21 +6,21 @@ ms.date: 10/16/2019
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
-ms.search.form: ''
 audience: Application User
 ms.reviewer: kfend
-ms.custom: 270254
-ms.assetid: 92223189-69a8-4a40-b867-ef9b4f14c23d
 ms.search.region: Brazil
-ms.author: sndray
+ms.author: atrukawk
 ms.search.validFrom: 2019-10-07
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: 1c0b23e9f8dca1634b7dcc2eaec276c1750d0863
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.custom: 270254
+ms.assetid: 92223189-69a8-4a40-b867-ef9b4f14c23d
+ms.search.form: ''
+ms.openlocfilehash: 76454e9b92889a3e6db33cfeb45f68f7755ce0ce
+ms.sourcegitcommit: 87e727005399c82cbb6509f5ce9fb33d18928d30
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8874339"
+ms.lasthandoff: 08/12/2022
+ms.locfileid: "9280649"
 ---
 # <a name="enable-customer-payments-and-cash-discounts"></a>Habilitar pagamentos de clientes e descontos à vista
 

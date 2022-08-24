@@ -9,15 +9,15 @@ ms.technology: ''
 audience: Application User
 ms.reviewer: kfend
 ms.search.region: Brazil
-ms.author: sndray
+ms.author: gionoder
 ms.search.validFrom: 2021-02-05
 ms.dyn365.ops.version: 8
-ms.openlocfilehash: 9739287206ff7ec45a88b558189209e22f2d68d9
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: 8abfbc7d31a1fb5930bbe2e5b232baa28e147807
+ms.sourcegitcommit: 87e727005399c82cbb6509f5ce9fb33d18928d30
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8864150"
+ms.lasthandoff: 08/12/2022
+ms.locfileid: "9288568"
 ---
 # <a name="nt2020005--layout-and-validation-updates-in-the-electronic-fiscal-document-nf-e"></a>NT2020.005 – atualizações de layout e validação na nota fiscal eletrônica (NF-e)
 

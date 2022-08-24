@@ -1,7 +1,7 @@
 ---
 title: Configurar códigos de ajuste para impostos IPI (Brasil)
 description: Use este procedimento para configurar códigos de ajuste de imposto para Imposto sobre Produtos Industrializados (IPI).
-author: sndray
+author: AdamTrukawka
 ms.date: 06/26/2017
 ms.topic: business-process
 ms.prod: ''
@@ -9,15 +9,15 @@ ms.technology: ''
 audience: Application User
 ms.reviewer: kfend
 ms.search.region: Brazil
-ms.author: sndray
+ms.author: atrukawk
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: ed8e5d70ec73e4dec50c42bfb4fd39fcdc4dc20d9c4ac29b6d8fea037b1d9b01
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 460d4e297970df0a11f8cd61c6f9f16b77dfdecc
+ms.sourcegitcommit: 87e727005399c82cbb6509f5ce9fb33d18928d30
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6755529"
+ms.lasthandoff: 08/12/2022
+ms.locfileid: "9279178"
 ---
 # <a name="set-up-adjustment-codes-for-ipi-taxes-brazil"></a>Configurar códigos de ajuste para impostos IPI (Brasil)
 

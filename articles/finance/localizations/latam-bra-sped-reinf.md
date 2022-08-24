@@ -1,24 +1,24 @@
 ---
 title: Eventos SPED-Reinf
 description: Este artigo explica como configurar eventos SPED-Reinf usando Livros fiscais e a estrutura de registro de relatórios SII.
-author: sndray
+author: AdamTrukawka
 ms.date: 05/03/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
-ms.search.form: ''
 audience: Application User
 ms.reviewer: kfend
 ms.search.region: Brazil
-ms.author: sndray
+ms.author: atrukawk
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: 8.0999999999999996
-ms.openlocfilehash: 4c10c3c5e35cb6a9d40f8ee3494523607109dd73
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.search.form: ''
+ms.openlocfilehash: 87d4628641e9fba976c5904dd7ec872f86c7ab9e
+ms.sourcegitcommit: 87e727005399c82cbb6509f5ce9fb33d18928d30
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8906223"
+ms.lasthandoff: 08/12/2022
+ms.locfileid: "9267093"
 ---
 # <a name="sped-reinf-events"></a>Eventos SPED-Reinf
 

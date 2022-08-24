@@ -14,12 +14,12 @@ ms.search.industry: Distribution
 ms.author: mirzaab
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 5241c982675d6b9a9bc9596b8ac9ed2798903287
-ms.sourcegitcommit: 28a726b3b0726ecac7620b5736f5457bc75a5f84
+ms.openlocfilehash: 66fc9e21b79d70ec14750440c74d354bb8ec0695
+ms.sourcegitcommit: c98d55a4a6e27239ae6b317872332f01cbe8b875
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/29/2022
-ms.locfileid: "9066957"
+ms.lasthandoff: 08/02/2022
+ms.locfileid: "9219588"
 ---
 # <a name="register-items-enabled-for-warehouse-management-processes-using-an-item-arrival-journal"></a>Registrar itens habilitados para processos de gerenciamento de depósito usando um diário de entrada de item
 
@@ -29,7 +29,7 @@ Este artigo apresenta um cenário que mostra como registrar itens usando o diár
 
 ## <a name="enable-sample-data"></a>Habilitar dados de exemplo
 
-Para trabalhar neste cenário usando os exemplos de registros e valores especificados neste artigo, você deve usar um sistema em que os dados de demonstração padrão são instalados e deve selecionar a entidade legal *USMF* antes de começar.
+Para trabalhar neste cenário usando os exemplos de registros e valores especificados neste artigo, você deve usar um sistema em que os [dados de demonstração](../../../fin-ops-core/fin-ops/get-started/demo-data.md) padrão são instalados e deve selecionar a entidade legal *USMF*, antes de começar.
 
 Você pode trabalhar por meio desse cenário substituindo valores de seus próprios dados desde que tenha os seguintes dados disponíveis:
 

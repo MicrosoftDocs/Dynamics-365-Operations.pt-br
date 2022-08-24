@@ -7,18 +7,18 @@ ms.topic: overview
 ms.prod: ''
 ms.technology: ''
 audience: Application user
-ms.reviewer: v-chgri
-ms.assetid: ''
+ms.reviewer: v-chgriffin
 ms.search.region: Global
 ms.author: asharchw
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: 8a3ab869eb9ddc0e73061bd2363cf9b3962da1e3
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.assetid: ''
+ms.openlocfilehash: ed80ff42ea5c6e6a904ea2855953d006f66aad37
+ms.sourcegitcommit: 87e727005399c82cbb6509f5ce9fb33d18928d30
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8850347"
+ms.lasthandoff: 08/12/2022
+ms.locfileid: "9273657"
 ---
 # <a name="cloud-powered-search-overview"></a>Visão geral da pesquisa habilitada para a nuvem
 
@@ -64,11 +64,14 @@ A ilustração a seguir mostra um exemplo de sugestão automática mais imersiva
 
 ## <a name="sort"></a>Classificar
 
-A classificação avançada no Commerce permite que cliente classifiquem, pesquisem e naveguem em resultados de busca e refinem por critérios como preço, nome de produto e número de produto. Os clientes também podem classificar resultados baseados em se o produto é novo, muito vendido ou recentemente adicionado.
+A funcionalidade Classificar permite aos clientes classificar, pesquisar e navegar em resultados de categoria, e refinar por critérios como preço, nome de produto e número do produto. Se você habilitar [Recomendações de produtos](product-recommendations.md) no seu ambiente, os clientes também poderão classificar os resultados com base em critérios de classificação avançados, como novos, mais vendidos e tendências.
+
 
 > [!NOTE]
 > Esses recursos de pesquisa habilitados para a nuvem estão disponíveis a partir da versão 10.0.8. Verifique se há uma entrada para "ProductSearch.UseAzureSearch" definida como 'true' em **Parâmetros do Commerce > Parâmetros de Configuração**. 
 ![Parâmetros de configuração para pesquisa habilitada para a nuvem.](./media/CloudPoweredSearchConfigurationParameters.png)
+>As opções de classificação avançadas, como novos, mais vendidos e tendências, estão disponíveis com o Commerce SSK versão 9.35+ e o Dynamics 365 Commerce versão 10.0.20.  
+
 
 ## <a name="additional-resources"></a>Recursos adicionais
 

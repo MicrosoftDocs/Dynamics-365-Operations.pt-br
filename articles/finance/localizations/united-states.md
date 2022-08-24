@@ -1,24 +1,24 @@
 ---
 title: Estados Unidos
 description: Este artigo fornece links para recursos da documentação para os Estados Unidos.
-author: ShylaThompson
+author: kfend
 ms.date: 07/25/2018
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
 audience: Application User
 ms.reviewer: kfend
-ms.custom: ''
 ms.search.region: Brazil
-ms.author: roschlom
+ms.author: kfend
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 5b956525bbb1561e294af224d5a3b0d20fbb531d
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.custom: ''
+ms.openlocfilehash: 0586f7d1113d1d5cfbdf6d00d3a769b047c93f6d
+ms.sourcegitcommit: 87e727005399c82cbb6509f5ce9fb33d18928d30
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8865436"
+ms.lasthandoff: 08/12/2022
+ms.locfileid: "9284343"
 ---
 # <a name="united-states"></a>Estados Unidos 
 

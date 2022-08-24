@@ -1,26 +1,26 @@
 ---
 title: Visão geral do processo de NF-e do Brasil
 description: Este artigo fornece uma visão geral do processo para configurar e enviar uma Nota fiscal eletrônica de (NF-e) para registrar a movimentação de itens e de serviço entre duas partes.
-author: sndray
+author: AdamTrukawka
 ms.date: 07/25/2019
 ms.topic: overview
 ms.prod: ''
 ms.technology: ''
-ms.search.form: EFDocContingencyMode_BR, EFDocContingencyModeHistory_BR, EFDocCorrectionLetter_BR, EFDocEmailAccountConfiguration_BR, EFDocEmailStatus_BR, EFDocHist_BR, EFDocParameters_BR, EFDocServiceInquire_BR, FiscalDocument_BR
 audience: Application User
 ms.reviewer: kfend
-ms.custom: 269114
-ms.assetid: 7cb522a4-2f84-4399-a60d-8692df6e08f3
 ms.search.region: Brazil
-ms.author: sndray
+ms.author: atrukawk
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: 536664b2b651c54aa76631f6f3d81fa3bfe050d1
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.custom: 269114
+ms.assetid: 7cb522a4-2f84-4399-a60d-8692df6e08f3
+ms.search.form: EFDocContingencyMode_BR, EFDocContingencyModeHistory_BR, EFDocCorrectionLetter_BR, EFDocEmailAccountConfiguration_BR, EFDocEmailStatus_BR, EFDocHist_BR, EFDocParameters_BR, EFDocServiceInquire_BR, FiscalDocument_BR
+ms.openlocfilehash: 9864f5ca4d201e1c4d47289f79f5f5b68115a0d3
+ms.sourcegitcommit: 87e727005399c82cbb6509f5ce9fb33d18928d30
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8902999"
+ms.lasthandoff: 08/12/2022
+ms.locfileid: "9288571"
 ---
 # <a name="brazil-nf-e-process-overview"></a>Visão geral do processo de NF-e do Brasil 
 

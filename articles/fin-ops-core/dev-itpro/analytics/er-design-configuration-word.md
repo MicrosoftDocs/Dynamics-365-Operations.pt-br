@@ -1,24 +1,26 @@
 ---
 title: Criar uma nova configuração de (ER) para gerar relatórios no formato Word
 description: Este artigo explica como os usuários podem configurar um novo formato de relatório eletrônico (ER) para gerar relatórios como documentos do Microsoft Word.
-author: NickSelin
+author: kfend
 ms.date: 12/17/2020
 ms.topic: business-process
 ms.prod: ''
 ms.technology: ''
-ms.search.form: ERWorkspace, ERSolutionTable, EROperationDesigner,  LedgerJournalTable, LedgerJournalTransVendPaym
 audience: Application User
 ms.reviewer: kfend
 ms.search.region: Global
-ms.author: nselin
+ms.author: filatovm
 ms.search.validFrom: 2020-01-01
 ms.dyn365.ops.version: Version 10.0.6
-ms.openlocfilehash: caf87659ca4ceb7b25aa43e09893d2a0ef014884
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.search.form:
+- ERWorkspace, ERSolutionTable, EROperationDesigner
+- LedgerJournalTable, LedgerJournalTransVendPaym
+ms.openlocfilehash: b56b328aa2a2b53dc177a02a4d453e5dbcb8340c
+ms.sourcegitcommit: 87e727005399c82cbb6509f5ce9fb33d18928d30
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8893002"
+ms.lasthandoff: 08/12/2022
+ms.locfileid: "9273328"
 ---
 # <a name="design-a-new-er-configuration-to-generate-reports-in-word-format"></a>Criar uma nova configuração de (ER) para gerar relatórios no formato Word
 
@@ -35,7 +37,7 @@ Para usar um documento do Word como modelo para relatórios no formato Word, voc
 
 ![Criar uma configuração de formato na página Configurações.](./media/er-design-configuration-word-image2.gif)
 
-O componente de formato de ER da solução deve conter o elemento de formato **Excel\\File**, e esse elemento de formato deve estar vinculado ao documento do Word que será usado como modelo para relatórios gerados no tempo de execução. Para configurar o componente de formato de ER, é necessário abrir a versão de [rascunho](general-electronic-reporting.md#component-versioning) da configuração de ER criada no designer de formato de ER. Em seguida, adicione o elemento **Excel\\File**, anexe seu modelo do Word ao formato de ER editável e vincule esse modelo ao elemento **Excel\\File** que você adicionou.
+O componente de formato de ER da solução deve conter o elemento de formato **Excel\\File**, e esse elemento de formato deve estar vinculado ao documento do Word que será usado como modelo para relatórios gerados no tempo de execução. Para configurar o componente de formato de ER, é necessário abrir a versão de rascunho da configuração de ER criada no designer de formato de ER. Em seguida, adicione o elemento **Excel\\File**, anexe seu modelo do Word ao formato de ER editável e vincule esse modelo ao elemento **Excel\\File** que você adicionou.
 
 > [!NOTE]
 > Ao anexar um modelo, você deve usar um [tipo de documento](../../fin-ops/organization-administration/configure-document-management.md#configure-document-types) que tenha sido [configurado](electronic-reporting-er-configure-parameters.md#parameters-to-manage-documents) nos parâmetros de ER para armazenar modelos de formatos de ER.

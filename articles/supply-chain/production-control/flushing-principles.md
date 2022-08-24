@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: johanho
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: 357ce65792ceef37abda523e7693069f1bc1ab43
-ms.sourcegitcommit: 28a726b3b0726ecac7620b5736f5457bc75a5f84
+ms.openlocfilehash: 89fd38ea6d2c1635e9d8974ab99c2e4cdae4d6be
+ms.sourcegitcommit: 8d072505f66f507aafbaae65bedf3b530eb6cb7b
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/29/2022
-ms.locfileid: "9065544"
+ms.lasthandoff: 08/12/2022
+ms.locfileid: "9266418"
 ---
 # <a name="flushing-principles"></a>Princípios de liberação
 
@@ -56,7 +56,10 @@ O princípio de liberação Manual indica que o registro de consumo de materiais
 O princípio de liberação Inicial indica se o material será consumido automaticamente quando a ordem de produção for iniciada. O valor do material consumido é proporcional à quantidade iniciada. Quando o princípio de liberação Inicial for usado com o sistema de execução de fabricação, também poderá ser usado para liberar materiais quando uma operação ou um trabalho de processo for iniciado. Esse princípio será relevante, por exemplo, se a variação no consumo for baixa, se os materiais forem de baixo valor, se não houver requisitos de rastreamento ou se houver um tempo de execução curto em operações. 
 
 ### <a name="finish"></a>Concluir
-O princípio de liberação Final indica se o material será automaticamente consumido quando a ordem de produção for relatada como concluída, ou quando uma operação configurada para consumir os materiais for registrada como concluída. O valor do material consumido é proporcional à quantidade relatada como concluída. Quando o princípio de liberação Final for usado com o sistema de execução de fabricação, também poderá ser usado para liberar materiais quando uma operação ou um trabalho de processo for concluído. Esse princípio será relevante nas mesmas situações do princípio Inicial. Entretanto, o princípio Final destina-se a operações que tenham um tempo de execução mais longo, onde os materiais não devem ser definidos como WIP antes da conclusão da operação. 
+O princípio de liberação Final indica se o material será automaticamente consumido quando a ordem de produção for relatada como concluída, ou quando uma operação configurada para consumir os materiais for registrada como concluída. O valor do material consumido é proporcional à quantidade relatada como concluída. Quando o princípio de liberação Final for usado com o sistema de execução de fabricação, também poderá ser usado para liberar materiais quando uma operação ou um trabalho de processo for concluído. Esse princípio será relevante nas mesmas situações do princípio Inicial. Entretanto, o princípio Final destina-se a operações que tenham um tempo de execução mais longo, onde os materiais não devem ser definidos como WIP antes da conclusão da operação.
+
+> [!NOTE]
+> Não é possível usar o princípio de liberação Final para os itens de planejamento. Em vez disso, é recomendável usar o princípio de liberação Iniciar. Itens de planejamento têm um tipo de produção para *Item de planejamento*, e somente coprodutos e subprodutos podem ser relatados como concluídos nos pedidos do lote para itens de planejamento.
 
 ### <a name="available-at-location"></a>Disponível no local
 O princípio de liberação Disponível no local indica se o material será automaticamente consumido quando for registrado como separado para produção. O material é registrado como separado do local quando o trabalho da separação de matéria-prima é concluído ou quando o material está disponível no local de entrada de produção e a linha de material é liberada para o depósito. A lista de separação gerada durante o processo é lançada em um trabalho em lotes. Esse princípio será relevante se, por exemplo, você tiver diversas atividades de separação em uma ordem de produção. Nesse caso, você não precisará atualizar a lista de separação manualmente e poderá obter uma exibição atual do saldo WIP.

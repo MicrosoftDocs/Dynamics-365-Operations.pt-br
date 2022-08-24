@@ -1,25 +1,25 @@
 ---
 title: Lançar documentos fiscais brasileiros via demonstrativos de varejo na sede do Commerce
 description: Este artigo descreve como lançar documentos fiscais brasileiros por meio de demonstrativos de varejo no Microsoft Dynamics 365 Commerce.
-author: akviklis
-manager: annbe
+author: EvgenyPopovMBS
 ms.date: 06/10/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
 audience: Application User
-ms.reviewer: v-chgri
+ms.reviewer: v-chgriffin
 ms.search.region: Brazil
-ms.search.industry: Retail
-ms.author: akviklis
+ms.author: josaw
 ms.search.validFrom: 2021-01-01
 ms.dyn365.ops.version: 10.0.18
-ms.openlocfilehash: cbd7a66802d6ffbd8d2f4463e0d2e1e2e93f94e2
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.search.industry: Retail
+manager: annbe
+ms.openlocfilehash: 1c7bfd8b86af55e52dbec68418f9c1bc85833f88
+ms.sourcegitcommit: 87e727005399c82cbb6509f5ce9fb33d18928d30
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8845823"
+ms.lasthandoff: 08/12/2022
+ms.locfileid: "9274191"
 ---
 # <a name="post-brazilian-fiscal-documents-via-retail-statements-in-commerce-headquarters"></a>Lançar documentos fiscais brasileiros via demonstrativos de varejo na sede do Commerce 
 

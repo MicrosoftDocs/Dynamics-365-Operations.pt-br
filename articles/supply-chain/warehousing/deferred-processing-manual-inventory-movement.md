@@ -11,12 +11,12 @@ ms.search.region: Global
 ms.author: mirzaab
 ms.search.validFrom: 2021-04-27
 ms.dyn365.ops.version: 10.0.17
-ms.openlocfilehash: 5e5d0a93a4c628d4867161d082b0f0e177ddb95c
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: 4a8dd322446843af41214e8daa0822939d0468f0
+ms.sourcegitcommit: c98d55a4a6e27239ae6b317872332f01cbe8b875
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8863727"
+ms.lasthandoff: 08/02/2022
+ms.locfileid: "9219798"
 ---
 # <a name="deferred-processing-of-manual-inventory-movement"></a>Processamento adiado de movimento de estoque manual
 
@@ -33,7 +33,7 @@ O processamento em segundo plano é obtido usando o [recurso Processar eventos d
 Para disponibilizar esse recurso, ative os recursos a seguir no [gerenciamento de recursos](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md): Você deve ativá-los nesta ordem:
 
 1. *Bloqueio de trabalho em toda a organização*<br>(Desde a versão 10.0.21 do Supply Chain Management, este recurso é obrigatório, portanto, é ativado por padrão e não pode ser desativado novamente.)
-1. *Processar eventos do aplicativo de depósito*<br>(A partir do Supply Chain Management versão 10.0.25, este recurso está ativado por padrão.)
+1. *Processar eventos do aplicativo de depósito*<br>(A partir do Supply Chain Management versão 10.0.25, este recurso está ativado por padrão. A partir do Supply Chain Management versão 10.0.29, este recurso é obrigatório. Portanto, ele é ativado por padrão e não pode ser desativado novamente.)
 1. *Operações put diferidas*
 1. *Processamento adiado da operação de movimentação de estoque manual*<br>(Desde a versão 10.0.25 do Supply Chain Management, este recurso é obrigatório, portanto, é ativado por padrão e não pode ser desativado novamente.)
 

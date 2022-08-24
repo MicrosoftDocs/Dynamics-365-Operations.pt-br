@@ -11,12 +11,12 @@ ms.search.region: Global
 ms.author: mirzaab
 ms.search.validFrom: 2021-10-15
 ms.dyn365.ops.version: 10.0.23
-ms.openlocfilehash: 5f5f24f47d0a2376be714f9208cd383cf3aacc07
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: 8ecca2d00b8753a405faa8d4c67c3cbb1eef6907
+ms.sourcegitcommit: c98d55a4a6e27239ae6b317872332f01cbe8b875
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8857044"
+ms.lasthandoff: 08/02/2022
+ms.locfileid: "9218964"
 ---
 # <a name="configure-promoted-fields-for-steps-in-the-warehouse-management-mobile-app"></a>Configurar campos promovidos para etapas no aplicativo móvel do Warehouse Management
 
@@ -32,13 +32,7 @@ Este artigo descreve como promover e destacar informações específicas para qu
 Antes de configurar os campos promovidos, você deve concluir o procedimento a seguir para habilitar os recursos necessários e gerar os nomes de campos necessários no aplicativo móvel do Warehouse Management.
 
 1. Acesse **Administrador do sistema \> Espaços de trabalho \> Gerenciamento de recursos**.
-1. No [espaço de trabalho **Gerenciamento de recursos**](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md), habilite o recurso listado da seguinte forma:
-
-    - **Módulo:** *Gerenciamento de depósito*
-    - **Nome do recurso:** *instruções de etapa do aplicativo Warehouse*
-
-    Para obter mais informações sobre o recurso *Instruções de etapa do aplicativo do Warehouse*, consulte [Personalizar títulos de etapas e instruções para o aplicativo móvel do Warehouse Management](mobile-app-titles-instructions.md). Esse recurso é um pré-requisito para o recurso *Campos promovidos do aplicativo do Warehouse*.
-
+1. Verifique se o recurso *Instruções da etapa do aplicativo de depósito* está ativado para o seu sistema. A partir da versão 10.0.29 do Supply Chain Management, este recurso está ativado por padrão. Para obter mais informações sobre o recurso *Instruções de etapa do aplicativo do Warehouse*, consulte [Personalizar títulos de etapas e instruções para o aplicativo móvel do Warehouse Management](mobile-app-titles-instructions.md). Esse recurso é um pré-requisito para o recurso *Campos promovidos do aplicativo do Warehouse*.
 1. Habilite o recurso listado da seguinte maneira:
 
     - **Módulo:** *Gerenciamento de depósito*
@@ -67,7 +61,7 @@ Use o procedimento a seguir para configurar os campos promovidos.
 
 ### <a name="enable-sample-data"></a>Habilitar dados de exemplo
 
-Para usar os registros e valores de exemplo especificados para trabalhar neste cenário, você deverá usar um sistema em que os dados de demonstração padrão estejam instalados. Você também deve selecionar a entidade legal **USMF** antes de começar.
+Para usar os registros e valores de exemplo especificados para trabalhar neste cenário, você deverá usar um sistema em que os [dados de demonstração](../../fin-ops-core/fin-ops/get-started/demo-data.md) estejam instalados. Você também deve selecionar a entidade legal **USMF** antes de começar.
 
 ### <a name="configure-sales-picking-with-promoted-steps-on-the-license-plate-step"></a>Configurar a separação de vendas com as etapas promovidas na etapa da placa de licença
 

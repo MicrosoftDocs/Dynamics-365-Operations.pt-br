@@ -1,24 +1,26 @@
 ---
 title: Suprimir controles de conteúdo do Word em relatórios gerados
 description: Este artigo explica como configurar um formato de Relatório eletrônico (ER) para gerar relatórios como arquivos do Microsoft Word nos quais os controles de conteúdo são suprimidos.
-author: NickSelin
+author: kfend
 ms.date: 02/11/2021
 ms.topic: business-process
 ms.prod: ''
 ms.technology: ''
-ms.search.form: ERWorkspace, ERSolutionTable, EROperationDesigner,  LedgerJournalTable, LedgerJournalTransVendPaym
 audience: Application User
 ms.reviewer: kfend
 ms.search.region: Global
-ms.author: nselin
+ms.author: filatovm
 ms.search.validFrom: 2020-01-01
 ms.dyn365.ops.version: Version 10.0.6
-ms.openlocfilehash: e11b697b78c89a1758fa9e81c901bd29fe281539
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.search.form:
+- ERWorkspace, ERSolutionTable, EROperationDesigner
+- LedgerJournalTable, LedgerJournalTransVendPaym
+ms.openlocfilehash: 8787d43a0c453d49dd1d0efcbb7b5d276721be9e
+ms.sourcegitcommit: 87e727005399c82cbb6509f5ce9fb33d18928d30
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8882103"
+ms.lasthandoff: 08/12/2022
+ms.locfileid: "9267304"
 ---
 # <a name="suppress-word-content-controls-in-generated-reports"></a>Suprimir controles de conteúdo do Word em relatórios gerados
 
@@ -42,7 +44,7 @@ Para concluir estas etapas, primeiro você deverá concluir as etapas nas seguin
 Quando você concluir as etapas desses guias de tarefas, os seguintes itens serão preparados:
 
 - Um formato ER de **Relatório de planilha de exemplo** que está configurado para gerar um documento no formato do Word
-- Uma versão de [rascunho](general-electronic-reporting.md#component-versioning) do formato ER de **Relatório de planilha de exemplo** marcado como **Executável**
+- Uma versão de rascunho do formato ER do **Relatório de planilha de amostra** marcado como **Executável**
 - Um método de pagamentos **Eletrônico** configurado para usar o formato ER de **Relatório de planilha de exemplo** para processamento de pagamento de fornecedor
 
 Você também precisa baixar e salvar o seguinte modelo para o relatório de exemplo:

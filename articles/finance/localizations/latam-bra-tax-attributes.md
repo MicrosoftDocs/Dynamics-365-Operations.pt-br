@@ -1,26 +1,26 @@
 ---
 title: Atributos de impostos do Brasil
 description: Este artigo explica como configurar informações fiscais para endereços, entidades legais, clientes e fornecedores, e para os produtos que são liberados para uma entidade legal do Brasil. Essas informações são necessárias para o cálculo de imposto, e para as notas fiscais e outras instruções necessárias que você envia dos livros fiscais.
-author: sndray
+author: AdamTrukawka
 ms.date: 06/20/2017
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
-ms.search.form: CustTable, EcoResProductDetails, LogisticsAddressSetup
 audience: Application User
 ms.reviewer: kfend
-ms.custom: 269544
-ms.assetid: 92b0cf1b-51ec-4611-bf8e-db4cd10ffed0
 ms.search.region: Brazil
-ms.author: sndray
+ms.author: atrukawk
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: 16aad2db90d2aa27769fae28efe632e22f6e15f0
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.custom: 269544
+ms.assetid: 92b0cf1b-51ec-4611-bf8e-db4cd10ffed0
+ms.search.form: CustTable, EcoResProductDetails, LogisticsAddressSetup
+ms.openlocfilehash: 386439643484d27374c796309313ad58bf0dddef
+ms.sourcegitcommit: 87e727005399c82cbb6509f5ce9fb33d18928d30
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8871072"
+ms.lasthandoff: 08/12/2022
+ms.locfileid: "9267083"
 ---
 # <a name="tax-attributes-for-brazil"></a>Atributos de impostos do Brasil
 

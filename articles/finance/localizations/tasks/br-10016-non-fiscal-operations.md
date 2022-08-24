@@ -1,7 +1,7 @@
 ---
 title: Operações não fiscais (Brasil)
 description: Use este procedimento para criar transações não fiscais de documentos que serão incluídas no arquivo de texto do Sistema Público de Escrituração Fiscal Digital (SPED EFD).
-author: sndray
+author: AdamTrukawka
 ms.date: 06/26/2017
 ms.topic: business-process
 ms.prod: ''
@@ -9,16 +9,16 @@ ms.technology: ''
 audience: Application User
 ms.reviewer: kfend
 ms.search.region: Brazil
-ms.search.industry: Manufacturing;Distribution;Service industries
-ms.author: sndray
+ms.author: atrukawk
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 1f1f056bb188b9d2d0b24db2f3dc8da1ccd09e4b50b20b8566cf88a63667e34a
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.search.industry: Manufacturing;Distribution;Service industries
+ms.openlocfilehash: a73b3e6a93731fd006e1bc65e3770108104bc24e
+ms.sourcegitcommit: 87e727005399c82cbb6509f5ce9fb33d18928d30
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6758780"
+ms.lasthandoff: 08/12/2022
+ms.locfileid: "9280611"
 ---
 # <a name="non-fiscal-operations-brazil"></a>Operações não fiscais (Brasil)
 

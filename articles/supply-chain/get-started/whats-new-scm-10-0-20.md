@@ -10,12 +10,12 @@ ms.search.region: Global
 ms.author: kamaybac
 ms.search.validFrom: 2021-05-28
 ms.dyn365.ops.version: 10.0.20
-ms.openlocfilehash: 3465866df0d766b2300eb4fd1989c034cedbbb22
-ms.sourcegitcommit: 873d66c03a51ecb7082e269f30f5f980ccd9307f
+ms.openlocfilehash: d99a7a7d0261ba0afd19efbb237dff329527723d
+ms.sourcegitcommit: c98d55a4a6e27239ae6b317872332f01cbe8b875
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 07/06/2022
-ms.locfileid: "9123798"
+ms.lasthandoff: 08/02/2022
+ms.locfileid: "9219144"
 ---
 # <a name="whats-new-or-changed-in-dynamics-365-supply-chain-management-10020-august-2021"></a>Novidades ou alterações no Dynamics 365 Supply Chain Management 10.0.20 (agosto de 2021)
 
@@ -49,7 +49,7 @@ A tabela a seguir lista os aprimoramentos de recursos incluídos nesta versão. 
 | Módulo | Nome&nbsp;do recurso&nbsp;no gerenciamento&nbsp;de recursos | Mais informações |
 |---|---|---|
 | Planejamento Mestre | Autorização paralela da previsão de demanda ajustada | Este recurso permite a autorização paralela da previsão de demanda ajustada da página **Previsão de demanda ajustada**. A intenção deste recurso é aumentar o desempenho quando um grande número de previsões está sendo autorizado. Ao autorizar, o usuário pode especificar o **Número de threads** na caixa de diálogo de autorização. |
-| Planejamento Mestre | (Versão preliminar) Consolidação executável em lote e consolidação para ordens planejadas em massa e em lote | Este recurso permite usar trabalhos em lotes para consolidar ordens planejadas em massa e em pacote. |
+| Planejamento Mestre | Consolidação executável em lote e consolidação para ordens planejadas em massa e em lote | Este recurso permite usar trabalhos em lotes para consolidar ordens planejadas em massa e em pacote. |
 | Controle de produção | Copiar roteiros genéricos | Este recurso aprimora a função de cópia de rota para permitir que os usuários copiem rotas que não são específicas do item. Permite que o sistema atualize todas as informações relevantes (como site, grupo de roteiros, requisitos de recursos e vários horários) após a função de cópia de roteiro ter sido usada para substituir um roteiro que ainda não foi atribuído a um item. |
 | Controle de produção | Atualizar requisitos de recursos relacionados quando uma operação de roteiro for alterada | Este recurso permite que o sistema atualize os requisitos de recursos relacionados depois que um usuário altera a operação de uma etapa de roteiro existente. |
 | Gerenciamento de informações sobre o produto | Pré-processamento do relatório da lista de materiais para evitar tempo limite | Este recurso faz com que o relatório da lista de materiais seja pré-processado. Isso evitará problemas de tempo limite quando houver uma grande carga de dados para o relatório. |

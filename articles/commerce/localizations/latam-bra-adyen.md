@@ -1,24 +1,24 @@
 ---
 title: Dynamics 365 Payment Connector para Adyen no Commerce POS para o Brasil
 description: Este artigo fornece uma visão geral do Microsoft Dynamics 365 Payment Connector para a funcionalidade de Adyen no PDV (ponto de venda) do Microsoft Dynamics 365 Commerce para o Brasil.
-author: akviklis
+author: EvgenyPopovMBS
 ms.date: 03/04/2022
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
 audience: Application User
-ms.reviewer: v-chgri
+ms.reviewer: v-chgriffin
 ms.search.region: Brazil
-ms.search.industry: Retail
-ms.author: akviklis
+ms.author: josaw
 ms.search.validFrom: 2021-08-01
 ms.dyn365.ops.version: 10.0.22
-ms.openlocfilehash: a7400d2f81650abcb66ef2b44eb6480adb37173c
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.search.industry: Retail
+ms.openlocfilehash: b09e47b32e8d7ecde7caa736840d9cda5b40aa32
+ms.sourcegitcommit: 87e727005399c82cbb6509f5ce9fb33d18928d30
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8881750"
+ms.lasthandoff: 08/12/2022
+ms.locfileid: "9267528"
 ---
 # <a name="dynamics-365-payment-connector-for-adyen-in-commerce-pos-for-brazil"></a>Dynamics 365 Payment Connector para Adyen no Commerce POS para o Brasil
 

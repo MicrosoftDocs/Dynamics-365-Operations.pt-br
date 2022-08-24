@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: mirzaab
 ms.search.validFrom: 2020-07-16
 ms.dyn365.ops.version: 10.0.7
-ms.openlocfilehash: 63fd8b209cb73843aae7324c805c5d0eb83b4ca4
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: 7c78954659c125c919ed0debbd81023a3da02db3
+ms.sourcegitcommit: c98d55a4a6e27239ae6b317872332f01cbe8b875
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8849174"
+ms.lasthandoff: 08/02/2022
+ms.locfileid: "9219432"
 ---
 # <a name="item-consolidation---location-utilization"></a>Consolidação do item — utilização do local
 
@@ -30,8 +30,8 @@ Este artigo fornece informações sobre a funcionalidade que facilita para os ge
 
 Para poder usar os recursos descritos neste artigo, você deve ativá-los no sistema. Os administradores podem usar o espaço de trabalho [Gerenciamento de recursos](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) para verificar o status dos recursos e ativá-los se necessário. Ative os dois recursos a seguir, na ordem em que aparecem listados. (Os dois recursos são para o módulo **Gerenciamento de depósito**.)
 
-1. Status da localização do depósito
-2. Utilização do local de consolidação do item
+1. *Status de localização do depósito* (a partir da versão 10.0.29, este recurso está ativado por padrão. Para obter mais informações, consulte [Status de localização de depósito](warehouse-location-status.md).)
+2. *Utilização do local de consolidação do item*
 
 ## <a name="warehouse-location-status"></a>Status da localização do depósito
 

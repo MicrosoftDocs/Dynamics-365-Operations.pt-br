@@ -7,18 +7,18 @@ ms.topic: overview
 ms.prod: ''
 ms.technology: ''
 audience: Application user
-ms.reviewer: v-chgri
-ms.assetid: ''
+ms.reviewer: v-chgriffin
 ms.search.region: Global
 ms.author: asharchw
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: 5e61db026649df8fe331d107bfbda8246fb9d5f9
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.assetid: ''
+ms.openlocfilehash: 1f2e4eb8825dd690f926f7f0bdfc39f1eb5fb83c
+ms.sourcegitcommit: 87e727005399c82cbb6509f5ce9fb33d18928d30
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8881843"
+ms.lasthandoff: 08/12/2022
+ms.locfileid: "9276364"
 ---
 # <a name="default-category-landing-page-and-search-results-page-overview"></a>Visão geral da página de aterrissagem da categoria padrão e da página de resultados da pesquisa
 
@@ -46,6 +46,12 @@ Os componentes a seguir são essenciais para uma categoria:
     - Nome do produto – \[Z-A\]
     - Avaliações – baixo para alto
     - Avaliações – alto para baixo
+
+- **Opções de classificação avançada** são usadas por visitantes de site para classificar os produtos usando critérios inteligentes. Ao habilitar [Recomendações de produtos](product-recommendations.md), as opções de classificação a seguir estão disponíveis. Para obter mais informações, consulte o artigo [Tipos de recomendações de produtos](product-recommendations.md#types-of-product-recommendations).
+
+    - Novos
+    - Mais vendidos
+    - Mais populares
 
 - A **Paginação** permite que os visitantes de site movam-se de uma página de resultados de produto categorizado a outra página.
 - **Contagem total** fornece o número total de produtos definidos em uma categoria.
@@ -78,7 +84,7 @@ Os componentes a seguir são essenciais para uma página de resultados de pesqui
 
 - **Blocos de posicionamento de produto** mostra os produtos da pesquisa do usuário. Por padrão, esses blocos são classificados pela pontuação de relevância de pesquisa baseada em nuvem para a pesquisa de usuário.
 - **Refinadores e resumo de escolha** são filtros que fornecem contagens e que podem ser usados para refinar itens. O gerente de mercadorias os configura como parte da configuração de metadados das "categorias de canal e atributos de produto".
-- **Opções de classificação** são usadas por visitantes de site para classificar os produtos. Por padrão, as opções de classificação a seguir estão disponíveis:
+- **Opções de classificação padrão** são usadas por visitantes de site para classificar os produtos. Por padrão, as opções de classificação a seguir estão disponíveis:
 
     - Preço – menor para maior
     - Preço – maior para menor
@@ -86,7 +92,16 @@ Os componentes a seguir são essenciais para uma página de resultados de pesqui
     - Nome do produto – \[Z-A\]
     - Avaliações – baixo para alto
     - Avaliações – alto para baixo
-    - Padrão
+    - Padrão 
+    
+    > [!NOTE]
+    > Se valores de **ordem de exibição** forem definidos para os produtos na hierarquia de navegação, a classificação por padrão em uma página de categoria honrará os valores definidos na **ordem de exibição**. Caso contrário, a classificação será feita pelo **Número do produto**.)
+    
+- **Opções de classificação avançada** são usadas por visitantes de site para classificar os produtos usando critérios inteligentes. Ao habilitar [Recomendações de produtos](product-recommendations.md), as opções de classificação a seguir estão disponíveis. Para obter mais informações, consulte o artigo [Tipos de recomendações de produtos](product-recommendations.md#types-of-product-recommendations).
+
+    - Novos
+    - Mais vendidos
+    - Mais populares
 
 - A **Paginação** permite que os visitantes de site movam-se de uma página de resultados de produto categorizado a outra página.
 - **Contagem total** fornece o número total de produtos definidos em uma categoria e que correspondem ao critério de pesquisa.
@@ -94,6 +109,8 @@ Os componentes a seguir são essenciais para uma página de resultados de pesqui
 >[!NOTE]
 >Esses recursos de pesquisa habilitados para a nuvem estão disponíveis a partir da versão 10.0.8. Verifique se em **Parâmetros do Commerce > Parâmetros de Configuração** há uma entrada para "ProductSearch.UseAzureSearch definido como 'true'". 
 ![Parâmetros de configuração para pesquisa habilitada para a nuvem.](./media/CloudPoweredSearchConfigurationParameters.png)
+
+>Além disso, para usar as opções de classificação avançadas, como mais vendidos e mais populares, você deve habilitar [Recomendações de produtos](product-recommendations.md) para o seu ambiente. As opções de classificação avançadas estão disponíveis com o Commerce SDK versão 9.35+ e o Commerce versão 10.0.20.
 
 ## <a name="additional-resources"></a>Recursos adicionais
 

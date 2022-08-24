@@ -1,7 +1,7 @@
 ---
 title: Calcular juros e multas em pagamentos de clientes (Brasil)
 description: Você pode aplicar juros e multas a pagamentos de cliente que estejam atrasados.
-author: sndray
+author: AdamTrukawka
 ms.date: 06/26/2017
 ms.topic: business-process
 ms.prod: ''
@@ -9,15 +9,15 @@ ms.technology: ''
 audience: Application User
 ms.reviewer: kfend
 ms.search.region: Brazil
-ms.author: sndray
+ms.author: atrukawk
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 2c934b9bfc44f09ac735655fa591cb1444c93f6294117f28950566c1cfc7ba18
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: a3bf4454696644fa44f4a867fb44d7934ae587a3
+ms.sourcegitcommit: 87e727005399c82cbb6509f5ce9fb33d18928d30
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6748119"
+ms.lasthandoff: 08/12/2022
+ms.locfileid: "9281206"
 ---
 # <a name="calculate-interest-and-fines-on-customer-payments-brazil"></a>Calcular juros e multas em pagamentos de clientes (Brasil)
 

@@ -1,7 +1,7 @@
 ---
 title: Incluir o crédito CIAP de um período anterior (Brasil)
 description: Use a página Transações de ativo fixo do CIAP para criar parcelas de crédito CIAP.
-author: sndray
+author: AdamTrukawka
 ms.date: 06/26/2017
 ms.topic: business-process
 ms.prod: ''
@@ -9,15 +9,15 @@ ms.technology: ''
 audience: Application User
 ms.reviewer: kfend
 ms.search.region: Brazil
-ms.author: sndray
+ms.author: atrukawk
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: f3e82097db08eac7383b774704ee2db136d8e15fecd6ea33beaa621f75053d04
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: d99ec17f86354fe92d9fa08eefaff50023686a39
+ms.sourcegitcommit: 87e727005399c82cbb6509f5ce9fb33d18928d30
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6779347"
+ms.lasthandoff: 08/12/2022
+ms.locfileid: "9281598"
 ---
 # <a name="include-ciap-credit-from-a-previous-period-brazil"></a>Incluir o crédito CIAP de um período anterior (Brasil)
 
