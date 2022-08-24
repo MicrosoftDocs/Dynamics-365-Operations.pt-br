@@ -1,27 +1,27 @@
 ---
 title: Encargos automáticos avançados de omnicanal
 description: Este artigo descreve recursos para gerenciar outras cobranças de pedido para pedidos do canal Commerce usando recursos avançados de cobrança automática.
-author: hhaines
+author: hhainesms
 ms.date: 03/24/2022
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
-ms.search.form: ''
 audience: Application User
 ms.reviewer: josaw
-ms.custom: ''
-ms.assetid: ''
 ms.search.region: global
-ms.search.industry: Retail
 ms.author: hhaines
 ms.search.validFrom: ''
 ms.dyn365.ops.version: 10
-ms.openlocfilehash: 412f5befa255d12914444b57918f14ab51243bfa
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.custom: ''
+ms.assetid: ''
+ms.search.industry: Retail
+ms.search.form: ''
+ms.openlocfilehash: d44bc4ef61341c394b627ddbe10768d2ddf98de0
+ms.sourcegitcommit: 87e727005399c82cbb6509f5ce9fb33d18928d30
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8851122"
+ms.lasthandoff: 08/12/2022
+ms.locfileid: "9292696"
 ---
 # <a name="omni-channel-advanced-auto-charges"></a>Encargos automáticos avançados de omnicanal
 
