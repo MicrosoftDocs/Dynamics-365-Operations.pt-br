@@ -12,6 +12,8 @@
               items:
                 - name: Novidades ou alterações na home page do Finance
                   href: get-started/whats-new-home-page.md
+                - name: Finance 10.0.29 (outubro)
+                  href: get-started/whats-new-changed-10-0-29.md
                 - name: Finance 10.0.28 (agosto)
                   href: get-started/whats-new-changed-10-0-28.md
                 - name: Finance 10.0.27 (julho)
@@ -62,9 +64,11 @@
                   href: ../fin-ops-core/dev-itpro/lifecycle-services/pause-service-updates.md?context=/dynamics365/context/finance
                 - name: Receber notificações sobre atualizações do serviço
                   href: ../fin-ops-core/dev-itpro/lifecycle-services/notifications-service-updates.md?context=/dynamics365/context/finance
+                - name: Atualizações de qualidade proativas
+                  href: ../fin-ops-core/fin-ops/get-started/quality-updates.md?context=/dynamics365/context/finance
                 - name: Automação de tarefa de dados
                   href: ../fin-ops-core/dev-itpro/data-entities/data-task-automation.md?context=/dynamics365/context/finance
-                - name: Entrega de soluções de ISV usando o serviço One Version
+                - name: Fornecendo soluções de ISV usando o serviço One Version
                   href: ../fin-ops-core/dev-itpro/lifecycle-services/oneversion-isv.md?context=/dynamics365/context/finance
                 - name: Criar e automatizar testes de aceitação de usuário
                   href: ../fin-ops-core/dev-itpro/lifecycle-services/using-task-guides-and-bpm-to-create-user-acceptance-tests.md?context=/dynamics365/context/finance
@@ -1114,6 +1118,8 @@
                       href: general-ledger/tasks/process-ledger-allocation-journal.md
                     - name: Exibir transações ou entradas de diário
                       href: general-ledger/tasks/view-journal-entries-or-transactions.md
+                    - name: Permitir edições em dados internos em comprovantes de contabilidade
+                      href: general-ledger/allow-edits-internal-data-gl-vouchers.md
                     - name: Exibir um comprovante intercompanhia relacionado de um diário
                       href: general-ledger/tasks/view-related-intercompany-voucher-journal.md
                     - name: Publicar linhas de diário e documentos no Excel
@@ -1568,14 +1574,20 @@
                           href: localizations/e-invoicing-bra-get-started.md?context=/dynamics365/context/finance
                         - name: Introdução ao Faturamento Eletrônico do Egito
                           href: localizations/e-invoicing-eg-get-started.md?context=/dynamics365/context/finance
+                        - name: Introdução ao Faturamento Eletrônico da França
+                          href: localizations/e-invoicing-fr-get-started.md?context=/dynamics365/context/finance
                         - name: Introdução ao Faturamento Eletrônico do México
                           href: localizations/e-invoicing-mex-get-started.md?context=/dynamics365/context/finance
+                        - name: Introdução ao Faturamento Eletrônico da Polônia
+                          href: localizations/e-invoicing-pol-get-started.md?context=/dynamics365/context/finance
                         - name: Introdução ao Faturamento Eletrônico da Arábia Saudita
-                          href: localizations/e-invoicing-sa-get-started.md
+                          href: localizations/e-invoicing-sa-get-started.md?context=/dynamics365/context/finance
+                        - name: Integração do faturamento eletrônico na Arábia Saudita
+                          href: localizations/e-invoicing-sa-onboarding.md?context=/dynamics365/context/finance
                         - name: Configurar a integração direta da FatturaPA italiana com SDI
-                          href: localizations/e-invoicing-ita-fatturapa-get-started.md
+                          href: localizations/e-invoicing-ita-fatturapa-get-started.md?context=/dynamics365/context/finance
                         - name: Usar o serviço de faturamento eletrônico para importar faturas de fornecedor
-                          href: localizations/e-invoicing-get-started-import-vendor-invoices.md
+                          href: localizations/e-invoicing-get-started-import-vendor-invoices.md?context=/dynamics365/context/finance
                     - name: Perguntas frequentes sobre Faturamento Eletrônico
                       href: localizations/e-invoicing-faq.md?context=/dynamics365/context/finance
                 - name: Cálculo de Imposto
@@ -1648,6 +1660,10 @@
                           items:
                             - name: Declaração de IVA
                               href: localizations/emea-nor-vat-declaration.md
+                        - name: Relatório da Polônia
+                          items:
+                            - name: Declaração de IVA
+                              href: localizations/emea-pol-vat-declaration.md
                         - name: Relatório da Espanha
                           items:
                             - name: 'Fornecimento imediato de informações sobre IVA (Suministro Inmediato de Información del IVA, SII)'
@@ -1714,6 +1730,8 @@
                       href: general-ledger/sales-tax-calculation-on-general-journal.md
                     - name: Calcular e ajustar imposto na fatura de fornecedor
                       href: general-ledger/tasks/calculate-adjust-sales-tax-vendor-invoice.md
+                    - name: Ajustar imposto via diários gerais
+                      href: general-ledger/adjust-sales-tax-via-general-journals.md
                     - name: Habilitar cálculo de imposto atrasado no diário
                       href: general-ledger/enable-delayed-tax-calculation.md
                     - name: Criar um pagamento de imposto
@@ -1770,6 +1788,8 @@
                           href: general-ledger/global-withholding-tax-overview.md
                         - name: Configurar imposto retido na fonte global
                           href: general-ledger/set-up-global-withholding-tax.md
+                        - name: Habilitar o tipo de taxa de câmbio do imposto retido na fonte global e a configuração do tipo de data
+                          href: general-ledger/global-withholding-tax-currency-exchange-rate-date-type-setup.md
                         - name: Imposto retido na fonte em transações de compra
                           href: general-ledger/withholding-tax-in-purchase-transactions.md
                         - name: Imposto retido na fonte em transações de venda
@@ -1948,6 +1968,8 @@
                       href: localizations/tasks/br-00053-2-set-up-nf-e-parameters-fiscal-establishment.md
                     - name: Mover arquivos XML de NF-e como anexos
                       href: localizations/latam-bra-nf-e-move-xml-as-attachment.md
+                    - name: NT2021.004 – atualizações de layout e validação na nota fiscal eletrônica (NF-e)
+                      href: localizations/latam-bra-nfe-nt2021.004.md
                     - name: NT2020.005 – atualizações de layout e validação na nota fiscal eletrônica (NF-e)
                       href: localizations/latam-bra-nfe-nt2020.005.md
                     - name: NT2020.006 — plataforma digital de vendas intermediárias para NF-e
@@ -2552,6 +2574,8 @@
                       href: localizations/apac-ind-news-letter-10-0-00.md
                 - name: Trilha de auditoria e edição de logs para software de contabilidade
                   href: localizations/apac-ind-audit-trail-edit-logs-accounting-software.md
+                - name: Faturas eletrônicas na Índia
+                  href: localizations/apac-ind-e-invoices.md
                 - name: Impostos indiretos
                   items:
                     - name: GST da Índia
@@ -3548,6 +3572,10 @@
                           href: localizations/rus-set-up-inventory-profile.md
                         - name: Usar um perfil de estoque em documentos e consultas
                           href: localizations/rus-use-inventory-profile-documents-queries.md
+                    - name: Procedimento alfandegário
+                      items:
+                        - name: Trabalhar com procedimento alfandegário
+                          href: localizations/rus-work-with-customs-clearance.md
                 - name: Relatórios
                   items:
                     - name: Relatórios financeiros
@@ -3576,11 +3604,13 @@
                       href: localizations/rus-company-divisions.md
                     - name: Formatos de endereço russo e importar da FIAS
                       href: localizations/rus-russian-address-format-and-import-from-FIAS.md
+                    - name: Importar do Registro de Endereços de Estado (GAR)
+                      href: localizations/rus-russian-address-format-import-gar.md
                 - name: Diferimentos
                   items:
                     - name: Configurar diferimentos
                       href: localizations/rus-set-up-deferrals.md
-                    - name: Crie ou gerar diferimentos
+                    - name: Criar ou gerar diferimentos
                       href: localizations/rus-create-generate-deferrals.md
                     - name: Recebimento de diferimentos
                       href: localizations/rus-deferral-transactions.md
@@ -4069,6 +4099,8 @@
                           href: ../fin-ops-core/dev-itpro/analytics/er-functions-list-listoffirstitem.md?context=/dynamics365/context/finance
                         - name: OrderBy
                           href: ../fin-ops-core/dev-itpro/analytics/er-functions-list-orderby.md?context=/dynamics365/context/finance
+                        - name: Repeat
+                          href: ../fin-ops-core/dev-itpro/analytics/er-functions-list-repeat.md?context=/dynamics365/context/finance
                         - name: Reverse
                           href: ../fin-ops-core/dev-itpro/analytics/er-functions-list-reverse.md?context=/dynamics365/context/finance
                         - name: Split

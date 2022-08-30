@@ -12,6 +12,8 @@
               items:
                 - name: Novidades ou alterações na home page do Commerce
                   href: get-started/whats-new-home-page.md
+                - name: Commerce 10.0.29 (outubro de 2022)
+                  href: get-started/whats-new-commerce-10-0-29.md
                 - name: Commerce 10.0.28 (julho de 2022)
                   href: get-started/whats-new-commerce-10-0-28.md
                 - name: Commerce 10.0.27 (julho de 2022)
@@ -60,9 +62,11 @@
                   href: ../fin-ops-core/dev-itpro/lifecycle-services/pause-service-updates.md?context=/dynamics365/context/commerce
                 - name: Receber notificações sobre atualizações do serviço
                   href: ../fin-ops-core/dev-itpro/lifecycle-services/notifications-service-updates.md?context=/dynamics365/context/commerce
+                - name: Atualizações de qualidade proativas
+                  href: ../fin-ops-core/fin-ops/get-started/quality-updates.md?context=/dynamics365/context/commerce
                 - name: Automação de tarefa de dados
                   href: ../fin-ops-core/dev-itpro/data-entities/data-task-automation.md?context=/dynamics365/context/commerce
-                - name: Entrega de soluções de ISV usando o serviço One Version
+                - name: Fornecendo soluções de ISV usando o serviço One Version
                   href: ../fin-ops-core/dev-itpro/lifecycle-services/oneversion-isv.md?context=/dynamics365/context/commerce
                 - name: Criar e automatizar testes de aceitação de usuário
                   href: ../fin-ops-core/dev-itpro/lifecycle-services/using-task-guides-and-bpm-to-create-user-acceptance-tests.md?context=/dynamics365/context/commerce
@@ -422,6 +426,8 @@
                       href: hide-non-carrier-modes.md
                     - name: Gravador de tarefas e Ajuda para MPOS e Cloud POS
                       href: task-recorder-retail-pos.md
+                    - name: Configurar CPOS para usar um aplicativo Azure AD personalizado
+                      href: cpos-custom-aad.md
                     - name: Periféricos de hardware
                       items:
                         - name: Periféricos
@@ -698,8 +704,8 @@
                   href: prevent-discounts.md
                 - name: Descontos com base no meio de pagamento
                   href: tender_based_discounts.md
-                - name: Visão geral do desconto de remessa
-                  href: retail-shipping-discount.md
+                - name: Desconto de remessa
+                  href: shipping-discount.md
                 - name: Configurar presente com promoções de compra
                   href: gift-with-purchase.md
                 - name: Configurar cupons
@@ -710,15 +716,19 @@
                   href: price-report.md
                 - name: Criar contratos comerciais específicos por canal
                   href: tasks/base-price-trade-agreements.md
-                - name: Criar contratos comerciais usando regras de precificação por categoria
+                - name: Criar contratos comerciais usando regras de preço por categoria
                   href: tasks/category-pricing-rules-trade-agreements.md
                 - name: Cálculo de atraso do preço exato e cálculo de desconto
                   href: delayed-price-calculation.md
+                - name: Funções de definição de preços no PDV
+                  href: pos-pricing-functions.md
+                - name: APIs de preços do Commerce
+                  href: pricing-apis.md
             - name: Recomendações
               items:
                 - name: Visão geral das recomendações de produtos
                   href: product-recommendations.md
-                - name: Habilitar Azure Data Lake Storage em um ambiente do Dynamics 365 Commerce
+                - name: Habilitar o Azure Data Lake Storage em um ambiente do Dynamics 365 Commerce
                   href: enable-ADLS-environment.md
                 - name: Habilitar recomendações de produtos
                   href: enable-product-recommendations.md
@@ -872,9 +882,11 @@
               href: async-customer-mode.md
             - name: Converter clientes assíncronos em clientes síncronos
               href: convert-async-to-sync.md
-            - name: Clientes
+            - name: Perguntas frequentes sobre o modo de criação de cliente assíncrono
+              href: async-customer-mode-faq.md
+            - name: Clientela
               items:
-                - name: Visão geral de clientes
+                - name: Visão geral de clientela
                   href: clienteling-overview.md
             - name: Fidelidade
               items:
@@ -1252,6 +1264,10 @@
                       href: product-collection-module-overview.md
                     - name: Módulo de exibição rápida
                       href: quick-view-module.md
+                - name: Módulos de comparação de produtos
+                  items:
+                    - name: Módulos de comparação de produtos
+                      href: product-comparison-modules.md
                 - name: Módulos de navegação
                   items:
                     - name: Módulo de trilha de navegação
@@ -1272,7 +1288,11 @@
                   items:
                     - name: Módulo de consentimento de cookie
                       href: cookie-consent-module.md
-            - name: Pesquisar
+                - name: Módulos de chat
+                  items:
+                    - name: Módulo de chat do Commerce
+                      href: commerce-chat-module.md
+            - name: Pesquisa
               items:
                 - name: Visão geral da página de aterrissagem da categoria padrão e da página de resultados da pesquisa
                   href: category-search-page-overview.md
@@ -1404,9 +1424,7 @@
               items:
                 - name: Exemplo de integração de serviços de registro fiscal para a Áustria
                   href: localizations/emea-aut-fi-sample.md
-                - name: Diretrizes de implantação para caixas registradoras na Áustria
-                  href: localizations/emea-aut-deployment.md
-                - name: Diretrizes de implantação para o exemplo de integração fiscal da Áustria (herdado)
+                - name: Diretrizes de implantação para o exemplo de integração fiscal da Áustria (herdada)
                   href: localizations/emea-aut-fi-sample-sdk.md
             - name: Brasil
               items:
@@ -1462,7 +1480,7 @@
                   href: localizations/emea-fra-fi-deployment.md
                 - name: Verificação de integridade de dados e arquivo fiscal
                   href: localizations/emea-fra-fiscal-archive.md
-                - name: Migração da funcionalidade herdada para a França
+                - name: Migrar da funcionalidade herdada para a França
                   href: localizations/emea-fra-fi-migration.md
                 - name: Diretrizes de implantação para caixas registradoras (herdadas)
                   href: localizations/emea-fra-deployment.md
@@ -1502,6 +1520,8 @@
                   href: localizations/emea-nor-cash-registers.md
                 - name: Diretrizes de implantação para caixas registradoras
                   href: localizations/emea-nor-fi-deployment.md
+                - name: Migrar da funcionalidade herdada para a Noruega
+                  href: localizations/emea-nor-fi-migration.md
                 - name: Diretrizes de implantação para caixas registradoras (herdadas)
                   href: localizations/emea-nor-loc-deployment-guidelines.md
             - name: Rússia
@@ -1764,6 +1784,8 @@
                           href: ../fin-ops-core/dev-itpro/analytics/er-functions-list-listoffirstitem.md?context=/dynamics365/context/commerce
                         - name: OrderBy
                           href: ../fin-ops-core/dev-itpro/analytics/er-functions-list-orderby.md?context=/dynamics365/context/commerce
+                        - name: Repeat
+                          href: ../fin-ops-core/dev-itpro/analytics/er-functions-list-repeat.md?context=/dynamics365/context/commerce
                         - name: Reverse
                           href: ../fin-ops-core/dev-itpro/analytics/er-functions-list-reverse.md?context=/dynamics365/context/commerce
                         - name: Split
@@ -2482,9 +2504,9 @@
               items:
                 - name: Visão geral do SDK do Commerce
                   items:
-                    - name: Exemplos e pacotes de referência
+                    - name: Baixar exemplos e pacotes de referência do SDK do Commerce
                       href: dev-itpro/retail-sdk/sdk-github.md
-                    - name: Migração do SDK do Retail antigo
+                    - name: Migração do SDK do Retail herdado
                       href: dev-itpro/retail-sdk/migrate-commerce-sdk.md
                     - name: 'APIs, classes e métodos obsoletos e removidos'
                       href: dev-itpro/obsolete-apis-classes-methods.md

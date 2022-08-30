@@ -1,24 +1,24 @@
 ---
 title: Realocação de reconhecimento de receita – cenário 4
 description: Este artigo abrange um cenário de realocação em que uma linha é removida de uma ordem de venda existente faturada parcialmente. Este cenário gera o mesmo resultado, independentemente da linha ter sido removida da ordem de venda ou definida como status cancelado.
-author: kweekley
+author: bking
 ms.date: 12/21/2020
 ms.topic: index-page
 ms.prod: ''
 ms.technology: ''
 ms.search.form: Customer
 audience: Application User
-ms.reviewer: kfend
+ms.reviewer: twheeloc
 ms.search.region: Global
-ms.author: kweekley
+ms.author: bking
 ms.search.validFrom: 2020-12-21
 ms.dyn365.ops.version: 10.0.14
-ms.openlocfilehash: 06e6322ff55259b5c59d570b73199591ab46c767
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: 8ec28460319e7bfabe82261ee4ed7861c4b6eb11
+ms.sourcegitcommit: 1909d18a74cef85aad020a6a7473281e451f58c7
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8891656"
+ms.lasthandoff: 08/24/2022
+ms.locfileid: "9348257"
 ---
 # <a name="revenue-recognition-reallocation--scenario-4"></a>Realocação de reconhecimento de receita – cenário 4
 

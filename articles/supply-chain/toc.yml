@@ -12,6 +12,8 @@
               items:
                 - name: Novidades ou alterações na home page do Supply Chain Management
                   href: get-started/whats-new-home-page.md
+                - name: Supply Chain Management 10.0.29 (outubro de 2022)
+                  href: get-started/whats-new-scm-10-0-29.md
                 - name: Supply Chain Management 10.0.28 (agosto de 2022)
                   href: get-started/whats-new-scm-10-0-28.md
                 - name: Supply Chain Management 10.0.27 (julho de 2022)
@@ -62,9 +64,11 @@
                   href: ../fin-ops-core/dev-itpro/lifecycle-services/pause-service-updates.md?context=/dynamics365/context/supply-chain
                 - name: Receber notificações sobre atualizações do serviço
                   href: ../fin-ops-core/dev-itpro/lifecycle-services/notifications-service-updates.md?context=/dynamics365/context/supply-chain
+                - name: Atualizações de qualidade proativas
+                  href: ../fin-ops-core/fin-ops/get-started/quality-updates.md?context=/dynamics365/context/supply-chain
                 - name: Automação de tarefa de dados
                   href: ../fin-ops-core/dev-itpro/data-entities/data-task-automation.md?context=/dynamics365/context/supply-chain
-                - name: Entrega de soluções de ISV usando o serviço One Version
+                - name: Fornecendo soluções de ISV usando o serviço One Version
                   href: ../fin-ops-core/dev-itpro/lifecycle-services/oneversion-isv.md?context=/dynamics365/context/supply-chain
                 - name: Criar e automatizar testes de aceitação de usuário
                   href: ../fin-ops-core/dev-itpro/lifecycle-services/using-task-guides-and-bpm-to-create-user-acceptance-tests.md?context=/dynamics365/context/supply-chain
@@ -330,6 +334,8 @@
                           href: ../finance/localizations/e-invoicing-bra-get-started.md?context=/dynamics365/context/supply-chain
                         - name: Introdução ao Faturamento Eletrônico do Egito
                           href: ../finance/localizations/e-invoicing-eg-get-started.md?context=/dynamics365/context/supply-chain
+                        - name: Introdução ao Faturamento Eletrônico da França
+                          href: ../finance/localizations/e-invoicing-fr-get-started.md?context=/dynamics365/context/supply-chain
                         - name: Introdução ao Faturamento Eletrônico do México
                           href: ../finance/localizations/e-invoicing-mex-get-started.md?context=/dynamics365/context/supply-chain
                         - name: Introdução ao Faturamento Eletrônico da Arábia Saudita
@@ -1053,6 +1059,8 @@
                           href: ../fin-ops-core/dev-itpro/analytics/er-functions-list-listoffirstitem.md?context=/dynamics365/context/supply-chain
                         - name: OrderBy
                           href: ../fin-ops-core/dev-itpro/analytics/er-functions-list-orderby.md?context=/dynamics365/context/supply-chain
+                        - name: Repeat
+                          href: ../fin-ops-core/dev-itpro/analytics/er-functions-list-repeat.md?context=/dynamics365/context/supply-chain
                         - name: Reverse
                           href: ../fin-ops-core/dev-itpro/analytics/er-functions-list-reverse.md?context=/dynamics365/context/supply-chain
                         - name: Split
@@ -1763,6 +1771,8 @@
                   href: master-planning/planning-optimization/purchase-requisitions.md
                 - name: Planejamento de produção
                   href: master-planning/planning-optimization/production-planning.md
+                - name: Planejamento mestre para produtos com validade limitada
+                  href: master-planning/planning-optimization/shelf-life.md
                 - name: Agendamento com capacidade infinita
                   href: master-planning/planning-optimization/infinite-capacity-planning.md
                 - name: Agendamento com seleção de recursos com base na capacidade
@@ -1809,6 +1819,8 @@
                   href: master-planning/planning-optimization/cancel-planning-job.md
                 - name: Mensagens de ação
                   href: master-planning/action-messages.md
+                - name: Calcular datas de entrega da ordem de venda usando CTP
+                  href: master-planning/planning-optimization/calculate-delivery-dates-using-ctp.md
                 - name: Solucionar Problemas da Otimização de Planejamento
                   href: master-planning/planning-optimization/planning-optimization-trouble-shooting.md
                 - name: Extensibilidade da Otimização de Planejamento
@@ -1879,6 +1891,8 @@
                   href: master-planning/tasks/view-outbound-planned-intercompany-demand.md
                 - name: Requisitos líquidos e informações de vinculação com o planejamento mestre interno
                   href: master-planning/net-requirements-built-in-master-planning.md
+                - name: Automação de fornecimento sob encomenda
+                  href: master-planning/make-to-order-supply-automation.md
             - name: Previsão
               items:
                 - name: Previsão de demanda e fornecimento
@@ -2463,10 +2477,12 @@
           items:
             - name: Visão geral do processo de produção
               href: production-control/production-process-overview.md
-            - name: 'Planejamento em modo misto: combinação discreta, processo e lean sourcing'
+            - name: 'Planejamento em modo misto: combinar o fornecimento discreto, o processo e o fornecimento enxuto'
               href: production-control/mixed-mode-plan.md
             - name: Gerenciar trabalho de subcontratação na produção
               href: production-control/manage-subcontract-work-production.md
+            - name: Disponibilizar fisicamente as mercadorias concluídas antes de lançá-las nos diários
+              href: production-control/deferred-posting.md
             - name: Sequência numérica unificada para IDs de trabalho
               href: production-control/unified-job-ids.md
             - name: Invocar fluxos de automação de processo para criar ordens de qualidade
@@ -2809,7 +2825,9 @@
               items:
                 - name: Promessa de ordem
                   href: sales-marketing/delivery-dates-available-promise-calculations.md
-                - name: Prazos finais de entrada de ordem
+                - name: Calcular datas de entrega da ordem de venda usando CTP
+                  href: master-planning/planning-optimization/calculate-delivery-dates-using-ctp.md
+                - name: Prazos finais de entrada da ordem
                   href: sales-marketing/order-entry-deadlines.md
                 - name: Alternativas de entrega
                   href: sales-marketing/delivery-alternatives.md
@@ -2945,6 +2963,8 @@
               href: sales-marketing/trade-allowance.md
             - name: Criar um contrato comercial
               href: sales-marketing/tasks/create-new-trade-agreement.md
+            - name: Recalcular os valores líquidos da linha mediante importação
+              href: sales-marketing/calc-line-net-amounts-import.md
             - name: Agendar limpeza de dados de histórico de vendas
               href: sales-marketing/sales-update-history-cleanup-performance-improvements.md
         - name: Gerenciamento de serviços
@@ -3387,8 +3407,10 @@
                       href: warehousing/piece-picking-confirmation.md
                     - name: Materiais e taxas de embalagem
                       href: warehousing/pack-materials-packing-material-fees.md
-                    - name: Configurar a embalagem manual (somente fevereiro e maio de 2016)
-                      href: warehousing/tasks/set-up-manual-packing-2016-02-05.md
+                    - name: Embalar contêineres para remessa
+                      href: warehousing/packing-containers.md
+                    - name: Trabalho de embalagem para empacotar contêineres de saída e processar remessas
+                      href: warehousing/packing-work.md
                     - name: Configurar realocação de item de pouca seleção
                       href: warehousing/tasks/set-up-short-picking-item-reallocation.md
                     - name: Cancelar trabalho de depósito para manuseio de exceção
@@ -3545,6 +3567,8 @@
                       href: warehousing/warehouse-app-promoted-fields.md
                     - name: Configurar desvios para as etapas nos itens de menu do dispositivo móvel
                       href: warehousing/warehouse-app-detours.md
+                    - name: Consultar dados usando desvios do aplicativo móvel do Warehouse Management
+                      href: warehousing/warehouse-app-data-inquiry.md
                     - name: Recebimento da placa de licença pelo aplicativo móvel Warehouse Management
                       href: warehousing/warehousing-mobile-device-app-license-plate-receiving.md
                     - name: Configurar um item de menu de dispositivo móvel para concluir trabalhos em uma ordem de compra

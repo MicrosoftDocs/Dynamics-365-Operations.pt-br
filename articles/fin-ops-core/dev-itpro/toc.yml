@@ -12,8 +12,10 @@
               href: ../fin-ops/get-started/whats-new-changed.md?toc=/dynamics365/fin-ops-core/dev-itpro/toc.yml
             - name: Novidades ou alterações em Atualizações de plataforma
               items:
-                - name: Novidades ou alterações na home page de Atualizações de plataforma
+                - name: Novidades ou alterações na home page de Atualizações da plataforma
                   href: get-started/whats-new-home-page.md
+                - name: Atualizações da plataforma para a versão 10.0.29 (outubro de 2022)
+                  href: get-started/whats-new-platform-updates-10-0-29.md
                 - name: Atualizações da plataforma para a versão 10.0.28 (agosto de 2022)
                   href: get-started/whats-new-platform-updates-10-0-28.md
                 - name: Atualizações da plataforma para a versão 10.0.27 (julho de 2022)
@@ -1090,6 +1092,8 @@
                           href: data-entities/dual-write/link-your-environment.md
                         - name: Habilitar mapa de entidade para gravação dupla
                           href: data-entities/dual-write/enable-entity-map.md
+                    - name: Habilitar uma janela de tempo limite de sessão de cinco minutos para sessões de gravação dupla
+                      href: data-entities/dual-write/5-minute-mode.md
                     - name: Pacote de orquestração de aplicativos com gravação dupla separado
                       href: data-entities/dual-write/separated-solutions.md
                     - name: Migração do tipo de dados de moeda para gravação dupla

@@ -1,24 +1,24 @@
 ---
 title: Realocação de reconhecimento de receita – cenário 2
 description: Este artigo aborda um cenário de realocação em que duas ordens de venda são inseridas e o cliente adiciona um item ao contrato depois que a primeira ordem de venda foi faturada. Quando um novo item é adicionado a um contrato, ele pode ser adicionado a uma nova ordem de venda ou à ordem de venda existente.
-author: kweekley
+author: bking
 ms.date: 12/21/2020
 ms.topic: index-page
 ms.prod: ''
 ms.technology: ''
 ms.search.form: Customer
 audience: Application User
-ms.reviewer: kfend
+ms.reviewer: twheeloc
 ms.search.region: Global
-ms.author: kweekley
+ms.author: twheeloc
 ms.search.validFrom: 2020-12-21
 ms.dyn365.ops.version: 10.0.14
-ms.openlocfilehash: dec8dba9848b77e5c0a1007102789c8f88185fbc
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: 5f8dac2991b309bb91faaa3107480ca3860af008
+ms.sourcegitcommit: 1909d18a74cef85aad020a6a7473281e451f58c7
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8904834"
+ms.lasthandoff: 08/24/2022
+ms.locfileid: "9348371"
 ---
 # <a name="revenue-recognition-reallocation--scenario-2"></a>Realocação de reconhecimento de receita – cenário 2
 
