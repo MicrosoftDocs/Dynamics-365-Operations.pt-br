@@ -2,7 +2,7 @@
 title: Recursos removidos ou preteridos do Dynamics 365 Commerce
 description: Este artigo descreve os recursos que já foram removidos ou foram planejados para remoção do Dynamics 365 Commerce.
 author: josaw1
-ms.date: 07/11/2022
+ms.date: 08/23/2022
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -12,12 +12,12 @@ ms.search.region: Global
 ms.author: josaw
 ms.search.validFrom: 2020-04-30
 ms.dyn365.ops.version: Platform update 33
-ms.openlocfilehash: 541e21999884a2d51b27009d72a2f8bc9084557f
-ms.sourcegitcommit: 87e727005399c82cbb6509f5ce9fb33d18928d30
+ms.openlocfilehash: 59ffcc00d67f6538980dec8965f894eb51f7230d
+ms.sourcegitcommit: 649f1db26da8f20602f11180fc565b7c59eaf545
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/12/2022
-ms.locfileid: "9287614"
+ms.lasthandoff: 08/23/2022
+ms.locfileid: "9337587"
 ---
 # <a name="removed-or-deprecated-features-in-dynamics-365-commerce"></a>Recursos removidos ou preteridos do Dynamics 365 Commerce
 
@@ -33,32 +33,49 @@ Esta lista é destinada a ajudá-lo a considerar essas remoções e reprovaçõe
 > [!NOTE]
 > Informações detalhadas sobre objetos em aplicativos de finanças e operações podem ser encontradas nos [Relatórios de referência técnica](/dynamics/s-e/). Você pode comparar as diferentes versões desses relatórios para aprender sobre objetos que foram alterados ou removidos em cada versão de aplicativos de finanças e operações.
 
+## <a name="features-removed-or-deprecated-in-the-commerce-10029-release"></a>Recursos removidos ou substituídos na versão 10.0.29 do Commerce
+
+### <a name="commerce-parameters-setting---allow-price-adjustments-to-increase-product-price"></a>Configuração de parâmetros do Commerce – Permitir que os ajustes de preço aumentem o preço do produto
+
+| &nbsp;  | &nbsp; |
+|------------|--------------------|
+| **Motivo para a reprovação/remoção** | Tínhamos essa configuração para controlar se a função de ajuste de preço permite aumentar o preço do produto. Quando esse parâmetro está desativado, ao usar a função de ajuste de preço, as organizações só podem definir o preço unitário de um produto menor do que seu preço base e o preço de venda do acordo comercial. A configuração foi preterida porque a função de ajuste de preço foi atualizada para dar suporte a ajustes bidirecionais (aumentar ou diminuir) prontos para uso. |
+| **Substituída por outro recurso?**   | Número |
+| **Áreas afetadas do produto**         | Preços e descontos |
+| **Opção de implantação**              | Todos |
+| **Status**                         | Preterido: esta configuração está ativada por padrão desde a versão 10.0.29 do Commerce e será removida em outubro de 2023. |
+
+### <a name="commerce-parameters-setting---enable-price-report-for-retail-store"></a>Configuração de parâmetros do Commerce – Habilitar o relatório de preços da loja de varejo
+
+| &nbsp;  | &nbsp; |
+|------------|--------------------|
+| **Motivo para a reprovação/remoção** | Tínhamos essa configuração para controlar se a função de relatório de preço está disponível para uso no formulário de configuração da loja. Nós preterimos essa configuração porque o formulário de configuração da loja foi atualizado para sempre fornecer a função de relatório de preço como função padrão. |
+| **Substituída por outro recurso?**   | Número |
+| **Áreas afetadas do produto**         | Preços e descontos |
+| **Opção de implantação**              | Todos |
+| **Status**                         | Preterido: essa configuração será removida em outubro de 2023. |
+
+### <a name="commerce-parameters-setting---use-todays-date-to-calculate-prices"></a>Configuração de parâmetros do Commerce – Usar a data de hoje para calcular preços
+
+| &nbsp;  | &nbsp; |
+|------------|--------------------|
+| **Motivo para a reprovação/remoção** | O mecanismo de preço do SCM (Supply Chain Management) oferece suporte ao cálculo de preços com base na data de remessa solicitada ou na data de recebimento solicitada, juntamente com a data atual. O mecanismo de preço do Commerce só oferece suporte ao cálculo de preços com base na data atual. Para os clientes que usam as funcionalidades do SCM e do Commerce, fornecemos essa configuração e recomendamos que os clientes sempre a definam como **Sim**, para que os dois mecanismos de definição de preço possam trabalhar juntos. A configuração foi preterida porque ela não altera o comportamento do cálculo e é redundante. |
+| **Substituída por outro recurso?**   | Número |
+| **Áreas afetadas do produto**         | Preços e descontos |
+| **Opção de implantação**              | Todos |
+| **Status**                         | Preterido: esta configuração está ativada por padrão desde a versão 10.0.29 do Commerce e será removida em outubro de 2023. |
+
 ## <a name="feature-deprecation-effective-july-2022"></a>Substituição de recurso efetiva em julho de 2022
 
 ### <a name="commerce-analytics-preview"></a>Commerce Analytics (Versão preliminar)
 
 | &nbsp;  | &nbsp; |
 |------------|--------------------|
-| **Motivo para a reprovação/remoção** | A equipe do Dynamics 365 Commerce analisou o uso e a tomada do recurso de análise de Commerce (Versão preliminar), e uma decisão foi tomada para não avançar mais na disponibilização do recurso para a disponibilidade geral.   |
-| **Substituída por outro recurso?**   | No momento, o Commerce Analytics (Versão preliminar) não será substituído por outro recurso ou solução. A exportação de transações brutas e dados mestre de aplicativos de finanças e operações para o Azure Data Lake continua disponível, conforme explicado em [Exportar para Data Lake nos aplicativos de finanças e operações](../../fin-ops-core/dev-itpro/data-entities/finance-data-azure-data-lake.md). Parceiros e clientes podem usar o fluxo de dados para criar relatórios de análise pretendidos para suas necessidades comerciais.
+| **Motivo para a reprovação/remoção** | A equipe do Dynamics 365 Commerce analisou o uso e a tomada do recurso Commerce analytics (versão preliminar), e uma decisão foi tomada para não avançar mais na disponibilização do recurso para a disponibilidade geral.   |
+| **Substituída por outro recurso?**   | No momento, o Commerce analytics (versão preliminar) não será substituído por outro recurso ou solução. A exportação de transações brutas e dados mestre de aplicativos de finanças e operações para o Azure Data Lake continua disponível, conforme explicado em [Exportar para Data Lake nos aplicativos de finanças e operações](../../fin-ops-core/dev-itpro/data-entities/finance-data-azure-data-lake.md). Parceiros e clientes podem usar o fluxo de dados para criar relatórios de análise pretendidos para suas necessidades comerciais.
 | **Áreas afetadas do produto**         | Commerce Analytics (Versão preliminar) |
 | **Opção de implantação**              | Todos |
-| **Status**                         | Vamos observar a desativação deste recurso em 30 de agosto de 2022.  A partir desta data, nenhuma atualização ocorrerá nos relatórios atuais do Power BI fornecidos pelo Commerce Analytics (Versão preliminar).     |
-
-
-## <a name="features-removed-or-deprecated-in-the-commerce-10025-release"></a>Recursos removidos ou substituídos na versão 10.0.25 do Commerce
-
-### <a name="modern-point-of-sale-mpos"></a>Modern Point of Sale (MPOS)
-
-O aplicativo Modern Point of Sale (MPOS) será preterido no Commerce versão 10.0.25 e substituído pelo aplicativo Store Commerce.
-
-| &nbsp;  | &nbsp; |
-|------------|--------------------|
-| **Motivo para a reprovação/remoção** | Os aplicativos para varejo são a base da oferta omnicanal do Dynamics 365 Commerce. Inovamos continuamente para oferecer experiências de loja modernas e inteligentes e, para modernizar ainda mais nossa solução, estamos lançando novos conjuntos de alterações que aumentarão significativamente as operações de TI e as experiências do usuário com os aplicativos para varejo existentes no Windows. O novo aplicativo Store Commerce é uma atualização tecnológica dos MPOS existentes. Ele oferece melhor desempenho, confiabilidade e suporte no longo prazo na plataforma Windows e elimina a necessidade de reempacotar o aplicativo com cada atualização. |
-| **Substituída por outro recurso?**   |  [Store Commerce](../dev-itpro/store-commerce.md) |
-| **Áreas afetadas do produto**         | Modern Point of Sale |
-| **Opção de implantação**              | Todos |
-| **Status**                         | Preterido: a partir do Commerce versão 10.0.25, o instalador MPOS enviado via VMs (máquinas virtuais) LCS será removido em outubro de 2023. |
+| **Status**                         | Pretendemos desabilitar esse recurso em 30 de agosto de 2022.  A partir desta data, nenhuma atualização ocorrerá nos relatórios atuais do Power BI fornecidos pelo Commerce Analytics (Versão preliminar).     |
 
 ## <a name="features-removed-or-deprecated-in-the-commerce-10021-release"></a>Recursos removidos ou substituídos na versão 10.0.21 do Commerce
 
@@ -130,7 +147,7 @@ O desenvolvimento de extensão de PDV usando ModernPos.sln, CloudPos.sln, POS.Ex
 | **Motivo para a reprovação/remoção** | A partir dessa versão, no formulário **Parâmetros do agendador do Commerce** no Dynamics 365 headquarters, o campo **Intervalo completo de geração do conjunto de dados em dias** será preterido. Também a partir dessa versão, o campo será removido visualmente para que o valor não possa ser editado. Isso permanecerá como o valor **0**. |
 | **Substituída por outro recurso?**   | Não |
 | **Áreas afetadas do produto**         | Dynamics 365 Commerce |
-| **Opção de implantação**              | Todas|
+| **Opção de implantação**              | Todos|
 | **Status**                         | Preterido. Não use este campo nem altere o valor nele.|
 
 ## <a name="features-removed-or-deprecated-in-the-commerce-10015-release"></a>Recursos removidos ou substituídos na versão 10.0.15 do Commerce
@@ -194,11 +211,11 @@ O desenvolvimento de extensão de PDV usando ModernPos.sln, CloudPos.sln, POS.Ex
 
 
 ## <a name="features-removed-or-deprecated-in-the-commerce-1007-release"></a>Recursos removidos ou substituídos na versão 10.0.7 do Commerce
-### <a name="commerce-getproductavailabilities-and-getavailableinventorynearby-apis"></a>API de GetProductAvailabilities e GetAvailableInventoryNearby comerciais
+### <a name="commerce-getproductavailabilities-and-getavailableinventorynearby-apis"></a>APIs de GetProductAvailabilities e GetAvailableInventoryNearby comerciais
 | &nbsp;  | &nbsp; |
 |------------|--------------------|
 | **Motivo para a reprovação/remoção** | APIs novas e otimizadas foram criadas para substituir APIs GetProductAvailabilities e GetAvailableInventoryNearby. |
-| **Substituída por outro recurso?**   | Sim: ele é substituído por APIs de GetEstimatedAvailabilty e GetEstimatedProductWarehouseAvailability. |
+| **Substituída por outro recurso?**   | Sim: ele foi substituído por APIs de GetEstimatedAvailabilty e GetEstimatedProductWarehouseAvailability. |
 | **Áreas afetadas do produto**         | Aplicativo SDK de comércio eletrônico |
 | **Opção de implantação**              | Todas |
 | **Status**                         | Preterido: a partir da versão 10.0.7, não terão mais investimentos em engenharia feitos para GetProductAvailabilities e GetAvailableInventoryNearby. As organizações que usam essas APIs em suas implantações de comércio eletrônico devem ser convertidas em novas APIs de GetEstimatedAvailability e GetEstimatedProductWarehouseAvailability e habilitar o [Recurso de cálculo de disponibilidade de produtos otimizados](../calculated-inventory-retail-channels.md).  |

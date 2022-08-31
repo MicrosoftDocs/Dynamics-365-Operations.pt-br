@@ -2,7 +2,7 @@
 title: Integração com sistemas de execução de fabricação de terceiros
 description: Este artigo explica como você pode integrar o Microsoft Dynamics 365 Supply Chain Management com um sistema de execução de fabricação de terceiros (MES).
 author: johanhoffmann
-ms.date: 10/01/2021
+ms.date: 08/09/2022
 ms.topic: article
 ms.search.form: ''
 audience: Application User
@@ -11,12 +11,12 @@ ms.search.region: Global
 ms.author: johanho
 ms.search.validFrom: 2021-10-01
 ms.dyn365.ops.version: 10.0.23
-ms.openlocfilehash: 46f6db3dd9942131b379216e6fffe5551d6c8fc3
-ms.sourcegitcommit: 28a726b3b0726ecac7620b5736f5457bc75a5f84
+ms.openlocfilehash: 8629ef2581a114609d14999a3c1fc48b49c988e0
+ms.sourcegitcommit: 203c8bc263f4ab238cc7534d4dd902fd996d2b0f
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/29/2022
-ms.locfileid: "9068021"
+ms.lasthandoff: 08/23/2022
+ms.locfileid: "9336205"
 ---
 # <a name="integrate-with-third-party-manufacturing-execution-systems"></a>Integração com sistemas de execução de fabricação de terceiros
 
@@ -45,9 +45,7 @@ Para que você possa usar esse recurso, um administrador deve ativá-lo no siste
     1. Na página **Configuração de licença**, marque a caixa de seleção **Horário e presença**.
     1. Desative o modo de manutenção, conforme descrito no [Modo de manutenção](../../fin-ops-core/dev-itpro/sysadmin/maintenance-mode.md)
 1. Acesse **Administrador do sistema \> Espaços de trabalho \> Gerenciamento de recursos**.
-1. Habilite o recurso listado da seguinte forma (consulte também [Visão geral do gerenciamento de recursos](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md)):
-    - **Módulo:** *Controle de produção*
-    - **Nome do recurso:** *Integração do sistema de execução de fabricação*
+1. Use o espaço de trabalho [Gerenciamento de recursos](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) para ativar o recurso *Integração do sistema de execução de manufatura*. (A partir do Supply Chain Management versão 10.0.29, este recurso está ativado por padrão.)
 
 ## <a name="processes-available-for-mes-integration"></a>Processos disponíveis para integração MES
 

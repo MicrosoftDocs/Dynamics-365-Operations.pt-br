@@ -11,12 +11,12 @@ ms.search.region: Global
 ms.author: yufeihuang
 ms.search.validFrom: 2021-08-02
 ms.dyn365.ops.version: 10.0.21
-ms.openlocfilehash: db158e3b6ae76f69149db04096f99d3dc4251146
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: a360b8beaad2bf6916c22765131e37f90e40282b
+ms.sourcegitcommit: f2175fe5e900d39f34167d671aab5074b09cc1b8
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8895747"
+ms.lasthandoff: 08/17/2022
+ms.locfileid: "9306163"
 ---
 # <a name="use-the-inventory-visibility-app"></a>Usar o aplicativo Inventory Visibility
 
@@ -70,10 +70,24 @@ Para lançar uma solicitação de reserva, você deverá inserir um valor no cor
 
 ## <a name="inventory-summary"></a><a name="inventory-summary"></a>Resumo de estoque
 
-**Resumo de estoque** é uma exibição personalizada da entidade *Soma de Estoque Disponível*. Ela fornece um resumo de estoque para produtos juntamente com todas as dimensões. Os dados de resumo do estoque são sincronizados periodicamente na visibilidade de estoque a cada 15 minutos. Para ver os dados na guia **Resumo de estoque**, você deve ativar o recurso *OnHandMostSpecificBackgroundService* na guia **Gerenciamento de recursos** e selecionar **Atualizar configuração**.
+A página **Resumo de estoque** fornece um resumo de estoque para produtos junto com todas as dimensões. Esta é uma exibição personalizada da entidade *Soma de Estoque Disponível*. Os dados do resumo de estoque são sincronizados periodicamente de Visibilidade de Estoque.
+
+### <a name="enable-the-inventory-summary-and-set-the-synchronization-frequency"></a>Habilitar o resumo de estoque e definir a frequência de sincronização
+
+Para habilitar a página **Resumo de estoque** e definir a frequência de sincronização, siga estas etapas:
+
+1. Abra a página **Configuração**.
+1. Abra a guia **Configurações e Gerenciamento de Recursos**.
+1. Defina a chave de alternância para o recurso **OnHandMostSpecificBackgroundService** como *Sim*.
+1. Quando o recurso for habilitado, a seção **Configuração do Serviço** será disponibilizada e incluirá uma linha para configurar o recurso **OnHandMostSpecificBackgroundService**. Essa configuração permite que você escolha a frequência em que dados de resumo de estoque são sincronizados. Use os botões **Para cima** e **Para baixo** na coluna **Valor** para alterar o tempo entre sincronizações (que pode ser de no mínimo 5 minutos). Selecione **Salvar**.
+1. Selecione **Atualizar configuração** para salvar todas as alterações.
+
+![Configuração de OnHandMostSpecificBackgroundService](media/inventory-visibility-ohms-freq.PNG "Configuração de OnHandMostSpecificBackgroundService")
 
 > [!NOTE]
 > O recurso *OnHandMostSpecificBackgroundService* rastreia apenas as alterações disponíveis no produto que ocorreram depois que você ativou o recurso. Os dados de produtos que não foram alterados desde que você ativou o recurso não serão sincronizados do cache do serviço de estoque para o ambiente do Dataverse. Se sua página **Resumo de estoque** não mostrar todas as informações disponíveis que você espera, vá para **Gerenciamento de Estoque > Tarefas periódicas > Integração da Visibilidade de Estoque**, desative o trabalho em lote e reative-o. Isso fará o push inicial e todos os dados serão sincronizados com a entidade *Soma Disponível de Estoque* nos próximos 15 minutos. Se você quiser usar esse recurso, recomendamos que você o ative antes de criar qualquer alteração disponível e ative o trabalho em lote **Integração da Visibilidade de Estoque**.
+
+### <a name="work-with-the-inventory-summary"></a>Trabalhar com o resumo de estoque
 
 Usando o **Filtro avançado** fornecido pelo Dataverse, será possível criar uma exibição pessoal que mostre as linhas importantes para você. As opções de filtro avançado permitem criar uma ampla variedade de exibições, das simples às complexas. Elas também permitem adicionar condições agrupadas e aninhadas aos filtros. Para saber mais sobre como usar o **Filtro avançado**, consulte [Editar ou criar exibições pessoais usando filtros de grade avançados](/powerapps/user/grid-filters-advanced).
 

@@ -2,7 +2,7 @@
 title: Política flexível de reserva de dimensão no nível de depósito
 description: Este artigo descreve a política de reserva de estoque que permite às empresas que vendem produtos rastreados por lote e executam suas logísticas como operações habilitadas para WMS reservem lotes específicos para ordens de venda do cliente, mesmo que a hierarquia de reservas associada aos produtos não permita a reserva de lotes específicos.
 author: perlynne
-ms.date: 07/31/2020
+ms.date: 08/09/2022
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: perlynne
 ms.search.validFrom: 2020-01-15
 ms.dyn365.ops.version: 10.0.13
-ms.openlocfilehash: d515fb46dcc2d135412d140b98f0578cae89c409
-ms.sourcegitcommit: 28a726b3b0726ecac7620b5736f5457bc75a5f84
+ms.openlocfilehash: 64855460ddf015f936fe695fc68938067f31b0cc
+ms.sourcegitcommit: 203c8bc263f4ab238cc7534d4dd902fd996d2b0f
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/29/2022
-ms.locfileid: "9065888"
+ms.lasthandoff: 08/23/2022
+ms.locfileid: "9335695"
 ---
 # <a name="flexible-warehouse-level-dimension-reservation-policy"></a>Política flexível de reserva de dimensão no nível de depósito
 
@@ -196,12 +196,12 @@ Neste cenário, uma empresa usa o gerenciamento de depósito e o processamento d
 - Uma placa de licença pode ser registrada e reservada quando a ordem for realizada pelo processador de vendas e não pode ser alterada durante as operações de depósito e/ou retirada por outras demandas. Esse comportamento ajuda a garantir que a placa de licença que foi planejada seja enviada ao cliente.
 - Se a placa de licença ainda não estiver atribuída a uma linha da ordem de venda, o pessoal do depósito poderá selecionar uma placa de licença durante o trabalho de separação, depois que o registro e a reserva da ordem de venda forem concluídos.
 
-### <a name="turn-on-flexible-license-plate-reservation"></a>Ativar reserva de placa de licença flexível
+### <a name="turn-flexible-license-plate-reservation-on-or-off"></a>Ativar ou desativar reserva de placa de licença flexível
 
-Antes de usar a reserva de placa de licença flexível, dois recursos devem ser ativados em seu sistema. Os administradores podem usar as configurações de [gerenciamento de recursos](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) para verificar o status desses recursos e ativá-los, se necessário. Você deve ativar os recursos na seguinte ordem:
+Antes de usar a reserva de placa de licença flexível, dois recursos devem ser ativados para seu sistema. Os administradores podem usar as configurações de [gerenciamento de recursos](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) para verificar o status desses recursos e ativá-los, se necessário. Você deve ativar os recursos na seguinte ordem:
 
-1. **Nome do recurso:** *Reserva de dimensão em nível de depósito flexível*
-1. **Nome do recurso:** *Reserva de placa de licença confirmada por ordem flexível*
+1. *Reserva flexível de dimensão em nível de depósito*<br>(A partir do Supply Chain Management versão 10.0.29, este recurso é obrigatório e não pode ser desativado.)
+1. *Reserva flexível da placa de licença comprometida na ordem*<br>(A partir do Supply Chain Management versão 10.0.29, este recurso é obrigatório e não pode ser desativado.)
 
 ### <a name="reserve-a-specific-license-plate-on-the-sales-order"></a>Reservar uma placa de licença específica na ordem de venda
 

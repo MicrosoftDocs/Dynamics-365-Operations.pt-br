@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: pashao
 ms.search.validFrom: 2021-04-01
 ms.dyn365.ops.version: 10.0.18
-ms.openlocfilehash: 3642bb88d5b0570014513b64eef5fdab6d1ee9d3
-ms.sourcegitcommit: 5b721f6fc1ba4350b5bd0eae457f71d80246db42
+ms.openlocfilehash: 2f9d882340171173e5e503f8b5e3aa856e8544b0
+ms.sourcegitcommit: f2175fe5e900d39f34167d671aab5074b09cc1b8
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 07/20/2022
-ms.locfileid: "9181114"
+ms.lasthandoff: 08/17/2022
+ms.locfileid: "9306193"
 ---
 # <a name="enable-master-data-lookup-for-tax-calculation-configuration"></a>Habilitar pesquisa de dados mestres para configuração de cálculo de imposto 
 
@@ -108,7 +108,7 @@ O Dataverse usa o aplicativo Azure AD criado para chamar os aplicativos de finan
     - **Provedor** – defina este campo como **NonAAD**.
     - **Email** – insira **Integração com o Dataverse** ou outro valor. (O valor não precisa ser uma conta de email válida.)
 
-3. Atribua a função de segurança **Aplicativo da entidade virtual do CDS** ao usuário.
+3. Atribua a função de segurança **Aplicativo de integração de entidade virtual do Dataverse** ao usuário.
 4. Remova todas as outras funções, incluindo **Usuário do sistema**.
 5. Acesse **Administração do Sistema** \> **Configuração** \> **Aplicativos do Azure Active Directory** para registrar o Dataverse. 
 6. Adicione uma linha e, no campo **ID do Cliente**, insira o valor **ID do Aplicativo (cliente)** que você anotou.
@@ -199,17 +199,11 @@ Para obter mais informações, consulte [Habilitar entidades virtuais do Microso
 
 ## <a name="set-up-the-connected-application-for-tax-calculation"></a><a name='set-up'></a>Configurar o aplicativo conectado para o Cálculo de Imposto
 
-1. No RCS, abra o espaço de trabalho **Gerenciamento de recursos** e habilite estes recursos:
-
-    - Suporte às fontes de dados do Dataverse para relatório eletrônico
-    - Suporte à fonte de dados do Serviço de Imposto do Dataverse
-    - Recursos de globalização
-
-2. Acesse o **Relatório Eletrônico** e, na seção **Links relacionados**, selecione **Aplicativos conectados**.
+1. Acesse o **Relatório Eletrônico** e, na seção **Links relacionados**, selecione **Aplicativos conectados**.
 
     [![Aplicativos conectados.](./media/tcs-dataverse-master-data-lookup-12.png)](./media/tcs-dataverse-master-data-lookup-12.png)
 
-3. Selecione **Novo** para adicionar um registro e insira as seguintes informações.
+2. Selecione **Novo** para adicionar um registro e insira as seguintes informações.
 
     - **Nome** - Digite um nome.
     - **Tipo** – Selecione **Dataverse**.
@@ -217,12 +211,18 @@ Para obter mais informações, consulte [Habilitar entidades virtuais do Microso
     - **Locatário** – insira seu locatário.
     - **URL personalizada** – insira sua URL do Dataverse e acrescente **/api/data/v9.1** a ela.
 
-4. Selecione **Verificar conexão** e, na caixa de diálogo que aparece, selecione **Clique aqui para se conectar ao aplicativo remoto selecionado**.
+3. Selecione **Verificar conexão** e, na caixa de diálogo, selecione **Clique aqui para se conectar ao aplicativo remoto selecionado**.
 
     [![Como verificar a conexão.](./media/tcs-dataverse-master-data-lookup-13.png)](./media/tcs-dataverse-master-data-lookup-13.png)
-5. Verifique se você recebeu uma mensagem "Êxito" que indica que a conexão foi estabelecida.
+4. Verifique se você recebeu uma mensagem "Êxito" que indica que a conexão foi estabelecida.
 
     [![Mensagem de êxito.](./media/tcs-dataverse-master-data-lookup-14.png)](./media/tcs-dataverse-master-data-lookup-14.png)
+    
+5. No RCS, abra o espaço de trabalho **Gerenciamento de recursos** e habilite estes recursos:
+
+    - Recursos de globalização
+    - Suporte às fontes de dados do Dataverse para relatório eletrônico
+    - Suporte à fonte de dados do Serviço de Imposto do Dataverse
 
 ## <a name="import-and-set-up-the-dataverse-model-mapping-configuration"></a><a name='import'></a>Importar e configurar a configuração de Mapeamento do Modelo do Dataverse
 

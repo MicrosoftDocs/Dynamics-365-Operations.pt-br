@@ -2,7 +2,7 @@
 title: Consolidar remessas usando a bancada de consolidação de remessa
 description: Este artigo apresenta um cenário em que várias ordens são liberadas para o depósito e consolidadas em remessas posteriormente usando a bancada de consolidação de remessas.
 author: Mirzaab
-ms.date: 05/12/2020
+ms.date: 08/09/2022
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: mirzaab
 ms.search.validFrom: 2020-05-01
 ms.dyn365.ops.version: 10.0.6
-ms.openlocfilehash: a33189cdcbb66304eef80558e931209ea236f576
-ms.sourcegitcommit: c98d55a4a6e27239ae6b317872332f01cbe8b875
+ms.openlocfilehash: db8dc5101b223a0033284d8e6c494721871809d8
+ms.sourcegitcommit: 203c8bc263f4ab238cc7534d4dd902fd996d2b0f
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/02/2022
-ms.locfileid: "9218608"
+ms.lasthandoff: 08/23/2022
+ms.locfileid: "9335785"
 ---
 # <a name="consolidate-shipments-by-using-the-shipment-consolidation-workbench"></a>Consolidar remessas usando a bancada de consolidação de remessa
 
@@ -34,14 +34,11 @@ O cenário neste artigo faz referência a valores e registros incluídos nos dad
 
 O cenário descrito aqui pressupõe que você já ativou o recurso, fez os exercícios em [Configurar políticas de consolidação de remessa](configure-shipment-consolidation-policies.md) e criou as políticas e outros registros descritos ali. Lembre-se de fazer os exercícios antes de continuar este cenário.
 
-## <a name="turn-on-the-manual-shipment-consolidation-feature"></a>Ative o recurso de consolidação de remessa manual
+## <a name="turn-the-manual-shipment-consolidation-feature-on-or-off"></a>Ativar ou desativar o recurso de consolidação de remessa manual
 
-Para usar o recurso *Consolidação de remessa manual*, você precisa ativá-lo no sistema. Os administradores podem usar as configurações de [gerenciamento de recursos](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) para verificar o status do recurso e ativá-lo. No espaço de trabalho **Gerenciamento de recursos**, o recurso está listado da seguinte forma:
+Para usar a consolidação de remessa manual, você deve ativá-la no seu sistema. A partir da versão 10.0.29 do Supply Chain Management, o recurso está ativado por padrão. Os administradores podem ativar ou desativar essa funcionalidade pesquisando o recurso *Consolidação de remessa manual* no espaço de trabalho [Gerenciamento de recursos](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md).
 
-- **Módulo:** *Gerenciamento de depósito*
-- **Nome do recurso:** *Consolidação de remessa manual*
-
-Ative o recurso *Consolidar remessa* antes de criar políticas. Para obter mais informações, consulte [Consolidar políticas de consolidação de remessa](configure-shipment-consolidation-policies.md).
+Você também deve ativar o recurso *Consolidar remessa* para poder criar políticas (a partir do Supply Chain Management versão 10.0.29, o recurso é obrigatório e não pode ser desativado). Para obter mais informações, consulte [Consolidar políticas de consolidação de remessa](configure-shipment-consolidation-policies.md).
 
 ## <a name="create-the-sales-orders-for-this-scenario"></a>Crie as ordens de venda para este cenário
 

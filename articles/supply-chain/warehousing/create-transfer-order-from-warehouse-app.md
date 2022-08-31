@@ -2,7 +2,7 @@
 title: Criar ordens de transferência do aplicativo de depósito
 description: Este artigo descreve como criar e processar ordens de transferência do aplicativo móvel do Warehouse Management
 author: perlynne
-ms.date: 09/02/2020
+ms.date: 08/09/2022
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: perlynne
 ms.search.validFrom: 2020-10-09
 ms.dyn365.ops.version: 10.0.15
-ms.openlocfilehash: b9edc2d94aa1f4850d2e7fe2b4bdd1b092be944f
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: 45cbf7aca431c19e58de75355579304baef3cf7d
+ms.sourcegitcommit: 203c8bc263f4ab238cc7534d4dd902fd996d2b0f
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8877440"
+ms.lasthandoff: 08/23/2022
+ms.locfileid: "9336445"
 ---
 # <a name="create-transfer-orders-from-the-warehouse-app"></a>Criar ordens de transferência do aplicativo de depósito
 
@@ -26,14 +26,14 @@ ms.locfileid: "8877440"
 
 Esse recurso permite que os trabalhadores do depósito criem e processem ordens de transferência diretamente do aplicativo móvel do Gerenciamento de Depósito. O trabalhador começa selecionando o depósito de destino e, em seguida, verifica uma ou mais placas de licença usando o aplicativo para adicionar placas de licença à ordem de transferência. Quando o trabalho de depósito selecionar **Ordem completa**, um trabalho em lotes criará a ordem de transferência e as linhas de ordem necessárias com base no estoque disponível registrado para essas placas de licença.
 
-## <a name="turn-this-feature-on-or-off"></a><a name="enable-create-transfer-order-from-warehouse-app"></a>Ativar ou desativar este recurso
+## <a name="turn-on-this-feature-and-its-prerequisites"></a><a name="enable-create-transfer-order-from-warehouse-app"></a>Ativar este recurso e seus pré-requisitos
 
 Antes de poder usar esse recurso, ele e seus pré-requisitos deverão estar habilitados no seu sistema. Os administradores podem usar a página [gerenciamento de recursos](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) para verificar o status do recurso e ativá-lo, se necessário.
 
 1. Ative os dois recursos a seguir (na ordem) no espaço de trabalho [Gerenciamento de recursos](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md). A partir do Supply Chain Management versão 10.0.25, ambos os recursos estão ativados por padrão.
-    1. *Processar eventos do aplicativo de depósito*
-    1. *Criar e processar ordens de transferência do aplicativo de depósito*
-1. Para automatizar o processamento das remessas de saída, você também deve habilitar o recurso [Confirmar remessas de saída de trabalhos em lote](confirm-outbound-shipments-from-batch-jobs.md).
+    1. *Processar eventos do aplicativo de depósito*<br>(A partir do Supply Chain Management versão 10.0.29, o recurso é obrigatório e não pode ser desativado.)
+    1. *Criar e processar ordens de transferência do aplicativo de depósito*<br>(A partir do Supply Chain Management versão 10.0.29, o recurso é obrigatório e não pode ser desativado.)
+1. Para automatizar o processamento de remessas de saída, você também deve habilitar o recurso [*Confirmar remessas de saída de trabalhos em lote*](confirm-outbound-shipments-from-batch-jobs.md). (A partir do Supply Chain Management versão 10.0.21, este recurso está ativado por padrão. A partir do Supply Chain Management 10.0.25, este recurso é obrigatório e não pode ser desativado.)
 
 ## <a name="set-up-a-mobile-device-menu-item-to-create-transfer-orders"></a><a name="setup-warehouse-app-menu"></a>Configurar um item de menu do dispositivo móvel para criar ordens de transferência
 
@@ -307,11 +307,11 @@ Não, não é possível adicionar mais placas de licença a uma ordem de transfe
 
 #### <a name="how-can-i-find-existing-transfer-orders-to-be-used-via-the-select-transfer-order-button-in-the-warehouse-management-mobile-app-if-the-order-has-not-yet-been-created-in-the-backend-system"></a>Como encontro as ordens de transferência existentes para serem usadas por meio do botão "Selecionar ordem de transferência" no aplicativo móvel do Gerenciamento de Depósito, caso a ordem ainda não tenha sido criada no sistema de back-end?
 
-No momento, não é possível pesquisar ordens de transferência no aplicativo, mas você pode encontrar os números de ordem de transferência na página **Eventos do aplicativo de depósito**. Para obter mais informações, consulte [Consultar eventos do aplicativo de depósito](#inquire-the-warehouse-app-events).
+Você pode possibilitar que os trabalhadores pesquisem números de ordens de transferência no aplicativo móvel Warehouse Management usando o recurso [consulta de dados](warehouse-app-data-inquiry.md). Por exemplo, você pode criar um item de menu de dispositivo móvel de [desvio](warehouse-app-detours.md) que consulta os dados exibidos na página **Eventos do aplicativo de depósito** do cliente Web (`WHSMobileDeviceQueueMessageCollection`) como parte da etapa *Selecionar ordem - MobileDeviceQueueMessageCollectionIdentifierId*. O número da ordem de transferência corresponde ao valor mostrado no campo **Identificador**. Confira também [Consultar os eventos do aplicativo de depósito](#inquire-the-warehouse-app-events).
 
 #### <a name="can-i-manually-select-the-transfer-order-number-to-be-used-from-the-warehouse-management-mobile-app"></a>Posso selecionar manualmente o número da ordem de transferência a ser usado no aplicativo móvel do Gerenciamento de Depósito?
 
-Só há suporte para números de ordens de transferência autogerados por meio de sequências numéricas.
+Só há suporte para números de ordens de transferência autogerados por meio de sequências numéricas. Consulte também a resposta à pergunta anterior sobre como configurar o botão **Selecionar ordem de transferência**. Para obter mais informações sobre como localizar números da ordem de transferência, confira [Consultar os eventos do aplicativo de depósito](#inquire-the-warehouse-app-events).
 
 ### <a name="background-processing"></a>Processamento em segundo plano
 

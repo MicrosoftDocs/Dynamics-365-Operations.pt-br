@@ -2,7 +2,7 @@
 title: 'Versão preliminar do Dynamics 365 Commerce 10.0.29: (October 2022)'
 description: Este artigo descreve os recursos novos ou alterados no Microsoft Dynamics 365 Commerce 10.0.29.
 author: josaw1
-ms.date: 08/02/2022
+ms.date: 08/17/2022
 ms.topic: article
 audience: Application User
 ms.reviewer: josaw
@@ -10,12 +10,12 @@ ms.search.region: Global
 ms.author: josaw
 ms.search.validFrom: 2022-08-01
 ms.dyn365.ops.version: 10.0.29
-ms.openlocfilehash: c1f85fcd8f79106a3af93489d3bef608b9840bf3
-ms.sourcegitcommit: 91f58a9863f4e8f30ac787c2a9771c1ff6a05f72
+ms.openlocfilehash: 1e05f53f9ecb0a1994828172f6999a0bd5c208bc
+ms.sourcegitcommit: f2175fe5e900d39f34167d671aab5074b09cc1b8
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/03/2022
-ms.locfileid: "9224229"
+ms.lasthandoff: 08/17/2022
+ms.locfileid: "9306223"
 ---
 # <a name="preview-of-dynamics-365-commerce-10029-october-2022"></a>Versão preliminar do Dynamics 365 Commerce 10.0.29: (October 2022)
 
@@ -38,6 +38,7 @@ A tabela a seguir lista os recursos incluídos nesta versão. Podemos atualizar 
 | Customer Service | [Habilitar Customer Service com Omnicanal para Customer Service do Dynamics 365](/dynamics365-release-plan/2022wave2/commerce/dynamics365-commerce/chat-dynamics-365-commerce-omnichannel-customer-service) | Uma experiência de atendimento ao cliente de primeira classe é fundamental para fornecer uma experiência de comércio personalizada e incrível para consumidores. Existem vários pontos de contato comerciais no momento, como lojas físicas, canais online e canais sociais. Os consumidores esperam uma experiência de suporte personalizada em todos esses pontos de contato. Esse recurso ajuda a aumentar as conversões de carrinhos para vendas, aumentar o contato personalizado com os consumidores e aprimorar o serviço de atendimento ao consumidor por meio da integração ao Omnicanal para Customer Service do Dynamics 365. | Habilitado por administradores/responsáveis |
 | Comércio eletrônico | Suporte para comparação de produtos no comércio eletrônico | Permite que os compradores comparem os produtos em uma ampla gama de categorias, de forma que possam tomar a decisão de compra correta. Este recurso está disponível para os sites business-to-consumer (B2C) e B2B. | Construtor de sites | 
 | Cartões-presente | Suporte para tabelas de cartão-presente de varejo para compartilhamento de dados entre empresas | Matrizes dinâmicas oferecem suporte à capacidade de habilitar o compartilhamento de dados entre empresas para tabelas específicas na arquitetura do Dynamics. Neste recurso, o Dynamics 365 Commerce adiciona suporte para compartilhamento de dados entre empresas para tabelas de cartão-presente de varejo. Portanto, um cartão-presente em uma empresa pode agora ter seus dados duplicados para outra empresa no ambiente. As alterações feitas na tabela de cartão-presente da empresa de origem serão compartilhadas na tabela de cartão-presente da empresa duplicada. | Desenvolvedores |
+| Globalização | [Habilitar recursos de localização do Commerce para o novo SDK do Commerce](/dynamics365-release-plan/2022wave2/commerce/dynamics365-commerce/enable-commerce-localization-features-new-commerce-sdk) | O novo recurso oferece a possibilidade de habilitar os recursos de localização do Commerce no Commerce headquarters usando a estrutura ou os parâmetros de gerenciamento de recursos. As amostras de integração fiscal agora estão incluídas no novo SDK do Commerce e dão suporte a pacotes independentes. Esse recurso também permite a adoção do aplicativo Store Commerce por clientes globais do Commerce.<p><p>Esta versão inclui os recursos de localização do Commerce e as amostras de integração fiscal para a [Áustria](../localizations/emea-aut-fi-sample.md), [República Tcheca](../localizations/emea-cze-fi-sample.md), [França](../localizations/emea-fra-cash-registers.md), [Alemanha](../localizations/emea-deu-fi-sample.md), [Itália](../localizations/emea-ita-fpi-sample.md), [Noruega](../localizations/emea-nor-cash-registers.md) e [Polônia](../localizations/emea-pol-fpi-sample.md). | Habilitado por administradores/responsáveis |
 | Desempenho | Remover dependência RTS para cenários "editar cliente" | Alta disponibilidade e alto desempenho são as expectativas padrão para os canais de ponto de venda (PDV) e comércio eletrônico. Para ajudar a cumprir essas expectativas, os canais do Dynamics 365 Commerce não precisam mais depender da comunicação em tempo real com o Commerce Headquarters quando as informações do cliente são editadas. A capacidade de editar as informações do cliente de forma assíncrona para clientes assíncronos e não assíncronos pode ajudar a reduzir as chamadas em tempo real para o Commerce Headquarters. | Habilitado por administradores/responsáveis |
 
 ## <a name="feature-state-changes-in-this-release"></a>Alterações do estado do recurso nesta versão

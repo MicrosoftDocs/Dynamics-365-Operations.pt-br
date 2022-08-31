@@ -10,12 +10,12 @@ ms.search.region: Global
 ms.author: kamaybac
 ms.search.validFrom: 2021-03-01
 ms.dyn365.ops.version: 10.0.26
-ms.openlocfilehash: b44b044bf10115a7fcaf347a3b6f1759c2a68cb6
-ms.sourcegitcommit: c98d55a4a6e27239ae6b317872332f01cbe8b875
+ms.openlocfilehash: dd98b22a2dfcd8cad62bdef2d31ac2880b3422f8
+ms.sourcegitcommit: 203c8bc263f4ab238cc7534d4dd902fd996d2b0f
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/02/2022
-ms.locfileid: "9219054"
+ms.lasthandoff: 08/23/2022
+ms.locfileid: "9334705"
 ---
 # <a name="whats-new-or-changed-in-dynamics-365-supply-chain-management-10026-may-2022"></a>Novidades ou alterações no Dynamics 365 Supply Chain Management 10.0.26 (maio de 2022)
 
@@ -51,7 +51,6 @@ Se quiser ativar o desativar qualquer um desses recursos, você deverá fazer is
 | Gerenciamento de informações sobre o produto | Limpar valores de atributo de produto | Esse recurso adiciona uma tarefa periódica chamada **Limpar valores de atributo de produto**, que limpa os registros de valor de atributo de produto que não estão mais associados a produtos por meio de uma categoria de produto. |
 | Gerenciamento de estoque e depósito | (Rússia) Evitar discrepâncias ao emitir GTDs para ordens de compra que incluam itens habilitados para o serviço Gerenciamento de Fluxo de Trabalho | Esse recurso se destina apenas a localizações em russo. Ele impede discrepâncias que ocorrem durante a emissão de GTDs (números da declaração alfandegária) russos para importar ordens de compra que incluem itens habilitados para processos de gerenciamento de depósito (WMS). O processo de emissão de GTD altera alguns valores de dimensão de estoque nas transações de estoque relacionadas para faturas incluídas no diário personalizado, que leva a discrepâncias entre os registros de trabalho para a ordem de compra e as transações de estoque para a compra. Quando esse recurso é habilitado, o processo de emissão de GTD gera um trabalho de ajuste que elimina essas discrepâncias. |
 | Gerenciamento de depósito | Analisador aprimorado de códigos de barra GS1 | Este recurso adiciona um analisador aprimorado para dados de símbolo de GS1. O novo analisador implementa o algoritmo de especificação geral de GS1 para analisar símbolos de GS1 e fornece validação de dados mais forte. Para obter mais informações, consulte [Digitalização do código de barras GS1](../warehousing/gs1-barcodes.md). |
-| Gerenciamento de depósito | Novas páginas da bancada de planejamento de carga | Adiciona duas novas páginas de bancada de planejamento de carga: **Workbench de planejamento de carga de entrada** e **Workbench de planejamento de carga de saída**. |
 | Gerenciamento de depósito | Aplicativo Warehouse Management – GTD em branco | Esse recurso se destina apenas a localizações em russo. Ele permite que os trabalhadores que usam o aplicativo móvel Warehouse Management deixem GTDs (números de declaração alfandegária) em branco quando necessário. Se a dimensão de rastreamento GTD estiver configurada para permitir valores em branco, o sistema aceitará valores em branco para GTD para que as operações de estoque fornecidas no estoque disponível estejam disponíveis. |
 
 ## <a name="new-and-updated-documentation-resources"></a>Recursos de documentação novos e atualizados

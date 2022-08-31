@@ -11,12 +11,12 @@ ms.search.region: Global
 ms.author: yufeihuang
 ms.search.validFrom: 2022-05-13
 ms.dyn365.ops.version: 10.0.27
-ms.openlocfilehash: ccc3a8c4b3d0649397b1d1f9139f7feebf39b02f
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: f79497a24a5b4dd501bb0d13d9eaca7e98672533
+ms.sourcegitcommit: f2175fe5e900d39f34167d671aab5074b09cc1b8
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8852495"
+ms.lasthandoff: 08/17/2022
+ms.locfileid: "9306104"
 ---
 # <a name="inventory-visibility-inventory-allocation"></a>Alocação de estoque de visibilidade de estoque
 
@@ -63,12 +63,11 @@ O recurso de alocação de estoque consiste nos seguintes componentes:
 - A fonte de dados predefinida, relacionada à alocação, medidas físicas e medidas calculadas.
 - Grupos de alocação personalizáveis com, no máximo, oito níveis.
 - Um conjunto de interfaces de programação de aplicação (APIs) de alocação:
-
-    - alocar
-    - realocar
-    - desalocar
-    - consumir
-    - consulta
+  - alocar
+  - realocar
+  - desalocar
+  - consumir
+  - consulta
 
 O processo de configuração do recurso de alocação tem duas etapas:
 
@@ -84,23 +83,26 @@ A fonte de dados é chamada de `@iv`.
 Estas são as medidas físicas iniciais:
 
 - `@iv`
-
-    - `@allocated`
-    - `@cumulative_allocated`
-    - `@consumed`
-    - `@cumulative_consumed`
+  - `@allocated`
+  - `@cumulative_allocated`
+  - `@consumed`
+  - `@cumulative_consumed`
 
 Estas são as medidas calculadas iniciais:
 
 - `@iv`
-
-    - `@iv.@available_to_allocate` = `??` – `??` – `@iv.@allocated`
+  - `@iv.@available_to_allocate` = `??` – `??` – `@iv.@allocated`
 
 ### <a name="add-other-physical-measures-to-the-available-to-allocate-calculated-measure"></a>Adicionar outras medidas físicas à medida calculada disponível para alocar
 
 Para usar a alocação, você deve configurar a medida calculada de disponível para alocar (`@iv.@available_to_allocate`). Por exemplo, você tem a fonte de dados `fno` e a medida `onordered`, a fonte de dados `pos` e a medida `inbound`, e deseja fazer a alocação no que há disponível para a soma de `fno.onordered` e `pos.inbound`. Nesse caso, `@iv.@available_to_allocate` deve conter `pos.inbound` e `fno.onordered` na fórmula. Este é um exemplo:
 
 `@iv.@available_to_allocate` = `fno.onordered` + `pos.inbound` – `@iv.@allocated`
+
+> [!NOTE]
+> A fonte de dados `@iv` é uma fonte de dados predefinida e as medidas físicas definidas em `@iv` com o prefixo `@` são medidas predefinidas. Essas medidas são uma configuração predefinida para o recurso de alocação e, portanto, não são alteradas nem excluídas, ou você provavelmente encontrará erros inesperados ao usar o recurso de alocação.
+>
+> Você pode adicionar novas medidas físicas à medida calculada predefinida `@iv.@available_to_allocate`, mas não deve alterar seu nome.
 
 ### <a name="change-the-allocation-group-name"></a>Alterar o nome do grupo de alocação
 
@@ -136,7 +138,7 @@ Chame a API `Allocate` para alocar um produto com dimensões específicas. Este 
     "id": "string",
     "productId": "string",
     "dimensionDataSource": "string",
-    "targetGroups": {
+    "groups": {
         "groupA": "string",
         "groupB": "string",
         "groupC": "string"
@@ -157,7 +159,7 @@ Por exemplo, você deseja alocar 10 unidades do produto *Bicicleta*, site *1*, l
 {
     "id": "???",
     "productId": "Bike",
-    "targetGroups": {
+    "groups": {
         "channel": "Online",
         "customerGroup": "VIP",
         "region": "US"
@@ -192,7 +194,7 @@ Use a API `Reallocate` para mover uma quantidade alocada para outra combinação
         "groupB": "string",
         "groupC": "string"
     },
-    "targetGroups": {
+    "groups": {
         "groupD": "string",
         "groupE": "string",
         "groupF": "string"
@@ -218,7 +220,7 @@ Por exemplo, você pode mover duas bicicletas com as dimensões \[site=1, local=
         "customerGroup": "VIP",
         "region": "US"
     },
-    "targetGroups": {
+    "groups": {
         "channel": "Online",
         "customerGroup": "VIP",
         "region": "EU"
@@ -242,7 +244,7 @@ Use a API `Consume` para lançar a quantidade de consumo em relação à alocaç
     "id": "string",
     "productId": "string",
     "dimensionDataSource": "string",
-    "targetGroups": {
+    "groups": {
         "groupA": "string",
         "groupB": "string",
         "groupC": "string"
@@ -280,7 +282,7 @@ Agora, três bicicletas são vendidas e são retiradas do pool de alocação. Pa
         "locationId": "11",
         "colorId": "red"
     },
-    "targetGroups": {
+    "groups": {
         "channel": "Online",
         "customerGroup": "VIP",
         "region": "US"
@@ -326,7 +328,7 @@ Quando desejar consumir uma quantidade de 3 e reservá-la diretamente, você pod
         "locationId": "11",
         "colorId": "red"
     },
-    "targetGroups": {
+    "groups": {
         "channel": "Online",
         "customerGroup": "VIP",
         "region": "US"

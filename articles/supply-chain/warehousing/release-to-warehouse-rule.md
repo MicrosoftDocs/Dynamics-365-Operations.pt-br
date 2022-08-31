@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: mirzaab
 ms.search.validFrom: 2020-07-01
 ms.dyn365.ops.version: 10.0.7
-ms.openlocfilehash: e3d709a185796152b03f8ed83088cb5c3d137bae
-ms.sourcegitcommit: c98d55a4a6e27239ae6b317872332f01cbe8b875
+ms.openlocfilehash: d39ce6e07a789ff4d605a01b1d5053be150d2727
+ms.sourcegitcommit: 203c8bc263f4ab238cc7534d4dd902fd996d2b0f
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/02/2022
-ms.locfileid: "9219738"
+ms.lasthandoff: 08/23/2022
+ms.locfileid: "9336235"
 ---
 # <a name="release-to-warehouse-rule"></a>Regra de liberação para o depósito
 
@@ -30,14 +30,14 @@ O recurso *Regra de liberação para o depósito* oferece flexibilidade durante 
 
 ### <a name="turn-on-the-feature"></a>Ativar o recurso
 
-Para que você possa usar o recurso *Regra de liberação para o depósito*, ele deve estar ativado no sistema. Os administradores podem usar as configurações de [gerenciamento de recursos](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) para verificar o status do recurso e ativá-lo se necessário. No espaço de trabalho **Gerenciamento de recursos**, o recurso está listado da seguinte forma:
+Para que você possa usar o recurso *Regra de liberação para o depósito*, ele deve estar ativado para o seu sistema. Os administradores podem usar as configurações de [gerenciamento de recursos](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) para verificar o status do recurso e ativá-lo se necessário. No espaço de trabalho **Gerenciamento de recursos**, o recurso está listado da seguinte forma:
 
 - **Módulo:** *Gerenciamento de Depósito*
 - **Nome do recurso:** *Regra de liberação para o depósito*
 
 ### <a name="initialize-the-feature"></a>Inicializar o recurso
 
-Depois que o recurso for ativado no sistema, você deverá inicializá-lo para definir a regra do estado inicial correto para todos os depósitos.
+Depois que o recurso for ativado para o seu sistema, você deverá inicializá-lo para definir a regra do estado inicial correto para todos os depósitos.
 
 - Para depósitos que não estão habilitados para gerenciamento de depósito, a regra é inicialmente definida como **Não aplicável**.
 - Para depósitos que estão habilitados para gerenciamento de depósito, a regra é inicialmente definida como **Permitir reserva parcial**

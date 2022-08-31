@@ -11,12 +11,12 @@ ms.search.region: Global
 ms.author: yufeihuang
 ms.search.validFrom: 2021-08-02
 ms.dyn365.ops.version: 10.0.21
-ms.openlocfilehash: ce81ed2ed79bfe5c7fff9724e14af150817af11f
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: 42c2c287e2a813f8bb07ce0c7f21f4224a217946
+ms.sourcegitcommit: f2175fe5e900d39f34167d671aab5074b09cc1b8
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8895689"
+ms.lasthandoff: 08/17/2022
+ms.locfileid: "9306044"
 ---
 # <a name="install-and-set-up-inventory-visibility"></a>Instalar e configurar Inventory Visibility
 
@@ -43,7 +43,7 @@ Caso tenha alguma dúvida sobre esses pré-requisitos, entre em contato com a eq
 
 ## <a name="install-the-inventory-visibility-add-in"></a><a name="install-add-in"></a>Instalar o Suplemento Visibilidade de Estoque
 
-Antes de instalar o suplemento, registre um aplicativo e adicione um segredo de cliente ao Azure Active Directory (Azure AD) em sua assinatura do Azure. Para obter instruções, consulte [Registrar um aplicativo](/azure/active-directory/develop/quickstart-register-app) e [Adicionar um segredo de cliente](/azure/active-directory/develop/quickstart-register-app#add-a-certificate). Anote os valores de **ID do aplicativo (cliente)**, **Segredo do cliente** e **ID do locatário**, porque você precisará deles mais tarde.
+Antes de instalar o suplemento, registre um aplicativo e adicione um segredo de cliente ao Azure Active Directory (Azure AD) em sua assinatura do Azure. Para obter instruções, consulte [Registrar um aplicativo](/azure/active-directory/develop/quickstart-register-app) e [Adicionar um segredo de cliente](/azure/active-directory/develop/quickstart-register-app#add-a-certificate). Anote os valores de **ID do aplicativo (cliente)**, **Segredo do cliente** e **ID do locatário** porque você precisará deles mais tarde.
 
 > [!IMPORTANT]
 > Se você tiver mais de um ambiente LCS, crie um aplicativo Azure AD diferente para cada ambiente. Se você usar a mesma ID de aplicativo e ID de locatário para instalar o Suplemento de Visibilidade de Estoque para ambientes diferentes, ocorrerá uma saída de token para ambientes mais antigos. Como resultado, somente a última instalação será válida.
@@ -88,20 +88,6 @@ Depois de registrar um aplicativo e adicionar um segredo de cliente ao Azure AD,
 >
 > 1. Após a conclusão da instalação, volte para a página LCS e tente novamente reinstalar o complemento **Visibilidade de Estoque**.
 
-## <a name="uninstall-the-inventory-visibility-add-in"></a><a name="uninstall-add-in"></a>Desinstalar o suplemento Visibilidade de Estoque
-
-Para desinstalar o suplemento Visibilidade de Estoque, selecione **Desinstalar** na página do LCS. O processo de desinstalação encerra o suplemento Visibilidade de Estoque, cancela o registro do suplemento do LCS e exclui todos os dados temporários armazenados no cache de dados do Suplemento Visibilidade de Estoque. No entanto, os dados de estoque principal armazenados na assinatura do Dataverse não são excluídos.
-
-Para desinstalar os dados de estoque armazenados em sua assinatura do Dataverse, abra o [Power Apps](https://make.powerapps.com), selecione **Ambiente** na barra de navegação e selecione o ambiente do Dataverse que está vinculado a seu ambiente do LCS. Em seguida, acesse **Soluções** e exclua as cinco seguintes soluções, nesta ordem:
-
-1. Solução de ancoragem para aplicativo Visibilidade de Estoque em soluções do Dynamics 365
-1. Solução de Aplicativos Visibilidade de Estoque do Dynamics 365 FNO SCM
-1. Configuração de Serviço de Estoque
-1. Visibilidade de Estoque Autônomo
-1. Solução Base Visibilidade de Estoque do Dynamics 365 FNO SCM
-
-Depois que você excluir essas soluções, os dados armazenados nas tabelas também serão excluídos.
-
 ## <a name="set-up-inventory-visibility-in-supply-chain-management"></a><a name="setup-dynamics-scm"></a>Configurar Visibilidade de Estoque no Supply Chain Management
 
 ### <a name="deploy-the-inventory-visibility-integration-package"></a><a name="deploy-inventory-visibility-package"></a>Implantar o pacote de integração de Visibilidade de Estoque
@@ -113,7 +99,7 @@ Se você estiver executando o Supply Chain Management versão 10.0.17 ou anterio
 >
 > O código está incluído no Supply Chain Management versão 10.0.18. Se você estiver executando essa versão ou posterior, a implantação não será necessária.
 
-Verifique se os recursos a seguir estão ativados no ambiente do Supply Chain Management. (Por padrão, eles são ativados.)
+Verifique se os recursos a seguir estão ativados no ambiente do Supply Chain Management. (Por padrão, eles estão ativados.)
 
 | Descrição do recurso | Versão de código | Alternar classe |
 |---|---|---|
@@ -122,7 +108,7 @@ Verifique se os recursos a seguir estão ativados no ambiente do Supply Chain Ma
 
 ### <a name="set-up-inventory-visibility-integration"></a><a name="setup-inventory-visibility-integration"></a>Configurar a integração da Visibilidade de Estoque
 
-Depois de instalar o suplemento, prepare o sistema do Supply Chain Management para trabalhar com ele seguindo as etapas abaixo.
+Após instalar o suplemento, prepare o sistema do Supply Chain Management para trabalhar com ele seguindo as etapas abaixo.
 
 1. No Supply Chain Management, abra o espaço de trabalho **[Gerenciamento de recursos](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md)** e ative os seguintes recursos:
     - *Integração de Visibilidade de Estoque* – Obrigatório.
@@ -135,10 +121,45 @@ Depois de instalar o suplemento, prepare o sistema do Supply Chain Management pa
 
 1. Se você ativou a recurso opcional *Integridade de Visibilidade de Estoque com compensação de reserva*, abra a guia **Compensação de reserva** e defina as seguintes configurações:
     - **Habilitar compensação de reserva** – Defina como *Sim* para habilitar essa funcionalidade.
-    - **Modificador de compensação de reserva** – Selecione o status da transação de estoque que compensará as reservas feitas em Visibilidade de Estoque. Essa configuração determina a fase de processamento da ordem que dispara compensações. O estágio é rastreado pelo status de transação do estoque da ordem. Selecione uma das seguintes opções:
+    - **Modificador de compensação de reserva** – Selecione o status da transação de estoque que compensará as reservas feitas em Visibilidade de Estoque. Essa configuração determina a fase de processamento da ordem que dispara compensações. O estágio é rastreado pelo status de transação do estoque da ordem. Escolha uma das seguintes opções:
         - *Em ordem* — para o status *Na transação*, uma ordem enviará uma solicitação de compensação quando for criada. A quantidade de compensação será a quantidade da ordem criada.
         - *Reserva* — para o status de *Transação com solicitação de reserva*, uma ordem enviará uma solicitação de compensação quando for reservada, retirada, quando a guia de remessa for postada ou quando for faturada. A solicitação será disparada apenas uma vez, para a primeira etapa quando ocorrer o referido processo. A quantidade de compensação será a quantidade na qual o status da transação de estoque é alterado de *Em ordem* para *Qtd. encomendada* (ou status posterior) na linha da ordem correspondente.
 
 1. Acesse **Gerenciamento de Estoque \> Periódico \> Integração de Visibilidade de Estoque** e habilite o trabalho. Todos os eventos de alteração de inventário do Supply Chain Management serão lançados na Visibilidade de Estoque.
+
+## <a name="uninstall-the-inventory-visibility-add-in"></a><a name="uninstall-add-in"></a>Desinstalar o suplemento Visibilidade de Estoque
+
+Para desinstalar o suplemento de visibilidade de estoque, siga estas etapas:
+
+1. Entre no Supply Chain Management.
+1. Acesse **Gerenciamento de Estoque \> Periódico \> Integração de Visibilidade de Estoque** e desabilite o trabalho.
+1. Vá para LCS e abra a página do ambiente em que você deseja desinstalar o suplemento (consulte também [Instalar o suplemento de visibilidade de estoque](#install-add-in)).
+1. Selecione **Desinstalar**.
+1. O processo de desinstalação agora encerra o suplemento Visibilidade de Estoque, cancela o registro do suplemento do LCS e exclui todos os dados temporários armazenados no cache de dados do Suplemento Visibilidade de Estoque. No entanto, os dados de estoque principal sincronizados para a assinatura do Dataverse ainda estão armazenados ali. Para excluir esses dados, conclua o resto deste procedimento.
+1. Abra o [Power Apps](https://make.powerapps.com).
+1. Selecione **Ambiente** na barra de navegação
+1. Selecione o ambiente do Dataverse vinculado ao seu ambiente LCS.
+1. Acesse **Soluções** e exclua as cinco seguintes soluções, nesta ordem:
+    1. Solução de ancoragem do aplicativo Visibilidade de Estoque em soluções do Dynamics 365
+    1. Solução de Aplicativos Visibilidade de Estoque do Dynamics 365 FNO SCM
+    1. Configuração de Serviço de Estoque
+    1. Visibilidade de Estoque Autônomo
+    1. Solução Base Visibilidade de Estoque do Dynamics 365 FNO SCM
+
+    Depois que você excluir essas soluções, os dados armazenados nas tabelas também serão excluídos.
+
+> [!NOTE]
+> Se você restaurar um banco de dados do Supply Chain Management depois de desinstalar o suplemento de visibilidade de estoque e desejar reinstalar o suplemento, certifique-se de ter excluído os antigos dados de visibilidade de estoque armazenados na sua assinatura do Dataverse (conforme descrito no procedimento anterior) antes de reinstalar o suplemento. Isso impedirá problemas de inconsistência de dados que poderiam ocorrer.
+
+## <a name="clean-inventory-visibility-data-from-dataverse-before-restoring-the-supply-chain-management-database"></a><a name="restore-environment-database"></a>Limpar dados de visibilidade de estoque do Dataverse antes de restaurar o banco de dados do Supply Chain Management
+
+Se você estiver usando a visibilidade de inventário e restaurar seu banco de dados do Supply Chain Management, o banco de dados restaurado poderá conter dados que não são mais consistentes com os dados antes sincronizados pela visibilidade de estoque para o Dataverse. Essa inconsistência de dados pode causar erros do sistema e outros problemas. Portanto, é importante sempre limpar todos os dados de visibilidade do estoque do Dataverse antes de restaurar um banco de dados do Supply Chain Management.
+
+Se for necessário restaurar um banco de dados do Supply Chain Management, use o seguinte procedimento:
+
+1. Desinstale o suplemento de visibilidade de estoque e remova todos os dados relacionados no Dataverse, conforme descrito em [Desinstalar o suplemento de visibilidade de estoque](#uninstall-add-in)
+1. Recupere o banco de dados do Supply Chain Management, por exemplo, conforme descrito em [Recuperação pontual do banco de dados (PITR)](../../fin-ops-core/dev-itpro/database/database-point-in-time-restore.md) ou [Recuperação pontual do banco de dados de produção para um ambiente de área restrita](../../fin-ops-core/dev-itpro/database/database-pitr-prod-sandbox.md).
+1. Se você ainda desejar usá-lo, reinstale e configure o suplemento de visibilidade de estoque, conforme descrito em [Instalar o suplemento de visibilidade de estoque](#install-add-in) e [Configurar a integração da visibilidade do estoque](#setup-inventory-visibility-integration)
+
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

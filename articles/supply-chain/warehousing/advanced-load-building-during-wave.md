@@ -1,6 +1,6 @@
 ---
 title: Criação de carga avançada durante um ciclo
-description: Este artigo contém informações sobre a criação avançada de carga avançada de ciclo, o que automaticamente atribui remessas a ciclos existentes durante a execução de ciclos. Por essa razão, você pode criar cargas significativas que representem caminhões sem precisar usar a bancada de planejamento de carga.
+description: Este artigo contém informações sobre a criação avançada de carga de ciclo, o que automaticamente atribui remessas a ciclos existentes durante a execução de ciclos. Por essa razão, você pode criar cargas significativas que representem caminhões sem precisar usar a bancada de planejamento de carga.
 author: Mirzaab
 ms.date: 07/01/2020
 ms.topic: article
@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: mirzaab
 ms.search.validFrom: 2020-07-01
 ms.dyn365.ops.version: 10.0.9
-ms.openlocfilehash: 76aee3a736efa9ed7431d4e5127cd0abaccd659f
-ms.sourcegitcommit: c98d55a4a6e27239ae6b317872332f01cbe8b875
+ms.openlocfilehash: c9d41645531fa4318289f32a564c34f0f92681df
+ms.sourcegitcommit: 203c8bc263f4ab238cc7534d4dd902fd996d2b0f
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/02/2022
-ms.locfileid: "9218838"
+ms.lasthandoff: 08/23/2022
+ms.locfileid: "9335830"
 ---
 # <a name="advanced-load-building-during-wave"></a>Criação de carga avançada durante ondas
 
@@ -36,7 +36,7 @@ Para usar o recurso, é necessário configurar o sistema da seguinte maneira:
 
 ## <a name="turn-on-advanced-wave-load-building-in-your-system"></a>Ativar a criação avançada de carga de onda no sistema
 
-Para poder usar a criação avançada de carga de onda, dois recursos devem estar ativados no sistema. Os administradores podem usar as configurações de [gerenciamento de recursos](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) para verificar o status desses recursos e ativá-los se necessário. No espaço de trabalho **Gerenciamento de recursos**, os recursos estão listados da seguinte forma:
+Para poder usar a criação avançada de carga de ciclo, dois recursos devem estar ativados no sistema. Os administradores podem usar as configurações de [gerenciamento de recursos](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) para verificar o status desses recursos e ativá-los se necessário. No espaço de trabalho **Gerenciamento de recursos**, os recursos estão listados da seguinte forma:
 
 - Recurso de criação de carga de onda:
 

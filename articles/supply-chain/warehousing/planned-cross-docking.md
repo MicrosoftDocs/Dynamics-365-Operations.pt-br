@@ -2,7 +2,7 @@
 title: Distribuição integrada planejada
 description: Este artigo descreve a distribuição integrada planejada avançada, na qual a quantidade de estoque necessária para uma ordem é direcionada diretamente do recebimento ou da criação para a área de preparo ou doca de saída correta. Todo o estoque restante da origem de entrada é direcionado para o local de armazenamento correto por meio do processo normal de armazenamento.
 author: Mirzaab
-ms.date: 07/01/2020
+ms.date: 08/09/2022
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: mirzaab
 ms.search.validFrom: 2020-07-01
 ms.dyn365.ops.version: 10.0.7
-ms.openlocfilehash: 4f379b3cdb6830f989199afde7d751842047df79
-ms.sourcegitcommit: 28a726b3b0726ecac7620b5736f5457bc75a5f84
+ms.openlocfilehash: b530cc1403458775fd330e826a32417d3b03bf25
+ms.sourcegitcommit: 203c8bc263f4ab238cc7534d4dd902fd996d2b0f
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/29/2022
-ms.locfileid: "9070279"
+ms.lasthandoff: 08/23/2022
+ms.locfileid: "9334555"
 ---
 # <a name="planned-cross-docking"></a>Distribuição integrada planejada
 
@@ -37,10 +37,10 @@ No momento do recebimento da ordem de entrada, a configuração da distribuiçã
 
 ## <a name="turn-on-the-planned-cross-docking-features"></a>Ativar os recursos de distribuição integrada planejada
 
-Se o sistema ainda não incluir os recursos descritos neste artigo, acesse [Gerenciamento de recursos](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) e ative os seguintes recursos nesta ordem:
+Se você estiver executando o Supply Chain Management versão 10.0.28 ou anterior, talvez precise habilitar a distribuição integrada planejada para poder usá-lo. Vá para [Gerenciamento de recurso](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) e ative os seguintes recursos na seguinte ordem:
 
-1. *Distribuição integrada planejada*
-1. *Modelos de distribuição integrada com diretivas de localização*
+1. *Distribuição integrada planejada*<br>(A partir do Supply Chain Management versão 10.0.29, este recurso é obrigatório e não pode ser desativado.)
+1. *Modelos de distribuição integrada com diretivas de localização*<br>(A partir do Supply Chain Management versão 10.0.29, este recurso está ativado por padrão.)
     > [!NOTE]
     > Este recurso permite que o campo **Código de diretriz** seja especificado no modelo de distribuição integrada, semelhante à forma como você configura os modelos de reabastecimento. Habilitar esse recurso impedirá que você adicione um código de diretriz nas linhas do modelo de trabalho de distribuição integrada para a última linha *Colocar*. Isso garante que o local colocado final possa ser determinado durante a criação do trabalho antes de considerar os modelos de trabalho.
 
@@ -92,7 +92,7 @@ A distribuição integrada planejada é implementada como um método de lançame
 
     - **Código de diretiva:** deixe este campo em branco
 
-        Esta opção é habilitada pelo recurso *Modelos de distribuição integrada com diretivas de localização*. O sistema usa diretivas de localização para ajudar a determinar o melhor local de destino para o estoque de distribuição integrada. Você pode configurá-la atribuindo um código de diretiva a cada modelo de distribuição integrada relevante. Se um código de diretiva estiver definido, o sistema pesquisará diretivas de localização por código de diretiva quando o trabalho for gerado. Dessa forma, você pode limitar as diretivas de localização usadas para um modelo de distribuição integrada específico.
+        Esta opção é habilitada pelo recurso *Modelos de distribuição integrada com diretivas de localização* (a partir do Supply Chain Management versão 10.0.29, o recurso é ativado por padrão). O sistema usa diretivas de localização para ajudar a determinar o melhor local de destino para o estoque de distribuição integrada. Você pode configurá-la atribuindo um código de diretiva a cada modelo de distribuição integrada relevante. Se um código de diretiva estiver definido, o sistema pesquisará diretivas de localização por código de diretiva quando o trabalho for gerado. Dessa forma, você pode limitar as diretivas de localização usadas para um modelo de distribuição integrada específico.
 
     - **Validar janela de tempo:** *Sim*
 

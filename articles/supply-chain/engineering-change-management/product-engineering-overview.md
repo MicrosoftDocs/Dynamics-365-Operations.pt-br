@@ -2,7 +2,7 @@
 title: Visão geral do gerenciamento de alteração de engenharia (contém vídeo)
 description: Este artigo fornece uma visão geral do gerenciamento de alterações de engenharia, que ajuda a planejar e gerenciar o controle de versão de produtos e gerenciar ciclos de vida de produtos e alterações de engenharia.
 author: t-benebo
-ms.date: 01/11/2022
+ms.date: 08/09/2022
 ms.topic: overview
 ms.prod: ''
 ms.technology: ''
@@ -12,12 +12,12 @@ ms.search.region: Global
 ms.author: benebotg
 ms.search.validFrom: 2020-09-28
 ms.dyn365.ops.version: 10.0.21
-ms.openlocfilehash: 3a27548fff9728c74814fb92438da1d0c17b5e2b
-ms.sourcegitcommit: 28a726b3b0726ecac7620b5736f5457bc75a5f84
+ms.openlocfilehash: b494e15488bed148119aed0e9d62ab1740f38add
+ms.sourcegitcommit: 203c8bc263f4ab238cc7534d4dd902fd996d2b0f
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/29/2022
-ms.locfileid: "9067382"
+ms.lasthandoff: 08/23/2022
+ms.locfileid: "9334855"
 ---
 # <a name="engineering-change-management-overview"></a>Visão geral do gerenciamento de alterações de engenharia
 
@@ -76,16 +76,16 @@ Em seguida, ative as chaves de configuração seguindo estas etapas. Elas não s
 
 ### <a name="turn-on-additional-engineering-change-management-features"></a>Ativar os recursos adicionais de gerenciamento de alterações de engenharia
 
-Depois de ativar os recursos básicos de gerenciamento de alterações de engenharia e habilitar suas chaves de configuração, vários recursos adicionais e opcionais de gerenciamento de alterações de engenharia são adicionados ao gerenciamento de recursos. Cada um desses recursos está listado no módulo **Gerenciamento de alterações de engenharia**. A tabela a seguir descreve cada recurso opcional e fornece links para obter mais informações. A partir do Supply Chain Management versão 10.0.25, todos esses recursos são ativados por padrão, mas você ainda pode desativá-los.
+Depois de ativar os recursos básicos de gerenciamento de alterações de engenharia e habilitar suas chaves de configuração, vários recursos adicionais e opcionais de gerenciamento de alterações de engenharia são adicionados ao gerenciamento de recursos. Cada um desses recursos está listado no módulo **Gerenciamento de alterações de engenharia**. A tabela a seguir descreve cada recurso opcional e fornece links para obter mais informações.
 
 | Nome do recurso no gerenciamento de recursos | Descrição | Estado do recurso |
 |---|---|---|
-| Habilitar gerenciamento de modificações em produtos existentes | <p>Este recurso permite converter produtos existentes em produtos de engenharia para que você possa começar a gerenciá-los usando o gerenciamento de alterações de engenharia.</p><p>Para obter mais informações, consulte [Habilitar o gerenciamento de alterações em produtos existentes](change-management-existing-products.md).</p> |
-| Notificações de engenharia para produção | <p>Quando um produto é alterado na engenharia, pode ser importante notificar a produção sobre essas alterações. Dessa forma, os trabalhadores de produção podem executar a ação apropriada, como a substituição de componentes, a substituição da lista de materiais (BOM) ou a substituição de roteiros. Este recurso permite notificar a produção sobre alterações em produtos que estão sendo produzidos.</p><p>Para obter mais informações, consulte [Gerenciar alterações de produtos de engenharia](engineering-change-management.md).</p> |
-| Herança de atributo aprimorada para Gerenciamento de Modificações de Engenharia | <p>Este recurso simplifica o gerenciamento de atributos para mercadorias concluídas ou itens intermediários. Quando esse recurso está ativado, é mais fácil identificar todos os atributos que pertencem a um item, e você pode selecionar os atributos que devem ser propagados desse item para seu item pai. Esse recurso é útil, por exemplo, quando um componente de uma mercadoria concluída é frágil, tóxico ou inflamável, porque você pode identificar facilmente o atributo frágil, tóxico ou inflamável e propagá-lo para a mercadoria concluída.</p><p>Para obter mais informações, consulte [Atributos de engenharia e pesquisa de atributos de engenharia](engineering-attributes-and-search.md).</p> |
-| Verificações de preparação do produto | <p>Este recurso permite configurar verificações de preparação para produtos padrão (não de engenharia). Use as verificações de preparação do produto para garantir que cada produto seja totalmente definido e que todas as políticas necessárias sejam configuradas antes que o produto seja disponibilizado e usado em transações. Se você desabilitar esse recurso depois de usá-lo por um tempo, todas as verificações de preparação existentes para produtos padrão serão excluídas.</p><p>Para obter mais informações, consulte [Preparo do produto](product-readiness.md).</p> |
-| Gerenciar modificações em fórmulas e seus ingredientes | <p>Este recurso permite rastrear alterações em ingredientes da fórmula, coprodutos e subprodutos.</p><p>Para obter mais informações, consulte [Gerenciar alterações nas fórmulas e seus ingredientes](manage-formula-changes.md).</p> |
-| Geração de grades para produtos de engenharia | <p>Este recurso permite gerar grades para produtos de engenharia, com base nos valores de dimensão disponíveis.</p><p>Para obter mais informações, consulte [Gerar variantes para produtos de engenharia](engineering-variants.md).</p> |
+| Habilitar gerenciamento de modificações em produtos existentes | <p>Este recurso permite converter produtos existentes em produtos de engenharia para que você possa começar a gerenciá-los usando o gerenciamento de alterações de engenharia.</p><p>Para obter mais informações, consulte [Habilitar o gerenciamento de alterações em produtos existentes](change-management-existing-products.md).</p> | Ativado por padrão a partir da versão 10.0.25. |
+| Notificações de engenharia para produção | <p>Quando um produto é alterado na engenharia, pode ser importante notificar a produção sobre essas alterações. Dessa forma, os trabalhadores de produção podem executar a ação apropriada, como a substituição de componentes, a substituição da lista de materiais (BOM) ou a substituição de roteiros. Este recurso permite notificar a produção sobre alterações em produtos que estão sendo produzidos.</p><p>Para obter mais informações, consulte [Gerenciar alterações de produtos de engenharia](engineering-change-management.md).</p> |  Ativado por padrão a partir da versão 10.0.25. |
+| Herança de atributo aprimorada para Gerenciamento de Modificações de Engenharia | <p>Este recurso simplifica o gerenciamento de atributos para mercadorias concluídas ou itens intermediários. Quando esse recurso está ativado, é mais fácil identificar todos os atributos que pertencem a um item, e você pode selecionar os atributos que devem ser propagados desse item para seu item pai. Esse recurso é útil, por exemplo, quando um componente de uma mercadoria concluída é frágil, tóxico ou inflamável, porque você pode identificar facilmente o atributo frágil, tóxico ou inflamável e propagá-lo para a mercadoria concluída.</p><p>Para obter mais informações, consulte [Atributos de engenharia e pesquisa de atributos de engenharia](engineering-attributes-and-search.md).</p> |  Ativado por padrão a partir da versão 10.0.25. |
+| Verificações de preparação do produto | <p>Este recurso permite configurar verificações de preparação para produtos padrão (não de engenharia). Use as verificações de preparação do produto para garantir que cada produto seja totalmente definido e que todas as políticas necessárias sejam configuradas antes que o produto seja disponibilizado e usado em transações. Se você desabilitar esse recurso depois de usá-lo por um tempo, todas as verificações de preparação existentes para produtos padrão serão excluídas.</p><p>Para obter mais informações, consulte [Preparo do produto](product-readiness.md).</p> |  Ativado por padrão a partir da versão 10.0.25. |
+| Gerenciar modificações em fórmulas e seus ingredientes | <p>Este recurso permite rastrear alterações em ingredientes da fórmula, coprodutos e subprodutos.</p><p>Para obter mais informações, consulte [Gerenciar alterações nas fórmulas e seus ingredientes](manage-formula-changes.md).</p> |  Ativado por padrão a partir da versão 10.0.25. |
+| Geração de grades para produtos de engenharia | <p>Este recurso permite gerar grades para produtos de engenharia, com base nos valores de dimensão disponíveis.</p><p>Para obter mais informações, consulte [Gerar variantes para produtos de engenharia](engineering-variants.md).</p> |  Ativado por padrão a partir da versão 10.0.25. |
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]
 

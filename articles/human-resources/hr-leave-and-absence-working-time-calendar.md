@@ -14,18 +14,15 @@ ms.search.region: Global
 ms.author: twheeloc
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 35fcb7c4068ff2f68970d9c0127491e4a63dab4c
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: dac3ad583be9e4cbd6eacbc6d228819bd298628b
+ms.sourcegitcommit: 66d129874635d34a8b29c57762ecf1564e4dc233
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8861063"
+ms.lasthandoff: 08/23/2022
+ms.locfileid: "9323534"
 ---
 # <a name="create-a-working-time-calendar"></a>Criar um calendário de horário de trabalho
 
-
-> [!Important]
-> A funcionalidade mencionada neste artigo está disponível atualmente para clientes individuais de Dynamics 365 Human Resources. Algumas ou todas as funcionalidades estarão disponíveis como parte de uma versão futura na infraestrutura do Finance após a versão Finance 10.0.26.
 
 [!include [Applies to Human Resources](../includes/applies-to-hr.md)]
 
@@ -49,7 +46,7 @@ Configure pelo menos um calendário de horário de trabalho que mostre os dias e
 
 3. Em **Opções de geração**, selecione os dias de trabalho da sua organização e insira os horários de trabalho. 
    - Para adicionar um feriado ou um recesso, selecione o botão **Adicionar** ao lado de **Feriados e recessos**.
-   - Para adicionar um período não útil, como almoços ou pausas, selecione **Adicionar** em **HORÁRIO NÃO COMERCIAL** e insira o nome e o intervalo de tempo.
+   - Para adicionar um horário não comercial, como almoços ou pausas, selecione **Adicionar** em **Horário não comercial** e insira o nome e o intervalo de tempo.
 
 4. Em **Dias** , selecione **Gerar** para gerar os dias no calendário. Insira o intervalo de datas para o calendário e selecione **Gerar dias**.
 
@@ -67,7 +64,7 @@ Você pode adicionar ou alterar feriados e recessos separadamente de um calendá
 
 Você pode adicionar ou alterar horários não comerciais separadamente de um calendário de horário de trabalho.
 
-1. Na página **Administração da organização**, selecione **HORÁRIO NÃO COMERCIAL**.
+1. Na página **Administração da organização**, selecione **Horário não comercial**.
 
 2. Selecione **Novo** e insira um nome e o intervalo de tempo para o horário não comercial.
 

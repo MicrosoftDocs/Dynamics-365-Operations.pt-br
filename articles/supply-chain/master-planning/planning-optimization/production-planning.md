@@ -2,7 +2,7 @@
 title: Planejamento de produção
 description: Este artigo descreve o planejamento de produção e explica como modificar as ordens de produção planejadas usando a Otimização de Planejamento.
 author: t-benebo
-ms.date: 06/01/2021
+ms.date: 08/09/2022
 ms.topic: article
 ms.search.form: ReqCreatePlanWorkspace
 audience: Application User
@@ -11,12 +11,12 @@ ms.search.region: Global
 ms.author: benebotg
 ms.search.validFrom: 2020-12-15
 ms.dyn365.ops.version: 10.0.13
-ms.openlocfilehash: 151aa3688c570ea6ec282c297ed18288dd886131
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: 5c8169a8d2c3e45304142fb6b4d504e620c545a4
+ms.sourcegitcommit: 203c8bc263f4ab238cc7534d4dd902fd996d2b0f
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8873772"
+ms.lasthandoff: 08/23/2022
+ms.locfileid: "9335245"
 ---
 # <a name="production-planning"></a>Planejamento de produção
 
@@ -26,9 +26,9 @@ A Otimização de Planejamento oferece suporte a vários cenários de produção
 
 O vídeo a seguir apresenta uma breve introdução a alguns dos conceitos abordados neste artigo: [Dynamics 365 Supply Chain Management: aprimoramentos na Otimização de Planejamento](https://youtu.be/u1pcmZuZBTw).
 
-## <a name="turn-on-this-feature-for-your-system"></a>Ative este recurso para o seu sistema
+## <a name="turn-this-feature-on-or-off-for-your-system"></a>Ativar ou desativar este recurso para o seu sistema
 
-Se o sistema ainda não incluir os recursos descritos neste artigo, acesse [Gerenciamento de recursos](../../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) e ative o recurso *Ordens de produção planejadas usando a Otimização de Planejamento*.
+Para usar esse recurso, você deve habilitá-lo no seu sistema. A partir do Supply Chain Management versão 10.0.29, o recurso é obrigatório e não pode ser desativado. Se você estiver executando uma versão anterior à 10.0.29, os administradores poderão habilitar ou desabilitar essa funcionalidade pesquisando o recurso *Ordens de produção planejada para Otimização de Planejamento* no espaço de trabalho [Gerenciamento de recursos](../../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md).
 
 ## <a name="planned-production-orders"></a>Ordens de Produção Planejadas
 

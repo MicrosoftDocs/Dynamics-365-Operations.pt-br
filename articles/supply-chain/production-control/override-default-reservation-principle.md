@@ -2,7 +2,7 @@
 title: Substituir o princípio de reserva padrão por materiais em produção
 description: Este artigo descreve como configurar um princípio de reserva padrão para cada grupo de modelo de item, para que diferentes princípios de reserva possam ser automaticamente aplicados a cada item que faz parte da lista de materiais (BOM) ou fórmula de ordem de lote.
 author: johanhoffmann
-ms.date: 12/10/2020
+ms.date: 08/05/2022
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: johanho
 ms.search.validFrom: 2020-12-10
 ms.dyn365.ops.version: 10.0.17
-ms.openlocfilehash: 381b7fa5046df8f2734e4b242058eb9a673388cf
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: 87f10efd7eebdc034af3f7c9081d2674a6190b38
+ms.sourcegitcommit: 203c8bc263f4ab238cc7534d4dd902fd996d2b0f
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8907222"
+ms.lasthandoff: 08/23/2022
+ms.locfileid: "9334585"
 ---
 # <a name="override-the-default-reservation-principle-for-materials-in-production"></a>Substituir o princípio de reserva padrão por materiais em produção
 
@@ -32,7 +32,7 @@ Por exemplo, se você tem matérias-primas ou componentes que exigem trabalho de
 
 ## <a name="turn-the-override-default-production-reservation-feature-on-or-off"></a>Ativar ou desativar o recurso Substituir reserva de produção padrão
 
-A partir da versão 10.0.25 do Supply Chain Management, este recurso está ativado por padrão. Os administradores podem ativar ou desativar essa funcionalidade procurando o recurso *Substituir reserva de produção padrão* no espaço de trabalho [Gerenciamento de recursos](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md).
+Para usar esse recurso, você deve habilitá-lo no seu sistema. A partir do Supply Chain Management versão 10.0.25, o recurso está ativado por padrão. A partir do Supply Chain Management versão 10.0.29, o recurso é obrigatório e não pode ser desativado. Se você estiver executando uma versão anterior à 10.0.29, os administradores poderão habilitar ou desabilitar essa funcionalidade pesquisando o recurso *Substituir reserva de produção padrão* no espaço de trabalho [Gerenciamento de recursos](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md).
 
 ## <a name="assign-a-production-reservation-policy-to-an-item-model-group"></a>Atribuir uma política de reserva de produção a um grupo de modelos de item
 

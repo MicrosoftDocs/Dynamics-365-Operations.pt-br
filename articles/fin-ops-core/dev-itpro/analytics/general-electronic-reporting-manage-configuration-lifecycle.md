@@ -15,12 +15,12 @@ ms.dyn365.ops.version: AX 7.0.0
 ms.custom: 58801
 ms.assetid: 35ad19ea-185d-4fce-b9cb-f94584b14f75
 ms.search.form: ERDataModelDesigner, ERMappedFormatDesigner, ERModelMappingDesigner, ERModelMappingTable, ERSolutionImport, ERSolutionTable, ERVendorTable, ERWorkspace
-ms.openlocfilehash: fe23d4cb2b293af466df2236b153974f95f636f8
-ms.sourcegitcommit: 87e727005399c82cbb6509f5ce9fb33d18928d30
+ms.openlocfilehash: 0209679c9882d87edab68d043fba9e7b3400a2a2
+ms.sourcegitcommit: 203c8bc263f4ab238cc7534d4dd902fd996d2b0f
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/12/2022
-ms.locfileid: "9271573"
+ms.lasthandoff: 08/23/2022
+ms.locfileid: "9337186"
 ---
 # <a name="manage-the-electronic-reporting-er-configuration-lifecycle"></a>Gerenciar o ciclo de vida da configuração de Relatório eletrônico (ER)
 
@@ -65,7 +65,7 @@ O relatório eletrônico (ER) é um mecanismo que oferece suporte a documentos e
 ## <a name="concepts"></a>Conceitos
 As funções e as atividades relacionadas a seguir estão associadas ao ciclo de vida de configuração de ER.
 
-| Função                                       | Atividades                                                      | descrição |
+| Função                                       | Atividades                                                      | Descrição |
 |--------------------------------------------|-----------------------------------------------------------------|-------------|
 | Consultor funcional de relatório eletrônico | Crie e gerencie componentes de ER (modelos e formatos).           | Um executivo, que projeta modelos de dados específicos de domínio de ER, cria os modelos necessários para documentos eletrônicos e os associa adequadamente. |
 | Desenvolvedor de relatório eletrônico             | Crie e gerencie mapeamentos de modelo de dados.                          | Um especialista que seleciona as fontes de dados do Finance necessárias e as associa aos modelos de dados específicos de domínio de ER. |
@@ -84,7 +84,7 @@ As configurações de ER criadas no ambiente de desenvolvimento podem ser [carre
 
 ## <a name="data-persistence-consideration"></a>Consideração de persistência de dados
 
-Você pode [importar](tasks/er-import-configuration-lifecycle-services.md) individualmente [versões](general-electronic-reporting.md#component-versioning) diferentes de uma [configuração](general-electronic-reporting.md#Configuration) ER para sua instância do Finance. Quando uma nova versão de uma configuração ER é importada, o sistema controla o conteúdo da versão de rascunho dessa configuração:
+Você pode [importar](tasks/er-import-configuration-lifecycle-services.md) individualmente versões diferentes de uma [configuração](general-electronic-reporting.md#Configuration) ER para sua instância do Finance. Quando uma nova versão de uma configuração ER é importada, o sistema controla o conteúdo da versão de rascunho dessa configuração:
 
 - Quando a versão importada for anterior à versão mais atual dessa configuração na instância atual do Finance, o conteúdo da versão de rascunho dessa configuração permanecerá inalterado.
 - Quando a versão importada for mais atual do que outras versões dessa configuração na instância atual do Finance, o conteúdo da versão importada será copiado para a versão de rascunho dessa configuração para que você continue editando a última versão concluída.
@@ -112,7 +112,7 @@ As configurações de ER podem ser definidas como [dependentes](er-download-conf
 
 ![Configuração do formato de ER derivado na página "Configurações".](./media/ger-configuration-lifecycle-img1.png)
 
-Quando terminar de criar o formato, você poderá alterar o status da [versão inicial](general-electronic-reporting.md#component-versioning) da configuração do formato ER de **Rascunho** para **Concluído**. Em seguida, você pode compartilhar a versão concluída da configuração do formato ER [com sua publicação](../../../finance/localizations/rcs-global-repo-upload.md) no repositório global. Em seguida, você pode acessar o repositório global de qualquer instância de nuvem do RCS ou Finance. Em seguida, você pode importar qualquer versão de configuração do ER aplicável ao aplicativo do repositório global para o aplicativo.
+Quando terminar de criar o formato, você poderá alterar o status da versão inicial da configuração do formato ER de **Rascunho** para **Concluído**. Em seguida, você pode compartilhar a versão concluída da configuração do formato ER [com sua publicação](../../../finance/localizations/rcs-global-repo-upload.md) no repositório global. Em seguida, você pode acessar o repositório global de qualquer instância de nuvem do RCS ou Finance. Em seguida, você pode importar qualquer versão de configuração do ER aplicável ao aplicativo do repositório global para o aplicativo.
 
 ![Configuração do formato ER publicado na página do repositório de configuração.](./media/ger-configuration-lifecycle-img2.png)
 

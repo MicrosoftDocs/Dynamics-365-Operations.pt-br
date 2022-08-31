@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: mirzaab
 ms.search.validFrom: 2021-01-28
 ms.dyn365.ops.version: 10.0.17
-ms.openlocfilehash: 8ebea86e5ea63ab4f5a844cd3d0936c0d65bbe2b
-ms.sourcegitcommit: c98d55a4a6e27239ae6b317872332f01cbe8b875
+ms.openlocfilehash: e2cfcc13f397f57413be1773683daf1f828beaf8
+ms.sourcegitcommit: 203c8bc263f4ab238cc7534d4dd902fd996d2b0f
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/02/2022
-ms.locfileid: "9220232"
+ms.lasthandoff: 08/23/2022
+ms.locfileid: "9334435"
 ---
 # <a name="set-different-dimensions-for-packing-and-storage"></a>Definir dimensões diferentes para embalagem e armazenamento
 
@@ -37,7 +37,7 @@ Este artigo oferece um cenário que mostra como usar esse recurso.
 
 ## <a name="turn-on-the-packaging-product-dimensions-feature"></a>Ativar o recurso de dimensões de produtos de embalagem
 
-Antes de poder usar esse recurso, você deve habilitá-lo no seu sistema. Os administradores podem usar o espaço de trabalho [Gerenciamento de recursos](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) para verificar o status do recurso e ativá-lo, se necessário. Nesse caso, o recurso é listado da seguinte maneira:
+Para poder usar esse recurso, você deve habilitá-lo para o seu sistema. Os administradores podem usar o espaço de trabalho [Gerenciamento de recursos](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) para verificar o status do recurso e ativá-lo, se necessário. Nesse caso, o recurso é listado da seguinte maneira:
 
 - **Módulo:** *Gerenciamento de Depósito*
 - **Nome do recurso:** *Dimensões de produtos de embalagem*

@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: mirzaab
 ms.search.validFrom: 2020-03-21
 ms.dyn365.ops.version: 10.0.10
-ms.openlocfilehash: c48d240b346acacf2988fbaac69308ee655dced6
-ms.sourcegitcommit: c98d55a4a6e27239ae6b317872332f01cbe8b875
+ms.openlocfilehash: 38d5ba96690dd855556a7f69591ef5b9ee5f9d7b
+ms.sourcegitcommit: 203c8bc263f4ab238cc7534d4dd902fd996d2b0f
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/02/2022
-ms.locfileid: "9219492"
+ms.lasthandoff: 08/23/2022
+ms.locfileid: "9335665"
 ---
 # <a name="warehouse-handling-of-inbound-loads-for-purchase-orders"></a>Processamento de cargas de entrada das ordens de compra no depósito
 
@@ -126,7 +126,7 @@ Use o campo **Excesso no recebimento de carga** para os itens de menu relevantes
 
 A tabela a seguir explica as opções disponíveis para o campo **Excesso no recebimento de carga**.
 
-| Alíquota | descrição |
+| Alíquota | Descrição |
 |---|---|
 | Permitir | Os funcionários podem registrar o recebimento de quantidades que excedam a quantidade não registrada restante para uma carga selecionada, mas apenas se a quantidade total registrada não exceder a quantidade da linha da ordem de compra associada à carga (após o ajuste da porcentagem de entrega excedente). |
 | Bloquear | <p>Os funcionários não conseguem registrar o recebimento de quantidades que excedam a quantidade não registrada restante para uma carga selecionada (após o ajuste da porcentagem de entrega excedente). Um funcionário que tentar registrar os recebimentos receberá um erro e não poderá continuar até que registre uma quantidade igual ou menor que a quantidade restante de carga não registrada.</p><p>Por padrão, o valor da porcentagem de entrega excedente em uma linha de carga é copiado da linha de ordem de compra associada. Quando o campo <b>Excesso no recebimento de carga</b> está definido como <i>Bloquear</i>, o sistema usa o valor percentual de entrega excedente para calcular a quantidade total que pode ser registrada para uma linha de carga. Entretanto, esse valor pode ser substituído para cargas individuais, conforme necessário. Esse comportamento se torna relevante durante o recebimento de fluxos em que parte ou toda a quantidade excedente que representa a porcentagem de entrega excedente da linha da ordem é distribuída desproporcionalmente em várias cargas. Veja um exemplo de cenário:</p><ul><li>Existem várias cargas para uma linha de ordem de compra.</li><li>A linha da ordem tem uma porcentagem de entrega excedente superior a 0 (zero).</li><li>As quantidades já foram registradas em uma ou mais cargas sem levar em consideração a porcentagem de entrega excedente.</li><li>A quantidade de entrega excedente chega na última carga.</li></ul><p>Nesse cenário, um dispositivo móvel pode ser usado para registrar a quantidade excedente para a última carga somente se o supervisor do depósito aumentar a porcentagem de entrega excedente para a linha de carga relevante do valor padrão para um valor que seja grande o suficiente para que a entrega excedente completa possa ser registrada com a carga final.</p> |
@@ -259,7 +259,7 @@ As empresas que usam cargas para planejar e gerenciar transporte e depósito de 
 
 ### <a name="prepare-your-system-to-run-the-sample-scenarios"></a>Prepare seu sistema para executar os cenários de exemplo
 
-Para trabalhar com os cenários de exemplo descritos nesta seção, você deve primeiro se certificar de que todos os recursos necessários estejam ativados no seu sistema. Os dados de demonstração necessários também devem estar disponíveis no sistema.
+Para trabalhar com os cenários de exemplo descritos nesta seção, primeiro certifique-se de que todos os recursos necessários estejam ativados para seu sistema. Os dados de demonstração necessários também devem estar disponíveis no sistema.
 
 #### <a name="turn-on-the-required-features"></a>Ativar os recursos necessários
 

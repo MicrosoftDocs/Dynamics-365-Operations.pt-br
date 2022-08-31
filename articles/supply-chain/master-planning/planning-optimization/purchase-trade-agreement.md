@@ -2,7 +2,7 @@
 title: Planejamento mestre com contratos comerciais de compra
 description: Este artigo descreve como a otimização do planejamento pode encontrar o fornecedor e/ou prazo de entrega para uma ordem planejada, com base no melhor preço ou prazo de entrega encontrado nos contratos comerciais de compra.
 author: t-benebo
-ms.date: 06/29/2020
+ms.date: 08/09/2022
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -16,12 +16,12 @@ ms.search.industry: Manufacturing
 ms.author: benebotg
 ms.search.validFrom: 2020-05-29
 ms.dyn365.ops.version: AX 10.0.12
-ms.openlocfilehash: 29f0f44289e44b21cb304bd1f423d63f9f58f2db
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: 3797ee584cdb059a97670d532cf7e1a1163cc7ff
+ms.sourcegitcommit: 203c8bc263f4ab238cc7534d4dd902fd996d2b0f
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8873743"
+ms.lasthandoff: 08/23/2022
+ms.locfileid: "9335215"
 ---
 # <a name="master-planning-with-purchase-trade-agreements"></a>Planejamento mestre com contratos comerciais de compra
 
@@ -29,12 +29,9 @@ ms.locfileid: "8873743"
 
 Este artigo descreve como a otimização do planejamento pode encontrar o fornecedor e/ou prazo de entrega para uma ordem planejada, com base no melhor preço ou prazo de entrega encontrado entre todos os contratos comerciais de compra especificados para um determinado produto.
 
-## <a name="turn-on-the-purchase-trade-agreements-for-planning-optimization-feature"></a>Ativar os Contratos comerciais de compra para o recurso Otimização de Planejamento
+## <a name="turn-the-purchase-trade-agreements-for-planning-optimization-feature-on-or-off"></a>Ativar ou desativar os Contratos comerciais de compra para o recurso Otimização de Planejamento
 
-Antes de poder usar esse recurso, você deve habilitá-lo no seu sistema. Os administradores podem usar o espaço de trabalho [Gerenciamento de recursos](../../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) para verificar o status do recurso e ativá-lo, se necessário. Nesse caso, o recurso é listado da seguinte maneira:
-
-- **Módulo:** *Planejamento mestre*
-- **Nome do recurso:** *Contratos comerciais de compra para Otimização de Planejamento*
+Para usar esse recurso, você deve habilitá-lo no seu sistema. A partir do Supply Chain Management versão 10.0.29, o recurso é obrigatório e não pode ser desativado. Se você estiver executando uma versão anterior à 10.0.29, os administradores poderão habilitar ou desabilitar essa funcionalidade pesquisando o recurso *Contratos comerciais de compra para Otimização de Planejamento* no espaço de trabalho [Gerenciamento de recursos](../../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md).
 
 ## <a name="prepare-your-system-to-evaluate-purchase-trade-agreements-during-master-planning"></a>Preparar o sistema para avaliar contratos comerciais de compra durante planejamento mestre
 

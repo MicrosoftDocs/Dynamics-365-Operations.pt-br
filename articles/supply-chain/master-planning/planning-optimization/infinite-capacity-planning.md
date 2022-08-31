@@ -2,7 +2,7 @@
 title: Agendamento com capacidade infinita
 description: Este artigo fornece informações sobre o agendamento de capacidade infinita para a Otimização de Planejamento. Ele também descreve as limitações atuais dos recursos.
 author: t-benebo
-ms.date: 09/21/2021
+ms.date: 08/09/2022
 ms.topic: article
 ms.search.form: RouteInventProd
 audience: Application User
@@ -11,12 +11,12 @@ ms.search.region: Global
 ms.author: benebotg
 ms.search.validFrom: 2021-06-09
 ms.dyn365.ops.version: 10.0.22
-ms.openlocfilehash: 3646a7ca1f9a3a87a2f130783dc4961a61335f1d
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: c6e0190899abb544b559bb5f26ba974155989c3a
+ms.sourcegitcommit: 203c8bc263f4ab238cc7534d4dd902fd996d2b0f
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8873859"
+ms.lasthandoff: 08/23/2022
+ms.locfileid: "9335305"
 ---
 # <a name="scheduling-with-infinite-capacity"></a>Agendamento com capacidade infinita
 
@@ -24,12 +24,9 @@ ms.locfileid: "8873859"
 
 O recurso *Agendamento de capacidade infinita para Otimização de Planejamento* introduz o agendamento com base nas informações de roteiro. Ele permite que você agende trabalhos com base em uma vasta gama de configurações de roteiro. O Agendamento para Otimização de Planejamento aborda as configurações de roteiro usadas com frequência, incluindo a sequência de operações de roteiro ou os requisitos para recursos de operação de roteiro.
 
-## <a name="turn-on-the-infinite-capacity-scheduling-feature"></a>Ativar o recurso de agendamento de capacidade infinita
+## <a name="turn-the-infinite-capacity-scheduling-feature-on-or-off"></a>Ativar ou desativar o recurso de agendamento de capacidade infinita
 
-Antes de poder usar esse recurso, você deve habilitá-lo no seu sistema. Os administradores podem usar as configurações de [gerenciamento de recursos](../../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) para verificar o status do recurso e ativá-lo. No espaço de trabalho **Gerenciamento de recursos**, o recurso está listado da seguinte forma:
-
-- **Módulo:** *Planejamento mestre*
-- **Nome do recurso:** *agendamento da capacidade infinita para a Otimização do Planejamento*
+Para usar esse recurso, você deve habilitá-lo no seu sistema. A partir da versão 10.0.29 do Supply Chain Management, o recurso está ativado por padrão. Os administradores podem ativar ou desativar essa funcionalidade pesquisando o recurso *Agendamento da capacidade infinita para a Otimização do Planejamento* no espaço de trabalho [Gerenciamento de recursos](../../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md).
 
 Para obter mais informações sobre esse recurso, consulte [Agendamento com a seleção de recursos com base na capacidade](capability-based-scheduling.md).
 

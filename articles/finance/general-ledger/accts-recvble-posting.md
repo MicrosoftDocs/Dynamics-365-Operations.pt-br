@@ -15,18 +15,20 @@ ms.search.region: Global
 ms.author: kweekley
 ms.search.validFrom: 2022-01-03
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 492bbd31cae08a93cd68e5ce120d02a62141241b
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: 0d679595a1f702c4e3ade138a87c817d245fcf79
+ms.sourcegitcommit: 66d129874635d34a8b29c57762ecf1564e4dc233
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8874564"
+ms.lasthandoff: 08/23/2022
+ms.locfileid: "9324319"
 ---
 # <a name="accounts-receivable-posting"></a>Lançamento de contas a receber
 
 [!include [banner](../includes/banner.md)]
 
 O perfil de lançamento principal do módulo **Contas a receber** é o perfil de lançamento de cliente. Este perfil de lançamentos determina a conta de resumo usada quando saldos de clientes são lançados na contabilidade. Uma conta de resumo é uma conta principal. Ela também é conhecida como conta comercial de Contas a receber.
+
+O relatório **Reconciliação de cliente/razão** pode ser usado após o lançamento para ajudar a reconciliar os saldos de clientes e contas contábeis. O relatório usa as informações encontradas na conta Resumo para o perfil de lançamentos do cliente. Ele não usa a conta Resumo da contabilidade que é criada para o documento. Se você fizer alterações no perfil de lançamento do cliente ou no grupo de clientes atribuído ao cliente após lançar transações, o relatório poderá exibir as diferenças entre o cliente e o saldo de conta contábil. Para exibir somente as linhas com diferenças, e as linhas em que as contas de cliente e a conta contábil são ambas zero, selecione o parâmetro **Apenas diferenças** ao imprimir o relatório.
 
 Para obter mais informações, consulte [Perfis de postagem do cliente](../accounts-receivable/customer-posting-profiles.md).
 

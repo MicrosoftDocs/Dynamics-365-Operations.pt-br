@@ -2,7 +2,7 @@
 title: Tolerância de atraso (dias negativos)
 description: Este artigo fornece informações sobre o cálculo de tolerância de atraso e como ele afeta a criação de ordens planejadas na Otimização de Planejamento.
 author: t-benebo
-ms.date: 07/30/2021
+ms.date: 08/09/2022
 ms.topic: article
 audience: Application User
 ms.reviewer: kamaybac
@@ -10,12 +10,12 @@ ms.search.region: Global
 ms.author: benebotg
 ms.search.validFrom: 2021-07-30
 ms.dyn365.ops.version: 10.0.21
-ms.openlocfilehash: e1c9a9b618184303efe2bd10975e46423cca9ccc
-ms.sourcegitcommit: c98d55a4a6e27239ae6b317872332f01cbe8b875
+ms.openlocfilehash: fa4d2d1506546cacf5f9a7ec936f17601c5727d2
+ms.sourcegitcommit: 203c8bc263f4ab238cc7534d4dd902fd996d2b0f
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/02/2022
-ms.locfileid: "9219957"
+ms.lasthandoff: 08/23/2022
+ms.locfileid: "9335365"
 ---
 # <a name="delay-tolerance-negative-days"></a>Tolerância de atraso (dias negativos)
 
@@ -23,11 +23,11 @@ ms.locfileid: "9219957"
 
 A funcionalidade de tolerância ao atraso permite que a "Otimização de planejamento" considere o valor **Dias negativos** definido para grupos de cobertura, cobertura de itens e/ou planos mestre. Ela é usada para estender o período de tolerância de atraso que é aplicado durante o planejamento mestre. Desta forma, você pode evitar a criação de novas ordens de suprimento se a oferta existente for capaz de cobrir a demanda após um curto atraso. O objetivo da funcionalidade é determinar se faz sentido criar uma nova ordem de suprimento para uma determinada demanda.
 
-## <a name="turn-on-the-feature-in-your-system"></a>Ative o recurso no seu sistema
+## <a name="turn-delay-tolerance-features-on-or-off"></a>Ativar ou desativar recursos de tolerância de atraso
 
 Para disponibilizar a funcionalidade de tolerância de atraso no sistema, acesse [Gerenciamento de recursos](../../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) e ative os recursos seguintes:
 
-- *Dias negativos para a otimização do planejamento* – este recurso permite configurações de dias negativos para grupos de cobertura e cobertura de item.
+- *Dias negativos para a otimização do planejamento* – este recurso permite configurações de dias negativos para grupos de cobertura e cobertura de item. A partir do Supply Chain Management versão 10.0.29, o recurso é obrigatório e não pode ser desativado.
 - *Automação de fornecimento disponível sob encomenda* – este recurso permite configurações de dias negativos para planos mestre. (Para obter mais informações, consulte [Automação de fornecimento disponível sob encomenda](../make-to-order-supply-automation.md).)
 
 ## <a name="delay-tolerance-in-planning-optimization"></a>Tolerância de atraso na Otimização de Planejamento

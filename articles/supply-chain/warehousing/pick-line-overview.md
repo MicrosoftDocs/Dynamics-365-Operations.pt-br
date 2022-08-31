@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: mirzaab
 ms.search.validFrom: 2020-09-03
 ms.dyn365.ops.version: 10.0.13
-ms.openlocfilehash: 5b3bf0d94e6975f543361481b73c845ef9c56d05
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: aeadca6f3c31d5d8c1ef9d334b0e531896ac99b1
+ms.sourcegitcommit: 203c8bc263f4ab238cc7534d4dd902fd996d2b0f
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8885657"
+ms.lasthandoff: 08/23/2022
+ms.locfileid: "9336295"
 ---
 # <a name="set-up-a-mobile-device-menu-item-to-provide-a-pick-line-overview"></a>Configurar um item de menu do dispositivo móvel para fornecer uma visão geral da linha de separação
 
@@ -30,7 +30,7 @@ Os administradores podem configurar cada item de menu individualmente para contr
 
 ## <a name="turn-on-the-work-pick-line-overview-feature"></a>Ativar o recurso Visão geral da linha de separação de trabalho
 
-Antes de poder usar esse recurso, você deve habilitá-lo no seu sistema. Os administradores podem usar as configurações de [gerenciamento de recursos](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) para verificar o status do recurso e ativá-lo se necessário. No espaço de trabalho **Gerenciamento de recursos**, o recurso está listado da seguinte forma:
+Para poder usar esse recurso, você deve habilitá-lo para o seu sistema. Os administradores podem usar as configurações de [gerenciamento de recursos](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) para verificar o status do recurso e ativá-lo se necessário. No espaço de trabalho **Gerenciamento de recursos**, o recurso está listado da seguinte forma:
 
 - **Módulo:** _Gerenciamento de Depósito_
 - **Nome do recurso:** _Visão geral da linha de separação de trabalho_

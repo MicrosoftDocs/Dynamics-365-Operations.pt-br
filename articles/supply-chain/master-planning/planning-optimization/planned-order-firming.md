@@ -2,7 +2,7 @@
 title: Confirmar ordens planejadas
 description: Este artigo explica como confirmar ordens planejadas. Quando as ordens planejadas forem confirmadas, elas se tornarão ordens de compra, ordens de transferência ou ordens de produção reais.
 author: t-benebo
-ms.date: 04/22/2021
+ms.date: 08/09/2022
 ms.search.form: ReqTransPo, ReqTransFirmLog
 audience: Application User
 ms.reviewer: kamaybac
@@ -10,12 +10,12 @@ ms.search.region: Global
 ms.author: benebotg
 ms.search.validFrom: 2021-04-22
 ms.dyn365.ops.version: 10.0.19
-ms.openlocfilehash: 24b5c6cb7e97924ebace8f7131a87e9bffea22e0
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: 7c8d5b7992c7955b9c5b1c7e773fdd467ccba6f9
+ms.sourcegitcommit: 203c8bc263f4ab238cc7534d4dd902fd996d2b0f
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8857508"
+ms.lasthandoff: 08/23/2022
+ms.locfileid: "9335335"
 ---
 # <a name="firm-planned-orders"></a>Confirmar ordens planejadas
 
@@ -37,19 +37,21 @@ A maioria dos recursos de ordem planejada estão disponíveis em todas as instal
 
 ### <a name="turn-parallelized-firming-of-planned-orders-on-or-off"></a>Ativar ou desativar a confirmação paralelizada de ordens planejadas
 
-A confirmação paralelizada ajuda a acelerar o processo de confirmação ao paralelizá-la em vários threads. Essa abordagem pode ser útil quando muitas ordens planejadas são confirmadas. Para usar essa funcionalidade, o recurso *Confirmação paralela de ordens planejadas* deve estar ativado no sistema. A partir da versão 10.0.21 do Supply Chain Management, este recurso está ativado por padrão. A partir do Supply Chain Management 10.0.25, este recurso é obrigatório e não pode ser desativado. Se você estiver executando uma versão anterior à 10.0.25, poderá ativar ou desativar essa funcionalidade acessando [Gerenciamento de recursos](../../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) e pesquisando o recurso *Confirmação paralela de ordens planejadas*.
+A confirmação paralelizada ajuda a acelerar o processo de confirmação ao paralelizá-la em vários threads. Essa abordagem pode ser útil quando muitas ordens planejadas são confirmadas. Para usar essa funcionalidade, o recurso *Confirmação paralela de ordens planejadas* deve estar ativado no sistema. 
 
-### <a name="enable-planned-order-firming-with-filtering"></a>Habilitar confirmação de ordem planejada com filtragem
+A partir da versão 10.0.21 do Supply Chain Management, este recurso está ativado por padrão. A partir do Supply Chain Management 10.0.25, este recurso é obrigatório e não pode ser desativado. Se você estiver executando uma versão anterior à 10.0.25, poderá ativar ou desativar essa funcionalidade acessando [Gerenciamento de recursos](../../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) e pesquisando o recurso *Confirmação paralela de ordens planejadas*.
+
+### <a name="turn-planned-order-firming-with-filtering-on-or-off"></a>Ativar ou desativar confirmação de ordem planejada com filtragem
 
 A confirmação de ordens planejadas com filtragem permite definir critérios lógicos para selecionar quais ordens planejadas devem ser confirmadas. Você também pode visualizar quais ordens planejadas foram selecionadas, executar o processo em segundo plano e/ou agendá-la como um trabalho em lotes.
 
-A partir da versão 10.0.25 do Supply Chain Management, este recurso está ativado por padrão. Os administradores podem ativar ou desativar essa funcionalidade pesquisando o recurso *Confirmação paralela de ordens planejadas* no espaço de trabalho [Gerenciamento de recursos](../../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md).
+Para usar esse recurso, você deve habilitá-lo no seu sistema. A partir do Supply Chain Management versão 10.0.25, o recurso está ativado por padrão. A partir do Supply Chain Management versão 10.0.29, o recurso é obrigatório e não pode ser desativado. Se você estiver executando uma versão anterior à 10.0.29, os administradores poderão habilitar ou desabilitar essa funcionalidade pesquisando o recurso *Confirmação de ordem planejada com filtros* no espaço de trabalho [Gerenciamento de recursos](../../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md).
 
-### <a name="enable-auto-firming-for-planning-optimization"></a>Habilitar confirmação automática para Otimização do Planejamento
+### <a name="turn-auto-firming-for-planning-optimization-on-or-off"></a>Ativar ou desativar confirmação automática para Otimização do Planejamento
 
 A confirmação automática permite que você confirme ordens planejadas como parte do processo de planejamento mestre durante o limite de tempo de confirmação. A confirmação automática sempre tem suporte para o mecanismo de planejamento criado no Supply Chain Management. No entanto, para também usá-la com a Otimização de Planejamento, você deve ativar o recurso.
 
-Para disponibilizar esta funcionalidade no sistema, acesse [Gerenciamento de recursos](../../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) e ative o recurso *Confirmação automática para Otimização de Planejamento*. (A partir do Supply Chain Management versão 10.0.21, este recurso está ativado por padrão.)
+A partir da versão 10.0.21 do Supply Chain Management, este recurso está ativado por padrão. A partir do Supply Chain Management 10.0.29, este recurso é obrigatório e não pode ser desativado. Se você estiver executando uma versão anterior à 10.0.29, poderá ativar ou desativar essa funcionalidade acessando [Gerenciamento de recursos](../../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) e pesquisando o recurso *Confirmação automática da Otimização de Planejamento*.
 
 ## <a name="manually-firm-planned-orders"></a>Confirmar manualmente ordens planejadas
 
@@ -67,8 +69,8 @@ Para confirmar manualmente ordens planejadas, você encontra e seleciona as orde
 
     - **Atualizar marcação** – Selecione a política de marcação de estoque a ser usada quando ordens planejadas forem confirmadas.
     - **Interromper confirmação se ocorrer um erro** – defina esta opção como *Sim* para interromper a confirmação de todas as ordens planejadas selecionadas se ocorrer um erro em uma delas. Esta opção deverá ser definida como *Não* se a opção **Confirmação de paralelização** estiver definida como *Sim*.
-    - **Paralelizar confirmação** – esta opção só estará disponível se o [ recurso *Confirmação paralela de ordens planejadas*](#enable-features) estiver ativado no sistema e se você tiver selecionado duas ou mais ordens planejadas para confirmação. Defina-a como *Sim* para executar os processos de confirmação em paralelo. A confirmação paralela pode ajudar a melhorar o desempenho.
-    - **Número de threads** – esta opção só estará disponível se o [recurso *Confirmação paralela de ordens planejadas*](#enable-features) estiver ativado no sistema e se você tiver definido a opção **Paralelizar confirmação** como *Sim*. Insira o número de threads a serem usados para paralelizar o processo de confirmação. Para obter conselhos sobre como usar esta opção no planejamento mestre, consulte [Melhorar o desempenho do planejamento mestre](../master-planning-performance.md#number-of-threads).
+    - **Paralelizar confirmação**: esta opção só estará disponível se o [recurso *Confirmação paralela de ordens planejadas*](#enable-features) estiver ativado para o sistema e se você tiver selecionado duas ou mais ordens planejadas para confirmação. Defina-a como *Sim* para executar os processos de confirmação em paralelo. A confirmação paralela pode ajudar a melhorar o desempenho.
+    - **Número de threads**: esta opção só estará disponível se o [recurso *Confirmação paralela de ordens planejadas*](#enable-features) estiver ativado no sistema e se você tiver definido a opção **Paralelizar confirmação** como *Sim*. Insira o número de threads a serem usados para paralelizar o processo de confirmação. Para obter conselhos sobre como usar esta opção no planejamento mestre, consulte [Melhorar o desempenho do planejamento mestre](../master-planning-performance.md#number-of-threads).
 
         > [!NOTE]
         > Uma valor *0* (zero) do campo **Número de threads** aumenta o tempo de execução do planejamento mestre. Portanto, é recomendável sempre definir este campo com um valor maior que 0.
@@ -97,7 +99,7 @@ A confirmação automática permite que você confirme ordens planejadas como pa
 > As ordens derivadas (ou seja, ordens de compra do subcontratado) que forem confirmadas terão um status *Em revisão* se o controle de alterações estiver ativado.
 
 > [!IMPORTANT]
-> Para que o recurso descrito nesta seção possa ser usado com otimização de planejamento, o [recurso *Confirmação automática para otimização de planejamento*](#enable-features) deve estar ativado no sistema, conforme descrito no início deste artigo. A confirmação automática sempre pode ser usada com o mecanismo de planejamento mestre interno.
+> Para que o recurso descrito nesta seção possa ser usado com Otimização de Planejamento, o [recurso *Confirmação automática da Otimização de Planejamento*](#enable-features) precisa estar ativado no sistema, conforme descrito no início deste artigo. A confirmação automática sempre pode ser usada com o mecanismo de planejamento mestre interno.
 
 ### <a name="auto-firming-with-planning-optimization-vs-the-built-in-planning-engine"></a>Confirmação automática com otimização de planejamento x o mecanismo de planejamento interno
 
@@ -130,7 +132,7 @@ A confirmação baseada em consulta permite planejar a confirmação com base em
 Você pode combinar a confirmação automática com a confirmação baseada em consulta. Por exemplo, um trabalho de confirmação baseado em consulta tem um limite de tempo de avanço maior do que o limite de tempo para uma configuração de cobertura de confirmação automática correspondente. Portanto, o trabalho de confirmação baseado em consulta processará as ordens planejadas antes do disparo da confirmação automática. Você pode aproveitar esse comportamento para agendar ordens para fornecedores específicos de forma diferente das ordens de produtos semelhantes de outros fornecedores.
 
 > [!IMPORTANT]
-> Para que o recurso descrito nesta seção possa ser usado, o [recurso *Confirmação de ordem planejada com filtragem*](#enable-features) deve ser ativado no sistema, conforme descrito no início deste artigo.
+> Para que o recurso descrito nesta seção possa ser usado, ative o [recurso *Confirmação de ordem planejada com filtragem*](#enable-features) no sistema, conforme descrito no início deste artigo.
 
 Para confirmar uma ordem planejada usando o processo de confirmação baseado em consulta, siga estas etapas.
 

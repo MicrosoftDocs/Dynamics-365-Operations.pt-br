@@ -2,7 +2,7 @@
 title: Agendar limpeza de dados de histórico de vendas
 description: Este artigo descreve como você pode ajudar a melhorar o desempenho do sistema ao agendar a tarefa periódica de limpeza do histórico de atualizações de vendas para ser executada em intervalos regulares.
 author: myvakalo
-ms.date: 03/21/2022
+ms.date: 08/09/2022
 ms.topic: article
 ms.search.form: ''
 audience: Application User
@@ -11,12 +11,12 @@ ms.search.region: Global
 ms.author: myvakalo
 ms.search.validFrom: 2021-09-29
 ms.dyn365.ops.version: 10.0.19
-ms.openlocfilehash: 1b2c9436fbb5020065f8f6ec30eedeca342d8aa9
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: e9a4dd5372afa8a0452449d1cb9121107e6e1610
+ms.sourcegitcommit: 203c8bc263f4ab238cc7534d4dd902fd996d2b0f
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8900815"
+ms.lasthandoff: 08/23/2022
+ms.locfileid: "9335493"
 ---
 # <a name="schedule-sales-history-data-cleanup"></a>Agendar limpeza de dados de histórico de vendas
 
@@ -42,7 +42,7 @@ O recurso melhora o trabalho de limpeza atual das seguintes maneiras:
 
 Depois de habilitar o recurso, o trabalho em lotes **Limpeza do histórico de atualizações de vendas** (**Vendas e marketing \> Tarefas periódicas de \> Limpeza \> Limpeza do histórico de atualizações de vendas**) será executado como de costume, mas com melhor desempenho e por um máximo de 2 horas. Isso significa que talvez seja necessário executar várias vezes para limpar todos os dados de um período de retenção específico.
 
-Antes de poder usar esse recurso, você deve habilitá-lo no seu sistema. Os administradores podem usar as configurações de [gerenciamento de recursos](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) para verificar o status do recurso e ativá-lo. No espaço de trabalho **Gerenciamento de recursos**, o recurso está listado da seguinte forma:
+Para poder usar esse recurso, você deve habilitá-lo para o seu sistema. Os administradores podem usar as configurações de [gerenciamento de recursos](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) para verificar o status do recurso e ativá-lo. No espaço de trabalho **Gerenciamento de recursos**, o recurso está listado da seguinte forma:
 
 - **Módulo:** *Vendas e marketing*
 - **Nome do recurso:** *melhorias no desempenho de limpeza do histórico de vendas*
@@ -51,10 +51,7 @@ Antes de poder usar esse recurso, você deve habilitá-lo no seu sistema. Os adm
 
 O recurso *Limpar histórico de atualizações de vendas com base na idade* permite especificar a idade máxima dos registros a serem mantidos durante a execução da tarefa *Limpeza do histórico de atualização de vendas*. Os registros mais antigos serão excluídos. Esse recurso é útil quando você configura a tarefa para ser executada periodicamente porque a idade é sempre calculada em relação à data em que a tarefa é executada. Se não usar esse recurso, você só pode definir uma data específica para que os registros mais antigos sejam mantidos.
 
-Antes de poder usar esse recurso, você deve habilitá-lo no seu sistema. Os administradores podem usar as configurações de [gerenciamento de recursos](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) para verificar o status do recurso e ativá-lo. No espaço de trabalho **Gerenciamento de recursos**, o recurso está listado da seguinte forma:
-
-- **Módulo:** *Vendas e marketing*
-- **Nome do recurso:** *Limpar histórico de atualizações de vendas com base na idade*
+Para usar esse recurso, você deve habilitá-lo no seu sistema. A partir do Supply Chain Management versão 10.0.29, o recurso é obrigatório e não pode ser desativado. Se você estiver executando uma versão anterior à 10.0.29, os administradores poderão ativar ou desativar essa funcionalidade procurando o recurso *Limpar histórico de atualizações de vendas com base na idade* no espaço de trabalho [Gerenciamento de recursos](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md).
 
 ## <a name="set-up-and-schedule-the-sales-history-cleanup-periodic-task"></a>Configurar e agendar a tarefa periódica de limpeza do histórico de vendas
 

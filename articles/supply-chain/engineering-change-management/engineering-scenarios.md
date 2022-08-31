@@ -2,7 +2,7 @@
 title: Passo a passo do recurso Gerenciamento de alterações de engenharia
 description: Este artigo fornece uma orientação completa que mostra como trabalhar com o gerenciamento de alterações de engenharia.
 author: t-benebo
-ms.date: 09/28/2020
+ms.date: 08/05/2022
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -12,12 +12,12 @@ ms.search.region: Global
 ms.author: benebotg
 ms.search.validFrom: 2020-09-28
 ms.dyn365.ops.version: 10.0.15
-ms.openlocfilehash: e66cda6e529a70d40e599718332152bac95b061e
-ms.sourcegitcommit: c98d55a4a6e27239ae6b317872332f01cbe8b875
+ms.openlocfilehash: 65ff30632a54b0b7cadbfe663698d466d41abe47
+ms.sourcegitcommit: 203c8bc263f4ab238cc7534d4dd902fd996d2b0f
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/02/2022
-ms.locfileid: "9220017"
+ms.lasthandoff: 08/23/2022
+ms.locfileid: "9334885"
 ---
 # <a name="engineering-change-management-feature-walkthrough"></a>Passo a passo do recurso Gerenciamento de alterações de engenharia
 
@@ -284,7 +284,7 @@ Para revisar o produto e liberá-lo na empresa *USMF*, siga estas etapas.
 
 1. Selecione o valor na coluna **Número do produto** para abrir a página **Detalhes da liberação do produto**. Observe os seguintes detalhes:
 
-    - A FastTab **Geral** mostra informações sobre a liberação do produto, como a empresa de liberação (*DEMF*, neste exemplo), o site de liberação (*1*) e o site de recebimento (*1*). Como você não especificou um site de recebimento no assistente para **Liberar produtos**, o valor do site de liberação é copiado para o site de recebimento.
+    - A FastTab **Geral** mostra informações sobre a liberação do produto, como a empresa de liberação (*DEMF*, neste exemplo), o site de liberação (*1*) e o site de recebimento (*1*). Como você não especificou um site de recebimento no assistente para **Liberar produtos**, o valor do site de liberação é copiado no site de recebimento.
     - A FastTab **Detalhes da liberação** mostra informações sobre o produto e a versão liberada. Aqui, você pode modificar as configurações, como as datas de efetividade.
     - A FastTab **Roteiro** mostra o roteiro do produto. No entanto, para esse exemplo, não foi possível liberar roteiros.
 

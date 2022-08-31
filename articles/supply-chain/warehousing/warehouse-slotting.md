@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: mirzaab
 ms.search.validFrom: 2020-07-01
 ms.dyn365.ops.version: 10.0.9
-ms.openlocfilehash: d319a1130facbc2988cc074960e6cdfbe053a2d6
-ms.sourcegitcommit: c98d55a4a6e27239ae6b317872332f01cbe8b875
+ms.openlocfilehash: bb86800f1491e8cb9ad629ed6cc1c76e9393e945
+ms.sourcegitcommit: 203c8bc263f4ab238cc7534d4dd902fd996d2b0f
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/02/2022
-ms.locfileid: "9218934"
+ms.lasthandoff: 08/23/2022
+ms.locfileid: "9336025"
 ---
 # <a name="warehouse-slotting"></a>Slots de depósito
 
@@ -34,7 +34,7 @@ O recurso *Aprimoramentos de alocação de slots de depósito* adiciona uma opç
 
 ## <a name="turn-on-the-warehouse-slotting-features"></a>Ativar os recursos de slots de depósito
 
-Antes de usar esses recursos, eles devem ser ativados em seu sistema. Os administradores podem usar as configurações de [gerenciamento de recursos](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) para verificar o status desses recursos e ativá-los, se necessário. Ative os seguintes recursos conforme necessário:
+Antes de usar esses recursos, eles deverão estar ativados para o seu sistema. Os administradores podem usar as configurações de [gerenciamento de recursos](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) para verificar o status desses recursos e ativá-los, se necessário. Ative os seguintes recursos conforme necessário:
 
 - Recurso de slots de depósito
 - Slots de depósito para ordens de transferência

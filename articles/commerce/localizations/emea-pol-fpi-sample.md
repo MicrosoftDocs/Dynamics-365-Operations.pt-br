@@ -2,27 +2,28 @@
 title: Exemplo de integração da impressora fiscal para a Polônia
 description: Este artigo fornece uma visão geral do exemplo de integração fiscal da Polônia no Microsoft Dynamics 365 Commerce.
 author: EvgenyPopovMBS
-ms.date: 12/20/2021
+ms.date: 08/18/2022
 ms.topic: article
 audience: Application User, Developer, IT Pro
 ms.reviewer: v-chgriffin
 ms.search.region: Global
 ms.author: josaw
-ms.search.validFrom: 2019-02-01
-ms.openlocfilehash: 1466532099820abcdf4496db80f9a34682e2ed5a
-ms.sourcegitcommit: 87e727005399c82cbb6509f5ce9fb33d18928d30
+ms.search.validFrom: 2019-02-01.
+ms.openlocfilehash: 52710252d78d34c444de2d40e16423868b12b5c1
+ms.sourcegitcommit: 203c8bc263f4ab238cc7534d4dd902fd996d2b0f
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/12/2022
-ms.locfileid: "9274223"
+ms.lasthandoff: 08/23/2022
+ms.locfileid: "9336629"
 ---
 # <a name="fiscal-printer-integration-sample-for-poland"></a>Exemplo de integração da impressora fiscal para a Polônia
 
-[!include[banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
+[!include [banner](../includes/preview-banner.md)]
 
 Este artigo fornece uma visão geral do exemplo de integração fiscal da Polônia no Microsoft Dynamics 365 Commerce.
 
-A funcionalidade do Dynamics 365 Commerce para a Polônia inclui um exemplo de integração do ponto de venda (PDV) a uma impressora fiscal. O exemplo estende a [funcionalidade de integração fiscal](fiscal-integration-for-retail-channel.md) e oferece suporte ao protocolo POSNET THERMAL HD 2.02 para impressoras fiscais da [Posnet Polska S.A.](https://www.posnet.com.pl) O exemplo permite a comunicação com uma impressora fiscal conectada por meio de uma porta COM usando um driver de software nativo. Ele foi implementado e testado usando um emulador de software que a Posnet forneceu para a impressora fiscal Posnet Thermal HD FV EJ. O exemplo é fornecido na forma de código-fonte e faz parte do kit de desenvolvimento de software (SDK) do Retail.
+A funcionalidade do Dynamics 365 Commerce para a Polônia inclui um exemplo de integração do ponto de venda (PDV) a uma impressora fiscal. O exemplo estende a [funcionalidade de integração fiscal](fiscal-integration-for-retail-channel.md) e oferece suporte ao protocolo POSNET THERMAL HD 2.02 para impressoras fiscais da [Posnet Polska S.A.](https://www.posnet.com.pl) O exemplo permite a comunicação com uma impressora fiscal conectada por meio de uma porta COM usando um driver de software nativo. Ele foi implementado e testado usando um emulador de software que a Posnet forneceu para a impressora fiscal Posnet Thermal HD FV EJ. O exemplo é fornecido na forma de código-fonte e faz parte do kit de desenvolvimento de software (SDK) do Commerce.
 
 A Microsoft não disponibiliza nenhum hardware, software ou documentação da Posnet. Para obter informações sobre como obter a impressora fiscal e operá-la, entre em contato com a [Posnet Polska S.A.](https://www.posnet.com.pl)
 
@@ -97,12 +98,10 @@ O exemplo de integração da impressora fiscal implementa as seguintes regras re
 
 ## <a name="set-up-fiscal-integration-for-poland"></a>Configurar integração fiscal para a Polônia
 
-O exemplo de integração da impressora fiscal da Polônia é baseado na [funcionalidade de integração fiscal](fiscal-integration-for-retail-channel.md) e faz parte do SDK do Retail. O exemplo está localizado na pasta **src\\FiscalIntegration\\Posnet** do repositório [Soluções do Dynamics 365 Commerce](https://github.com/microsoft/Dynamics365Commerce.Solutions/) (por exemplo, [o exemplo na versão/9.33](https://github.com/microsoft/Dynamics365Commerce.Solutions/tree/release/9.33/src/FiscalIntegration/Posnet)). O exemplo [consiste](fiscal-integration-for-retail-channel.md#fiscal-registration-process-and-fiscal-integration-samples-for-fiscal-devices-and-services) em um provedor de documentos fiscais, que é uma extensão do Commerce Runtime (CRT) e um conector fiscal, que é uma extensão da estação de hardware do Commerce. Para obter mais informações sobre como usar o SDK do Retail, consulte [arquitetura de SDK do Retail](../dev-itpro/retail-sdk/retail-sdk-overview.md) e [Configurar um pipeline de build para o SDK de compactação independente](../dev-itpro/build-pipeline.md).
+A amostra de integração da impressora fiscal da Polônia se baseia na [funcionalidade de integração fiscal](fiscal-integration-for-retail-channel.md) e faz parte do SDK do Commerce. A amostra está localizada na pasta **src\\FiscalIntegration\\Posnet** do repositório [Soluções do Dynamics 365 Commerce](https://github.com/microsoft/Dynamics365Commerce.Solutions/). O [exemplo](fiscal-integration-for-retail-channel.md#fiscal-registration-process-and-fiscal-integration-samples-for-fiscal-devices-and-services) consiste em um provedor de documentos fiscais, que é uma extensão do Commerce Runtime (CRT) e um conector fiscal, que é uma extensão da estação de hardware do Commerce. Para obter mais informações sobre como usar o SDK do Commerce, consulte [Baixar exemplos de SDK do Commerce e pacotes de referência do GitHub e NuGet](../dev-itpro/retail-sdk/sdk-github.md) e [Configurar um pipeline de build para o SDK de compactação independente](../dev-itpro/build-pipeline.md).
 
-> [!WARNING]
-> Devido às limitações do [novo empacotamento independente e modelo de extensão](../dev-itpro/build-pipeline.md), ele não pode ser usado no momento para esse exemplo de integração fiscal. Você deve usar a versão anterior do SDK do Retail em uma máquina virtual (VM) do desenvolvedor no Microsoft Dynamics Lifecycle Services (LCS). Para obter mais informações, consulte [Diretrizes de implantação para o exemplo de integração da impressora fiscal para a Polônia (herdado)](emea-pol-fpi-sample-sdk.md).
->
-> O suporte para o novo pacote independente e o modelo de extensão para os exemplo de integração fiscal está planejado para versões posteriores.
+> [!NOTE]
+> A amostra de integração da impressora fiscal para a Polônia está disponível no SDK do Commerce a partir do Commerce versão 10.0.29. No Commerce versão 10.0.28 ou anterior, você deve usar a versão anterior do SDK do Retail em uma máquina virtual (VM) do desenvolvedor no Microsoft Dynamics Lifecycle Services (LCS). Para obter mais informações, consulte [Diretrizes de implantação para o exemplo de integração da impressora fiscal para a Polônia (herdado)](emea-pol-fpi-sample-sdk.md).
 
 Conclua as etapas de integração fiscal conforme descritas em [Configurar a integração da fiscal para os canais do Commerce](setting-up-fiscal-integration-for-retail-channel.md).
 
@@ -119,18 +118,16 @@ Para habilitar o processo de registro, siga estas etapas para configurar o Comme
 1. Baixe arquivos de configuração para o provedor de documentos fiscais e o conector fiscal:
 
     1. Abra o repositório [Soluções do Dynamics 365 Commerce](https://github.com/microsoft/Dynamics365Commerce.Solutions/).
-    1. Selecione uma versão correta da ramificação de lançamento de acordo com a sua versão do SDK/aplicativo (por exemplo, **[versão/9.33](https://github.com/microsoft/Dynamics365Commerce.Solutions/tree/release/9.33)**).
+    1. Selecione uma versão correta da ramificação de lançamento de acordo com a sua versão do SDK/aplicativo.
     1. Abra **src \> FiscalIntegration \> Posnet**.
-    1. Faça download do arquivo de configuração do provedor de documentos fiscais em **CommerceRuntime \> DocumentProvider.PosnetSample \> Configuration \> DocumentProviderPosnetSample.xml** (por exemplo, [o arquivo para a versão/9.33](https://github.com/microsoft/Dynamics365Commerce.Solutions/blob/release/9.33/src/FiscalIntegration/Posnet/CommerceRuntime/DocumentProvider.PosnetSample/Configuration/DocumentProviderPosnetSample.xml)).
-    1. Faça download do arquivo de configuração do conector fiscal em **HardwareStation \> ThermalDeviceSample \> Configuration \> ConnectorPosnetThermalFVEJ.xml** (por exemplo, [o arquivo para a versão/9.33](https://github.com/microsoft/Dynamics365Commerce.Solutions/blob/release/9.33/src/FiscalIntegration/Posnet/HardwareStation/ThermalDeviceSample/Configuration/ConnectorPosnetThermalFVEJ.xml)).
+    1. Baixe o arquivo de configuração do provedor de documentos fiscais em **CommerceRuntime \> DocumentProvider.PosnetSample \> Configuration \> DocumentProviderPosnetSample.xml**.
+    1. Baixe o arquivo de configuração do conector fiscal em **HardwareStation \> ThermalDeviceSample \> Configuration \> ConnectorPosnetThermalFVEJ.xml**.
 
-    > [!WARNING]
-    > Devido às limitações do [novo empacotamento independente e modelo de extensão](../dev-itpro/build-pipeline.md), ele não pode ser usado no momento para esse exemplo de integração fiscal. Você deve usar a versão anterior do SDK do Retail em uma VM do desenvolvedor no LCS. Os arquivos de configuração deste exemplo de integração fiscal estão localizados nas seguintes pastas do SDK do Retail em uma VM do desenvolvedor no LCS:
+    > [!NOTE]
+    > No Commerce versão 10.0.28 ou anterior, você deve usar a versão anterior do SDK do Retail em uma VM do desenvolvedor no LCS. Os arquivos de configuração deste exemplo de integração fiscal estão localizados nas seguintes pastas do SDK do Retail em uma VM do desenvolvedor no LCS:
     >
     > - **Arquivo de configuração do provedor de documentos fiscais:** RetailSdk\\SampleExtensions\\CommerceRuntime\\Extension.DocumentProvider.PosnetSample\\Configuration\\DocumentProviderPosnetSample.xml
     > - **Arquivo de configuração do conector fiscal:** RetailSdk\\SampleExtensions\\HardwareStation\\Extension.Posnet.ThermalDeviceSample\\Configuration\\ConnectorPosnetThermalFVEJ.xml
-    > 
-    > O suporte para o novo pacote independente e o modelo de extensão para os exemplo de integração fiscal está planejado para versões posteriores.
 
 1. Vá para **Varejo e Comércio \> Configuração do headquarters \> Parâmetros \> Parâmetros compartilhados com o comércio**. Na guia **Geral**, defina a opção **Habilitar integração fiscal** como **Sim**.
 1. Acesse **Retail e Commerce \> Configuração de canal \> Integração fiscal \> Provedores de documentos fiscais** e carregue o arquivo do provedor de documentos fiscais baixado anteriormente.
@@ -173,16 +170,15 @@ As configurações a seguir são incluídas na configuração do conector fiscal
 
 ### <a name="configure-channel-components"></a>Configurar os componentes de canal
 
-> [!WARNING]
-> Devido às limitações do [novo empacotamento independente e modelo de extensão](../dev-itpro/build-pipeline.md), ele não pode ser usado no momento para esse exemplo de integração fiscal. Você deve usar a versão anterior do SDK do Retail em uma VM do desenvolvedor no LCS. Para obter mais informações, consulte [Diretrizes de implantação para o exemplo de integração da impressora fiscal para a Polônia (herdado)](emea-pol-fpi-sample-sdk.md).
->
-> O suporte para o novo pacote independente e o modelo de extensão para os exemplo de integração fiscal está planejado para versões posteriores.
+> [!NOTE]
+> - A amostra de integração da impressora fiscal para a Polônia está disponível no SDK do Commerce a partir do Commerce versão 10.0.29. No Commerce versão 10.0.28 ou anterior, você deve usar a versão anterior do SDK do Retail em uma VM do desenvolvedor no LCS. Para obter mais informações, consulte [Diretrizes de implantação para o exemplo de integração da impressora fiscal para a Polônia (herdado)](emea-pol-fpi-sample-sdk.md).
+> - As amostras do Commerce implantadas no seu ambiente não são atualizadas automaticamente quando você aplica atualizações de serviço ou qualidade a componentes do Commerce. Você deve atualizar manualmente os exemplos necessários.
 
 #### <a name="set-up-the-development-environment"></a>Configurar o ambiente de desenvolvimento
 
 Para configurar um ambiente de desenvolvimento para testar e ampliar o exemplo, siga estas etapas.
 
-1. Clone ou baixe o repositório [Soluções do Dynamics 365 Commerce](https://github.com/microsoft/Dynamics365Commerce.Solutions). Selecione uma versão correta da ramificação de lançamento de acordo com a sua versão do SDK/aplicativo. Para obter mais informações, consulte [Baixar exemplos de SDK do Retail e pacotes de referência do GitHub e NuGet](../dev-itpro/retail-sdk/sdk-github.md).
+1. Clone ou baixe o repositório [Soluções do Dynamics 365 Commerce](https://github.com/microsoft/Dynamics365Commerce.Solutions). Selecione uma versão correta da ramificação de lançamento de acordo com a sua versão do SDK/aplicativo. Para obter mais informações, consulte [Baixar exemplos de SDK do Commerce e pacotes de referência do GitHub e NuGet](../dev-itpro/retail-sdk/sdk-github.md).
 1. Abra a solução de integração da impressora fiscal em **Dynamics365Commerce.Solutions\\FiscalIntegration\\Posnet\\Posnet.sln** e crie-a.
 1. Instale as extensões do CRT:
 
@@ -220,10 +216,10 @@ Siga as etapas em [Configurar um pipeline de build para um exemplo de integraç�
 
 ## <a name="design-of-extensions"></a>Design de extensões
 
-O exemplo de integração da impressora fiscal da Polônia é baseado na [funcionalidade de integração fiscal](fiscal-integration-for-retail-channel.md) e faz parte do SDK do Retail. O exemplo está localizado na pasta **src\\FiscalIntegration\\Posnet** do repositório [Soluções do Dynamics 365 Commerce](https://github.com/microsoft/Dynamics365Commerce.Solutions/) (por exemplo, [o exemplo na versão/9.33](https://github.com/microsoft/Dynamics365Commerce.Solutions/tree/release/9.33/src/FiscalIntegration/Posnet)). O exemplo [consiste](fiscal-integration-for-retail-channel.md#fiscal-registration-process-and-fiscal-integration-samples-for-fiscal-devices-and-services) em um provedor de documentos fiscais, que é uma extensão do CRT e um conector fiscal, que é uma extensão da estação de hardware do Commerce. Para obter mais informações sobre como usar o SDK do Retail, consulte [arquitetura de SDK do Retail](../dev-itpro/retail-sdk/retail-sdk-overview.md) e [Configurar um pipeline de build para o SDK de compactação independente](../dev-itpro/build-pipeline.md).
+A amostra de integração da impressora fiscal da Polônia se baseia na [funcionalidade de integração fiscal](fiscal-integration-for-retail-channel.md) e faz parte do SDK do Commerce. A amostra está localizada na pasta **src\\FiscalIntegration\\Posnet** do repositório [Soluções do Dynamics 365 Commerce](https://github.com/microsoft/Dynamics365Commerce.Solutions/). O [exemplo](fiscal-integration-for-retail-channel.md#fiscal-registration-process-and-fiscal-integration-samples-for-fiscal-devices-and-services) consiste em um provedor de documentos fiscais, que é uma extensão do CRT e um conector fiscal, que é uma extensão da estação de hardware do Commerce. Para obter mais informações sobre como usar o SDK do Commerce, consulte [Baixar exemplos de SDK do Commerce e pacotes de referência do GitHub e NuGet](../dev-itpro/retail-sdk/sdk-github.md) e [Configurar um pipeline de build para o SDK de compactação independente](../dev-itpro/build-pipeline.md).
 
-> [!WARNING]
-> Devido às limitações do [novo empacotamento independente e modelo de extensão](../dev-itpro/build-pipeline.md), ele não pode ser usado no momento para esse exemplo de integração fiscal. Você deve usar a versão anterior do SDK do Retail em uma VM do desenvolvedor no LCS. Para obter mais informações, consulte [Diretrizes de implantação para o exemplo de integração da impressora fiscal para a Polônia (herdado)](emea-pol-fpi-sample-sdk.md). O suporte para o novo pacote independente e o modelo de extensão para os exemplo de integração fiscal está planejado para versões posteriores.
+> [!NOTE]
+> A amostra de integração da impressora fiscal para a Polônia está disponível no SDK do Commerce a partir do Commerce versão 10.0.29. No Commerce versão 10.0.28 ou anterior, você deve usar a versão anterior do SDK do Retail em uma VM do desenvolvedor no LCS. Para obter mais informações, consulte [Diretrizes de implantação para o exemplo de integração da impressora fiscal para a Polônia (herdado)](emea-pol-fpi-sample-sdk.md).
 
 ### <a name="commerce-runtime-extension-design"></a>Design de extensão do Commerce Runtime
 

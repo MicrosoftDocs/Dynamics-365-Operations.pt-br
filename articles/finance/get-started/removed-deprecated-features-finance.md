@@ -12,12 +12,12 @@ ms.search.region: Global
 ms.author: kfend
 ms.search.validFrom: 2020-03-02
 ms.dyn365.ops.version: Platform update 33
-ms.openlocfilehash: 4f2a1984d39713daa84f15422d7e0680b7f6c601
-ms.sourcegitcommit: c98d55a4a6e27239ae6b317872332f01cbe8b875
+ms.openlocfilehash: 1b5282bc1fb4834d001cd2513664996a2f4cf4f0
+ms.sourcegitcommit: 0feb5d0b06e04f99903069ff2801577be86b8555
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/02/2022
-ms.locfileid: "9219558"
+ms.lasthandoff: 08/18/2022
+ms.locfileid: "9313873"
 ---
 # <a name="removed-or-deprecated-features-in-dynamics-365-finance"></a>Recursos removidos ou preteridos no Dynamics 365 Finance
 
@@ -46,6 +46,17 @@ Esta lista é destinada a ajudá-lo a considerar essas remoções e reprovaçõe
 | **Áreas afetadas do produto** | Aplicativo |
 | **Opção de implantação** | Todos |
 | **Status** | Preterido: depois de 2023 de abril, as **Ordens de transferência de estoque com impostos no preço de transferência** não receberão mais suporte com correções de bugs e correções de segurança. Será solicitado que os clientes usem a funcionalidade aprimorada, [Ordens de transferência de estoque para a Índia](../../finance/localizations/apac-ind-stock-transfer.md). Depois de outubro de 2023, a funcionalidade **Ordens de transferência de estoque com impostos no preço de transferência** não estará mais disponíveis e será solicitado que os clientes mudem para a funcionalidade aprimorada. |
+
+### <a name="bank-statement-import-and-export-of-positive-pay-file"></a>Importação de extrato bancário e exportação de arquivo de pagamento positivo
+
+| &nbsp;  | &nbsp;  |
+|---|---|
+| **Motivo para a reprovação/remoção** |Substituído por uma funcionalidade aprimorada, importar extratos bancários e exportar arquivos de pagamento positivos.| 
+| **Substituída por outro recurso?**   | Sim |
+| **Áreas afetadas do produto**         | Aplicativo |
+| **Opção de implantação**              | Todos |
+| **Status**                         | Preterido: a funcionalidade XSLT para importar e exportar arquivos não receberá mais suporte com correções de bugs e correções de segurança. Os clientes deverão usar a funcionalidade aprimorada: [Configurar arquivos de pagamento positivos usando o Relatório eletrônico](../../finance/accounts-payable/set-up-positive-pay-er.md) e [Configurar a importação avançada de reconciliação bancária usando o Relatório eletrônico](../../finance/accounts-payable/import-bai2-er.md). Após setembro de 2022, a funcionalidade XSLT não estará mais disponível e os clientes deverão mudar para a funcionalidade aprimorada.|
+
 
 ## <a name="features-removed-or-deprecated-in-the-finance-10026-release"></a>Recursos removidos ou substituídos na versão 10.0.26 do Finance
 

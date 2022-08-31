@@ -2,7 +2,7 @@
 title: Relatórios de valor de estoque
 description: Este artigo explica como configurar, gerar e usar relatórios de valor de estoque. Esses relatórios fornecem detalhes sobre as quantidades e os valores físicos e financeiros de estoque.
 author: JennySong-SH
-ms.date: 10/19/2021
+ms.date: 08/05/2022
 ms.topic: article
 ms.search.form: InventValueProcess, InventValueReportSetup
 audience: Application User
@@ -11,12 +11,12 @@ ms.search.region: Global
 ms.author: yanansong
 ms.search.validFrom: 2021-10-19
 ms.dyn365.ops.version: 10.0.9
-ms.openlocfilehash: 3128abb25fdb8f8e01b4d1fe153f5b5fff6cb706
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: f97b5bd228c6f769438d50bb27950b8d8fbda3e8
+ms.sourcegitcommit: 203c8bc263f4ab238cc7534d4dd902fd996d2b0f
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8854548"
+ms.lasthandoff: 08/23/2022
+ms.locfileid: "9334915"
 ---
 # <a name="inventory-value-reports"></a>Relatórios de valor de estoque
 
@@ -55,7 +55,7 @@ O relatório **Armazenamento relatórios de valor de estoque** é útil quando a
 
 ## <a name="turn-the-inventory-value-report-storage-feature-on-or-off"></a>Ativar ou desativar o recurso Armazenamento de relatórios de valor de estoque
 
-A partir da versão 10.0.25 do Supply Chain Management, este recurso está ativado por padrão. Os administradores podem ativar ou desativar essa funcionalidade, procurando o recurso *Armazenamento de relatórios de valor de estoque* no espaço de trabalho [Gerenciamento de recursos](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md).
+Para usar esse recurso, você deve habilitá-lo no seu sistema. A partir do Supply Chain Management versão 10.0.25, o recurso está ativado por padrão. A partir do Supply Chain Management versão 10.0.29, o recurso é obrigatório e não pode ser desativado. Se você estiver executando uma versão anterior à 10.0.29, os administradores poderão habilitar ou desabilitar essa funcionalidade pesquisando o recurso *Armazenamento de relatórios de valor de estoque* no espaço de trabalho [Gerenciamento de recursos](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md).
 
 ## <a name="define-inventory-value-report-configurations"></a><a name="report-configuration"></a>Definir configurações de relatório de valor de estoque
 

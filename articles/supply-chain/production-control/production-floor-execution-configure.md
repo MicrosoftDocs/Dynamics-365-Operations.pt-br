@@ -2,7 +2,7 @@
 title: Configurar a interface de execução de piso de produção
 description: Este artigo descreve como criar uma ou mais configurações para a interface de execução do piso de produção. Quando você abre a interface de execução de piso de produção, ela carrega automaticamente uma configuração selecionada e um filtro de trabalho específicos do navegador e do dispositivo. Na configuração, você define as políticas que devem ser aplicáveis para um uso específico.
 author: johanhoffmann
-ms.date: 10/05/2020
+ms.date: 08/05/2022
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: johanho
 ms.search.validFrom: 2020-10-05
 ms.dyn365.ops.version: 10.0.15
-ms.openlocfilehash: 2a77924e6133158d538a3eb8365def92c9354b0e
-ms.sourcegitcommit: c98d55a4a6e27239ae6b317872332f01cbe8b875
+ms.openlocfilehash: ae574e25c5ef0c1736ec13e2ee3fcc11b323721f
+ms.sourcegitcommit: 203c8bc263f4ab238cc7534d4dd902fd996d2b0f
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/02/2022
-ms.locfileid: "9220352"
+ms.lasthandoff: 08/23/2022
+ms.locfileid: "9336175"
 ---
 # <a name="configure-the-production-floor-execution-interface"></a>Configurar a interface de execução de piso de produção
 
@@ -35,7 +35,7 @@ Este artigo descreve as várias opções de configuração de uma interface de e
 
 ## <a name="turn-on-the-production-floor-execution-interface-and-its-related-optional-features"></a>Ativar a interface de execução de piso de produção e seus recursos opcionais relacionados
 
-A interface de execução de piso de produção e várias configurações opcionais descritas neste artigo devem ser ativadas no sistema para que você possa usá-las. Use a página [Gerenciamento de recursos](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) para ativar um ou todos os recursos descritos nas subseções a seguir, conforme necessário.
+A interface de execução de chão de produção e várias configurações opcionais descritas neste artigo devem ser ativadas no sistema para que você possa usá-las. Use a página [Gerenciamento de recursos](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) para ativar um ou todos os recursos descritos nas subseções a seguir, conforme necessário.
 
 ### <a name="the-production-floor-execution-interface"></a>A interface de execução de piso de produção
 
@@ -63,29 +63,32 @@ A partir da versão 10.0.21 do Supply Chain Management, este recurso está ativa
 
 ### <a name="asset-management-functionality-for-the-production-floor-execution-interface"></a>Funcionalidade de gerenciamento de ativos para a interface de execução de piso de produção
 
-Este recurso adiciona uma guia de gerenciamento de ativos à interface de execução de piso de produção. Os trabalhadores podem usar essa guia para selecionar um ativo que esteja conectado a um recurso de máquina dentro do filtro selecionado da lista de trabalhos. Para o ativo de máquina selecionado, o trabalhador pode exibir o estado e a integridade com base em valores de contador para até quatro contadores selecionados. Se você quiser usar esse recurso, ative o seguinte recurso no [gerenciamento de recursos](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md):
+Este recurso adiciona uma guia de gerenciamento de ativos à interface de execução de piso de produção. Os trabalhadores podem usar essa guia para selecionar um ativo que esteja conectado a um recurso de máquina dentro do filtro selecionado da lista de trabalhos. Para o ativo de máquina selecionado, o trabalhador pode exibir o estado e a integridade com base em valores de contador para até quatro contadores selecionados.
 
-- *Funcionalidade de gerenciamento de ativos para a interface de execução de piso de produção*<br>(A partir do Supply Chain Management versão 10.0.25, este recurso está ativado por padrão.)
+A partir da versão 10.0.25 do Supply Chain Management, este recurso está ativado por padrão. A partir do Supply Chain Management versão 10.0.29, este recurso é obrigatório e não pode ser desativado. Se você estiver executando uma versão anterior à 10.0.29, os administradores poderão ativar ou desativar essa funcionalidade pesquisando o recurso *Funcionalidade de gerenciamento de ativos para a interface de execução de chão de produção* no espaço de trabalho [Gerenciamento de recursos](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md).
 
-### <a name="enable-job-search"></a>Habilitar pesquisa de trabalho
+### <a name="job-search"></a>Pesquisa de trabalho
 
-Este recurso permite adicionar um campo de pesquisa à lista de trabalhos. Os trabalhadores podem encontrar um trabalho específico inserindo a ID do trabalho ou encontrar todos os trabalhos para uma ordem específica inserindo a ID da ordem. Os trabalhadores podem inserir a ID usando um teclado ou digitalizando um código de barras. Se você quiser usá-lo, ative o seguinte recurso no [gerenciamento de recursos](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md):
+Este recurso permite adicionar um campo de pesquisa à lista de trabalhos. Os trabalhadores podem encontrar um trabalho específico inserindo a ID do trabalho ou encontrar todos os trabalhos para uma ordem específica inserindo a ID da ordem. Os trabalhadores podem inserir a ID usando um teclado ou digitalizando um código de barras.
 
-- *Pesquisa de trabalho para a interface de execução do piso de produção*<br>(A partir do Supply Chain Management versão 10.0.25, este recurso está ativado por padrão.)
+A partir da versão 10.0.25 do Supply Chain Management, este recurso está ativado por padrão. A partir do Supply Chain Management versão 10.0.29, este recurso é obrigatório e não pode ser desativado. Se você estiver executando uma versão anterior à 10.0.29, os administradores poderão ativar ou desativar essa funcionalidade pesquisando o recurso *Pesquisa de trabalho para a interface de execução do chão de produção* no espaço de trabalho [Gerenciamento de recursos](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md).
 
-### <a name="enable-reporting-on-co-products-and-by-products"></a>Habilitar relatório sobre coprodutos e subprodutos
+### <a name="report-on-co-products-and-by-products"></a>Relatar sobre coprodutos e subprodutos
 
-Este recurso permite que os trabalhadores usem a interface de execução de piso de produção para relatar o progresso das ordens de lote. Isso inclui um relatório sobre coprodutos e subprodutos. Para usar essa funcionalidade, ative o seguinte recurso em [Gerenciamento de recursos](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md):
+Este recurso permite que os trabalhadores usem a interface de execução de piso de produção para relatar o progresso das ordens de lote. Isso inclui um relatório sobre coprodutos e subprodutos.
 
-- *Relatório sobre coprodutos e subprodutos da interface de execução do piso de produção*
+Para usar esse recurso, você deve habilitá-lo no seu sistema. A partir da versão 10.0.29 do Supply Chain Management, o recurso está ativado por padrão. Os administradores podem ativar ou desativar essa funcionalidade, pesquisando o recurso *Relatório sobre coprodutos e subprodutos da interface de execução do chão de produção* no espaço de trabalho [Gerenciamento de recursos](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md).
 
-### <a name="enable-the-display-of-full-serial-batch-and-license-plate-numbers"></a>Habilitar a exibição de números completos de série, de lote e de placa de licença
+### <a name="display-full-serial-batch-and-license-plate-numbers"></a>Exibir números completos de série, de lote e de placa de licença
 
 Esse recurso oferece uma experiência melhor para exibir listas de números de placas de licença, de lote e de série na interface de execução de produção. A exibição é alterada de uma exibição de cartão que mostra um número limitado de caracteres para uma exibição de lista que fornece espaço suficiente para mostrar os valores completos. A lista também oferece a capacidade de procurar números específicos.
 
+Para usar esse recurso, você deve habilitá-lo no seu sistema. A partir do Supply Chain Management versão 10.0.25, o recurso está ativado por padrão. A partir do Supply Chain Management versão 10.0.29, o recurso é obrigatório e não pode ser desativado. Se você estiver executando uma versão anterior à 10.0.29, os administradores poderão ativar ou desativar essa funcionalidade, pesquisando o recurso *Mostrar números de série, de lote e da placa de licença completos na interface de execução de chão de produção* no espaço de trabalho [Gerenciamento de recursos](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md).
+
+
 A partir da versão 10.0.25 do Supply Chain Management, este recurso está ativado por padrão. Os administradores podem ativar ou desativar essa funcionalidade, pesquisando o recurso *Mostrar números de série, de lote e da placa de licença completos na interface de execução da área de produção* no espaço de trabalho [Gerenciamento de recursos](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md).
 
-### <a name="enable-registering-of-material-consumption"></a>Habilitar o registro de consumo de material
+### <a name="register-material-consumption"></a>Registrar consumo de materiais
 
 Esse recurso permite que os trabalhadores usem a interface de execução do piso de produção para registrar o consumo de materiais, os números de lote e os números de série. Alguns fabricantes, especialmente no setor de processamento, devem registrar explicitamente a quantidade de material que é consumido para cada ordem de produção ou lote. Por exemplo, os trabalhadores podem usar uma escala para avaliar a quantidade de material que é consumido conforme trabalham. Para garantir a rastreabilidade total do material, essas organizações também devem registrar os números de lote que foram consumidos para produzir cada produto.
 
@@ -97,7 +100,7 @@ Existem duas versões deste recurso. Um oferece suporte a itens que *não estão
 > [!IMPORTANT]
 > Só é possível usar o recurso que não seja do WMS. Se você usar o WMS, deverá habilitar os dois recursos.
 
-### <a name="enable-reporting-on-catch-weight-items"></a>Habilitar relatório de itens de peso variável
+### <a name="report-on-catch-weight-items"></a>Relatório sobre itens de peso variável
 
 Os trabalhadores podem usar a interface de execução de piso de produção para relatar o progresso de ordens de lote para itens de peso variável. As ordens de lote são criadas com base em fórmulas, que podem ser definidas para ter itens de peso variável como itens de fórmula, coprodutos e subprodutos. Uma fórmula também pode ser definida para ter linhas de fórmula para ingredientes definidos para peso variável. Os itens de peso variável usam duas unidades de medida para rastrear o estoque: quantidade de peso variável e quantidade de estoque. Por exemplo, no setor de alimentos, a carne na caixa pode ser definida como um item de peso variável, em que a quantidade em peso variável é usada para controlar o número de caixas e a quantidade de estoque é usada para rastrear o peso das caixas.
 
@@ -105,15 +108,13 @@ Para usar essa funcionalidade, ative o seguinte recurso em [Gerenciamento de rec
 
 - *Relatório de itens de peso variável da interface de execução do piso de produção*
 
-### <a name="enable-the-my-day-dialog"></a>Habilitar a caixa de diálogo "Meu dia"
+### <a name="the-my-day-dialog"></a>A caixa de diálogo "Meu dia"
 
 A caixa de diálogo **Meu dia** oferece aos trabalhadores uma visão geral dos registros diários e dos saldos atuais de tempo pago, hora extra paga, ausência e ausência paga.
 
-Para usar essa funcionalidade, ative o seguinte recurso em [Gerenciamento de recursos](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md):
+Para usar esse recurso, você deve habilitá-lo no seu sistema. A partir da versão 10.0.29 do Supply Chain Management, o recurso está ativado por padrão. Os administradores podem ativar ou desativar essa funcionalidade, pesquisando o recurso *Exibição "Meu dia" da interface de execução de chão de produção* no espaço de trabalho [Gerenciamento de recursos](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md).
 
-- *Exibição "Meu dia" da interface de execução de piso de produção*
-
-### <a name="enable-teams"></a>Habilitar equipes
+### <a name="teams"></a>Times
 
 Quando vários trabalhadores são designados para o mesmo trabalho de produção, eles podem formar uma equipe. A equipe pode designar um trabalhador como coordenador. Os trabalhadores restantes se tornarão automaticamente assistentes desse coordenador. Para a equipe resultante, somente o coordenador deve registrar o status do trabalho. Os registros de hora se aplicam a todos os membros da equipe.
 
@@ -121,7 +122,7 @@ Para usar essa funcionalidade, ative o seguinte recurso em [Gerenciamento de rec
 
 - *Equipes de produção na interface de execução de piso de produção*
 
-### <a name="enable-additional-configuration-in-the-production-floor-execution-interface"></a>Habilitar a configuração adicional na interface de execução de piso de produção
+### <a name="additional-configuration-in-the-production-floor-execution-interface"></a>Configuração adicional na interface de execução de chão de produção
 
 Esse recurso adiciona configurações para a seguinte funcionalidade na página **Configurar execução de piso de produção**:
 
@@ -136,7 +137,6 @@ As informações sobre como usar as configurações são fornecidas mais adiante
 Para usar essa funcionalidade, ative o seguinte recurso em [Gerenciamento de recursos](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md):
 
 - *Configuração adicional na interface de execução de piso de produção*
-
 
 ## <a name="work-with-production-floor-execution-configurations"></a>Trabalhar com configurações de execução de piso de produção
 

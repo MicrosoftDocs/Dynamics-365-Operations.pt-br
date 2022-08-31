@@ -2,7 +2,7 @@
 title: Visualização da carga de trabalho de saída
 description: Este artigo fornece informações sobre a visualização de carga de trabalho de saída. Essa funcionalidade permite que os gerentes e supervisores de depósito criem gráficos de carga de trabalho personalizados que podem ser usados para monitorar o andamento do trabalho atual e a quantidade restante dele. Os gerentes de depósito podem criar várias exibições e configurar a atualização automática, conforme necessário.
 author: Mirzaab
-ms.date: 08/28/2020
+ms.date: 08/09/2022
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -12,12 +12,12 @@ ms.search.region: Global
 ms.author: mirzaab
 ms.search.validFrom: 2020-08-28
 ms.dyn365.ops.version: 10.0.13
-ms.openlocfilehash: 0e5a2cd2aa458217ff212d45c0dd13c9d0623bd0
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: 78d0d81095bb52a314936dd7590a5690d94ecb15
+ms.sourcegitcommit: 203c8bc263f4ab238cc7534d4dd902fd996d2b0f
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8851323"
+ms.lasthandoff: 08/23/2022
+ms.locfileid: "9334405"
 ---
 # <a name="outbound-workload-visualization"></a>Visualização da carga de trabalho de saída
 
@@ -29,7 +29,7 @@ Essa funcionalidade pode ser usada para acompanhar o andamento do trabalho de se
 
 ## <a name="turn-the-outbound-workload-visualization-feature-on-or-off"></a>Ativar ou desativar o recurso Visualização da carga de trabalho de saída
 
-A partir da versão 10.0.25 do Supply Chain Management, este recurso está ativado por padrão. Os administradores podem ativar ou desativar essa funcionalidade pesquisando o recurso *Visualização da carga de trabalho de saída* no espaço de trabalho [Gerenciamento de recursos](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md).
+Para usar esse recurso, você deve habilitá-lo no seu sistema. A partir do Supply Chain Management versão 10.0.25, o recurso está ativado por padrão. A partir do Supply Chain Management versão 10.0.29, o recurso é obrigatório e não pode ser desativado. Se você estiver executando uma versão anterior à 10.0.29, os administradores poderão habilitar ou desabilitar essa funcionalidade pesquisando o recurso *Visualização da carga de trabalho de saída* no espaço de trabalho [Gerenciamento de recursos](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md).
 
 ## <a name="set-up-outbound-workload-visualizations"></a>Configurar visualizações de cargas de trabalho de saída
 

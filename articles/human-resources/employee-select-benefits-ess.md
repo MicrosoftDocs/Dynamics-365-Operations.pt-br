@@ -13,17 +13,14 @@ ms.search.region: Global
 ms.author: twheeloc
 ms.search.validFrom: 2020-12-28
 ms.dyn365.ops.version: AX 7.0.0, Human Resources
-ms.openlocfilehash: 21567851500f4a68e5393b16ccf2b1de00a0ca7a
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: 162cf2bfb6d382d270e0a5af42a739a390397153
+ms.sourcegitcommit: 66d129874635d34a8b29c57762ecf1564e4dc233
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8909952"
+ms.lasthandoff: 08/23/2022
+ms.locfileid: "9324432"
 ---
 # <a name="employees-select-plans-by-using-employee-self-service-optional"></a>Os funcionários selecionam usando o Autoatendimento para funcionários (opcional)
-
-
-[!INCLUDE [PEAP](../includes/peap-2.md)]
 
 [!include [Applies to Human Resources](../includes/applies-to-hr.md)]
 

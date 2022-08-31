@@ -2,7 +2,7 @@
 title: Contratos de compra
 description: Este artigo fornece informações sobre contratos de compras. Um contrato de compra é um contrato que compromete uma organização a comprar uma quantidade ou um valor especificado usando várias ordens de compra ao longo do tempo. Em troca desse compromisso, o comprador obtém preços e descontos especiais.
 author: GalynaFedorova
-ms.date: 06/20/2017
+ms.date: 08/09/2022
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: gfedorova
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 0a8e2c4fdf640f1a9a64c60afc978a4d5812182a
-ms.sourcegitcommit: 9166e531ae5773f5bc3bd02501b67331cf216da4
+ms.openlocfilehash: 188a71ec660787b0b942a3d3bf4967b747c4469f
+ms.sourcegitcommit: 203c8bc263f4ab238cc7534d4dd902fd996d2b0f
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/03/2022
-ms.locfileid: "8669535"
+ms.lasthandoff: 08/23/2022
+ms.locfileid: "9335875"
 ---
 # <a name="purchase-agreements"></a>Contratos de compra
 
@@ -41,7 +41,7 @@ Para impedir que seu contrato de compra seja usado e confirmado, marque o status
 Você pode identificar um trabalhador responsável principal e um trabalhador responsável secundário na classificação do contrato de compra. Esses valores serão herdados pelo contrato de compra resultante. Não é necessário adicionar trabalhadores responsáveis ao contrato de compra, e eles podem ser modificados diretamente a cada caso no próprio contrato de compra. Não é possível especificar um trabalhador responsável secundário sem um trabalhador responsável principal, embora você não precise ter um trabalhador responsável secundário. Não é possível especificar o mesmo trabalhador como o trabalhador responsável principal e secundário.
 
 > [!IMPORTANT]
-> Para usar o recurso de participante responsável, ele deve estar ativado no sistema. A partir do Supply Chain Management 10.0.25, este recurso será ativado por padrão. Os administradores podem ativar ou desativar essa funcionalidade pesquisando o recurso *Participante responsável pelo Contrato de compra* no espaço de trabalho [Gerenciamento de recursos](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md).
+> Para usar o recurso de participante responsável, ele deve estar ativado no seu sistema. A partir do Supply Chain Management versão 10.0.25, o recurso está ativado por padrão. A partir do Supply Chain Management versão 10.0.29, o recurso é obrigatório e não pode ser desativado. Se você estiver executando uma versão anterior à 10.0.29, os administradores poderão habilitar ou desabilitar essa funcionalidade pesquisando o recurso *Participante responsável pelo Contrato de compra* no espaço de trabalho [Gerenciamento de recursos](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md).
 
 ## <a name="commitment-types"></a>Tipos de compromisso
 Cada linha em um contrato de compra é um compromisso para comprar algum item. É possível usar linhas de várias ordens de compra (OCs) para atender ao compromisso. Existem quatro tipos de compromisso:

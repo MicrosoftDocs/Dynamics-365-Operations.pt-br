@@ -12,12 +12,12 @@ ms.search.region: Global
 ms.author: mirzaab
 ms.search.validFrom: 2020-10-29
 ms.dyn365.ops.version: 10.0.16
-ms.openlocfilehash: 3b4d691bbcf88cc73d10e3bb401710508ec641e1
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: 1245d07436a9b57ee4f0402687e7a4367668cbfa
+ms.sourcegitcommit: 203c8bc263f4ab238cc7534d4dd902fd996d2b0f
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8893139"
+ms.lasthandoff: 08/23/2022
+ms.locfileid: "9336265"
 ---
 # <a name="replenishment-strategies"></a>Estratégias de reabastecimento
 
@@ -36,7 +36,7 @@ Pico de época é um exemplo de uma situação em que a estratégia *Capacidade 
 
 ## <a name="turn-on-the-replenish-to-max-based-on-stocking-limits-feature"></a>Ativar o reabastecimento para máximo com base no recurso de limites de estoque
 
-Antes de poder usar esse recurso, você deve habilitá-lo no seu sistema. Os administradores podem usar o espaço de trabalho [Gerenciamento de recursos](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) para verificar o status do recurso e ativá-lo se necessário. Nesse caso, o recurso é listado da seguinte maneira:
+Para poder usar esse recurso, você deve habilitá-lo para o seu sistema. Os administradores podem usar o espaço de trabalho [Gerenciamento de recursos](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) para verificar o status do recurso e ativá-lo se necessário. Nesse caso, o recurso é listado da seguinte maneira:
 
 - **Módulo:** *Gerenciamento de Depósito*
 - **Nome do recurso:** *Ativar o reabastecimento para máximo com base nos limites de estoque*

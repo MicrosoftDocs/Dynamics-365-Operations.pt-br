@@ -16,12 +16,12 @@ ms.search.industry: Manufacturing
 ms.author: benebotg
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: AX 10.0.5
-ms.openlocfilehash: e853c8a482b8fd0b92c9861fe022c056915ab405
-ms.sourcegitcommit: 6781fc47606b266873385b901c302819ab211b82
+ms.openlocfilehash: 629a84135434ad79f8397649ee9a4a62e49751d9
+ms.sourcegitcommit: 14a27b776befbc6793390f97e8fb0279c0ea18c1
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 07/02/2022
-ms.locfileid: "9112170"
+ms.lasthandoff: 08/15/2022
+ms.locfileid: "9295915"
 ---
 # <a name="get-started-with-planning-optimization"></a>Introdução à Otimização de Planejamento
 
@@ -29,7 +29,7 @@ ms.locfileid: "9112170"
 
 Como [anunciado anteriormente](../../get-started/removed-deprecated-features-scm-updates.md#use-of-built-in-supply-chain-management-master-planning-engine-for-distribution-scenarios), a Otimização de Planejamento está agendada para substituir o mecanismo de planejamento mestre existente.
 
-Se estiver usando o mecanismo de planejamento mestre interno no momento, você deverá começar a planejar a migração para a Otimização de Planejamento agora. É importante iniciar o processo de migração imediatamente porque suas operações poderão ser afetadas quando a substituição for imposta. Para evitar problemas de última hora quando a substituição for imposta, é altamente recomendável que você conclua a migração antes de 1º de dezembro de 2020. 
+Se estiver usando o mecanismo de planejamento mestre interno no momento, você deverá começar a planejar a migração para a Otimização de Planejamento agora. É importante começar logo; caso contrário, suas operações poderão ser impactadas quando a substituição for imposta (embora a imposição não esteja agendada no momento). É altamente recomendável concluir a migração assim que a Otimização do Planejamento der suporte aos recursos necessários para que você possa começar a aproveitar os vários aperfeiçoamentos de desempenho e outros novos recursos fornecidos pelo novo serviço.
 
 No momento, a funcionalidade Otimização de Planejamento não dá suporte a todos os recursos disponíveis no mecanismo de planejamento interno do Supply Chain Management. Portanto, é importante que você avalie se o conjunto de recursos disponível no momento na Otimização de Planejamento atenderá aos seus requisitos. No momento, a funcionalidade Otimização de Planejamento não está ativada por padrão no Dynamics Lifecycle Services (LCS), de modo que você tem a oportunidade de fazer a avaliação antes do recurso ser ativado.
 

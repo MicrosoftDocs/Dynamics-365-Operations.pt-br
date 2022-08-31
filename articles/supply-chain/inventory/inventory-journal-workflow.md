@@ -2,7 +2,7 @@
 title: Fluxos de trabalho de aprovação de diário de estoque
 description: Este artigo descreve como configurar e usar fluxos de trabalho de aprovação do diário do estoque para vários tipos de transações de estoque físico. Os fluxos de trabalho de diários de estoque ajudam a garantir que somente diários de estoque aprovados possam ser lançados em transações.
 author: yufeihuang
-ms.date: 07/21/2020
+ms.date: 08/05/2022
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: yufeihuang
 ms.search.validFrom: 2020-07-21
 ms.dyn365.ops.version: 10.0.13
-ms.openlocfilehash: ebb12562a9f06f2efc3b5a373d7ad0f98bc3505e
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: 3a97eaeae24850282c39196a61e3baa29307aa93
+ms.sourcegitcommit: 203c8bc263f4ab238cc7534d4dd902fd996d2b0f
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8873975"
+ms.lasthandoff: 08/23/2022
+ms.locfileid: "9334645"
 ---
 # <a name="inventory-journal-approval-workflows"></a>Fluxos de trabalho de aprovação de diário de estoque
 
@@ -29,12 +29,9 @@ Este artigo descreve como configurar e usar fluxos de trabalho de aprovação de
 > [!NOTE]
 > Os fluxos de trabalho de aprovação de diário de estoque se aplicam somente a transações registradas usando o módulo gerenciamento de estoque. Eles não funcionam com diários de estoque iniciados do módulo de gerenciamento de depósito.
 
-## <a name="turn-on-the-inventory-journal-approval-workflows-feature"></a>Ativar o recurso de fluxos de trabalho de aprovação de diário de estoque
+## <a name="turn-the-inventory-journal-approval-workflows-feature-on-or-off"></a>Ativar ou desativar o recurso Fluxos de trabalho de aprovação de diário de estoque
 
-A partir da versão 10.0.21 do Supply Chain Management, este recurso está ativado por padrão. Os administradores podem usar a página [Gerenciamento de recursos](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) para verificar o status do recurso e ativá-lo ou desativá-lo, se necessário. Aqui o recurso está listado como:
-
-- **Módulo:** *Gerenciamento de estoque e depósito*
-- **Nome do recurso:** *Fluxo de trabalho de aprovação de diário de estoque*
+Para usar esse recurso, você deve habilitá-lo no seu sistema. A partir do Supply Chain Management versão 10.0.21, o recurso está ativado por padrão. A partir do Supply Chain Management versão 10.0.29, o recurso é obrigatório e não pode ser desativado. Se você estiver executando uma versão anterior à 10.0.29, os administradores poderão ativar ou desativar essa funcionalidade procurando o recurso *Fluxo de trabalho de aprovação do diário de estoque* no espaço de trabalho [Gerenciamento de recursos](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md).
 
 ## <a name="create-your-inventory-journal-approval-workflows"></a>Criar seus fluxos de trabalho de aprovação de diário de estoque
 

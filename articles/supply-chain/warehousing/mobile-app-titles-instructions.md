@@ -2,7 +2,7 @@
 title: Personalizar títulos e instruções de etapas para o aplicativo móvel Warehouse Management
 description: Este artigo descreve como criar e mostrar instruções personalizadas para cada etapa de cada fluxo de tarefa que você configurou para o aplicativo móvel Warehouse Management.
 author: Mirzaab
-ms.date: 08/11/2021
+ms.date: 08/09/2022
 ms.topic: article
 ms.search.form: WHSMobileAppFlowStepListPage
 audience: Application User
@@ -11,12 +11,12 @@ ms.search.region: Global
 ms.author: mirzaab
 ms.search.validFrom: 2021-08-11
 ms.dyn365.ops.version: 10.0.21
-ms.openlocfilehash: 40b2115126aae28a41feaec4d3aabd73595107cd
-ms.sourcegitcommit: c98d55a4a6e27239ae6b317872332f01cbe8b875
+ms.openlocfilehash: faa9bfa320823664603153601c56654170e7e23a
+ms.sourcegitcommit: 203c8bc263f4ab238cc7534d4dd902fd996d2b0f
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/02/2022
-ms.locfileid: "9220139"
+ms.lasthandoff: 08/23/2022
+ms.locfileid: "9334466"
 ---
 # <a name="customize-step-titles-and-instructions-for-the-warehouse-management-mobile-app"></a>Personalizar títulos e instruções de etapas para o aplicativo móvel Warehouse Management
 
@@ -28,9 +28,9 @@ Este artigo descreve como criar e mostrar instruções personalizadas para cada 
 - **Preparar os trabalhadores mais rapidamente, permitindo que sigam instruções simples para cada etapa da tarefa.** Cada etapa de um fluxo fornece instruções que permitem que os funcionários da linha de frente entendam a tarefa.
 - **Fornecer instruções que correspondam a seus próprios processos.** Escrever suas próprias instruções para corresponder a seus processos de negócios e de depósito. Por exemplo, você pode ajustar a terminologia a seu espaço físico e às abreviações locais.
 
-## <a name="turn-on-the-warehouse-app-step-instructions-feature"></a>Ativar o recurso de instruções de etapa do aplicativo Warehouse
+## <a name="turn-the-warehouse-app-step-instructions-feature-on-or-off"></a>Ativar ou desativar o recurso Instruções da etapa do aplicativo de depósito
 
-Antes de poder usar esse recurso, você deve habilitá-lo no seu sistema. A partir da versão 10.0.29 do Supply Chain Management, este recurso está ativado por padrão. Os administradores podem ativar ou desativar essa funcionalidade pesquisando o recurso *Instruções da etapa do aplicativo de depósito* no espaço de trabalho [Gerenciamento de recursos](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md).
+Para poder usar esse recurso, você deve habilitá-lo para o seu sistema. A partir do Supply Chain Management versão 10.0.29, este recurso é obrigatório e não pode ser desativado. Se você estiver executando uma versão anterior à 10.0.29, os administradores poderão ativar ou desativar essa funcionalidade pesquisando o recurso *Instruções da etapa do aplicativo de depósito* no espaço de trabalho [Gerenciamento de recursos](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md).
 
 ## <a name="step-titles-and-step-instructions-in-the-app"></a>Títulos e instruções de etapas no aplicativo
 

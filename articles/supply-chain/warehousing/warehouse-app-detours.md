@@ -2,7 +2,7 @@
 title: Configurar desvios para as etapas nos itens de menu do dispositivo móvel
 description: Este artigo descreve como configurar desvios para itens de menu de modo que os trabalhadores possam estacionar a tarefa atual, executar outra tarefa e retornar à tarefa original sem perder nenhuma informação.
 author: Mirzaab
-ms.date: 10/15/2021
+ms.date: 08/09/2022
 ms.topic: article
 ms.search.form: WHSMobileAppFlowStepListPage, WHSMobileAppFlowStepAddDetour,WHSMobileAppFlowStepDetourSelectFields
 audience: Application User
@@ -11,12 +11,12 @@ ms.search.region: Global
 ms.author: mirzaab
 ms.search.validFrom: 2021-10-15
 ms.dyn365.ops.version: 10.0.23
-ms.openlocfilehash: 8106dd600e8eadbaafcaa4cbc27ec179899318f7
-ms.sourcegitcommit: c98d55a4a6e27239ae6b317872332f01cbe8b875
+ms.openlocfilehash: 50f899cd7f28a4b7fd23db5f049de02896e8d8e9
+ms.sourcegitcommit: 203c8bc263f4ab238cc7534d4dd902fd996d2b0f
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/02/2022
-ms.locfileid: "9218994"
+ms.lasthandoff: 08/23/2022
+ms.locfileid: "9336115"
 ---
 # <a name="configure-detours-for-steps-in-mobile-device-menu-items"></a>Configurar desvios para as etapas nos itens de menu do dispositivo móvel
 
@@ -35,9 +35,8 @@ Antes de configurar os desvios para etapas em itens de menu de dispositivo móve
 
 1. Acesse **Administrador do sistema \> Espaços de trabalho \> Gerenciamento de recursos**.
 1. Verifique se o recurso *Instruções da etapa do aplicativo de depósito* está ativado para o seu sistema. A partir da versão 10.0.29 do Supply Chain Management, este recurso está ativado por padrão. Para obter mais informações sobre o recurso *Instruções de etapa do aplicativo do Warehouse*, consulte [Personalizar títulos de etapas e instruções para o aplicativo móvel do Warehouse Management](mobile-app-titles-instructions.md). Esse recurso é um pré-requisito para o recurso *Desvios do aplicativo do Warehouse Management*.
-1. Ative o recurso *Desvio do aplicativo Warehouse Management*. Esse recurso é o descrito neste artigo.
-1. Atualize os nomes de campo no aplicativo móvel do Warehouse Management acessando **Warehouse management \> Configuração \> Dispositivo móvel \> Nomes de campo do aplicativo do Warehouse** e selecionando **Criar configuração padrão**. Para obter mais informações, consulte [Configurar campos para o aplicativo móvel Warehouse Management](configure-app-field-names-priorities-warehouse.md).
-1. Repita a etapa anterior para cada entidade legal (empresa) em que você usa o aplicativo móvel do Warehouse Management.
+1. Ative o recurso *Desvio do aplicativo Warehouse Management*. Esse recurso é o descrito neste artigo. A partir do Supply Chain Management versão 10.0.29, ele está ativado por padrão.
+1. Se o recurso *Desvios do aplicativo Warehouse Management* ainda não foi ativado, atualize os nomes de campos no aplicativo móvel Warehouse Management acessando **Warehouse management \> Configuração \> Dispositivo móvel \> Nomes de campo de aplicativo de depósito** e selecionando **Criar configuração padrão**. Repita esta etapa para cada entidade legal (empresa) em que você usa o aplicativo móvel do Warehouse Management. Para obter mais informações, consulte [Configurar campos para o aplicativo móvel Warehouse Management](configure-app-field-names-priorities-warehouse.md).
 
 ## <a name="configure-a-detour-from-a-menu-specific-override"></a>Configurar um desvio de uma substituição específica de menu
 

@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: perlynne
 ms.search.validFrom: 2019-12-31
 ms.dyn365.ops.version: 10.0.1
-ms.openlocfilehash: f9e6cbf0f520f0f30c01cefba03689e9c119f2cb
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: 00a4e07ac38a83cd4569006f3b6e2bdd59ed1a42
+ms.sourcegitcommit: 203c8bc263f4ab238cc7534d4dd902fd996d2b0f
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8890615"
+ms.lasthandoff: 08/23/2022
+ms.locfileid: "9334525"
 ---
 # <a name="pick-line-grouping"></a>Agrupamento de linhas de separação
 
@@ -30,7 +30,7 @@ O agrupamento de linhas de separação permite que várias linhas de trabalho qu
 
 ## <a name="turn-on-the-pick-line-grouping-feature"></a>Ativar o recurso de agrupamento de linhas de separação
 
-Antes de poder usar esse recurso, você deve habilitá-lo no seu sistema. Os administradores podem usar o espaço de trabalho [Gerenciamento de recursos](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) para verificar o status do recurso e ativá-lo se necessário. Nesse caso, o recurso é listado da seguinte maneira:
+Para poder usar esse recurso, você deve habilitá-lo para o seu sistema. Os administradores podem usar o espaço de trabalho [Gerenciamento de recursos](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) para verificar o status do recurso e ativá-lo se necessário. Nesse caso, o recurso é listado da seguinte maneira:
 
 - **Módulo:** *Gerenciamento de Depósito*
 - **Nome do recurso:** *Agrupamento de linhas de separação*

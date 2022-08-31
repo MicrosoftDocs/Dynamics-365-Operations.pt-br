@@ -2,7 +2,7 @@
 title: Criação e processamento de ciclo
 description: Este artigo descreve como criar, processar, e liberar manualmente um ciclo para criar o trabalho de separação para uma carga, remessa, ordem de produção ou ordem kanban.
 author: Mirzaab
-ms.date: 03/08/2021
+ms.date: 08/09/2022
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: mirzaab
 ms.search.validFrom: 2021-03-08
 ms.dyn365.ops.version: 10.0.18
-ms.openlocfilehash: 60bf4ab6944bd982e022ead6431adae417ddfb43
-ms.sourcegitcommit: cfe8fbc202c3eb05d894076fdf99e46704f17365
+ms.openlocfilehash: 0466019990773ee93e063a255c15a7d64eecdf78
+ms.sourcegitcommit: 203c8bc263f4ab238cc7534d4dd902fd996d2b0f
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/15/2022
-ms.locfileid: "9014609"
+ms.lasthandoff: 08/23/2022
+ms.locfileid: "9335995"
 ---
 # <a name="wave-creation-and-processing"></a>Criação e processamento de ciclo
 
@@ -191,7 +191,7 @@ Use a página **Detalhes do trabalho em lotes do ciclo** para inspecionar os tra
 
 ### <a name="turn-the-wave-batch-job-details-page-on-or-off"></a>Ativar ou desativar a página Detalhes do trabalho em lotes do ciclo
 
-A partir do Supply Chain Management versão 10.0.25, a página **Detalhes do trabalho em lotes do ciclo** está ativada por padrão. Os administradores podem ativar ou desativar essa funcionalidade pesquisando o recurso *Detalhes do trabalho em lotes do ciclo* no espaço de trabalho [Gerenciamento de recursos](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md).
+Para usar esse recurso, você deve habilitá-lo no seu sistema. A partir do Supply Chain Management versão 10.0.25, o recurso está ativado por padrão. A partir do Supply Chain Management versão 10.0.29, o recurso é obrigatório e não pode ser desativado. Se você estiver executando uma versão anterior à 10.0.29, os administradores poderão habilitar ou desabilitar essa funcionalidade pesquisando o recurso *Detalhes do trabalho em lotes do ciclo* no espaço de trabalho [Gerenciamento de recursos](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md).
 
 ### <a name="use-the-wave-batch-job-details-page"></a>Usar a página Detalhes do trabalho em lotes do ciclo
 

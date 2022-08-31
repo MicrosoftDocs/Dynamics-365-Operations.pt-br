@@ -2,7 +2,7 @@
 title: Remessa de pacotes pequenos
 description: Este artigo fornece informações sobre o recurso SPS (remessa de pacotes pequenos). Esse recurso permite que o Microsoft Dynamics 365 Supply Chain Management envie detalhes sobre um contêiner embalado para a transportadora e, em seguida, receba dessa transportadora uma etiqueta de remessa, uma taxa de remessa e um número de rastreamento.
 author: Mirzaab
-ms.date: 01/08/2021
+ms.date: 08/09/2022
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: mirzaab
 ms.search.validFrom: 2021-01-08
 ms.dyn365.ops.version: 10.0.16
-ms.openlocfilehash: 6ccc9c795e2da121acf9c0809aef99a5f9d5889e
-ms.sourcegitcommit: c98d55a4a6e27239ae6b317872332f01cbe8b875
+ms.openlocfilehash: b2adde2b81ed881a3c81193a2220fbe569069c7c
+ms.sourcegitcommit: 203c8bc263f4ab238cc7534d4dd902fd996d2b0f
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/02/2022
-ms.locfileid: "9219708"
+ms.lasthandoff: 08/23/2022
+ms.locfileid: "9336145"
 ---
 # <a name="small-parcel-shipping"></a>Remessa de pacotes pequenos
 
@@ -34,12 +34,9 @@ A taxa de remessa retornada é adicionada à ordem de venda associada como um en
 
 Antes de começar a usar a funcionalidade de SPS, você deve ativar o recurso SPS no Gerenciamento de recursos, adicionar seu mecanismo de taxa e configurar os módulos **Gerenciamento de transporte** e **Gerenciamento de depósito** para oferecer suporte a ele.
 
-### <a name="turn-on-the-sps-feature"></a>Ativar o recurso SPS
+### <a name="turn-the-sps-feature-on-or-off"></a>Ativar ou desativar o recurso SPS
 
-Para que você possa usar o recurso SPS, ele deverá ser ativado no sistema. Os administradores podem usar o espaço de trabalho [Gerenciamento de recursos](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) para verificar o status do recurso e ativá-lo se necessário. Nesse caso, o recurso é listado da seguinte maneira:
-
-- **Módulo:** *Gerenciamento de transporte*
-- **Nome do recurso:** *Remessa de pacotes pequenos*
+Para usar esse recurso, você deve habilitá-lo no seu sistema. A partir do Supply Chain Management versão 10.0.29, o recurso é obrigatório e não pode ser desativado. Se você estiver executando uma versão anterior à 10.0.29, os administradores poderão ativar ou desativar essa funcionalidade procurando o recurso *Remessa de pacotes pequenos* no espaço de trabalho [Gerenciamento de recursos](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md).
 
 ### <a name="deploy-and-set-up-rate-engines"></a>Implantar e configurar mecanismos de taxa
 

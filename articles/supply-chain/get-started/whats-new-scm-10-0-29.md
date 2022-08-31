@@ -10,12 +10,12 @@ ms.search.region: Global
 ms.author: kamaybac
 ms.search.validFrom: 2022-08-01
 ms.dyn365.ops.version: 10.0.29
-ms.openlocfilehash: 7f5691c5784b7b381ff805b0431d8adb1a25f1cb
-ms.sourcegitcommit: 8d072505f66f507aafbaae65bedf3b530eb6cb7b
+ms.openlocfilehash: d95cd9b55f473bed2e3fe69e63837040385f03ac
+ms.sourcegitcommit: 203c8bc263f4ab238cc7534d4dd902fd996d2b0f
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/12/2022
-ms.locfileid: "9266388"
+ms.lasthandoff: 08/23/2022
+ms.locfileid: "9334735"
 ---
 # <a name="preview-of-dynamics-365-supply-chain-management-10029-october-2022"></a>Versão preliminar do Dynamics 365 Supply Chain Management 10.0.29: (October 2022)
 
@@ -74,10 +74,7 @@ A tabela também lista recursos que anteriormente estavam na versão preliminar 
 
 | Módulo | Nome do recurso | Novo estado do recurso |
 | --- | --- | --- |
-| Gerenciamento de ativos | [Aplicar regras para agrupar ordens de serviço ao executar um plano de manutenção](../asset-management/preventive-and-reactive-maintenance/creating-work-orders.md) | Obrigatório |
 | Gerenciamento de ativos | [Funcionalidade de gerenciamento de ativos para a interface de execução de piso de produção](../production-control/production-floor-execution-configure.md) | Obrigatório |
-| Gerenciamento de ativos | [Aprimoramentos na manutenção com base no contador](../asset-management/preventive-and-reactive-maintenance/maintenance-plans.md) | Ativado por padrão |
-| Gerenciamento de ativos | [Cobrança de ordem de serviço](../asset-management/integration-to-project-management-and-accounting/customer-billing.md) | Obrigatório |
 | Gerenciamento de custo | [Alterar o rótulo de cancelamento no fechamento e o ajuste para Reverter](/dynamics365-release-plan/2020wave1/dynamics365-supply-chain-management/change-terminology-inventory-closing-cancellation-inventory-closing-reverse) | Obrigatório |
 | Gerenciamento de custo | Limpar versões de avaliações de custos cruzadas dos detalhes de cálculo da BOM | Obrigatório |
 | Gerenciamento de custo | [Armazenamento de comparação de preços de item](../cost-management/compare-item-price.md) | Obrigatório |
@@ -102,7 +99,7 @@ A tabela também lista recursos que anteriormente estavam na versão preliminar 
 | Gerenciamento de estoque e depósito | Usando unidade de medida e quantidade de unidades em diários de estoque | Obrigatório |
 | Gerenciamento de estoque e depósito | Desbloquear diário de estoque | Obrigatório |
 | Fabricação | [Separação automática de materiais habilitados de depósito para listas de separação lançadas automaticamente](whats-new-scm-10-0-23.md) | Geralmente disponível |
-| Fabricação | Habilitar a exibição de dimensões de estoque na lista de materiais para operações de roteiro de produção | Ativado por padrão |
+| Fabricação | Habilitar a exibição de dimensões de estoque na lista de materiais para operações de roteiro de produção | Obrigatório |
 | Fabricação | [Habilite para inserir números de lote e de série ao relatar como concluído no Dispositivo de Ficha de Trabalho](../production-control/report-finished-job-device.md) | Ativado por padrão |
 | Fabricação | Separação aprimorada da quantidade do peso variável da produção | Ativado por padrão |
 | Fabricação | [Pesquisa de trabalho para a interface de execução do piso de produção](../production-control/production-floor-execution-configure.md) | Obrigatório |
@@ -127,20 +124,19 @@ A tabela também lista recursos que anteriormente estavam na versão preliminar 
 | Planejamento Mestre | [Confirmação de ordem planejada com filtros](../master-planning/planning-optimization/planned-order-firming.md) | Obrigatório |
 | Planejamento Mestre | [Ordens de produção planejada para Otimização de Planejamento](../master-planning/planning-optimization/production-planning.md) | Obrigatório |
 | Planejamento Mestre | [Contratos comerciais de compra para Otimização de Planejamento](../master-planning/planning-optimization/purchase-trade-agreement.md) | Obrigatório |
-| Planejamento Mestre | Planejamento de recursos com manutenção | Obrigatório |
 | Planejamento Mestre | [Exibições salvas para ordens planejadas](saved-views-scm.md) | Obrigatório |
 | Compras | Encargos de valores de/até em ordens de compra | Obrigatório |
 | Compras | Desabilitar botão de redefinição de distribuição de requisição de compra | Ativado por padrão |
 | Compras | [Habilitar redefinição de fluxos de trabalho relacionados a compras](whats-new-scm-10-0-20.md) | Ativado por padrão |
 | Compras | [Limitar o número de linhas de ordem de compra por tarefa em lote](whats-new-scm-10-0-27.md) | Ativado por padrão |
 | Compras | [Mesclar as dimensões financeiras do fornecedor com a dimensão financeira do link de dimensão ativo na ordem de compra](whats-new-scm-10-0-25.md) | Obrigatório |
+| Compras | [Lançar quantidades registradas de produtos em estoque e restantes de produtos sem estoque para recebimentos e faturas de fornecedor](whats-new-scm-10-0-26.md) | Geralmente disponível |
 | Compras | [Impedir consumo excessivo de reservas de orçamento geral quando várias requisições de compra estão no fluxo de trabalho](whats-new-scm-10-0-21.md) | Ativado por padrão |
 | Compras | [Participante responsável pelo Contrato de compra](../procurement/purchase-agreements.md) | Obrigatório |
 | Compras | [Exibições salvas para ordens de compra](saved-views-scm.md) | Obrigatório |
 | Gerenciamento de informações sobre o produto | Pré-processamento do relatório de lista de materiais para evitar tempo de inatividade | Obrigatório |
 | Gerenciamento de informações sobre o produto | Dimensões financeiras padrão separadamente ao usar modelos de item | Obrigatório |
 | Gerenciamento de informações sobre o produto | Habilitar grupos de dimensão do produto para modelos de item | Obrigatório |
-| Gerenciamento de informações sobre o produto | [Herança de atributo aprimorada para Gerenciamento de Modificações de Engenharia](../engineering-change-management/engineering-attributes-and-search.md) | Obrigatório |
 | Gerenciamento de informações sobre o produto | Aprimoramentos de entidade item – código de barras | Obrigatório |
 | Gerenciamento de informações sobre o produto | Regenerar nomes de grade de produto com base em nomenclatura | Obrigatório |
 | Gerenciamento de informações sobre o produto | [Exibições salvas para produtos liberados](saved-views-scm.md) | Obrigatório |
@@ -161,27 +157,30 @@ A tabela também lista recursos que anteriormente estavam na versão preliminar 
 | Vendas e marketing | [Confirmação de ordem de venda com um único clique](/dynamics365-release-plan/2021wave1/finance-operations/dynamics365-supply-chain-management/single-click-sales-order-confirmation) | Obrigatório |
 | Gerenciamento de transporte | Permitir a não correspondência de guias de frete em linhas de fatura de frete sem um diário de fatura de fornecedor lançado | Ativado por padrão |
 | Gerenciamento de transporte | [Habilitar a criação de um diário de faturas de fornecedor ao descartar uma nota de frete](whats-new-scm-10-0-20.md) | Ativado por padrão |
-| Gerenciamento de transporte | [Remessa de mercadorias pequenas](../warehousing/small-parcel-shipping.md) | Ativado por padrão |
+| Gerenciamento de transporte | [Remessa de mercadorias pequenas](../warehousing/small-parcel-shipping.md) | Obrigatório |
 | Gerenciamento de transporte | [Certificação do USMCA do documento de origem](../transportation/usmca-certification-of-origin.md) | Ativado por padrão |
 | Gerenciamento de depósito | [Zona de localização adicional](../warehousing/additional-location-zones.md) | Obrigatório |
 | Gerenciamento de depósito | [Cancelar trabalho](../warehousing/cancel-warehouse-work.md) | Obrigatório |
-| Gerenciamento de depósito | [Consolidar remessa](../warehousing/configure-shipment-consolidation-policies.md) | Ativado por padrão |
+| Gerenciamento de depósito | [Consolidar remessa](../warehousing/configure-shipment-consolidation-policies.md) | Obrigatório |
 | Gerenciamento de depósito | [Criar e processar ordens de transferência do aplicativo de depósito](../warehousing/create-transfer-order-from-warehouse-app.md) | Obrigatório |
 | Gerenciamento de depósito | Modelos de distribuição integrada com diretivas de localização | Ativado por padrão |
-| Gerenciamento de depósito | [Dissocie o trabalho de armazenamento de ASNs](whats-new-scm-10-0-21.md) | Ativado por padrão |
-| Gerenciamento de depósito | [Operações put diferidas](../warehousing/deferred-processing-manual-inventory-movement.md) | Ativado por padrão |
+| Gerenciamento de depósito | [Dissocie o trabalho de armazenamento de ASNs](whats-new-scm-10-0-21.md) | Obrigatório |
+| Gerenciamento de depósito | [Operações put diferidas](../warehousing/deferred-processing-manual-inventory-movement.md) | Obrigatório |
 | Gerenciamento de depósito | Operação Put diferida - contêiner | Ativado por padrão |
 | Gerenciamento de depósito | Processamento PUT adiado – habilitado para o recurso de modelo de auditoria com o evento de gatilho definido como Anterior | Obrigatório |
 | Gerenciamento de depósito | [Desabilitar os recebimentos esperados das ordens de qualidade que bloquearam o estoque de exemplo](../inventory/inventory-blocking.md) | Ativado por padrão |
 | Gerenciamento de depósito | Habilitar a validação rápida para dispositivos móveis de depósito | Obrigatório |
-| Gerenciamento de depósito | [Reserva flexível de dimensão em nível de depósito](../warehousing/flexible-warehouse-level-dimension-reservation.md) | Ativado por padrão |
-| Gerenciamento de depósito | [Reserva flexível da placa de licença comprometida na ordem](../warehousing/flexible-warehouse-level-dimension-reservation.md) | Ativado por padrão |
-| Gerenciamento de depósito | [Visualização da carga de trabalho de saída](../warehousing/outbound-workload-visualization.md) | Obrigatório |
+| Gerenciamento de depósito | [Analisador aprimorado de códigos de barra GS1](../warehousing/gs1-barcodes.md) | Geralmente disponível |
+| Gerenciamento de depósito | [Reserva flexível da placa de licença comprometida na ordem](../warehousing/flexible-warehouse-level-dimension-reservation.md) | Obrigatório |
+| Gerenciamento de depósito | [Reserva flexível de dimensão em nível de depósito](../warehousing/flexible-warehouse-level-dimension-reservation.md) | Obrigatório |
 | Gerenciamento de depósito | [Utilização do local de consolidação do item](../warehousing/item-consolidation-location-utilization.md) | Ativado por padrão |
 | Gerenciamento de depósito | Histórico de recebimentos da placa de licença | Ativado por padrão |
 | Gerenciamento de depósito | [Consolidação da remessa manual](../warehousing/consolidate-shipments-manual-workbench.md) | Ativado por padrão |
+| Gerenciamento de depósito | [Serviço de separação manual de linha de transferência para administradores ou usuários confiáveis semelhantes](whats-new-scm-10-0-28.md) | Geralmente disponível |
 | Gerenciamento de depósito | [Interface de equipamento de manuseio de materiais](../warehousing/mhax.md) | Obrigatório |
-| Gerenciamento de depósito | [Distribuição integrada planejada](../warehousing/planned-cross-docking.md) | Ativado por padrão |
+| Gerenciamento de depósito | [Novas páginas da bancada de planejamento de carga](whats-new-scm-10-0-24.md) | Geralmente disponível |
+| Gerenciamento de depósito | [Visualização da carga de trabalho de saída](../warehousing/outbound-workload-visualization.md) | Obrigatório |
+| Gerenciamento de depósito | [Distribuição integrada planejada](../warehousing/planned-cross-docking.md) | Obrigatório |
 | Gerenciamento de depósito | [Processar eventos do aplicativo de depósito](../warehousing/warehouse-app-events.md) | Obrigatório |
 | Gerenciamento de depósito | Aprimoramento da consulta para o modelo de trabalho de armazenamento de coproduto e subproduto | Obrigatório |
 | Gerenciamento de depósito | [Arredondar quantidades para baixo para a unidade de vendas mais próxima na liberação para o depósito](whats-new-scm-10-0-19.md) | Obrigatório |
@@ -190,13 +189,14 @@ A tabela também lista recursos que anteriormente estavam na versão preliminar 
 | Gerenciamento de depósito | [Exibição salva para o processamento de ciclo](saved-views-scm.md) | Obrigatório |
 | Gerenciamento de depósito | [Exibições salvas para o processamento de carga](saved-views-scm.md) | Obrigatório |
 | Gerenciamento de depósito | [Exibições salvas para o processamento de remessa](saved-views-scm.md) | Obrigatório |
-| Gerenciamento de depósito | Detalhes da etiqueta do ciclo de remessa | Ativado por padrão |
+| Gerenciamento de depósito | [Digitalizar códigos de barras GS1](../warehousing/gs1-barcodes.md) | Geralmente disponível |
+| Gerenciamento de depósito | Detalhes da etiqueta do ciclo de remessa | Obrigatório |
 | Gerenciamento de depósito | [Unidades mistas de slots](whats-new-scm-10-0-21.md) | Obrigatório |
 | Gerenciamento de depósito | [Usar API mais rápida para fechamento/reabertura de contêineres na estação de embalagem](whats-new-scm-10-0-21.md) | Ativado por padrão |
 | Gerenciamento de depósito | [Validar modelos selecionados para trabalhos de reabastecimento](whats-new-scm-10-0-20.md) | Ativado por padrão |
-| Gerenciamento de depósito | [Campos promovidos do aplicativo de depósito](../warehousing/warehouse-app-promoted-fields.md) | Ativado por padrão |
-| Gerenciamento de depósito | [Instruções da etapa do aplicativo de depósito](../warehousing/mobile-app-titles-instructions.md) | Ativado por padrão |
-| Gerenciamento de depósito | [Status da localização do depósito](../warehousing/warehouse-location-status.md) | Ativado por padrão |
+| Gerenciamento de depósito | [Campos promovidos do aplicativo de depósito](../warehousing/warehouse-app-promoted-fields.md) | Obrigatório |
+| Gerenciamento de depósito | [Instruções da etapa do aplicativo de depósito](../warehousing/mobile-app-titles-instructions.md) | Obrigatório |
+| Gerenciamento de depósito | [Status da localização do depósito](../warehousing/warehouse-location-status.md) | Obrigatório |
 | Gerenciamento de depósito | [Desvio do aplicativo Warehouse Management](../warehousing/warehouse-app-detours.md) | Ativado por padrão |
 | Gerenciamento de depósito | [Detalhes do trabalho em lotes do ciclo](../warehousing/wave-processing.md) | Obrigatório |
 | Gerenciamento de depósito | [Notificações de execução do ciclo](../warehousing/wave-execution-notifications.md) | Obrigatório |

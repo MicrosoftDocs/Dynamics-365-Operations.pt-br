@@ -2,7 +2,7 @@
 title: Relatar como concluído no dispositivo de ficha de trabalho
 description: Este artigo descreve como configurar o sistema para que os usuários de um dispositivo de ficha de trabalho possam relatar produtos concluídos de uma ordem de produção para o estoque.
 author: johanhoffmann
-ms.date: 07/31/2020
+ms.date: 08/05/2022
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: johanho
 ms.search.validFrom: 2020-05-18
 ms.dyn365.ops.version: 10.0.13
-ms.openlocfilehash: 38372f08db0258de8b5e653b4757c9fda96c8d70
-ms.sourcegitcommit: 28a726b3b0726ecac7620b5736f5457bc75a5f84
+ms.openlocfilehash: 56d19a966d93202668c34ffaaef561d72b7669ff
+ms.sourcegitcommit: 203c8bc263f4ab238cc7534d4dd902fd996d2b0f
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/29/2022
-ms.locfileid: "9070459"
+ms.lasthandoff: 08/23/2022
+ms.locfileid: "9334615"
 ---
 # <a name="report-as-finished-from-the-job-card-device"></a>Relatar como concluído no dispositivo de ficha de trabalho
 
@@ -56,13 +56,12 @@ O dispositivo de ficha de trabalho dá suporte a três cenários de relatório s
 - **Números de lote predefinidos** – trabalhadores selecionam um número de lote em uma lista de números de lote que o sistema gera automaticamente antes de a ordem de produção ser liberada para o dispositivo de ficha de trabalho.
 - **Números de lote fixos** – os trabalhadores não inserem ou selecionam um número de lote. Em vez disso, o sistema atribui automaticamente um número de lote à ordem de produção antes de ser liberada.
 
-
 ### <a name="enable-the-feature-on-your-system"></a>Habilite o recurso no seu sistema
 
-Para habilitar os dispositivos de fichas de trabalho para aceitar um número de lote durante o relatório de conclusão, você deverá usar o [gerenciamento de recursos](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) para ativar os seguintes recursos (nesta ordem):
+Para habilitar os dispositivos de fichas de trabalho para aceitar um número de lote durante o relatório de conclusão, você deverá usar o [gerenciamento de recursos](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) para ativar os seguintes recursos:
 
-1. Experiência de usuário aprimorada no diálogo Andamento do relatório do Dispositivo de Ficha de Trabalho
-1. Habilite para inserir números de lote e de série ao relatar como concluído no Dispositivo de Ficha de Trabalho
+- *Experiência de usuário aprimorada no diálogo Andamento do relatório do Dispositivo de Ficha de Trabalho*
+- *Habilite para inserir números de lote e de série ao relatar como concluído no Dispositivo de Ficha de Trabalho*<br>(A partir do Supply Chain Management versão 10.0.29, este recurso está ativado por padrão.)
 
 ### <a name="configure-products-that-require-batch-number-reporting"></a>Configurar produtos que exigem relatórios de número de lote
 
@@ -137,10 +136,10 @@ O dispositivo de ficha de trabalho oferece suporte a três cenários de relatór
 
 ### <a name="enable-the-feature-on-your-system"></a>Habilite o recurso no seu sistema
 
-Para habilitar os dispositivos de fichas de trabalho para aceitar um número de série durante o relatório de conclusão, você deverá usar o [gerenciamento de recursos](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) para ativar os seguintes recursos (nesta ordem):
+Para habilitar os dispositivos de fichas de trabalho para aceitar um número de série durante o relatório de conclusão, você deverá usar o [gerenciamento de recursos](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) para ativar os seguintes recursos:
 
-1. Experiência de usuário aprimorada no diálogo Andamento do relatório do Dispositivo de Ficha de Trabalho
-1. Habilite para inserir números de lote e de série ao relatar como concluído no Dispositivo de Ficha de Trabalho
+- *Experiência de usuário aprimorada no diálogo Andamento do relatório do Dispositivo de Ficha de Trabalho*
+- *Habilite para inserir números de lote e de série ao relatar como concluído no Dispositivo de Ficha de Trabalho*<br>(A partir do Supply Chain Management versão 10.0.29, este recurso está ativado por padrão.)
 
 ### <a name="configure-products-that-require-serial-number-reporting"></a>Configurar produtos que exigem relatórios de número de série
 

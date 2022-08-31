@@ -2,7 +2,7 @@
 title: Certificação de origem do USMCA
 description: Este recurso permite imprimir os documentos de certificação de origem exigidos pelo Acordo Estados Unidos-México-Canadá (USMCA).
 author: Weijiesa
-ms.date: 10/23/2020
+ms.date: 08/09/2022
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -12,12 +12,12 @@ ms.search.region: Global
 ms.author: weijiesa
 ms.search.validFrom: 2020-10-23
 ms.dyn365.ops.version: 10.0.16
-ms.openlocfilehash: 2a87e1aa27085f1b4821d27cece782dffbcd2096
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: edf235351fc7cbffc6bf80c7e05c53159c1e8a7f
+ms.sourcegitcommit: 203c8bc263f4ab238cc7534d4dd902fd996d2b0f
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8851352"
+ms.lasthandoff: 08/23/2022
+ms.locfileid: "9336535"
 ---
 # <a name="usmca-certification-of-origin"></a>Certificação de origem do USMCA
 
@@ -33,12 +33,9 @@ O documento só pode ser acessado quando o país do endereço principal da entid
 
 Dependendo da seleção de impressão do documento, o documento pode ser preenchido previamente com dados do seu sistema. É possível alterar ou adicionar dados ao documento impresso, exportando o documento impresso para um formato editável, como o Microsoft Word. Após a exportação, você pode aplicar qualquer alteração necessária antes que uma declaração seja realizada.
 
-## <a name="turn-on-the-usmca-feature"></a>Ativar o recurso do USMCA
+## <a name="turn-the-usmca-feature-on-or-off"></a>Ativar ou desativar o recurso USMCA
 
-Para que você possa usar o recurso do USMCA, ele deve estar ativado no sistema. Os administradores podem usar as configurações de [gerenciamento de recursos](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) para verificar o status do recurso e ativá-lo. No espaço de trabalho **Gerenciamento de recursos**, o recurso está listado da seguinte forma:
-
-- **Módulo:** *Gerenciamento de transporte*
-- **Nome do recurso:** *documento de certificação de origem do USMCA*
+Para usar esse recurso, você deve habilitá-lo no seu sistema. A partir da versão 10.0.29 do Supply Chain Management, o recurso está ativado por padrão. Os administradores podem ativar ou desativar essa funcionalidade pesquisando o recurso *Certificação do USMCA do documento de origem* no espaço de trabalho [Gerenciamento de recursos](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md).
 
 ## <a name="document-content"></a>Conteúdo do documento
 

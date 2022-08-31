@@ -2,7 +2,7 @@
 title: Recalcular valores líquidos de linha ao importar ordens de venda, cotações e devoluções
 description: Este artigo descreve se e como o sistema recalcula valores líquidos de linha quando ordens de venda, cotações e devoluções são importados. Ele também explica como você pode controlar o comportamento em diferentes versões do Microsoft Dynamics 365 Supply Chain Management.
 author: Henrikan
-ms.date: 06/08/2022
+ms.date: 08/05/2022
 ms.topic: article
 ms.search.form: ''
 audience: Application User
@@ -11,12 +11,12 @@ ms.search.region: Global
 ms.author: henrikan
 ms.search.validFrom: 2022-06-08
 ms.dyn365.ops.version: 10.0.29
-ms.openlocfilehash: ce34a6be7bc3d14e23bdd8769aa71dc035b983b3
-ms.sourcegitcommit: c98d55a4a6e27239ae6b317872332f01cbe8b875
+ms.openlocfilehash: 08b30044a93e46c9c83848b60d69c595bc774570
+ms.sourcegitcommit: 203c8bc263f4ab238cc7534d4dd902fd996d2b0f
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/02/2022
-ms.locfileid: "9220518"
+ms.lasthandoff: 08/23/2022
+ms.locfileid: "9335545"
 ---
 # <a name="recalculate-line-net-amounts-when-importing-sales-orders-quotations-and-returns"></a>Recalcular valores líquidos de linha ao importar ordens de venda, cotações e devoluções
 
@@ -36,7 +36,7 @@ Nesses cenários específicos, o efeito da política de avaliação do contrato 
 
 ## <a name="control-calculations-of-line-net-amounts-in-versions-10029-and-later"></a>Controlar cálculos de valores líquidos de linha na versão 10.0.29 e posteriores
 
-O Supply Chain Management 10.0.29 apresentou um recurso chamado *Calcular valor líquido de linha mediante importação*. Este recurso adiciona uma opção chamada **Calcular valor líquido de linha** à página **Parâmetros de contas a receber**. Esta opção permite selecionar entre os comportamentos novos e herdados para o cálculo de valores líquidos de linha na importação.
+O Supply Chain Management versão 10.0.29 apresentou um recurso chamado *Calcular valor líquido de linha mediante importação*. Este recurso adiciona uma opção chamada **Calcular valor líquido de linha** à página **Parâmetros de contas a receber**. Esta opção permite selecionar entre os comportamentos novos e herdados para o cálculo de valores líquidos de linha na importação.
 
 ### <a name="turn-the-calculate-line-net-amount-on-import-feature-on-or-off"></a>Ativar ou desativar o recurso Calcular valor líquido de linha mediante importação
 

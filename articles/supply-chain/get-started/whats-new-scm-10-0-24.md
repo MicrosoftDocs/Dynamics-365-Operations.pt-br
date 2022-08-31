@@ -10,12 +10,12 @@ ms.search.region: Global
 ms.author: kamaybac
 ms.search.validFrom: 2021-12-03
 ms.dyn365.ops.version: 10.0.24
-ms.openlocfilehash: f8864ac22153908492b5e7c30a03617e6dc9d05a
-ms.sourcegitcommit: 5b34b41ae74269ba639e2876bc5862ef468da1cc
+ms.openlocfilehash: 9b4b538e6d50013626739e19fee2a050b630bf7f
+ms.sourcegitcommit: 203c8bc263f4ab238cc7534d4dd902fd996d2b0f
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 07/15/2022
-ms.locfileid: "9166865"
+ms.lasthandoff: 08/23/2022
+ms.locfileid: "9334795"
 ---
 # <a name="whats-new-or-changed-in-dynamics-365-supply-chain-management-10024-february-2022"></a>Novidades ou alterações no Dynamics 365 Supply Chain Management 10.0.24 (Fevereiro de 2022)
 
@@ -48,7 +48,7 @@ Se quiser ativar o desativar qualquer um desses recursos, você deverá fazer is
 | Controle de produção | Verificação de disponibilidade de material sob demanda para ordens de produção | Esse recurso facilita a abertura da página **Ordens de produção a liberar**, que está disponível no espaço de trabalho **Gerenciamento de piso de produção**. Sem esse recurso, o sistema verifica automaticamente se há materiais disponíveis para todas as ordens de produção listadas assim que você abre a página, o que pode levar um tempo significativo se você tiver um grande número de ordens. Quando o recurso está habilitado, o sistema fornece um botão de barra de ferramentas, que pode ser usado para iniciar a verificação de materiais somente para ordens selecionadas e quando for necessário. |
 | Controle de produção | Registrar consumo de material na interface de execução do piso de produção (não WMS) | Esse recurso permite que os trabalhadores usem a interface de execução do piso de produção para registrar o consumo de materiais, os números de lote e os números de série. Esse recurso só oferece suporte a itens que não estão habilitados para usar processos de gerenciamento de depósito (WMS). O suporte a itens habilitados para WMS está agendado para uma versão futura.<p>Alguns fabricantes, especialmente aqueles nas indústrias de processamento, devem registrar explicitamente a quantidade de material consumido para cada ordem de produção ou lote. Por exemplo, os trabalhadores podem usar uma escala para avaliar a quantidade de material consumido conforme trabalham. Para garantir a rastreabilidade total do material, essas organizações também devem registrar os números de lote que foram consumidos durante a produção de cada produto. |
 | Controle de produção | Relatar como concluído na carga de trabalho de gerenciamento de depósito para unidades de escala de nuvem e de borda | Esse recurso permite que os funcionários usem o aplicativo móvel Warehouse Management para relatar uma ordem de produção ou de lotes como concluída quando o aplicativo é executado em uma carga de trabalho de gerenciamento de depósito em uma unidade de escala de nuvem ou de borda. Para obter mais informações, consulte [Relatar como finalizado e armazenado em uma unidade de escala](../cloud-edge/cloud-edge-workload-manufacturing.md#RAF). |
-| Gerenciamento de depósito | Novas páginas da bancada de planejamento de carga | Habilita duas novas páginas de bancada de planejamento de carga: **Workbench de planejamento de carga de entrada** e **Workbench de planejamento de carga de saída**. |
+| Gerenciamento de depósito | Novas páginas da bancada de planejamento de carga | Adiciona duas novas páginas de bancada de planejamento de carga: **Workbench de planejamento de carga de entrada** e **Workbench de planejamento de carga de saída**. |
 
 ## <a name="new-and-updated-documentation-resources"></a>Recursos de documentação novos e atualizados
 

@@ -2,7 +2,7 @@
 title: Notificações de execução do ciclo
 description: Este artigo descreve as notificações de execução do ciclo e explica como configurá-las.
 author: Mirzaab
-ms.date: 04/03/2021
+ms.date: 08/09/2022
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: mirzaab
 ms.search.validFrom: 2021-04-01
 ms.dyn365.ops.version: 10.0.0
-ms.openlocfilehash: 5c8fa259e51f024d19c1f2f7e84ed7edd0ddb7e1
-ms.sourcegitcommit: 28a726b3b0726ecac7620b5736f5457bc75a5f84
+ms.openlocfilehash: a6a554965c11eea3b4fa53fe4dbc4bac04624026
+ms.sourcegitcommit: 203c8bc263f4ab238cc7534d4dd902fd996d2b0f
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/29/2022
-ms.locfileid: "9069018"
+ms.lasthandoff: 08/23/2022
+ms.locfileid: "9336565"
 ---
 # <a name="wave-execution-notifications"></a>Notificações de execução do ciclo
 
@@ -32,7 +32,7 @@ Os eventos comerciais ocorrem quando processos comerciais são executados. Os pr
 
 ## <a name="turn-the-wave-execution-notifications-feature-on-or-off"></a>Ativar ou desativar o recurso Notificações de execução do ciclo
 
-A partir da versão 10.0.25 do Supply Chain Management, este recurso está ativado por padrão. Os administradores podem ativar ou desativar essa funcionalidade pesquisando o recurso *Notificações de execução do ciclo* no espaço de trabalho [Gerenciamento de recursos](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md).
+Para usar esse recurso, você deve habilitá-lo no seu sistema. A partir do Supply Chain Management versão 10.0.25, o recurso está ativado por padrão. A partir do Supply Chain Management versão 10.0.29, o recurso é obrigatório e não pode ser desativado. Se você estiver executando uma versão anterior à 10.0.29, os administradores poderão habilitar ou desabilitar essa funcionalidade pesquisando o recurso *Notificações de execução do ciclo* no espaço de trabalho [Gerenciamento de recursos](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md).
 
 ## <a name="scenario-send-wave-batch-execution-notifications-to-the-action-center"></a>Cenário: enviar notificações de execução em lotes do ciclo para a Central de ações
 

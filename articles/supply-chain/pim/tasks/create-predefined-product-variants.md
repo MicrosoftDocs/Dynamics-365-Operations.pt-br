@@ -2,7 +2,7 @@
 title: Criar grades de produtos predefinidas
 description: Este procedimento mostra como criar variantes de produto para um produto mestre que usam as combinações de dimensões do produto.
 author: t-benebo
-ms.date: 04/22/2021
+ms.date: 08/09/2022
 ms.topic: business-process
 ms.prod: ''
 ms.technology: ''
@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: benebotg
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: 10.0.19
-ms.openlocfilehash: 6d3a4ae8efd438e01c263af1c0a1746d9484e491
-ms.sourcegitcommit: fcb8a3419e3597fe855cae9eb21333698518c2c7
+ms.openlocfilehash: a26439b8c7346cdce2b4c9804493fea94c29ac31
+ms.sourcegitcommit: 203c8bc263f4ab238cc7534d4dd902fd996d2b0f
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/09/2022
-ms.locfileid: "8103080"
+ms.lasthandoff: 08/23/2022
+ms.locfileid: "9335905"
 ---
 # <a name="predefined-product-variants"></a>Grades de produtos predefinidas
 
@@ -86,7 +86,7 @@ Os aprimoramentos a seguir são adicionados por esse recurso:
 
 ### <a name="turn-the-variant-suggestions-page-improvements-feature-on-or-off"></a>Ativar ou desativar o recurso Aprimoramentos na página de sugestões de grade
 
-A partir da versão 10.0.25 do Supply Chain Management, este recurso está ativado por padrão. Os administradores podem ativar ou desativar essa funcionalidade procurando o recurso *Aprimoramentos na página de sugestões de grade* no espaço de trabalho [Gerenciamento de recursos](../../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md).
+Para usar esse recurso, você deve habilitá-lo no seu sistema. A partir do Supply Chain Management versão 10.0.25, o recurso está ativado por padrão. A partir do Supply Chain Management versão 10.0.29, o recurso é obrigatório e não pode ser desativado. Se você estiver executando uma versão anterior à 10.0.29, os administradores poderão habilitar ou desabilitar essa funcionalidade pesquisando o recurso *Aprimoramentos na página de sugestões de grade* no espaço de trabalho [Gerenciamento de recursos](../../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md).
 
 ### <a name="work-with-the-improved-variant-suggestions"></a>Trabalhar com as sugestões de grade aprimoradas
 

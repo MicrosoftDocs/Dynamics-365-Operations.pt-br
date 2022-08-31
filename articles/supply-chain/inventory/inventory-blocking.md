@@ -2,7 +2,7 @@
 title: Bloqueio de estoque
 description: Este artigo oferece uma visão geral do bloqueio de estoque, que faz parte do processo de inspeção de qualidade no Supply Chain Management. Você pode usar o bloqueio de estoque para evitar que os itens sejam processados ou consumidos.
 author: yufeihuang
-ms.date: 03/02/2021
+ms.date: 08/09/2022
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -16,12 +16,12 @@ ms.search.industry: Distribution
 ms.author: yufeihuang
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: f7a16c41b56b30098945a6fbdb02577624b6e173
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: 83b5417dc24af85f09e6713f2b12fdc358f61d54
+ms.sourcegitcommit: 203c8bc263f4ab238cc7534d4dd902fd996d2b0f
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8857798"
+ms.lasthandoff: 08/23/2022
+ms.locfileid: "9334675"
 ---
 # <a name="inventory-blocking"></a>Bloqueio de estoque
 
@@ -96,11 +96,11 @@ Quando **Reservar itens encomendados** está desabilitada, os recebimentos esper
 
 Observe a diferença no status e nas dimensões da transação entre os dois casos. Por esse motivo, é recomendável habilitar a opção **Reservar itens encomendados**.
 
-### <a name="disable-expected-receipts-from-quality-orders-that-sample-blocked-inventory-feature"></a>Desabilitar recebimentos esperados do recurso ordens de qualidade que bloquearam o estoque de exemplo
+## <a name="disable-expected-receipts-from-quality-orders-that-sample-blocked-inventory"></a>Desabilitar os recebimentos esperados das ordens de qualidade que bloquearam o estoque de exemplo
 
 Para simplificar as transações de estoque no caso de ordens de qualidade que bloquearam o estoque de exemplo como consequência do status do estoque, o sistema fornece um recurso que desabilita os recebimentos esperados dessas ordens de qualidade. Como o recebimento esperado é bloqueado imediatamente pelo bloqueio do status do estoque, não há redução do estoque disponível devido a essa alteração.
 
-Este recurso está desativado por padrão. Os administradores podem ativá-lo ou desativá-lo, procurando o recurso *Desabilitar os recebimentos esperados das ordens de qualidade que bloquearam o estoque de exemplo* no espaço de trabalho [Gerenciamento de recursos](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md).
+Para usar esse recurso, você deve habilitá-lo no seu sistema. A partir da versão 10.0.29 do Supply Chain Management, o recurso está ativado por padrão. Os administradores podem ativar ou desativar esta funcionalidade, procurando o recurso *Desabilitar os recebimentos esperados das ordens de qualidade que bloquearam o estoque de exemplo* no espaço de trabalho [Gerenciamento de recursos](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md).
 
 ## <a name="additional-resources"></a>Recursos adicionais
 

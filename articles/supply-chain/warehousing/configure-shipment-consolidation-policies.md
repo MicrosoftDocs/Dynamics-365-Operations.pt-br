@@ -2,7 +2,7 @@
 title: Configurar políticas de consolidação de remessa
 description: Este artigo explica como configurar políticas de consolidação de remessa padrão e personalizadas.
 author: Mirzaab
-ms.date: 05/12/2020
+ms.date: 08/09/2022
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: mirzaab
 ms.search.validFrom: 2020-05-01
 ms.dyn365.ops.version: 10.0.3
-ms.openlocfilehash: bec96131326b3162b3d1a138b896e85982ad3aa5
-ms.sourcegitcommit: c98d55a4a6e27239ae6b317872332f01cbe8b875
+ms.openlocfilehash: 4583d523811cb41518a0a4dae0d67398d64cab44
+ms.sourcegitcommit: 203c8bc263f4ab238cc7534d4dd902fd996d2b0f
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/02/2022
-ms.locfileid: "9219522"
+ms.lasthandoff: 08/23/2022
+ms.locfileid: "9336482"
 ---
 # <a name="configure-shipment-consolidation-policies"></a>Configurar políticas de consolidação de remessa
 
@@ -33,10 +33,7 @@ Os cenários apresentados neste artigo mostram como configurar políticas de con
 > [!IMPORTANT]
 > No [primeiro cenário](#scenario-1) descrito neste artigo, primeiro você configurará um depósito para que use o recurso de consolidação de remessa anterior. Em seguida, você criará as políticas de consolidação de remessa disponíveis. Dessa forma, você pode perceber como o cenário de atualização funciona. Se você pretende usar um ambiente de dados de demonstração para passar pelo primeiro cenário, não ative o recurso antes de concluir o cenário.
 
-Antes de usar o recurso *Políticas de consolidação de remessa*, você deve ativá-lo no sistema. Os administradores podem usar as configurações de [gerenciamento de recursos](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) para verificar o status do recurso e ativá-lo. No espaço de trabalho **Gerenciamento de recursos**, o recurso está listado da seguinte forma:
-
-- **Módulo:** *Gerenciamento de Depósito*
-- **Nome do recurso:** *Consolidar remessa*
+Para usar o recurso *Políticas de consolidação de remessa*, ele precisa estar ativado no sistema. A partir do Supply Chain Management versão 10.0.29, o recurso é obrigatório e não pode ser desativado. Se você estiver executando uma versão anterior à 10.0.29, os administradores poderão ativar ou desativar essa funcionalidade procurando o recurso *Políticas de consolidação da remessa* no espaço de trabalho [Gerenciamento de recursos](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md).
 
 ## <a name="make-demo-data-available"></a>Disponibilizar dados de demonstração
 

@@ -2,7 +2,7 @@
 title: Configurar campos promovidos para etapas no aplicativo móvel do Warehouse Management
 description: Este artigo descreve como promover e destacar informações específicas para qualquer etapa nos fluxos de tarefas para o aplicativo móvel do Warehouse Management.
 author: Mirzaab
-ms.date: 10/15/2021
+ms.date: 08/09/2022
 ms.topic: article
 ms.search.form: ''
 audience: Application User
@@ -11,12 +11,12 @@ ms.search.region: Global
 ms.author: mirzaab
 ms.search.validFrom: 2021-10-15
 ms.dyn365.ops.version: 10.0.23
-ms.openlocfilehash: 8ecca2d00b8753a405faa8d4c67c3cbb1eef6907
-ms.sourcegitcommit: c98d55a4a6e27239ae6b317872332f01cbe8b875
+ms.openlocfilehash: 3451b1aec525cd0738af558b183f8676d20294a0
+ms.sourcegitcommit: 203c8bc263f4ab238cc7534d4dd902fd996d2b0f
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/02/2022
-ms.locfileid: "9218964"
+ms.lasthandoff: 08/23/2022
+ms.locfileid: "9336055"
 ---
 # <a name="configure-promoted-fields-for-steps-in-the-warehouse-management-mobile-app"></a>Configurar campos promovidos para etapas no aplicativo móvel do Warehouse Management
 
@@ -29,19 +29,12 @@ Este artigo descreve como promover e destacar informações específicas para qu
 
 ## <a name="enable-promoted-fields-in-your-system"></a>Habilitar os campos promovidos no sistema
 
-Antes de configurar os campos promovidos, você deve concluir o procedimento a seguir para habilitar os recursos necessários e gerar os nomes de campos necessários no aplicativo móvel do Warehouse Management.
+Se você estiver executando a versão 10.0.28 do Supply Chain Management ou anterior, antes de poder configurar os campos promovidos, você deverá concluir o procedimento a seguir para habilitar os recursos necessários e gerar os nomes de campos necessários no aplicativo móvel do Warehouse Management. Se você estiver executando a versão 10.0.29 do Supply Chain Management ou posterior, os recursos são obrigatórios e não podem ser desativados, portanto você pode ignorar este procedimento.
 
-1. Acesse **Administrador do sistema \> Espaços de trabalho \> Gerenciamento de recursos**.
-1. Verifique se o recurso *Instruções da etapa do aplicativo de depósito* está ativado para o seu sistema. A partir da versão 10.0.29 do Supply Chain Management, este recurso está ativado por padrão. Para obter mais informações sobre o recurso *Instruções de etapa do aplicativo do Warehouse*, consulte [Personalizar títulos de etapas e instruções para o aplicativo móvel do Warehouse Management](mobile-app-titles-instructions.md). Esse recurso é um pré-requisito para o recurso *Campos promovidos do aplicativo do Warehouse*.
-1. Habilite o recurso listado da seguinte maneira:
-
-    - **Módulo:** *Gerenciamento de depósito*
-    - **Nome do recurso:** *campos promovidos do aplicativo do Warehouse*
-
-    Esse recurso é o descrito neste artigo.
-
-1. Atualize os nomes de campo no aplicativo móvel do Warehouse Management acessando **Warehouse management \> Configuração \> Dispositivo móvel \> Nomes de campo do aplicativo do Warehouse** e selecionando **Criar configuração padrão**. Para obter mais informações, consulte [Configurar campos para o aplicativo móvel Warehouse Management](configure-app-field-names-priorities-warehouse.md).
-1. Repita a etapa anterior para cada entidade legal (empresa) em que você usa o aplicativo móvel do Warehouse Management.
+1. Acesse **Administrador do sistema \> Espaços de trabalho \> Gerenciamento de recursos**. (Consulte [Visão geral do gerenciamento de recursos](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) para obter mais informações sobre esta página).
+1. Verifique se o recurso *Instruções da etapa do aplicativo de depósito* está ativado para o seu sistema. Esse recurso é um pré-requisito para o recurso *Campos promovidos do aplicativo do Warehouse*. A partir da versão 10.0.29 do Supply Chain Management, ele é obrigatório e não pode ser desativado. Para obter mais informações sobre o recurso *Instruções de etapa do aplicativo do Warehouse*, consulte [Personalizar títulos de etapas e instruções para o aplicativo móvel do Warehouse Management](mobile-app-titles-instructions.md).
+1. Verifique se o recurso *Campos promovidos do aplicativo de depósito* está ativado para o seu sistema. Este é o recurso descrito neste artigo. A partir da versão 10.0.29 do Supply Chain Management, ele é obrigatório e não pode ser desativado.
+1. Atualize os nomes de campo no aplicativo móvel do Warehouse Management acessando **Warehouse management \> Configuração \> Dispositivo móvel \> Nomes de campo do aplicativo do Warehouse** e selecionando **Criar configuração padrão**. Repita esta etapa para cada entidade legal (empresa) em que você usa o aplicativo móvel do Warehouse Management. Para obter mais informações, consulte [Configurar campos para o aplicativo móvel Warehouse Management](configure-app-field-names-priorities-warehouse.md).
 
 ## <a name="configure-promoted-fields-from-a-menu-specific-override"></a>Configurar campos promovidos de uma substituição específica de menu
 

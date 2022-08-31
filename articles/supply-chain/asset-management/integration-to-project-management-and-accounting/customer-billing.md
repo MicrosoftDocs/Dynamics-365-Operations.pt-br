@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: johanho
 ms.search.validFrom: 2021-01-28
 ms.dyn365.ops.version: 10.0.17
-ms.openlocfilehash: b7c2c07f3e3eb76ff20e37e8d5d485dc08232c7a
-ms.sourcegitcommit: c98d55a4a6e27239ae6b317872332f01cbe8b875
+ms.openlocfilehash: c0d067ec4f2110b1c146ef0229b90e309578eaa7
+ms.sourcegitcommit: 203c8bc263f4ab238cc7534d4dd902fd996d2b0f
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/02/2022
-ms.locfileid: "9220412"
+ms.lasthandoff: 08/23/2022
+ms.locfileid: "9335065"
 ---
 # <a name="bill-for-maintenance-on-customer-owned-assets"></a>Cobrança por manutenção sobre ativos de propriedade do cliente
 
@@ -40,7 +40,7 @@ Além disso, o recurso fornece as seguintes funcionalidades:
 
 ## <a name="turn-on-the-customer-billing-feature"></a>Ativar o recurso de cobrança de cliente
 
-Antes de poder usar esse recurso, você deve habilitá-lo no seu sistema. Os administradores podem usar as configurações de [gerenciamento de recursos](../../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) para verificar o status do recurso e ativá-lo. No espaço de trabalho **Gerenciamento de recursos**, o recurso está listado da seguinte forma:
+Para poder usar esse recurso, você deve habilitá-lo para o seu sistema. Os administradores podem usar as configurações de [gerenciamento de recursos](../../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) para verificar o status do recurso e ativá-lo. No espaço de trabalho **Gerenciamento de recursos**, o recurso está listado da seguinte forma:
 
 - **Módulo:** *gerenciamento e contabilidade do projeto*
 - **Nome do recurso:** *cobrança da ordem de serviço*

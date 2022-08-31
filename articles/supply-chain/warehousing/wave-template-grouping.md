@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: mirzaab
 ms.search.validFrom: 2020-07-01
 ms.dyn365.ops.version: 10.0.8
-ms.openlocfilehash: 0f0419f1a109f043cb1af6a575704c24420639f1
-ms.sourcegitcommit: c98d55a4a6e27239ae6b317872332f01cbe8b875
+ms.openlocfilehash: a48e6a81299badf4b811e1cf905beb06099e5a24
+ms.sourcegitcommit: 203c8bc263f4ab238cc7534d4dd902fd996d2b0f
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/02/2022
-ms.locfileid: "9218904"
+ms.lasthandoff: 08/23/2022
+ms.locfileid: "9335965"
 ---
 # <a name="wave-template-grouping"></a>Agrupamento de modelos de onda
 
@@ -31,7 +31,7 @@ O agrupamento de modelos de onda permite que o sistema use configurações de [m
 
 ## <a name="turn-on-the-wave-template-grouping-feature"></a>Ativar o recurso Agrupamento de modelos de onda
 
-Para você usar o recurso *Agrupamento de modelos de onda*, ele deve estar ativado no sistema. Os administradores podem usar as configurações de [gerenciamento de recursos](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) para verificar o status do recurso e ativá-lo se necessário. No espaço de trabalho **Gerenciamento de recursos**, o recurso está listado da seguinte forma:
+Para você usar o recurso *Agrupamento de modelos de onda*, ele deve estar ativado para o seu sistema. Os administradores podem usar as configurações de [gerenciamento de recursos](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) para verificar o status do recurso e ativá-lo se necessário. No espaço de trabalho **Gerenciamento de recursos**, o recurso está listado da seguinte forma:
 
 - **Módulo:** *Gerenciamento de Depósito*
 - **Nome do recurso:** *Agrupamento de modelos de onda*

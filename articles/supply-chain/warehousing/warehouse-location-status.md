@@ -2,7 +2,7 @@
 title: Status da localização do depósito
 description: Este artigo fornece uma visão geral do recurso status do local do Depósito.
 author: Mirzaab
-ms.date: 07/01/2020
+ms.date: 08/09/2022
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: mirzaab
 ms.search.validFrom: 2020-07-01
 ms.dyn365.ops.version: 10.0.7
-ms.openlocfilehash: 2b3c408f5a5e4ce85a235ac83c15b648e43b5e10
-ms.sourcegitcommit: c98d55a4a6e27239ae6b317872332f01cbe8b875
+ms.openlocfilehash: 9b12a7d6a7ce388c8fd049c4aef79ea57c82ae60
+ms.sourcegitcommit: 203c8bc263f4ab238cc7534d4dd902fd996d2b0f
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/02/2022
-ms.locfileid: "9220047"
+ms.lasthandoff: 08/23/2022
+ms.locfileid: "9336085"
 ---
 # <a name="warehouse-location-status"></a>Status da localização do depósito
 
@@ -40,9 +40,9 @@ Os quatro campos a seguir na página **Locais** rastreiam informações sobre o 
     - **Separação** – as transações de saída foram executadas no local desde o último esvaziamento.
     - **Armazenamento** – apenas as transações de entrada foram executadas no local desde o último esvaziamento do local.
 
-## <a name="turn-on-the-warehouse-location-status-feature"></a>Ativar o recurso Status da localização do depósito
+## <a name="turn-the-warehouse-location-status-feature-on-or-off"></a>Ativar ou desativar o recurso Status da localização do depósito
 
-Antes de poder usar esse recurso, você deve habilitá-lo no seu sistema. A partir da versão 10.0.29 do Supply Chain Management, este recurso está ativado por padrão. Os administradores podem ativar ou desativar essa funcionalidade procurando o recurso *Status da localização do depósito* no espaço de trabalho [Gerenciamento de recursos](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md).
+Para usar esse recurso, você deve habilitá-lo no seu sistema. A partir do Supply Chain Management versão 10.0.29, o recurso é obrigatório e não pode ser desativado. Se você estiver executando uma versão anterior à 10.0.29, os administradores poderão ativar ou desativar essa funcionalidade procurando o recurso *Status da localização do depósito* no espaço de trabalho [Gerenciamento de recursos](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md).
 
 ## <a name="set-up-warehouse-location-status"></a>Configurar o status da localização do depósito
 

@@ -2,7 +2,7 @@
 title: Margens de segurança
 description: Este artigo descreve como as margens de segurança podem ser usadas com o Suplemento de Otimização de Planejamento do Microsoft Dynamics 365 Supply Chain Management.
 author: t-benebo
-ms.date: 09/14/2020
+ms.date: 08/09/2022
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -16,12 +16,12 @@ ms.search.industry: Manufacturing
 ms.author: benebotg
 ms.search.validFrom: 2020-9-14
 ms.dyn365.ops.version: AX 10.0.13
-ms.openlocfilehash: c792c33edea9a7f4e2973383b1fcce5b4e8ec998
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: 247b48afab68651cff0ce84c8268a1df35a15c02
+ms.sourcegitcommit: 203c8bc263f4ab238cc7534d4dd902fd996d2b0f
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8854229"
+ms.lasthandoff: 08/23/2022
+ms.locfileid: "9335185"
 ---
 # <a name="safety-margins"></a>Margens de segurança
 
@@ -79,12 +79,9 @@ Observe que quando uma margem de saída é aplicada, as datas obrigatórias e de
 
 ## <a name="set-up-safety-margins"></a>Configurar margens de segurança
 
-### <a name="turn-on-safety-margins-in-feature-management"></a>Ativar margens de segurança no Gerenciamento de recursos
+### <a name="turn-safety-margins-on-or-off"></a>Ativar ou desativar as margens de segurança
 
-Antes de poder usar esse recurso com a Otimização de Planejamento, você deve habilitá-lo no seu sistema. Os administradores podem usar o espaço de trabalho [Gerenciamento de recursos](../../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) para verificar o status do recurso e ativá-lo, se necessário. Nesse caso, o recurso é listado da seguinte maneira:
-
-- **Módulo:** _Planejamento mestre_
-- **Nome do recurso:** _Margens da Otimização de Planejamento_
+Para usar esse recurso, você deve habilitá-lo no seu sistema. A partir do Supply Chain Management versão 10.0.29, o recurso é obrigatório e não pode ser desativado. Se você estiver executando uma versão anterior à 10.0.29, os administradores poderão habilitar ou desabilitar essa funcionalidade pesquisando o recurso *Margens para Otimização de Planejamento* no espaço de trabalho [Gerenciamento de recursos](../../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md).
 
 ### <a name="define-safety-margins"></a>Definir margens de segurança
 

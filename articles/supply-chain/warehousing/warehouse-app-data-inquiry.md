@@ -2,7 +2,7 @@
 title: Consultar dados usando desvios do aplicativo móvel do Warehouse Management
 description: Este artigo descreve como configurar os itens de menu de consulta de dados para o dispositivo móvel e usá-los como parte de desvios.
 author: perlynne
-ms.date: 08/01/2022
+ms.date: 08/09/2022
 ms.topic: article
 ms.search.form: WHSMobileAppFlowStepListPage, WHSMobileAppFlowStepAddDetour,WHSMobileAppFlowStepDetourSelectFields
 audience: Application User
@@ -11,12 +11,12 @@ ms.search.region: Global
 ms.author: perlynne
 ms.search.validFrom: 2022-08-01
 ms.dyn365.ops.version: 10.0.29
-ms.openlocfilehash: c3ea53379badb3cb2ed71b7f102956d71c3f047a
-ms.sourcegitcommit: c98d55a4a6e27239ae6b317872332f01cbe8b875
+ms.openlocfilehash: cc013e962b4da803764f16e451b1d433666e75c2
+ms.sourcegitcommit: 203c8bc263f4ab238cc7534d4dd902fd996d2b0f
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/02/2022
-ms.locfileid: "9220511"
+ms.lasthandoff: 08/23/2022
+ms.locfileid: "9336595"
 ---
 # <a name="query-data-using-warehouse-management-mobile-app-detours"></a>Consultar dados usando desvios do aplicativo móvel do Warehouse Management
 
@@ -35,19 +35,19 @@ Por exemplo, no fluxo de recebimento da ordem de compra, é necessário um núme
 Para usar a funcionalidade descrita neste artigo, você deve concluir o procedimento a seguir para ativar os recursos necessários.
 
 1. Acesse **Administrador do sistema \> Espaços de trabalho \> Gerenciamento de recursos**. (Para obter mais informações sobre como usar o espaço de trabalho **Gerenciamento de recursos**, consulte [Visão geral do gerenciamento de recursos](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md).)
-1. Ative o recurso listado da seguinte maneira:
+1. Se você estiver executando a versão 10.0.28 do Supply Chain Management ou anterior, ative o recurso listado da seguinte maneira:
 
     - **Módulo:** *Gerenciamento de depósito*
     - **Nome do recurso:** *instruções de etapa do aplicativo Warehouse*
 
-    Esse recurso é um pré-requisito para o recurso *Fluxo de consulta de dados do aplicativo Warehouse Management*. Para obter mais informações sobre o recurso *Instruções de etapa do aplicativo do Warehouse*, consulte [Personalizar títulos de etapas e instruções para o aplicativo móvel do Warehouse Management](mobile-app-titles-instructions.md).
+    Esse recurso é um pré-requisito para o recurso *Fluxo de consulta de dados do aplicativo Warehouse Management*. A partir da versão 10.0.29 do Supply Chain Management, ele é obrigatório e não pode ser desativado. Para obter mais informações sobre o recurso *Instruções de etapa do aplicativo do Warehouse*, consulte [Personalizar títulos de etapas e instruções para o aplicativo móvel do Warehouse Management](mobile-app-titles-instructions.md).
 
 1. Ative o recurso listado da seguinte maneira:
 
     - **Módulo:** *Gerenciamento de depósito*
     - **Nome do recurso:** *desvios do aplicativo do Warehouse Management*
 
-    Esse recurso é um pré-requisito para o recurso *Fluxo de consulta de dados do aplicativo Warehouse Management*. Para obter mais informações sobre o recurso *Desvios do aplicativo Warehouse Management*, consulte [Configurar desvios para as etapas nos itens de menu do dispositivo móvel](warehouse-app-detours.md).
+    Esse recurso é um pré-requisito para o recurso *Fluxo de consulta de dados do aplicativo Warehouse Management*. A partir do Supply Chain Management versão 10.0.29, ele está ativado por padrão. Para obter mais informações sobre o recurso *Desvios do aplicativo Warehouse Management*, consulte [Configurar desvios para as etapas nos itens de menu do dispositivo móvel](warehouse-app-detours.md).
 
 1. Se o recurso *Desvios do aplicativo Warehouse Management* ainda não foi ativado, atualize os nomes de campos no aplicativo móvel Warehouse Management acessando **Warehouse management \> Configuração \> Dispositivo móvel \> Nomes de campo de aplicativo de depósito** e selecionando **Criar configuração padrão**. Repita esta etapa para cada entidade legal (empresa) em que você usa o aplicativo móvel do Warehouse Management. Para obter mais informações, consulte [Configurar campos para o aplicativo móvel Warehouse Management](configure-app-field-names-priorities-warehouse.md).
 1. Ative o recurso listado da seguinte maneira:

@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: johanho
 ms.search.validFrom: 2019-08-31
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: 1f8a6de85f68a924a8d285d8cdd306ab774661fb
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: 6303af9a9d4d4565deba9ca8893535554d03c274
+ms.sourcegitcommit: 203c8bc263f4ab238cc7534d4dd902fd996d2b0f
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8897796"
+ms.lasthandoff: 08/23/2022
+ms.locfileid: "9335005"
 ---
 # <a name="maintenance-plans"></a>Planos de manutenção
 
@@ -202,7 +202,7 @@ O recurso *Melhorias de manutenção com base em contadores* apresenta a seguint
 
 ### <a name="turn-on-the-counter-based-maintenance-enhancements-feature"></a>Ativar o recurso de melhorias de manutenção com base em contadores
 
-Antes de poder usar esse recurso, você deve habilitá-lo no seu sistema. Os administradores podem usar as configurações de [gerenciamento de recursos](../../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) para verificar o status do recurso e ativá-lo. No espaço de trabalho **Gerenciamento de recursos**, o recurso está listado da seguinte forma:
+Para poder usar esse recurso, você deve habilitá-lo para o seu sistema. Os administradores podem usar as configurações de [gerenciamento de recursos](../../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) para verificar o status do recurso e ativá-lo. No espaço de trabalho **Gerenciamento de recursos**, o recurso está listado da seguinte forma:
 
 - **Módulo:** *gerenciamento de ativos*
 - **Nome do recurso:** *Melhorias de manutenção com base em contadores*

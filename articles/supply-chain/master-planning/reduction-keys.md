@@ -16,12 +16,12 @@ ms.search.industry: Manufacturing
 ms.author: benebotg
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 5cf84598b731e9750e3cf79d312bf0bbf4f8bd81
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: b7eaf57e0f02c0b9dd6454a58184db7bb3f58c04
+ms.sourcegitcommit: 203c8bc263f4ab238cc7534d4dd902fd996d2b0f
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8854258"
+ms.lasthandoff: 08/23/2022
+ms.locfileid: "9337121"
 ---
 # <a name="forecast-reduction-keys"></a>Chaves de redução da previsão
 
@@ -133,7 +133,7 @@ Quando esta opção é usada, o seguinte comportamento ocorre:
 - As chaves de redução não são obrigatórias nem são usadas. 
 - Se a previsão for completamente reduzida, os requisitos da previsão atual se tornam 0 (zero).
 - Se não houver previsão futura, os requisitos de previsão da última previsão que foi inserida serão reduzidos.
-- Os limites de tempo são incluídos no cálculo de redução de previsão.
+- O limite de tempo de redução da previsão de demanda não está incluído no cálculo de redução da previsão. Em vez disso, o limite de tempo do grupo de cobertura é usado para redução de previsão.
 - Os dias positivos são incluídos no cálculo de redução de previsão.
 - Se as transações de ordens reais excederam os requisitos de previsão, as outras transações não serão encaminhadas para o próximo período de previsão.
 

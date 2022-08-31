@@ -11,12 +11,12 @@ ms.search.region: Global
 ms.author: mirzaab
 ms.search.validFrom: 2021-08-02
 ms.dyn365.ops.version: 10.0.25
-ms.openlocfilehash: 34f74c2a889b3a659831897897e2086b277256e0
-ms.sourcegitcommit: c98d55a4a6e27239ae6b317872332f01cbe8b875
+ms.openlocfilehash: e1c1c274054ed1c14c9b3fc0595baa029bf3124d
+ms.sourcegitcommit: 203c8bc263f4ab238cc7534d4dd902fd996d2b0f
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/02/2022
-ms.locfileid: "9219768"
+ms.lasthandoff: 08/23/2022
+ms.locfileid: "9336355"
 ---
 # <a name="gs1-bar-codes"></a>Códigos de barras de GS1
 
@@ -108,7 +108,7 @@ Depois que os dados tiverem sido analisados do código de barras, eles serão in
 
 ## <a name="turn-on-the-gs1-feature"></a>Ativar o recurso GS1
 
-Antes de poder usar esse recurso, você deve habilitá-lo no seu sistema. Os administradores podem usar as configurações de [gerenciamento de recursos](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) para verificar o status do recurso e ativá-lo. No espaço de trabalho **Gerenciamento de recursos**, o recurso está listado da seguinte forma:
+Para poder usar esse recurso, você deve habilitá-lo para o seu sistema. Os administradores podem usar as configurações de [gerenciamento de recursos](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) para verificar o status do recurso e ativá-lo. No espaço de trabalho **Gerenciamento de recursos**, o recurso está listado da seguinte forma:
 
 - **Módulo:** *Gerenciamento de depósito*
 - **Nome do recurso:** *Verificar códigos de barras de GS1*
@@ -134,7 +134,7 @@ Para configurar as opções de GS1 globais, siga estas etapas.
 
     - **Caractere de FNC1**, **Caractere DataMatrix** e **Caractere de código QR**: especifique caracteres que devem ser interpretados como um prefixo para cada tipo de GS1 código de barras.
     - **Separador de grupo**: especifique o caractere que substitui o caractere separador de grupo ASCII.
-    - **Tamanho máximo do identificador** – especifique o número máximo de caracteres permitido para o identificador do aplicativo. Este campo não será obrigatório se o recurso *Analisador aprimorado de GS1* estiver ativado no sistema.
+    - **Tamanho máximo do identificador** – especifique o número máximo de caracteres permitido para o identificador do aplicativo. Este campo não será obrigatório se o recurso *Analisador aprimorado de GS1* estiver ativado para seu sistema.
 
 > [!NOTE]
 > Os prefixos informam ao sistema que um código de barras é codificado, de acordo com o padrão GS1. Até três prefixos (**caractere de FNC1**, **caractere de Datamatrix** e **caractere de código QR**) podem ser usados simultaneamente e para vários fins.
