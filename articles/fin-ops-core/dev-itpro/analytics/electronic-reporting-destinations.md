@@ -2,7 +2,7 @@
 title: Destinos de Relatório eletrônico (ER)
 description: Este artigo fornece informações sobre o gerenciamento de destinos de relatório eletrônico, os tipos de destinos com suporte e considerações de segurança.
 author: kfend
-ms.date: 05/18/2022
+ms.date: 08/28/2022
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -15,12 +15,12 @@ ms.dyn365.ops.version: AX 7.0.1
 ms.custom: 97423
 ms.assetid: f3055a27-717a-4c94-a912-f269a1288be6
 ms.search.form: DocuType, ERSolutionTable
-ms.openlocfilehash: 1718b9e32c1e9f34d38479b74d59af6233f82a8c
-ms.sourcegitcommit: 87e727005399c82cbb6509f5ce9fb33d18928d30
+ms.openlocfilehash: b1bf6289e80769dfe8858f307cbb9b217b42dbb4
+ms.sourcegitcommit: f2edc193003564c5bee1747f9c2b800feee342bd
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/12/2022
-ms.locfileid: "9281957"
+ms.lasthandoff: 08/29/2022
+ms.locfileid: "9360970"
 ---
 # <a name="electronic-reporting-er-destinations"></a>Destinos de Relatório eletrônico (ER)
 
@@ -247,6 +247,52 @@ Na Guia Rápida **Geral**, no campo **Enviar pasta como**, selecione um dos segu
 ### <a name="limitations"></a>Limitações
 
 Se você definir o campo **Enviar pasta como** para **Separar arquivos** para um componente de **Pasta** que contém outros componentes de **Pasta** aninhada, a configuração não será aplicada recursivamente aos componentes de **Pasta** aninhados.
+
+## <a name="change-page-layout-properties-of-a-template"></a><a name="change-page-layout-properties-of-a-template"></a> Alterar propriedades de layout de página de um modelo
+
+Você pode configurar um destino de ER para um componente de formato de ER que foi criado para usar um modelo em um formato do Microsoft Office (Excel ou Word) para geração de relatórios. Se você não for o proprietário deste formato e precisar alterar as propriedades de layout de página do modelo do formato, em versões do Finance, antes da versão 10.0.29, será necessário criar um formato derivado e modificar as propriedades do modelo. Em seguida, você terá que manter a configuração de formato derivado. No entanto, na versão 10.0.29 e posterior, você pode alterar as propriedades de layout de página do modelo no runtime para evitar criar e manter a configuração de formato derivado. Para isso, configure as propriedades desejadas como parte das configurações do destino de ER configurado. Quando você executa um formato de ER e um destino de ER configurado para usar determinadas propriedades de layout de página, os valores das propriedades de layout de página do destino executado são aplicados ao modelo que você está usando, substituindo as propriedades do modelo original. É possível configurar destinos diferentes para o mesmo componente do formato, configurando diferentes propriedades de layout de página para o modelo em uso.
+
+As seguintes propriedades podem ser configuradas em um destino de ER para um componente de formato projetado para usar um modelo no formato Excel ou Word:
+
+- Orientação da página
+    - Retrato
+    - Paisagem
+- Tamanho do papel
+    - A3
+    - A4
+    - A5
+    - B4
+    - B5
+    - Executivo
+    - Ofício
+    - Carta
+    - Instrução
+    - Tabloide
+- Margens da página
+    - Superior
+        - Cabeçalho
+    - Inferior
+        - Rodapé
+    - Esquerda
+    - Direita
+
+> [!NOTE]
+> A orientação de página do modelo que está configurada dessa maneira deve ser alinhada à [orientação de página para conversão em PDF](#select-a-page-orientation-for-pdf-conversion), se a conversão em PDF estiver configurada.
+
+Você deve selecionar a unidade de duração para definir margens de página:
+
+- Polegadas
+- Centímetros
+- Milímetros
+
+![Configure as propriedades de layout de página na página destino do Relatório eletrônico.](./media/er_destinations-set-page-layout-properties.png)
+
+> [!TIP]
+> Quando um valor de margem é indicado em centímetros e especificado com vários decimais, ele é arredondado no runtime para o valor mais próximo com um ponto decimal.
+>
+> Quando um valor de margem é indicado em milímetros e especificado com vários decimais, ele é arredondado no runtime para Excel para o valor inteiro, sem ponto decimal.
+>
+> Quando um valor de margem é indicado em milímetros e especificado com vários decimais, ele é arredondado no runtime para Word para o valor inteiro com um ponto decimal.
 
 ## <a name="security-considerations"></a>Considerações de segurança
 

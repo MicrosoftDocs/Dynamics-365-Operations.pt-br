@@ -2,7 +2,7 @@
 title: Visão geral de trabalhos de importação e exportação de dados
 description: Use o espaço de trabalho de gerenciamento de dados para criar e gerenciar trabalhos de importação e de exportação de dados.
 author: peakerbl
-ms.date: 04/25/2022
+ms.date: 08/26/2022
 ms.topic: overview
 ms.prod: ''
 ms.technology: ''
@@ -12,12 +12,12 @@ ms.search.region: Global
 ms.author: peakerbl
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 18a15928eef4d7158f778729506d691dd587e013
-ms.sourcegitcommit: 3289478a05040910f356baf1995ce0523d347368
+ms.openlocfilehash: a03f8fd0fa05a1400c69a2da8867dee135ad06a1
+ms.sourcegitcommit: 7bcaf00a3ae7e7794d55356085e46f65a6109176
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 07/01/2022
-ms.locfileid: "9109452"
+ms.lasthandoff: 08/26/2022
+ms.locfileid: "9357582"
 ---
 # <a name="data-import-and-export-jobs-overview"></a>Visão geral de trabalhos de importação e exportação de dados
 
@@ -76,6 +76,19 @@ Quando você seleciona uma entidade, é necessário selecionar o formato de dado
 
 > [!NOTE]
 > Para formatos de arquivo baseados em XML, certifique-se de usar apenas caracteres válidos. Para obter mais detalhes sobre caracteres válidos, consulte [Caracteres válidos no XML 1.0](https://www.w3.org/TR/2006/REC-xml-20060816/Overview.html#charsets/). O XML 1.0 não permite nenhum caractere de controle, exceto tabulações, retornos de carro e feeds de linha. Exemplos de caracteres inválidos são colchetes, chaves e barras invertidas. 
+
+Use Unicode, em vez de uma página de código específica, para importar ou exportar dados. Isso ajudará a fornecer os resultados mais consistentes e eliminará a falha dos trabalhos de gerenciamento de dados porque eles incluem caracteres Unicode. Os formatos de dados de origem definidos pelo sistema que usam Unicode têm todos os **Unicode** no nome de origem. O formato Unicode é aplicado selecionando uma página de código ANSI de codificação Unicode como **página de Código** na guia **Configurações regionais**. Selecione uma das seguintes páginas de código para Unicode:
+
+| Página de código | Nome para exibição                |
+|-----------|-----------------------------|
+| 1200      | Unicode                     |
+| 12000     | Unicode (UTF-32)            |
+| 12001     | Unicode (UTF-32 big-endian) |
+| 1201      | Unicode (Big-Endian)        |
+| 65000     | Unicode (UTF-7)             |
+| 65001     | Unicode (UTF-8)             |
+
+Para obter mais detalhes sobre páginas de Código, consulte [Identificadores de Página de Código](/windows/win32/intl/code-page-identifiers/).
 
 ### <a name="sequence-the-entities"></a>Definir sequências das entidades
 As entidades podem ser sequenciadas em um modelo de dados, ou em trabalhos de importação e exportação. Quando você executa um trabalho que contém mais de uma entidade de dados, você deve garantir que as entidades de dados estão sequenciadas corretamente. Você define a sequência, de forma que possa tratar todas as dependências funcionais entre entidades. Se as entidades se não tiverem dependências funcionais, elas podem ser programadas para importação ou exportação paralela. 

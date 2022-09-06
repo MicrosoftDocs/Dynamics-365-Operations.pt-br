@@ -2,7 +2,7 @@
 title: Atalhos de teclado
 description: Este artigo fornece uma visão geral das combinações de teclas de atalho que você pode usar ao trabalhar com aplicativos de finanças e operações.
 author: jasongre
-ms.date: 07/12/2022
+ms.date: 08/26/2022
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: jasongre
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 67e1904807dfe5122de3d3ead97c2e2c11ed213d
-ms.sourcegitcommit: bd2d6a86a7fd4b4f6f86656998f7a8844f949e42
+ms.openlocfilehash: 04abaeada458e05df3de045d9c7a715040b7bfa4
+ms.sourcegitcommit: 7bcaf00a3ae7e7794d55356085e46f65a6109176
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 07/12/2022
-ms.locfileid: "9140429"
+ms.lasthandoff: 08/26/2022
+ms.locfileid: "9357568"
 ---
 # <a name="keyboard-shortcuts"></a>Atalhos de teclado
 
@@ -135,10 +135,10 @@ Os usuários poderão descobrir atalhos disponíveis atualmente diretamente da i
 | Rolagem horizontal                                                                                                   | Shift + Roda do mouse             |
 | Mover para a coluna anterior/próxima                                                                                       | Tab / Shift+Tab                 |
 | Mover para a linha anterior/próxima                                                                                          | Seta para Cima/Seta para Baixo           |
-| Mover para a linha anterior/próxima sem selecionar<blockquote>[!NOTE] Este atalho aplica-se somente a cenários de seleção múltipla.</blockquote> | Ctrl+Seta para cima/ Ctrl+Seta para baixo |
-| Selecionar/remover a linha atual<blockquote>[!NOTE] Este atalho aplica-se somente a cenários de seleção múltipla.</blockquote>                    | Ctrl+Espaço/Ctrl+Clique         |
-| Adicionar a linha anterior/próxima ao conjunto selecionado<blockquote>[!NOTE] Este atalho aplica-se somente a cenários de seleção múltipla.</blockquote>   | Shift+Espaço                     |
-| Adicionar um intervalo de linhas ao conjunto selecionado<blockquote>[!NOTE] Este atalho aplica-se somente a cenários de seleção múltipla.</blockquote>         | Shift+Clique                     |
+| Mover para a linha anterior/próxima sem selecionar<br><br>**Observação:** este atalho aplica-se somente a cenários de seleção múltipla. | Ctrl+Seta para cima/ Ctrl+Seta para baixo |
+| Selecionar/remover a linha atual<br><br>**Observação:** este atalho aplica-se somente a cenários de seleção múltipla.                   | Ctrl+Espaço/Ctrl+Clique         |
+| Adicionar a linha anterior/próxima ao conjunto selecionado<br><br>**Observação:** este atalho aplica-se somente a cenários de seleção múltipla.  | Shift+Espaço                     |
+| Adicionar um intervalo de linhas ao conjunto selecionado<br><br>**Observação:** este atalho aplica-se somente a cenários de seleção múltipla.         | Shift+Clique                     |
 | Ir para a página anterior/próxima de dados                                                                                   | Page Up / Page Down             |
 | Criar uma nova linha na parte inferior da grade                                                                             | Seta para baixo (a partir da última linha)  |
 | Mover para o primeiro registro                                                                                               | Ctrl+Home                       |
@@ -148,7 +148,7 @@ Os usuários poderão descobrir atalhos disponíveis atualmente diretamente da i
 | Mover para a próxima linha marcada                                                                                            | Alt+Shift+M, L                  |
 | Mover para a linha anterior marcada                                                                                        | Alt+Shift+M, P                  |
 | Mover para a última linha marcada                                                                                           | Alt+Shift+M, N                  |
-| Executar a ação padrão em uma grade<blockquote>[!NOTE] Este atalho será habilitado quando o foco estiver em uma célula que contenha um hiperlink e todas as células nessa coluna tiverem hiperlinks.</blockquote> | Inserir                           |
+| Executar a ação padrão em uma grade<br><br>**Observação:** este atalho será habilitado quando o foco estiver em uma célula que contenha um hiperlink e todas as células nessa coluna tiverem hiperlinks. | Inserir                           |
 | Alterna o foco entre a linha selecionada e a linha do cabeçalho                                                               | Alt+Shift+H                     |
 | Torna a coluna atual maior/menor (com foco na linha do cabeçalho)                                                  | Seta para a direita/Seta para esquerda        |
 | Mover a coluna atual para a posição anterior/próxima posição (com foco na linha de cabeçalho)                                   | Ctrl+Shift+Seta para a direita/Ctrl+Shift+Seta para a esquerda |

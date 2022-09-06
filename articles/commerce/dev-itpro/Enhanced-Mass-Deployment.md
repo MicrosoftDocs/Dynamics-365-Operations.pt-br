@@ -2,19 +2,19 @@
 title: Implantação em massa dos componentes de autoatendimento do Commerce lacrados
 description: Este artigo explica como usar a estrutura para instaladores de componentes de autoatendimento para instalar e fazer implantações silenciosas de serviço.
 author: jashanno
-ms.date: 05/11/2022
+ms.date: 08/31/2022
 ms.topic: article
 audience: Application User, Developer, IT Pro
 ms.reviewer: sericks
 ms.search.region: Global
 ms.author: jashanno
 ms.search.validFrom: 2021-04-30
-ms.openlocfilehash: a679d78db3ad5bd9cccbd4ab6a7026bd07890f55
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: 66a711aff90221e594f4b2a0df3735eac93d0c9b
+ms.sourcegitcommit: 09d4805aea6d148de47c8ca38d8244bbce9786ce
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8898570"
+ms.lasthandoff: 08/31/2022
+ms.locfileid: "9387010"
 ---
 # <a name="mass-deployment-of-sealed-commerce-self-service-components"></a>Implantação em massa dos componentes de autoatendimento do Commerce lacrados
 
@@ -34,53 +34,53 @@ A tabela a seguir mostra os delimitadores que podem ser usados na execução da 
 
 | Delimitador                 | Descrição |
 |---------------------------|-------------|
-| --AadTokenIssuerPrefix | O prefixo para o emissor de tokens da Microsoft Azure Active Directory (Azure AD). |
-| --AsyncClientAadClientId | O ID do cliente Azure AD que o Cliente Async deve usar durante as comunicações com o headquarters. |
-| --AsyncClientAppInsightsInstrumentationKey | Chave de instrumentação do Async Client AppInsights. |
-| --AsyncClientCertFullPath | O caminho URN totalmente formatado que usa a impressão digital como a métrica de pesquisa do local de certificado do Async Client Identity que deve ser usado para autenticar com o Azure AD para comunicações com o headquarters. Por exemplo, `store://My/LocalMachine?FindByThumbprint=<MyThumbprint>` é um URN de formato correto. O valor **\<MyThumbprint\>** será substituído pela impressão digital do certificado que deve ser usada. Não use este parâmetro junto com o parâmetro **-AsyncClientCertThumbprint**. |
-| --AsyncClientCertThumbprint | A impressão digital do certificado do Async Client Identity que deve ser usado para autenticar com Azure AD para comunicações com o headquarters. Essa impressão digital será usada para pesquisar na localização e nome da **LocalMachine/My store** para encontrar o certificado correto a ser usado. Não use este parâmetro junto com o parâmetro **-AsyncClientCertFullPath**. |
-| --ClientAppInsightsInstrumentationKey | Chave de instrumentação do Client AppInsights. |
-| --CloudPosAppInsightsInstrumentationKey | Chave de instrumentação do Cloud POS AppInsights. |
-| --Config | O arquivo de configuração que deve ser usado durante a instalação. Um exemplo de nome de arquivo é **Contoso.CommerceScaleUnit.xml**. |
-| --CposAadClientId | O ID do cliente Azure AD que o Cloud POS deve usar durante a ativação do dispositivo. Este parâmetro não é necessário para implantações no local. |
-| --Device | O ID do dispositivo, como mostrado na página **Dispositivos** no headquarters. |
-| --EnvironmentId | ID do ambiente. |
-| --HardwareStationAppInsightsInstrumentationKey | Chave de instrumentação AppInsights da estação do hardware. |
-| --Install | Um parâmetro que especifica se o componente que este instalador fornece deve ser instalado. Este parâmetro não é obrigatório. |
-| --InstallOffline | Para Modern POS, este parâmetro especifica que o banco de dados offline também deve ser instalado e configurado. Use o parâmetro **-SQLServerName** também. Caso contrário, o instalador tentará encontrar uma instância padrão que atenda aos pré-requisitos. |
-| --Port | A porta que deve ser associada e usada pelo diretório virtual do Retail Server. Se nenhuma porta for definida, a porta padrão, 443, será utilizada. |
-| --Register | O ID do registro, como mostrado na página **Registros** no headquarters. |
-| --RetailServerAadClientId | O ID do cliente Azure AD que o Retail Server deve usar durante as comunicações com o headquarters. |
-| --RetailServerAadResourceId | O ID de recurso do aplicativo Retail Server Azure AD que deve ser usado durante a ativação do dispositivo. Este parâmetro não é necessário para implantações no local. |
-| --RetailServerCertFullPath | O caminho URN totalmente formatado que usa a impressão digital como a métrica de pesquisa do local de certificado do Retail Server Identity que deve ser usado para autenticar com o Azure AD para comunicações com o headquarters. Por exemplo, `store://My/LocalMachine?FindByThumbprint=<MyThumbprint>` é um URN de formato correto onde o valor **\<MyThumbprint\>** será substituído pela impressão digital do certificado que deve ser usada. Não use este parâmetro junto com o parâmetro **-RetailServerCertThumbprint**. |
-| --RetailServerCertThumbprint | A impressão digital do certificado do Retail Server Identity que deve ser usado para autenticar com Azure AD para comunicações com o headquarters. Essa impressão digital será usada para pesquisar na localização e nome da **LocalMachine/My store** para encontrar o certificado correto a ser usado. Não use este parâmetro junto com o parâmetro **-RetailServerCertFullPath**. |
-| --RetailServerURL | A URL do Retail Server que o instalador deve usar. (Esta URL também é conhecida como URL do \[CSU\] (Commerce Scale Unit).) Para o Modern POS, esse valor será usado durante a ativação do dispositivo. |
-| --SkipAadCredentialsCheck| Uma opção que indica se as verificações de pré-requisitos de credencial do Azure AD devem ser ignoradas. O valor padrão é **false**. |
-| --SkipCertCheck | Uma opção que indica se as verificações de pré-requisitos de certificado devem ser ignoradas. O valor padrão é **false**. |
-| --SkipIisCheck | Uma opção que indica se as verificações de pré-requisitos de Serviços de Informações da Internet (IIS) devem ser ignoradas. O valor padrão é **false**. |
-| --SkipNetFrameworkCheck | Uma opção que indica se as verificações de pré-requisitos do .NET Framework devem ser ignoradas. O valor padrão é **false**. |
-| --SkipScaleUnitHealthcheck | Uma opção que indica se a verificação de integridade nos componentes instalados deve ser ignorada. O valor padrão é **false**. |
-| --SkipSChannelCheck | Uma opção que indica se as verificações de pré-requisitos do canal seguro devem ser ignoradas. O valor padrão é **false**. |
-| --SkipSqlFullTextCheck | Uma opção que indica se a validação do pré-requisito do SQL Server que requer a Pesquisa de Texto Completo deve ser ignorada. O valor padrão é **false**. |
-| --SkipSqlServerCheck | Uma opção que indica se as verificações de pré-requisitos de SQL Server devem ser ignoradas. O valor padrão é **false**. |
-| --SqlServerName | Nome do SQL Server. Se o nome não for especificado, o instalador tentará encontrar a instância padrão. |
-| --SslcertFullPath | O caminho do URN totalmente formatado que usa a impressão digital como a métrica de pesquisa do local do certificado que deve ser usado para criptografar o tráfego HTTP para a unidade de escala. Por exemplo, `store:\/\/My\/LocalMachine\?FindByThumbprint\=\<MyThumbprint\>` é um URN de formato correto onde o valor **\<MyThumbprint\>** será substituído pela impressão digital do certificado que deve ser usada. Não use este parâmetro junto com o parâmetro **-SslCertThumbprint**. |
-| --SslCertThumbprint | A impressão digital do certificado que deve ser usado para criptografar o tráfego HTTP para a unidade de escala. Essa impressão digital será usada para pesquisar na localização e nome da **LocalMachine/My store** para encontrar o certificado correto a ser usado. Não use este parâmetro junto com o parâmetro **-SslCertFullPath**. |
-| --StoreSystemAosUrl | URL (Microsoft Dynamics AX Application Object Server (AOS)) do headquarters. |
-| --StoreSystemChannelDatabaseId | ID do banco de dados de canal (nome). |
-| --TenantId | ID de locatário do Azure AD. |
-| --TransactionServiceAzureAuthority | Autoridade do Transaction Service Azure AD. |
-| --TransactionServiceAzureResource | Recurso do Transaction Service Azure AD. |
-| --TrustSqlServerCertificate | Uma opção que indica se o certificado de servidor deve ser confiável enquanto uma conexão com o SQL Server está sendo estabelecida. Para ajudar a evitar riscos de segurança, as implantações de produção nunca devem fornecer um valor **verdadeiro** aqui. O valor padrão é **false**. |
-| --Verbosity | Nível de registro solicitado durante a instalação. Normalmente, esse valor não deve ser usado. |
-| --WindowsPhoneAppInsightsInstrumentationKey | Chave de instrumentação AppInsights da estação do hardware. |
+| -AadTokenIssuerPrefix | O prefixo para o emissor de tokens da Microsoft Azure Active Directory (Azure AD). |
+| -AsyncClientAadClientId | O ID do cliente Azure AD que o Cliente Async deve usar durante as comunicações com o headquarters. |
+| -AsyncClientAppInsightsInstrumentationKey | Chave de instrumentação do Async Client AppInsights. |
+| -AsyncClientCertFullPath | O caminho URN totalmente formatado que usa a impressão digital como a métrica de pesquisa do local de certificado do Async Client Identity que deve ser usado para autenticar com o Azure AD para comunicações com o headquarters. Por exemplo, `store://My/LocalMachine?FindByThumbprint=<MyThumbprint>` é um URN de formato correto. O valor **\<MyThumbprint\>** será substituído pela impressão digital do certificado que deve ser usada. Não use este parâmetro junto com o parâmetro **-AsyncClientCertThumbprint**. |
+| -AsyncClientCertThumbprint | A impressão digital do certificado do Async Client Identity que deve ser usado para autenticar com Azure AD para comunicações com o headquarters. Essa impressão digital será usada para pesquisar na localização e nome da **LocalMachine/My store** para encontrar o certificado correto a ser usado. Não use este parâmetro junto com o parâmetro **-AsyncClientCertFullPath**. |
+| -ClientAppInsightsInstrumentationKey | Chave de instrumentação do Client AppInsights. |
+| -CloudPosAppInsightsInstrumentationKey | Chave de instrumentação do Cloud POS AppInsights. |
+| -Config | O arquivo de configuração que deve ser usado durante a instalação. Um exemplo de nome de arquivo é **Contoso.CommerceScaleUnit.xml**. |
+| -CposAadClientId | O ID do cliente Azure AD que o Cloud POS deve usar durante a ativação do dispositivo. Este parâmetro não é necessário para implantações no local. |
+| -Device | O ID do dispositivo, como mostrado na página **Dispositivos** no headquarters. |
+| -EnvironmentId | ID do ambiente. |
+| -HardwareStationAppInsightsInstrumentationKey | Chave de instrumentação AppInsights da estação do hardware. |
+| Instalar | Um parâmetro que especifica se o componente que este instalador fornece deve ser instalado. Esse parâmetro é necessário para executar uma instalação e não tem um caractere de traço à esquerda. |
+| -InstallOffline | Para Modern POS, este parâmetro especifica que o banco de dados offline também deve ser instalado e configurado. Use o parâmetro **-SQLServerName** também. Caso contrário, o instalador tentará encontrar uma instância padrão que atenda aos pré-requisitos. |
+| -Port | A porta que deve ser associada e usada pelo diretório virtual do Retail Server. Se nenhuma porta for definida, a porta padrão, 443, será utilizada. |
+| -Register | O ID do registro, como mostrado na página **Registros** no headquarters. |
+| -RetailServerAadClientId | O ID do cliente Azure AD que o Retail Server deve usar durante as comunicações com o headquarters. |
+| -RetailServerAadResourceId | O ID de recurso do aplicativo Retail Server Azure AD que deve ser usado durante a ativação do dispositivo. Este parâmetro não é necessário para implantações no local. |
+| -RetailServerCertFullPath | O caminho URN totalmente formatado que usa a impressão digital como a métrica de pesquisa do local de certificado do Retail Server Identity que deve ser usado para autenticar com o Azure AD para comunicações com o headquarters. Por exemplo, `store://My/LocalMachine?FindByThumbprint=<MyThumbprint>` é um URN de formato correto onde o valor **\<MyThumbprint\>** será substituído pela impressão digital do certificado que deve ser usada. Não use este parâmetro junto com o parâmetro **-RetailServerCertThumbprint**. |
+| -RetailServerCertThumbprint | A impressão digital do certificado do Retail Server Identity que deve ser usado para autenticar com Azure AD para comunicações com o headquarters. Essa impressão digital será usada para pesquisar na localização e nome da **LocalMachine/My store** para encontrar o certificado correto a ser usado. Não use este parâmetro junto com o parâmetro **-RetailServerCertFullPath**. |
+| -RetailServerURL | A URL do Retail Server que o instalador deve usar. (Esta URL também é conhecida como URL do \[CSU\] (Commerce Scale Unit).) Para o Modern POS, esse valor será usado durante a ativação do dispositivo. |
+| -SkipAadCredentialsCheck| Uma opção que indica se as verificações de pré-requisitos de credencial do Azure AD devem ser ignoradas. O valor padrão é **false**. |
+| -SkipCertCheck | Uma opção que indica se as verificações de pré-requisitos de certificado devem ser ignoradas. O valor padrão é **false**. |
+| -SkipIisCheck | Uma opção que indica se as verificações de pré-requisitos de Serviços de Informações da Internet (IIS) devem ser ignoradas. O valor padrão é **false**. |
+| -SkipNetFrameworkCheck | Uma opção que indica se as verificações de pré-requisitos do .NET Framework devem ser ignoradas. O valor padrão é **false**. |
+| -SkipScaleUnitHealthcheck | Uma opção que indica se a verificação de integridade nos componentes instalados deve ser ignorada. O valor padrão é **false**. |
+| -SkipSChannelCheck | Uma opção que indica se as verificações de pré-requisitos do canal seguro devem ser ignoradas. O valor padrão é **false**. |
+| -SkipSqlFullTextCheck | Uma opção que indica se a validação do pré-requisito do SQL Server que requer a Pesquisa de Texto Completo deve ser ignorada. O valor padrão é **false**. |
+| -SkipSqlServerCheck | Uma opção que indica se as verificações de pré-requisitos de SQL Server devem ser ignoradas. O valor padrão é **false**. |
+| -SqlServerName | Nome do SQL Server. Se o nome não for especificado, o instalador tentará encontrar a instância padrão. |
+| -SslcertFullPath | O caminho do URN totalmente formatado que usa a impressão digital como a métrica de pesquisa do local do certificado que deve ser usado para criptografar o tráfego HTTP para a unidade de escala. Por exemplo, `store:\/\/My\/LocalMachine\?FindByThumbprint\=\<MyThumbprint\>` é um URN de formato correto onde o valor **\<MyThumbprint\>** será substituído pela impressão digital do certificado que deve ser usada. Não use este parâmetro junto com o parâmetro **-SslCertThumbprint**. |
+| -SslCertThumbprint | A impressão digital do certificado que deve ser usado para criptografar o tráfego HTTP para a unidade de escala. Essa impressão digital será usada para pesquisar na localização e nome da **LocalMachine/My store** para encontrar o certificado correto a ser usado. Não use este parâmetro junto com o parâmetro **-SslCertFullPath**. |
+| -StoreSystemAosUrl | URL (Microsoft Dynamics AX Application Object Server (AOS)) do headquarters. |
+| -StoreSystemChannelDatabaseId | ID do banco de dados de canal (nome). |
+| -TenantId | ID de locatário do Azure AD. |
+| -TransactionServiceAzureAuthority | Autoridade do Transaction Service Azure AD. |
+| -TransactionServiceAzureResource | Recurso do Transaction Service Azure AD. |
+| -TrustSqlServerCertificate | Uma opção que indica se o certificado de servidor deve ser confiável enquanto uma conexão com o SQL Server está sendo estabelecida. Para ajudar a evitar riscos de segurança, as implantações de produção nunca devem fornecer um valor **verdadeiro** aqui. O valor padrão é **false**. |
+| -Verbosity | Nível de registro solicitado durante a instalação. Normalmente, esse valor não deve ser usado. |
+| -WindowsPhoneAppInsightsInstrumentationKey | Chave de instrumentação AppInsights da estação do hardware. |
 
 ## <a name="general-overview"></a>Visão geral
 
 A nova estrutura para instaladores de autoatendimento tem vários recursos e melhorias. A nova estrutura atualmente gera instaladores apenas para Modern POS, estação de hardware e CSU (auto-hospedado). É importante entender o uso básico da linha de comando dos instaladores lacrados, que devem ser semelhantes aos utilizados no exemplo a seguir. 
  
 ```Console
-<Component Installer Name>.exe install --<Parameter Name> "<Parameter Information>"
+<Component Installer Name>.exe install -<Parameter Name> "<Parameter Information>"
 ```
 
 O instalador requer a **instalação** do parâmetro (ou **desinstalação** para remover a instalação) e quaisquer parâmetros específicos dessa instalação. O **Nome do Parâmetro** deve incluir quaisquer parâmetros necessários, como informações de registro, URL do CSU ou certificado. As **Informações do Parâmetro** devem incluir qualquer informação adicional sobre os parâmetros.
@@ -110,6 +110,9 @@ A migração dos antigos instaladores de componentes de estrutura de autoatendim
 
 É fundamental que você remova o antigo componente Modern POS de autoatendimento. Para obter mais informações, consulte as etapas de migração anteriormente neste artigo.
 
+> [!NOTE]
+> Em um sistema de computador único, como uma topologia de desenvolvedor ou um ambiente de demonstração, ou quando a Commerce Scale Unit e o PDV moderno são instalados no mesmo computador, é possível que o Store Commerce não consiga concluir a ativação do dispositivo. Esse problema ocorre porque o Store Commerce não pode fazer chamadas de rede para o mesmo computador (ou seja, chamadas para si mesmo). Embora isso nunca deva ser um cenário em uma configuração de produção, a saída pode ser minimizada ao habilitar uma exceção de loopback de AppContainer para que as comunicações possam ocorrer no mesmo computador. Vários aplicativos estão disponíveis publicamente para ajudar a habilitar esse loopback. Para obter mais informações sobre loopback, consulte [Como habilitar loopback e solucionar problemas de isolamento de rede](/previous-versions/windows/apps/hh780593(v=win.10)). É importante compreender que um loopback pode ser um risco de segurança, portanto, não é recomendável usar um loopback, a menos que seja absolutamente necessário.
+
 ### <a name="examples-of-silent-deployment"></a>Exemplos de implantação silenciosa
 
 Esta seção mostra exemplos de comandos que são usados para instalar o Modern POS.
@@ -121,7 +124,7 @@ O comando a seguir instala silenciosamente (ou atualiza) Modern POS. Possui a es
 O seguinte comando básico mostra as opções disponíveis se uma instalação for solicitada. É altamente recomendável que este comando seja usado no primeiro teste ou uso do instalador.
 
 ```Console
-CommerceModernPOS.exe --help install
+CommerceModernPOS.exe -help install
 ```
 
 > [!NOTE]
@@ -130,13 +133,13 @@ CommerceModernPOS.exe --help install
 O comando a seguir especifica todos os parâmetros que devem ser usados durante a ativação do dispositivo após a instalação do aplicativo Modern POS. Este exemplo usa o registro **Houston-3**, que é um valor comumente usado em dados de demonstração do Dynamics 365 Commerce.
 
 ```Console
-CommerceModernPOS.exe install --Register "Houston-3" --Device "Houston-3" --RetailServerURL "https://MyDynamics365CommerceURL.dynamics.com/Commerce"
+CommerceModernPOS.exe install -Register "Houston-3" -Device "Houston-3" -RetailServerURL "https://MyDynamics365CommerceURL.dynamics.com/Commerce"
 ```
 
 O comando a seguir especifica os parâmetros que devem ser usados para instalar e configurar o banco de dados offline. O SQL Server é especificado juntamente com o arquivo de configuração que deve ser utilizado.
 
 ```Console
-CommerceModernPOS.exe install --InstallOffline --SQLServerName "SQLExpress" --Config "ModernPOS.Houston-3.xml"
+CommerceModernPOS.exe install -InstallOffline -SQLServerName "SQLExpress" -Config "ModernPOS.Houston-3.xml"
 ```
 
 Você pode misturar e combinar esses conceitos para alcançar os resultados de instalação que você deseja.
@@ -148,7 +151,7 @@ Você pode misturar e combinar esses conceitos para alcançar os resultados de i
 É fundamental que você remova o antigo componente da estação de hardware de autoatendimento. Para obter mais informações, consulte as etapas de migração anteriormente neste artigo. Não existe mais uma Ferramenta de Informações de Contas do Comerciante. Em vez disso, as informações da conta do comerciante são instaladas quando um terminal de PDV é emparelhado com a estação de hardware. Ao testar esse instalador pela primeira vez, é altamente recomendável que você execute o seguinte comando:
 
 ```Console
-CommerceHardwareStation.exe --help install
+CommerceHardwareStation.exe -help install
 ```
 
 ### <a name="examples-of-silent-deployment"></a>Exemplos de implantação silenciosa
@@ -162,7 +165,7 @@ O comando a seguir instala silenciosamente (ou atualiza) a estação de hardware
 O seguinte comando básico executa o instalador de arquivos executável.
 
 ```Console
-HardwareStation.exe install --Port 443 --StoreSystemAOSURL "https://MyDynamics365CommerceURL.dynamics.com/" --StoreSystemChannelDatabaseID "Houston" --SSLCertThumbprint "MySSLCertificateThumbprintOftenHasNumbers"
+HardwareStation.exe install -Port 443 -StoreSystemAOSURL "https://MyDynamics365CommerceURL.dynamics.com/" -StoreSystemChannelDatabaseID "Houston" -SSLCertThumbprint "MySSLCertificateThumbprintOftenHasNumbers"
 ```
 
 > [!NOTE]
@@ -174,7 +177,7 @@ O comando a seguir especifica todos os parâmetros necessários para ignorar as 
 > Pular verificações não é recomendado sem testes minuciosos antes do tempo ou em situações de desenvolvimento.
 
 ```Console
-HardwareStation.exe install --SkipFirewallUpdate --SkipOPOSCheck --SkipVersionCheck --SkipURLCheck --Config "HardwareStation.Houston.xml"
+HardwareStation.exe install -SkipFirewallUpdate -SkipOPOSCheck -SkipVersionCheck -SkipURLCheck -Config "HardwareStation.Houston.xml"
 ```
 
 Como de praxe, é comum misturar e combinar esses conceitos para alcançar os resultados de instalação que você deseja.
@@ -184,7 +187,7 @@ Como de praxe, é comum misturar e combinar esses conceitos para alcançar os re
 Ao testar esse instalador pela primeira vez, é altamente recomendável que você execute o seguinte comando:
 
 ```Console
-CommerceStoreScaleUnitSetup.exe --help install
+CommerceStoreScaleUnitSetup.exe -help install
 ```
 
 ### <a name="before-you-begin"></a>Antes de começar
@@ -202,7 +205,7 @@ O comando a seguir instala silenciosamente (ou atualiza) CSU (auto-hospedado). P
 Em comparação com os outros instaladores de autoatendimento, o Commerce Scale Unit (CSU) é mais complexo e requer uma quantidade bastante grande de informações adicionais. O seguinte comando é o comando mínimo (com parâmetros) necessário para executar o instalador de arquivo executável quando nenhum arquivo de configuração estiver presente.
 
 ```Console
-CommerceScaleUnit.exe install --port 446 --SSLCertThumbprint "MySSLCertificateThumbprintOftenHasNumbers" --RetailServerCertFullPath "store://My/LocalMachine?FindByThumbprint=MyCertificateThumbprintUsedByRetailServer" --AsyncClientAADClientID "MyAAD-Client-IDFor-AsyncClient" --RetailServerAADClientID "MyAAD-Client-IDFor-RetailServer" --CPOSAADClientID "MyAAD-Client-IDFor-CloudPOS" --RetailServerAADResourceID "https://retailstorescaleunit.retailserver.com" --TrustSqlServerCertificate --Config "Contoso.StoreSystemSetup.xml"
+CommerceScaleUnit.exe install -port 446 -SSLCertThumbprint "MySSLCertificateThumbprintOftenHasNumbers" -RetailServerCertFullPath "store://My/LocalMachine?FindByThumbprint=MyCertificateThumbprintUsedByRetailServer" -AsyncClientAADClientID "MyAAD-Client-IDFor-AsyncClient" -RetailServerAADClientID "MyAAD-Client-IDFor-RetailServer" -CPOSAADClientID "MyAAD-Client-IDFor-CloudPOS" -RetailServerAADResourceID "https://retailstorescaleunit.retailserver.com" -TrustSqlServerCertificate -Config "Contoso.StoreSystemSetup.xml"
 ```
 
 > [!NOTE]
@@ -211,7 +214,7 @@ CommerceScaleUnit.exe install --port 446 --SSLCertThumbprint "MySSLCertificateTh
 O comando a seguir é um comando mais completo que executa o instalador de arquivos executável com alguns parâmetros alternativos.
 
 ```Console
-CommerceScaleUnit.exe install --Port 446 --SSLCertFullPath "store://My/LocalMachine?FindByThumbprint=MySSLCertificateThumbprintOftenHasNumbers" --AsyncClientCertFullPath "store://My/LocalMachine?FindByThumbprint=MySSLCertificateThumbprintOftenHasNumbers" --RetailServerCertFullPath "store://My/LocalMachine?FindByThumbprint=MyCertificateThumbprintUsedByRetailServer" --AsyncClientAADClientID "MyAAD-Client-IDFor-AsyncClient" --RetailServerAADClientID "MyAAD-Client-IDFor-RetailServer" --CPOSAADClientID "MyAAD-Client-IDFor-CloudPOS" --RetailServerAADResourceID "https://retailstorescaleunit.retailserver.com" --TrustSqlServerCertificate --Verbosity 0 --Config "Contoso.StoreSystemSetup.xml"
+CommerceScaleUnit.exe install -Port 446 -SSLCertFullPath "store://My/LocalMachine?FindByThumbprint=MySSLCertificateThumbprintOftenHasNumbers" -AsyncClientCertFullPath "store://My/LocalMachine?FindByThumbprint=MySSLCertificateThumbprintOftenHasNumbers" -RetailServerCertFullPath "store://My/LocalMachine?FindByThumbprint=MyCertificateThumbprintUsedByRetailServer" -AsyncClientAADClientID "MyAAD-Client-IDFor-AsyncClient" -RetailServerAADClientID "MyAAD-Client-IDFor-RetailServer" -CPOSAADClientID "MyAAD-Client-IDFor-CloudPOS" -RetailServerAADResourceID "https://retailstorescaleunit.retailserver.com" -TrustSqlServerCertificate -Verbosity 0 -Config "Contoso.StoreSystemSetup.xml"
 ```
 
 O comando a seguir especifica os parâmetros necessários para ignorar as verificações de pré-requisitos durante uma instalação padrão. 
@@ -221,7 +224,7 @@ O comando a seguir especifica os parâmetros necessários para ignorar as verifi
 
 
 ```Console
-CommerceScaleUnit.exe installer --skipscaleunithealthcheck --skipcertcheck --skipaadcredentialscheck --skipschannelcheck --skipiischeck --skipnetcorebundlecheck --skipsqlservercheck --skipnetframeworkcheck --skipversioncheck --skipurlcheck --Config "Contoso.StoreSystemSetup.xml" --SSLCertFullPath "store://My/LocalMachine?FindByThumbprint=MySSLCertificateThumbprintOftenHasNumbers" --AsyncClientCertFullPath "store://My/LocalMachine?FindByThumbprint=MySSLCertificateThumbprintOftenHasNumbers" --RetailServerCertFullPath "store://My/LocalMachine?FindByThumbprint=MyCertificateThumbprintUsedByRetailServer" --AsyncClientAADClientID "MyAAD-Client-IDFor-AsyncClient" --RetailServerAADClientID "MyAAD-Client-IDFor-RetailServer" --CPOSAADClientID "MyAAD-Client-IDFor-CloudPOS" --RetailServerAADResourceID "https://retailstorescaleunit.retailserver.com" --TrustSqlServerCertificate
+CommerceScaleUnit.exe installer -skipscaleunithealthcheck -skipcertcheck -skipaadcredentialscheck -skipschannelcheck -skipiischeck -skipnetcorebundlecheck -skipsqlservercheck -skipnetframeworkcheck -skipversioncheck -skipurlcheck -Config "Contoso.StoreSystemSetup.xml" -SSLCertFullPath "store://My/LocalMachine?FindByThumbprint=MySSLCertificateThumbprintOftenHasNumbers" -AsyncClientCertFullPath "store://My/LocalMachine?FindByThumbprint=MySSLCertificateThumbprintOftenHasNumbers" -RetailServerCertFullPath "store://My/LocalMachine?FindByThumbprint=MyCertificateThumbprintUsedByRetailServer" -AsyncClientAADClientID "MyAAD-Client-IDFor-AsyncClient" -RetailServerAADClientID "MyAAD-Client-IDFor-RetailServer" -CPOSAADClientID "MyAAD-Client-IDFor-CloudPOS" -RetailServerAADResourceID "https://retailstorescaleunit.retailserver.com" -TrustSqlServerCertificate
 ```
 
 Você pode misturar e combinar esses conceitos para alcançar os resultados de instalação que você deseja.
