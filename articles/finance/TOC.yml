@@ -12,6 +12,8 @@
               items:
                 - name: Novidades ou alterações na home page do Finance
                   href: get-started/whats-new-home-page.md
+                - name: Finance 10.0.30 (novembro)
+                  href: get-started/whats-new-changed-10-0-30.md
                 - name: Finance 10.0.29 (outubro)
                   href: get-started/whats-new-changed-10-0-29.md
                 - name: Finance 10.0.28 (agosto)
@@ -1136,11 +1138,13 @@
                       href: accounts-payable/accounting-distributions.md
                     - name: Transferência do razão auxiliar para a Contabilidade
                       href: general-ledger/subledger-transfer.md
-                    - name: Gerenciador de origens contábeis
+                    - name: Gerenciador de fontes contábeis
                       href: accounts-payable/accounting-source-explorer.md
+                    - name: Documentos com contabilidade pendente
+                      href: general-ledger/documents-pending-accounting.md
             - name: Relatórios e consultas
               items:
-                - name: Exibir entradas de diário e transações
+                - name: Exibir entradas e transações no diário
                   href: general-ledger/view-journal-entries-transactions.md
                 - name: Balancete com relatório de detalhes transacionais
                   href: public-sector/general-ledger-public-sector-trial-balance.md

@@ -3413,8 +3413,6 @@
                       href: warehousing/packing-work.md
                     - name: Configurar realocação de item de pouca seleção
                       href: warehousing/tasks/set-up-short-picking-item-reallocation.md
-                    - name: Cancelar trabalho de depósito para manuseio de exceção
-                      href: warehousing/cancel-warehouse-work.md
                     - name: Sequenciamento do trabalho direcionado pelo sistema
                       href: warehousing/system-directed-work-sequencing.md
                     - name: Agrupamento de linhas de separação
@@ -3431,6 +3429,10 @@
                       href: warehousing/put-to-wall-put-to-store.md
                     - name: Visualização da carga de trabalho de saída
                       href: warehousing/outbound-workload-visualization.md
+                    - name: Gerenciar manualmente exceções de separação de linha de venda e transferência
+                      href: warehousing/manual-order-line-picking-exception-handling.md
+                    - name: Cancelar trabalho de depósito para tratamento de exceções
+                      href: warehousing/cancel-warehouse-work.md
                 - name: Reabastecimento
                   items:
                     - name: Visão geral de reabastecimento

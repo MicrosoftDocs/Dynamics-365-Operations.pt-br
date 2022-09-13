@@ -12,6 +12,8 @@
               items:
                 - name: Novidades ou alterações na home page do Commerce
                   href: get-started/whats-new-home-page.md
+                - name: Commerce 10.0.30 (novembro de 2022)
+                  href: get-started/whats-new-commerce-10-0-30.md
                 - name: Commerce 10.0.29 (outubro de 2022)
                   href: get-started/whats-new-commerce-10-0-29.md
                 - name: Commerce 10.0.28 (julho de 2022)
@@ -702,18 +704,16 @@
                   href: optimal-combination-overlapping-discounts.md
                 - name: Definir descontos específicos do canal
                   href: define-channel-specific-discounts.md
-                - name: Opções para evitar descontos de produtos de varejo
-                  href: prevent-discounts.md
                 - name: Descontos com base no meio de pagamento
                   href: tender_based_discounts.md
                 - name: Desconto de remessa
                   href: shipping-discount.md
                 - name: Configurar presente com promoções de compra
                   href: gift-with-purchase.md
-                - name: Configurar cupons
-                  href: retail-coupons.md
-                - name: Mostrar descontos no PDV
-                  href: discounts-pos.md
+                - name: Cupons
+                  href: coupons.md
+                - name: Configurações de preço
+                  href: price-settings.md
                 - name: Relatórios de preços
                   href: price-report.md
                 - name: Criar contratos comerciais específicos por canal
@@ -800,6 +800,8 @@
                       href: calculated-inventory-retail-channels.md
                     - name: Operação de pesquisa de estoque no PDV
                       href: pos-inventory-lookup-operation.md
+                    - name: Listagem de produtos com reconhecimento de estoque
+                      href: inventory-aware-product-listing.md
                 - name: Ordens de compra
                   items:
                     - name: Visão geral de ordens de compra
