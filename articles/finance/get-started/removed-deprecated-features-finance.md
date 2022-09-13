@@ -12,12 +12,12 @@ ms.search.region: Global
 ms.author: kfend
 ms.search.validFrom: 2020-03-02
 ms.dyn365.ops.version: Platform update 33
-ms.openlocfilehash: 1b5282bc1fb4834d001cd2513664996a2f4cf4f0
-ms.sourcegitcommit: 0feb5d0b06e04f99903069ff2801577be86b8555
+ms.openlocfilehash: 83fa9d0a08d4d9ec171aeee685d39bba46e5687d
+ms.sourcegitcommit: 6fd44fc6e9a7bad197cab58c36ec25a555724cf1
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/18/2022
-ms.locfileid: "9313873"
+ms.lasthandoff: 09/07/2022
+ms.locfileid: "9410441"
 ---
 # <a name="removed-or-deprecated-features-in-dynamics-365-finance"></a>Recursos removidos ou preteridos no Dynamics 365 Finance
 
@@ -32,6 +32,20 @@ Esta lista é destinada a ajudá-lo a considerar essas remoções e reprovaçõe
 
 > [!NOTE]
 > Informações detalhadas sobre objetos em aplicativos de finanças e operações podem ser encontradas nos [Relatórios de referência técnica](/dynamics/s-e/global/axtechrefrep_61). Você pode comparar as diferentes versões desses relatórios para aprender sobre objetos que foram alterados ou removidos em cada versão de aplicativos de finanças e operações.
+
+## <a name="features-removed-or-deprecated-in-the-finance-10030-release"></a>Recursos removidos ou substituídos na versão 10.0.30 do Finance
+
+### <a name="revenue-recognition"></a>Reconhecimento de receita
+
+[Reconhecimento de receita](../../finance/accounts-receivable/revenue-recognition-overview.md)
+
+| &nbsp;  | &nbsp;  |
+|---|---|
+| **Motivo para a reprovação/remoção** |Substituído por uma funcionalidade aprimorada, [Cobrança de assinatura](../../finance/accounts-receivable/subscription-billing-summary.md)
+| **Substituída por outro recurso?**   | Sim |
+| **Áreas afetadas do produto** | Aplicativo |
+| **Opção de implantação** | Todos |
+| **Status** | Preterido: depois de abril de 2023, a funcionalidade Reconhecimento de receita no Dynamics 365 Finance não receberá mais suporte com correções de bugs. Será solicitado que os clientes usem a funcionalidade aprimorada, [Cobrança de assinatura](../../finance/accounts-receivable/subscription-billing-summary.md). Em outubro de 2023, o recurso Reconhecimento de receita não estará mais disponível. Será solicitado que os clientes migrem para a funcionalidade aprimorada Cobrança de assinatura.|
 
 ## <a name="features-removed-or-deprecated-in-the-finance-10029-release"></a>Recursos removidos ou substituídos na versão 10.0.29 do Finance
 

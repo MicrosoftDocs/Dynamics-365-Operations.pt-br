@@ -2,7 +2,7 @@
 title: Aplicar configurações de estoque
 description: Este artigo abrange as configurações de estoque e descreve como aplicá-las no Microsoft Dynamics 365 Commerce.
 author: anupamar-ms
-ms.date: 10/15/2021
+ms.date: 08/31/2022
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -15,12 +15,12 @@ ms.dyn365.ops.version: ''
 ms.custom: ''
 ms.assetid: ''
 ms.search.industry: ''
-ms.openlocfilehash: bc55715b7c74f3b572459dd1aa7d409b7175535b
-ms.sourcegitcommit: 87e727005399c82cbb6509f5ce9fb33d18928d30
+ms.openlocfilehash: 49310a44f8b9c636734e04d4eed9445384b55791
+ms.sourcegitcommit: 1d5cebea3e05b6d758cd01225ae7f566e05698d2
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/12/2022
-ms.locfileid: "9287583"
+ms.lasthandoff: 09/02/2022
+ms.locfileid: "9405311"
 ---
 # <a name="apply-inventory-settings"></a>Aplicar configurações de estoque
 
@@ -51,12 +51,12 @@ No Commerce, as configurações de estoque são definidas em **Configurações d
     > [!IMPORTANT] 
     > A configuração **Nível de estoque para vários depósitos** está disponível a partir do Commerce versão 10.0.19. Se estiver atualizando de uma versão mais antiga do Commerce, você deverá atualizar manualmente o arquivo appsettings.json. Para obter instruções, consulte [SDK e atualizações da biblioteca de módulos](e-commerce-extensibility/sdk-updates.md#update-the-appsettingsjson-file).
 
-- **Configurações de estoque para páginas de lista de produtos** – essa configuração define como os produtos fora de estoque são mostrados em listas de produtos renderizadas por coleção de produtos e módulos de resultados de pesquisa. Os valores disponíveis são **Exibidos em ordem com outros produtos**, **Ocultar produtos fora de estoque da lista** e **Exibir produtos fora de estoque no final da lista**. Para usar essa configuração, primeiro você precisa definir algumas configurações de pré-requisitos no Commerce headquarters. Para obter mais informações, consulte [Habilitar o reconhecimento de estoque para o módulo de resultados de pesquisa](search-result-module.md#enable-inventory-awareness-for-the-search-results-module).
+- **Configurações de estoque para páginas de lista de produtos** – essa configuração define como os produtos fora de estoque são mostrados em listas de produtos renderizadas por coleção de produtos e módulos de resultados de pesquisa. Os valores disponíveis são **Exibidos em ordem com outros produtos**, **Ocultar produtos fora de estoque da lista** e **Exibir produtos fora de estoque no final da lista**. Para usar essa configuração, primeiro você precisa definir algumas configurações de pré-requisitos no Commerce headquarters. Para obter mais informações, consulte [Lista de produtos com reconhecimento de estoque](inventory-aware-product-listing.md).
 
     > [!IMPORTANT] 
     > A configuração **Configurações de estoque para páginas de listagem de produtos** está disponível a partir do Commerce versão 10.0.20. Se estiver atualizando de uma versão mais antiga do Commerce, você deverá atualizar manualmente o arquivo appsettings.json. Para obter instruções, consulte [SDK e atualizações da biblioteca de módulos](e-commerce-extensibility/sdk-updates.md#update-the-appsettingsjson-file).
 
-- **Intervalos de estoque** – essa configuração define os intervalos de estoque em que a mensagem é mostrada nos módulos de site. Isso só se aplicará se o valor **Total Disponível** ou o valor **Físico Disponível** for selecionado para a configuração **Nível de estoque com base em**. Os valores disponíveis são **Todos**, **Baixo e esgotado** e **Esgotado**.
+- **Intervalos de estoque** – essa configuração define as mensagens do intervalo de estoque que são mostradas em módulos de site. Isso só se aplicará se o valor **Total Disponível** ou o valor **Físico Disponível** for selecionado para a configuração **Nível de estoque com base em**. Os valores disponíveis são **Todos**, **Baixo e esgotado** e **Esgotado**.
 
     - Quando **Tudo** estiver selecionado, as mensagens de todos os intervalos de estoque, de em estoque (mensagem "Disponível") a esgotado (mensagem "Esgotado"), serão mostradas.
     - Quando **Baixo e esgotado** estiver selecionado, as mensagens de todos os intervalos de estoque, exceto em estoque (mensagem "Disponível") serão mostradas.

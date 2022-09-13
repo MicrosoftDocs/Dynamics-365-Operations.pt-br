@@ -10,12 +10,12 @@ ms.search.region: Global
 ms.author: kamaybac
 ms.search.validFrom: 2022-05-27
 ms.dyn365.ops.version: 10.0.28
-ms.openlocfilehash: 5cca06517fbdcbdae6e54c106b113a83851240c8
-ms.sourcegitcommit: 203c8bc263f4ab238cc7534d4dd902fd996d2b0f
+ms.openlocfilehash: bbbd524020690b84fce34facaaa3047853fb2641
+ms.sourcegitcommit: 0220be95c007c77ba3b73fed8ac68a3d72dc2884
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/23/2022
-ms.locfileid: "9334765"
+ms.lasthandoff: 09/02/2022
+ms.locfileid: "9403649"
 ---
 # <a name="whats-new-or-changed-in-dynamics-365-supply-chain-management-10028-august-2022"></a>Novidades ou alterações no Dynamics 365 Supply Chain Management 10.0.28 (agosto de 2022)
 
@@ -50,7 +50,7 @@ Se quiser ativar ou desativar qualquer um desses recursos, você deverá fazer i
 | Gerenciamento de estoque e depósito | (Índia) Para regras de preço de transferência, ignore a localização quando "Código do depósito de origem" estiver definido como "Todos" | <p>Este recurso se aplica apenas às localizações da Índia. Isso torna mais intuitivo o processo de configuração de preços de transferência para itens em transferências de estoque.</p><p>Você configura preços de transferência configurando cada item com regras de preços de transferência. Uma maneira de fazer essa configuração é incluir uma linha de regra em que o campo **Código do depósito de origem** esteja definido como *Tudo*. Essa configuração indica que o preço de transferência definido pela linha deve ser aplicado independentemente do depósito do qual o item é retirado. Quando esse recurso estiver ativado, as regras de preço de transferência em que o campo **Código do depósito de origem** estiver definido como *Tudo* ignorarão a configuração **Localização**. Portanto, a regra será aplicada independentemente do local especificado no pedido de transferência. Esse comportamento é provavelmente o esperado, porque o local está abaixo do depósito na hierarquia da dimensão de armazenamento.</p><p>Sem esse recurso, o sistema aplicará regras desse tipo somente quando o local na ordem de transferência corresponder exatamente ao local definido para a regra. (Se um local em branco for definido para a regra, o sistema aplicará a regra apenas a pedidos de transferência que também tenham um valor em branco para o local.)</p> |
 | Gerenciamento de estoque e depósito | Limpeza de dados do relatório de estoque disponível | Esse recurso fornece uma maneira de limpar os dados que são usados para criar relatórios *Armazenamento de relatório de estoque disponível*. |
 | Controle de produção | Atribuir atividades de projeto a contratos de serviço e linhas de ordem de serviço | Esse recurso adiciona um campo denominado **Atividade do projeto** ao contrato de serviço e às linhas da ordem de serviço, para que você possa definir uma atividade do projeto para eles. O recurso ajudará a evitar erros de bloqueio ao lançar diários de projeto de gerenciamento de serviço que exigem que uma atividade de projeto seja definida.  |
-| Gerenciamento de depósito | Serviço de separação manual de linha de transferência para administradores ou usuários confiáveis semelhantes | Esse recurso permite que os administradores selecionem manualmente as transações de estoque relacionadas às linhas de transferência. Essas linhas incluem linhas que já foram liberadas para o depósito. Os administradores devem fazer essa seleção apenas em casos excepcionais, como quando o sistema está corrompido. |
+| Gerenciamento de depósito | Serviço de separação manual de linha de transferência para administradores ou usuários confiáveis semelhantes | Esse recurso permite que os administradores selecionem manualmente as transações de estoque relacionadas às linhas de transferência. Essas linhas incluem linhas que já foram liberadas para o depósito. Os administradores devem fazer essa seleção apenas em casos excepcionais, como quando o sistema está corrompido. Para obter mais informações, consulte [Tratar manualmente vendas e transferir exceções de separação de linhas](../warehousing/manual-order-line-picking-exception-handling.md). |
 
 ## <a name="new-and-updated-documentation-resources"></a>Recursos de documentação novos e atualizados
 

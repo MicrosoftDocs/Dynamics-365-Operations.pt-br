@@ -2,7 +2,7 @@
 title: Módulo de resultados de pesquisa
 description: Este artigo abrange os módulos de resultados de pesquisa e descreve como adicioná-los a páginas de site no Microsoft Dynamics 365 Commerce.
 author: anupamar-ms
-ms.date: 05/18/2022
+ms.date: 08/31/2022
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -14,12 +14,12 @@ ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.8
 ms.search.industry: ''
 ms.search.form: ''
-ms.openlocfilehash: d10e9ed78dfc90833ff3c09021f863f6ef0b80d9
-ms.sourcegitcommit: 87e727005399c82cbb6509f5ce9fb33d18928d30
+ms.openlocfilehash: eeb7cd0769fcb866a3d7dcc03e8e87daf24b2c5d
+ms.sourcegitcommit: 1d5cebea3e05b6d758cd01225ae7f566e05698d2
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/12/2022
-ms.locfileid: "9286801"
+ms.lasthandoff: 09/02/2022
+ms.locfileid: "9405284"
 ---
 # <a name="search-results-module"></a>Módulo de resultados de pesquisa
 
@@ -86,48 +86,16 @@ Para adicionar um módulo de resultados de pesquisa a uma página de categoria n
 1. Em **Revisar e concluir**, revise a configuração da página. Se você precisar editar as informações da página, selecione **Voltar**. Se as informações da página estiverem corretas, selecione **Criar página**.
 1. Selecione **Concluir edição** para fazer check-in da página e depois selecione **Publicar** para publicá-lo.
 
-## <a name="enable-inventory-awareness-for-the-search-results-module"></a>Habilitar o reconhecimento de estoque para o módulo de resultados de pesquisa
+## <a name="inventory-aware-search-results-module"></a>Módulo de resultados da pesquisa com reconhecimento de estoque
 
-Geralmente, os clientes esperam que o site de comércio eletrônico reconheça o estoque em toda a experiência de navegação para que possam decidir o que fazer se não houver estoque para um produto. O módulo de resultados de pesquisa pode ser configurado para incorporar dados de estoque e fornecer as seguintes experiências:
+O módulo de resultados de pesquisa pode ser configurado para incorporar dados de estoque e fornecer as seguintes experiências:
 
-- Mostre um rótulo de disponibilidade de estoque junto com o produto.
+- Exiba etiquetas de nível de estoque junto com produtos.
 - Oculte produtos com estoque esgotado da lista de produtos.
-- Mostre produtos com estoque esgotado ao final da lista de produtos.
-- Filtre produtos nos resultados de pesquisa por nível de estoque.
+- Exiba produtos com estoque esgotado ao final da lista de produtos.
+- Ofereça suporte à filtragem de produtos com base no estoque.
 
-Para habilitar essas experiências, você deve primeiro habilitar o recurso **Descoberta aprimorada de produtos de comércio eletrônico para ter reconhecimento do estoque** no espaço de trabalho **Gerenciamento de recursos**.
-
-> [!NOTE]
-> O recurso **Descoberta aprimorada de produtos de comércio eletrônico para ter reconhecimento do estoque** está disponível no Commerce versão 10.0.20 e posterior.
-
-A pesquisa de produtos com reconhecimento de estoque usa atributos de produto para obter informações sobre a disponibilidade de estoque. Como um pré-requisito para o recurso, os atributos de produto dedicados devem ser criados, os dados de estoque devem ser inseridos para eles e eles devem ser adicionados ao canal online. 
-
-Para criar atributos de produto dedicados para oferecer suporte ao módulo de resultados de pesquisa com reconhecimento de estoque, siga estas etapas:
-
-1. No headquarters, acesse **Varejo e Comércio \> TI de Varejo e Comércio \> Produtos e estoque**.
-1. Selecione e abra **Preencher atributos de produto com nível de estoque**.
-1. Na caixa de diálogo, insira as seguintes informações:
-
-    1. No campo **Atributo do produto e nome do tipo**, especifique um nome para o atributo de produto dedicado que será criado para capturar os dados do estoque.
-    1. No campo **Disponibilidade de estoque com base em**, selecione o tipo de quantidade no qual o cálculo do nível de estoque deve se basear (por exemplo, **Quantidade física disponível**). 
-
-1. Execute o trabalho em segundo plano. Como o estoque do produto muda com constância em um ambiente de omnicanal, é altamente recomendável que você agende esse trabalho como um processo em lote.
-
-> [!NOTE]
-> Para um cálculo de nível de estoque consistente nas páginas e módulos no seu site de comércio eletrônico, certifique-se de selecionar o mesmo tipo de quantidade para a configuração **Disponibilidade de estoque com base em** no Commerce headquarters e na configuração **Nível de estoque com base em** no construtor de sites do Commerce. Para obter mais informações sobre configurações de estoque no construtor de sites, consulte [Aplicar configurações de estoque](inventory-settings.md).
-
-Para configurar os atributos do produto para um canal online, siga estas etapas: 
-
-1. No headquarters, acesse **Varejo e Comércio \> Configuração de canal \> Categorias do canal e atributos de produto**.
-1. Selecione um canal online para habilitar o módulo de resultados de pesquisa com reconhecimento de estoque.
-1. Selecione e abra um grupo de atributos associado e, em seguida, adicione o atributo de produto recém-criado a ele.
-1. Para as versões do Commerce anteriores à 10.0.27, selecione **Definir metadados de atributo**, selecione o atributo de produto recém-adicionado e, em seguida, ative as opções **Mostrar atributo no canal**, **Recuperável**, **Pode ser refinado** e **Pode ser consultado**.
-1. Acesse **Varejo e Comércio \> TI de Varejo e Comércio \> Agenda de Distribuição** e execute o trabalho **1150 (Catálogo)**. Se você agendar o trabalho **Preencher atributos de produto com nível de estoque** com um processo em lote recomendamos que você também agende o trabalho 1150 como um processo em lote que seja executado na mesma frequência.
-
-> [!NOTE]
-> Para os produtos mostrados no módulo de resultados da pesquisa, o nível de estoque é exibido no nível do produto mestre, e não no nível de grade individual. Ele tem apenas dois valores possíveis: "disponível" e "esgotado". O rótulo real para o valor é recuperado da definição do [perfil de nível de estoque](inventory-buffers-levels.md). Um produto mestre só é considerado fora do estoque quando todas as suas variantes estão fora do estoque.
-
-Depois que todas as etapas de configuração anteriores forem concluídas, os refinadores nas páginas de resultados da pesquisa mostrarão um filtro baseado em estoque e o módulo de resultados da pesquisa recuperará os dados de estoque em segundo plano. Em seguida, você pode definir a configuração **Configurações de estoque para páginas de listagem de produtos** no construtor de sites do Commerce para controlar como o módulo de resultados de pesquisa mostra produtos esgotados. Para obter mais informações, consulte [aplicar configurações de estoque](inventory-settings.md).
+Para habilitar essas experiências, você deve primeiro habilitar o recurso **Descoberta aprimorada de produtos de comércio eletrônico para ter reconhecimento do estoque** e, depois, definir algumas configurações de pré-requisito no Commerce headquarters. Para obter mais informações, consulte [Lista de produtos com reconhecimento de estoque](inventory-aware-product-listing.md).
 
 ## <a name="additional-resources"></a>Recursos adicionais
 

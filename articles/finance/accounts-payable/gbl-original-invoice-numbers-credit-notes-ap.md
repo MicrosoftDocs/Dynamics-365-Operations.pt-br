@@ -13,18 +13,18 @@ ms.author: atrukawk
 ms.search.validFrom: 2021-09-23
 ms.dyn365.ops.version: 10.0.20
 ms.search.form: ''
-ms.openlocfilehash: ed07ae9784da3ca721fcb25a9c5a14c4f75f2e59
-ms.sourcegitcommit: 87e727005399c82cbb6509f5ce9fb33d18928d30
+ms.openlocfilehash: 39cf4eb7eef1a83abeb7bd44fa7b2abefee0806e
+ms.sourcegitcommit: 8eb0cafe5ad20be2c4fff684e88d7d3f2249f820
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/12/2022
-ms.locfileid: "9277360"
+ms.lasthandoff: 09/06/2022
+ms.locfileid: "9409655"
 ---
 # <a name="reference-original-invoices-in-credit-notes-vendor-invoices"></a>Fazer referência a faturas originais em notas de crédito (faturas do fornecedor)
 
 [!include [banner](../includes/banner.md)]
 
-Este artigo descreve como criar uma referência a uma fatura original ao criar uma nota de crédito.
+Em alguns países e regiões, há um requisito legal de que notas de crédito impressas ou rotinas de relatórios incluam referências às faturas originais. Este artigo descreve como criar uma referência a uma fatura original ao criar uma nota de crédito.
 
 ## <a name="prerequisites"></a>Pré-requisitos
 
@@ -44,11 +44,17 @@ A funcionalidade descrita neste artigo aplica-se aos documentos comerciais a seg
 
 ## <a name="define-a-reference-to-an-original-invoice"></a>Definir uma referência para uma fatura original
 
+A definição de uma referência para uma fatura original inclui as seguintes etapas de alto nível:
+1. Criar e lançar uma fatura de fornecedor.
+2. Criar uma nota de crédito do fornecedor.
+3. Use a função Faturamento de crédito para vincular a fatura a uma nota de crédito.
+4. Lançar a nota de crédito.
+
 Use os procedimentos a seguir para definir uma referência para uma fatura original nos tipos de documento comercial especificados.
 
 ### <a name="vendor-credit-note-purchase-order"></a>Nota de crédito do fornecedor (ordem de compra)
 
-1. Acesse **Contas a pagar** \> **Ordens de compra** \> **Todas as ordens de compra**.
+1. Vá para **Contas a pagar** > **Ordens de compra** > **Todas as ordens de compra**.
 2. Crie uma nova ordem de compra ou use uma existente para criar uma nota de crédito.
 3. No Painel de Ações, na guia **Fatura**, no grupo **Introduzir**, selecione **Faturamento de crédito**.
 4. Insira o motivo para a correção e a referência à fatura original.

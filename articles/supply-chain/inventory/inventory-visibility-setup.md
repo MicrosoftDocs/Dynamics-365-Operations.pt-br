@@ -11,12 +11,12 @@ ms.search.region: Global
 ms.author: yufeihuang
 ms.search.validFrom: 2021-08-02
 ms.dyn365.ops.version: 10.0.21
-ms.openlocfilehash: 42c2c287e2a813f8bb07ce0c7f21f4224a217946
-ms.sourcegitcommit: f2175fe5e900d39f34167d671aab5074b09cc1b8
+ms.openlocfilehash: eb17f24b90933dac0f875bb0ef2d5039a240b197
+ms.sourcegitcommit: 1ca4ad100f868d518f3634dca445c9878962108e
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/17/2022
-ms.locfileid: "9306044"
+ms.lasthandoff: 09/01/2022
+ms.locfileid: "9388531"
 ---
 # <a name="install-and-set-up-inventory-visibility"></a>Instalar e configurar Inventory Visibility
 
@@ -56,7 +56,9 @@ Depois de registrar um aplicativo e adicionar um segredo de cliente ao Azure AD,
 1. Na página do ambiente, role para baixo até encontrar a seção **Suplementos de ambiente** na seção **Integração do Power Platform**. Lá, você pode encontrar o nome do ambiente do Dataverse. Confirme se o nome do ambiente do Dataverse é aquele que você deseja usar para Visibilidade de Estoque.
 
     > [!NOTE]
-    > No momento, apenas os ambientes do Dataverse que foram criados usando o LCS têm suporte. Se seu ambiente do Dataverse foi criado de alguma outra forma (por exemplo, usando o centro de administração do Power Apps) e se ele estiver vinculado a seu ambiente do Supply Chain Management, primeiro você deverá entrar em contato com a equipe de produto do Visibilidade de Estoque em [inventvisibilitysupp@microsoft.com](mailto:inventvisibilitysupp@microsoft.com) para corrigir o problema de mapeamento. Você pode então instalar o Visibilidade de Estoque.
+    > No momento, apenas os ambientes do Dataverse que foram criados usando o LCS têm suporte. Se seu ambiente do Dataverse foi criado de outra forma (por exemplo, usando o centro de administração do PowerApps) e se ele estiver vinculado a ambiente do Supply Chain Management, primeiro corrija o problema de mapeamento antes de instalar o suplemento de visibilidade de estoque.
+    >
+    > É possível que seu ambiente de gravação dupla esteja vinculado a uma instância do Dataverse enquanto o LCS não está configurado para integração do Power Platform. Essa incompatibilidade de vinculação pode causar um comportamento inesperado. É recomendável que os detalhes do ambiente LCS correspondam ao que você está conectado em uma gravação dupla, de forma que a mesma conexão possa ser usada por eventos de negócios, tabelas virtuais e suplementos. Consulte [Incompatibilidade de vinculação](../../fin-ops-core/dev-itpro/data-entities/dual-write/lcs-setup.md#linking-mismatch) para obter informações sobre como corrigir o problema de mapeamento. Depois que a questão de mapeamento for resolvida, você poderá continuar a instalar a visibilidade do estoque.
 
 1. Na seção **Suplementos de ambiente**, selecione **Instalar um novo suplemento**.
 
@@ -140,11 +142,11 @@ Para desinstalar o suplemento de visibilidade de estoque, siga estas etapas:
 1. Selecione **Ambiente** na barra de navegação
 1. Selecione o ambiente do Dataverse vinculado ao seu ambiente LCS.
 1. Acesse **Soluções** e exclua as cinco seguintes soluções, nesta ordem:
-    1. Solução de ancoragem do aplicativo Visibilidade de Estoque em soluções do Dynamics 365
-    1. Solução de Aplicativos Visibilidade de Estoque do Dynamics 365 FNO SCM
-    1. Configuração de Serviço de Estoque
-    1. Visibilidade de Estoque Autônomo
-    1. Solução Base Visibilidade de Estoque do Dynamics 365 FNO SCM
+    1. Visibilidade de Estoque do Dynamics 365 - Âncora
+    1. Visibilidade de Estoque do Dynamics 365 - Aplicativo
+    1. Visibilidade de Estoque do Dynamics 365 - Controles
+    1. Visibilidade de Estoque do Dynamics 365 - Plugins
+    1. Visibilidade de Estoque do Dynamics 365- Base
 
     Depois que você excluir essas soluções, os dados armazenados nas tabelas também serão excluídos.
 

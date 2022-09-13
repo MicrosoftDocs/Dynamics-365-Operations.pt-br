@@ -2,7 +2,7 @@
 title: Atalhos de teclado
 description: Este artigo fornece uma visão geral das combinações de teclas de atalho que você pode usar ao trabalhar com aplicativos de finanças e operações.
 author: jasongre
-ms.date: 08/26/2022
+ms.date: 08/29/2022
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -14,16 +14,17 @@ ms.search.region: Global
 ms.author: jasongre
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 04abaeada458e05df3de045d9c7a715040b7bfa4
-ms.sourcegitcommit: 7bcaf00a3ae7e7794d55356085e46f65a6109176
+ms.openlocfilehash: a5bf22228749a725baa66ee3094f670c60f0f39a
+ms.sourcegitcommit: 1d5cebea3e05b6d758cd01225ae7f566e05698d2
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/26/2022
-ms.locfileid: "9357568"
+ms.lasthandoff: 09/02/2022
+ms.locfileid: "9405425"
 ---
 # <a name="keyboard-shortcuts"></a>Atalhos de teclado
 
 [!include [banner](../includes/banner.md)]
+[!include [preview banner](../includes/preview-banner.md)]
 
 [!INCLUDE [PEAP](../../../includes/peap-1.md)]
 
@@ -87,6 +88,8 @@ Os usuários poderão descobrir atalhos disponíveis atualmente diretamente da i
 | Abrir o painel de Filtro (ou alternar o foco entre o painel de Filtro e o formulário principal, se o painel de Filtro já estiver aberto) | Alt+M,F ou Ctrl+F3       |
 | Fechar o painel de Filtro (com foco no painel de Filtro)                                                               | Esc                      |
 | Abrir a filtragem/classificação avançada                                                                                        | Ctrl+Shift+F3            |
+| Aplicar o filtro rápido (quando o foco estiver no filtro rápido)                                                              | Enter                    |
+| Aplicar o filtro de grade (quando o foco estiver no campo de filtro do cabeçalho da coluna)                                             | Enter                    |
 
 ## <a name="form-shortcuts"></a>Atalhos do formulário
 
@@ -157,12 +160,13 @@ Os usuários poderão descobrir atalhos disponíveis atualmente diretamente da i
 
 ## <a name="input-control-shortcuts"></a>Atalhos do controle de entrada
 
-| Para                                                                   | Pressionar                          |
+| Para                                                                   | Pressione                         |
 |------------------------------------------------------------------------------|-------------------------------|
 | Abrir o hiperlink                                                           | Ctrl+Enter                    |
-| Inserir a data da sessão em um campo de data                                       | D                             |
+| Abrir o hiperlink (quando o foco está em um controle somente leitura)<br><br>**Observação:** este atalho só se aplica quando o recurso **Padronizar a interação do teclado para controles de caixa de combinação e pesquisa** está habilitado                   | Enter    |
+| Inserir a data da sessão em um campo de data                                       | B                             |
 | Inserir a data atual em um campo de data                                       | F                             |
-| Abrir a pesquisa, caixa de combinação, seletor de data, caixa de diálogo suspensa                         | Alt+Seta para baixo                |
+| Abrir a pesquisa, caixa de combinação, seletor de data, caixa de diálogo suspensa                         | Alt+Seta para baixo<br><br>Inserir (quando o recurso **Padronizar a interação do teclado para controles de caixa de combinação e pesquisa** está habilitado)                |
 | Fechar a pesquisa, caixa de combinação, seletor de data, caixa de diálogo suspensa                        | Esc                           |
 | Mover o foco para uma pesquisa (quando a pesquisa já estiver aberta)                   | Alt+Seta para baixo                |
 | Abra a exibição avançada de controle                                          | Alt+Seta para cima                  |

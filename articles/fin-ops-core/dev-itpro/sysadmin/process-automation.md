@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: rcarlson
 ms.search.validFrom: 2020-06-30
 ms.dyn365.ops.version: AX 10.0.11
-ms.openlocfilehash: c0015b65f1ff00cfce19139cb8aaa248512d070b
-ms.sourcegitcommit: 3d2c0a39c4f987e9ac71df2f2fa6df0f64f10b2b
+ms.openlocfilehash: 1a1d152a01e0ebe6a20e2e6b31f12ed7b8deb024
+ms.sourcegitcommit: 07ed6f04dcf92a2154777333651fefe3206a817a
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 07/06/2022
-ms.locfileid: "9114925"
+ms.lasthandoff: 09/07/2022
+ms.locfileid: "9423950"
 ---
 # <a name="process-automation"></a>Automação de processos
 
@@ -30,7 +30,9 @@ A automação de processos permite o agendamento simples de processos que serão
 
 A página de administração central de todas as automações de processos é encontrada no módulo Administração do Sistema no menu **Configurar**. Essa página listará todos os processos automatizados (série) que estão configurados no sistema. Ela também permitirá que você adicione novas automações de processos diretamente nela. Depois que uma série é configurada, é possível gerenciá-la nesta lista. Você pode optar por editar toda a série, excluí-la, exibir todas as ocorrências em uma exibição de lista ou desabilitar a série se desejar pausar o trabalho agendado por um tempo. 
 
-Qualquer processo desabilitado no gerenciamento de recursos não será exibido quando o recurso for desabilitado. Além disso, o mecanismo de plano de automação do processo não agendará ocorrências ou processos em segundo plano para um recurso desabilitado. A reabilitação do recurso levará qualquer ocorrência agendada ou processo em segundo plano no passado a ser executado imediatamente. O mecanismo de agendamento da automação de processos depende do trabalho em lotes do sistema, **Trabalho de sistema de sondagem de automação do processo** a ser executado. O trabalho não deve ser alterado ou adulterado a qualquer momento. Se esse trabalho em lotes não estiver sendo executado ou estiver em um estado de erro, selecione **Inicializar automações de processos** para redefinir o trabalho em lotes. Essa redefinição garante que todas as novas automações lançadas em uma versão mais recente do aplicativo sejam inicializadas. 
+Use a guia **Processos em segundo plano** nesta página para administrar processos em segundo plano em execução no seu ambiente. Selecione **Editar** para fazer alterações de agenda para qualquer processo em segundo plano. Essas alterações podem incluir um período de suspensão que fará o processo "dormir" ou pausar a execução por um período especificado todo dia. Selecione **Exibir resultados mais recentes** para exibir os resultados da execução para cada processo em segundo plano.
+
+Qualquer processo desabilitado no gerenciamento de recursos não será exibido quando o recurso for desabilitado. Além disso, o mecanismo de plano de automação do processo não agendará ocorrências ou processos em segundo plano para um recurso desabilitado. A reabilitação do recurso levará qualquer ocorrência agendada ou processo em segundo plano no passado a ser executado imediatamente. O mecanismo de agendamento da automação de processos depende do trabalho em lotes do sistema, **Trabalho de sistema de sondagem de automação do processo** a ser executado. O trabalho não deve ser alterado ou adulterado a qualquer momento. Se esse trabalho em lotes não estiver em execução ou estiver em um estado de erro, selecione **Inicializar automação do processo** para redefinir o trabalho em lotes. Essa redefinição garante que novas automações lançadas em uma versão mais recente do aplicativo sejam inicializadas. 
 
 ## <a name="calendar-view"></a>Exibição de calendário
 

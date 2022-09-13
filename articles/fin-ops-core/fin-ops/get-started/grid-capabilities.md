@@ -2,7 +2,7 @@
 title: Recursos de grade
 description: Este artigo descreve vários recursos avançados do controle de grade. É necessário habilitar o novo recurso de grade para ter acesso a esses recursos.
 author: jasongre
-ms.date: 08/09/2022
+ms.date: 08/29/2022
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: jasongre
 ms.search.validFrom: 2020-02-29
 ms.dyn365.ops.version: Platform update 33
-ms.openlocfilehash: a8968a1263dfafd67b07b4beb78c51493e95756e
-ms.sourcegitcommit: 47534a943f87a9931066e28f5d59323776e6ac65
+ms.openlocfilehash: 096f441d39dde0f322ed117ab35a6a4641a38a93
+ms.sourcegitcommit: 1d5cebea3e05b6d758cd01225ae7f566e05698d2
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/11/2022
-ms.locfileid: "9258937"
+ms.lasthandoff: 09/02/2022
+ms.locfileid: "9405456"
 ---
 # <a name="grid-capabilities"></a>Recursos de grade
 
@@ -178,20 +178,22 @@ O recurso **Novo controle de grade** está disponível diretamente em Gerenciame
 
 Esse recurso começou a ser habilitado por padrão na versão 10.0.21. Ele deve se tornar obrigatório em outubro de 2022.
 
-## <a name="developer-opting-out-individual-pages-from-using-the-new-grid"></a>[Desenvolvedor] Impedir que páginas individuais use a nova grade 
+## <a name="developer-topics"></a>Tópicos do desenvolvedor
+
+### <a name="developer-opting-out-individual-pages-from-using-the-new-grid"></a>[Desenvolvedor] Impedir que páginas individuais use a nova grade 
 Se a sua organização descobre uma página que tem algumas questões usando a nova grade, uma API está disponível para permitir que um formulário individual use o controle de grade herdado enquanto ainda permite que o restante do sistema utilize o novo controle de grade. Para recusar uma página individual da nova grade, adicione a seguinte postagem de chamada `super()` no método do formulário `run()`.
 
 ```this.forceLegacyGrid();```
 
 Essa API será eventualmente preterida para permitir a remoção do controle da grade herdada. No entanto, ela permanecerá disponível por pelo menos 12 meses depois que a substituição for anunciada. Se algum problema exigir o uso dessa API, informe-o à Microsoft.
 
-### <a name="forcing-a-page-to-use-the-new-grid-after-previously-opting-out-the-grid"></a>Forçar uma página a usar a nova grade depois de ter recusado anteriormente a grade
+#### <a name="forcing-a-page-to-use-the-new-grid-after-previously-opting-out-the-grid"></a>Forçar uma página a usar a nova grade depois de ter recusado anteriormente a grade
 Se você tiver recusado o uso da nova grade em uma página individual, convém reabilitar posteriormente a nova grade após os problemas subjacentes terem sido resolvidos. Para isso, você só precisa remover a chamada para `forceLegacyGrid()`. A alteração não terá efeito até que uma das seguintes ações ocorra:
 
 - **Reimplantação do ambiente**: quando um ambiente é atualizado e reimplantado, a tabela que armazena as páginas que recusaram a nova grade (FormControlReactGridState) é automaticamente limpa.
 - **Limpeza manual da tabela**: para cenários de desenvolvimento, será necessário usar SQL para limpar a tabela FormControlReactGridState e reiniciar o AOS. Essa combinação de ações redefinirá o armazenamento em cache de páginas que recusaram a nova grade.
 
-## <a name="developer-opting-individual-grids-out-of-the-typing-ahead-of-the-system-capability"></a>[Desenvolvedor] Optar por grades individuais fora da digitação antes do recurso da capacidade
+### <a name="developer-opting-individual-grids-out-of-the-typing-ahead-of-the-system-capability"></a>[Desenvolvedor] Optar por grades individuais fora da digitação antes do recurso da capacidade
 Alguns cenários surgiram que não são propícios a um funcionamento com a capacidade de *Digitação antes do recurso do sistema* da grade. (Por exemplo, um código disparado quando uma linha é validada faz com que uma pesquisa de fonte de dados seja disparada e, em seguida, a pesquisa pode corromper edições não confirmadas em linhas existentes.) Se a sua organização descobre tal cenário, há uma API disponível que permite que um desenvolvedor opte por uma grade individual fora da validação de linha assíncrona e reverta para o comportamento herdado.
 
 Quando a validação de linha assíncrona está desabilitada em uma grade, os usuários não podem criar uma nova linha ou mover para uma linha existente diferente na grade enquanto houver problemas de validação na linha atual. Como um efeito colateral dessa ação, as tabelas não podem ser coladas do Excel em grades do aplicativo de finanças e operações.
@@ -204,13 +206,18 @@ Para optar por uma grade individual fora da validação da linha assíncrona, ad
 > - Essa chamada deve ser invocada somente em casos excepcionais e não deve ser a norma para todas as grades.
 > - Não é recomendável que você alterne essa API no runtime depois que o formulário for carregado.
 
-## <a name="developer-size-to-available-width-columns"></a>[Desenvolvedor] Colunas de tamanho para largura disponível
+### <a name="developer-size-to-available-width-columns"></a>[Desenvolvedor] Colunas de tamanho para largura disponível
 Se um desenvolvedor definir a propriedade **WidthMode** como **SizeToAvailable** para colunas dentro da nova grade, essas colunas terão inicialmente a mesma largura que teriam se a propriedade fosse definida como **SizeToContent**. No entanto, elas se estendem para usar qualquer largura extra disponível dentro da grade. Se a propriedade for definida como **SizeToAvailable** para várias colunas, todas essas colunas compartilham qualquer largura extra disponível dentro da grade. No entanto, se um usuário redimensionar manualmente uma dessas colunas, a coluna se torna estática. Ele permanecerá nessa largura e não será mais esticado para ocupar a largura de grade disponível extra.
 
-## <a name="developer-specifying-the-column-that-receives-the-initial-focus-when-new-rows-are-created-by-using-the-down-arrow-key"></a>[Desenvolvedor] Especificação da coluna que receberá o foco inicial quando novas linhas forem criadas usando a tecla "Seta para baixo"
+### <a name="developer-specifying-the-column-that-receives-the-initial-focus-when-new-rows-are-created-by-using-the-down-arrow-key"></a>[Desenvolvedor] Especificação da coluna que receberá o foco inicial quando novas linhas forem criadas usando a tecla "Seta para baixo"
 Como foi discutido na seção [Diferenças ao inserir dados antes do sistema](#differences-when-entering-data-ahead-of-the-system), se o recurso "Digitação antecipada do sistema" estiver habilitado e um usuário criar uma nova linha usando a tecla **Seta para baixo**, o comportamento padrão é colocar o foco na primeira coluna da nova linha. Essa experiência pode diferir da experiência na grade herdada ou quando um **Novo** botão é selecionado.
 
 Os usuários e as organizações podem criar exibições salvas que são otimizadas para entrada de dados. (Por exemplo, você pode reordenar colunas para que a primeira coluna seja aquela na qual você deseja começar a inserir dados.) Além disso, a partir da versão 10.0.29, as organizações podem ajustar esse comportamento usando o método **selectedControlOnCreate()**. Este método leva um desenvolvedor a especificar a coluna que deverá receber o foco inicial quando novas linhas forem criadas usando a tecla **Seta para baixo**. Como entrada, essa API assume a ID de controle que corresponde à coluna que deve receber o foco inicial.
+
+### <a name="developer-handling-grids-with-non-react-extensible-controls"></a>[Desenvolvedor] Manuseio de grades com controles extensíveis sem reação
+Quando uma grade for carregada, se o sistema encontrar um controle extensível sem reação, o sistema força a grade herdada a renderizar. Quando um usuário encontrar esta situação pela primeira vez, uma mensagem aparecerá indicando que a página precisa ser atualizada. Depois, esta página carregará automaticamente a grade herdada, sem notificações adicionais aos usuários até a próxima atualização do sistema. 
+
+Para superar essa situação permanentemente, os autores de controle extensíveis podem criar uma versão do React do controle para uso na grade.  Após desenvolvida, a classe X++ para o controle pode ser decorada com o atributo **FormReactControlAttribute** para especificar a localização do pacote React a ser carregado para esse controle. Consulte a classe `SegmentedEntryControl` como um exemplo.  
 
 ## <a name="known-issues"></a>Problemas conhecidos
 Esta seção mantém uma lista de problemas conhecidos para o novo controle de grade.
@@ -218,9 +225,12 @@ Esta seção mantém uma lista de problemas conhecidos para o novo controle de g
 ### <a name="open-issues"></a>Questões em aberto
 - Depois de habilitar o recurso **Novo controle de grade**, algumas páginas continuarão a usar o controle de grade existente. Isso acontecerá nas seguintes situações:
  
-    - Há uma lista de cartões na página que é renderizada em várias colunas.
-    - Existe uma lista de placas agrupadas na página.
-    - Uma coluna de grade com um controle extensível sem reação.
+    - [Resolvido] Há uma lista de cartões na página que é renderizada em várias colunas.
+        - Esse tipo de lista de cartões é compatível com o **Novo controle de grade** a partir da versão 10.0.30. É possível remover todos os usos de forceLegacyGrid() com essa finalidade. 
+    - [Resolvido] Existe uma lista de cartões agrupados na página.
+        - As listas de cartões agrupados são compatíveis com o **Novo controle de grade** a partir da versão 10.0.30. É possível remover todos os usos de forceLegacyGrid() com essa finalidade. 
+    - [Resolvido] Uma coluna de grade com um controle extensível sem reação.
+        - Os controles extensíveis podem fornecer uma versão do React do controle que será carregada quando inserida na grade e ajustar a definição de controle para carregar esse controle quando usado na grade. Consulte a seção de desenvolvedor correspondente para obter mais detalhes. 
 
     Quando um usuário encontra primeiro uma dessas situações, uma mensagem será exibida sobre a atualização da página. Depois que esta mensagem for exibida, a página continuará a utilizar a grade existente para todos os usuários até a próxima atualização da versão do produto. Uma melhor manipulação desses cenários, de forma que a nova grade possa ser utilizada, será considerada para uma atualização futura.
 

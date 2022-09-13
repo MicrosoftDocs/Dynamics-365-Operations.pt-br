@@ -12,12 +12,12 @@ ms.search.region: Global
 ms.author: josaw
 ms.search.validFrom: 2020-07-27
 ms.dyn365.ops.version: 8.0999999999999996
-ms.openlocfilehash: 048d46fa5504f7249f310da2d2ff4be05e88b3fd
-ms.sourcegitcommit: 87e727005399c82cbb6509f5ce9fb33d18928d30
+ms.openlocfilehash: 0d1b018557cb576f8cc50000b86c5baabc738e44
+ms.sourcegitcommit: 07ed6f04dcf92a2154777333651fefe3206a817a
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/12/2022
-ms.locfileid: "9291500"
+ms.lasthandoff: 09/07/2022
+ms.locfileid: "9423903"
 ---
 # <a name="learning-catalog-for-dynamics-365-commerce-developers"></a>Catálogo de aprendizagem para desenvolvedores do Dynamics 365 Commerce
 
@@ -29,18 +29,15 @@ Para obter treinamento sobre recursos compartilhados com outros aplicativos de f
 
 ## <a name="get-started"></a>Iniciado<a name="get-started"></a>
 
-| Conteúdo  | Descrição  | Formatar  | Extensão    |
-|---------------|------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|--------------------------------------------------------------------------------|-----------|---------------------------------------------------------------------------|
-| [Conheça o valor comercial do Microsoft Dynamics 365 e do Power Platform](/learn/paths/learn-business-value-of-dynamics-365-and-power-platform/)   | Esta experiência de aprendizado o guiará para uma jornada que começará mostrando como a transformação digital e os aplicativos de negócios podem transformar a sua empresa. Discutiremos como o Dynamics 365 e o Power Platform o ajudam a tomar decisões fundamentadas com base nas necessidades e nas metas da sua organização, em quatro blocos de construção de transformação digital—moderno, unificado, inteligente e adaptável.                                                                    | Caminho de aprendizado online, gratuito, baseado no seu ritmo | 6.5 horas |
+| Conteúdo | Descrição | Formatar | Extensão |
+|---------|-------------|--------|--------|
 | [Introdução ao Dynamics 365 Commerce](/learn/paths/get-started-dynamics-365-commerce/)                                                              | O Dynamics 365 Commerce, com base nos recursos comprovados do Dynamics 365 Retail, fornece uma solução completa de omnicanal que unifica as experiências no back office, na loja, no call center e digitais. O Dynamics 365 Commerce permite criar a fidelidade com a marca por meio de envolvimentos de cliente personalizados, aumentar renda com produtividade de funcionário aprimorada, otimizar operações para reduzir custos e impulsionar eficiência de cadeia de fornecimento, e por fim fornecendo melhores resultados de negócios. | Caminho de aprendizado online, gratuito, baseado no seu ritmo | 2 horas   |
 | [Introdução ao Dynamics 365 Fraud Protection](/learn/modules/get-started-fraud-protection/)| O Dynamics 365 Fraud Protection é uma solução baseada em nuvem criada para comércio eletrônico, lojas físicas e comerciantes do omnicanal para ajudar a proteger sua receita e reputação, fornecendo ferramentas e recursos para diminuir fraudes e abusos, reduzir despesas operacionais e aumentar as taxas de aceitação, ao mesmo tempo que protege as contas de usuário contra a exposição de fraudes. | Caminho de aprendizado online, gratuito, baseado no seu ritmo | 35 minutos |
 
 ## <a name="commerce"></a>Commerce<a name="commerce"></a>
 
-| Conteúdo  | descrição  | Formatar  | Extensão    |
-|---------------|------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|--------------------------------------------------------------------------------|-----------|---------------------------------------------------------------------------|
+| Conteúdo | descrição | Formatar | Extensão |
+|---------|-------------|--------|--------|
 | [Implantar e estender o Dynamics 365 Commerce](/learn/paths/deploy-dynamics-365-commerce/) | Este caminho de aprendizado descreve como implantar os ambientes do Dynamics 365 Commerce e executar etapas pós-provisionamento para implementações de comércio eletrônico bem-sucedidas usando a topologia correta para as necessidades comerciais de cada varejista. | Caminho de aprendizado online, gratuito, baseado no seu ritmo | 5 horas |
 
-
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]
-

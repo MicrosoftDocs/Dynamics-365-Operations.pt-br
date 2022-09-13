@@ -11,12 +11,12 @@ ms.search.region: Global
 ms.author: yufeihuang
 ms.search.validFrom: 2021-08-02
 ms.dyn365.ops.version: 10.0.21
-ms.openlocfilehash: 576d8d5d0cad09aed40f1ceb9ce5682816c0f666
-ms.sourcegitcommit: f2175fe5e900d39f34167d671aab5074b09cc1b8
+ms.openlocfilehash: 8d8fe042d7c56b86a5a7c92cc24480f573a2ea8a
+ms.sourcegitcommit: 07ed6f04dcf92a2154777333651fefe3206a817a
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/17/2022
-ms.locfileid: "9306308"
+ms.lasthandoff: 09/07/2022
+ms.locfileid: "9423560"
 ---
 # <a name="configure-inventory-visibility"></a>Configurar a visibilidade de estoque
 
@@ -148,7 +148,7 @@ Quando uma fonte de dados lança uma alteração de estoque em Visibilidade de E
 
 O Visibilidade de Estoque fornece uma lista de medidas físicas padrão que estão vinculadas ao Supply Chain Management (a fonte de dados `fno`). Essas medidas físicas padrão são tiradas dos status da transação de estoque na página **Lista de disponíveis** no Supply Chain Management (**Gerenciamento de Estoque \> Consultas e Relatório \> Lista de disponíveis**). A tabela a seguir fornece um exemplo de medidas físicas.
 
-| Nome da medida física | descrição |
+| Nome da medida física | Descrição |
 |---|---|
 | `NotSpecified` | Não especificado |
 | `Arrived` | Admitido |
@@ -303,13 +303,13 @@ A solução inclui essa configuração de partição por padrão. Portanto, *voc
 
 Na maioria das vezes, a consulta de estoque disponível não será apenas no nível "total" mais alto. Em vez disso, talvez você deseje ver os resultados agregados com base nas dimensões do estoque.
 
-O Visibilidade de Estoque fornece flexibilidade, permitindo que você configure _índices_. Esses índices são baseados em uma dimensão ou combinação de dimensões. Um índice consiste em um *número do conjunto*, uma *dimensão* e uma *hierarquia*, conforme definido na tabela a seguir.
+A Visibilidade de Estoque fornece flexibilidade, permitindo que você configure _índices_ para aprimorar o desempenho de consultas. Esses índices são baseados em uma dimensão ou combinação de dimensões. Um índice consiste em um *número do conjunto*, uma *dimensão* e uma *hierarquia*, conforme definido na tabela a seguir.
 
-| Organização | descrição |
+| Organização | Descrição |
 |---|---|
 | Número do conjunto | As dimensões que pertencerem ao mesmo conjunto (índice) serão agrupadas, e o mesmo número de conjunto será atribuído a elas. |
 | Dimensão | Dimensões básicas nas quais o resultado da consulta é agregado. |
-| Hierarquia | A hierarquia é usada para definir as combinações de dimensão com suporte que podem ser consultadas. Por exemplo, você configura um conjunto de dimensões que tem uma sequência de hierarquia de `(ColorId, SizeId, StyleId)`. Nesse caso, o sistema dá suporte a consultas em quatro combinações de dimensão. A primeira combinação está vazia, a segunda é `(ColorId)`, a terceira é `(ColorId, SizeId)` e a quarta é `(ColorId, SizeId, StyleId)`. Não há suporte para as outras combinações. Para obter mais informações, consulte o exemplo a seguir. |
+| Hierarquia | A hierarquia permite aumentar o desempenho de combinações específicas de dimensão quando usadas em parâmetros de filtro e de grupo por consulta. Por exemplo, se você configurar um conjunto de dimensões com uma sequência de hierarquias `(ColorId, SizeId, StyleId)`, o sistema poderá processar consultas relacionadas a quatro combinações de dimensões mais rapidamente. A primeira combinação está vazia, a segunda é `(ColorId)`, a terceira é `(ColorId, SizeId)` e a quarta é `(ColorId, SizeId, StyleId)`. Outras combinações não serão aceleradas. Os filtros não são restritos por ordem, mas devem estar nessas dimensões, caso você queira melhorar o desempenho. Para obter mais informações, consulte o exemplo a seguir. |
 
 Para configurar seu índice de hierarquia de produtos, siga estas etapas.
 
@@ -319,14 +319,13 @@ Para configurar seu índice de hierarquia de produtos, siga estas etapas.
 1. Por padrão, uma lista de índices é fornecida. Para modificar um índice existente, selecione **Editar** ou **Adicionar** na seção do índice relevante. Para criar um novo conjunto de índices, selecione **Novo conjunto de índices**. Para cada linha em cada conjunto de índices, no campo **Dimensão**, selecione na lista de dimensões base. Os valores para os campos a seguir são gerados automaticamente:
 
     - **Número do conjunto** – as dimensões que pertencem ao mesmo grupo (índice) serão agrupadas, e o mesmo número do conjunto será alocado para elas.
-    - **Hierarquia** – a hierarquia é usada para definir as combinações de dimensões com suporte que podem ser consultadas em um grupo de dimensões (índice). Por exemplo, se você configurar um grupo de dimensões com uma sequência de hierarquias de *Estilo*, *Cor* e *Tamanho*, o sistema dará suporte ao resultado de três grupos de consulta. O primeiro grupo é somente estilo. O segundo grupo é uma combinação de estilo e cor. E o terceiro grupo é uma combinação de estilo, cor e tamanho. Não há suporte para as outras combinações.
+    - **Hierarquia** – a hierarquia aumenta o desempenho de combinações específicas de dimensão quando usadas em parâmetros de filtro e de grupo por consulta.
 
 > [!TIP]
 > Conheça algumas dicas para ter em mente ao configurar sua hierarquia de índice:
 >
 > - As dimensões base definidas na configuração da partição não devem ser definidas nas configurações de índice. Se uma dimensão base for definida novamente na configuração do índice, você não poderá consultar por esse índice.
 > - Se você só precisar consultar o estoque agregado por todas as combinações de dimensão, configure um único índice que contenha a dimensão base `Empty`.
-> - Você deve ter pelo menos uma hierarquia de índice (por exemplo, contendo a dimensão base `Empty`); caso contrário, as consultas falharão com o erro "Nenhuma hierarquia de índice foi definida".
 
 ### <a name="example"></a>Exemplo
 
