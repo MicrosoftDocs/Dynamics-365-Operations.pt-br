@@ -10,6 +10,8 @@
               href: ../fin-ops-core/fin-ops/get-started/whats-new-changed.md?toc=/dynamics365/finance/toc.json
             - name: Novidades ou alterações no Human Resources
               items:
+                - name: Human Resources 10.0.30 (infraestrutura mesclada)
+                  href: ./get-started/whats-new-changed-10-0-30.md
                 - name: Human Resources 10.0.29 (infraestrutura mesclada)
                   href: ./get-started/whats-new-changed-10-0-29.md
                 - name: Human Resources 10.0.28 (infraestrutura mesclada)
@@ -478,6 +480,8 @@
               href: hr-personnel-modify-reporting-relationships-position.md
             - name: Entrada de funcionário simplificada
               href: stream-employee-entry.md
+            - name: Personalizar controle de cabeçalho
+              href: hr-worker-header-control.md
             - name: Inserir informações do trabalhador
               href: hr-personnel-enter-worker-information.md
             - name: Trabalhadores sem emprego

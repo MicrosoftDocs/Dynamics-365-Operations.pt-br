@@ -12,6 +12,8 @@
               items:
                 - name: Novidades ou alterações na home page do Supply Chain Management
                   href: get-started/whats-new-home-page.md
+                - name: Supply Chain Management 10.0.30 (novembro de 2022)
+                  href: get-started/whats-new-scm-10-0-30.md
                 - name: Supply Chain Management 10.0.29 (outubro de 2022)
                   href: get-started/whats-new-scm-10-0-29.md
                 - name: Supply Chain Management 10.0.28 (agosto de 2022)
@@ -1719,9 +1721,31 @@
                   href: inventory/inventory-visibility-api.md
                 - name: Dicas do Inventory Visibility
                   href: inventory/inventory-visibility-tips.md
-        - name: Inteligência da IoT
+        - name: Sensor Data Intelligence
           items:
-            - name: Página inicial de Inteligência da IoT
+            - name: Página inicial do Sensor Data Intelligence
+              href: sensor-data-intelligence/sdi-home-page.md
+            - name: Ativar o Sensor Data Intelligence para o seu sistema
+              href: sensor-data-intelligence/sdi-enable-feature.md
+            - name: Implantar uma solução IoT no Azure
+              href: sensor-data-intelligence/sdi-deploy-iot-solution-on-azure.md
+            - name: Parâmetros do Sensor Data Intelligence
+              href: sensor-data-intelligence/sdi-parameters.md
+            - name: Configurar um sensor simulado para teste
+              href: sensor-data-intelligence/sdi-set-up-simulated-sensor.md
+            - name: O cenário de tempo de inatividade do ativo
+              href: sensor-data-intelligence/sdi-scenario-asset-downtime.md
+            - name: O cenário de manutenção do ativo
+              href: sensor-data-intelligence/sdi-scenario-asset-maintenance.md
+            - name: O cenário de status da máquina
+              href: sensor-data-intelligence/sdi-scenario-equipment-downtime.md
+            - name: O cenário de qualidade do produto
+              href: sensor-data-intelligence/sdi-scenario-product-quality.md
+            - name: O cenário de atrasos de produção
+              href: sensor-data-intelligence/sdi-scenario-production-delays.md
+        - name: Inteligência de IoT
+          items:
+            - name: Página inicial da Inteligência de IoT
               href: iot/iot-intelligence-home-page.md
             - name: Configurar recursos do Azure
               href: iot/iot-azure-setup.md
@@ -1940,7 +1964,7 @@
                 - name: Controle de custo
                   href: ../finance/cost-accounting/cost-controlling-mobile-workspace.md?context=/dynamics365/context/supply-chain
                 - name: Gerenciamento de despesas
-                  href: /dynamics365/project-operations/prod-exp/expense-management-mobile-workspace?toc=%2fdynamics365%2fsupply-chain%2ftoc.json
+                  href: /dynamics365/project-operations/prod-exp/expense-management-mobile-workspace?toc=/dynamics365/supply-chain/toc.json
                 - name: Estoque disponível
                   href: inventory/inventory-on-hand-mobile-workspace.md?context=/dynamics365/context/supply-chain
                 - name: Aprovações de fatura
@@ -1948,11 +1972,11 @@
                 - name: Minha equipe
                   href: ../fin-ops-core/dev-itpro/mobile-apps/manager-self-service-mobile-workspace.md?context=/dynamics365/context/supply-chain
                 - name: Visão geral de aplicativos móveis do Project
-                  href: /dynamics365/project-operations/prod-pma/project-mobile-application-overview?toc=%2fdynamics365%2fsupply-chain%2ftoc.json
+                  href: /dynamics365/project-operations/prod-pma/project-mobile-application-overview?toc=/dynamics365/supply-chain/toc.json
                 - name: Entrada de hora do projeto
-                  href: /dynamics365/project-operations/prod-pma/project-time-entry-mobile-workspace?toc=%2fdynamics365%2fsupply-chain%2ftoc.json
+                  href: /dynamics365/project-operations/prod-pma/project-time-entry-mobile-workspace?toc=/dynamics365/supply-chain/toc.json
                 - name: Project Timesheet
-                  href: /dynamics365/project-operations/prod-pma/project-timesheet?toc=%2fdynamics365%2fsupply-chain%2ftoc.json
+                  href: /dynamics365/project-operations/prod-pma/project-timesheet?toc=/dynamics365/supply-chain/toc.json
                 - name: Aprovação de ordem de compra
                   href: procurement/purchase-order-mobile-workspace.md?context=/dynamics365/context/supply-chain
                 - name: Ordens de venda
@@ -3463,9 +3487,9 @@
                       href: warehousing/small-parcel-shipping.md
                 - name: Políticas de consolidação da remessa
                   items:
-                    - name: Políticas de consolidação da remessa
+                    - name: Visão geral das políticas de consolidação da remessa
                       href: warehousing/about-shipment-consolidation-policies.md
-                    - name: Configurar políticas de consolidação de remessa
+                    - name: Configurar políticas de consolidação da remessa
                       href: warehousing/configure-shipment-consolidation-policies.md
                     - name: Cenário 1 – Consolidar remessas liberadas para o depósito usando a liberação automática de ordens de venda
                       href: warehousing/consolidate-shipments-automatic.md
