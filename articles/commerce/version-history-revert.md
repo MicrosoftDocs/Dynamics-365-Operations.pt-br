@@ -9,17 +9,16 @@ ms.reviewer: v-chgriffin
 ms.search.region: Global
 ms.author: niholman
 ms.search.validFrom: 2017-06-20
-ms.openlocfilehash: fa2ecdd9d9bc7e60b279d850573b5caa6df2c659
-ms.sourcegitcommit: 9cfccb5c260ce56a3457f9ea12e80f54ea55a3b4
+ms.openlocfilehash: c4d78103a3c08ee4052290fccf6750aba7eecf4a
+ms.sourcegitcommit: b1df4db7facb5e7094138836c41a65c4a158f01d
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 07/21/2022
-ms.locfileid: "9183668"
+ms.lasthandoff: 09/13/2022
+ms.locfileid: "9474090"
 ---
 # <a name="view-version-history-to-revert-pages-and-fragments"></a>Exibir histórico de versões para reverter páginas e fragmentos
 
 [!include [banner](includes/banner.md)]
-[!include [banner](includes/preview-banner.md)]
 
 Este artigo descreve como exibir o histórico de versões de uma página ou fragmento e reverter para uma versão mais antiga no construtor de sites do Microsoft Dynamics 365 Commerce.
 

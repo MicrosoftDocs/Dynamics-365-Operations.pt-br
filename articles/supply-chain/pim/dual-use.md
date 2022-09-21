@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: benebotg
 ms.search.validFrom: 2020-07-15
 ms.dyn365.ops.version: 10.0.9
-ms.openlocfilehash: 02b154b9ea849c6b905d76edb256c4106b254acd
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: 5147a837be91aab519c373e624acc036f9293641
+ms.sourcegitcommit: 555de844b8ba02fe095c28a2d447fc7c441ae549
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8878893"
+ms.lasthandoff: 09/09/2022
+ms.locfileid: "9460539"
 ---
 # <a name="dual-use-goods"></a>Mercadorias de uso duplo
 
@@ -85,7 +85,14 @@ Para identificar um produto como uma mercadoria de uso duplo e aplicar uma categ
 1. Na Guia Rápida **Comércio exterior**, defina a opção **Produtos de uso duplo** como **Sim** para identificar o produto atual como uma mercadoria de uso duplo.
 1. Defina o campo **Código de uso duplo** como o código que se aplica ao produto atual. (Você definiu esse código na página **Categorias de uso duplo** .)
 
-Essa configuração é verificada quando você cria uma ordem de venda.
+> [!NOTE]
+>
+> O sistema faz as seguintes verificações de uso duplo ao gerar uma confirmação de venda:
+>
+> 1. A ordem inclui algum produto que seja uma mercadoria de uso duplo?
+> 1. Caso inclua, o país de destino exigirá certificados de uso duplo?
+> 1. Em caso afirmativo, haverá certificados para cada mercadoria de uso duplo para o país de destino, e esses certificados são válidos para as datas de remessa confirmadas?
+> 1. Se as respostas para as perguntas 1 e 2 forem "Sim" e a resposta para a pergunta 3 for "Não", o sistema mostrará um aviso para informar ao usuário que estão faltando certificados de uso duplo para um ou mais mercadorias de uso duplo na ordem de venda. O usuário deve, provavelmente, obter os certificados necessários e tentar novamente, mas poderia anular o aviso e prosseguir com a confirmação de vendas se desejar.
 
 ## <a name="set-up-dual-use-certificates"></a>Configurar certificados de uso duplo
 

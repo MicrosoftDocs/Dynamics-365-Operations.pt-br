@@ -2,7 +2,7 @@
 title: Visão geral do Cálculo de Imposto
 description: Este artigo explica o escopo geral e os recursos do recurso Cálculo de Imposto.
 author: EricWangChen
-ms.date: 03/02/2022
+ms.date: 09/08/2022
 ms.topic: overview
 ms.prod: ''
 ms.technology: ''
@@ -13,12 +13,12 @@ ms.author: wangchen
 ms.search.validFrom: 2021-04-01
 ms.dyn365.ops.version: 10.0.18
 ms.search.form: TaxIntegrationTaxServiceParameters
-ms.openlocfilehash: 2765b922bcc58837c32973b7ca96e0d63eb8b9d6
-ms.sourcegitcommit: 14a27b776befbc6793390f97e8fb0279c0ea18c1
+ms.openlocfilehash: a193db82b2b079c1e10fbfb6bfde7aa43b18bc4a
+ms.sourcegitcommit: dbb997f252377b8884674edd95e66caf8d817816
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/15/2022
-ms.locfileid: "9295979"
+ms.lasthandoff: 09/10/2022
+ms.locfileid: "9465157"
 ---
 # <a name="tax-calculation-overview"></a>Visão geral do Cálculo de Imposto
 
@@ -74,18 +74,10 @@ O Cálculo de Imposto é implantado nas regiões do Azure a seguir. Mais regiõe
 
 | Versão do Finance ou Supply Chain Management | Versão da configuração de imposto               |
 | --------------- | --------------------------------------- |
-| 10.0.18         | Configuração de Imposto - Europa 30.12.82     |
-| 10.0.19         | Configuração de Cálculo do Imposto 36.38.193 |
-| 10.0.20         | Configuração de Cálculo do Imposto 40.43.208 |
-| 10.0.21         | Configuração de Cálculo do Imposto 40.48.215 |
-| 10.0.22         | Configuração de Cálculo do Imposto 40.48.215 |
-| 10.0.23         | Configuração de Cálculo do Imposto 40.50.221 |
-| 10.0.24         | Configuração de Cálculo do Imposto 40.50.225 |
-| 10.0.25         | Configuração de Cálculo do Imposto 40.50.225 |
-| 10.0.26         | Configuração de Cálculo do Imposto 40.54.234 |
-| 10.0.27         | Configuração de Cálculo do Imposto 40.54.234 |
-| 10.0.28         | Configuração de Cálculo do Imposto 40.54.234 |
+| 10.0.30         | Configuração de Cálculo do Imposto 40.55.239 |
 | 10.0.29         | Configuração de Cálculo do Imposto 40.55.236 |
+| 10.0.28         | Configuração de Cálculo do Imposto 40.54.234 |
+| 10.0.27         | Configuração de Cálculo do Imposto 40.54.234 |
 
 
 ## <a name="data-flow"></a>Fluxo de dados
@@ -104,120 +96,27 @@ Aqui está uma descrição do processo de fluxo de dados para o Cálculo de Impo
 
 O Cálculo de Imposto pode ser habilitado por transações. 
 
-As seguintes transações são compatíveis na versão 10.0.21: 
+A tabela a seguir lista as transações com suporte na versão correspondente.
 
-- Vendas
-
-    - Cotação de Venda
-    - Ordem de Venda
-    - Confirmação
-    - Lista de Separação
-    - Guia de Remessa
-    - Fatura de venda
-    - Nota de Crédito
-    - Ordem de retorno
-    - Encargos diversos do cabeçalho
-    - Encargos diversos da linha
-
-- Compra
-
-    - Ordem de Compra
-    - Confirmação
-    - Lista de Recebimentos
-    - Recebimento de produtos
-    - Fatura de compra
-    - Encargos diversos do cabeçalho
-    - Encargos diversos da linha
-    - Nota de Crédito
-    - Ordem de retorno
-    - Requisição de Compra
-    - Encargos diversos da linha de requisição de compra
-    - Solicitação de cotação
-    - Encargos diversos do cabeçalho da solicitação de cotação
-    - Encargos diversos da linha da solicitação de cotação
-
-- Estoque
-
-    - Ordem de transferência – enviar
-    - Ordem de transferência – receber
-
-As seguintes transações são compatíveis na versão 10.0.23: 
-
-- Fatura de texto livre
-
-As seguintes transações são compatíveis na versão 10.0.26: 
-
-- Diários Gerais
-- Diário de faturas de fornecedores
-
-As seguintes transações são compatíveis na versão 10.0.28: 
-
-- Diário de pagamentos do fornecedor
-- Diário de pagamentos do cliente
-
-As seguintes transações são compatíveis na versão 10.0.29: 
-
-
-- Diários periódicos
+| Versão | Transações |
+|---------|--------------|
+| 10.0.29 | Diários periódicos |
+| 10.0.28 | Diário de pagamentos do fornecedor<br> Diário de pagamentos do cliente | 
+| 10.0.26 | Diários Gerais<br> Diário de faturas de fornecedores |
+| 10.0.23 | Fatura de texto livre |
+| 10.0.21| Vendas<br><ul><li>Cotação de Venda</li><li>Ordem de venda</li><li>Confirmação</li><li>Lista de Separação</li><li>Guia de Remessa</li><li>Fatura de venda</li><li>Nota de Crédito</li><li>Ordem de retorno</li><li>Encargos diversos do cabeçalho</li><li>Encargos diversos da linha</li></ul>Compra<br><ul><li>Ordem de Compra</li><li>Confirmação</li><li>Lista de Recebimentos</li><li>Recebimento de produtos</li><li>Fatura de compra</li><li>Encargos diversos do cabeçalho</li><li>Encargos diversos da linha</li><li>Nota de Crédito</li><li>Ordem de retorno</li><li>Requisição de Compra</li><li>Encargos diversos da linha de requisição de compra</li><li>Solicitação de cotação</li><li>Encargos diversos do cabeçalho da solicitação de cotação</li><li>Encargos diversos da linha da solicitação de cotação</li></ul>Inventário<ul><li>Ordem de transferência – enviar</li><li>Ordem de transferência – receber</li></ul>|
 
 ## <a name="supported-countriesregions"></a>Países/regiões com suporte
 
-O cálculo de imposto pode ser executado com os recursos de localização com suporte nos seguintes países/regiões para o endereço principal da entidade legal: 
+O Cálculo de imposto pode ser executado com recursos de localização com suporte. A tabela a seguir lista os países/regiões para o endereço principal de uma entidade legal:
 
-Versão compatível 10.0.21:
-
-- Áustria
-- Bélgica
-- Dinamarca
-- Estônia
-- Finlândia
-- França
-- Alemanha
-- Hungria
-- Islândia
-- Irlanda
-- Itália
-- Letônia
-- Lituânia
-- Países Baixos
-- Noruega
-- Polônia
-- Suécia
-- Suíça
-- Reino Unido
-- Estados Unidos
-
-Versão compatível 10.0.22:
-
-- Austrália
-- Barein
-- Canadá
-- Egito
-- RAE de Hong Kong
-- Kuwait
-- Nova Zelândia
-- Omã
-- Catar
-- Arábia Saudita
-- África do Sul
-- Emirados Árabes Unidos
-
-Versão compatível 10.0.23:
-
-- Tailândia
-- Japão
-- Malásia
-- Singapura
-
-Versão compatível 10.0.24:
-
-- México
-
-Versão compatível 10.0.26:
-
-- China
-- República Tcheca
-- Espanha
+| Versão | País/região |
+|---------|----------------|
+| 10.0.26 | - China <br>- República Tcheca<br>- Espanha |
+| 10.0.24 | México |
+| 10.0.23 | - Tailândia <br>- Japão <br>- Malásia <br>- Singapura |
+| 10.0.22 | - Austrália<br>- Barein <br>- Canadá<br>- Egito <br>- RAE de Hong Kong <br>- Kuwait <br>- Nova Zelândia <br>- Omã <br>- Catar <br>- Arábia Saudita <br>- África do Sul <br>- Emirados Árabes Unidos |
+| 10.0.21 | - Áustria <br>- Bélgica <br>- Dinamarca <br>- Estônia <br>- Finlândia <br>- França <br>- Alemanha <br>- Hungria <br>- Islândia <br>- Irlanda <br>- Itália <br>- Letônia <br>- Lituânia <br>- Países Baixos <br>- Noruega <br>- Polônia <br>- Suécia <br>- Suíça <br>- Reino Unido <br>- Estados Unidos |
 
 Para qualquer país/região não localizado pela Microsoft, o cálculo de imposto também pode ser habilitado e executado com outros recursos globais.
 

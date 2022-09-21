@@ -9,17 +9,16 @@ ms.reviewer: v-chgriffin
 ms.search.region: Global
 ms.author: asharchw
 ms.search.validFrom: 2022-02-28
-ms.openlocfilehash: ced471dd7e3e4c3e9be938b295edaad626a890a3
-ms.sourcegitcommit: 92c4506be7dc14078e3c4f1d182edd895d64ffe0
+ms.openlocfilehash: 6fd851ce6b32d0772c3fe23c4d7bd4dae2616fdc
+ms.sourcegitcommit: b1df4db7facb5e7094138836c41a65c4a158f01d
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/10/2022
-ms.locfileid: "9247645"
+ms.lasthandoff: 09/13/2022
+ms.locfileid: "9474117"
 ---
 # <a name="product-comparison-modules"></a>Módulos de comparação de produtos
 
 [!include [banner](../includes/banner.md)]
-[!include [banner](../includes/preview-banner.md)]
 
 Este artigo descreve os módulos de comparação de produtos e como implementá-los para que os clientes possam fazer comparações de produtos nos sites de comércio eletrônico do Microsoft Dynamics 365 Commerce.
 

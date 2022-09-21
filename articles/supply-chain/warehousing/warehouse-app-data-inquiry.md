@@ -11,12 +11,12 @@ ms.search.region: Global
 ms.author: perlynne
 ms.search.validFrom: 2022-08-01
 ms.dyn365.ops.version: 10.0.29
-ms.openlocfilehash: cc013e962b4da803764f16e451b1d433666e75c2
-ms.sourcegitcommit: 203c8bc263f4ab238cc7534d4dd902fd996d2b0f
+ms.openlocfilehash: 39677ebfb9babeb7246ece4d27ab1813435ca12e
+ms.sourcegitcommit: 3d7ae22401b376d2899840b561575e8d5c55658c
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/23/2022
-ms.locfileid: "9336595"
+ms.lasthandoff: 09/08/2022
+ms.locfileid: "9427839"
 ---
 # <a name="query-data-using-warehouse-management-mobile-app-detours"></a>Consultar dados usando desvios do aplicativo móvel do Warehouse Management
 
@@ -268,6 +268,6 @@ Siga estas etapas para testar a configuração do seu novo aplicativo móvel.
     ![Recebimento de compra usando a pesquisa da OC por fornecedor, exemplo 2.](media/wma-purchase-receive-lookup-po-vendor-detours.png "Recebimento de compra usando a pesquisa da OC por fornecedor, exemplo 2")
 
 > [!TIP]
-> Em vez de executar o fluxo de recebimento, fazendo uma pesquisa no item de menu **Recebimento de compra**, você pode iniciar a partir de um fluxo de consulta (**Consulta \> Principal \>, Pesquisar OCs por fornecedor**) e chamar um desvio para executar o fluxo desejado, selecionando um dos cartões da lista. Para usar essa abordagem, você pode definir um desvio na página **Etapas do dispositivo móvel** para a etapa que tem um valor de **ID da Etapa** de *GenericDataInquiryList*. Como esse fluxo é um fluxo de desvio, você não pode chamar mais desvios a partir dele. Portanto, quando você chegar à tela de entrada de número de item, por exemplo, a pesquisa não estará disponível nela, pois o sistema oferece suporte apenas a um nível de desvios.
+> Em vez de executar o fluxo de recebimento, fazendo uma pesquisa no item de menu **Recebimento de compra**, você pode iniciar a partir de um fluxo de consulta (**Consulta \> Principal \>, Pesquisar OCs por fornecedor**) e chamar um desvio para executar o fluxo desejado, selecionando um dos cartões da lista. Para usar essa abordagem, você pode definir um desvio na página **Etapas do dispositivo móvel** para a etapa que tem um valor de **ID da Etapa** de *GenericDataInquiryList*. Desde que o recurso [*Desvios de vários níveis para o aplicativo móvel Warehouse Management*](warehouse-app-detours.md) esteja ativado para seu sistema, você também pode adicionar outros desvios, se necessário (esse recurso adiciona suporte a até dois níveis de desvios e pode ser personalizado para dar suporte a níveis adicionais).
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

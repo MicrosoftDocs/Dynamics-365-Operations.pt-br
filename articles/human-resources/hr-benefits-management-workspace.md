@@ -14,21 +14,16 @@ ms.search.region: Global
 ms.author: twheeloc
 ms.search.validFrom: 2020-02-24
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 35c38ad25380b940d050b4e498fabca017c35997
-ms.sourcegitcommit: 203c8bc263f4ab238cc7534d4dd902fd996d2b0f
+ms.openlocfilehash: 975b620dc911d154f6f67420a957bd72c02321ed
+ms.sourcegitcommit: 6b013a423ed91973d60a895330046db2a07d92c4
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/23/2022
-ms.locfileid: "9336828"
+ms.lasthandoff: 09/12/2022
+ms.locfileid: "9472704"
 ---
 # <a name="benefits-management-workspace"></a>Espaço de trabalho de gerenciamento de benefícios
 
-[!include [preview feature](./includes/preview-feature.md)]
-
 Este artigo descreve o espaço de trabalho **Gerenciamento de benefícios** no Dynamics 365 Human Resources.
-
-> [!NOTE]
-> Para exibir o espaço de trabalho **Gerenciamento de benefícios**, você deve primeiro habilitar o recurso **(Versão preliminar) Espaço de trabalho de gerenciamento de benefícios** no Gerenciamento de recursos. Para obter mais informações sobre como habilitar os recursos de visualização, consulte [Gerenciar recursos](hr-admin-manage-features.md).<br><br>![Habilitar espaço de trabalho Gerenciamento de benefícios.](./media/hr-benefits-management-workspace-enable.png)
 
 O espaço de trabalho **Gerenciamento de benefícios** fornece uma exibição rápida dos itens de benefícios que exigem sua atenção. Nesta página, você pode ver:
 

@@ -12,12 +12,12 @@ ms.search.region: Global
 ms.author: kfend
 ms.search.validFrom: 2020-03-02
 ms.dyn365.ops.version: Platform update 33
-ms.openlocfilehash: 83fa9d0a08d4d9ec171aeee685d39bba46e5687d
-ms.sourcegitcommit: 6fd44fc6e9a7bad197cab58c36ec25a555724cf1
+ms.openlocfilehash: 070c61df14db4d2538b129b01defd4b82db0b8a7
+ms.sourcegitcommit: 9c637bcf4e2eb8f711290a861492f038feaf1568
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 09/07/2022
-ms.locfileid: "9410441"
+ms.lasthandoff: 09/09/2022
+ms.locfileid: "9462292"
 ---
 # <a name="removed-or-deprecated-features-in-dynamics-365-finance"></a>Recursos removidos ou preteridos no Dynamics 365 Finance
 
@@ -45,7 +45,7 @@ Esta lista é destinada a ajudá-lo a considerar essas remoções e reprovaçõe
 | **Substituída por outro recurso?**   | Sim |
 | **Áreas afetadas do produto** | Aplicativo |
 | **Opção de implantação** | Todos |
-| **Status** | Preterido: depois de abril de 2023, a funcionalidade Reconhecimento de receita no Dynamics 365 Finance não receberá mais suporte com correções de bugs. Será solicitado que os clientes usem a funcionalidade aprimorada, [Cobrança de assinatura](../../finance/accounts-receivable/subscription-billing-summary.md). Em outubro de 2023, o recurso Reconhecimento de receita não estará mais disponível. Será solicitado que os clientes migrem para a funcionalidade aprimorada Cobrança de assinatura.|
+| **Status** | Preterido: depois de abril de 2023, a funcionalidade Reconhecimento de receita no Dynamics 365 Finance não receberá mais suporte com correções de bugs. Será solicitado que os clientes usem a funcionalidade aprimorada, [Cobrança de assinatura](../../finance/accounts-receivable/subscription-billing-summary.md). Em outubro de 2023, o recurso Reconhecimento de receita não estará mais disponível. Será solicitado que os clientes migrem para a funcionalidade aprimorada Cobrança de assinatura. Para o recurso de pacote como parte do reconhecimento de receita, não há funcionalidade de substituição planejada neste momento.|
 
 ## <a name="features-removed-or-deprecated-in-the-finance-10029-release"></a>Recursos removidos ou substituídos na versão 10.0.29 do Finance
 

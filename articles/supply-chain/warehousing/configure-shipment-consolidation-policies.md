@@ -2,7 +2,7 @@
 title: Configurar políticas de consolidação de remessa
 description: Este artigo explica como configurar políticas de consolidação de remessa padrão e personalizadas.
 author: Mirzaab
-ms.date: 08/09/2022
+ms.date: 09/07/2022
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: mirzaab
 ms.search.validFrom: 2020-05-01
 ms.dyn365.ops.version: 10.0.3
-ms.openlocfilehash: 4583d523811cb41518a0a4dae0d67398d64cab44
-ms.sourcegitcommit: 203c8bc263f4ab238cc7534d4dd902fd996d2b0f
+ms.openlocfilehash: 0312d425d2ebc5311e894030423a916b90f1881a
+ms.sourcegitcommit: 3d7ae22401b376d2899840b561575e8d5c55658c
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/23/2022
-ms.locfileid: "9336482"
+ms.lasthandoff: 09/08/2022
+ms.locfileid: "9427973"
 ---
 # <a name="configure-shipment-consolidation-policies"></a>Configurar políticas de consolidação de remessa
 
@@ -28,75 +28,49 @@ O processo de consolidação de remessa que usa políticas de consolidação de 
 
 Os cenários apresentados neste artigo mostram como configurar políticas de consolidação de remessa padrão e personalizadas.
 
-## <a name="turn-on-the-shipment-consolidation-policies-feature"></a>Ative o recurso de políticas de consolidação de remessa
+> [!WARNING]
+> Se você atualizar um sistema Microsoft Dynamics 365 Supply Chain Management no qual esteve usando o recurso de consolidação de remessa herdada, a consolidação pode parar de funcionar como esperado, a menos que você siga o aviso fornecido aqui.
+>
+> Em instalações do Supply Chain Management em que o recurso *Políticas de consolidação de remessa* está desativado, habilite a consolidação de remessa usando a configuração **Consolidar remessa na liberação para o depósito** para cada depósito individual. Este recurso é obrigatório a partir da versão 10.0.29. Quando estiver ativado, a configuração **Consolidar remessa na liberação para o depósito** será ocultada e a funcionalidade será substituída pelas *Políticas de consolidação de remessa* descritas neste artigo. Cada política estabelece regras de consolidação e inclui uma consulta para controlar o local em que a política se aplica. Quando você ativar o recurso pela primeira vez, nenhuma política de consolidação de remessa será definida na página **Políticas de consolidação de remessa**. Quando nenhuma política é definida, o sistema usa o comportamento herdado. Portanto, cada depósito existente continuará respeitando a configuração **Consolidar remessa na liberação para o depósito**, mesmo que a configuração esteja oculta. No entanto, depois de criar pelo menos uma política de consolidação de remessa, as configurações **Consolidar remessa na liberação para o depósito** não terão mais efeito algum e a funcionalidade de consolidação será totalmente controlada pelas políticas.
+>
+> Depois de definir pelo menos uma política de consolidação de remessa, o sistema verificará as políticas de consolidação toda vez que uma ordem for liberada para o depósito. O sistema processa as políticas usando a classificação definida pelo valor **Sequência de políticas** de cada política. Ele aplica a primeira política em que a consulta corresponde à nova ordem. Se nenhuma consulta corresponder à ordem, cada ordem gerará uma remessa separada com uma única linha de carga. Portanto, como alternativa, recomendamos que você crie uma política padrão que se aplique a todos os depósitos e grupos por número de ordem. Dê a essa política de fallback o maior valor de **Sequência de políticas**, para que ela seja processada por último.
+>
+> Para reproduzir o comportamento herdado, você deve criar uma política que não agrupe por número de ordem e que tenha critérios de consulta que incluam todos os depósitos relevantes.
 
-> [!IMPORTANT]
-> No [primeiro cenário](#scenario-1) descrito neste artigo, primeiro você configurará um depósito para que use o recurso de consolidação de remessa anterior. Em seguida, você criará as políticas de consolidação de remessa disponíveis. Dessa forma, você pode perceber como o cenário de atualização funciona. Se você pretende usar um ambiente de dados de demonstração para passar pelo primeiro cenário, não ative o recurso antes de concluir o cenário.
+## <a name="turn-on-the-shipment-consolidation-policies-feature"></a>Ative o recurso de políticas de consolidação de remessa
 
 Para usar o recurso *Políticas de consolidação de remessa*, ele precisa estar ativado no sistema. A partir do Supply Chain Management versão 10.0.29, o recurso é obrigatório e não pode ser desativado. Se você estiver executando uma versão anterior à 10.0.29, os administradores poderão ativar ou desativar essa funcionalidade procurando o recurso *Políticas de consolidação da remessa* no espaço de trabalho [Gerenciamento de recursos](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md).
 
-## <a name="make-demo-data-available"></a>Disponibilizar dados de demonstração
+## <a name="set-up-your-initial-consolidation-policies"></a><a name="initial-policies"></a>Configurar suas políticas de consolidação iniciais
 
-Cada cenário neste artigo faz referência a valores e registros incluídos nos dados de demonstração padrão que são fornecidos para o Microsoft Dynamics 365 Supply Chain Management. Se você deseja usar os valores fornecidos aqui ao fazer os exercícios, procure trabalhar em um ambiente no qual os dados de demonstração estejam instalados e defina a entidade legal como **USMF** antes de começar.
-
-## <a name="scenario-1-configure-default-shipment-consolidation-policies"></a><a name="scenario-1"></a>Cenário 1: configurar políticas de consolidação de remessa padrão
-
-Há duas situações em que você deve configurar o número mínimo de políticas padrão depois de ativar o recurso *Políticas de consolidação de remessa*:
-
-- Você está atualizando um ambiente que já contém dados.
-- Você está configurando um ambiente completamente novo.
-
-### <a name="upgrade-an-environment-where-warehouses-are-already-configured-for-cross-order-consolidation"></a>Atualizar um ambiente no qual os depósitos já estão configurados para consolidação de ordem cruzada
-
-Ao iniciar este procedimento, o recurso *Políticas de consolidação de remessa* deve ser desativado para simular um ambiente no qual o recurso de consolidação de ordem cruzada básico já foi usado. Em seguida, você usará o gerenciamento de recursos para ativar o recurso, de forma que possa saber como configurar políticas de consolidação de remessa após a atualização.
-
-Siga estas etapas para configurar políticas de consolidação de remessa padrão em um ambiente em que os depósitos já foram configurados para consolidação de ordem cruzada.
-
-1. Acesse **Gerenciamento de depósito \> Configuração \> Depósito \> Depósitos**.
-1. Na lista, localize e abra o registro de depósito desejado (por exemplo, depósito *24* nos dados de demonstração **USMF**).
-1. No Painel de Ações, selecione **Editar**.
-1. Na Guia Rápida **Depósito**, defina a opção **Consolidar a remessa na liberação para o depósito** como *Sim*.
-1. Repita as etapas 2 a 4 para todos os outros depósitos nos quais a consolidação é necessária.
-1. Feche a página.
-1. Acesse **Gerenciamento de depósito \> Configuração \> Liberar para depósito \> Políticas de consolidação de remessa**. Talvez seja necessário atualizar o navegador para ver o novo item de menu **Políticas de consolidação de remessa** depois que você ativar o recurso.
-1. No Painel de Ações, selecione **Criar configuração padrão** para criar as seguintes políticas:
-
-    - Uma política **CrossOrder** para o tipo de política *Ordens de venda* (desde que haja pelo menos um depósito configurado para usar o recurso de consolidação anterior)
-    - Uma política **padrão** para o tipo de política *Ordens de venda*
-    - Uma política **padrão** para o tipo de política *Saída de transferência*
-    - Uma política **CrossOrder** para o tipo de política *Saída de transferência* (desde que haja pelo menos um depósito configurado para usar o recurso de consolidação anterior)
-
-    > [!NOTE]
-    > - As duas políticas **CrossOrder** consideram o mesmo conjunto de campos que a lógica anterior, exceto para o campo do número da ordem. (Esse campo é usado para consolidar linhas em remessas, com base em fatores como o depósito, o modo de transporte de entrega e o endereço.)
-    > - As duas políticas **padrão** consideram o mesmo conjunto de campos que a lógica anterior, incluindo o campo do número da ordem. (Esse campo é usado para consolidar linhas em remessas, com base em fatores como o número da ordem, o modo de transporte de entrega e o endereço).
-
-1. Selecione a política **CrossOrder** para o tipo de política *Ordens de venda*. Depois, no Painel de Ações, selecione **Editar consulta**.
-1. Na caixa de diálogo Editor de consultas, observe que são listados os depósitos em que a opção **Consolidar a remessa na liberação para o depósito** está definida como *Sim*. Portanto, eles são incluídos na consulta.
-
-### <a name="create-default-policies-for-a-new-environment"></a>Criar políticas padrão para um novo ambiente
-
-Siga estas etapas para configurar políticas de consolidação de remessa padrão em um ambiente totalmente novo.
+Se você estiver trabalhando com um novo sistema ou um sistema no qual você acabou de ativar o recurso *Políticas de consolidação de remessa* pela primeira vez, siga estas etapas para configurar suas diretivas de consolidação de remessa iniciais.
 
 1. Acesse **Gerenciamento de depósito \> Configuração \> Liberar para depósito \> Políticas de consolidação de remessa**.
 1. No Painel de Ações, selecione **Criar configuração padrão** para criar as seguintes políticas:
 
-    - Uma política **padrão** para o tipo de política *Ordens de venda*
-    - Uma política **padrão** para o tipo de política *Saída de transferência*
+    - Uma política que tem o nome *Padrão* para o tipo de política *Ordens de venda*.
+    - Uma política que tem o nome *Padrão* para o tipo de política *Emissão de transferência*.
+    - Uma política que tem o nome *CrossOrder* para o tipo de política *Emissão de transferência*. (Essa diretiva é criada somente se você tiver pelo menos um depósito no qual a configuração herdada **Consolidar remessa na liberação para o depósito** tiver sido habilitada.)
+    - Uma política que tem o nome *CrossOrder* para o tipo de política *Ordens de venda*. (Essa diretiva é criada somente se você tiver pelo menos um depósito no qual a configuração herdada **Consolidar remessa na liberação para o depósito** tiver sido habilitada.)
 
     > [!NOTE]
-    > As duas políticas **padrão** consideram o mesmo conjunto de campos que a lógica anterior, incluindo o campo do número da ordem. (Esse campo é usado para consolidar linhas em remessas, com base em fatores como o número da ordem, o modo de transporte de entrega e o endereço).
+    > - As duas políticas *CrossOrder* consideram o mesmo conjunto de campos que a lógica anterior. No entanto, eles também consideram o campo número da ordem. (Esse campo é usado para consolidar linhas em remessas, com base em fatores como o depósito, o modo de transporte de entrega e o endereço.)
+    > - As duas políticas *Padrão* consideram o mesmo conjunto de campos que a lógica anterior. No entanto, eles também consideram o campo número da ordem. (Esse campo é usado para consolidar linhas em remessas, com base em fatores como o número da ordem, o modo de transporte de entrega e o endereço).
 
-## <a name="scenario-2-configure-custom-shipment-consolidation-policies"></a>Cenário 2: configurar políticas de consolidação de remessa personalizadas
+1. Se o sistema tiver gerado uma política *CrossOrder* para o tipo de política *Ordens de venda*, selecione-a e ,depois, no Painel de Ações, selecione **Editar consulta**. No editor de consultas, você pode ver para qual dos seus depósitos a configuração **Consolidar remessa na liberação para o depósito** foi habilitada. Portanto, essa política reproduz as configurações anteriores para esses depósitos.
+1. Personalize as novas políticas padrão, conforme a necessidade, adicionando ou removendo campos e/ou editando as consultas. Você também pode adicionar quantas políticas forem necessárias. Para obter exemplos que mostram como personalizar e configurar suas políticas, consulte o cenário de exemplo mais adiante neste artigo.
 
-Este cenário mostra como configurar políticas de consolidação de remessa personalizadas. As políticas personalizadas podem dar suporte aos requisitos de negócios complexos em que a consolidação de remessa depende de várias condições. Para cada exemplo de política mais adiante neste cenário, é incluída uma breve descrição do caso de negócio. Essas políticas de exemplo devem ser configuradas em uma sequência que garanta uma avaliação do tipo pirâmide das consultas. (Em outras palavras, as políticas com mais condições devem ser avaliadas como as de maior prioridade.)
+## <a name="scenario-configure-custom-shipment-consolidation-policies"></a>Cenário: configurar políticas de consolidação de remessa personalizadas
 
-### <a name="turn-on-the-feature-and-prepare-master-data-for-this-scenario"></a>Ativar o recurso e preparar dados mestre para este cenário
+Este cenário fornece um exemplo que mostra como configurar políticas de consolidação de remessa personalizadas e testá-las usando dados de demonstração. As políticas personalizadas podem dar suporte aos requisitos de negócios complexos em que a consolidação de remessa depende de várias condições. Para cada exemplo de política mais adiante neste cenário, é incluída uma breve descrição do caso de negócio. Essas políticas de exemplo devem ser configuradas em uma sequência que garanta uma avaliação do tipo pirâmide das consultas. (Em outras palavras, as políticas com mais condições devem ser avaliadas como as de maior prioridade.)
 
-Antes de passar pelos exercícios deste cenário, você deve ativar o recurso e preparar os dados mestre necessários para fazer a filtragem, conforme descrito nas subseções a seguir. (Esses pré-requisitos também se aplicam aos cenários listados em [Exemplos de cenários de como usar políticas de consolidação de remessa](#example-scenarios).)
+### <a name="make-demo-data-available"></a>Disponibilizar dados de demonstração
 
-#### <a name="turn-on-the-feature-and-create-the-default-policies"></a>Ativar o recurso e criar as políticas padrão
+Este cenário faz referência a valores e registros incluídos nos [dados de demonstração](../../fin-ops-core/fin-ops/get-started/demo-data.md) padrão que são fornecidos para o Supply Chain Management. Se você deseja usar os valores fornecidos aqui ao fazer os exercícios, procure trabalhar em um ambiente no qual os dados de demonstração estejam instalados e defina a entidade legal como *USMF* antes de começar.
 
-Use o gerenciamento de recursos para ativar o recurso, caso ainda não tenha sido ativado, e crie as regras de consolidação padrão descritas no [cenário 1](#scenario-1).
+### <a name="prepare-master-data-for-this-scenario"></a>Preparar dados mestres para este cenário
+
+Antes de passar pelos exercícios deste cenário, você deve preparar os dados mestre necessários para fazer a filtragem, conforme descrito nas subseções a seguir. (Esses pré-requisitos também se aplicam aos cenários que são listados na seção [Exemplos de cenários de como usar políticas de consolidação de remessa](#example-scenarios).)
 
 #### <a name="create-two-new-product-filter-codes"></a>Criar dois novos códigos de filtro de produtos
 
@@ -300,7 +274,7 @@ Neste exemplo, você criará uma política *Depósitos permitem consolidação* 
 - A consolidação com remessas abertas está desativada.
 - A consolidação é realizada em ordens usando os campos selecionados pela política CrossOrder padrão (para replicar a caixa de seleção **Consolidar a remessa na liberação para o depósito** anterior).
 
-Normalmente, esse caso de negócios pode ser resolvido usando as políticas padrão criadas no [cenário 1](#scenario-1). No entanto, você também pode criar manualmente políticas semelhantes seguindo essas etapas.
+Normalmente, esse caso de negócios pode ser resolvido usando as políticas padrão criadas no [Configurar suas políticas de consolidação iniciais](#initial-policies). No entanto, você também pode criar manualmente políticas semelhantes seguindo essas etapas.
 
 1. Acesse **Gerenciamento de depósito \> Configuração \> Liberar para depósito \> Políticas de consolidação de remessa**.
 1. Defina o campo **Tipo de política** como *Ordens de venda*.
@@ -345,7 +319,7 @@ Os cenários a seguir ilustram como você pode usar as políticas de consolidaç
 
 ## <a name="additional-resources"></a>Recursos adicionais
 
-- [Políticas de consolidação da remessa](about-shipment-consolidation-policies.md)
+- [Visão geral de políticas de consolidação de remessa](about-shipment-consolidation-policies.md)
 
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

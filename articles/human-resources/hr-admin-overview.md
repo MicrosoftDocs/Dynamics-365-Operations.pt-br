@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: twheeloc
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: ec214ef4ebb6ecb72c1684c515df25d3c2403c14
-ms.sourcegitcommit: 6616b969afd6beb11a79d8e740560bf00016ea7f
+ms.openlocfilehash: 1784b3c57bf1e6145085482d9068fad39ababc17
+ms.sourcegitcommit: ec15857b753ebedd86503170efd54c8007b87231
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/17/2022
-ms.locfileid: "9027124"
+ms.lasthandoff: 09/13/2022
+ms.locfileid: "9475629"
 ---
 # <a name="administration-overview"></a>Visão geral de administração
 
@@ -46,10 +46,10 @@ Este artigo fornece uma lista dos tópicos da ajuda e de outros recursos para co
   - [Configurar a integração com o Dayforce](hr-admin-integration-dayforce.md)
   - [Criar um aplicativo de exportação de dados recorrente](hr-admin-integration-recurring-data-export.md)
   - Integrar com o Office
-    - [Tutorial de integração do Office](../fin-ops-core/dev-itpro/office-integration/office-integration-tutorial.md?toc=%2fdynamics365%2funified-operations%2ftalent%2ftoc.json)
-    - [Atualizar dados da entidade no Excel](../fin-ops-core/dev-itpro/office-integration/use-excel-add-in.md?toc=%2fdynamics365%2funified-operations%2ftalent%2ftoc.json)
-    - [Criar experiências de Abrir no Excel](../fin-ops-core/dev-itpro/office-integration/office-integration-edit-excel.md?toc=%2fdynamics365%2funified-operations%2ftalent%2ftoc.json)
-    - [Solucionar problemas de integração do Office](../fin-ops-core/dev-itpro/office-integration/office-integration-troubleshooting.md?toc=%2fdynamics365%2funified-operations%2ftalent%2ftoc.json)
+    - [Tutorial de integração do Office](../fin-ops-core/dev-itpro/office-integration/office-integration-tutorial.md?toc=/dynamics365/unified-operations/talent/toc.json)
+    - [Atualizar dados da entidade no Excel](../fin-ops-core/dev-itpro/office-integration/use-excel-add-in.md?toc=/dynamics365/unified-operations/talent/toc.json)
+    - [Criar experiências de Abrir no Excel](../fin-ops-core/dev-itpro/office-integration/office-integration-edit-excel.md?toc=/dynamics365/unified-operations/talent/toc.json)
+    - [Solucionar problemas de integração do Office](../fin-ops-core/dev-itpro/office-integration/office-integration-troubleshooting.md?toc=/dynamics365/unified-operations/talent/toc.json)
 
 - [Gerenciar recursos](hr-admin-manage-features.md)
 
@@ -100,7 +100,7 @@ Este artigo fornece uma lista dos tópicos da ajuda e de outros recursos para co
 ## <a name="additional-resources"></a>Recursos adicionais
 
 ### <a name="elearning-courses"></a>Cursos de eLearning
-Para saber sobre cursos e treinamentos online, confira [Dynamics 365 Human Resources no Microsoft Learn](/learn/browse/?products=dynamics-human-resources&resource_type=learning%20path).
+Para saber sobre cursos e treinamentos online, confira [Dynamics 365 Human Resources](/learn/browse/?products=dynamics-human-resources&resource_type=learning%20path).
 
 ### <a name="videos"></a>Vídeos
 

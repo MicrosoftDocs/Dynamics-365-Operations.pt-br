@@ -2,7 +2,7 @@
 title: Inspecionar o componente de ER configurado para evitar problemas de runtime
 description: Este artigo explica como inspecionar os componentes de Relatório Eletrônico (ER) configurados para evitar problemas de runtime.
 author: kfend
-ms.date: 01/03/2022
+ms.date: 09/14/2022
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -15,12 +15,12 @@ ms.dyn365.ops.version: Version 7.0.0
 ms.custom: 220314
 ms.assetid: ''
 ms.search.form: ERSolutionTable, ERDataModelDesigner, ERModelMappingTable, ERModelMappingDesigner, EROperationDesigner
-ms.openlocfilehash: 53835bbceaa89793d890d8bc18921497c686e969
-ms.sourcegitcommit: 87e727005399c82cbb6509f5ce9fb33d18928d30
+ms.openlocfilehash: 1ca59d6c26dbcf065adb952409da30002d951f62
+ms.sourcegitcommit: a1d14836b40cfc556f045c6a0d2b4cc71064a6af
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/12/2022
-ms.locfileid: "9277840"
+ms.lasthandoff: 09/14/2022
+ms.locfileid: "9476845"
 ---
 # <a name="inspect-the-configured-er-component-to-prevent-runtime-issues"></a>Inspecionar o componente de ER configurado para evitar problemas de runtime
 
@@ -243,6 +243,15 @@ A tabela a seguir fornece uma visão geral das inspeções fornecidas pelo ER. P
 <td>
 <p>A expressão de lista da função ORDERBY não pode ser consultada.</p>
 <p><b>Erro de runtime:</b> não há suporte para classificação. Valide a configuração para obter mais detalhes sobre esse erro.</p>
+</td>
+</tr>
+<tr>
+<td><a href='#i19'>Artefato de aplicativo obsoleto</a></td>
+<td>Integridade dos dados</td>
+<td>Aviso</td>
+<td>
+<p>O elemento &lt;path&gt; está marcado como obsoleto.<br>ou<br>O elemento &lt;path&gt; está marcado como obsoleto com a mensagem &lt;message text&gt;.</p>
+<p><b>Exemplo de erro de tempo de execução:</b> classe "&lt;path&gt;" não encontrada.</p>
 </td>
 </tr>
 </tbody>
@@ -942,6 +951,36 @@ Em vez de adicionar um campo aninhado do tipo **Campo calculado** à fonte de da
 #### <a name="option-2"></a>Opção 2
 
 Altere a expressão da fonte de dados **FilteredVendors** de `ORDERBY("Query", Vendor, Vendor.AccountNum)` para `ORDERBY("InMemory", Vendor, Vendor.AccountNum)`. Não é recomendável alterar a expressão para uma tabela com um grande volume de dados (tabela transacional), pois todos os registros serão buscados e a ordenação dos registros necessários será feita na memória. Portanto, essa abordagem pode causar um baixo desempenho.
+
+## <a name="obsolete-application-artifact"></a><a id="i19"></a>Artefato de aplicativo obsoleto
+
+Ao criar um componente de mapeamento de modelo ER ou um componente de formato ER, você pode configurar uma expressão ER para chamar um artefato de aplicativo no ER, como uma tabela de banco de dados, um método de uma classe, etc. No Finance versão 10.0.30 e posterior, você pode forçar o ER para que avise você de que o artefato de aplicativo referido é marcado no código-fonte como obsoleto. Este aviso pode ser útil porque geralmente, os artefatos obsoletos são eventualmente removidos do código-fonte. Ser informado sobre o status de um artefato pode impedir que você use o artefato obsoleto no componente ER editável antes da remoção do código-fonte, ajudando a evitar erros de chamada de artefatos de aplicativos não existentes de um componente ER no tempo de execução.
+
+Habilite o recurso **Validar elementos obsoletos de fontes de dados de relatórios eletrônicos** no espaço de trabalho **Gerenciamento de recursos** para iniciar a avaliação do atributo obsoleto dos artefatos do aplicativo durante a inspeção de um componente de ER editável. O atributo obsoleto é avaliado atualmente para os seguintes tipos de artefatos de aplicativo:
+
+- Tabela de banco de dados
+    - Campo de uma tabela
+    - Método de uma tabela
+- Classe de aplicativo
+    - Método de uma classe
+
+> [!NOTE]
+> Um aviso ocorre durante a inspeção do componente de ER editável para uma fonte de dados que se refere a um artefato obsoleto somente quando essa fonte de dados é usada em pelo menos uma associação deste componente de ER.
+
+> [!TIP]
+> Quando a classe [SysObsoleteAttribute](../dev-ref/xpp-attribute-classes.md#sysobsoleteattribute) é usada para notificar o compilador sobre a emissão de mensagens de aviso em vez de erros, o aviso de inspeção apresenta o aviso de código de origem especificado em tempo de design na guia **Detalhes** do **Designer de mapeamento de modelos** ou da página **Designer de formato**.
+
+A ilustração a seguir mostra o aviso de validação que ocorre quando o campo obsoleto `DEL_Email` da tabela de aplicativo `CompanyInfo` é vinculado a um campo de modelo de dados usando a fonte de dados configurada `company`.
+
+![Revise os avisos de validação na guia Detalhes na página Designer de mapeamento de modelo.](./media/er-components-inspections-19a.png)
+
+### <a name="automatic-resolution"></a>Resolução automática
+
+Nenhuma opção para corrigir esse problema automaticamente está disponível.
+
+### <a name="manual-resolution"></a>Resolução manual
+
+Modifique o formato ou o mapeamento de modelo configurado, removendo todas as vinculações a uma fonte de dados que se refere a um artefato de aplicativo obsoleto.
 
 ## <a name="additional-resources"></a>Recursos adicionais
 

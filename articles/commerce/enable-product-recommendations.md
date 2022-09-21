@@ -2,7 +2,7 @@
 title: Habilitar recomendações de produtos
 description: Este artigo explica como fazer recomendações de produto com base na inteligência artificial-aprendizado de máquina (AI-ML) disponível para clientes do Microsoft Dynamics 365 Commerce.
 author: bebeale
-ms.date: 08/31/2021
+ms.date: 09/08/2022
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -16,12 +16,12 @@ ms.search.industry: Retail, eCommerce
 ms.author: bebeale
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: 3dceec9e8e994a81b43cd5d1bd13970f2d246f40
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: fc1b43fa70e6652d38b1141e2d93cf323f70a756
+ms.sourcegitcommit: f88273627ba105ede27f28fe67ccec2d7f78261c
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8892062"
+ms.lasthandoff: 09/09/2022
+ms.locfileid: "9460012"
 ---
 # <a name="enable-product-recommendations"></a>Habilitar recomendações de produtos
 
@@ -36,12 +36,19 @@ Este artigo explica como fazer recomendações de produto com base na inteligên
 1. Confirme se a configuração da entidade Azure AD contém uma entrada para Recomendações. Veja a seguir mais informações sobre como executar essa ação.
 1. Verifique se a atualização diária do Repositório de entidades para o Azure Data Lake Storage Gen2 foi agendada. Para obter mais informações, consulte [Garantir se a atualização do armazenamento de entidade foi automatizada](../fin-ops-core/dev-itpro/data-entities/entity-store-data-lake.md).
 1. Habilite as medidas de RetailSale para o Repositório de entidades. Para obter mais informações sobre a configuração deste processo, consulte [Trabalhar com medidas](/dynamics365/ai/customer-insights/pm-measures).
+1. Verifique se o seu ambiente configurou as regiões de fornecimento e preparação nas regiões com suporte no momento, da seguinte maneira:
+
+    - **Regiões de preparação com suporte:** UE/EUA/CA/AU.
+    - **Regiões de fornecimento com suporte:** UE/EUA/CA/AU. Se a região de servidor não corresponder a uma das regiões com suporte existentes, o serviço de recomendações selecionará a região de serviços mais próxima aceita.
 
 Depois que as etapas acima tiverem sido concluídas, você estará pronto para habilitar as recomendações.
 
+> [!NOTE]
+> Há um problema conhecido em que as recomendações não aparecem após a conclusão das etapas a seguir. Esse problema é causado por problemas de fluxo de dados no ambiente. Se o seu ambiente não mostrar resultados de recomendação, configure os dados alternativos para o serviço de recomendações seguindo as etapas em [Configurar um fluxo de informações alternativo para recomendações](set-up-alternate-data-flow.md). Você deve ter permissões de administrador do Azure para concluir estas etapas. Se precisar de ajuda, contate o representante da FastTrack.
+
 ## <a name="azure-ad-identity-configuration"></a>Configuração de identidade do Azure AD
 
-Essa etapa é necessária apenas para clientes que executam uma configuração de infraestrutura como um serviço (IaaS). A configuração de identidade do Azure AD é automática para clientes que executam o Azure Service Fabric, mas é recomendável verificar se a configuração está definida como esperado.
+Essa etapa só é necessária para clientes que executam uma configuração de infraestrutura como um serviço (IaaS). A configuração de identidade do Azure AD é automática para clientes que executam o Azure Service Fabric, mas recomendamos verificar se a configuração está definida como esperado.
 
 ### <a name="setup"></a>Configurar
 
@@ -90,13 +97,15 @@ Para saber mais sobre recomendações personalizadas, consulte [Habilitar recome
 
 ## <a name="additional-resources"></a>Recursos adicionais
 
-[Visão geral das recomendações dos produtos](product-recommendations.md)
+[Visão geral das recomendações de produtos](product-recommendations.md)
 
 [Habilitar Azure Data Lake Storage em um ambiente do Dynamics 365 Commerce](enable-adls-environment.md)
 
+[Configurar um fluxo de dados alternativo para recomendações](set-up-alternate-data-flow.md)
+
 [Habilitar recomendações personalizadas](personalized-recommendations.md)
 
-[Habilitar recomendações de "comprar looks semelhantes"](shop-similar-looks.md)
+[Habilitar recomendações de "comprar itens semelhantes"](shop-similar-looks.md)
 
 [Cancelar recomendações personalizadas](personalization-gdpr.md)
 
@@ -111,6 +120,7 @@ Para saber mais sobre recomendações personalizadas, consulte [Habilitar recome
 [Criar recomendações com dados de demonstração](product-recommendations-demo-data.md)
 
 [Perguntas frequentes sobre recomendações de produtos](faq-recommendations.md)
+
 
 
 

@@ -2,7 +2,7 @@
 title: Atualizações de qualidade proativas
 description: Este artigo fornece informações sobre a entrega proativa de atualizações de qualidade.
 author: rashmansur
-ms.date: 08/23/2022
+ms.date: 09/12/2022
 ms.topic: article
 audience: Application User, Developer, IT Pro
 ms.reviewer: sericks
@@ -11,12 +11,12 @@ ms.author: rashmim
 ms.search.validFrom: 2022-08-19
 ms.search.form: ''
 ms.dyn365.ops.version: 10.0.29
-ms.openlocfilehash: 9d81cb15e9a127e7bea7ad9b5e0f50a1ee543f71
-ms.sourcegitcommit: 78e85ad49634cd31459fdb7325cb273352bf1501
+ms.openlocfilehash: 985800aad3711a1b28613f0f82585b4d592cdf58
+ms.sourcegitcommit: de989037d83393bea013cd58c061159765305b4f
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/23/2022
-ms.locfileid: "9338126"
+ms.lasthandoff: 09/13/2022
+ms.locfileid: "9473596"
 ---
 # <a name="proactive-quality-updates"></a>Atualizações de qualidade proativas
 
@@ -58,12 +58,67 @@ Um conjunto de alterações de processo está sendo implementado antes da ativa�
 - **Maior investigação de alterações**: no momento, já existe uma etapa de processo extra para aprovar alterações para inclusão em uma atualização de qualidade. A investigação na etapa extra será maior para ajudar a reduzir o potencial de regressões. Alterações interruptivas não são permitidas em atualizações de qualidade e a maior investigação de alterações ajudará a garantir a atingir esse objetivo.
 - **Visibilidade**: enviamos notificações por email e pelo Lifecycle Services (LCS) para atualizações futuras de qualidade proativa. Além disso, as equipes de suporte e os clientes potenciais de incidentes terão visibilidade sobre onde as atualizações de qualidade foram implantadas de forma proativa.
 - **Fallback de versão**: a liberação de versões será usada para agrupar todas as alterações em uma atualização de qualidade proativa. Se for necessário um fallback após uma implantação proativa, ele poderá ser feito por meio do sistema de liberação de versões.
-- **Designação de sincronização da área restrita**: menos de 20% dos clientes têm várias áreas restritas e mantêm uma área restrita implantada onde a versão corresponde à produção, para ajudar na solução de problemas. Em breve, apresentaremos a capacidade dos clientes de especificar um ambiente de área restrita que não deve receber a implantação de atualização de qualidade proativa junto com outras áreas restritas, mas que a receberá posteriormente, junto com o ambiente de produção. Note que, se um cliente estiver usando uma área restrita para testar uma versão mais recente do que a produção dele, essa área restrita receberá atualizações de qualidade para a versão mais recente.
-- 
-## <a name="when-will-proactive-quality-updates-start"></a>Quando iniciarão as atualizações de qualidade proativas?
+- **Designação de sincronização da área restrita**: menos de 20% dos clientes têm várias áreas restritas e mantêm uma área restrita implantada onde a versão corresponde à produção, para ajudar na solução de problemas. Se um cliente estiver usando uma área restrita para testar uma versão mais recente do que a produção dele, essa área restrita receberá atualizações de qualidade para a versão mais recente.
+
+## <a name="what-is-the-rollout-roadmap-for-quality-updates"></a>Qual é o mapa de distribuição para atualizações de qualidade?
 
 Espera-se que a distribuição de atualizações de qualidade proativa para ambientes de área restrita comece no final de setembro ou outubro de 2022 para clientes da nuvem pública do Azure. Os ambientes de avaliação também começarão a receber a implantação de atualizações proativas nesse momento. Em setembro, uma notificação será enviada a cada cliente para informá-lo sobre o plano esperado para seus ambientes. As exceções para o processo de distribuição de atualizações proativas serão permitidas somente para clientes regulamentados pelo FDA. Ainda estamos pensando como ambientes regulamentados e clientes de nuvem soberana e governamentais serão gerenciados.
 
 Nos próximos seis meses, aumentaremos gradualmente a porcentagem de ambientes de área restrita que recebem atualizações proativas, até que todos os ambientes designados sejam incluídos e cheguem à atualização dos ambientes de produção. Durante todo o período, monitoraremos para garantir que o processo de implantação seja perfeito e que atinjamos nossa meta de payloads sem interrupção.
 
 Como os clientes receberão, normalmente, payloads menores, esperamos que o processo de atualização seja simplificado. Ajustaremos a frequência da implantação de atualizações quando demonstrarmos a capacidade de executar o processo sem interrupção. Esse processo já opera de forma efetiva para a plataforma e os aplicativos do Dataverse, e oferece os aperfeiçoamentos previstos na qualidade do serviço. Estamos ansiosos para avançar da mesma forma com aplicativos de finanças e operações.
+
+## <a name="when-will-quality-updates-start-for-production-environments"></a>Quando as atualizações de qualidade serão iniciadas para ambientes de produção?
+Neste momento, as atualizações de qualidade estão direcionando apenas áreas restritas. As atualizações para ambientes de produção começarão depois de novembro de 2022.
+
+## <a name="what-is-the-schedule-for-sandbox-quality-updates"></a>Qual é a programação para atualizações de qualidade de área restrita?
+Para obter informações sobre as horas escuras de cada região, consulte [Qual é a programação das atualizações de qualidade proativas?](../../dev-itpro/deployment/plannedmaintenance-selfservice.md#what-is-the-schedule-for-proactive-quality-updates).
+
+## <a name="how-are-the-dark-hours-handled-for-customers-that-have-one-finance-and-operations-apps-instance-but-are-active-in-multiple-time-zones"></a>Como as horas escuras são tratadas para clientes que têm uma instância de aplicativos de finanças e operações, mas estão ativas em vários fusos horários? 
+Não há programações especiais fora das horas escuras nas quais existe uma instância de aplicativos de finanças e operações, pois pretendemos lançar atualizações de qualidade de maneira minimamente prejudicial com o [nZDT](../../dev-itpro/deployment/plannedmaintenance-selfservice.md#what-does-near-zero-downtime-maintenance-mean).
+
+## <a name="how-will-microsoft-ensure-the-quality-of-these-updates"></a>Como a Microsoft garantirá a qualidade dessas atualizações?
+A Microsoft se esforça para manter o pipeline de lançamento suficientemente eficiente para fornecer cargas pequenas para manter o custo de validação baixo. Cada correção em uma atualização de qualidade passa por um processo de implantação rigoroso e seguro que ajuda a melhorar a qualidade e a confiabilidade, reduzindo o impacto do cliente. A implantação ocorrerá em estágios em ambientes de área restrita primeiro, seguidos por produção. As implantações em etapas permitem o monitoramento adequado para determinar se a implantação será segura. A distribuição será interrompida se forem detectados problemas com cada grupo de clientes implantados e nós garantiremos que cada etapa da distribuição tenha tempo suficiente para gerar problemas. Para cada atualização de qualidade futura, forneceremos visibilidade da programação por meio de atualizações na documentação e em emails públicos, para que os clientes possam se planejar com antecedência.
+
+## <a name="can-customers-delay-reschedule-or-pause-a-quality-update"></a>Os clientes podem atrasar, reprogramar ou pausar uma atualização de qualidade?
+Não. O principal objetivo das atualizações de qualidade é garantir que os conceitos básicos como segurança, privacidade, confiabilidade, disponibilidade e desempenho sejam continuamente aperfeiçoados para nossos clientes. Ao atrasar ou pausar uma atualização, a segurança, a disponibilidade e a confiabilidade estarão em risco.
+
+## <a name="how-can-one-know-the-set-of-changes-that-went-into-a-quality-update-payload"></a>Como é possível saber o conjunto de alterações feitas em uma carga de atualização de qualidade?
+Você poderá examinar todos os artigos da base de dados de conhecimento em uma versão de atualização de qualidade na página **Detalhes do ambiente** no LCS, navegando até a seção **Atualização de qualidade**. 
+
+## <a name="what-is-the-process-if-a-critical-issue-is-found-after-a-quality-update"></a>Qual será o processo se um problema crítico for encontrado após uma atualização de qualidade?
+Um problema crítico ou regressão é um ou mais eventos que geralmente fazem com que vários clientes tenham uma experiência degradada com um ou mais dos nossos serviços. Esses problemas podem causar um tempo de inatividade não planejado, incluindo indisponibilidade, degradação do desempenho e interferência com o gerenciamento de serviços. Se houver um impacto amplo no cliente devido a essas regressões, a implantação de uma atualização de qualidade será interrompida até que possamos comunicar e corrigir o problema. Normalmente, a próxima atualização de qualidade terá a correção necessária para retomar a distribuição.
+
+Se um ambiente de cliente único for afetado, entre em contato o suporte da Microsoft para abrir um tíquete. Com base na justificativa, a implantação da atualização de qualidade será interrompida em todos os outros ambientes do projeto até que o problema seja reduzido.
+
+## <a name="can-customers-still-manually-apply-hotfix-updates-from-lcs"></a>Os clientes ainda podem aplicar atualizações de hotfix manualmente no LCS?
+Sim. Para garantir a paridade contínua com a forma como os hotfixes funcionam, as atualizações de hotfix ainda podem ser aplicadas a ambientes de cliente no LCS. No entanto, é importante observar que os hotfixes implantados como parte de uma atualização de qualidade passam pelo SDP padrão antes da atualização ser implantada. Isso reduz o risco de regressões devido a uma qualidade superior. Recomendamos que você escolha uma atualização de qualidade em vez da aplicação manual de hotfixes para maior confiabilidade.
+
+## <a name="can-customers-self-install-a-quality-update-build-by-themselves-ahead-of-the-schedule"></a>Os clientes podem instalar por conta própria a versão de uma atualização de qualidade antes da programação?
+Sim. Você pode instalar uma atualização de qualidade proativamente. A Microsoft ignorará a atualização se a versão de compilação atual do ambiente for igual ou maior do que a atualização de qualidade em questão.
+
+## <a name="if-an-environment-has-an-upcoming-scheduled-monthly-service-update-within-a-week-will-it-still-receive-quality-updates"></a>Se um ambiente tiver uma atualização de serviço mensal programada dentro de uma semana, ele ainda receberá atualizações de qualidade?
+- As atualizações de qualidade não serão aplicadas se houver uma atualização de serviço iminente programada dentro de uma semana a partir da qual a atualização de qualidade está programada para ocorrer.
+- Se um ambiente de área restrita tiver uma versão de compilação igual ou superior à da atualização de qualidade iminente, ele será ignorado.
+- Se um ambiente de produção tiver uma versão de compilação igual ou superior à da atualização de qualidade iminente, ele será ignorado.
+- Se uma área restrita tiver a mesma versão de compilação ou superior devido a uma atualização de qualidade ou uma atualização manual da produção, a produção ainda receberá a versão programada da atualização de serviço mensal. Se não desejar que o ambiente de produção programado seja atualizado para a versão de atualização de serviço, você poderá pausar a atualização de serviço no LCS. 
+- Recomendamos que você use a versão mais recente da atualização de qualidade para testar suas alterações para uma atualização de serviço futura para obter melhor estabilidade e resultados.
+
+## <a name="can-an-environment-be-brought-back-to-its-previous-state-if-there-are-issues-after-a-quality-update-is-applied"></a>Um ambiente pode retornar ao estado anterior se houver problemas após a aplicação de uma atualização de qualidade?
+Depois que uma atualização de qualidade for aplicada, não haverá reversão em nenhuma circunstância. Há apenas opções de encaminhamento de patch disponíveis para atenuar os problemas.
+
+## <a name="what-about-fda-regulation-and-gpx"></a>E a regulamentação da FDA e a GPX?
+O plano para clientes sujeitos a validação e regulamentação da FDA ainda está em evolução. Espere mais atualizações neste espaço em breve. Por enquanto, todos esses clientes estão isentos das atualizações de qualidade.
+
+## <a name="what-versions-of-service-updates-are-supported-for-these-quality-updates"></a>Que versões das atualizações de serviço são compatíveis com essas atualizações de qualidade?
+Os clientes em versões inferiores a N-2 não receberão atualizações de qualidade. 
+
+## <a name="finance-and-operations-apps-deployments-with-retail-components-typically-require-additional-work-in-addition-to-having-to-redeploy-mpos-how-will-these-quality-updates-impact-the-retailsdk"></a>As implantações de aplicativos de finanças e operações com componentes de varejo geralmente exigem trabalho adicional, além da necessidade de reimplantar MPOS. Como essas atualizações de qualidade afetarão o RetailSDK? 
+Como a natureza dos hotfixes em si não é alterada na carga de atualizações de qualidade, não antecipamos nenhum impacto adicional no momento relacionado aos componentes de varejo.
+
+## <a name="is-there-any-impact-to-cloud-hosted-environments-che-"></a>Existe algum impacto nos ambientes hospedados na nuvem (CHE)? ? 
+Não.
+
+## <a name="are-there-any-integration-issues-with-microsoft-dataverse"></a>Há problemas de integração com o Microsoft Dataverse? 
+Não.
+

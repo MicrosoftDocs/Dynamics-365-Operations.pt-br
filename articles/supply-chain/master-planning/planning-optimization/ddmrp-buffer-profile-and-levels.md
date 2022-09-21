@@ -11,12 +11,12 @@ ms.search.region: Global
 ms.author: benebotg
 ms.search.validFrom: 2022-06-30
 ms.dyn365.ops.version: 10.0.28
-ms.openlocfilehash: dd72332abefd31fd391ff66931a5abae0efb08de
-ms.sourcegitcommit: 529fc10074b06f4c4dc52f2b4dc1f159c36e8dbc
+ms.openlocfilehash: 57ee6206da926d0dbf62f562197538bfcdd41148
+ms.sourcegitcommit: 3d7ae22401b376d2899840b561575e8d5c55658c
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 07/22/2022
-ms.locfileid: "9186636"
+ms.lasthandoff: 09/08/2022
+ms.locfileid: "9428135"
 ---
 # <a name="buffer-profile-and-levels"></a>Perfil e níveis de buffer
 
@@ -77,6 +77,14 @@ Na ilustração anterior, se hoje é a manhã de 11 de junho, o ADU dos três di
 
 - **ADU (passado)** = (29 + 11 + 23) ÷ 3 = 21
 
+As transações a seguir são levadas em consideração para o cálculo de uso diário médio (passado):
+
+- Transações que diminuem a quantidade do item (na tabela `inventtrans` em que a quantidade é menor do que zero)
+- Transações com um status *Na ordem*, *Encomendado reservado*, *Físico reservado*, *Separado*, *Deduzido* ou *Vendido*
+- Transações com data no período anterior escolhido (o uso médio diário após o período)
+- Transações que não sejam trabalho de depósito, quarentena, cotações de venda ou instruções (`WHSWork`, `WHSQuarantine`, `SalesQuotation` ou `Statement`)
+- Transações que não sejam de transferência de diários que estão na mesma dimensão de cobertura
+
 ### <a name="average-daily-usage-forward"></a>Uso diário médio (futuro)
 
 Para um novo produto, talvez você não tenha nenhum dado de uso passado. Nesse caso, você pode usar o ADU projetado para o futuro (por exemplo, com base na demanda prevista). A ilustração a seguir mostra como essa abordagem funciona quando o cálculo é de três dias no futuro (incluindo hoje).
@@ -86,6 +94,11 @@ Para um novo produto, talvez você não tenha nenhum dado de uso passado. Nesse 
 Na ilustração anterior, se hoje é a manhã de 11 de junho, o ADU dos três próximos dias (11, 12 e 13 de junho) é 21,66.
 
 - **ADU (futuro)** = (18 + 18 + 29) ÷ 3 = 21,66
+
+As transações a seguir são levadas em consideração para o cálculo de uso diário médio (posterior):
+
+- Transações de previsão para o item em que a previsão está selecionada no planejamento mestre
+- Transações com data no período posterior escolhido (o período posterior de uso médio diário)
 
 ### <a name="average-daily-usage-blended"></a>Uso diário médio (combinado)
 

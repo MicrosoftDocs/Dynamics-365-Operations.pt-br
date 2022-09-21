@@ -1,5 +1,5 @@
 ---
-title: 'Versão preliminar do Dynamics 365 Commerce 10.0.29: (October 2022)'
+title: Novidades e alterações no Dynamics 365 Commerce 10.0.29 (outubro de 2022)
 description: Este artigo descreve os recursos novos ou alterados no Microsoft Dynamics 365 Commerce 10.0.29.
 author: josaw1
 ms.date: 08/17/2022
@@ -10,19 +10,19 @@ ms.search.region: Global
 ms.author: josaw
 ms.search.validFrom: 2022-08-01
 ms.dyn365.ops.version: 10.0.29
-ms.openlocfilehash: 1e05f53f9ecb0a1994828172f6999a0bd5c208bc
-ms.sourcegitcommit: f2175fe5e900d39f34167d671aab5074b09cc1b8
+ms.openlocfilehash: 6e457864f51159f46f45e9b8969863c9d34c5786
+ms.sourcegitcommit: 56677afde87a9176f879482a7af223e251801d5d
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/17/2022
-ms.locfileid: "9306223"
+ms.lasthandoff: 09/14/2022
+ms.locfileid: "9475894"
 ---
-# <a name="preview-of-dynamics-365-commerce-10029-october-2022"></a>Versão preliminar do Dynamics 365 Commerce 10.0.29: (October 2022)
+# <a name="whats-new-or-changed-in-dynamics-365-commerce-10029-october-2022"></a>Novidades ou alterações no Dynamics 365 Commerce 10.0.29 (outubro de 2022)
 
 [!include [banner](../includes/banner.md)]
-[!include [preview banner](../includes/preview-banner.md)]
 
-Este artigo lista os recursos novos ou alterados na versão preliminar 10.0.29 do Microsoft Dynamics 365 Commerce. Esta versão tem um número de compilação 10.0.1326 e está disponível na seguinte agenda:
+
+Este artigo lista os recursos novos ou alterados na versão 10.0.29 do Microsoft Dynamics 365 Commerce. Esta versão tem um número de compilação 10.0.1326 e está disponível na seguinte agenda:
 
 - **Versão preliminar de teste:** agosto de 2022
 - **Disponibilidade geral da versão (atualização automática):** setembro de 2022

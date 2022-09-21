@@ -9,17 +9,16 @@ ms.reviewer: v-chgriffin
 ms.search.region: Global
 ms.author: boycez
 ms.search.validFrom: 2022-08-23
-ms.openlocfilehash: e33a4dd8650ee2e371c51c5a19e955f2d2bdade2
-ms.sourcegitcommit: 1d5cebea3e05b6d758cd01225ae7f566e05698d2
+ms.openlocfilehash: 2a65dedf2da62fcd92169077d75a0f3b7832a86d
+ms.sourcegitcommit: b1df4db7facb5e7094138836c41a65c4a158f01d
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 09/02/2022
-ms.locfileid: "9405539"
+ms.lasthandoff: 09/13/2022
+ms.locfileid: "9473724"
 ---
 # <a name="inventory-aware-product-listing"></a>Listagem de produtos com reconhecimento de estoque
 
 [!include [banner](../includes/banner.md)]
-[!include [banner](../includes/preview-banner.md)]
 
 Este artigo descreve como as organizações podem configurar páginas de listagem de produtos no site de comércio eletrônico do Microsoft Dynamics 365 Commerce para que reconheçam o estoque. As páginas de listagem de produtos incluem páginas de aterrissagem da categoria e de resultados de pesquisa.
 

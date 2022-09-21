@@ -11,17 +11,16 @@ ms.assetid: e23e944c-15de-459d-bcc5-ea03615ebf4c
 ms.search.region: Global
 ms.author: brshoo
 ms.search.validFrom: 2022-06-20
-ms.openlocfilehash: b56890b546c3cd74b75cf447e62495733ea8d288
-ms.sourcegitcommit: 09d4805aea6d148de47c8ca38d8244bbce9786ce
+ms.openlocfilehash: bc0df6c4aac72907e8523069e3f1ae100780dc3c
+ms.sourcegitcommit: b1df4db7facb5e7094138836c41a65c4a158f01d
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/31/2022
-ms.locfileid: "9387060"
+ms.lasthandoff: 09/13/2022
+ms.locfileid: "9473922"
 ---
 # <a name="cross-company-data-sharing-for-gift-cards"></a>Compartilhamento de dados entre empresas para cartões-presente
 
 [!include [banner](../includes/banner.md)]
-[!include [banner](../includes/preview-banner.md)]
 
 Este artigo descreve como configurar o Microsoft Dynamics 365 Commerce, de forma que ele use a funcionalidade de compartilhamento de dados do Dynamics 365 Finance para sincronizar dados do cartão-presente. A funcionalidade de compartilhamento de registros de dados pode então ser usada para compartilhar dados interempresariais entre duas áreas de dados. Dessa forma, a tabela de brindes internos do Commerce pode compartilhar dados entre duas entidades da empresa. Para obter mais informações sobre o compartilhamento de dados interempresarial do Dynamics 365 Finance, consulte [Compartilhamento de dados interempresarial](/dynamics365/fin-ops-core/dev-itpro/sysadmin/cross-company-data-sharing).
 

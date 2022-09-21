@@ -2,7 +2,7 @@
 title: Periféricos
 description: Este artigo explica os conceitos relacionados aos periféricos do Commerce.
 author: BrianShook
-ms.date: 03/01/2022
+ms.date: 09/08/2022
 ms.topic: article
 audience: Application User, IT Pro
 ms.reviewer: josaw
@@ -12,12 +12,12 @@ ms.custom:
 ms.search.region: Global
 ms.author: brshoo
 ms.search.validFrom: 2016-11-30
-ms.openlocfilehash: 641b45390477c8c5e6239709f7c91887a403fbaf
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: b3113626b18ad7f074c808d7631d13b09071bef2
+ms.sourcegitcommit: f88273627ba105ede27f28fe67ccec2d7f78261c
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8880072"
+ms.lasthandoff: 09/09/2022
+ms.locfileid: "9459983"
 ---
 # <a name="peripherals"></a>Periféricos
 
@@ -123,7 +123,7 @@ Para ajudar a garantir que uma gama maior de dispositivos possa ser usada com o 
 
 ### <a name="windows"></a>Windows
 
-A impressão de recibo no PDV é otimizada para OPOS. O OPOS tende a ser muito mais rápido que a impressão com Windows. Portanto, é recomendável usar o OPOS, especialmente em ambientes onde recibos de 40 colunas são impressos e os tempos de transação devem ser curtos. Para a maioria de dispositivos, você usará controles OPOS. Entretanto, algumas impressoras de recibo OPOS também oferece suporte a drivers do Windows. Usando um driver do Windows, você pode acessar as fontes mais recentes e vincular uma impressora para várias registradoras. Contudo, há inconvenientes em usar os drivers do Windows. Veja aqui alguns exemplos desses inconvenientes:
+A impressão de recibo no PDV é otimizada para OPOS. O OPOS tende a ser muito mais rápido que a impressão com Windows. Portanto, é recomendável usar o OPOS, especialmente em ambientes onde recibos de 40 colunas são impressos e os tempos de transação devem ser curtos. Para a maioria dos dispositivos, você usará controles OPOS. Entretanto, algumas impressoras de recibo OPOS também oferece suporte a drivers do Windows. Usando um driver do Windows, você pode acessar as fontes mais recentes e vincular uma impressora para várias registradoras. Contudo, há inconvenientes em usar os drivers do Windows. Veja aqui alguns exemplos desses inconvenientes:
 
 -   Quando os drivers do Windows são usados, imagens são renderizadas antes que a impressão ocorra. Portanto, a impressão tende a ser mais lenta do que em impressoras que utilizam controles OPOS.
 -   Os dispositivos conectados através da impressora ("encadeado") podem não funcionar corretamente quando os drivers do Windows forem utilizados. Por exemplo, a caixa registradora pode não abrir ou a impressora de recibo pode não funcionar como esperado.
@@ -141,6 +141,9 @@ No caso de periféricos de PDV, vários dispositivos USB podem ser conectados e 
 O PDV moderno oferece suporte a MSRs e scanners UWP. Portanto, quando o Modern POS estiver pronto para entrada de um desses dispositivos, e um dispositivo que pertence a uma dessas classes é conectado, o dispositivo pode ser usado. Por exemplo, se um scanner de código de barras plug and play for conectado a um computador com Windows 10, e as credenciais de código de barras estiverem configuradas para o Modern POS, o scanner de código de barras ficará ativo na tela de entrada. Nenhuma configuração adicional é necessária.
 
 Classes adicionais de periféricos de PDV estão sendo adicionadas ao Windows, como classes para gavetas de caixa e impressoras de recibo. O suporte para essas novas classes de dispositivo no PDV moderno está pendente.
+
+> [!NOTE] 
+> Alguns dispositivos USB podem ficar sem resposta ou não confiáveis quando gerenciados por um recurso de gerenciamento de energia do Windows 10 chamado [Suspensão seletiva USB](/windows-hardware/drivers/usbcon/usb-selective-suspend). Se um periférico USB parar de responder, talvez seja necessário desabilitar o recurso de suspensão seletiva para esse dispositivo. Para obter mais informações, consulte [Habilitar suspensão seletiva](/windows-hardware/drivers/usbcon/usb-selective-suspend#enabling-selective-suspend). 
 
 ### <a name="keyboard-wedge"></a>Leitor de cartão de crédito do teclado
 

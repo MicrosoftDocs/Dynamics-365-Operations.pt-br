@@ -1,5 +1,5 @@
 ---
-title: Políticas de consolidação da remessa
+title: Visão geral de políticas de consolidação de remessa
 description: Este artigo fornece uma visão geral da funcionalidade que fornece uma configuração flexível das políticas de consolidação de remessa.
 author: Mirzaab
 ms.date: 05/12/2020
@@ -13,14 +13,14 @@ ms.search.region: Global
 ms.author: mirzaab
 ms.search.validFrom: 2020-05-01
 ms.dyn365.ops.version: 10.0.3
-ms.openlocfilehash: 27f5d52dac2e428655f1b16908ff796ed9d02e82
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: 7113fc635a7c01e4b9cc44898daa3d2617058b6b
+ms.sourcegitcommit: 3d7ae22401b376d2899840b561575e8d5c55658c
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8903888"
+ms.lasthandoff: 09/08/2022
+ms.locfileid: "9427893"
 ---
-# <a name="shipment-consolidation-policies"></a>Políticas de consolidação da remessa
+# <a name="shipment-consolidation-policies-overview"></a>Visão geral de políticas de consolidação de remessa
 
 [!include [banner](../includes/banner.md)]
 
@@ -38,7 +38,7 @@ Antes da apresentação de políticas de consolidação de remessa, a função d
 
 As consultas são usadas para identificar a política de consolidação de remessa que se aplica e, depois, um conjunto editável de campos determina como as linhas de carga são agrupadas no nível de remessa. (Esse padrão é semelhante ao padrão seguidos pelos modelos de onda.) Além disso, uma opção **Consolidar com remessas existentes** foi adicionada a cada política. Quando essa opção está ativada, o procedimento *Liberar para o depósito* localiza remessas para consolidação pesquisando entre as remessas existentes criadas com base na mesma política de consolidação. Nesse caso, o sistema selecionará uma remessa ou um carga existente em vez de criar uma nova. No entanto, o sistema só fará a consolidação com remessas existentes que tenham um status de *Aberto*. As remessas que pertençam a uma liberação da onda com o status *Liberado* ou superior não serão consideradas como destinos para a consolidação.
 
-Quando as políticas de consolidação de remessa são disponibilizadas, a configuração **Remessa consolidada em liberação para depósito** que estava disponível anteriormente na página de configuração de **Depósitos** é ocultada. Para ajudar você a fazer a transição para o novo recurso de consolidação de remessa, uma função na página **Políticas de consolidação de remessa** cria uma política padrão que inclui automaticamente a configuração antiga para os depósitos existentes. Após a criação da política padrão, a configuração **Remessa consolidada em liberação para depósito** na página de configuração de **Depósitos** não será mais considerada.
+Quando o recurso *Políticas de consolidação de remessa* é ativado para o seu sistema, a configuração **Remessa consolidada em liberação para depósito** que estava disponível anteriormente na página de configuração de **Depósitos** é ocultada. Para ajudar você a fazer a transição para o novo recurso de consolidação de remessa, uma função na página **Políticas de consolidação de remessa** permite que você crie uma política padrão que inclui automaticamente a configuração antiga para os depósitos existentes. Após a criação da política padrão, a configuração **Remessa consolidada em liberação para depósito** na página de configuração de **Depósitos** não será mais considerada. Para obter mais informações, consulte [Consolidar políticas de consolidação de remessa](configure-shipment-consolidation-policies.md).
 
 Você pode usar a página **Liberar para o depósito** para substituir manualmente a política de consolidação aplicável da mesma forma que pode substituir as política de atendimento.
 

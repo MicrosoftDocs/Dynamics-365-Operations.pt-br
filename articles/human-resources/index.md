@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: twheeloc
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: afe438767efa3082c49cc56f58c8bab9206e46e0
-ms.sourcegitcommit: e0905a3af85d8cdc24a22e0c041cb3a391c036cb
+ms.openlocfilehash: ad5f843e3bafa54a961908d9ebe5ab64e619e1bc
+ms.sourcegitcommit: ec15857b753ebedd86503170efd54c8007b87231
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/06/2022
-ms.locfileid: "9228558"
+ms.lasthandoff: 09/13/2022
+ms.locfileid: "9475513"
 ---
 # <a name="human-resources-home-page"></a>Home page do Human Resources
 
@@ -40,7 +40,7 @@ Escolha uma área de recursos para saber mais a respeito.
 - [Gerenciamento de remuneração](hr-compensation-overview.md)
 - [Desenvolvimento do funcionário](hr-develop-performance-management-overview.md)
 - [Aprendizado](hr-learning-courses.md)
-- [Sistema de fluxo de trabalho]( ../fin-ops-core/fin-ops/organization-administration/overview-workflow-system.md?toc=/dynamics365/human-resources/toc.json)
+- [Sistema de fluxo de trabalho](../fin-ops-core/fin-ops/organization-administration/overview-workflow-system.md?toc=/dynamics365/human-resources/toc.json)
 
 O Human Resources conecta dados de pessoas e operações para ajudar a otimizar os custos da força de trabalho e cuidar dos funcionários.
 
@@ -51,7 +51,8 @@ Para obter informações sobre o Dynamics 365 Finance, consulte [Home page do Fi
 ## <a name="additional-resources"></a>Recursos adicionais
 
 ### <a name="elearning-courses"></a>Cursos de eLearning
-Para saber sobre cursos e treinamentos online, confira [Dynamics 365 Human Resources no Microsoft Learn](/learn/browse/?products=dynamics-human-resources&expanded=dynamics-365).
+
+Para saber sobre cursos e treinamentos online, confira [Dynamics 365 Human Resources](/learn/browse/?products=dynamics-human-resources&expanded=dynamics-365).
 
 ### <a name="videos"></a>Vídeos
 

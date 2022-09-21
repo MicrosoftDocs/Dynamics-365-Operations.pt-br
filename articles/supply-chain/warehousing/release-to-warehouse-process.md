@@ -11,12 +11,12 @@ ms.search.region: Global
 ms.author: mirzaab
 ms.search.validFrom: 2021-08-13
 ms.dyn365.ops.version: 10.0.20
-ms.openlocfilehash: c3280b2e39d7af5ca99cad703cad6ecc7b307bff
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: caa38c4ed1c7fb8cf1ead3ba6534f8405a5ff57f
+ms.sourcegitcommit: 3d7ae22401b376d2899840b561575e8d5c55658c
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8893168"
+ms.lasthandoff: 09/08/2022
+ms.locfileid: "9428027"
 ---
 # <a name="release-to-warehouse"></a>Liberar para o depósito
 
@@ -34,7 +34,7 @@ Uma *carga* é um grupo de ordens de venda ou linhas de ordem de transferência 
 
 Um *trabalho* de depósito é qualquer operação de depósito executada por um trabalhador de depósito. Normalmente, as operações de trabalho de depósito consistem em pelo menos duas ações consecutivas: um trabalhador do depósito coleta o estoque disponível em um local e o descarrega em outro local.
 
-Quando ordens são liberadas para o depósito, o sistema cria *linhas de carregamento* e as agrupa em remessas. O processo de consolidação de remessa permite a consolidação automatizada de remessa durante o processo de liberação para o depósito. Para obter mais informações, consulte [Políticas de consolidação de remessa](about-shipment-consolidation-policies.md).
+Quando ordens são liberadas para o depósito, o sistema cria *linhas de carregamento* e as agrupa em remessas. O processo de consolidação de remessa permite a consolidação automatizada de remessa durante o processo de liberação para o depósito. Para obter mais informações, consulte [Visão geral das políticas de consolidação de remessa](about-shipment-consolidation-policies.md).
 
 O sistema usa *ciclos* para criar um trabalho de separação e cargas para remessa. Um *modelo do ciclo* deve estar disponível para o tipo de ciclo que você deseja criar e para o depósito da linha de ordem. Modelos do ciclo do tipo *Remessa* são usados para enviar itens para ordens de venda e ordens de transferência.
 
