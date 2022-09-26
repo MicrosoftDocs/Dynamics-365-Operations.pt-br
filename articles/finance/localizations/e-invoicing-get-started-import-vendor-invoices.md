@@ -15,12 +15,12 @@ ms.dyn365.ops.version: AX 10.0.12
 ms.custom: 97423,  ""intro-internal
 ms.assetid: ''
 ms.search.form: ''
-ms.openlocfilehash: c98f33345b37a72c4099f01e37c82e27002ac687
-ms.sourcegitcommit: 87e727005399c82cbb6509f5ce9fb33d18928d30
+ms.openlocfilehash: 0195dc528f2fe6bf62efbf03f8706ea90f4a4fc4
+ms.sourcegitcommit: a5a4c45bb265758c6e5c3483c8552503b1799a89
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/12/2022
-ms.locfileid: "9283135"
+ms.lasthandoff: 09/16/2022
+ms.locfileid: "9524736"
 ---
 # <a name="use-the-electronic-invoicing-service-to-import-vendor-invoices"></a>Usar o serviço de faturamento eletrônico para importar faturas de fornecedor
 
@@ -107,7 +107,8 @@ Conclua as etapas nas duas seções a seguir para configurar diferentes tipos de
 2. Selecione **Modelo de contexto de nota fiscal de cliente** e, em seguida, **Criar configuração** > **Derivar do Nome: Modelo de contexto de fatura de cliente, Microsoft** para criar uma configuração derivada.
 3. Na versão de **Resumo**, selecione **Designer** e, na árvore **Modelo de dados**, selecione **Mapear modelo para datasource**.
 4. Na árvore **Definições**, selecione **DataChannel** e, em seguida, **Designer**.
-5. Na árvore **Fontes de dados**, expanda o contêiner **$Context\_Channel**. No campo **Valor**, selecione **Editar** e insira o nome do canal de dados. Este é o nome do canal fornecido na configuração do canal de dados para o recurso de Faturamento eletrônico no RCS. 
+5. Na árvore **Fontes de dados**, expanda o contêiner **$Context\_Channel**. 
+6. No campo **Valor**, selecione **Editar** > **Editar fórmula** e insira o nome do canal de dados. Este é o nome do canal fornecido na configuração do canal de dados para o recurso de Faturamento eletrônico no RCS. 
 7. Selecione **Salvar** e feche a página.
 8. Feche a página.
 9. Selecione a configuração derivada que você acabou de criar a partir do **Modelo de contexto de fatura de cliente** e, na FastTab **Versões**, selecione **Alterar status** > **Concluído**.

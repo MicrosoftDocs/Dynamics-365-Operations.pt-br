@@ -11,12 +11,12 @@ ms.search.region: Global
 ms.author: yufeihuang
 ms.search.validFrom: 2021-08-02
 ms.dyn365.ops.version: 10.0.21
-ms.openlocfilehash: 8d8fe042d7c56b86a5a7c92cc24480f573a2ea8a
-ms.sourcegitcommit: 07ed6f04dcf92a2154777333651fefe3206a817a
+ms.openlocfilehash: 61819d9c5af64b58697e07be85beebc084ae5935
+ms.sourcegitcommit: 20ce54cb40290dd116ab8b157c0a02d6757c13f5
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 09/07/2022
-ms.locfileid: "9423560"
+ms.lasthandoff: 09/20/2022
+ms.locfileid: "9542263"
 ---
 # <a name="configure-inventory-visibility"></a>Configurar a visibilidade de estoque
 
@@ -53,6 +53,7 @@ O Suplemento de Visibilidade de Estoque adiciona vários recursos novos à sua i
 |---|---|
 | *OnHandReservation* | Este tópico permite criar reservas, consumir reservas e/ou cancelar a reserva de quantidades de estoque especificadas usando a Visibilidade de Estoque. Para obter mais informações, consulte [Reservas de Visibilidade de Estoque](inventory-visibility-reservations.md). |
 | *OnHandMostSpecificBackgroundService* | Este recurso fornece um resumo de estoque para produtos juntamente com todas as dimensões. Os dados do resumo de estoque serão sincronizados periodicamente de Visibilidade de Estoque. A frequência de sincronização padrão é uma vez a cada 15 minutos e pode ser definida como uma vez a cada 5 minutos. Para obter mais informações, consulte [Resumo de estoque](inventory-visibility-power-platform.md#inventory-summary). |
+| *onHandIndexQueryPreloadBackgroundService* | Esse recurso permite pré-carregar as consultas disponíveis sobre a Visibilidade de Estoque para montar listas disponíveis com dimensões pré-selecionadas. A frequência de sincronização padrão é uma vez a cada 15 minutos. Para obter mais informações, consulte [Resumo de estoque](inventory-visibility-power-platform.md#preload-the-inventory-visibility-onhand-query). |
 | *OnhandChangeSchedule* | Esse recurso habilita o plano de alterações disponível e os recursos disponíveis para promessa (ATP). Para obter mais informações, consulte [Agenda de alterações disponíveis e disponível para promessa de Visibilidade de Estoque](inventory-visibility-available-to-promise.md). |
 | *Alocação* | Esse recurso opcional permite que a Visibilidade de Estoque tenha a capacidade de proteção de inventário (ringfencing) e controle de venda excessiva. Para obter mais informações, consulte [Alocação de estoque de visibilidade do estoque](inventory-visibility-allocation.md). |
 | *Habilitar itens de depósito em Visibilidade de Estoque* | Esse recurso opcional permite que a Visibilidade do Estoque dê suporte a itens habilitados para processos de gerenciamento de depósito (WMS). Para obter mais informações, consulte [Suporte do Visibilidade de Estoque para itens WMS](inventory-visibility-whs-support.md). |

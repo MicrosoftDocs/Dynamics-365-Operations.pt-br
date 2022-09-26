@@ -15,12 +15,12 @@ ms.search.industry: ''
 ms.author: kamaybac
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: 18cbcf3ddcfab1f26b0006676f1da8b395e876f4
-ms.sourcegitcommit: ec15857b753ebedd86503170efd54c8007b87231
+ms.openlocfilehash: e1267f702bcc48ae55badbf7be56a057ad7b8259
+ms.sourcegitcommit: d3f7a56eaf788d223ece4cedac4a319eaf5f6112
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 09/13/2022
-ms.locfileid: "9475525"
+ms.lasthandoff: 09/19/2022
+ms.locfileid: "9538858"
 ---
 # <a name="supply-chain-management-home-page"></a>Home page do Supply Chain Management
 
@@ -102,6 +102,6 @@ Há muitos artigos sobre gerenciamento da cadeia de fornecedores e da fabricaç�
 
 ## <a name="elearning-courses"></a>Cursos de eLearning
 
-Para saber sobre cursos e treinamentos online, confira [Dynamics 365 Supply Chain Management](/learn/browse/?products=dynamics-scm&resource_type=learning+path).
+Para saber sobre cursos e treinamentos online, confira [Dynamics 365 Supply Chain Management](/training/browse/?products=dynamics-scm&resource_type=learning+path).
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -10,12 +10,12 @@ ms.search.region: Global
 ms.author: benebotg
 ms.search.validFrom: 2021-07-28
 ms.dyn365.ops.version: 10.0.21
-ms.openlocfilehash: 5e8b4ab74bf973a131499799efa66e9c7fe9d5be
-ms.sourcegitcommit: 0220be95c007c77ba3b73fed8ac68a3d72dc2884
+ms.openlocfilehash: 2f91c46367ee2f881476a496555f15454c9f6baa
+ms.sourcegitcommit: 20ce54cb40290dd116ab8b157c0a02d6757c13f5
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 09/02/2022
-ms.locfileid: "9403650"
+ms.lasthandoff: 09/20/2022
+ms.locfileid: "9542311"
 ---
 # <a name="planning-optimization-release-process-and-release-history"></a>Processo de liberação e histórico de versões da Otimização de Planejamento
 
@@ -30,6 +30,8 @@ Enquanto a Otimização de Planejamento estiver sendo atualizada, o planejamento
 Os ambientes que usam a Otimização de Planejamento recebem automaticamente a versão mais recente. Nenhuma ação do usuário é necessária: o serviço é atualizado automaticamente. No entanto, nenhuma funcionalidade de alteração de quebra é enviada automaticamente para os ambientes. Por padrão, as alterações que são consideradas quebradas são desativadas e devem ser explicitamente ativadas usando o [Gerenciamento de recursos](../../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md). Portanto, essas alterações só aparecerão nos ambientes depois que você optar por habilitá-las.
 
 Como as notificações não são mostradas quando a Otimização do Planejamento é atualizada no seu ambiente, você pode revisar as notas de versão na tabela a seguir para determinar quando as alterações foram lançadas e quais recursos foram introduzidos. Esta tabela mostra as alterações que foram lançadas para a Otimização de Planejamento, se essas alterações estão associadas a um recurso do gerenciamento de recursos e a data da liberação.
+
+<!-- KFM: Add this? [Use batch disposition codes to mark batches as available or unavailable](../../inventory/batch-disposition-codes.md) --> 
 
 | Alterações | Detalhes do gerenciamento de recursos | Datas de liberação |
 |---|---|---|

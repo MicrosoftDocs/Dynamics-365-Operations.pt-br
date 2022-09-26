@@ -18,8 +18,6 @@
                   href: get-started/whats-new-commerce-10-0-29.md
                 - name: Commerce 10.0.28 (julho de 2022)
                   href: get-started/whats-new-commerce-10-0-28.md
-                - name: Commerce 10.0.27 (julho de 2022)
-                  href: get-started/whats-new-commerce-10-0-27.md
             - name: Recursos removidos ou preteridos
               items:
                 - name: Home page de recursos removidos ou preteridos
@@ -1386,8 +1384,10 @@
               href: set-up-rfm-analysis.md
             - name: Configurar o Microsoft Clarity no Dynamics 365 Commerce
               href: set-up-clarity.md
-        - name: Globalização
+        - name: Globalization Studio
           items:
+            - name: Visão geral do Globalization Studio
+              href: ../finance/localizations/globalization-studio-overview.md?context=/dynamics365/context/commerce
             - name: Visão geral da integração fiscal do canal do Commerce
               href: localizations/fiscal-integration-for-retail-channel.md
             - name: Configurar integração fiscal do canal do Commerce

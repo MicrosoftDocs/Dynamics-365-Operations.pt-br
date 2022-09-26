@@ -2,7 +2,7 @@
 title: Atualizar processo
 description: O Microsoft Dynamics 365 Human Resources é um software como serviço (SaaS) que disponibiliza atualizações de serviço contínuas e touchless para alterações de aplicação e plataforma.
 author: twheeloc
-ms.date: 09/01/2020
+ms.date: 09/01/2022
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -14,19 +14,19 @@ ms.search.region: Global
 ms.author: twheeloc
 ms.search.validFrom: 2020-02-27
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 25889f9d4a7ffb4f155b7b7c12ec3b21a44a4710
-ms.sourcegitcommit: 1401d66b6b64c590ca1f8f339d622e922920cf15
+ms.openlocfilehash: 71815866ef9674f317b7f08ecf2a65b465ddfff3
+ms.sourcegitcommit: d2046cad5de570e6302a4390b41881a7ecb12e26
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 07/20/2022
-ms.locfileid: "9178432"
+ms.lasthandoff: 09/15/2022
+ms.locfileid: "9520801"
 ---
 # <a name="update-process"></a>Atualizar processo
 
 _**Aplica-se a:** Human Resources na infraestrutura autônoma_ 
 
 > [!NOTE]
-> A partir de 2022 de julho, novos ambientes do Human Resources não podem ser provisionados na infraestrutura autônoma do Human Resources, e novos projetos do Lifecycle Services (LCS) do Microsoft Dynamics não podem ser criados nele. Os clientes podem implantar ambientes de Recursos Humanos na infraestrutura de aplicativos de finanças e operações. Para obter mais informações, consulte [Provisionar Recursos Humanos na infraestrutura de finanças e operações](/hr-admin-setup-provision-fo.md).
+> A partir de 2022 de julho, novos ambientes do Human Resources não podem ser provisionados na infraestrutura autônoma do Human Resources, e novos projetos do Lifecycle Services (LCS) do Microsoft Dynamics não podem ser criados nele. Os clientes podem implantar ambientes de Recursos Humanos na infraestrutura de aplicativos de finanças e operações. Para obter mais informações, consulte [Provisionar Recursos Humanos na infraestrutura de finanças e operações](hr-admin-setup-provision-fo.md).
 
 > [!IMPORTANT]
 > O processo de atualização e hotfix na infraestrutura de aplicativos de finanças e operações é diferente do processo de atualização e hotfix autônomo do Human Resources. Para obter mais informações sobre processo de atualização, consulte [Processo para migrar para a última atualização do aplicativo de finanças e operações](../fin-ops-core/dev-itpro/migration-upgrade/upgrade-latest-update.md). Para obter mais informações sobre hotfixes, consulte [Baixar atualizações do Lifecycle Services (LCS)](/fin-ops-core/dev-itpro/migration-upgrade/download-hotfix-lcs.md). 

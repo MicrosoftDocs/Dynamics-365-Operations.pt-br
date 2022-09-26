@@ -15,12 +15,12 @@ ms.dyn365.ops.version: AX 7.0.0
 ms.custom: 16381,  ""intro-internal
 ms.assetid: 018c148c-9cbd-41e0-8186-d75dbf66288f
 ms.search.form: SystemParameters
-ms.openlocfilehash: 19e1659a5fb91c7cb8916b1a8b6238038df29287
-ms.sourcegitcommit: 9c637bcf4e2eb8f711290a861492f038feaf1568
+ms.openlocfilehash: fa1a120fac66997658908a61469d45e96bcc4912
+ms.sourcegitcommit: d3f7a56eaf788d223ece4cedac4a319eaf5f6112
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 09/09/2022
-ms.locfileid: "9462348"
+ms.lasthandoff: 09/19/2022
+ms.locfileid: "9538828"
 ---
 # <a name="help-system"></a>Sistema da ajuda
 
@@ -40,14 +40,14 @@ Em todos esses aplicativos, você pode acessar a ajuda específica de produto no
 
 ![Painel de Ajuda.](./media/help-pane-ops-help.png)
 
-## <a name="help-on-microsoft-docs"></a>Ajuda no Microsoft Docs
+## <a name="help-on-microsoft-learn"></a>Ajuda no Microsoft Learn
 
-A (documentação do [Microsoft Dynamics 365](/dynamics365/)) no Microsoft Docs é a fonte padrão de documentação do produto dos aplicativos listados anteriormente. Este site oferece os seguintes recursos:
+A ([documentação do Microsoft Dynamics 365](/dynamics365/)) no Microsoft Learn é a fonte padrão de documentação do produto dos aplicativos listados anteriormente. Este site oferece os seguintes recursos:
 
 - **Acesso ao conteúdo mais atualizado** – o site oferece à Microsoft uma maneira mais rápida e flexível para criar, entregar e atualizar a documentação do produto. Portanto, você tem acesso fácil às informações técnicas mais recentes.
 - **Conteúdo escrito por especialistas** – o conteúdo no site está aberto a contribuições por membros da Comunidade dentro e fora da Microsoft.
 
-Você pode localizar conteúdo no Microsoft Docs usando qualquer mecanismo de pesquisa. Para obter os melhores resultados, é recomendável usar uma pesquisa de sites, como o **"termo de pesquisa" dynamics 365 site:docs.microsoft.com**.
+Você pode encontrar conteúdo no Microsoft Learn usando qualquer mecanismo de pesquisa. Para obter os melhores resultados, é recomendável usar uma pesquisa de sites, como o **"termo de pesquisa" dynamics 365 site:learn.microsoft.com**.
 
 ## <a name="get-notified-about-changes-through-an-rss-feed"></a>Ser notificado sobre alterações por meio de um RSS feed
 
@@ -87,7 +87,7 @@ Você pode colaborar e fazer edições na documentação. Para começar, selecio
 
 O vídeo [Como colaborar com a documentação do Microsoft Dynamics 365](https://youtu.be/m5djioozRbg) (mostrado acima) está incluído no canal do Microsoft Dynamics 365 no YouTube.
 
-Para obter mais informações, consulte o [Guia de colaborador do Microsoft Docs](/contribute), que é publicado pela equipe que criou o site do Microsoft Docs.
+Para obter mais informações, consulte o [Guia de colaborador do Microsoft Docs](/contribute), que é publicado pela equipe que criou o site do Microsoft Learn.
 
 > [!NOTE]
 > No momento, só aceitamos colaborações para nosso conteúdo em inglês.
@@ -169,14 +169,11 @@ A tabela a seguir lista nossos sites. Os sites que têm um asterisco (\*) ao lad
 | Site | Descrição |
 |------|-------------|
 | [Documentação do Microsoft Dynamics 365](/dynamics365/) | Este site hospeda ou vincula-se a toda a documentação de produtos do Dynamics 365. |
-| [Microsoft Learn](/learn/) | Este é o site de eLearning gratuito da Microsoft. |
+| [Treinamento do Microsoft Learn](/training/) | Este é o site de eLearning gratuito da Microsoft. |
 | [Microsoft DynamicsLCS (Lifecycle Services)](https://lcs.dynamics.com/)\* | Este site fornece um espaço de trabalho de colaboração com base na nuvem que clientes e parceiros podem usar para gerenciar projetos da pré-venda até a implementação e operações. Ele é útil em todas as fases de uma implementação. |
 | [Blog de suporte](https://aka.ms/AXSupportBlog) | Este site contém dicas e truques lançados pela equipe de suporte. |
 | [Versões anteriores](/previous-versions/dynamics/) | Este site hospeda conteúdo de versões anteriores. |
 | [Comunidade do Dynamics](https://community.dynamics.com/) | Este site hospeda blogs, fóruns e vídeos. |
 | [Microsoft.com/dynamics365](https://www.microsoft.com/dynamics365/home) | Este site fornece avaliação e informações de vendas. |
-
-
-
 
 [!INCLUDE[footer-include](../../../includes/footer-banner.md)]

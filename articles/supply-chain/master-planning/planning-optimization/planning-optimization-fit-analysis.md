@@ -16,12 +16,12 @@ ms.search.industry: Manufacturing
 ms.author: benebotg
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: 10.0.9
-ms.openlocfilehash: 633daba553b1544c2caa788f4cec1da4c1da6960
-ms.sourcegitcommit: 7af116c60f3a94671a7a80c04097d70180754930
+ms.openlocfilehash: f9c85c4fbcc3c66d6cc4c65431b76c31cbb7aebf
+ms.sourcegitcommit: 20ce54cb40290dd116ab8b157c0a02d6757c13f5
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/24/2022
-ms.locfileid: "9347280"
+ms.lasthandoff: 09/20/2022
+ms.locfileid: "9542343"
 ---
 # <a name="planning-optimization-fit-analysis"></a>Análise de ajuste da Otimização de Planejamento
 
@@ -62,7 +62,7 @@ A tabela a seguir mostra os vários resultados que podem ser exibidos após uma 
 | --- | --- | --- | --- |
 | Ações | Grupos de cobertura com Cálculo de ações habilitado: *\#* | Este recurso agora é suportado. | Com suporte |
 | Calendários base | Calendários usando o calendário base: *\#* | Este recurso agora é suportado. | Com suporte | 
-| Códigos de disposição em lotes | Mestres de disposição em lotes não-líquidos: *\#* | Este recurso está pendente. No momento, os códigos de disposição em lotes são ignorados quando a otimização do planejamento é habilitada. | Ciclo de lançamentos 2 de 2022 |
+| Códigos de disposição em lotes | Mestres de disposição em lotes não-líquidos: *\#* | Este recurso está pendente. No momento, os códigos de disposição em lotes são ignorados quando a otimização do planejamento é habilitada. | Ciclo de lançamentos 2 de 2022 <!-- KFM: Now available? [Use batch disposition codes to mark batches as available or unavailable](../../inventory/batch-disposition-codes.md) --> |
 | Capacidade de comprometimento (CTP) | Configurações de ordem padrão com controle de data entrega definido como CTP: *\#* | No Supply Chain Management 10.0.28 e mais recente, um processo chamado *CTP para Otimização de Planejamento* torna as datas de remessa e de recebimento confirmadas disponíveis após a execução do plano dinâmico. Para versões anteriores do Supply Chain Management, a configuração do CTP herdado é ignorada quando a Otimização do Planejamento é habilitada. | Com suporte |
 | Copiar plano estático para dinâmico | A cópia de plano estático para dinâmico está habilitada nos parâmetros do plano mestre. | A otimização do planejamento não copia o plano estático para o plano dinâmico, independentemente dessa configuração. Em geral, esse conceito é menos relevante devido à velocidade e à regeneração completa que a otimização do planejamento oferece. Se dois ou mais planos forem usados, o planejamento mestre deverá ser disparado para cada plano. | N/D |
 | Confirmação | Grupos de cobertura com limite de tempo de confirmação automática definido: *\#* | Na versão 10.0.7 e mais recente, a confirmação é suportada como um trabalho em lotes de confirmação separado após a conclusão do planejamento mestre (desde que o recurso *Confirmação automática para a otimização de planejamento* seja habilitado no [gerenciamento de recursos](../../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md)). Observe que a confirmação automática para otimização de planejamento é baseada na data da ordem (data de início), e não na data do requisito (data final). Esse comportamento garante que a confirmação das ordens planejadas ocorra no tempo devido, sem que seja necessário incluir o prazo de entrega no limite de tempo de confirmação. | Com suporte |

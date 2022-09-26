@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: kailiang
 ms.search.validFrom: 2021-04-01
 ms.dyn365.ops.version: 10.0.18
-ms.openlocfilehash: b611abb2d68d93178d0c26ba40b22f1b8d26b191
-ms.sourcegitcommit: 6d9fcb52d723ac5022a3002e0ced8e7b56e9bc2a
+ms.openlocfilehash: c55d0891ed37d63f89ee09759965ac443db20dc6
+ms.sourcegitcommit: 20ce54cb40290dd116ab8b157c0a02d6757c13f5
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 07/27/2022
-ms.locfileid: "9203099"
+ms.lasthandoff: 09/20/2022
+ms.locfileid: "9542235"
 ---
 # <a name="tax-feature-support-for-transfer-orders"></a>Suporte a recursos de imposto para ordens de transferência
 
@@ -63,7 +63,7 @@ Siga estas etapas para configurar o imposto envolvido em uma ordem de transferê
         7. Selecione **Salvar**.
         
         Crie o código de imposto **BE-RC+21**.
-        1. Selecione **Adicionar**, insira o código **BE-RC-21** no campo **Código de imposto**.
+        1. Selecione **Adicionar**, insira o código **BE-RC+21** no campo **Código de imposto**.
         2. Selecione **Por valor líquido** no campo **Componente de imposto**.
         3. Selecione **Salvar**.
         4. Selecione **Adicionar** na tabela **Taxa**.

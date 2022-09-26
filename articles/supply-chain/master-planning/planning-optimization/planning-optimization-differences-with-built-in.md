@@ -10,12 +10,12 @@ ms.search.region: Global
 ms.author: benebotg
 ms.search.validFrom: 2021-07-30
 ms.dyn365.ops.version: 10.0.21
-ms.openlocfilehash: cf39166dce860dbd796cb4749175628252ed96ea
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: dd9493e85a90c00b2dd50abb6530661c0fbb77dc
+ms.sourcegitcommit: d2046cad5de570e6302a4390b41881a7ecb12e26
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8897564"
+ms.lasthandoff: 09/15/2022
+ms.locfileid: "9520828"
 ---
 # <a name="differences-between-built-in-master-planning-and-planning-optimization"></a>Diferenças entre planejamento mestre interno e Otimização de Planejamento
 
@@ -26,7 +26,7 @@ Os resultados da Otimização de Planejamento podem ser diferentes dos resultado
 | Recurso | Comportamento atual na Otimização de Planejamento |
 |---|---|
 | Produtos de peso variável | Os produtos de peso variável são considerados produtos usuais.|
-| Dimensões extensíveis | Dimensões extensíveis estão vazias em ordens planejadas, mesmo quando a caixa de seleção **Plano de cobertura por dimensão** é marcada na página **Grupos de dimensão de armazenamento** ou **Grupos de dimensão de rastreamento**. |
+| Dimensões extensíveis | Não há suporte a dimensões extensíveis pela Otimização de Planejamento. Ao usar a Otimização de Planejamento, as dimensões extensíveis estarão vazias nas ordens planejadas, mesmo quando a caixa de seleção **Plano de cobertura por dimensão** estiver marcada na página **Grupos de dimensão de armazenamento** ou **Grupos de dimensão de rastreamento**. |
 | Execuções de produção filtradas | Para obter detalhes, consulte [Planejamento de produção — filtros](production-planning.md#filters). |
 | Planejamento de previsão | O planejamento de previsão não tem suporte. Recomendamos que você use o planejamento mestre em que um modelo de previsão é atribuído ao plano mestre. |
 | Sequências numéricas para ordens planejadas | Não há suporte para sequências numéricas para ordens planejadas. Os números de ordens planejadas são gerados no lado do serviço. O número da ordem planejada normalmente é mostrado com 10 dígitos, mas a sequência é criada de fato em 20 caracteres, com 10 dígitos alocados para a contagem de execuções de planejamento e os outros 10 dígitos para a contagem de ordens planejadas. |
@@ -38,10 +38,11 @@ Os resultados da Otimização de Planejamento podem ser diferentes dos resultado
 | Calendários de transporte | O valor na coluna **Calendário de transporte** na página **Modos de entrega** é ignorado. |
 | Código de cobertura mín./máx. sem valores| Com o mecanismo de planejamento incorporado, ao usar um código de cobertura mín./máx. onde nenhum valor mínimo ou máximo é definido, o mecanismo de planejamento trata o código de cobertura como um requisito e cria uma ordem para cada requisito. Com a otimização de planejamento, o sistema criará uma ordem por dia para cobrir o valor total desse dia.  |
 | Requisitos líquidos e ordens planejadas criadas manualmente | Com o mecanismo de planejamento incorporado, as ordens de fornecimento criadas manualmente para um item aparecem automaticamente entre os requisitos líquidos para aquele item. Por exemplo, ao criar uma ordem de compra a partir de uma ordem de venda, a ordem de compra aparece na página **Requisitos líquidos** sem exigir ações anteriores. Isso ocorre porque o mecanismo de planejamento integrado registra as transações de estoque na tabela do `inventLogTTS` e mostra as alterações na página **Requisitos líquidos** para planos dinâmicos. No entanto, com a Otimização de Planejamento, as ordens criadas manualmente não aparecerão entre os requisitos líquidos de um item até que a Otimização de Planejamento seja executada (usando um plano que inclui o item) ou até você selecionar **Atualizar \> Planejamento mestre** no Painel de Ações na página **Requisitos líquidos**, que executará o planejamento mestre para o item. Para obter mais informações sobre como trabalhar com a página **Requisitos líquidos**, consulte [Requisitos líquidos e informações de vinculação com a Otimização de Planejamento](net-requirements.md). |
+| Atribuição de recursos | Ao trabalhar com capacidade infinita, o mecanismo de planejamento mestre interno atribui todas as ordens planejadas ao mesmo recurso em um determinado grupo de recursos. A Otimização de Planejamento melhora isso selecionando os recursos aleatoriamente, de forma que diferentes ordens de produção possam usar diferentes recursos. Se quiser usar o mesmo recurso para todas as ordens planejadas, você deverá especificar o recurso no roteiro. |
 
 ## <a name="additional-resources"></a>Recursos adicionais
 
-- [Análise de ajuste da Otimização do Planejamento](planning-optimization-fit-analysis.md)
+- [Análise de ajuste da Otimização de Planejamento](planning-optimization-fit-analysis.md)
 - [Parâmetros não usados pela Otimização de Planejamento](not-used-parameters.md)
 - [Parâmetros de data e hora usados pela Otimização de Planejamento](date-time-used.md)
 

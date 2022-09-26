@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: twheeloc
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 1784b3c57bf1e6145085482d9068fad39ababc17
-ms.sourcegitcommit: ec15857b753ebedd86503170efd54c8007b87231
+ms.openlocfilehash: d2484b601a645694b988ac038a460a376ec912b0
+ms.sourcegitcommit: d3f7a56eaf788d223ece4cedac4a319eaf5f6112
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 09/13/2022
-ms.locfileid: "9475629"
+ms.lasthandoff: 09/19/2022
+ms.locfileid: "9538688"
 ---
 # <a name="administration-overview"></a>Visão geral de administração
 
@@ -100,7 +100,8 @@ Este artigo fornece uma lista dos tópicos da ajuda e de outros recursos para co
 ## <a name="additional-resources"></a>Recursos adicionais
 
 ### <a name="elearning-courses"></a>Cursos de eLearning
-Para saber sobre cursos e treinamentos online, confira [Dynamics 365 Human Resources](/learn/browse/?products=dynamics-human-resources&resource_type=learning%20path).
+
+Para saber sobre os cursos e treinamentos online, consulte [Roteiros de aprendizagem do Dynamics 365 Human Resources](/training/browse/?products=dynamics-human-resources&resource_type=learning%20path).
 
 ### <a name="videos"></a>Vídeos
 

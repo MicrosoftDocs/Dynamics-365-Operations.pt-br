@@ -18,8 +18,6 @@
                   href: get-started/whats-new-changed-10-0-29.md
                 - name: Finance 10.0.28 (agosto)
                   href: get-started/whats-new-changed-10-0-28.md
-                - name: Finance 10.0.27 (julho)
-                  href: get-started/whats-new-changed-10-0-27.md
             - name: Recursos removidos ou preteridos
               items:
                 - name: Home page de recursos removidos ou preteridos
@@ -1450,8 +1448,10 @@
               href: public-sector/tasks/add-certification-type-vendor-public-sector.md
             - name: Calculando Imposto Harmonizado Canadense
               href: public-sector/Calculating-Canadian-Harmonized-sales-tax.md
-        - name: Globalização
+        - name: Globalization Studio
           items:
+            - name: Visão geral do Globalization Studio
+              href: localizations/globalization-studio-overview.md?context=/dynamics365/context/finance
             - name: Recursos de globalização
               href: ../fin-ops-core/dev-itpro/lcs-solutions/country-region.md?context=/dynamics365/context/finance
             - name: Serviços de globalização
@@ -1734,6 +1734,8 @@
                       href: general-ledger/sales-tax-calculation-on-general-journal.md
                     - name: Calcular e ajustar imposto na fatura de fornecedor
                       href: general-ledger/tasks/calculate-adjust-sales-tax-vendor-invoice.md
+                    - name: Resolver diferenças de imposto sobre vendas
+                      href: general-ledger/resolve-sales-tax-differences-purchase-orders-invoices.md
                     - name: Ajustar imposto via diários gerais
                       href: general-ledger/adjust-sales-tax-via-general-journals.md
                     - name: Habilitar cálculo de imposto atrasado no diário
@@ -2514,6 +2516,8 @@
                   href: localizations/emea-cze-hun-year-end.md
                 - name: Sistema de faturamento online
                   href: localizations/emea-hun-online-invoicing.md
+                - name: Declaração de IVA (Hungria)
+                  Href: localizations/emea-hun-vat-declaration-hungary.md
                 - name: Relatórios de imposto para a Hungria
                   href: localizations/emea-hun-sales-tax-reports.md
                 - name: Intrastat húngaro

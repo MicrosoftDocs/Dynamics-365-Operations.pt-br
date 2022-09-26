@@ -10,12 +10,12 @@ ms.search.region: Global
 ms.author: kamaybac
 ms.search.validFrom: 2022-08-01
 ms.dyn365.ops.version: 10.0.29
-ms.openlocfilehash: 316650de19d3275f2c60c79c10d6ac8a8c79e1aa
-ms.sourcegitcommit: 3d7ae22401b376d2899840b561575e8d5c55658c
+ms.openlocfilehash: 5a87fb4ac2d01ef3b188b63dfc98bcfac2daf033
+ms.sourcegitcommit: d2046cad5de570e6302a4390b41881a7ecb12e26
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 09/08/2022
-ms.locfileid: "9427865"
+ms.lasthandoff: 09/15/2022
+ms.locfileid: "9520741"
 ---
 # <a name="preview-of-dynamics-365-supply-chain-management-10029-october-2022"></a>Versão preliminar do Dynamics 365 Supply Chain Management 10.0.29: (October 2022)
 
@@ -35,7 +35,7 @@ A tabela a seguir lista os recursos incluídos nesta versão. Podemos atualizar 
 | Área de recursos | Recurso | Mais informações | Habilitado por   |
 |---|---|---|---|
 | Estoque e logística | [Alocar e reservar itens de WMS na visibilidade de estoque](/dynamics365-release-plan/2022wave2/finance-operations/dynamics365-supply-chain-management/allocate-reserve-whs-items-inventory-visibility) | Em breve | Habilitado por padrão |
-| Estoque e logística | [Pré-carregar listas de estoque disponível otimizadas](/dynamics365-release-plan/2022wave2/finance-operations/dynamics365-supply-chain-management/query-inventory-visibility-summary-entity) | Em breve | Habilitado por padrão |
+| Estoque e logística | [Pré-carregar listas de estoque disponível otimizadas](/dynamics365-release-plan/2022wave2/finance-operations/dynamics365-supply-chain-management/query-inventory-visibility-summary-entity) | [Usar o aplicativo Inventory Visibility](../inventory/inventory-visibility-power-platform.md) | Habilitado por configuração de serviço |
 | Automação de fornecimento sob encomenda | [Automação de fornecimento sob encomenda](/dynamics365-release-plan/2022wave2/finance-operations/dynamics365-supply-chain-management/make-to-order-supply-automation) | [Automação de fornecimento sob encomenda](../master-planning/make-to-order-supply-automation.md) | Gerenciamento de recursos:<br>*Automação de fornecimento sob encomenda* |
 | Planejamento | [Exibir e aplicar informações detalhadas para DDMRP](/dynamics365-release-plan/2022wave2/finance-operations/dynamics365-supply-chain-management/view-apply-detailed-insights-ddmrp) | [Visão geral do Planejamento de Requisitos de Material Orientado por Demanda](../master-planning/planning-optimization/ddmrp-overview.md) | Gerenciamento de recursos:<br>*(Versão preliminar) DDMRP para Otimização de Planejamento* |
 | Controle de produção | [Disponibilizar fisicamente as mercadorias acabadas antes de lançá-las em diários](/dynamics365-release-plan/2022wave2/finance-operations/dynamics365-supply-chain-management/make-finished-goods-physically-before-posting) | [Disponibilizar fisicamente as mercadorias acabadas antes de lançá-las em diários](../production-control/deferred-posting.md) | Gerenciamento de recursos:<br>*(Versão preliminar) Disponibilizar fisicamente as mercadorias concluídas antes de lançá-las nos diários* |

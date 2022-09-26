@@ -12,12 +12,12 @@ ms.search.region: Global
 ms.author: josaw
 ms.search.validFrom: 2020-07-27
 ms.dyn365.ops.version: 8.0999999999999996
-ms.openlocfilehash: 3cfeea4899e79a76f433912bce72f54dc08c54d8
-ms.sourcegitcommit: 07ed6f04dcf92a2154777333651fefe3206a817a
+ms.openlocfilehash: 6c9d1e4c2c2639d625b2029dc6602b4f1401db96
+ms.sourcegitcommit: d3f7a56eaf788d223ece4cedac4a319eaf5f6112
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 09/07/2022
-ms.locfileid: "9423986"
+ms.lasthandoff: 09/19/2022
+ms.locfileid: "9538612"
 ---
 # <a name="learning-catalog-for-users-of-dynamics-365-commerce"></a>Catálogo de aprendizagem para usuários do Dynamics 365 Commerce
 
@@ -31,23 +31,23 @@ Para obter treinamento sobre recursos compartilhados com outros aplicativos de f
 
 | Conteúdo | Descrição | Formatar | Extensão |
 |---------|-------------|--------|--------|
-| [Introdução ao Dynamics 365 Commerce](/learn/paths/get-started-dynamics-365-commerce/)| O Dynamics 365 Commerce, com base nos recursos comprovados do Dynamics 365 Retail, fornece uma solução completa de omnicanal que unifica as experiências no back office, na loja, no call center e digitais. Dynamics 365 Commerce permite criar a fidelidade com a marca por meio de envolvimentos de cliente personalizados, aumentar renda com produtividade de funcionário aprimorada, otimizar operações para reduzir custos e impulsionar eficiência de cadeia de fornecimento, e por fim entregando melhores desfechos comerciais. | Caminho de aprendizado online, gratuito, baseado no seu ritmo | 2 horas |
-| [Introdução ao Dynamics 365 Fraud Protection](/learn/modules/get-started-fraud-protection/)| O Dynamics 365 Fraud Protection é uma solução baseada em nuvem criada para comércio eletrônico, lojas físicas e comerciantes do omnicanal para ajudar a proteger sua receita e reputação, fornecendo ferramentas e recursos para diminuir fraudes e abusos, reduzir despesas operacionais e aumentar as taxas de aceitação, ao mesmo tempo que protege as contas de usuário contra a exposição de fraudes. | Caminho de aprendizado online, gratuito, baseado no seu ritmo | 35 minutos |
+| [Introdução ao Dynamics 365 Commerce](/training/paths/get-started-dynamics-365-commerce/)| O Dynamics 365 Commerce, com base nos recursos comprovados do Dynamics 365 Retail, fornece uma solução completa de omnicanal que unifica as experiências no back office, na loja, no call center e digitais. Dynamics 365 Commerce permite criar a fidelidade com a marca por meio de envolvimentos de cliente personalizados, aumentar renda com produtividade de funcionário aprimorada, otimizar operações para reduzir custos e impulsionar eficiência de cadeia de fornecimento, e por fim entregando melhores desfechos comerciais. | Caminho de aprendizado online, gratuito, baseado no seu ritmo | 2 horas |
+| [Introdução ao Dynamics 365 Fraud Protection](/training/modules/get-started-fraud-protection/)| O Dynamics 365 Fraud Protection é uma solução baseada em nuvem criada para comércio eletrônico, lojas físicas e comerciantes do omnicanal para ajudar a proteger sua receita e reputação, fornecendo ferramentas e recursos para diminuir fraudes e abusos, reduzir despesas operacionais e aumentar as taxas de aceitação, ao mesmo tempo que protege as contas de usuário contra a exposição de fraudes. | Caminho de aprendizado online, gratuito, baseado no seu ritmo | 35 minutos |
 
 ## <a name="commerce"></a>Commerce<a name="commerce"></a>
 
 | Conteúdo | descrição | Formatar | Extensão |
 |---------|-------------|--------|--------|
-| [Configurar e trabalhar com pré-requisitos do omnicanal no Dynamics 365 Commerce](/learn/paths/configure-work-omnichannel-prequisites-commerce/)| Antes que qualquer um dos canais do Dynamics 365 Commerce possa ser criado e usado, há vários pré-requisitos que devem ser configurados. Este caminho de aprendizado descreve a configuração desses pré-requisitos para habilitar a transação bem-sucedida nos canais do Commerce e a maneira de trabalhar com eles.| Caminho de aprendizado online, gratuito, baseado no seu ritmo | 6.5 horas |
-| [Configurar e usar o Ponto de vendas (PDV) no Dynamics 365 Commerce](/learn/paths/configure-use-pos-commerce/) | Os dados transacionais são criados no Ponto de venda (PDV) e, em seguida, carregados no Dynamics 365 Commerce headquarters para processamento. Este caminho de aprendizado descreve como instalar e ativar o PDV, bem como criar transações diárias no PDV. | Caminho de aprendizado online, gratuito, baseado no seu ritmo | 4.5 horas |
-| [Gerenciar a participação do cliente e a experiência de compra no Dynamics 365 Commerce](/learn/paths/manage-customer-engagement-shopping-experience-commerce/) | O gerenciamento da participação do cliente e a melhoria da experiência de compra ajudam os consumidores a tomar decisões de compra melhores e criar fidelidade para as marcas do varejista que, por fim, leva a uma receita aumentada. | Caminho de aprendizado online, gratuito, baseado no seu ritmo | 4.5 horas |
-| [Configurar e trabalhar com call centers no Dynamics 365 Commerce](/learn/paths/configure-work-call-centers-commerce/) | O Dynamics 365 Commerce é uma solução de omnicanal que fornece um canal de call center com recursos para configurações de processamento de ordem específicas padrão e padrões de dados para as ordens de venda criadas pelos usuários do call center. | Caminho de aprendizado online, gratuito, baseado no seu ritmo | 2 horas   |
-| [Gerenciar atendimento da ordem e estoque no Dynamics 365 Commerce](/learn/paths/manage-order-fulfillment-inventory-commerce/) | O gerenciamento de estoque eficiente exerce uma função importante no setor de varejo, em que a capacidade de ter uma exibição atualizada do estoque atual e facilmente transferir e registrar mercadorias pode ter um grande impacto no sucesso do varejista no fornecimento de clientes e aumento da receita de vendas. | Caminho de aprendizado online, gratuito, baseado no seu ritmo | 2 horas   |
+| [Configurar e trabalhar com pré-requisitos do omnicanal no Dynamics 365 Commerce](/training/paths/configure-work-omnichannel-prequisites-commerce/)| Antes que qualquer um dos canais do Dynamics 365 Commerce possa ser criado e usado, há vários pré-requisitos que devem ser configurados. Este caminho de aprendizado descreve a configuração desses pré-requisitos para habilitar a transação bem-sucedida nos canais do Commerce e a maneira de trabalhar com eles.| Caminho de aprendizado online, gratuito, baseado no seu ritmo | 6.5 horas |
+| [Configurar e usar o Ponto de vendas (PDV) no Dynamics 365 Commerce](/training/paths/configure-use-pos-commerce/) | Os dados transacionais são criados no Ponto de venda (PDV) e, em seguida, carregados no Dynamics 365 Commerce headquarters para processamento. Este caminho de aprendizado descreve como instalar e ativar o PDV, bem como criar transações diárias no PDV. | Caminho de aprendizado online, gratuito, baseado no seu ritmo | 4.5 horas |
+| [Gerenciar a participação do cliente e a experiência de compra no Dynamics 365 Commerce](/training/paths/manage-customer-engagement-shopping-experience-commerce/) | O gerenciamento da participação do cliente e a melhoria da experiência de compra ajudam os consumidores a tomar decisões de compra melhores e criar fidelidade para as marcas do varejista que, por fim, leva a uma receita aumentada. | Caminho de aprendizado online, gratuito, baseado no seu ritmo | 4.5 horas |
+| [Configurar e trabalhar com call centers no Dynamics 365 Commerce](/training/paths/configure-work-call-centers-commerce/) | O Dynamics 365 Commerce é uma solução de omnicanal que fornece um canal de call center com recursos para configurações de processamento de ordem específicas padrão e padrões de dados para as ordens de venda criadas pelos usuários do call center. | Caminho de aprendizado online, gratuito, baseado no seu ritmo | 2 horas   |
+| [Gerenciar atendimento da ordem e estoque no Dynamics 365 Commerce](/training/paths/manage-order-fulfillment-inventory-commerce/) | O gerenciamento de estoque eficiente exerce uma função importante no setor de varejo, em que a capacidade de ter uma exibição atualizada do estoque atual e facilmente transferir e registrar mercadorias pode ter um grande impacto no sucesso do varejista no fornecimento de clientes e aumento da receita de vendas. | Caminho de aprendizado online, gratuito, baseado no seu ritmo | 2 horas   |
 
 ## <a name="e-commerce"></a>Comércio eletrônico<a name="e-commerce"></a>
 
 | Conteúdo | descrição | Formatar | Extensão |
 |---------|-------------|--------|--------|
-| [Configurar e trabalhar com comércio eletrônico no Dynamics 365 Commerce](/learn/paths/configure-work-e-commerce/) | Os canais online e o site de comércio eletrônico do Dynamics 365 Commerce permitem que os varejistas criem uma presença online da marca. | Caminho de aprendizado online, gratuito, baseado no seu ritmo | 4 horas   |
+| [Configurar e trabalhar com comércio eletrônico no Dynamics 365 Commerce](/training/paths/configure-work-e-commerce/) | Os canais online e o site de comércio eletrônico do Dynamics 365 Commerce permitem que os varejistas criem uma presença online da marca. | Caminho de aprendizado online, gratuito, baseado no seu ritmo | 4 horas   |
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

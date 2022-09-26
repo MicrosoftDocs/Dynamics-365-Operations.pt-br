@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: kfend
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: a51a601f6e283c5f6d7298b1cf342056707ebbb8
-ms.sourcegitcommit: ec15857b753ebedd86503170efd54c8007b87231
+ms.openlocfilehash: 49d36dc5818bdedfc764512e2f06c597c31e5b2a
+ms.sourcegitcommit: d3f7a56eaf788d223ece4cedac4a319eaf5f6112
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 09/13/2022
-ms.locfileid: "9475572"
+ms.lasthandoff: 09/19/2022
+ms.locfileid: "9539223"
 ---
 # <a name="finance-home-page"></a>Home page do Finance
 
@@ -80,6 +80,6 @@ Para obter informações sobre os recursos para gerenciar as compras, o estoque 
 
 ## <a name="elearning-courses"></a>Cursos de eLearning
 
-Para saber sobre cursos e treinamentos online, confira [Roteiros de aprendizagem do Dynamics 365 Finance](/learn/browse/?products=dynamics-finance&resource_type=learning+path).
+Para saber sobre cursos e treinamentos online, confira [Roteiros de aprendizagem do Dynamics 365 Finance](/training/browse/?products=dynamics-finance&resource_type=learning+path).
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

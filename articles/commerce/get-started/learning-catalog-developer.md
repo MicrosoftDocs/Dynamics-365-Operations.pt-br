@@ -12,12 +12,12 @@ ms.search.region: Global
 ms.author: josaw
 ms.search.validFrom: 2020-07-27
 ms.dyn365.ops.version: 8.0999999999999996
-ms.openlocfilehash: 0d1b018557cb576f8cc50000b86c5baabc738e44
-ms.sourcegitcommit: 07ed6f04dcf92a2154777333651fefe3206a817a
+ms.openlocfilehash: 4334c147dc2ae1f55e9af13bec7eaf6143f26c9c
+ms.sourcegitcommit: d3f7a56eaf788d223ece4cedac4a319eaf5f6112
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 09/07/2022
-ms.locfileid: "9423903"
+ms.lasthandoff: 09/19/2022
+ms.locfileid: "9538934"
 ---
 # <a name="learning-catalog-for-dynamics-365-commerce-developers"></a>Catálogo de aprendizagem para desenvolvedores do Dynamics 365 Commerce
 
@@ -31,13 +31,13 @@ Para obter treinamento sobre recursos compartilhados com outros aplicativos de f
 
 | Conteúdo | Descrição | Formatar | Extensão |
 |---------|-------------|--------|--------|
-| [Introdução ao Dynamics 365 Commerce](/learn/paths/get-started-dynamics-365-commerce/)                                                              | O Dynamics 365 Commerce, com base nos recursos comprovados do Dynamics 365 Retail, fornece uma solução completa de omnicanal que unifica as experiências no back office, na loja, no call center e digitais. O Dynamics 365 Commerce permite criar a fidelidade com a marca por meio de envolvimentos de cliente personalizados, aumentar renda com produtividade de funcionário aprimorada, otimizar operações para reduzir custos e impulsionar eficiência de cadeia de fornecimento, e por fim fornecendo melhores resultados de negócios. | Caminho de aprendizado online, gratuito, baseado no seu ritmo | 2 horas   |
-| [Introdução ao Dynamics 365 Fraud Protection](/learn/modules/get-started-fraud-protection/)| O Dynamics 365 Fraud Protection é uma solução baseada em nuvem criada para comércio eletrônico, lojas físicas e comerciantes do omnicanal para ajudar a proteger sua receita e reputação, fornecendo ferramentas e recursos para diminuir fraudes e abusos, reduzir despesas operacionais e aumentar as taxas de aceitação, ao mesmo tempo que protege as contas de usuário contra a exposição de fraudes. | Caminho de aprendizado online, gratuito, baseado no seu ritmo | 35 minutos |
+| [Introdução ao Dynamics 365 Commerce](/training/paths/get-started-dynamics-365-commerce/)                                                              | O Dynamics 365 Commerce, com base nos recursos comprovados do Dynamics 365 Retail, fornece uma solução completa de omnicanal que unifica as experiências no back office, na loja, no call center e digitais. O Dynamics 365 Commerce permite criar a fidelidade com a marca por meio de envolvimentos de cliente personalizados, aumentar renda com produtividade de funcionário aprimorada, otimizar operações para reduzir custos e impulsionar eficiência de cadeia de fornecimento, e por fim fornecendo melhores resultados de negócios. | Caminho de aprendizado online, gratuito, baseado no seu ritmo | 2 horas   |
+| [Introdução ao Dynamics 365 Fraud Protection](/training/modules/get-started-fraud-protection/)| O Dynamics 365 Fraud Protection é uma solução baseada em nuvem criada para comércio eletrônico, lojas físicas e comerciantes do omnicanal para ajudar a proteger sua receita e reputação, fornecendo ferramentas e recursos para diminuir fraudes e abusos, reduzir despesas operacionais e aumentar as taxas de aceitação, ao mesmo tempo que protege as contas de usuário contra a exposição de fraudes. | Caminho de aprendizado online, gratuito, baseado no seu ritmo | 35 minutos |
 
 ## <a name="commerce"></a>Commerce<a name="commerce"></a>
 
 | Conteúdo | descrição | Formatar | Extensão |
 |---------|-------------|--------|--------|
-| [Implantar e estender o Dynamics 365 Commerce](/learn/paths/deploy-dynamics-365-commerce/) | Este caminho de aprendizado descreve como implantar os ambientes do Dynamics 365 Commerce e executar etapas pós-provisionamento para implementações de comércio eletrônico bem-sucedidas usando a topologia correta para as necessidades comerciais de cada varejista. | Caminho de aprendizado online, gratuito, baseado no seu ritmo | 5 horas |
+| [Implantar e estender o Dynamics 365 Commerce](/training/paths/deploy-dynamics-365-commerce/) | Este caminho de aprendizado descreve como implantar os ambientes do Dynamics 365 Commerce e executar etapas pós-provisionamento para implementações de comércio eletrônico bem-sucedidas usando a topologia correta para as necessidades comerciais de cada varejista. | Caminho de aprendizado online, gratuito, baseado no seu ritmo | 5 horas |
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]
