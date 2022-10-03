@@ -11,12 +11,12 @@ ms.author: rashmim
 ms.search.validFrom: 2022-08-19
 ms.search.form: ''
 ms.dyn365.ops.version: 10.0.29
-ms.openlocfilehash: 985800aad3711a1b28613f0f82585b4d592cdf58
-ms.sourcegitcommit: de989037d83393bea013cd58c061159765305b4f
+ms.openlocfilehash: c2d26b7c5e110d05806c064e15a3ad2af34d0fbd
+ms.sourcegitcommit: fde2867524b6a851628185cbdeee60a6ad918d08
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 09/13/2022
-ms.locfileid: "9473596"
+ms.lasthandoff: 09/26/2022
+ms.locfileid: "9592037"
 ---
 # <a name="proactive-quality-updates"></a>Atualizações de qualidade proativas
 
@@ -57,7 +57,7 @@ Um conjunto de alterações de processo está sendo implementado antes da ativa�
 - **Esquema**: a ferramenta garante que as compilações de atualização de qualidade incluam somente alterações de esquema que possam ser aplicadas enquanto o serviço está online. Essa abordagem ajudará a manter a capacidade de aplicar a atualização com tempo de inatividade quase zero.
 - **Maior investigação de alterações**: no momento, já existe uma etapa de processo extra para aprovar alterações para inclusão em uma atualização de qualidade. A investigação na etapa extra será maior para ajudar a reduzir o potencial de regressões. Alterações interruptivas não são permitidas em atualizações de qualidade e a maior investigação de alterações ajudará a garantir a atingir esse objetivo.
 - **Visibilidade**: enviamos notificações por email e pelo Lifecycle Services (LCS) para atualizações futuras de qualidade proativa. Além disso, as equipes de suporte e os clientes potenciais de incidentes terão visibilidade sobre onde as atualizações de qualidade foram implantadas de forma proativa.
-- **Fallback de versão**: a liberação de versões será usada para agrupar todas as alterações em uma atualização de qualidade proativa. Se for necessário um fallback após uma implantação proativa, ele poderá ser feito por meio do sistema de liberação de versões.
+- **Segurança contra falhas por versão de pré-lançamento** – A versão de pré-lançamento será usada para proteger as alterações de código sempre que aplicável em uma correção de bug de atualização de qualidade ou usar a versão de pré-lançamento de recurso existente relevante para a correção. Se for necessário um fallback ou desativar uma alteração após uma implantação proativa, isso poderá ser feito por meio do sistema de versão de pré-lançamento para evitar mais falhas.
 - **Designação de sincronização da área restrita**: menos de 20% dos clientes têm várias áreas restritas e mantêm uma área restrita implantada onde a versão corresponde à produção, para ajudar na solução de problemas. Se um cliente estiver usando uma área restrita para testar uma versão mais recente do que a produção dele, essa área restrita receberá atualizações de qualidade para a versão mais recente.
 
 ## <a name="what-is-the-rollout-roadmap-for-quality-updates"></a>Qual é o mapa de distribuição para atualizações de qualidade?
@@ -69,7 +69,7 @@ Nos próximos seis meses, aumentaremos gradualmente a porcentagem de ambientes d
 Como os clientes receberão, normalmente, payloads menores, esperamos que o processo de atualização seja simplificado. Ajustaremos a frequência da implantação de atualizações quando demonstrarmos a capacidade de executar o processo sem interrupção. Esse processo já opera de forma efetiva para a plataforma e os aplicativos do Dataverse, e oferece os aperfeiçoamentos previstos na qualidade do serviço. Estamos ansiosos para avançar da mesma forma com aplicativos de finanças e operações.
 
 ## <a name="when-will-quality-updates-start-for-production-environments"></a>Quando as atualizações de qualidade serão iniciadas para ambientes de produção?
-Neste momento, as atualizações de qualidade estão direcionando apenas áreas restritas. As atualizações para ambientes de produção começarão depois de novembro de 2022.
+Neste momento, as atualizações de qualidade estão direcionando apenas áreas restritas. Atualizaremos este espaço com uma data de início para ambientes de produção quando tivermos dados e métricas mais concretos de atualizações proativas para áreas restritas para avaliar a prontidão para produção.
 
 ## <a name="what-is-the-schedule-for-sandbox-quality-updates"></a>Qual é a programação para atualizações de qualidade de área restrita?
 Para obter informações sobre as horas escuras de cada região, consulte [Qual é a programação das atualizações de qualidade proativas?](../../dev-itpro/deployment/plannedmaintenance-selfservice.md#what-is-the-schedule-for-proactive-quality-updates).

@@ -10,12 +10,12 @@ ms.search.region: Global
 ms.author: benebotg
 ms.search.validFrom: 2021-07-28
 ms.dyn365.ops.version: 10.0.21
-ms.openlocfilehash: 2f91c46367ee2f881476a496555f15454c9f6baa
-ms.sourcegitcommit: 20ce54cb40290dd116ab8b157c0a02d6757c13f5
+ms.openlocfilehash: da97490cb065365a0502aa82c63205d5c34da9eb
+ms.sourcegitcommit: 15b331f39d6e3ef811b9c2bf055a4f5b4572bae2
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 09/20/2022
-ms.locfileid: "9542311"
+ms.lasthandoff: 09/26/2022
+ms.locfileid: "9591868"
 ---
 # <a name="planning-optimization-release-process-and-release-history"></a>Processo de liberação e histórico de versões da Otimização de Planejamento
 
@@ -35,6 +35,7 @@ Como as notificações não são mostradas quando a Otimização do Planejamento
 
 | Alterações | Detalhes do gerenciamento de recursos | Datas de liberação |
 |---|---|---|
+| <p> Suporte para agendamento de recursos com capacidade finita. <p>Melhorias gerais de desempenho, qualidade e estabilidade. | O gerenciamento de recursos não é necessário. | 19 a 23 de setembro de 2022 |
 | <p>Melhorias gerais de desempenho, qualidade e estabilidade. | O gerenciamento de recursos não é necessário. | 29 de agosto a 3 de setembro de 2022 |
 | <p>Melhorias gerais de desempenho, qualidade e estabilidade.<p>[Manutenção centralizada do calendário para otimização de planejamento](../supply-chain-calendars-master-planning.md)<p>[Planejando sugestões de otimização para otimizar fornecimento existente](../action-messages.md)<p>[Suporte para otimização de planejamento de subcontratação](../../production-control/manage-subcontract-work-production.md) | O gerenciamento de recursos não é necessário. | 7 a 11 de março de 2022 |
 | <p>Suporte a prioridades de planejamento adicionado para ordens de produção. | Disponível com a versão 10.0.25 como parte do recurso denominado *Suporte ao MRP baseado em prioridade para a Otimização de Planejamento*. | 12-18 de novembro de 2021 |

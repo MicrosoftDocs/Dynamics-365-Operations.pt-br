@@ -9,12 +9,12 @@ ms.reviewer: sericks
 ms.search.region: Global
 ms.author: jashanno
 ms.search.validFrom: 2021-04-30
-ms.openlocfilehash: 66a711aff90221e594f4b2a0df3735eac93d0c9b
-ms.sourcegitcommit: 09d4805aea6d148de47c8ca38d8244bbce9786ce
+ms.openlocfilehash: 426473c14cdf9e171810aafd97dbb1afd5988b2f
+ms.sourcegitcommit: 24673493d14f2045a08fe7240689bee34e099cb5
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/31/2022
-ms.locfileid: "9387010"
+ms.lasthandoff: 09/24/2022
+ms.locfileid: "9589080"
 ---
 # <a name="mass-deployment-of-sealed-commerce-self-service-components"></a>Implantação em massa dos componentes de autoatendimento do Commerce lacrados
 
@@ -47,7 +47,7 @@ A tabela a seguir mostra os delimitadores que podem ser usados na execução da 
 | -EnvironmentId | ID do ambiente. |
 | -HardwareStationAppInsightsInstrumentationKey | Chave de instrumentação AppInsights da estação do hardware. |
 | Instalar | Um parâmetro que especifica se o componente que este instalador fornece deve ser instalado. Esse parâmetro é necessário para executar uma instalação e não tem um caractere de traço à esquerda. |
-| -InstallOffline | Para Modern POS, este parâmetro especifica que o banco de dados offline também deve ser instalado e configurado. Use o parâmetro **-SQLServerName** também. Caso contrário, o instalador tentará encontrar uma instância padrão que atenda aos pré-requisitos. |
+| -InstallOffline | Para Modern POS, este parâmetro especifica que o banco de dados offline também deve ser instalado e configurado. Use o parâmetro **-SQLServerName** também. Caso contrário, o instalador tentará encontrar uma instância padrão que atenda aos pré-requisitos. Ao usar a autenticação do Azure Active Directory (Azure AD), o PDV offline não funcionará, pois a conectividade online é sempre necessária. |
 | -Port | A porta que deve ser associada e usada pelo diretório virtual do Retail Server. Se nenhuma porta for definida, a porta padrão, 443, será utilizada. |
 | -Register | O ID do registro, como mostrado na página **Registros** no headquarters. |
 | -RetailServerAadClientId | O ID do cliente Azure AD que o Retail Server deve usar durante as comunicações com o headquarters. |

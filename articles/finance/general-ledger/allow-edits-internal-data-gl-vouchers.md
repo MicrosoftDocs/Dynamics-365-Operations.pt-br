@@ -15,17 +15,16 @@ ms.search.region: Global
 ms.author: kweekley
 ms.search.validFrom: 2022-08-01
 ms.dyn365.ops.version: 10.0.29
-ms.openlocfilehash: 26fc6518f0b4eae815e047db1dbaadd7c56a2e67
-ms.sourcegitcommit: c98d55a4a6e27239ae6b317872332f01cbe8b875
+ms.openlocfilehash: 6e346c6ff881d3a33743196b45247493fd19ed1d
+ms.sourcegitcommit: adadbc6e355e2ad68a1f6af26a1be1f89dc8eec6
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/02/2022
-ms.locfileid: "9220642"
+ms.lasthandoff: 09/22/2022
+ms.locfileid: "9573242"
 ---
 # <a name="allow-edits-to-internal-data-on-general-ledger-vouchers"></a>Permitir edições em dados internos em comprovantes de contabilidade
 
 [!include[banner](../includes/banner.md)]
-[!include[banner](../includes/preview-banner.md)]
 
 
 Quando você lança entradas contábeis na contabilidade, o campo **Descrição** costuma ser usado para armazenar anotações internas ou documentação. Se as informações estiverem incorretas, isso poderá gerar confusão e dificultar o fechamento do período de finalização. Esse recurso permite que o gerente ou o supervisor de contabilidade corrija erros editando o campo **Descrição** em comprovantes lançados na contabilidade.

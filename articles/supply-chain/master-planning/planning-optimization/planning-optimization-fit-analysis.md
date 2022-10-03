@@ -16,12 +16,12 @@ ms.search.industry: Manufacturing
 ms.author: benebotg
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: 10.0.9
-ms.openlocfilehash: f9c85c4fbcc3c66d6cc4c65431b76c31cbb7aebf
-ms.sourcegitcommit: 20ce54cb40290dd116ab8b157c0a02d6757c13f5
+ms.openlocfilehash: 7e32b3ed6ed96de7193cc496e0630969137cd0c1
+ms.sourcegitcommit: 15b331f39d6e3ef811b9c2bf055a4f5b4572bae2
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 09/20/2022
-ms.locfileid: "9542343"
+ms.lasthandoff: 09/26/2022
+ms.locfileid: "9591841"
 ---
 # <a name="planning-optimization-fit-analysis"></a>Análise de ajuste da Otimização de Planejamento
 
@@ -94,7 +94,7 @@ A tabela a seguir mostra os vários resultados que podem ser exibidos após uma 
 | Produção | Versões de fórmula com Produção: *\#* | Este recurso está pendente. No momento, o rendimento associado à versão da fórmula é ignorado quando a otimização do planejamento é habilitada. | Ciclo de lançamentos 2 de 2022 |
 | Produção | Planos que incluem sequenciamento: *\#* | Este recurso está pendente. No momento, o sequenciamento é ignorado quando a otimização do planejamento é habilitada, independentemente dessa configuração. | Ciclo de lançamentos 2 de 2022 |
 | Produção | Ordens de produção liberadas que não foram iniciadas, nas quais o início agendado é anterior a hoje: *\#* | Este recurso está pendente. Atualmente, se uma ordem de produção estiver atrasada, o planejamento mestre presumirá que ela será concluída hoje. Isso é relevante para ordens de produção lançadas em que uma data de entrega está no passado, mas ainda não foi concluída. | Ciclo futuro |
-| Produção | Recursos agendados com capacidade finita: *\#* | Este recurso está pendente. No momento, os recursos agendados com capacidade finita são ignorados quando a otimização do planejamento for habilitada. O plano é feito com base no prazo de entrega padrão do produto. | Ciclo de lançamentos 2 de 2022 |
+| Produção | Recursos agendados com capacidade finita: *\#* | Este recurso agora tem suporte.| Suportado |
 | Produção | Roteiros usados no planejamento: *\#* | Este recurso é suportado. | Com suporte |
 | Produção | Reserva de linha de vendas usando detalhamento: *\#* | A reserva de linha de venda que usa detalhamento não tem suporte quando a otimização de planejamento está habilitada. | Ciclo futuro |
 | Produção | Agendamento com detalhamento das ordens de produção: *\#* | Agendamento que usa explosão de ordens de produção não tem suporte quando a otimização de planejamento está habilitada. As ordens de produção podem ser planejadas individualmente. | Ciclo futuro |

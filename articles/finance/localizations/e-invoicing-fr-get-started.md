@@ -16,18 +16,16 @@ ms.search.region: Global
 ms.author: janeaug
 ms.search.validFrom: 2022-00-02
 ms.dyn365.ops.version: AX 10.0.29
-ms.openlocfilehash: 365316b204b6d76fa6ee6b2402fefee50c8ff3ef
-ms.sourcegitcommit: c98d55a4a6e27239ae6b317872332f01cbe8b875
+ms.openlocfilehash: 3ac4af8c131e35d9a499d0d558c7cce1d4872b37
+ms.sourcegitcommit: adadbc6e355e2ad68a1f6af26a1be1f89dc8eec6
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/02/2022
-ms.locfileid: "9220639"
+ms.lasthandoff: 09/22/2022
+ms.locfileid: "9573269"
 ---
 # <a name="get-started-with-the-electronic-invoicing-add-on-for-france"></a>Introdução ao complemento de faturamento eletrônico para a França
 
 [!include [banner](../includes/banner.md)]
-
-[!include [banner](../includes/preview-banner.md)]
 
 Este artigo fornece informações que ajudarão você a começar a usar o faturamento eletrônico para a França. Ele orienta você pelas etapas de configuração que dependem do país/região para o Regulatory Configuration Service (RCS). Essas etapas complementam as etapas descritas em [Introdução ao complemento de faturamento eletrônico](e-invoicing-get-started.md).
 

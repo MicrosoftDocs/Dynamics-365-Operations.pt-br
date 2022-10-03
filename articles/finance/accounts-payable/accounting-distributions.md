@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: peakerbl
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 6aa3dce4bfda7f3c9243387cd398f08e7b990b2f
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: 0d5930ca2ce2bb1ae534f7e2b434836c3a4adeba
+ms.sourcegitcommit: cf27cf277b37666c838043e0695d39d52be5dcdd
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8894190"
+ms.lasthandoff: 09/23/2022
+ms.locfileid: "9588944"
 ---
 # <a name="accounting-distributions"></a>Distribuições contábeis
 
@@ -51,7 +51,7 @@ Os recursos de distribuição contábil genéricos fornecem as seguintes opçõe
     -   É possível visualizar o status atual da contabilidade do documento em **Referência**. O status se refere a todo o documento e indica se ele está sendo processado ou se ele foi concluído.
 -   **Exibir distribuições** – Exiba as distribuições contábeis para todas as linhas e valores monetários no documento. Você não pode alterar as distribuições contábeis nesse modo de exibição.
 
-Na versão 10.0.13, um recurso adicionado que valida a tabela de distribuição contábil para garantir que os novos campos estejam configurados corretamente. Esse recurso é chamado **Habilitar a validação adicional de dados para documentos usando a estrutura contábil do documento de origem**. Para usar o recurso, você deve habilitá-lo usando o espaço de trabalho **Gerenciamento de recursos**. Para habilitar o recurso, procure o nome do recurso no campo **Pesquisar** na página **Gerenciamento de recursos** e selecione **Habilitar agora**.
+Na versão 10.0.13, um recurso adicionado que valida a tabela de distribuição contábil para garantir que os novos campos estejam configurados corretamente. Esse recurso é chamado **Habilitar a validação adicional de dados para documentos usando a estrutura contábil do documento de origem**. Esse recurso será ativado por padrão na versão 10.0.29. 
 
 Para obter mais informações, consulte [Distribuições contábeis e entradas no diário-razão auxiliar para faturas de fornecedor](accounting-distributions-subledger-journal-entries-vendor-invoices.md).
 
