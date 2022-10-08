@@ -2,19 +2,19 @@
 title: Exemplo de integração de serviços de registro fiscal para a Áustria
 description: Este artigo fornece uma visão geral do exemplo de integração fiscal da Áustria no Microsoft Dynamics 365 Commerce.
 author: EvgenyPopovMBS
-ms.date: 08/17/2022
+ms.date: 10/04/2022
 ms.topic: article
 audience: Application User, Developer, IT Pro
 ms.reviewer: v-chgriffin
 ms.search.region: Global
 ms.author: josaw
 ms.search.validFrom: 2019-03-01
-ms.openlocfilehash: f3429df2732d7d1ed6d2f0783a600c2b994c022b
-ms.sourcegitcommit: b1df4db7facb5e7094138836c41a65c4a158f01d
+ms.openlocfilehash: 603316ea07e5951b3bc5f96af28f549bdafd3b0e
+ms.sourcegitcommit: 2bc6680dc6b12d20532d383a0edb84d180885b62
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 09/13/2022
-ms.locfileid: "9473868"
+ms.lasthandoff: 10/06/2022
+ms.locfileid: "9631333"
 ---
 # <a name="fiscal-registration-service-integration-sample-for-austria"></a>Exemplo de integração de serviços de registro fiscal para a Áustria
 
@@ -65,7 +65,7 @@ Os cenários a seguir são abordados pelo exemplo de integração do serviço de
 - Manipulação de erros, como as seguintes opções:
 
     - Repita o registro fiscal se houver uma nova tentativa, como se o serviço de registro fiscal não estiver disponível, não estiver pronto ou não estiver respondendo.
-    - Adiar o registro fiscal.
+    - Adie o registro fiscal.
     - Ignore o registro fiscal ou marque a transação como registrada e inclua códigos informativos para capturar o motivo da falha e informações adicionais.
     - Verifique a disponibilidade do serviço de registro fiscal antes que uma nova transação de venda seja aberta ou que uma transação de venda seja finalizada.
 
@@ -220,7 +220,7 @@ Conclua as etapas de integração fiscal conforme descritas em [Configurar a int
 
 1. [Configurar um processo de registro fiscal](setting-up-fiscal-integration-for-retail-channel.md#set-up-a-fiscal-registration-process). Além disso, anote as configurações do processo de registro fiscal [específicas a este exemplo de integração do serviço de registro fiscal](#set-up-the-registration-process).
 1. [Definir configurações de tratamento de erros](setting-up-fiscal-integration-for-retail-channel.md#set-error-handling-settings).
-1. [Habilitar a execução manual do registro fiscal adiado](setting-up-fiscal-integration-for-retail-channel.md#enable-manual-execution-of-postponed-fiscal-registration).
+1. [Habilitar a execução manual do registro fiscal adiado](setting-up-fiscal-integration-for-retail-channel.md#enable-manual-execution-of-deferred-fiscal-registration).
 1. [Configurar os componentes de canal](#configure-channel-components).
 
 ### <a name="set-up-the-registration-process"></a>Configurar o processo de registro fiscal

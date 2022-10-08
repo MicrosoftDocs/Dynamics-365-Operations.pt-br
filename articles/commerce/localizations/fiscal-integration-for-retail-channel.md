@@ -2,19 +2,19 @@
 title: Visão geral da integração fiscal de canais do Commerce
 description: Este artigo fornece uma visão geral dos recursos de integração fiscal disponíveis no Dynamics 365 Commerce.
 author: EvgenyPopovMBS
-ms.date: 03/04/2022
+ms.date: 10/04/2022
 ms.topic: article
 audience: Application User, Developer, IT Pro
 ms.reviewer: v-chgriffin
 ms.search.region: Global
 ms.author: josaw
 ms.search.validFrom: 2017-06-20
-ms.openlocfilehash: 0a56df2a463153c6c3986ce84907e25ea7d965b8
-ms.sourcegitcommit: 87e727005399c82cbb6509f5ce9fb33d18928d30
+ms.openlocfilehash: 1812405db3c1e58eaf7cd1df3896f786e7bf026f
+ms.sourcegitcommit: 2bc6680dc6b12d20532d383a0edb84d180885b62
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/12/2022
-ms.locfileid: "9286490"
+ms.lasthandoff: 10/06/2022
+ms.locfileid: "9631227"
 ---
 # <a name="fiscal-integration-overview-for-commerce-channels"></a>Visão geral da integração fiscal de canais do Commerce
 
@@ -95,16 +95,20 @@ Essa configuração é usada quando um dispositivo fiscal físico ou um serviço
 
 A estrutura de integração fiscal fornece as seguintes opções para lidar com as falhas durante o registro fiscal:
 
-- **Repetir** – Os operadores podem usar esta opção quando a falha puder ser resolvida rapidamente e o registro fiscal puder ser executado novamente. Por exemplo, essa opção pode ser usada quando o dispositivo fiscal não estiver conectado, a impressora fiscal estiver sem papel ou houver uma obstrução de papel nessa impressora.
-- **Cancelar** – Esta opção permite aos operadores adiar o registro fiscal do evento ou da transação atual se ele falhar. Após o adiamento do registro, o operador pode continuar a trabalhar no PDV e concluir qualquer operação que não exija o registro fiscal. Quando qualquer evento que exija o registro fiscal ocorrer no PDV (por exemplo, uma nova transação for aberta), a caixa de diálogo de tratamento de erro aparecerá automaticamente para notificar o operador que a transação anterior não foi registrada corretamente e para fornecer as opções de tratamento de erro.
-- **Ignorar** – Os operadores podem usar esta opção quando o registro fiscal puder ser omitido sob condições específicas e as operações normais puderem continuar no PDV. Por exemplo, essa opção pode ser usada quando uma transação de venda cujo registro fiscal tenha falhado puder ser registrada em um diário de papel especial.
-- **Marcar como registrado** – Os operadores podem usar esta opção quando a transação for registrada no dispositivo fiscal (por exemplo, um recibo fiscal for impresso), mas uma falha ocorrer quando a resposta fiscal estiver sendo salva no banco de dados do canal.
-- **Adiar** – os operadores podem usar esta opção quando a transação não foi registrada porque o serviço de registro não estava disponível. 
+- **Repetir** – o operador poderá usar essa opção quando a falha puder ser resolvida rapidamente e o registro fiscal puder ser executado novamente. Por exemplo, essa opção pode ser usada quando o dispositivo fiscal não estiver conectado, a impressora fiscal estiver sem papel ou houver uma obstrução de papel nessa impressora.
+- **Cancelar** – esta opção permite que o operador adie o registro fiscal do evento ou da transação atual se houver falha. Após o adiamento do registro, o operador poderá continuar a trabalhar no PDV e poderá concluir qualquer operação que não exija o registro fiscal. Quando qualquer evento que exija o registro fiscal ocorrer no PDV (por exemplo, uma nova transação for aberta), a caixa de diálogo de tratamento de erro aparecerá automaticamente para notificar o operador que a transação anterior não foi registrada corretamente e para fornecer as opções de tratamento de erro.
+- **Ignorar** – o operador poderá usar essa opção quando não for possível concluir o registro fiscal da transação ou do evento atual. Por exemplo, se a impressora fiscal não estiver funcionando, **e** o registro fiscal puder ser omitido de acordo com condições específicas. Por exemplo, essa opção pode ser usada quando uma transação de venda cujo registro fiscal tenha falhado puder ser registrada em um diário de papel especial. Depois que o registro fiscal for ignorado, as operações normais poderão continuar no PDV. 
+- **Marcar como registrado** – o operador poderá usar essa opção quando a transação ou evento atual foi registrado no dispositivo fiscal. Por exemplo, um recibo fiscal for impresso, mas ocorrer uma falha quando a resposta fiscal estiver sendo salva no banco de dados do canal. Depois de marcar a transação ou o evento atual como registrado, as operações normais poderão continuar no PDV.
+- **Adiar** – o operador poderá usar essa opção quando a transação não foi registrada porque o dispositivo ou o serviço de registro não estava disponível **e** uma das seguintes opções for aplicável:
+    - Há uma opção de registro fiscal de backup e é possível continuar o processo de registro fiscal para a transação atual. Por exemplo, um [dispositivo fiscal](./latam-bra-cf-e-sat.md#scenario-4-make-a-cash-and-carry-sale-of-goods-by-using-sat-as-contingency-mode) local pode ser uma opção de backup para um serviço de registro fiscal online quando o serviço não está disponível.
+    - O registro fiscal poderá ser concluído posteriormente por meio de uma estrutura de integração fiscal. Por exemplo, as transações adiadas poderão ser registradas fiscalmente posteriormente em um lote por uma [funcionalidade separada](./latam-bra-nfce.md#scenario-3-make-a-cash-and-carry-sale-of-goods-in-offline-contingency-mode).
+    
+    Depois de adiar a transação ou o evento atual, as operações normais poderão continuar no PDV.
 
-> [!NOTE]
-> As opções **Ignorar** e **Marcar como registrado** e **Adiar** devem ser ativadas no processo de registro fiscal antes de serem usadas. Além disso, permissões correspondentes devem ser concedidas aos operadores.
+> [!WARNING]
+> As opções **Ignorar**, **Marcar como registrado** e **Adiar** devem ser consideradas opções de emergência e usadas somente em casos excepcionais. Aborde essas opções de tratamento de erros com seu contador ou assistente jurídico e tenha bom senso antes de habilitá-las. As opções devem ser ativadas no processo de registro fiscal antes de serem usadas. Para garantir que os operadores não as usem regularmente, as permissões correspondentes devem ser concedidas aos operadores.
 
-As opções **Ignorar**, **Marcar como registrado** e **Adiar** permitem que os códigos informativos capturem algumas informações específicas sobre uma falha, como o motivo da falha ou uma justificativa para ignorar o registro fiscal ou marcar a transação como registrada. Para obter mais detalhes sobre como configurar parâmetros de tratamento de erro, consulte [Definir configurações de tratamento de erro](setting-up-fiscal-integration-for-retail-channel.md#set-error-handling-settings).
+Uma [transação fiscal](#storing-fiscal-response-in-fiscal-transaction) é criada quando as opções **Ignorar**, **Marcar como registrado** ou **Adiar** são selecionadas, mas a transação fiscal não contém uma resposta fiscal. Isso permite que você capture o evento da falha do registro fiscal. Essas opções também permitem que os códigos informativos capturem algumas informações específicas sobre uma falha, como o motivo da falha ou uma justificativa para ignorar o registro fiscal ou marcar a transação como registrada. Para obter mais detalhes sobre como configurar parâmetros de tratamento de erro, consulte [Definir configurações de tratamento de erro](setting-up-fiscal-integration-for-retail-channel.md#set-error-handling-settings).
 
 ### <a name="optional-fiscal-registration"></a>Registro fiscal opcional
 
@@ -112,11 +116,7 @@ O registro fiscal pode ser obrigatório para algumas operações mas opcional pa
 
 ### <a name="manually-rerun-fiscal-registration"></a>Executar novamente o registro fiscal manualmente
 
-Se o registro fiscal de uma transação ou de um evento foi adiado após uma falha (por exemplo, se o operador selecionou **Cancelar** na caixa de diálogo de tratamento de erro), você pode executar novamente o registro fiscal manualmente invocando uma operação correspondente. Para obter mais detalhes, consulte [Habilitar a execução manual do registro fiscal adiado](setting-up-fiscal-integration-for-retail-channel.md#enable-manual-execution-of-postponed-fiscal-registration).
-
-### <a name="postpone-option"></a>Opção Adiar
-
-A opção **Adiar** permite continuar o processo de registro fiscal se a etapa atual falhar. Ela pode ser usada quando houver uma opção de backup de registro fiscal.
+Se o registro fiscal de uma transação ou de um evento foi adiado após uma falha (por exemplo, se o operador selecionou **Cancelar** na caixa de diálogo de tratamento de erro), você pode executar novamente o registro fiscal manualmente invocando uma operação correspondente. Para obter mais detalhes, consulte [Habilitar a execução manual do registro fiscal adiado](setting-up-fiscal-integration-for-retail-channel.md#enable-manual-execution-of-deferred-fiscal-registration).
 
 ### <a name="fiscal-registration-health-check"></a>Verificação de integridade do registro fiscal
 
@@ -138,7 +138,7 @@ Se houver falha na verificação de integridade, o PDV exibirá a caixa de diál
 
 ## <a name="storing-fiscal-response-in-fiscal-transaction"></a>Armazenamento da resposta fiscal na transação fiscal
 
-Quando o registro fiscal de um evento ou uma transação é bem-sucedido, uma transação fiscal é criada no banco de dados do canal e vinculada ao evento ou à transação original. Da mesma forma, se a opção **Ignorar** ou **Marcar como registrado** for selecionada para um registro fiscal com falha, essas informações serão armazenadas em uma transação fiscal. Uma transação fiscal armazena a resposta fiscal do serviço ou dispositivo fiscal. Se o processo de registro fiscal consistir em várias etapas, uma transação fiscal será criada para cada etapa do processo que resultou em um registro com êxito ou falha.
+Quando o registro fiscal de um evento ou uma transação é bem-sucedido, uma transação fiscal é criada no banco de dados do canal e vinculada ao evento ou à transação original. Da mesma forma, se a opção **Ignorar**, **Marcar como registrado** ou **Adiar** for selecionada para um registro fiscal com falha, essas informações serão armazenadas em uma transação fiscal. Uma transação fiscal armazena a resposta fiscal do serviço ou dispositivo fiscal. Se o processo de registro fiscal consistir em várias etapas, uma transação fiscal será criada para cada etapa do processo que resultou em um registro com êxito ou falha.
 
 As transações fiscais são transferidas para o headquarters pelo *trabalho P* com as transações. Na FastTab **Transações fiscais** da página **Transações da loja**, você pode ver as transações fiscais vinculadas às transações.
 

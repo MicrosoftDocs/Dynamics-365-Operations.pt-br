@@ -2,19 +2,19 @@
 title: Exemplo de integração de serviços de registro fiscal para a Alemanha
 description: Este artigo fornece uma visão geral do exemplo de integração fiscal da Alemanha no Microsoft Dynamics 365 Commerce.
 author: EvgenyPopovMBS
-ms.date: 08/17/2022
+ms.date: 10/04/2022
 ms.topic: article
 audience: Application User, Developer, IT Pro
 ms.reviewer: v-chgriffin
 ms.search.region: Global
 ms.author: josaw
 ms.search.validFrom: 2020-05-29
-ms.openlocfilehash: c3fdc0c378ad57300213357eccd50d817e06789a
-ms.sourcegitcommit: 0feb5d0b06e04f99903069ff2801577be86b8555
+ms.openlocfilehash: a725badbce498e4e7b35aecb2500e273586c7b77
+ms.sourcegitcommit: 2bc6680dc6b12d20532d383a0edb84d180885b62
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/18/2022
-ms.locfileid: "9313932"
+ms.lasthandoff: 10/06/2022
+ms.locfileid: "9631444"
 ---
 # <a name="fiscal-registration-service-integration-sample-for-germany"></a>Exemplo de integração de serviços de registro fiscal para a Alemanha
 
@@ -265,7 +265,7 @@ Conclua as etapas de integração fiscal conforme descritas em [Configurar a int
     > - É recomendável deixar a opção **Continuar se houver erro** na página **Processo de registro fiscal** desativada, pois todas as transações devem ser registradas corretamente, mesmo que a primeira tentativa de registro fiscal não tenha sido bem-sucedida.
     > - Antes de ativar a opção **Ignorar** ou **Marcar como registrado** na página **Processo de registro fiscal**, você deve discutir essas alterações no processo de registro fiscal com seu consultor de imposto ou o escritório de imposto local.
 
-1. [Habilitar a execução manual do registro fiscal adiado](setting-up-fiscal-integration-for-retail-channel.md#enable-manual-execution-of-postponed-fiscal-registration).
+1. [Habilitar a execução manual do registro fiscal adiado](setting-up-fiscal-integration-for-retail-channel.md#enable-manual-execution-of-deferred-fiscal-registration).
 1. [Configurar os componentes de canal](#configure-channel-components).
 
 ### <a name="set-up-the-registration-process"></a>Configurar o processo de registro fiscal

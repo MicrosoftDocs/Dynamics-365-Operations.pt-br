@@ -14,12 +14,12 @@ ms.search.validFrom: 2020-01-21
 ms.dyn365.ops.version: Retail 10.0.9 update
 ms.custom: ''
 ms.search.industry: Retail
-ms.openlocfilehash: b93852bfb7c6f5a9f2f83f30a1f76da3f9559c7e
-ms.sourcegitcommit: 87e727005399c82cbb6509f5ce9fb33d18928d30
+ms.openlocfilehash: d01ad490301dd2f4103b8bd3f702db12b93a45a8
+ms.sourcegitcommit: bd7b1ffe90b25eb4c68d6aaebd063bf33e09d9cd
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/12/2022
-ms.locfileid: "9286828"
+ms.lasthandoff: 10/05/2022
+ms.locfileid: "9627487"
 ---
 # <a name="create-and-update-a-returns-and-refunds-policy-for-a-channel"></a>Criar e atualizar uma política de devolução e reembolso para um canal
 
@@ -36,12 +36,8 @@ No momento, o escopo da política está limitado à definição de meios de paga
 
 ## <a name="enable-return-policy"></a>Habilitar política de devolução
 
-Para habilitar a funcionalidade de política de devolução de canais no Commerce headquarters, siga estas etapas:
+Esse recurso está ativado por padrão. Você pode encontrá-lo no espaço de trabalho **Gerenciamento de recursos** pesquisando **Habilitar políticas de devolução de canal** na lista de nomes de recursos.
 
-1. Acesse o espaço de trabalho **Gerenciamento de Recursos** no Dynamics 365 Commerce.
-1. Procure o recurso **Habilitar políticas de devolução de canal** na lista de nomes de recursos.
-1. Selecione **Habilitar agora**.
-1. Na página **Agendamento de distribuição**, execute o trabalho de **1110** (configuração global) para distribuir a alteração do recurso.
 
 ## <a name="configure-return-policy"></a>Configurar política de devolução
 

@@ -2,19 +2,19 @@
 title: Exemplo de integração da unidade de controle para a Suécia
 description: Este artigo fornece uma visão geral do exemplo de integração fiscal da Suécia no Microsoft Dynamics 365 Commerce.
 author: EvgenyPopovMBS
-ms.date: 12/20/2021
+ms.date: 10/04/2022
 ms.topic: article
 audience: Application User, Developer, IT Pro
 ms.reviewer: v-chgriffin
 ms.search.region: Global
 ms.author: josaw
 ms.search.validFrom: 2019-10-08
-ms.openlocfilehash: 3376e6a901b692371a44b5c74c1e6b4afd0cd573
-ms.sourcegitcommit: 87e727005399c82cbb6509f5ce9fb33d18928d30
+ms.openlocfilehash: 966ba3fab780991736f0c84d7eb68356c28a4022
+ms.sourcegitcommit: 2bc6680dc6b12d20532d383a0edb84d180885b62
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/12/2022
-ms.locfileid: "9275057"
+ms.lasthandoff: 10/06/2022
+ms.locfileid: "9631253"
 ---
 # <a name="control-unit-integration-sample-for-sweden"></a>Exemplo de integração da unidade de controle para a Suécia
 
@@ -42,7 +42,7 @@ O exemplo de integração da unidade de controle da Suécia inclui os seguintes 
 - Há várias opções de manipulação de erros disponíveis. Veja alguns exemplos:
 
     - Repita o registro fiscal, caso seja possível tentar novamente. Você pode repetir o registro fiscal se, por exemplo, a unidade de controle não estiver conectada, não estiver pronta ou não estiver respondendo.
-    - Adiar o registro fiscal.
+    - Adie o registro fiscal.
     - Ignore o registro fiscal ou marque a transação como registrada e inclua códigos informativos para capturar o motivo da falha e informações adicionais.
     - Verifique a disponibilidade da unidade de controle antes que uma nova transação de venda seja aberta ou que uma transação de venda seja finalizada.
 
@@ -103,7 +103,7 @@ Conclua as etapas de integração fiscal conforme descritas em [Configurar a int
 
 1. [Configurar um processo de registro fiscal](setting-up-fiscal-integration-for-retail-channel.md#set-up-a-fiscal-registration-process). Além disso, anote as configurações do processo de registro fiscal [específicas a este exemplo de integração da unidade de controle](#set-up-the-registration-process).
 1. [Definir configurações de tratamento de erros](setting-up-fiscal-integration-for-retail-channel.md#set-error-handling-settings).
-1. [Habilitar a execução manual do registro fiscal adiado](setting-up-fiscal-integration-for-retail-channel.md#enable-manual-execution-of-postponed-fiscal-registration).
+1. [Habilitar a execução manual do registro fiscal adiado](setting-up-fiscal-integration-for-retail-channel.md#enable-manual-execution-of-deferred-fiscal-registration).
 1. [Configurar os componentes de canal](#configure-channel-components).
 
 ### <a name="set-up-the-registration-process"></a>Configurar o processo de registro fiscal

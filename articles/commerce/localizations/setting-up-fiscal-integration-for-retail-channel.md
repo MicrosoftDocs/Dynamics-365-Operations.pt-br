@@ -2,19 +2,19 @@
 title: Configurar a integração fiscal para canais do Commerce
 description: Este artigo fornece diretrizes para configurar a funcionalidade de integração fiscal para canais do Commerce.
 author: EvgenyPopovMBS
-ms.date: 04/28/2022
+ms.date: 10/04/2022
 ms.topic: article
 audience: Application User, Developer, IT Pro
 ms.reviewer: v-chgriffin
 ms.search.region: Global
 ms.author: josaw
 ms.search.validFrom: 2017-06-20
-ms.openlocfilehash: 9fd801395f2ba04c703734a1de7998d6a53b6462
-ms.sourcegitcommit: 87e727005399c82cbb6509f5ce9fb33d18928d30
+ms.openlocfilehash: 28097341c7b39660b834eb81786c3f56045e1496
+ms.sourcegitcommit: 2bc6680dc6b12d20532d383a0edb84d180885b62
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/12/2022
-ms.locfileid: "9276120"
+ms.lasthandoff: 10/06/2022
+ms.locfileid: "9631414"
 ---
 # <a name="set-up-the-fiscal-integration-for-commerce-channels"></a>Configurar a integração fiscal para canais do Commerce
 
@@ -30,9 +30,10 @@ Para habilitar recursos relacionados à funcionalidade de integração fiscal pa
 1. Encontre e habilite os seguintes recursos:
 
     - **Integração fiscal direta de terminais de PDV** – esse recurso estende a estrutura de integração fiscal adicionando a possibilidade de criar conectores fiscais que serão executados no PDV (ponto de venda). Esse tipo de conector se comunica com um dispositivo ou serviço fiscal que fornece uma API (interface de programação de aplicativo) HTTP e não requer uma máquina física dedicada na loja. Por exemplo, essa funcionalidade permite a integração fiscal para dispositivos móveis sem a necessidade de estação de hardware compartilhada.
-    - **Substituições do perfil técnico de integração fiscal** – esse recurso permite que a configuração da integração fiscal seja expandida e adiciona a possibilidade de verificar parâmetros de conexão na página configurações de um terminal de PDV. Quando esse recurso está habilitado, é possível substituir os parâmetros de um perfil técnico.
+    - **Substituições do perfil técnico de integração fiscal** – esse recurso permite que a configuração da integração fiscal seja expandida e adiciona a possibilidade de substituir os parâmetros de um perfil técnico. Por exemplo, é possível especificar cadeias de conexão do dispositivo fiscal no nível do terminal de PDV individual. O recurso também adiciona a possibilidade de verificar os parâmetros de conexão na página **Configurações** de um terminal de PDV. 
     - **Estado do Registro Fiscal de Terminais de PDV** – quando esse recurso é habilitado, é possível desabilitar o processo de registro fiscal de terminais de PDV específicos. Se o registro fiscal estiver desabilitado para um terminal de PDV, as transações de vendas não poderão ser concluídas nesse terminal.
-    - **Backup de armazenamento local de integração fiscal** – esse recurso estende os recursos de tratamento de erros da estrutura de integração fiscal. Ele também permite o backup automático de dados de registro fiscal no caso de perda de dados, de forma que os dados no armazenamento local sejam restaurados enquanto um dispositivo esteja sendo ativado.
+    - **Backup de armazenamento local de integração fiscal** – esse recurso amplia os recursos de tratamento de erros da estrutura de integração fiscal permitindo o backup automático dos dados de registro fiscal de modo que a restauração desses dados no armazenamento local possam ser restaurados enquanto um dispositivo esteja sendo ativado.
+    - **Registro adiado de documentos** – esse recurso estende os recursos de tratamento de erros da estrutura de integração fiscal habilitando a opção de adiar o registro fiscal no caso de uma falha de registro fiscal e usar uma opção de registro fiscal de backup ou concluir o registro fiscal posteriormente por meio de uma estrutura de integração fiscal.
 
 ## <a name="set-up-commerce-parameters"></a>Configurar parâmetros do Commerce
 
@@ -286,7 +287,7 @@ Para permitir que os relatórios fiscais X/Z sejam executados a partir do PDV, v
     1. Adicione um novo botão e defina a propriedade do botão **Redução Z**.
     1. Na página **Agenda de distribuição**, execute o trabalho **1090** para transferir as alterações para o banco de dados do canal.
 
-## <a name="enable-manual-execution-of-postponed-fiscal-registration"></a>Habilitar a execução manual do registro fiscal adiado
+## <a name="enable-manual-execution-of-deferred-fiscal-registration"></a>Habilitar a execução manual do registro fiscal adiado
 
 Para habilitar a execução manual de um registro fiscal adiado, você deve adicionar um novo botão a um layout do PDV.
 
@@ -295,7 +296,6 @@ Para habilitar a execução manual de um registro fiscal adiado, você deve adic
     1. Selecione o layout para atualizar.
     1. Adicione um novo botão e defina a propriedade do botão **Concluir processo de registro fiscal**.
     1. Na página **Agenda de distribuição**, execute o trabalho **1090** para transferir suas alterações para o banco de dados do canal.
-
 
 ## <a name="view-connection-parameters-and-other-information-in-pos"></a>Exibir parâmetros de conexão e outras informações no PDV
 

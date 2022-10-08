@@ -1749,23 +1749,13 @@
               href: sensor-data-intelligence/sdi-scenario-production-delays.md
         - name: Inteligência de IoT
           items:
-            - name: Página inicial da Inteligência de IoT
+            - name: A Inteligência de IoT foi substituída pelo Sensor Data Intelligence
               href: iot/iot-intelligence-home-page.md
-            - name: Configurar recursos do Azure
-              href: iot/iot-azure-setup.md
-            - name: Formatos de esquema de mensagem para Hub IoT
-              href: iot/iot-schema-format.md
-            - name: Configurar métricas
-              href: iot/iot-metrics-setup.md
-            - name: Configuração de cenário
-              href: iot/iot-scenario-setup.md
-            - name: Monitorar e gerenciar
-              href: iot/iot-management.md
         - name: Planejamento mestre
           items:
-            - name: Home page Planejamento mestre
+            - name: Home page do planejamento mestre
               href: master-planning/master-planning-home-page.md
-            - name: Migração do planejamento mestre para Otimização de Planejamento
+            - name: Migração do planejamento mestre para a Otimização de Planejamento
               href: master-planning/new-master-planning-engine.md
             - name: Otimização de Planejamento
               items:

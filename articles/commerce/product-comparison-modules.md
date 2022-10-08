@@ -2,19 +2,19 @@
 title: Módulos de comparação de produtos
 description: Este artigo descreve os módulos de comparação de produtos e como implementá-los para que os clientes possam fazer comparações de produtos nos sites de comércio eletrônico do Microsoft Dynamics 365 Commerce.
 author: ashishmsft
-ms.date: 08/09/2022
+ms.date: 10/03/2022
 ms.topic: article
 audience: Application User, Developer, IT Pro
 ms.reviewer: v-chgriffin
 ms.search.region: Global
 ms.author: asharchw
 ms.search.validFrom: 2022-02-28
-ms.openlocfilehash: 6fd851ce6b32d0772c3fe23c4d7bd4dae2616fdc
-ms.sourcegitcommit: b1df4db7facb5e7094138836c41a65c4a158f01d
+ms.openlocfilehash: 9ff45f3fbcc86b21f336d580582adef586417de4
+ms.sourcegitcommit: 66b954827826706ea2ba00c2afd5d694ad92148d
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 09/13/2022
-ms.locfileid: "9474117"
+ms.lasthandoff: 10/03/2022
+ms.locfileid: "9618376"
 ---
 # <a name="product-comparison-modules"></a>Módulos de comparação de produtos
 
@@ -91,6 +91,19 @@ Para adicionar um botão de comparação de produtos a blocos de produtos em pá
 1. No painel de propriedades à direita, configure as propriedades do módulo **Botão de comparação de produtos**.
 1. Selecione **Salvar** e depois selecione **Visualizar** para visualizar a página.
 1. Selecione **Concluir edição** para fazer check-in da página e depois selecione **Publicar** para publicá-lo.
+
+## <a name="add-a-product-comparison-preview-panel-module-to-pages-on-your-website"></a>Adicionar um módulo do painel de visualização de comparação de produtos a páginas no seu site
+
+Um módulo do painel de visualização de comparação de produtos fornece aos seus clientes a opção de revisar produtos adicionados ou removidos da comparação. O painel visualização também fornece as opções para navegar até a página de comparação diretamente ou limpar toda a lista de produtos. 
+
+É recomendável habilitar o painel de visualização em todas as páginas que tenham o botão **Comparação de produtos** habilitado. O módulo pode ser adicionado ao **botão Comparação de produtos** como um slot ou pode ser usado como um módulo independente que você poderá configurar em qualquer página, mesmo quando não houver funcionalidade para adicionar ou remover produtos para comparação. 
+
+Você deve adicionar o produto manualmente o módulo do painel de visualização de comparação de produtos à página. Você deve adicionar somente um módulo do painel de visualização a uma página. Se você adicionar várias instâncias do módulo a uma página, o primeiro módulo será renderizado e o restante será ignorado.
+
+![Painel de visualização de comparação de produtos](./media/product-comparison-preview-panel-2.png)
+
+Se especificar um limite de comparação de produtos, você terá a opção de habilitar espaços reservados cinza no painel de visualização para indicar quantos produtos podem ser adicionados à comparação. Os espaços reservados cinza serão substituídos pelos produtos à medida que eles forem adicionados à comparação. Para configurar um limite de comparação de produtos e habilitar os espaços reservados cinza, no construtor de sites, acesse **Configurações do site > Extensões** e faça as alterações na seção **Comparações de produtos**. A configuração será aplicada a todos os painéis de visualização de todas as páginas. 
+
 
 ## <a name="specify-the-maximum-number-of-products-to-show-in-the-comparison-tray"></a>Especifique o número máximo de produtos a serem mostrados na bandeja de comparação
 

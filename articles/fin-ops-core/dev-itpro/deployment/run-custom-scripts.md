@@ -11,17 +11,16 @@ ms.search.region: Global
 ms.author: aevengir
 ms.search.validFrom: 2021-12-16
 ms.dyn365.ops.version: 10.0.25
-ms.openlocfilehash: aad48fbd3ee2f28f39f6061b5e922f5c4f47c8f6
-ms.sourcegitcommit: 12b3dbee905f8b2eb2e6c383c822a0fc9fccf063
+ms.openlocfilehash: 3d00f842da69f889738fbcb293c7489bb018e810
+ms.sourcegitcommit: f62c9b24c2205d03e2fd6e7c67f7b5c316233b12
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 07/01/2022
-ms.locfileid: "9103510"
+ms.lasthandoff: 09/29/2022
+ms.locfileid: "9598073"
 ---
 # <a name="run-custom-x-scripts-with-zero-downtime"></a>Executar scripts X + + personalizados com tempo de inatividade zero
 
 [!include [banner](../includes/banner.md)]
-[!INCLUDE [preview-banner](../includes/preview-banner.md)]
 
 Esse recurso permite carregar e executar pacotes implantáveis que contêm scripts X + + personalizados sem precisar passar pelos Microsoft Dynamics Lifecycle Services (LCS) ou suspender o sistema. Portanto, você pode corrigir inconsistências mínimas dos dados sem causar nenhum tempo de inatividade.
 
