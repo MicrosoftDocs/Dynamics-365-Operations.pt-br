@@ -11,12 +11,12 @@ ms.search.region: Global
 ms.author: johanho
 ms.search.validFrom: 2022-09-02
 ms.dyn365.ops.version: 10.0.30
-ms.openlocfilehash: edfa20bec7438124844f8b6afa91ca4941b6bb56
-ms.sourcegitcommit: 3d7ae22401b376d2899840b561575e8d5c55658c
+ms.openlocfilehash: dc8bd020a53214abab28ec51ffc6d6be74979932
+ms.sourcegitcommit: c5f2cba3c2b0758e536eeaaa40506659a53085e1
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 09/08/2022
-ms.locfileid: "9428297"
+ms.lasthandoff: 10/12/2022
+ms.locfileid: "9643967"
 ---
 # <a name="set-up-a-simulated-sensor-for-testing"></a>Configurar um sensor simulado para teste
 
@@ -24,6 +24,12 @@ ms.locfileid: "9428297"
 [!INCLUDE [preview-banner](../includes/preview-banner.md)]
 
 Se você deseja testar o Sensor Data Intelligence sem instalar sensores físicos, é possível usar o serviço *Raspberry PI Azure IoT Online Simulator* para emular os sinais de sensor e enviá-los para a solução de Internet das Coisas (IoT) no Microsoft Azure. Para obter mais informações sobre o simulador, consulte [Conectar Raspberry Pi online Simulator ao Hub IoT do Azure (Node.js)](/azure/iot-hub/iot-hub-raspberry-pi-web-simulator-get-started).
+
+## <a name="video-instructions"></a>Instruções de vídeo
+
+O vídeo a seguir mostra como configurar um sensor simulado para teste. As seções restantes neste artigo fornecem as mesmas instruções em um formato baseado em texto.
+
+> [!VIDEO https://www.microsoft.com/videoplayer/embed/RE588g6]
 
 ## <a name="create-a-device-in-azure-iot-hub"></a>Criar um dispositivo no Hub IoT do Azure
 

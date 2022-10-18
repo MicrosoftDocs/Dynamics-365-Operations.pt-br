@@ -13,16 +13,19 @@ ms.search.region: Global
 ms.author: bking
 ms.search.validFrom: 2018-08-30
 ms.dyn365.ops.version: 8.0.4
-ms.openlocfilehash: be3e6438e86911d9703a5ac7413515389308b340
-ms.sourcegitcommit: 1909d18a74cef85aad020a6a7473281e451f58c7
+ms.openlocfilehash: 5bf07356b5613f438034f8dabac7db197e69a6c8
+ms.sourcegitcommit: c5f2cba3c2b0758e536eeaaa40506659a53085e1
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/24/2022
-ms.locfileid: "9348345"
+ms.lasthandoff: 10/12/2022
+ms.locfileid: "9644021"
 ---
 # <a name="revenue-recognition-overview"></a>Visão geral do reconhecimento de receita
 
 [!include [banner](../includes/banner.md)]
+
+>[!NOTE]
+>Essa funcionalidade será preterida em outubro de 2023, os novos usuários devem usar a cobrança de assinatura.
 
 As empresas em setores que vendem vários elementos, como produtos, serviços, assinaturas etc., devem ter a capacidade de dividir ordens de vários elementos de modo que a receita possa ser reconhecida com base em um conjunto de diretrizes específicas da empresa e do setor.
 

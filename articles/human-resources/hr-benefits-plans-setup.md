@@ -2,7 +2,7 @@
 title: Criar um plano de benefícios
 description: Este artigo mostra como configurar planos de benefícios no Dynamics 365 Human Resources.
 author: twheeloc
-ms.date: 08/23/2021
+ms.date: 09/29/2022
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: twheeloc
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 5c8d4488f1782d80484a8b91f4ae7303fea0e464
-ms.sourcegitcommit: 203c8bc263f4ab238cc7534d4dd902fd996d2b0f
+ms.openlocfilehash: 001318be00efcda1e7ee07513e240059d3c5e135
+ms.sourcegitcommit: c5f2cba3c2b0758e536eeaaa40506659a53085e1
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/23/2022
-ms.locfileid: "9336837"
+ms.lasthandoff: 10/12/2022
+ms.locfileid: "9643928"
 ---
 # <a name="create-a-benefit-plan"></a>Criar um plano de benefícios
 
@@ -42,8 +42,9 @@ Este artigo mostra como configurar planos de benefícios no Dynamics 365 Human R
    | **Programa** | Especifica um programa ao qual atribuir opcionalmente o plano. |
    | **Pacote** | Especifica um pacote ao qual atribuir opcionalmente o plano. |
    | **Mestre** | Especifica se o plano é o plano mestre no pacote ao qual está atribuído. |
+   | **Necessário** | Indica que o plano deve ser selecionado para fazer check-out de qualquer outro plano no pacote. É possível marcar mais de um plano como **Obrigatório**. Nesse caso, todos os planos marcados como **Obrigatório** precisarão ser selecionados para fazer o check-out de qualquer um dos planos no pacote.|
    | **Válido a partir da data e hora** | A data e a hora em que o plano tem início. O valor padrão é a data atual do sistema. |
-   | **Válido até a data e hora** | A data e a hora em que o plano é encerrado. O valor padrão é 12/31/2154, o que significa nunca. |
+   | **Válido até a data e hora** | A data e a hora em que o plano é encerrado. O valor padrão é 12/31/2154, o que significa nunca.  |
 
 4. Na guia **Configuração**, especifique valores para os seguintes campos, dependendo do tipo de plano que você está criando:
 

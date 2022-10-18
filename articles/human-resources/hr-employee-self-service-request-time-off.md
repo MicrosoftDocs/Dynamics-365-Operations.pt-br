@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: twheeloc
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 7d06c1d40416d2644499723317c0adfd805126b5
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: eea8cdfc0cd2cfe8ca4cc94cefbf5772ab24d9a4
+ms.sourcegitcommit: c5f2cba3c2b0758e536eeaaa40506659a53085e1
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8882885"
+ms.lasthandoff: 10/12/2022
+ms.locfileid: "9643897"
 ---
 # <a name="request-time-off"></a>Solicitar folga
 
@@ -63,6 +63,10 @@ Ao atualizar uma solicitação de folga existente, você pode adicionar um anexo
 2. Para exibir suas solicitações de folga aprovada, selecione **Folga aprovada**. Para exibir suas solicitações de folga pendentes, selecione **Solicitações de folga**.
 
 ## <a name="cancel-time-off-requests"></a>Cancelar solicitações de folga
+
+>[!NOTE] 
+> **Cancelar folga** está disponível quando o recurso **Melhorias na experiência do fluxo de trabalho da solicitação de ausência** está ativado no espaço de trabalho **Gerenciamento de recursos**.  
+
 
 1. No espaço de trabalho **Autoatendimento para funcionários**, selecione **Exibir folga** no bloco **Saldos de folgas**.
 

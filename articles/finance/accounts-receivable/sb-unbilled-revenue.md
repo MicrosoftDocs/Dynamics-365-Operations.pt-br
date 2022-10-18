@@ -2,7 +2,7 @@
 title: Receita não faturada
 description: Este artigo explica como configurar itens e contas para usar o recurso de receita não faturada na Cobrança de assinatura.
 author: JodiChristiansen
-ms.date: 11/04/2021
+ms.date: 10/10/2022
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: jchrist
 ms.search.validFrom: 2021-11-05
 ms.dyn365.ops.version: 10.0.24
-ms.openlocfilehash: b3fe58fc06df3f61433c8457b337ae895283e12b
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: adf6f06ee454f368fa194315a87cfdec9e5e13da
+ms.sourcegitcommit: c5f2cba3c2b0758e536eeaaa40506659a53085e1
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8879672"
+ms.lasthandoff: 10/12/2022
+ms.locfileid: "9644159"
 ---
 # <a name="unbilled-revenue"></a>Receita não faturada
 
@@ -123,15 +123,15 @@ As distribuições são recalculadas com base no tipo de alocação selecionado 
 
 Uma agenda de cobrança é inserida por três anos, e as faturas são faturadas anualmente em um período de três anos. Todo o valor do contrato é registrado na conta de receita não faturada a partir da qual as faturas anuais são criadas. A contrapartida é a conta de receita ou a conta de receita adiada.
 
-Observe que a cobrança principal e a receita não faturada não funcionam juntas, pois podem ocorrer problemas de reconciliação na contabilidade. Por exemplo, na página **Configuração de grupo de itens**, o grupo de itens A é configurado de forma que o campo **Número de linhas principais** seja definido como **2**. Na página **Agendas de cobrança**, três itens são adicionados. Todos os três itens pertencem ao grupo de itens A. Quando a entrada de diário inicial é criada para o recurso de receita não faturada, o valor dos três itens é processado para a conta não faturada. Quando a fatura da agenda de cobrança é criada, somente os valores dos dois itens principais são incluídos. Portanto, o valor da fatura não corresponde ao valor processado para a conta de receita não faturada, e problemas de reconciliação ocorrem na contabilidade.
+A cobrança principal e a receita não faturada não funcionam juntas, pois podem ocorrer problemas de reconciliação na contabilidade. Por exemplo, na página **Configuração de grupo de itens**, o grupo de itens A é configurado de forma que o campo **Número de linhas principais** seja definido como **2**. Na página **Agendas de cobrança**, três itens são adicionados. Todos os três itens pertencem ao grupo de itens A. Quando a entrada de diário inicial é criada para o recurso de receita não faturada, o valor dos três itens é processado para a conta não faturada. Quando a fatura da agenda de cobrança é criada, somente os valores dos dois itens principais são incluídos. Portanto, o valor da fatura não corresponde ao valor processado para a conta de receita não faturada, e problemas de reconciliação ocorrem na contabilidade.
 
 Se você quiser usar a receita não faturada, deixe a página **Configuração do grupo de itens** em branco ou configure todos os grupos de itens para que o campo **Número de linhas principais** seja definido como **0** (zero). Se você deseja usar a cobrança principal, não há nenhuma ação de receita não faturada disponível.
 
 ### <a name="examples"></a>Exemplos
 
-A partir da versão 10.0.27, uma nova conta é inserida quando a receita não faturada é usada. Quando o processo de **criação de entrada de diário** é lançado, o crédito é feito para uma nova contrapartida de receita não faturada. Essa conta é usada no lugar da conta de receita, pois o mesmo valor deve ser revertido quando a agenda de cobrança é faturada. Se ocorrerem diferenças de taxa de câmbio ou de arredondamento, os valores calculados durante o processo de **geração de fatura** podem ser diferentes. Esse comportamento garante que o valor líquido das contas seja 0 (zero).
+A partir da versão 10.0.29, um novo parâmetro é adicionado aos parâmetros de cobrança do contrato recorrentes. Quando definido como Sim, o parâmetro **Usar contrapartidas não faturadas** habilita duas novas contas na **Configuração de receita não faturada**. As contrapartidas de receita e de desconto não faturadas são disponibilizadas e melhor usadas quando as agendas de faturamento são criadas em uma moeda diferente da moeda contábil. O uso de contrapartidas garante que as contas de receita e de desconto não faturadas sejam revertidas usando as mesmas taxas de câmbio que as entradas iniciais. O processo inicial de **Criar entrada de diário** é o mesmo com o débito da receita não faturada e o crédito da receita. Se estiver usando um desconto, a entrada de diário manual inicial é a mesma com um débito em Desconto e crédito para desconto não faturado. 
 
-Esse exemplo mostra como usar a receita não faturada para reconhecer todo o valor de um contrato no balanço como receita não faturada. O outro lado da entrada é a contrapartida da receita não faturada. Quando você fatura o cliente, a receita não faturada e a contrapartida da receita não faturada são revertidas. O reconhecimento de receita ocorrerá no momento do faturamento ou de acordo com a agenda de reconhecimento de adiamento configurada.
+Esse exemplo mostra como usar a receita não faturada para reconhecer todo o valor de um contrato no balanço como receita não faturada. O outro lado da entrada é a receita ou receita adiada. Quando você fatura o cliente, a receita não faturada é revertida. O reconhecimento de receita ocorrerá no momento do faturamento ou de acordo com a agenda de reconhecimento de adiamento configurada.
 
 #### <a name="assumptions"></a>Hipóteses
 
@@ -151,47 +151,38 @@ Esse exemplo mostra como usar a receita não faturada para reconhecer todo o val
 
     | Item | Data inicial | Data final | Valor | Frequência de cobrança | Item de adiamento | Receita não faturada | Descrição |
     |---|---|---|---|---|---|---|---|
-    | Licença | 1º de janeiro, AT | 31 de dezembro, AT+2 | $100,00 | Anualmente | Número | Sim | O cliente será faturado em $100,00 a cada ano. O total de $300,00 será registrado antecipadamente como receita não faturada no balanço e como receita nos lucros e perdas. Cada fatura reduzirá o valor não faturado. |
-    | Manutenção | 1º de janeiro, AT | 31 de dezembro, AT+2 | $30,00 | Anualmente | Sim | Sim | O cliente será faturado em $30,00 a cada ano. O total de $90,00 será registrado antecipadamente como receita não faturada e receita adiada no balanço. Cada fatura reduzirá o valor não faturado. A receita adiada será reconhecida mensalmente durante 36 meses. |
+    | Licença | 01 de janeiro de 2022 | 31 de dezembro de 2024 | $100,00 | Anualmente | Número | Sim | O cliente será faturado em $100,00 a cada ano. O total de $300,00 será registrado antecipadamente como receita não faturada no balanço e como receita nos lucros e perdas. Cada fatura reduzirá o valor não faturado. |
+    | Manutenção | 01 de janeiro de 2022 | 31 de dezembro de 2024 | $30,00 | Anualmente | Sim | Sim | O cliente será faturado em $30,00 a cada ano. O total de $90,00 será registrado antecipadamente como receita não faturada e receita adiada no balanço. Cada fatura reduzirá o valor não faturado. A receita adiada será reconhecida mensalmente durante 36 meses. |
 
 6. Na página **Todas as agendas de cobrança**, use o processo de **criação de entrada de diário** para lançar o valor do contrato no balanço como receita não faturada.
 
 Duas entradas de diário são criadas, uma para cada linha na agenda de cobrança.
 
-| Conta de receita não faturada | Contrapartida de receita não faturada | Valor do débito | Valor de crédito |
-|---|---|---|---|
-| Conta de receita não faturada | | $300,00 | |
-| | Contrapartida de receita não faturada | | $300,00 |
+| Conta | Valor do débito | Valor de crédito |
+|---|---|---|
+| Conta de receita não faturada | $300,00 | |
+| Conta de receita | | $300,00 |
 
-| Conta de receita não faturada | Receita adiada | Valor do débito | Valor de crédito |
-|---|---|---|---|
-| Conta de receita não faturada | | $90,00 | |
-| |Receita de manutenção adiada | | $90,00 |
+| Conta | Valor do débito | Valor de crédito |
+|---|---|---|
+| Conta de receita não faturada | $90,00 | |
+| Receita adiada | | $90,00 |
 
-A primeira entrada de diário é lançada em uma contrapartida de receita não faturada e a segunda é lançada em uma conta de receita adiada. Se a linha de cobrança tiver receita não faturada e receita adiada, a conta de receita adiada será usada, e não a contrapartida de receita não faturada. O contrato requer que a fatura do cliente seja criada no início de cada ano. Use o processo de **geração de fatura** para criar a fatura. Quando a fatura é criada, as seguintes entradas de diário são geradas.
+O contrato requer que a fatura do cliente seja criada no início de cada ano. Use o processo de **geração de fatura** para criar a fatura. Quando a fatura é criada, o comprovante a seguir é lançado.
 
-| Conta principal | Conta de receita não faturada | Valor do débito | Valor de crédito |
-|---|---|---|---|
-| Contrapartida de receita não faturada | | $100,00 | |
-| | Conta de receita não faturada | | $100,00 |
-| Contas a Receber | | $100,00 | |
-| | Conta de receita | | $100,00 |
+| Conta| Valor do débito | Valor de crédito |
+|---|---|---|
+| Conta de receita não faturada | | US$ 130,00 |
+| Contas a Receber | US$ 130,00 | |
 
-| Conta principal | Conta de receita não faturada | Valor do débito | Valor de crédito |
-|---|---|---|---|
-| Conta de receita de manutenção adiada | | $30,00 | |
-| | Conta de receita não faturada | | $30,00 |
-| Contas a Receber | | $30,00 | |
-| | Conta de receita de manutenção adiada | | $30,00 |
+Essa mesma entrada de diário será criada por faturas lançadas no início dos dois próximos anos. A conta de receita não faturada é reduzida a cada ano durante o processo de **Gerar fatura**. A contrapartida da receita não faturada é usada para balancear a conta de receita não faturada quando diferentes taxas de câmbio são usadas. 
 
-Essa mesma entrada de diário será criada por faturas lançadas no início dos dois próximos anos. O valor líquido da conta de receita adiada será 0 (zero), pois não há diferenças de arredondamento ou taxa de câmbio. A receita adiada deve ser revertida exatamente como foi creditada durante o processo de **criação de entrada de diário**. Como a receita ainda é adiada e será reconhecida posteriormente, o crédito na conta de receita adiada ocorrerá novamente.
+Na última etapa, a entrada de diário de reconhecimento é criada a cada mês para reconhecer a receita adiada da taxa de manutenção. A entrada de diário pode ser criada usando a página **Processamento de reconhecimento**. Como alternativa, é possível criá-la selecionando **Reconhecer** para as linhas nas páginas **Agenda de adiamento**.
 
-Na última etapa, a entrada de diário de reconhecimento é criada a cada mês para reconhecer a receita da taxa de manutenção adiada. A entrada de diário pode ser criada usando a página **Processamento de reconhecimento**. Como alternativa, é possível criá-la selecionando **Reconhecer** para as linhas nas páginas **Agenda de adiamento**.
-
-| Conta de receita adiada | Conta de receita | Valor do débito | Valor de crédito |
-|---|---|---|---|
-| Receita de manutenção adiada | | $2,50 | |
-| | Receita de manutenção | | $2,50 |
+| Conta principal | Valor do débito | Valor de crédito |
+|---|---|---|
+| Receita adiada | $2,50 | |
+| Receita | | $2,50 |
 
 Esta entrada de diário será criada toda vez que o processo de reconhecimento for executado para esse item adiado (um total de 36 vezes).
 
@@ -269,18 +260,18 @@ Como os dois itens usam receita não faturada e alocação de receita, o valor d
 
 A tabela a seguir mostra a entrada de diário inicial para os itens e a fatura.
 
-| Conta de receita não faturada | Conta de receita adiada | Valor do débito | Valor de crédito |
-|---|---|---|---|
-| **Entrada de diário item 1.000** | | | |
-| Conta de receita não faturada de débito (401250) | | $1.465,26 | |
-| | Conta de receita adiada de crédito (250600) | | $1.465,26 |
-| **Entrada de diário item 0021** | | | |
-| Conta de receita não faturada de débito (401250) | | $274,74 | |
-| | Conta de receita adiada de crédito (250600) | | $274,74 |
-| **Fatura** | | | |
-| | Conta de receita não faturada de crédito | | $1.465,26 |
-| | Conta de receita não faturada de crédito | | $274,74 |
-| Conta de RA de débito (130100) | | $1.488,16 | |
+| Conta principal | Valor do débito | Valor de crédito |
+|---|---|---|
+| **Entrada de diário item 1.000** | | | 
+| Conta de receita não faturada (401250) | $1.465,26 | |
+| Conta de receita adiada (250600) | | $1.465,26 |
+| **Entrada de diário item 0021** | | | 
+| Conta de receita não faturada (401250) | $274,74 | |
+| Conta de receita adiada (250600) | | $274,74 |
+| **Fatura** | | |
+| Conta de receita não faturada | | $1.465,26 |
+| Conta de receita não faturada | | $274,74 |
+| Conta de RA (130100) | $1.488,16 | |
 
 #### <a name="changes-to-the-billing-schedule-line-billing-detail-line-or-revenue-allocation"></a>Alterações na linha da agenda de cobrança, linha de detalhe de cobrança ou alocação de receita
 

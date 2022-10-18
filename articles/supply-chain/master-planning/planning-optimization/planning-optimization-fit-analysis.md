@@ -16,12 +16,12 @@ ms.search.industry: Manufacturing
 ms.author: benebotg
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: 10.0.9
-ms.openlocfilehash: 7e32b3ed6ed96de7193cc496e0630969137cd0c1
-ms.sourcegitcommit: 15b331f39d6e3ef811b9c2bf055a4f5b4572bae2
+ms.openlocfilehash: c160a6477dd41fac0f15f57bb0f46def500f4589
+ms.sourcegitcommit: c5f2cba3c2b0758e536eeaaa40506659a53085e1
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 09/26/2022
-ms.locfileid: "9591841"
+ms.lasthandoff: 10/12/2022
+ms.locfileid: "9643718"
 ---
 # <a name="planning-optimization-fit-analysis"></a>Análise de ajuste da Otimização de Planejamento
 
@@ -104,11 +104,11 @@ A tabela a seguir mostra os vários resultados que podem ser exibidos após uma 
 | Margens de segurança | Planos mestres com margem de segurança: *\#* | Este recurso agora tem suporte. Para obter informações adicionais, consulte [Margens de segurança](safety-margins.md) |  Com suporte |
 | Atendimento de estoque de segurança | Registros de cobertura de item com "Preencher mínimo" diferente de "Data de hoje + tempo de aquisição": *\#* | A otimização de planejamento sempre usa a *Data de hoje + tempo de aquisição*. Essa alteração é feita para preparar-se para uma configuração de planejamento simplificada no futuro e para fornecer um resultado acionável. Se o tempo de compras não for incluído no estoque de segurança, as ordens planejadas criadas para o estoque baixo atual sempre estarão atrasadas por conta do prazo de entrega. Esse comportamento pode causar um ruído significativo e ordens planejadas indesejadas. A prática recomendada é alterar a configuração de forma que a *Data de hoje + tempo de aquisição* seja usada. Atualize os dados mestres para evitar avisos. | N/D |
 | Cotações de venda | Planos mestres com cotações de venda habilitadas: *\#* | Este recurso está pendente. No momento, cotações não são consideradas quando a otimização do planejamento for habilitada. Eles serão ignorados, independentemente dessa configuração. | Ciclo de lançamentos 2 de 2022 ou posterior |
-| Validade | Planos mestres com validade habilitada: *\#* | Este recurso está pendente. No momento, a validade não é configurada quando a otimização do planejamento é habilitada, independentemente dessa configuração. | Com suporte |
+| Validade | Planos mestres com validade habilitada: *\#* | Este recurso agora tem suporte. | Suportado |
 
 ## <a name="additional-resources"></a>Recursos adicionais
 
-[Visão geral da Otimização do Planejamento](planning-optimization-overview.md)
+[Visão geral de Otimização de Planejamento](planning-optimization-overview.md)
 
 [Introdução à Otimização do Planejamento](get-started.md)
 

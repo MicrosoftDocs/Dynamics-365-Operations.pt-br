@@ -2,7 +2,7 @@
 title: Configurar regras e opções de qualificação
 description: Este artigo descreve como definir as opções e regras de qualificação no Gerenciamento de benefícios no Microsoft Dynamics 365 Human Resources.
 author: twheeloc
-ms.date: 08/24/2021
+ms.date: 09/24/2022
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: twheeloc
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 5540a2c39b3f9f53600e5edd5c63c99cec1fb000
-ms.sourcegitcommit: 203c8bc263f4ab238cc7534d4dd902fd996d2b0f
+ms.openlocfilehash: 916a9955327aef67ac768d4505bdb343862058a1
+ms.sourcegitcommit: c5f2cba3c2b0758e536eeaaa40506659a53085e1
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/23/2022
-ms.locfileid: "9336836"
+ms.lasthandoff: 10/12/2022
+ms.locfileid: "9644075"
 ---
 # <a name="configure-eligibility-rules-and-options"></a>Configurar regras e opções de qualificação 
 
@@ -175,6 +175,7 @@ Pacotes são um conjunto de planos de benefícios relacionados. Você pode usar 
    | **Pacote** | Um identificador exclusivo para o pacote. |
    | **Descrição** | Uma descrição do pacote. |
    | **Mestre** | Indica se um dos planos no pacote deve ser marcado como plano mestre. O plano mestre deve ser selecionado durante a inscrição aberta como parte do pacote antes que o administrador de benefícios possa confirmar as eleições de benefícios do funcionário. |
+   | **Necessário**| Indica que o plano deve ser selecionado para fazer check-out de qualquer outro plano no pacote. É possível marcar mais de um plano como **Obrigatório**. Nesse caso, todos os planos marcados como **Obrigatório** precisarão ser selecionados para fazer o check-out de qualquer um dos planos no pacote.|
    | **Válido a partir da data e hora** | A data e hora em que o pacote fica ativo. |
    | **Válida até** | A data em que o pacote expira. O padrão é 12/31/2154, que representa nunca. |
 

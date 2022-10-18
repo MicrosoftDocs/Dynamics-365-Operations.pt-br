@@ -11,12 +11,12 @@ ms.search.region: Global
 ms.author: johanho
 ms.search.validFrom: 2022-09-02
 ms.dyn365.ops.version: 10.0.30
-ms.openlocfilehash: 284aba91aa436ed1dfc02b5a93b4358ffc518017
-ms.sourcegitcommit: 3d7ae22401b376d2899840b561575e8d5c55658c
+ms.openlocfilehash: 5026f234f1b2f38e7041098421d0261fd468db96
+ms.sourcegitcommit: c5f2cba3c2b0758e536eeaaa40506659a53085e1
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 09/08/2022
-ms.locfileid: "9428299"
+ms.lasthandoff: 10/12/2022
+ms.locfileid: "9643704"
 ---
 # <a name="deploy-an-iot-solution-on-azure"></a>Implantar uma solução IoT no Azure
 
@@ -26,6 +26,14 @@ ms.locfileid: "9428299"
 O Sensor Data Intelligence usa dados de sensores que estão conectados ao Microsoft Azure. Para habilitar o Azure a recuperar dados dos sensores e compartilhá-los com o Dynamics 365 Supply Chain Management, você deve implantar uma solução de Internet das Coisas (IoT) na sua assinatura do Azure. O diagrama arquitetônico a seguir fornece uma visão geral da solução e dos componentes.
 
 ![Diagrama arquitetônico do Sensor Data Intelligence.](media/sdi-architecture.png "Diagrama arquitetônico do Sensor Data Intelligence")
+
+## <a name="video-instructions"></a>Instruções de vídeo
+
+O vídeo a seguir mostra como [ativar o recurso Sensor Data Intelligence](sdi-enable-feature.md) e implantar os recursos necessários do Azure. A outra seção neste artigo fornece as mesmas instruções em um formato baseado em texto.
+
+> [!VIDEO https://www.microsoft.com/videoplayer/embed/RE58g3I]
+
+## <a name="procedure"></a>Procedimento
 
 Siga estas etapas para implantar os recursos necessários no Azure.
 

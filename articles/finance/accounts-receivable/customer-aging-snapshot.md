@@ -2,7 +2,7 @@
 title: 'Instantâneo de classificação por vencimento de cliente '
 description: Este artigo fornece informações sobre os instantâneos de classificação por vencimento de cliente. Um instantâneo de classificação por vencimento calcula os saldos classificados por vencimento de um grupo de clientes em determinado momento.
 author: JodiChristiansen
-ms.date: 05/05/2021
+ms.date: 10/10/2022
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -13,12 +13,12 @@ ms.author: mrolecki
 ms.search.validFrom: 2021-05-05
 ms.dyn365.ops.version: 10.0.17
 ms.search.form: ''
-ms.openlocfilehash: 248a71ff3c9f6c30448ff486f3ee42ac534b1825
-ms.sourcegitcommit: 87e727005399c82cbb6509f5ce9fb33d18928d30
+ms.openlocfilehash: 88145cdccfe3f1d0d3de4e31dfa519b27df6550a
+ms.sourcegitcommit: c5f2cba3c2b0758e536eeaaa40506659a53085e1
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/12/2022
-ms.locfileid: "9269551"
+ms.lasthandoff: 10/12/2022
+ms.locfileid: "9643675"
 ---
 # <a name="customer-aging-snapshots"></a>Instantâneo de classificação por vencimento de cliente 
 
@@ -31,15 +31,15 @@ As informações dos instantâneos de classificação por vencimento aparecem na
 O espaço de trabalho **Crédito e cobranças de clientes** também mostra a classificação por vencimento do cliente. Para obter mais informações, consulte [Conteúdo de gerenciamento de crédito e cobrança do Power BI](credit-collections-power-bi.md).
 
 > [!NOTE]
-> Para ajudar a reduzir o tempo necessário para criar um instantâneo de classificação por vencimento, ative o recurso **Aumento de desempenho de classificação por vencimento do cliente** no espaço de trabalho **Gerenciamento de recursos**. No entanto, não use grupos de clientes quando este recurso estiver ativado. Se um grupo de clientes for selecionado, o recurso não funcionará, mas você ainda poderá criar um instantâneo de classificação por vencimento.
+> Para ajudar a reduzir o tempo necessário para criar um instantâneo de classificação por vencimento, ative os recursos no espaço de trabalho **Gerenciamento de recursos**: **Aumento de desempenho de classificação por vencimento do cliente** 
+> **Aumento de desempenho de classificação por vencimento do cliente com grupos de clientes**  
+> Com os dois recursos ativados, é possível usar **Grupos de clientes** ao criar o instantâneo de classificação por vencimento. 
 
 Ao criar um instantâneo de classificação por vencimento de cliente, use os campos a seguir para inserir informações sobre ele:
 
 - No campo **Definição do período de classificação por vencimento**, selecione a definição do período de classificação para o instantâneo de classificação por vencimento. Você pode ter um instantâneo de classificação por vencimento para cada definição do período de classificação por vencimento. O instantâneo de classificação por vencimento e a definição do período de classificação por vencimento devem ser criados separadamente.
 - **ID do Grupo** – Esse campo é opcional. Você pode usar um grupo para definir o conjunto de clientes que deve ser processado no instantâneo de classificação por vencimento. Se você selecionar um grupo de clientes neste campo, um instantâneo de classificação por vencimento será criado somente para as contas de cliente que fazem parte desse grupo de clientes. O grupo de clientes selecionado deve ser do tipo **Instantâneo de classificação por vencimento**. Se você deixar este campo em branco, será criado um instantâneo de classificação por vencimento para todas as contas de cliente.
 
-    > [!NOTE]
-    > Se o recurso **Aumento de desempenho de classificação por vencimento do cliente** estiver ativado, não selecione um grupo de clientes.
 
 - **Critérios** – o instantâneo de classificação por vencimento terá a duração com base na data selecionada:
 
@@ -52,14 +52,15 @@ Ao criar um instantâneo de classificação por vencimento de cliente, use os ca
     - **Data de hoje** – Usar a data do sistema. Selecione essa opção se o processo estiver configurado para ser executado em um lote recorrente. Em seguida, toda vez que o lote for executado, a data de sistema dessa execução será usada.
     - **Data selecionada** – Use uma data que você especificar. Se você selecionar esta opção, você também deve inserir uma data de classificação por vencimento.
 
-    Por exemplo, o período de classificação por vencimento atual é 30 dias. Se você selecionar **Data de hoje** neste campo, o período de classificação por vencimento atual começará na data de hoje e incluirá os 29 dias anteriores. Se você selecionar **Data selecionada** e informar uma data, o período de classificação por vencimento começará na data especificada e incluirá os 29 dias anteriores.
+   Por exemplo, o período de classificação por vencimento atual é 30 dias. Se você selecionar **Data de hoje** neste campo, o período de classificação por vencimento atual começará na data de hoje e incluirá os 29 dias anteriores. Se você selecionar **Data selecionada** e informar uma data, o período de classificação por vencimento começará na data especificada e incluirá os 29 dias anteriores.
 
 - **Atualizar status de cobrança** – Defina esta opção como **Sim** para atualizar o status da coleção de transações na página **Cobranças** de **Promessa de pagamento** para **Promessa de pagamento quebrada**, se a data de vencimento for posterior à data no campo **Data da promessa de pagamento**. Defina esta opção como **Não** para deixar o status da cobrança inalterado na página **Cobranças**.
-- **Incluir clientes com saldo zero** – Defina esta opção como **Sim** para incluir todos os clientes, independentemente de seu saldo. Se você incluir todos os clientes, recomendamos que ative o recurso **Aumento de desempenho de classificação por vencimento do cliente** e não use grupos de clientes. Defina esta opção como **Não** para incluir somente clientes que tenham um saldo. Esta configuração ajuda a melhorar o desempenho, pois os clientes que não têm um saldo são ignorados.
+- **Incluir clientes com saldo zero** – Defina esta opção como **Sim** para incluir todos os clientes, independentemente de seu saldo. Se você incluir todos os clientes, recomendamos ativar os recursos **Aumento de desempenho de classificação por vencimento do cliente** e **Aumento de desempenho de classificação por vencimento do cliente com grupos de clientes**. Defina esta opção como **Não** para incluir somente clientes que tenham um saldo. Essa configuração ajudará a melhorar o desempenho, pois os clientes que não tiverem saldo serão ignorados.
+- **Ignorar cálculos de limite de crédito durante a classificação por vencimento** - se esta opção for definida como **Sim**, o processo de classificação por vencimento não recalculará o valor do **subtotal da guia de remessa**, o valor do **subtotal da ordem em aberto** e o **crédito disponível** para cada cliente. Esses saldos são mostrados na página **Saldos antigos**, na FactBox em **Limite de crédito**. Para obter melhor desempenho durante o processo de envelhecimento, defina essa opção como **Sim**. Defina como **Não** para recalcular os saldos ao executar o processo de classificação por vencimento. 
 - **Intervalo da empresa** – Na guia **Intervalo da empresa**, selecione as entidades legais (empresas) a serem incluídas no instantâneo de classificação por vencimento. Somente as entidades legais configuradas para pagamentos centralizados estão disponíveis para seleção. As transações das entidades legais selecionadas serão então incluídas nos períodos de classificação por vencimento para clientes que têm a mesma ID de participante em todas as entidades legais. Os valores de moeda são convertidos para a moeda da entidade legal que você efetuou logon quando criou o instantâneo de classificação por vencimento.
 
 Recomendamos que você agende esse processo para ser executado em um lote.
 
 > [!NOTE]
-> Para ajudar a melhorar o desempenho de lotes quando os instantâneos de classificação por vencimento são criados, insira um número no campo **Número máximo de tarefas em lote** na FastTab **Padrões de cobranças** na guia **Cobranças** da página **Parâmetros de contas a receber**. No campo **Classificar saldos de cliente por vencimento**, recomendamos que você comece com o valor padrão **100** e ajuste o valor para otimizar o processamento para a sua situação.
+> Para ajudar a melhorar o desempenho de lotes quando os instantâneos de classificação por vencimento são criados, insira um número no campo **Número máximo de tarefas em lote** na FastTab **Padrões de cobranças** na guia **Cobranças** da página **Parâmetros de contas a receber**. No campo **Classificar saldos de cliente por vencimento**, recomendamos que você comece com um valor entre **12** e **20** e, em seguida, ajuste o valor para otimizar o processamento de acordo com o seu caso. Não recomendamos definir esse valor como maior que **30**, pois isso afetará o desempenho. 
 

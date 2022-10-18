@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: jchrist
 ms.search.validFrom: 2021-11-05
 ms.dyn365.ops.version: 10.0.24
-ms.openlocfilehash: cb60253f3cbb8c991ef2e106abdb1c685bf22171
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: 64d6e21c2d8c588a64f0f4cf8b7a0bafc853bcab
+ms.sourcegitcommit: c5f2cba3c2b0758e536eeaaa40506659a53085e1
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8903324"
+ms.lasthandoff: 10/12/2022
+ms.locfileid: "9643994"
 ---
 # <a name="recurring-contract-billing-parameters"></a>Parâmetros de cobrança de contrato recorrentes
 
@@ -46,7 +46,8 @@ Use a página **Parâmetros de cobrança de contrato recorrentes** para configur
 8. No campo **Tipo de transação de fatura**, selecione o tipo de transação de fatura padrão para novas agendas de cobrança.
 9. Defina a opção **Alinhar adiamento à cobrança** como **Sim** para alinhar a agenda de adiamento correspondente para que ela use as mesmas datas que a agenda de cobrança. Defina como **Não** para usar datas diferentes.
 10. Se você estiver usando o recurso divisão de receita, defina a opção **Criar divisão de receita automaticamente** como **Sim** quando os itens forem adicionados a uma agenda de cobrança. A caixa de seleção **Divisão de receita** será automaticamente selecionada na linha da agenda de cobrança se o item for configurado como um item de divisão de receita. Defina a opção como **Não** se desejar selecionar manualmente a caixa de seleção **Divisão de receita**.
-11. Defina os campos para a criação da ordem de venda:
+11. Defina a opção **Divisão de clientes** como **Sim** para permitir que uma agenda de faturamento seja faturada para diferentes clientes. Quando definida como **Sim**, a opção **Divisão de clientes** fica disponível no cabeçalho e na linha da agenda de faturamento. 
+12. Defina os campos para a criação da ordem de venda:
 
     - As faturas podem ser consolidadas por período, cliente ou item. Qualquer combinação de valores **Sim** e **Nenhum** pode ser definida. As faturas também podem ser divididas por grupo de itens.
     - As seguintes opções de lançamento estão disponíveis para faturas:
@@ -92,6 +93,9 @@ Use a página **Parâmetros de cobrança de contrato recorrentes** para configur
     - **Emitir crédito** – cria uma nota de crédito quando uma agenda de cobrança ou linha de agenda de cobrança é encerrada.
     - **Ajuste de crédito** – cria um ajuste de crédito para uma agenda de cobrança quando uma linha é encerrada. O ajuste de crédito é exibido em um período de cobrança futuro para a agenda de cobrança. O ajuste de crédito também atualizará o valor da fatura para o próximo período de cobrança até que o crédito tenha sido aplicado à agenda de cobrança.
     - **Sem crédito** – não cria um ajuste de crédito ou uma nota de crédito quando uma agenda de cobrança ou linha de agenda de cobrança é encerrada. Esta opção está disponível somente quando a opção **Sem ajuste** é usada para encerrar uma agenda de cobrança.
+18. Quando a opção **Única pode ser encerrada com reembolso** é definida como **Não** e uma agenda de faturamento com uma frequência de cobrança **Única**, o status da linha da agenda de faturamento é alterado para **Encerrada** ao faturar a agenda de faturamento. Essa agenda de faturamento não pode ser encerrada e nenhum crédito pode ser emitido. Quando a opção **Única pode ser encerrada com reembolso** é definida como **Sim**, a linha da agenda de faturamento com uma frequência de cobrança **Única** terá um status **Ativa** ao faturar a agenda de faturamento. A linha da agenda de faturamento pode ser encerrada e um reembolso é processado. 
+19. A opção **Ratear diariamente** definida nos parâmetros será padrão para a página de encerramento em massa e o cabeçalho da agenda de faturamento e as caixas de diálogo da linha Encerrar. Isso pode ser alterado durante o processo de encerramento. Quando definida como **Sim**, qualquer valor de reembolso será calculado usando uma taxa diária. Quando definida como **Não**, ele será creditado com base na data de encerramento e na frequência da cobrança. Por exemplo, se estiver usando a frequência Mensal e o valor de cobrança for de US$ 100 por mês, o valor do crédito será em incrementos de US$ 100. Se a frequência de cobrança for uma única vez, o valor de crédito será $0.00. Você deve ter a opção Ratear diariamente definida como Sim para obter um reembolso pela frequência de cobrança única. 
+20. Defina a opção **Criar adiamento para crédito** como **Sim** para criar uma agenda de adiamento se estiver creditando uma agenda de adiamento existente. Deixe a opção definida como **Não** para criar o crédito sobre a agenda de adiamento existente.
 
 ## <a name="sequence-number-tab"></a>Guia do número de sequência
 
