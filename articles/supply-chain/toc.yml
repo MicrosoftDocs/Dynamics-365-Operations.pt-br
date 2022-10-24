@@ -10,16 +10,14 @@
               href: ../fin-ops-core/fin-ops/get-started/whats-new-changed.md?context=/dynamics365/context/supply-chain
             - name: Novidades ou alterações no Supply Chain Management
               items:
-                - name: Novidades ou alterações na home page do Supply Chain Management
+                - name: Novidades ou mudanças na home page do Supply Chain Management
                   href: get-started/whats-new-home-page.md
+                - name: Supply Chain Management 10.0.31 (fevereiro de 2022)
+                  href: get-started/whats-new-scm-10-0-31.md
                 - name: Supply Chain Management 10.0.30 (novembro de 2022)
                   href: get-started/whats-new-scm-10-0-30.md
                 - name: Supply Chain Management 10.0.29 (outubro de 2022)
                   href: get-started/whats-new-scm-10-0-29.md
-                - name: Supply Chain Management 10.0.28 (agosto de 2022)
-                  href: get-started/whats-new-scm-10-0-28.md
-                - name: Supply Chain Management 10.0.27 (julho de 2022)
-                  href: get-started/whats-new-scm-10-0-27.md
             - name: Recursos removidos ou preteridos
               items:
                 - name: Home page de recursos removidos ou preteridos
@@ -1775,10 +1773,14 @@
                   href: master-planning/supply-schedule.md
                 - name: Aplicar filtros a um plano
                   href: master-planning/planning-optimization/plan-filters.md
-                - name: Planejamento mestre com previsão de demanda
+                - name: Planejamento mestre com previsões de demanda
                   href: master-planning/planning-optimization/demand-forecast.md
+                - name: Planejamento mestre com previsões de fornecimento
+                  href: master-planning/planning-optimization/supply-forecast.md
                 - name: Planejamento mestre com contratos comerciais de compra
                   href: master-planning/planning-optimization/purchase-trade-agreement.md
+                - name: Planejar com base em Cotações e RFQs
+                  href: master-planning/planning-optimization/quotation-planning.md
                 - name: Parâmetros de data e hora usados pela Otimização de Planejamento
                   href: master-planning/planning-optimization/date-time-used.md
                 - name: Margens de segurança
@@ -2323,6 +2325,8 @@
                   href: pim/tasks/create-product-master.md
                 - name: Criar grades de produtos predefinidas
                   href: pim/tasks/create-predefined-product-variants.md
+                - name: Mostrar nomes e descrições de produtos traduzidos na interface do usuário
+                  href: pim/show-translated-product-info.md
                 - name: Gerenciar unidades de medida
                   href: pim/tasks/manage-unit-measure.md
                 - name: Conversão de unidade de medida por grade de produto
@@ -3633,6 +3637,8 @@
                       href: warehousing/control-warehouse-location-directives.md
                     - name: Trabalhar com diretivas de localização
                       href: warehousing/create-location-directive.md
+                    - name: Testar diretivas de localização com testes de aceitação
+                      href: warehousing/location-directive-acceptance-tests.md
                     - name: Configurar filtros de produto para transações de depósito
                       href: warehousing/filters-and-filter-codes.md
                     - name: Limites de estoque de localização

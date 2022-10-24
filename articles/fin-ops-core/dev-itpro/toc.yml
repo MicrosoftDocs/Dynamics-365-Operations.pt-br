@@ -12,8 +12,10 @@
               href: ../fin-ops/get-started/whats-new-changed.md?toc=/dynamics365/fin-ops-core/dev-itpro/toc.yml
             - name: Novidades ou alterações em Atualizações de plataforma
               items:
-                - name: Novidades ou alterações na home page de Atualizações da plataforma
+                - name: Novidades ou alterações na home page de Atualizações de plataforma
                   href: get-started/whats-new-home-page.md
+                - name: Atualizações de plataforma para a versão 10.0.31 (fevereiro de 2023)
+                  href: get-started/whats-new-platform-updates-10-0-31.md
                 - name: Atualizações da plataforma para a versão 10.0.30 (novembro de 2022)
                   href: get-started/whats-new-platform-updates-10-0-30.md
                 - name: Atualizações da plataforma para a versão 10.0.29 (outubro de 2022)
@@ -182,6 +184,8 @@
                   href: data-entities/configuration-data-templates.md
                 - name: Controlar alterações em uma entidade
                   href: data-entities/entity-change-track.md
+                - name: Permitir o controle de alterações da versão de linha para uma entidade
+                  href: data-entities/rowversion-change-track.md
                 - name: Encontrar informações sobre entidades de dados padrão
                   href: data-entities/data-entities-report.md
                 - name: Modelos de dados com várias planilhas
@@ -1228,6 +1232,8 @@
                   href: power-platform/admin-reference.md
                 - name: Habilitar entidades virtuais do Dataverse
                   href: power-platform/enable-virtual-entities.md
+                - name: Controlar alterações de tabelas virtuais no Dataverse
+                  href: power-platform/track-changes-fin-ops-virtual-table.md
                 - name: Portais do Power Apps com finanças e operações
                   href: power-platform/power-portal-reference.md
                 - name: Perguntas frequentes sobre entidades virtuais de finanças e operações
