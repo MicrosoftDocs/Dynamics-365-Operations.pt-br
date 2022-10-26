@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: moaamer
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 1d4874642743ed8188e84052d94003051f2af7af
-ms.sourcegitcommit: 602a319f4720b39a56b7660b530236912d484391
+ms.openlocfilehash: d0270ad1e66193832fb1139fca4439b36b5ffb84
+ms.sourcegitcommit: dca54dd3afc7c94795d89c63050b105df2c48e3f
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/06/2022
-ms.locfileid: "8722678"
+ms.lasthandoff: 10/15/2022
+ms.locfileid: "9682848"
 ---
 # <a name="post-with-derived-books"></a>Lançar com registros de depreciações derivados
 
@@ -34,7 +34,7 @@ Quando você lança transações para um registro que contém registros derivado
 -   Outros valores do tipo de transação também podem ser aplicados. Por exemplo, se o registro principal e os registros de depreciações derivadas tiverem os mesmos intervalos relativos à venda ou à alienação, todos os tipos de transação de ativo fixo estarão disponíveis para a configuração de um registro derivado.
 
 > [!WARNING]
-> A depreciação lançada no registro derivado terá o mesmo valor que foi lançado para o registro principal. Se os métodos de depreciação forem diferentes, as transações de registros não devem ser geradas usando o processo derivado. |
+> A depreciação lançada no registro derivado terá o mesmo valor que foi lançado para o registro principal. Se os métodos de depreciação forem diferentes, as transações de registros não devem ser geradas usando o processo derivado. 
 
 ## <a name="example"></a>exemplo 
 As informações a seguir descrevem como configurar transações de aquisição com a funcionalidade do registro derivado.

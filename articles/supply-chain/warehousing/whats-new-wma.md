@@ -10,18 +10,33 @@ ms.search.region: Global
 ms.author: mirzaab
 ms.search.validFrom: 2021-06-07
 ms.dyn365.ops.version: 10.0.21
-ms.openlocfilehash: a0fa081b0110682af1fcda50b0c912dc5d03fa73
-ms.sourcegitcommit: 29af4c9d9968bbfa4c19fee9de34fed309f6d38b
+ms.openlocfilehash: 645590bbf00f49bb0f3511e7fa02c8f6add661fc
+ms.sourcegitcommit: b3579ac62e1ea15664a114abcc2409cad76d4f19
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 09/01/2022
-ms.locfileid: "9388439"
+ms.lasthandoff: 10/14/2022
+ms.locfileid: "9682579"
 ---
 # <a name="whats-new-or-changed-in-the-warehouse-management-mobile-app"></a>Novidades ou alterações no aplicativo móvel Warehouse Management
 
 [!include [banner](../includes/banner.md)]
 
 Este artigo lista recursos novos, correções, aprimoramentos e problemas conhecidos para cada versão lançada do aplicativo móvel do Warehouse Management para o Microsoft Dynamics 365 Supply Chain Management.
+
+## <a name="version-20340"></a>Versão 2.0.34.0
+
+Esta versão introduz os novos recursos, correções e aprimoramentos a seguir:
+- Estabilidade aprimorada.
+- Desempenho aprimorado.
+- Layout da tela aperfeiçoado para permitir mais espaço para o cartão de detalhes.
+- Adição de uma função de pesquisa à página **Lista de Trabalho**. Os trabalhadores podem digitalizar ou digitar para pesquisar em todos os campos e títulos da página.
+- A lista de conexões disponíveis agora está classificada em ordem alfabética.
+- Corrigido um problema em que cartões duplicados foram exibidos para itens com vários status de estoque no mesmo local.
+- Corrigido um problema em que a página **Lista de Seleção Grande** não foi rolada para mostrar o item selecionado.
+- As cores da barra de pesquisa foram corrigidas na página **Lista de Seleção Grande**.
+- Corrigido um problema em que o botão padrão definido no XML não foi usado como o botão enviar.
+- Corrigido um problema em que os botões nos fluxos de diversas verificações e de validação rápida não foram atualizados quando novas IDs foram verificadas.
+- Suporte adicionado a mais idiomas.
 
 ## <a name="version-20320"></a>Versão 2.0.32.0
 

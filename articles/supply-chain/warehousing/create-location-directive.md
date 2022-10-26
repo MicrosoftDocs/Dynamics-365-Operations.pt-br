@@ -2,7 +2,7 @@
 title: Trabalhar com diretivas de localização
 description: Este artigo descreve como trabalhar com diretivas de localização. As diretivas de localização são regras definidas pelo usuário que ajudam a identificar locais de separação e armazenamento para o movimento de estoque.
 author: Mirzaab
-ms.date: 11/13/2020
+ms.date: 09/28/2022
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: mirzaab
 ms.search.validFrom: 2020-11-13
 ms.dyn365.ops.version: 10.0.15
-ms.openlocfilehash: 7705ea132521353cd6af7245df90aafaf23af885
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: 4ef8ec0732cd3bd50bca8d334c43d0354e9e3316
+ms.sourcegitcommit: 3e04f7e4bc0c29c936dc177d5fa11761a58e9a02
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8903685"
+ms.lasthandoff: 10/18/2022
+ms.locfileid: "9689657"
 ---
 # <a name="work-with-location-directives"></a>Trabalhar com diretivas de localização
 
@@ -47,6 +47,20 @@ Antes de criar uma diretiva de localização, siga estas etapas para verificar s
 1. Criar localizações, tipos de localização, perfis de localização e formatos da localização. Para obter mais informações, consulte [Configurar localizações em um depósito habilitado para WMS](./tasks/configure-locations-wms-enabled-warehouse.md).
 1. Criar sites, zonas e grupos de zonas. Para obter mais informações, consulte [Configuração do depósito](../../commerce/channels-setup-warehouse.md) e [Configurar localizações em um depósito habilitado para WMS](./tasks/configure-locations-wms-enabled-warehouse.md).
 
+## <a name="turn-the-location-directive-scopes-feature-on-or-off"></a><a name="scopes-feature"></a>Ativar ou desativar o recurso Escopos da diretiva de localização
+
+[!INCLUDE [preview-banner-section](../../includes/preview-banner-section.md)]
+<!-- KFM: Preview until 10.0.31 GA -->
+
+O recurso *Escopos da diretiva de localização* oferece mais liberdade quando você cria diretivas de localização e ajuda a reduzir configurações redundantes. Ele adiciona uma opção **Escopos**, que substitui a opção anterior de **Várias SKUs**. Enquanto a opção **Várias SKUs** possam ser definida somente como *Sim* ou *Não*, a opção **Escopos** fornece não apenas aquelas duas configurações (através dos valores *Item único* e *Vários itens*), mas também mais dois (por meio dos valores *Ordem ou item único* e *Todos*). Para obter mais informações sobre essas configurações, consulte [FastTab de diretivas de localização](#location-directives-tab).
+
+Quando está habilitada, a opção **Escopo** substitui a opção **Várias SKUs** e é 100% compatível com as configurações existentes.
+
+Para usar esse recurso, você deve habilitá-lo em seu sistema. Os administradores podem usar as configurações do [gerenciamento de recursos](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) para verificar o status do recurso e ativá-lo ou desativá-lo. No espaço de trabalho **Gerenciamento de recursos**, o recurso está listado da seguinte forma:
+
+- **Módulo:** *Gerenciamento de depósito*
+- **Nome do recurso:** *Escopos da diretiva de localização*
+
 ## <a name="work-order-types-for-location-directives"></a>Tipos de ordem de serviço para diretivas de localização
 
 Muitos dos campos que podem ser definidos para diretivas de localização são comuns a todos os tipos de ordem de serviço. No entanto, outros campos são específicos de determinados tipos de ordem de serviço.
@@ -68,8 +82,8 @@ A tabela a seguir lista os campos que são comuns a todos os tipos de ordem de s
 | Diretivas de localização | Site |
 | Diretivas de localização | Depósito |
 | Diretivas de localização | Código de diretiva |
-| Diretivas de localização | Várias SKUs |
-| Linhas | Número de seqüência |
+| Diretivas de localização | Escopo *ou* Várias SKUs |
+| Linhas | Número da sequência |
 | Linhas | Da quantidade |
 | Linhas | Quantidade final |
 | Linhas | Unidade |
@@ -117,7 +131,9 @@ O Painel de Ações na página **Diretivas de localização** contém botões qu
 
 - **Mover para cima** – mova a diretiva de localização selecionada para cima na sequência. Por exemplo, você pode movê-la da sequência número 4 para a sequência número 3.
 - **Mover para baixo** – mova a diretiva de localização selecionada para baixo na sequência. Por exemplo, você pode movê-la da sequência número 4 para a sequência número 5.
+- **Copiar** – abre uma caixa de diálogo na qual é possível criar uma cópia exata da diretiva de localização atual.
 - **Editar consulta** – abra uma caixa de diálogo na qual você possa definir as condições em que a diretiva de localização selecionada deve ser processada. Por exemplo, talvez você deseje que ele seja aplicado somente a um depósito específico.
+- **Testes de aceitação** – abre uma página na qual é possível configurar testes automatizados para determinar como as diretivas de localização irão se comportar em condições iniciais diferentes. Dessa forma, você pode validar rapidamente suas diretivas ao criá-las e mantê-las. Para obter mais informações, consulte [Testar diretivas de localização com testes de aceitação](location-directive-acceptance-tests.md).
 
 ## <a name="location-directives-header"></a>Cabeçalho de diretivas de localização
 
@@ -126,7 +142,7 @@ O cabeçalho da diretiva de localização inclui os seguintes campos para o núm
 - **Número de sequência** – este campo indica a sequência à qual o sistema tenta aplicar cada diretiva de localização para o tipo de ordem de serviço selecionada. Os números baixos são aplicados primeiro. Você pode alterar a sequência usando os botões **Mover para cima** e **Mover para baixo** no Painel de Ações.
 - **Nome** – insira um nome descritivo para a diretiva de localização. Esse nome deve ajudar a identificar a finalidade geral da diretiva. Por exemplo, insira *Separação da ordem de venda no depósito 24*.
 
-## <a name="location-directives-fasttab"></a>FastTab de diretivas de localização
+## <a name="location-directives-fasttab"></a><a name="location-directives-tab"></a>FastTab de diretivas de localização
 
 Os campos na FastTab **Diretivas de localização** são específicos do tipo de ordem de serviço selecionado no campo **Tipo de ordem de serviço** no painel de lista.
 
@@ -145,7 +161,29 @@ Os campos na FastTab **Diretivas de localização** são específicos do tipo de
     > [!TIP]
     > Se um código de diretiva estiver definido, o sistema não pesquisará diretivas de localização por número de sequência quando o trabalho precisar ser gerado. Ele pesquisará por código de diretiva. Dessa forma, você pode ser mais específico sobre a diretiva de localização usado para uma etapa específica em um modelo de trabalho, como a etapa de preparo de materiais.
 
-- **Várias SKUs** – defina esta opção como *Sim* para habilitar várias unidades de manutenção de estoque (SKUs) a serem usadas em um local. Por exemplo, várias SKUs devem ser habilitadas para o local da porta da baía. Se você habilitar várias SKUs, o local de armazenamento será especificado no trabalho, conforme esperado. No entanto, o local de armazenamento poderá tratar somente um armazenamento de vários itens (se o trabalho incluir diferentes SKUs que devam ser separadas e armazenadas). Não será possível tratar um armazenamento com um única SKU. Se você definir esta opção como *Não*, seu local de armazenamento só será especificado se o armazenamento tiver apenas um tipo de SKU.
+- **Escopo** – Use esta opção para especificar os cenários aos quais a diretiva de localização será aplicada. Esta opção substitui a opção de **Várias SKU** e só estará disponível se o recurso *Escopos da diretiva de localização* estiver ativado no sistema. (Para obter mais informações, consulte [Ativar ou desativar o recurso Escopos da diretiva de localização](#scopes-feature)).
+
+    | Configuração de escopo | Ordem única com um item | Várias ordens com o mesmo item | Ordem única com vários itens | Várias ordens com vários itens |
+    |---|---|---|---|---|
+    | Item único | Sim | Sim | Número | Número |
+    | Vários itens | Número | Número | Sim | Sim |
+    | Ordem ou item único | Sim | Sim | Sim | Número |
+    | Todos | Sim | Sim | Sim | Sim |
+
+    A tabela a seguir descreve quando os escopos estão disponíveis e se eles permitem a função **Editar consulta**.
+
+    | Escopo | Tipo de trabalho com suporte | Tipos de ordem de serviço compatíveis | Permitir para Editar consulta |
+    |---|---|---|---|
+    | Item único | Todos | Todos | Sim |
+    | Vários itens | Todos | Todos | Número |
+    | Ordem ou item único | Colocações | Armazenamento de coproduto e subproduto, armazenamento de mercadorias acabadas, armazenamento kanban, ordens de compra, ordens de qualidade, reposição, ordens de devolução, ordens de venda, saída de transferência e recebimento de transferência | Sim |
+    | Todos | Colocações | Todos | Número |
+
+    > [!NOTE]
+    > - Para fazer isso para vários itens e itens únicos, você deve garantir que existem diretivas de localização que cobrem os dois cenários. Por exemplo, você pode configurar uma ou mais diretivas de localização *Ordens ou item único* para cobrir cenários que exijam ajuste fino (por exemplo, por meio de edições na consulta) e, em seguida, uma ou mais diretivas de localização *Tudo* para cobrir os cenários restantes.
+    > - Embora os escopos *Item único* e *Vários itens* possam ser usados para as colocações, essa abordagem geralmente leva a configurações redundantes. Em vez disso, use os escopos *Ordem ou item único* e *Todos* porque essa abordagem produzirá uma configuração de limpeza.
+
+- **Várias SKUs** – Use esta opção para especificar o cenário aos quais a diretiva de localização será aplicada. Esta configuração será substituída pela configuração do **Escopo**, se o recurso *Escopos da diretiva de localização* estiver ativado no seu sistema. (Para obter mais informações, consulte [Ativar ou desativar o recurso Escopos da diretiva de localização](#scopes-feature)). Defina esta opção como *Sim* para permitir que várias unidades de manutenção (SKUs) sejam usadas em um local. Por exemplo, várias SKUs devem ser habilitadas para o local da porta da baía. Se você habilitar várias SKUs, o local de armazenamento será especificado no trabalho, conforme esperado. No entanto, o local de armazenamento poderá tratar somente um armazenamento de vários itens (se o trabalho incluir diferentes SKUs que devam ser separadas e armazenadas). Não será possível tratar um armazenamento com um única SKU. Se você definir esta opção como *Não*, seu local de armazenamento só será especificado se o armazenamento tiver apenas um tipo de SKU.
 
     > [!IMPORTANT]
     > Para poder fazer a instalação de vários itens e de uma única SKU, você deve especificar duas linhas com a mesma estrutura e configuração, mas deve definir a opção **Várias SKUs** como *Sim* para uma linha e *Não* para a outra. Portanto, para operações de armazenamento, é necessário ter duas diretivas de localização idênticas, mesmo que não precise diferenciar SKUs únicas e várias SKUs em uma ID de trabalho. Geralmente, se você não configurar essas duas diretivas de localização, os locais de processos comerciais inesperados serão obtidos da diretiva de localização aplicada. Você deverá usar uma configuração semelhante para diretivas de localização que tenham um **Tipo de trabalho** de *separação*, caso você precise processar ordens que incluam várias SKUs.
@@ -255,6 +293,5 @@ Depois de criar diretivas da localização, você pode associar cada código de 
 
 - Vídeo: [Detalhamento da configuração de gerenciamento de depósito](https://community.dynamics.com/365/b/techtalks/posts/warehouse-management-configuration-deep-dive-october-14-2020)
 - Artigo de ajuda: [Controlar o trabalho do depósito por meio de modelos de trabalho e diretivas de localização](control-warehouse-location-directives.md)
-
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

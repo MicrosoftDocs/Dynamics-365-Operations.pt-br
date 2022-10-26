@@ -11,17 +11,18 @@ ms.search.region: Global
 ms.author: benebotg
 ms.search.validFrom: 2022-06-30
 ms.dyn365.ops.version: 10.0.28
-ms.openlocfilehash: bec36b5b51b937782afdb78d7009a58dcd0942f0
-ms.sourcegitcommit: 529fc10074b06f4c4dc52f2b4dc1f159c36e8dbc
+ms.openlocfilehash: 847108575cbf7207282db00d731363c8cfad883a
+ms.sourcegitcommit: 3e04f7e4bc0c29c936dc177d5fa11761a58e9a02
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 07/22/2022
-ms.locfileid: "9186642"
+ms.lasthandoff: 10/18/2022
+ms.locfileid: "9689529"
 ---
 # <a name="inventory-positioning"></a>Posicionamento de estoque
 
 [!include [banner](../../includes/banner.md)]
 [!INCLUDE [preview-banner](../../includes/preview-banner.md)]
+<!-- KFM: Preview until further notice -->
 
 O posicionamento estratégico de estoque envolve a identificação de pontos de separação na sua cadeia de fornecedores, nos quais é possível criar o estoque disponível. Essa abordagem é usada principalmente para ajudar a reduzir os prazos de entrega e absorver choques da sua cadeia de fornecedores. Ela permite atenuar o "efeito chicote", pois a variabilidade da demanda não é transmitida completamente na cadeia de fornecedores. (O *efeito chicote* refere-se à forma como as flutuações pequenas na demanda, no nível de varejo, podem causar flutuações cada vez maiores na demanda nos níveis de atacado, distribuidor, fabricante e fornecedor de material bruto.)
 

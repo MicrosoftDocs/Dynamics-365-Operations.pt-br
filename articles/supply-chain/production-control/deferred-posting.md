@@ -11,17 +11,18 @@ ms.search.region: Global
 ms.author: johanho
 ms.search.validFrom: 2022-08-02
 ms.dyn365.ops.version: 10.0.29
-ms.openlocfilehash: 7a8327552d9e6c38721fdac9ee1795e61f90f329
-ms.sourcegitcommit: 8d072505f66f507aafbaae65bedf3b530eb6cb7b
+ms.openlocfilehash: ee767a5d7c3dca2681861802ae42d7a07217c54d
+ms.sourcegitcommit: 3e04f7e4bc0c29c936dc177d5fa11761a58e9a02
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/12/2022
-ms.locfileid: "9266476"
+ms.lasthandoff: 10/18/2022
+ms.locfileid: "9689331"
 ---
 # <a name="make-finished-goods-physically-available-before-posting-to-journals"></a>Disponibilizar fisicamente as mercadorias acabadas antes de lançá-las em diários
 
 [!include [banner](../includes/banner.md)]
 [!INCLUDE [preview-banner](../includes/preview-banner.md)]
+<!-- KFM: Preview until further notice -->
 
 Quando um trabalhador relata um item fabricado como acabado, o sistema o registra como disponível para processamento físico adicional (como remessa ou armazenamento). Durante esse processo, um ou mais diários também são lançados (como o relatório como o diário concluído, o diário de listas de separação e o diário de cartão de roteiro). Se desejar disponibilizar os itens fisicamente antes que todos os lançamentos tenham sido processados, será possível configurar o sistema para adiar os lançamentos de diário. Os lançamentos diferidos são gerenciados por um trabalho em lotes que processará os lançamentos à medida que os recursos do sistema permitirem.
 

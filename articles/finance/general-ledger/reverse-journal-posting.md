@@ -15,12 +15,12 @@ ms.dyn365.ops.version: AX 7.0.0
 ms.custom: 15721
 ms.assetid: b4b406fa-b772-44ec-8dd8-8eb818a921ef
 ms.search.form: LedgerTransVoucher, LedgerJournalTable
-ms.openlocfilehash: 7e3a22f43bcc312fe60b77db2fc3bc94d15950c5
-ms.sourcegitcommit: 87e727005399c82cbb6509f5ce9fb33d18928d30
+ms.openlocfilehash: 8912409ec0d2016ea4af12843319febda98663c5
+ms.sourcegitcommit: e700528679a821237e644b3e21058c36ae1323c3
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/12/2022
-ms.locfileid: "9284841"
+ms.lasthandoff: 10/13/2022
+ms.locfileid: "9680375"
 ---
 # <a name="reverse-journal-posting"></a>Reverter lançamento no diário
 
@@ -32,12 +32,12 @@ Para poder usar um dos recursos descritos neste artigo, ele deverá estar ativad
  - Módulo: Contabilidade
  - Nome do recurso: **Reversões em massa para vários documentos**
 
-## <a name="reversing-journals"></a>Revertendo diários
+## <a name="reversing-journals"></a>Reverter diários
 
 Você pode reverter linhas de diário individualmente. Com a reversão de lançamento no diário, também é possível reverter um diário financeiro inteiro. Para reverter um diário: 
 
 - Filtre os diários lançados e abra a exibição **Linhas** no diário.
-- Selecione o menu **Reverter** na parte superior da página.
+- Selecione o menu **Reverter todo o diário** na parte superior da página.
 - Você verá o número total de comprovantes e linhas de comprovante, além da quantidade total de linhas que estão sendo revertidas.
 - Selecione **Sim** para usar as datas de transação existentes ou **Não** para inserir uma nova. Em alguns casos, o período da transação original pode ser fechado e você deve inserir uma nova data de transação para a reversão.
 - Caso selecione **Não**, insira uma data de transação para a reversão. 

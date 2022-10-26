@@ -2,19 +2,19 @@
 title: Módulo Chat do Commerce com Omnicanal para Customer Service
 description: Este artigo descreve o módulo Chat do Commerce com Omnicanal para Customer Service no Microsoft Dynamics 365 Commerce.
 author: gvrmohanreddy
-ms.date: 08/23/2022
+ms.date: 10/18/2022
 ms.topic: article
 audience: Application User, Developer, IT Pro
 ms.reviewer: v-chgriffin
 ms.search.region: Global
 ms.author: gmohanv
 ms.search.validFrom: 2022-07-20
-ms.openlocfilehash: b8eaed3eb015e96b1db6fa2297c341ea9d3ff8ad
-ms.sourcegitcommit: b1df4db7facb5e7094138836c41a65c4a158f01d
+ms.openlocfilehash: 99e8b9d66a04390ab70fd1deff9f95fe28bdfae3
+ms.sourcegitcommit: 40c80a617b903c2b26e44b41147e0021c5cb680d
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 09/13/2022
-ms.locfileid: "9473800"
+ms.lasthandoff: 10/18/2022
+ms.locfileid: "9690307"
 ---
 # <a name="commerce-chat-with-omnichannel-for-customer-service-module"></a>Módulo Chat do Commerce com Omnicanal para Customer Service
 
@@ -82,6 +82,9 @@ Para adicionar o módulo de chat ao fragmento do cabeçalho do seu site no const
 1. Na caixa de diálogo **Selecionar módulos**, selecione o fragmento de chat criado anteriormente e, depois, selecione **OK**.
 1. Selecione **Salvar**, **Concluir edição** para fazer check-in do fragmento e depois selecione **Publicar** para publicá-lo.
 
+> [!NOTE]
+> Para obter uma lista completa dos parâmetros de configuração, consulte [Parâmetros de chat proativos do módulo de chat do Commerce](chat-proactive-chat-parameters.md).
+
 ## <a name="add-commerce-headquarters-as-an-application-tab-for-omnichannel-for-customer-service"></a>Adicionar o Commerce headquarters como uma guia de aplicativo para Omnicanal para Customer Service
 
 Você pode adicionar a guia de aplicativo para o Commerce headquarters no Omnicanal para Customer Service. Os agentes humanos podem usar a interface de usuário da experiência de agente do Omnicanal para Customer Service para acessar facilmente o módulo de atendimento ao cliente do Dynamics 365 Commerce que contém informações contextuais para o cliente junto com informações de ordens de venda. Além disso, os agentes do atendimento ao cliente podem fazer novas ordens, iniciar devoluções e verificar informações de status da ordem.
@@ -115,6 +118,9 @@ Para habilitar uma nova guia do aplicativo para agentes de cliente no Omnicanal 
 1. Abra o fluxo de trabalho que você criou para seus agentes e, depois, em **Configurações avançadas**, selecione **Sessões padrão**.
 1. Em **Guias do Aplicativo**, selecione **Adicionar Guia do Aplicativo Existente** e, depois, adicione a nova guia de aplicativo criada anteriormente. Esta etapa garante que uma guia do aplicativo que carrega o Commerce headquarters em um módulo do iFrame será exibida quando um agente receber uma chamada de chat de entrada do site de comércio eletrônico.
 
+> [!NOTE]
+> Não é possível modificar o modelo de sessão de chat padrão no fluxo de trabalho. Portanto, talvez você queira criar um novo modelo ou duplicar o modelo existente para atualizá-lo. Para obter mais informações, consulte [Associar modelos ao fluxo de trabalho](/dynamics365/app-profile-manager/associate-templates).
+
 ## <a name="add-context-variables-in-dynamics-365-omnichannel-for-customer-service"></a>Adicionar variáveis de contexto no Omnicanal para Customer Service do Dynamics 365
 
 Para adicionar variáveis de contexto no Omnicanal para Customer Service do Dynamics 365, siga estas etapas.
@@ -128,3 +134,11 @@ Para adicionar variáveis de contexto no Omnicanal para Customer Service do Dyna
 
 > [!NOTE]
 > Se desejar ler os endereços de email e nomes de usuários conectados de um canal de comércio eletrônico, você poderá adicionar **Email** e **Nome** como variáveis de contexto do tipo **texto**, além da variável de contexto **AccountNumber**.
+
+## <a name="additional-resources"></a>Recursos adicionais
+
+[Visão geral dos recursos do chat comercial](commerce-chat-overview.md)
+
+[Chat do Commerce com o módulo do Power Virtual Agents](chat-module-pva.md)
+
+[Parâmetros de chat proativo do módulo de chat do Commerce](chat-proactive-chat-parameters.md)

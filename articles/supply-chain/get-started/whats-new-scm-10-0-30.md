@@ -10,19 +10,18 @@ ms.search.region: Global
 ms.author: kamaybac
 ms.search.validFrom: 2022-09-08
 ms.dyn365.ops.version: 10.0.30
-ms.openlocfilehash: 477b27bf77d2a3ef91a5c2d39f2dfb06d8ad4e59
-ms.sourcegitcommit: 562ea02e1f7409f18ee1cc4750a838bff4381e91
+ms.openlocfilehash: 18fec49f2388159cae0809c63685102a04e90c57
+ms.sourcegitcommit: 3e04f7e4bc0c29c936dc177d5fa11761a58e9a02
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 09/08/2022
-ms.locfileid: "9429114"
+ms.lasthandoff: 10/18/2022
+ms.locfileid: "9689177"
 ---
-# <a name="preview-of-dynamics-365-supply-chain-management-10030-november-2022"></a>Versão preliminar do Dynamics 365 Supply Chain Management 10.0.30 (novembro de 2022)
+# <a name="whats-new-or-changed-in-dynamics-365-supply-chain-management-10030-november-2022"></a>Novidades ou alterações no Dynamics 365 Supply Chain Management 10.0.30 (Novembro de 2022)
 
 [!include [banner](../includes/banner.md)]
-[!include [preview banner](../includes/preview-banner.md)]
 
-Este artigo lista recursos novos ou alterados na versão preliminar do Microsoft Dynamics 365 Supply Chain Management 10.0.30. Esta versão tem um número de compilação 10.0.1362 e está disponível na seguinte agenda:
+Este artigo lista os recursos novos ou alterados no Microsoft Dynamics 365 Supply Chain Management, versão 10.0.30. Esta versão tem um número de compilação 10.0.1362 e está disponível na seguinte agenda:
 
 - **Versão preliminar:** setembro de 2022
 - **Disponibilidade geral da versão (autoatualização):** outubro de 2022
@@ -35,7 +34,7 @@ A tabela a seguir lista os recursos incluídos nesta versão. Podemos atualizar 
 | Área de recursos | Recurso | Mais informações | Habilitado por   |
 |---|---|---|---|
 | Fabricação | [Monitorar equipamento com o Sensor Data Intelligence](/dynamics365-release-plan/2022wave2/finance-operations/dynamics365-supply-chain-management/monitor-equipment-sensor-data-intelligence) | [Página inicial do Sensor Data Intelligence](../sensor-data-intelligence/sdi-home-page.md) | Gerenciamento de recursos:<br>*(Versão Preliminar) Sensor Data Intelligence* |
-| Gerenciamento de depósito | Desvios de vários níveis para o aplicativo móvel Warehouse Management <!-- KFM: Add link when RP updates --> | [Configurar desvios para as etapas nos itens de menu do dispositivo móvel](../warehousing/warehouse-app-detours.md) | Gerenciamento de recursos:<br>*Desvios de vários níveis para o aplicativo móvel Warehouse Management* |
+| Gerenciamento de depósito | [Desvios de vários níveis para o aplicativo móvel Warehouse Management](/dynamics365-release-plan/2022wave2/finance-operations/dynamics365-supply-chain-management/multi-level-detours-warehouse-management-mobile-app) | [Configurar desvios para as etapas nos itens de menu do dispositivo móvel](../warehousing/warehouse-app-detours.md) | Gerenciamento de recursos:<br>*Desvios de vários níveis para o aplicativo móvel Warehouse Management* |
 
 ## <a name="feature-enhancements-included-in-this-release"></a>Aprimoramentos de recursos incluídos nesta versão
 
@@ -52,7 +51,7 @@ Se quiser ativar ou desativar qualquer um desses recursos, você deverá fazer i
 
 ### <a name="platform-updates-for-finance-and-operations-apps"></a>Atualizações da plataforma para aplicativos do Finanças e operações
 
-O Microsoft Dynamics 365 Supply Chain Management 10.0.30 inclui atualizações de plataforma. Para saber mais, consulte [Atualizações de plataforma para a versão 10.0.30 dos aplicativos Finanças e operações (novembro de 2022)](../../fin-ops-core/dev-itpro/get-started/whats-new-platform-updates-10-0-30.md). <!--KFM: Confirm link -->
+O Microsoft Dynamics 365 Supply Chain Management 10.0.30 inclui atualizações de plataforma. Para saber mais, consulte [Atualizações de plataforma para a versão 10.0.30 dos aplicativos Finanças e operações (novembro de 2022)](../../fin-ops-core/dev-itpro/get-started/whats-new-platform-updates-10-0-30.md).
 
 ### <a name="bug-fixes"></a>Correções de bug
 

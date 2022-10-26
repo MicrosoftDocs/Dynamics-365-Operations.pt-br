@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 64290ebd47295bea5bc4bf843f7a9d9528375ce7
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: b868db915385a8433845e810cf169f1bf1686e3d
+ms.sourcegitcommit: dca54dd3afc7c94795d89c63050b105df2c48e3f
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8845364"
+ms.lasthandoff: 10/15/2022
+ms.locfileid: "9682863"
 ---
 # <a name="create-vendor-payments-by-using-a-payment-proposal"></a>Criar pagamentos de fornecedores usando uma proposta de pagamento
 
@@ -111,7 +111,7 @@ O controle de dimensão permite que você controle ao agrupar linhas gerados por
 -   O campo **Controle de dimensão** é ativado sem definir ainda mais as dimensões. A proposta de pagamento será criada sem levar em consideração dimensões. A transação não será herdado criada nenhuma dimensão de entrada aplicada.
 -   O campo **Controle de dimensão** é ativado e as dimensões adicionais são habilitadas. Agora você define como as dimensões serão copiadas para o diário. Por exemplo: • marque a caixa de seleção **BusinessUnit** para criar uma proposta de pagamento por unidade de negócios para o método de pagamento, • marque a caixa de seleção **CostCenter** para criar uma proposta de pagamento por centro de custos para o método de pagamento.
 
-> [[!NOTE]
+>[!NOTE]
 > Se você selecionar mais de uma dimensão na terceira opção, será criada uma proposta de pagamento para a combinação de dimensões.
 
 #### <a name="bank-account-selection"></a>Seleção de conta bancária

@@ -12,12 +12,12 @@ ms.search.region: Global
 ms.author: benebotg
 ms.search.validFrom: 2020-09-28
 ms.dyn365.ops.version: 10.0.21
-ms.openlocfilehash: b494e15488bed148119aed0e9d62ab1740f38add
-ms.sourcegitcommit: 203c8bc263f4ab238cc7534d4dd902fd996d2b0f
+ms.openlocfilehash: a01dfd72428c75d1bb24f32c73c9c799a6c5017e
+ms.sourcegitcommit: b3579ac62e1ea15664a114abcc2409cad76d4f19
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/23/2022
-ms.locfileid: "9334855"
+ms.lasthandoff: 10/14/2022
+ms.locfileid: "9682497"
 ---
 # <a name="engineering-change-management-overview"></a>Visão geral do gerenciamento de alterações de engenharia
 
@@ -73,6 +73,9 @@ Em seguida, ative as chaves de configuração seguindo estas etapas. Elas não s
 1. O banco de dados deve ser sincronizado para garantir que as chaves de configuração estejam devidamente atualizadas para refletir as alterações. Execute uma das seguintes etapas, dependendo do tipo de ambiente em que estiver trabalhando:
     - **Para ambientes de nível 1 (desenvolvimento)**: abra seu projeto no Microsoft Visual Studio e, depois, selecione **Dynamics 365 \> Sincronizar banco de dados \> Sincronizar**.
     - **Para ambientes de nível 2 (e superior)**: o banco de dados é sincronizado automaticamente após você colocar e retirar o ambiente do modo de manutenção, de forma que possa ignorar esta etapa.
+
+> [!NOTE]
+> Para usar o gerenciamento de alterações de engenharia, defina a sequência numérica da BOM e a sequência numérica da fórmula (se você estiver usando fórmulas) como *Automáticas* na página **Sequências numéricas**.
 
 ### <a name="turn-on-additional-engineering-change-management-features"></a>Ativar os recursos adicionais de gerenciamento de alterações de engenharia
 

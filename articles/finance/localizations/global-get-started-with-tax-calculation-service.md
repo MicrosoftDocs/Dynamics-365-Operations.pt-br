@@ -2,7 +2,7 @@
 title: Introdução ao Cálculo de Imposto
 description: Este artigo explica como configurar o Cálculo de Imposto.
 author: EricWangChen
-ms.date: 03/25/2022
+ms.date: 10/18/2022
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -14,12 +14,12 @@ ms.search.validFrom: 2021-04-01
 ms.dyn365.ops.version: 10.0.18
 ms.custom: intro-internal
 ms.search.form: TaxIntegrationTaxServiceParameters
-ms.openlocfilehash: 2b9af7a8bef9d479c4f2ec59ef533403a74251b1
-ms.sourcegitcommit: adadbc6e355e2ad68a1f6af26a1be1f89dc8eec6
+ms.openlocfilehash: 42898823ffc366351c6f58f1fe9b924678ab4b49
+ms.sourcegitcommit: 40c80a617b903c2b26e44b41147e0021c5cb680d
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 09/22/2022
-ms.locfileid: "9573296"
+ms.lasthandoff: 10/18/2022
+ms.locfileid: "9690374"
 ---
 # <a name="get-started-with-tax-calculation"></a>Introdução ao Cálculo de Imposto
 
@@ -124,6 +124,10 @@ As etapas nesta seção não estão relacionadas a uma entidade legal específic
 7. Acesse o **Modelo de Dados do Imposto**, expanda a árvore de arquivos e selecione **Configuração de Imposto**.
 8. Selecione a [versão de configuração de imposto](global-tax-calcuation-service-overview.md#versions) correta com base na sua versão do Finance e, em seguida, selecione **Importar**.
 9. No espaço de trabalho **Recursos de globalização**, selecione **Recursos**, selecione o bloco **Cálculo de Imposto** e, em seguida, selecione **Adicionar**.
+
+    > [!NOTE]
+    > Na versão 10.0.26 e posterior, você pode importar um recurso de demonstração para a entidade legal da demonstração de **DEMF**. Para obter mais informações, consulte [Importar dados de demonstração do recurso](tax-calculation-import-export-feature.md).
+
 10. Selecione um dos seguintes tipos de recurso:
 
     - **Novo recurso** – crie uma configuração de recurso com conteúdo em branco.
@@ -154,8 +158,8 @@ As etapas nesta seção não estão relacionadas a uma entidade legal específic
     - **Aplicabilidade do número de registro de imposto do fornecedor** – Se você tiver vários números de registro de imposto para um fornecedor, o Cálculo de Imposto pode automaticamente determinar o número de registro de imposto correto. Na matriz nessa guia, você define as regras que devem ser usadas para criar a determinação. Caso contrário, o Finance e o Supply Chain Management continuarão usando o número de registro de imposto padrão em documentos tributáveis de transações de compras.
     - **Aplicabilidade de códigos de lista** – determina automaticamente o valor do campo **Código da lista** por meio de regras mais flexíveis e configuráveis. Na matriz nessa guia, você define as regras que devem ser usadas para criar a determinação. Caso contrário, o Finance e o Supply Chain Management continuarão usando o código padrão em documentos tributáveis.
 
-14. Na guia **Códigos de imposto**, selecione **Adicionar** e insira o código de imposto e uma descrição.
-15. Selecione **Componente de imposto**. O componente de imposto é um grupo de métodos que foram definidos na versão anterior da configuração de imposto selecionada. Os seguintes componentes de imposto estão disponíveis:
+15. Na guia **Códigos de imposto**, selecione **Adicionar** e insira o código de imposto e uma descrição.
+16. Selecione **Componente de imposto**. O componente de imposto é um grupo de métodos que foram definidos na versão anterior da configuração de imposto selecionada. Os seguintes componentes de imposto estão disponíveis:
 
     - Por valor líquido
     - Por valor bruto
@@ -163,8 +167,8 @@ As etapas nesta seção não estão relacionadas a uma entidade legal específic
     - Por margem
     - Imposto sobre imposto
 
-16. Selecione **Salvar**. Mais campos serão disponibilizados, com base no componente de imposto selecionado.
-17. Use as seguintes opções para identificar a natureza do código de imposto:
+17. Selecione **Salvar**. Mais campos serão disponibilizados, com base no componente de imposto selecionado.
+18. Use as seguintes opções para identificar a natureza do código de imposto:
 
     - É isento
     - É imposto sobre o uso
@@ -179,8 +183,8 @@ As etapas nesta seção não estão relacionadas a uma entidade legal específic
 
     Mantenha as taxas de impostos e os limites de valor do imposto para este código de imposto.
 
-18. Repita as etapas 14 a 17 para adicionar outros códigos de imposto necessários.
-19. Na guia **Grupo de impostos**, selecione a coluna **Grupo de impostos**, adicione-a à matriz como condição de entrada e, em seguida, adicione linhas para manter os dados mestre do grupo de impostos.
+19. Repita as etapas 15 a 18 para adicionar outros códigos de imposto necessários.
+20. Na guia **Grupo de impostos**, selecione a coluna **Grupo de impostos**, adicione-a à matriz como condição de entrada e, em seguida, adicione linhas para manter os dados mestre do grupo de impostos.
 
     Veja aqui um exemplo.
 
@@ -191,7 +195,7 @@ As etapas nesta seção não estão relacionadas a uma entidade legal específic
     | BEL_Dom | BEL_VAT21; BEL_VAT6 |
     | BEL_EU       | BEL_Exempt          |
 
-20. Na guia **Grupo de impostos**, selecione a coluna **Grupo de impostos**, adicione-a à matriz como condição de entrada e, em seguida, adicione linhas para manter os dados mestre do grupo de impostos.
+21. Na guia **Grupo de impostos**, selecione a coluna **Grupo de impostos**, adicione-a à matriz como condição de entrada e, em seguida, adicione linhas para manter os dados mestre do grupo de impostos.
 
     Veja aqui um exemplo.
 
@@ -200,7 +204,7 @@ As etapas nesta seção não estão relacionadas a uma entidade legal específic
     | Completo           | DEU_VAT19; BEL_VAT21; DEU_Exempt; BEL_Exempt |
     | Reduzido        | DEU_VAT7; BEL_VAT6; DEU_Exempt; BEL_Exempt   |
 
-21. Na guia **Aplicabilidade de grupo de impostos**, selecione as colunas necessárias para determinar o grupo de imposto correto e selecione **Adicionar**. Insira ou selecione os valores de cada coluna. O campo **Grupo de impostos** será a saída dessa matriz. Se essa guia não estiver configurada, será usado o grupo de impostos na linha da transação.
+22. Na guia **Aplicabilidade de grupo de impostos**, selecione as colunas necessárias para determinar o grupo de imposto correto e selecione **Adicionar**. Insira ou selecione os valores de cada coluna. O campo **Grupo de impostos** será a saída dessa matriz. Se essa guia não estiver configurada, será usado o grupo de impostos na linha da transação.
 
     Veja aqui um exemplo.
 
@@ -214,7 +218,7 @@ As etapas nesta seção não estão relacionadas a uma entidade legal específic
     > [!NOTE]
     > Se o grupo de impostos sobre vendas padrão nas linhas do documento tributável estiver correto, deixe esta matriz em branco. Para obter mais informações, consulte a seção [Design de runtime](#runtime) neste artigo.
 
-22. Na guia **Aplicabilidade do grupo de impostos do item**, selecione as colunas necessárias para determinar o código do imposto correto e selecione **Adicionar**. Insira ou selecione os valores de cada coluna. O campo **Grupo de impostos** será a saída dessa matriz. Se essa guia não estiver configurada, será usado o grupo de impostos do item na linha da transação.
+23. Na guia **Aplicabilidade do grupo de impostos do item**, selecione as colunas necessárias para determinar o código do imposto correto e selecione **Adicionar**. Insira ou selecione os valores de cada coluna. O campo **Grupo de impostos** será a saída dessa matriz. Se essa guia não estiver configurada, será usado o grupo de impostos do item na linha da transação.
 
     Veja aqui um exemplo.
 
@@ -228,10 +232,10 @@ As etapas nesta seção não estão relacionadas a uma entidade legal específic
 
     Para obter mais informações sobre como os códigos de impostos são determinados no Cálculo do Imposto, consulte [Grupo de impostos e lógica de determinação do grupo de impostos do item](global-sales-tax-group-determination.md).
 
-23. Configure a aplicabilidade dos números de registro de imposto do cliente, números de registro de imposto do fornecedor e códigos de lista com base nas necessidades de negócios.
-24. Selecione **Salvar** e feche a página.
-25. Selecione **Alterar status** \> **Concluir**. Depois que o status for alterado para **Concluído**, a versão não poderá mais ser editada.
-26. Selecione **Alterar status** \> **Publicar**. Esta versão da configuração do recurso de imposto será enviado para o repositório global e ficará visível para cada entidade legal no Finance.
+24. Configure a aplicabilidade dos números de registro de imposto do cliente, números de registro de imposto do fornecedor e códigos de lista com base nas necessidades de negócios.
+25. Selecione **Salvar** e feche a página.
+26. Selecione **Alterar status** \> **Concluir**. Depois que o status for alterado para **Concluído**, a versão não poderá mais ser editada.
+27. Selecione **Alterar status** \> **Publicar**. Esta versão da configuração do recurso de imposto será enviado para o repositório global e ficará visível para cada entidade legal no Finance.
 
 ## <a name="set-up-tax-calculation-in-dynamics-365"></a>Configurar Cálculo de Imposto no Dynamics 365
 

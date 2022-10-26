@@ -2,7 +2,7 @@
 title: Importar e exportar cálculos de imposto
 description: Este artigo fornece informações sobre a funcionalidade de importação e exportação do serviço de cálculo de imposto.
 author: Kai-Cloud
-ms.date: 11/22/2021
+ms.date: 10/17/2022
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: kailiang
 ms.search.validFrom: 2021-11-15
 ms.dyn365.ops.version: 10.0.23
-ms.openlocfilehash: 9daee683763d7cb0eb9573497eb4e20cba9b1863
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: 8666d4971e36279ebd2b1396de7cab37680980e6
+ms.sourcegitcommit: 40c80a617b903c2b26e44b41147e0021c5cb680d
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8855163"
+ms.lasthandoff: 10/18/2022
+ms.locfileid: "9690224"
 ---
 # <a name="import-and-export-tax-calculations"></a>Importar e exportar cálculos de imposto
 
@@ -98,3 +98,21 @@ A planilha do Excel que você baixou contém a estrutura da grade **Configurar a
 2. No RCS, na página do recurso **Cálculo de imposto**, na guia **Aplicabilidade do grupo de impostos**, selecione **Adicionar** para inserir um registro vazio na parte inferior da grade **Configurar aplicabilidade do grupo de impostos**.
 3. Selecione **Ctrl + V** para colar as linhas copiadas na grade.
 4. Selecione **Salvar**.
+
+## <a name="import-feature-demo-data"></a>Importar dados de demonstração do recurso
+
+Siga estas etapas para importar dados de demonstração do recurso.
+
+1. Entre no [RCS](https://marketing.configure.global.dynamics.com/).
+2. No espaço de trabalho **Recursos de globalização**, selecione **Recursos** e, em seguida, selecione o bloco **Cálculo de Imposto**.
+3. Selecione **Importar** e, na página **Importar recurso do Repositório global**, selecione **Sincronizar**. 
+4. Na tabela, selecione o recurso **imposto-cálculo-recurso-demonstração-dados** e, depois, selecione **Importar**.
+5. Selecione **Exibir** para revisar os códigos de imposto, grupos e regras de aplicabilidade definidos no recurso importado.
+6. No Finance, alterne para a entidade legal **DEMF** e, depois, acesse **Imposto** \> **Configuração** \> **Configuração do imposto** \> **Parâmetros de cálculo do imposto**.
+7. Na guia **Geral**, selecione **Habilitar Serviço de Cálculo de Imposto**.
+8. No campo **Nome de configuração do recurso**, selecione **imposto-cálculo-recurso-demonstração-dados**.
+9. Selecione um **Período de liquidação** e um **Grupo de lançamento contábil** para os novos códigos de imposto de demonstração e, depois, selecione **Confirmar**.
+10. Selecione **Salvar**.
+
+> [!NOTE]
+> O recurso de demonstração **imposto-cálculo-recurso-demonstração-dados** se baseia na versão **40.54.234** do recurso e se destina à entidade legal de demonstração **DEMF**. Verifique se o Finance e o RCS foram atualizados para a versão 10.0.26 ou posterior.

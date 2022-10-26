@@ -9,12 +9,12 @@ ms.reviewer: kfend
 ms.search.region: Global
 ms.author: atrukawk
 ms.search.validFrom: ''
-ms.openlocfilehash: 8ee288a1ec7ae950bdff9da7d373e29daef74d3c
-ms.sourcegitcommit: 87e727005399c82cbb6509f5ce9fb33d18928d30
+ms.openlocfilehash: 04c625b554d96f8ed28ceffef9647fe9cbf7fe2f
+ms.sourcegitcommit: 3e04f7e4bc0c29c936dc177d5fa11761a58e9a02
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/12/2022
-ms.locfileid: "9269394"
+ms.lasthandoff: 10/18/2022
+ms.locfileid: "9689451"
 ---
 # <a name="vat-declaration-germany"></a>Declaração de IVA (Alemanha)
 
@@ -198,7 +198,8 @@ Siga estas etapas para definir quais códigos de impostos geram quais caixas na 
 
    Esse formato é impresso quando você executa o relatório **Imposto para o período de liquidação**. Também é impresso quando você seleciona **Imprimir** na página **Pagamentos de impostos**.
 
-4. Na página **Autoridades de imposto**, selecione a autoridade de imposto e, no campo **Layout do relatório**, selecione **Padrão**.
+4. Se tiver que relatar as correções, na seção **Relatório especial**, defina **Incluir correções** como **Sim**.
+5. Na página **Autoridades de imposto**, selecione a autoridade de imposto e, no campo **Layout do relatório**, selecione **Padrão**.
 
 Se você estiver configurando a declaração de IVA em uma entidade legal que tenha [vários registros de IVA](emea-reporting-for-multiple-vat-registrations.md), siga estas etapas:
 

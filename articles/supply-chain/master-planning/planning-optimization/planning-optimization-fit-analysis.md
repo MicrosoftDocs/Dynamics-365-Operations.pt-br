@@ -16,12 +16,12 @@ ms.search.industry: Manufacturing
 ms.author: benebotg
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: 10.0.9
-ms.openlocfilehash: c160a6477dd41fac0f15f57bb0f46def500f4589
-ms.sourcegitcommit: c5f2cba3c2b0758e536eeaaa40506659a53085e1
+ms.openlocfilehash: 15ec53c1f13b3017fb6e829bd1c8e99fbb938ce3
+ms.sourcegitcommit: 3e04f7e4bc0c29c936dc177d5fa11761a58e9a02
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/12/2022
-ms.locfileid: "9643718"
+ms.lasthandoff: 10/18/2022
+ms.locfileid: "9689985"
 ---
 # <a name="planning-optimization-fit-analysis"></a>Análise de ajuste da Otimização de Planejamento
 
@@ -62,7 +62,7 @@ A tabela a seguir mostra os vários resultados que podem ser exibidos após uma 
 | --- | --- | --- | --- |
 | Ações | Grupos de cobertura com Cálculo de ações habilitado: *\#* | Este recurso agora é suportado. | Com suporte |
 | Calendários base | Calendários usando o calendário base: *\#* | Este recurso agora é suportado. | Com suporte | 
-| Códigos de disposição em lotes | Mestres de disposição em lotes não-líquidos: *\#* | Este recurso está pendente. No momento, os códigos de disposição em lotes são ignorados quando a otimização do planejamento é habilitada. | Ciclo de lançamentos 2 de 2022 <!-- KFM: Now available? [Use batch disposition codes to mark batches as available or unavailable](../../inventory/batch-disposition-codes.md) --> |
+| Códigos de disposição em lotes | Mestres de disposição em lotes não-líquidos: *\#* | Este recurso agora tem suporte. Para obter informações adicionais, consulte [Usar códigos de disposição em lotes para marcar os lotes como disponíveis ou indisponíveis](../../inventory/batch-disposition-codes.md) | Com suporte |
 | Capacidade de comprometimento (CTP) | Configurações de ordem padrão com controle de data entrega definido como CTP: *\#* | No Supply Chain Management 10.0.28 e mais recente, um processo chamado *CTP para Otimização de Planejamento* torna as datas de remessa e de recebimento confirmadas disponíveis após a execução do plano dinâmico. Para versões anteriores do Supply Chain Management, a configuração do CTP herdado é ignorada quando a Otimização do Planejamento é habilitada. | Com suporte |
 | Copiar plano estático para dinâmico | A cópia de plano estático para dinâmico está habilitada nos parâmetros do plano mestre. | A otimização do planejamento não copia o plano estático para o plano dinâmico, independentemente dessa configuração. Em geral, esse conceito é menos relevante devido à velocidade e à regeneração completa que a otimização do planejamento oferece. Se dois ou mais planos forem usados, o planejamento mestre deverá ser disparado para cada plano. | N/D |
 | Confirmação | Grupos de cobertura com limite de tempo de confirmação automática definido: *\#* | Na versão 10.0.7 e mais recente, a confirmação é suportada como um trabalho em lotes de confirmação separado após a conclusão do planejamento mestre (desde que o recurso *Confirmação automática para a otimização de planejamento* seja habilitado no [gerenciamento de recursos](../../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md)). Observe que a confirmação automática para otimização de planejamento é baseada na data da ordem (data de início), e não na data do requisito (data final). Esse comportamento garante que a confirmação das ordens planejadas ocorra no tempo devido, sem que seja necessário incluir o prazo de entrega no limite de tempo de confirmação. | Com suporte |
@@ -104,11 +104,11 @@ A tabela a seguir mostra os vários resultados que podem ser exibidos após uma 
 | Margens de segurança | Planos mestres com margem de segurança: *\#* | Este recurso agora tem suporte. Para obter informações adicionais, consulte [Margens de segurança](safety-margins.md) |  Com suporte |
 | Atendimento de estoque de segurança | Registros de cobertura de item com "Preencher mínimo" diferente de "Data de hoje + tempo de aquisição": *\#* | A otimização de planejamento sempre usa a *Data de hoje + tempo de aquisição*. Essa alteração é feita para preparar-se para uma configuração de planejamento simplificada no futuro e para fornecer um resultado acionável. Se o tempo de compras não for incluído no estoque de segurança, as ordens planejadas criadas para o estoque baixo atual sempre estarão atrasadas por conta do prazo de entrega. Esse comportamento pode causar um ruído significativo e ordens planejadas indesejadas. A prática recomendada é alterar a configuração de forma que a *Data de hoje + tempo de aquisição* seja usada. Atualize os dados mestres para evitar avisos. | N/D |
 | Cotações de venda | Planos mestres com cotações de venda habilitadas: *\#* | Este recurso está pendente. No momento, cotações não são consideradas quando a otimização do planejamento for habilitada. Eles serão ignorados, independentemente dessa configuração. | Ciclo de lançamentos 2 de 2022 ou posterior |
-| Validade | Planos mestres com validade habilitada: *\#* | Este recurso agora tem suporte. | Suportado |
+| Validade | Planos mestres com validade habilitada: *\#* | Este recurso está pendente. | Ciclo de lançamentos 2 de 2022 |
 
 ## <a name="additional-resources"></a>Recursos adicionais
 
-[Visão geral de Otimização de Planejamento](planning-optimization-overview.md)
+[Visão geral da Otimização do Planejamento](planning-optimization-overview.md)
 
 [Introdução à Otimização do Planejamento](get-started.md)
 

@@ -11,12 +11,12 @@ ms.author: rashmim
 ms.search.validFrom: 2022-08-19
 ms.search.form: ''
 ms.dyn365.ops.version: 10.0.29
-ms.openlocfilehash: 25306a8ccebb5cd01debc90cf497d4a942840ef4
-ms.sourcegitcommit: 43a0fb019bc67c00c39c2778343ba89924c3322c
+ms.openlocfilehash: 60f9d84b240016671ff726fc3cca2e02cfd811ca
+ms.sourcegitcommit: 3e04f7e4bc0c29c936dc177d5fa11761a58e9a02
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/12/2022
-ms.locfileid: "9671416"
+ms.lasthandoff: 10/18/2022
+ms.locfileid: "9689190"
 ---
 # <a name="proactive-quality-updates"></a>Atualizações de qualidade proativas
 
@@ -56,7 +56,9 @@ Um conjunto de alterações de processo está sendo implementado antes da ativa�
 
 - **Esquema**: a ferramenta garante que as compilações de atualização de qualidade incluam somente alterações de esquema que possam ser aplicadas enquanto o serviço está online. Essa abordagem ajudará a manter a capacidade de aplicar a atualização com tempo de inatividade quase zero.
 - **Maior investigação de alterações**: no momento, já existe uma etapa de processo extra para aprovar alterações para inclusão em uma atualização de qualidade. A investigação na etapa extra será maior para ajudar a reduzir o potencial de regressões. Alterações interruptivas não são permitidas em atualizações de qualidade e a maior investigação de alterações ajudará a garantir a atingir esse objetivo.
-- **Visibilidade**: enviamos notificações por email e pelo Lifecycle Services (LCS) para atualizações futuras de qualidade proativa. Além disso, as equipes de suporte e os clientes potenciais de incidentes terão visibilidade sobre onde as atualizações de qualidade foram implantadas de forma proativa.
+- **Visibilidade** – enviamos notificações pelo centro de administração, Lifecycle Services (LCS) e outros canais disponíveis para atualizações futuras de qualidade proativa. Além disso, as equipes de suporte e os clientes potenciais de incidentes terão visibilidade sobre onde as atualizações de qualidade foram implantadas de forma proativa.
+ > [!NOTE]
+ > A equipe de Comunicações da Microsoft está investigando uma degradação contínua da ferramenta de email que está impedindo a entrega de notificações por email. Continue a monitorar o Centro de Mensagens do Microsoft 365 para integração e mensagens relacionadas à notificação.
 - **Segurança contra falhas por versão de pré-lançamento** – A versão de pré-lançamento será usada para proteger as alterações de código sempre que aplicável em uma correção de bug de atualização de qualidade ou usar a versão de pré-lançamento de recurso existente relevante para a correção. Se for necessário um fallback ou desativar uma alteração após uma implantação proativa, isso poderá ser feito por meio do sistema de versão de pré-lançamento para evitar mais falhas.
 - **Designação de sincronização da área restrita**: menos de 20% dos clientes têm várias áreas restritas e mantêm uma área restrita implantada onde a versão corresponde à produção, para ajudar na solução de problemas. Se um cliente estiver usando uma área restrita para testar uma versão mais recente do que a produção dele, essa área restrita receberá atualizações de qualidade para a versão mais recente.
 
@@ -80,10 +82,10 @@ Para obter informações sobre o período noturno de cada região, consulte [Qua
 
 | Estação | Regiões | Agenda concluída| Programação da área restrita
 |---|---|---|---|
-| Estação 1 | Canadá Central, Leste do Canadá, França Central, Índia central, Leste da Noruega, Oeste da Suíça | 15 a 18 de setembro de 2022 e 19 a 22 de setembro de 2022 | 7 a 10 de outubro de 2022 |
-| Estação 2 | Sul da França, Sul da Índia, Oeste da Noruega, Norte da Suíça, Norte da África do Sul, Leste da Austrália, Sul do Reino Unido, Norte dos EAU, Leste do Japão, Sudeste da Austrália, Sudeste da Ásia | 25 a 28 de setembro de 2022 | 7 a 10 de outubro de 2022 |
-| Estação 3 | Leste da Ásia, Oeste do Reino Unido, Oeste do Japão, Sul do Brasil, Oeste da Europa, Leste dos EUA, EAU Central | 26 a 29 de setembro de 2022 | 7 a 10 de outubro de 2022 |
-| Estação 4 | Norte da Europa, EUA Central, Oeste dos EUA | 28 de setembro a 1° de outubro de 2022 | 7 a 10 de outubro de 2022 |
+| Estação 1 | Canadá Central, Leste do Canadá, França Central, Índia central, Leste da Noruega, Oeste da Suíça | 15 a 18 de setembro de 2022, 19 a 22 de setembro de 2022 e 7 a 10 de outubro de 2022 | 25 a 28 de outubro de 2022 |
+| Estação 2 | Sul da França, Sul da Índia, Oeste da Noruega, Norte da Suíça, Norte da África do Sul, Leste da Austrália, Sul do Reino Unido, Norte dos EAU, Leste do Japão, Sudeste da Austrália, Sudeste da Ásia | 25 a 28 de setembro de 2022 e 7 a 10 de outubro de 2022 | 25 a 28 de outubro de 2022 |
+| Estação 3 | Leste da Ásia, Oeste do Reino Unido, Oeste do Japão, Sul do Brasil, Oeste da Europa, Leste dos EUA, EAU Central | 26 a 29 de setembro de 2022 e 7 a 10 de outubro de 2022 | 25 a 28 de outubro de 2022 |
+| Estação 4 | Norte da Europa, EUA Central, Oeste dos EUA | 28 de setembro a 1 de outubro de 2022 e 7 a 10 de outubro de 2022 | 25 a 28 de outubro de 2022 |
 | Estação 5 | DoD (Nuvem da comunidade governamental, China) | Não programado | Não programado |
 
 ### <a name="proactive-quality-update-release-10029"></a><a name="schedule"></a> Versão de atualização de qualidade proativa: 10.0.29

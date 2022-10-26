@@ -11,17 +11,18 @@ ms.search.region: Global
 ms.author: johanho
 ms.search.validFrom: 2022-09-02
 ms.dyn365.ops.version: 10.0.30
-ms.openlocfilehash: 944818557deebed06c02c00fd69de6e8f08bda83
-ms.sourcegitcommit: 3d7ae22401b376d2899840b561575e8d5c55658c
+ms.openlocfilehash: b82d757d1e69203012949bc397220fa42ada4ac2
+ms.sourcegitcommit: 3e04f7e4bc0c29c936dc177d5fa11761a58e9a02
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 09/08/2022
-ms.locfileid: "9428296"
+ms.lasthandoff: 10/18/2022
+ms.locfileid: "9689420"
 ---
 # <a name="the-asset-downtime-scenario"></a>O cenário de tempo de inatividade do ativo
 
 [!include [banner](../includes/banner.md)]
 [!INCLUDE [preview-banner](../includes/preview-banner.md)]
+<!-- KFM: Preview until further notice -->
 
 O cenário do tempo de inatividade do ativo vai gerar um registro de tempo de inatividade de manutenção se nenhum sinal for recebido de uma máquina dentro de um limite de tempo definido desde que o último sinal foi recebido. O cenário requer que você equipe sua máquina com um sensor que envia periodicamente um sinal ao seu Hub IoT do Azure enquanto o computador está operando, mas não envia um sinal quando a máquina não está operando.
 

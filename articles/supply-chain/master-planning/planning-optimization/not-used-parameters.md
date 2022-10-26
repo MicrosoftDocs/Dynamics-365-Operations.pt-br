@@ -11,12 +11,12 @@ ms.search.region: Global
 ms.author: benebotg
 ms.search.validFrom: 2021-06-29
 ms.dyn365.ops.version: 10.0.20
-ms.openlocfilehash: 6c7469692aac24a5ae554973325a128c787363ba
-ms.sourcegitcommit: 20ce54cb40290dd116ab8b157c0a02d6757c13f5
+ms.openlocfilehash: db8a8e929bf75c4d1dac0c1b0a7cbc848ff291a9
+ms.sourcegitcommit: b3579ac62e1ea15664a114abcc2409cad76d4f19
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 09/20/2022
-ms.locfileid: "9542271"
+ms.lasthandoff: 10/14/2022
+ms.locfileid: "9682659"
 ---
 # <a name="parameters-not-used-by-planning-optimization"></a>Parâmetros não usados pela Otimização de Planejamento
 
@@ -111,10 +111,8 @@ A Otimização de Planejamento não usa os seguintes parâmetros ou opções na 
 
 - Guia Rápida **Geral**:
 
-  - **Incluir estoque disponível** – Suporte a *Consumo do estoque disponível* pendente.
   - **Substituir disponível** – Suporte a *Consumo do estoque disponível* pendente.
   - **Consumir estoque disponível** – Suporte a *Consumo do estoque disponível* pendente.
-  - **Incluir transações de estoque** – Suporte a *Consumo do estoque disponível* pendente.
   - **Incluir Cotações de venda** – Suporte a *Cotações de venda* pendente.
   - **Incluir solicitação de cotações** – Suporte a *Solicitação de cotações* pendente.
   - **Usar datas de validade** – Suporte a *Validade* pendente.
@@ -190,4 +188,3 @@ A Otimização de Planejamento não usa o seguinte parâmetro na página **Dispo
 
   - **Líquido** – Suporte a *Códigos de disposição em lote* pendente.
  
-<!-- KFM: Now available? [Use batch disposition codes to mark batches as available or unavailable](../../inventory/batch-disposition-codes.md) --> 

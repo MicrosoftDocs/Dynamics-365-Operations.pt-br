@@ -11,17 +11,18 @@ ms.search.region: Global
 ms.author: johanho
 ms.search.validFrom: 2022-09-02
 ms.dyn365.ops.version: 10.0.30
-ms.openlocfilehash: fcd16d09b4293046c457b602857ef8950e8259c6
-ms.sourcegitcommit: c5f2cba3c2b0758e536eeaaa40506659a53085e1
+ms.openlocfilehash: 2d103406118be4385177b678de424df12af69c2e
+ms.sourcegitcommit: 3e04f7e4bc0c29c936dc177d5fa11761a58e9a02
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/12/2022
-ms.locfileid: "9644048"
+ms.lasthandoff: 10/18/2022
+ms.locfileid: "9689391"
 ---
 # <a name="the-asset-maintenance-scenario"></a>O cenário de manutenção do ativo
 
 [!include [banner](../includes/banner.md)]
 [!INCLUDE [preview-banner](../includes/preview-banner.md)]
+<!-- KFM: Preview until further notice -->
 
 O cenário de *manutenção de ativos* permite usar os dados do sensor para criar registros de contador. Os registros de contador rastreiam o uso de um ativo de máquina e são usados como entrada para gerar o agendamento de manutenção dos ativos de máquina.
 
@@ -115,6 +116,9 @@ Depois que os dados são preparados e o cenário de *manutenção de ativos* é 
 1. Acesse **Gerenciamento de ativos \> Ativos \> Todos os ativos**.
 1. Encontre e selecione o ativo que você deseja inspecionar. (Se estiver usando os dados de demonstração criados anteriormente neste artigo, selecione *AK-101*.)
 1. No Painel de ação, na guia **Ativo**, no grupo **Preventivo**, selecione **Contadores** para abrir a página para registros de contador para o ativo *AK-101*.
+
+> [!NOTE]
+> Por padrão, os registros de contador são configurados para serem inseridos a cada três horas, o que significa que os dados do sensor serão agregados nesse intervalo. Você pode alterar o intervalo editando a consulta no componente Azure Stream Analytics.
 
 ### <a name="generate-maintenance-work-orders"></a>Gerar ordens de serviço de manutenção
 

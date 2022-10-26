@@ -11,17 +11,18 @@ ms.search.region: Global
 ms.author: benebotg
 ms.search.validFrom: 2022-06-30
 ms.dyn365.ops.version: 10.0.28
-ms.openlocfilehash: d894b83afe822e013c0c4375e5cfe5e7e8ac8d1d
-ms.sourcegitcommit: 529fc10074b06f4c4dc52f2b4dc1f159c36e8dbc
+ms.openlocfilehash: 31b45fdb92cf8a590ff77104f0c8015fb4d329d5
+ms.sourcegitcommit: 3e04f7e4bc0c29c936dc177d5fa11761a58e9a02
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 07/22/2022
-ms.locfileid: "9186643"
+ms.lasthandoff: 10/18/2022
+ms.locfileid: "9689479"
 ---
 # <a name="demand-driven-material-requirements-planning-ddmrp-overview"></a>Visão geral do DDMRP (Planejamento de Requisitos de Material Orientado por Demanda)
 
 [!include [banner](../../includes/banner.md)]
 [!INCLUDE [preview-banner](../../includes/preview-banner.md)]
+<!-- KFM: Preview until further notice -->
 
 Durante anos, as empresas usaram o MRP (Planejamento de Requisitos de Material) como um sistema para calcular os materiais e os componentes necessários para fabricar um produto. No entanto, as cadeias de fornecedores mudaram. As peças têm prazos de entrega mais longos, pois cada vez mais são originadas no exterior. Portanto, muitas empresas informaram enfrentar falta de estoque ou estoque em excesso, pois não sabem quanto estocar. Além disso, há mais flutuação de mercado (às vezes imprecisamente prevista) e os clientes estão exigindo produtos com um prazo de entrega curto. Portanto, há escassez de cadeia de fornecedores em todo o mundo. Além disso, as ferramentas de MRP geralmente fornecem aos planejadores milhares de ações a serem executadas. Portanto, é difícil saber no que focar. Em geral, a solução para muitas desses problemas é alternar para o DDMRP (Planejamento de Requisitos de Material Orientado por Demanda).
 

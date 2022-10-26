@@ -4,23 +4,25 @@ description: Este artigo descreve como configurar desvios para itens de menu de 
 author: Mirzaab
 ms.date: 09/01/2022
 ms.topic: article
-ms.search.form: WHSMobileAppFlowStepListPage, WHSMobileAppFlowStepAddDetour,WHSMobileAppFlowStepDetourSelectFields
+ms.search.form: WHSMobileAppFlowStepListPage, WHSMobileAppFlowStepAddDetour, WHSMobileAppFlowStepDetourSelectFields, WHSMobileAppFlowStepSelectPromotedFields
 audience: Application User
 ms.reviewer: kamaybac
 ms.search.region: Global
 ms.author: mirzaab
 ms.search.validFrom: 2021-10-15
 ms.dyn365.ops.version: 10.0.30
-ms.openlocfilehash: d8d3d434077fdb145291e2298055f692b78db3d6
-ms.sourcegitcommit: 3d7ae22401b376d2899840b561575e8d5c55658c
+ms.openlocfilehash: 2e387dd4e6499912f2d53dddc17ccc053f1ca699
+ms.sourcegitcommit: 3e04f7e4bc0c29c936dc177d5fa11761a58e9a02
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 09/08/2022
-ms.locfileid: "9428054"
+ms.lasthandoff: 10/18/2022
+ms.locfileid: "9689301"
 ---
 # <a name="configure-detours-for-steps-in-mobile-device-menu-items"></a>Configurar desvios para as etapas nos itens de menu do dispositivo móvel
 
 [!include [banner](../includes/banner.md)]
+[!INCLUDE [preview-banner](../includes/preview-banner.md)]
+<!--KFM: Preview until 10.0.31 GA -->
 
 > [!IMPORTANT]
 > Os recursos descritos neste artigo se aplicam apenas ao novo aplicativo móvel do Warehouse Management. Eles não afetam o antigo aplicativo de depósito, que foi preterido.
@@ -38,6 +40,7 @@ Antes de configurar os desvios para etapas em itens de menu de dispositivo móve
 1. Ative os recursos a seguir, que possuem a funcionalidade descrita neste artigo:
     - *Desvio do aplicativo Warehouse Management*<br>(A partir do Supply Chain Management versão 10.0.29, este recurso está ativado por padrão.)
     - *Desvios de vários níveis para o aplicativo móvel Warehouse Management*
+    - *Enviar automaticamente etapas de desvio para o aplicativo móvel Warehouse Management*
 1. Se os recursos *Desvios do aplicativo Warehouse Management* e/ou *Desvios de vários níveis para o aplicativo móvel Warehouse Management* ainda não foram ativados, atualize os nomes de campos no aplicativo móvel Warehouse Management acessando **Warehouse management \> Configuração \> Dispositivo móvel \> Nomes de campo de aplicativo de depósito** e selecionando **Criar configuração padrão**. Para obter mais informações, consulte [Configurar campos para o aplicativo móvel Warehouse Management](configure-app-field-names-priorities-warehouse.md).
 1. Repita a etapa anterior para cada entidade legal (empresa) em que você usa o aplicativo móvel do Warehouse Management.
 
@@ -49,7 +52,7 @@ Use o procedimento a seguir para configurar um desvio de uma substituição espe
 1. Encontre a combinação de valores de **ID da Etapa** e **Nome do item de menu** que deseja editar e então selecione o valor na coluna **ID da Etapa**.
 1. Na página exibida, na Guia Rápida **Desvios disponíveis (itens de menu)**, você pode especificar o item de menu que deve atuar como desvio. Você também seleciona quais valores de campo da tarefa principal devem ser copiados automaticamente de e para o desvio. Para obter exemplos que mostrem como usar essas configurações, consulte os cenários posteriormente neste artigo.
 
-## <a name="sample-scenario-1-sales-picking-where-a-location-inquiry-acts-as-a-detour"></a>Cenário de exemplo 1: Separação de vendas em que uma consulta de localização atua como desvio
+## <a name="sample-scenario-1-sales-picking-where-a-location-inquiry-acts-as-a-detour"></a><a name="scenario-1"></a>Cenário de exemplo 1: Separação de vendas em que uma consulta de localização atua como desvio
 
 Este cenário mostra como configurar uma consulta de localização como um desvio em um fluxo de tarefas de separação de vendas direcionada ao trabalhador. Esse desvio permitirá que os funcionários pesquisem todas as placas de licença no local de onde eles estão separando e separem a placa de licença que queiram usar para concluir a separação. Esse tipo de desvio poderá ser útil se o código de barras estiver danificado e, portanto, ilegível para o dispositivo de scanner. Como alternativa, ele poderia ser útil se um trabalhador tivesse de aprender o que está realmente disponível no sistema. Observe que esse cenário só funcionará se você estiver separando dos locais controlados pela placa de licença.
 
@@ -59,7 +62,7 @@ Para usar os registros e valores de exemplo especificados para trabalhar neste c
 
 ### <a name="create-a-menu-specific-override-and-configure-the-detour-for-scenario-1"></a>Crie uma substituição específica do menu e configure o desvio para o cenário 1
 
-Neste procedimento, você vai configurar um desvio para o item de menu **Separação de vendas** na etapa da placa de licença.
+Neste procedimento, você configurará um desvio para o item de menu **Separação de vendas** na etapa da placa de licença.
 
 1. Acesse **Gerenciamento de depósito \> Configuração \> Dispositivo móvel \> Etapas do dispositivo móvel**.
 1. Localize a ID da etapa chamada *LicensePlateId* e selecione-a.
@@ -70,15 +73,17 @@ Neste procedimento, você vai configurar um desvio para o item de menu **Separa�
 1. Na caixa de diálogo **Adicionar desvio**, selecione **Consulta de localização** como o desvio que será disponibilizado no aplicativo móvel do Warehouse Management.
 1. Selecione **OK**.
 1. Na Guia Rápida **Desvios disponíveis (itens de menu)**, selecione o desvio que você acabou de adicionar e, em seguida, selecione **Selecionar campos a serem enviados** na barra de ferramentas.
-1. Na caixa de diálogo **Selecionar campos para enviar**, especifique as informações que devem ser enviadas de e para o desvio. Neste cenário, você está permitindo que os funcionários usem o local no qual devem ser selecionados como entrada para o desvio de consulta de localização. Portanto, na seção **Enviar de separação de vendas**, selecione **Adicionar** na barra de ferramentas para adicionar uma linha à grade. Defina os seguintes valores para a nova linha:
+1. Na caixa de diálogo **Selecionar campos para enviar**, especifique as informações que devem ser enviadas de e para o desvio. Neste cenário, você está permitindo que os trabalhadores usem o local em que devem ser selecionados como entrada para o desvio de consulta de localização. Portanto, na seção **Enviar de separação de vendas**, selecione **Adicionar** na barra de ferramentas para adicionar uma linha à grade. Defina os seguintes valores para a nova linha:
 
     - **Copiar da Separação de Vendas:** *Localização*
     - **Cole em Consulta de Localização:** *Localização*
+    - **Envio automático:** *Selecionado* (a página será atualizada com o valor da *Localização* colado)
 
 1. Como o desvio neste cenário é configurado na etapa da placa de licença, ele será útil se os funcionários puderem trazer a placa de licença de volta da consulta para o fluxo principal. Portanto, na seção **Trazer de volta da consulta de localização**, selecione **Adicionar** na barra de ferramentas para adicionar uma linha à grade. Defina os seguintes valores para a nova linha:
 
     - **Copie de Consulta de Localização:** *Placa de licença*
     - **Colar na Separação de Vendas:** *Placa de licença*
+    - **Envio automático:** *Desmarcado* (nenhuma atualização automática ocorrerá ao retornar do desvio com um valor de *Placa de licença*)
 
 1. Selecione **OK**.
 
@@ -86,7 +91,7 @@ Agora, o desvio está totalmente configurado. Um botão para iniciar o desvio **
 
 ### <a name="complete-a-sales-pick-on-a-mobile-device-and-use-the-detour"></a>Concluir uma separação de vendas em um dispositivo móvel e usar o desvio
 
-Neste procedimento, você concluirá uma separação de vendas usando o aplicativo móvel do Warehouse Management. Você usará o desvio que acabou de configurar para localizar a placa de licença que será usada para concluir a etapa de separação.
+Neste procedimento, você concluirá uma separação de vendas usando o aplicativo móvel do Warehouse Management. Você usará o desvio recém-configurado para localizar a placa de licença que será usada para concluir a etapa de separação.
 
 1. No Microsoft Dynamics 365 Supply Chain Management, crie uma ordem de venda que exigirá uma etapa de seleção para separar de um local rastreado na placa de licença. Em seguida, libere a ordem de venda para o depósito. Anote a ID do trabalho gerada.
 1. Abra o aplicativo móvel do Warehouse Management e entre no depósito 24. (Nos dados de demonstração padrão, entre usando *24* como a ID do usuário e *1* como a senha.)
@@ -112,7 +117,7 @@ Para usar os registros e valores de exemplo especificados para trabalhar neste c
 
 ### <a name="create-a-menu-specific-override-and-configure-the-detour-for-scenario-2"></a>Crie uma substituição específica do menu e configure o desvio para o cenário 2
 
-Neste procedimento, você vai configurar um desvio para o item de menu **Separação de vendas** na etapa da placa de licença.
+Neste procedimento, você configurará um desvio para o item de menu **Separação de vendas** na etapa da placa de licença.
 
 1. Acesse **Gerenciamento de depósito \> Configuração \> Dispositivo móvel \> Etapas do dispositivo móvel**.
 1. Localize e selecione a ID da etapa chamada *LocationInquiryList*.
@@ -131,6 +136,7 @@ Neste procedimento, você vai configurar um desvio para o item de menu **Separa�
 
     - **Copie de Consulta de Localização:** *Localização*
     - **Cole em Movimento:** *Loc/LP*
+    - **Envio automático:** *Desmarcado* (não haverá atualização automática)
 
     Neste desvio, você não está esperando que as informações sejam copiadas de volta, já que o fluxo principal era uma consulta sem etapas adicionais necessárias.
 
@@ -140,7 +146,7 @@ Agora, o desvio está totalmente configurado. Um botão para iniciar o desvio **
 
 ### <a name="do-a-location-inquiry-on-a-mobile-device-and-use-the-detour"></a>Fazer uma consulta de localização em um dispositivo móvel e usar o desvio
 
-Neste procedimento, você fará uma consulta de localização usando o aplicativo móvel do Warehouse Management. Em seguida, você usará o desvio para concluir uma movimentação de bens.
+Neste procedimento, você fará uma consulta de localização usando o aplicativo móvel Warehouse Management. Em seguida, você usará o desvio para concluir uma movimentação de bens.
 
 1. Abra o aplicativo móvel do Warehouse Management e entre no depósito 24. (Nos dados de demonstração padrão, entre usando *24* como a ID do usuário e *1* como a senha.)
 1. Selecione o menu **Estoque** e selecione o item de menu **Consulta de localização**.
@@ -153,3 +159,5 @@ Neste procedimento, você fará uma consulta de localização usando o aplicativ
 
 > [!NOTE]
 > O recurso *Desvios de vários níveis para o aplicativo móvel Warehouse Management* permite que você defina desvios de vários níveis (desvios nos desvios), que permitirão que os funcionários saltem de um desvio existente para um segundo e depois voltem novamente. O recurso oferece suporte a dois níveis de desvios imediatos e, se necessário, você pode personalizar o sistema para dar suporte a três ou mais níveis de desvios criando extensões de código na tabela `WHSWorkUserSessionState`.
+>
+> O recurso *Etapas de desvio de envio automático para o aplicativo móvel Warehouse Management* pode tornar mais rápido e fácil para os trabalhadores concluir fluxos de desvio no aplicativo móvel Warehouse Management. Ele permite que algumas etapas de fluxo sejam ignoradas, permitindo que o aplicativo preencha os dados de desvio no back-end e, depois, passe automaticamente para a próxima etapa, enviando automaticamente a página, como mostrado no [*Exemplo de cenário 1: separação de vendas em que uma consulta de localização atua como um desvio*](#scenario-1).
