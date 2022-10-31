@@ -10,18 +10,14 @@
               href: ../fin-ops-core/fin-ops/get-started/whats-new-changed.md?toc=/dynamics365/finance/toc.json
             - name: Novidades ou alterações no Human Resources
               items:
+                - name: Human Resources 10.0.31 (infraestrutura mesclada)
+                  href: ./get-started/whats-new-changed-10-0-31.md
                 - name: Human Resources 10.0.30 (infraestrutura mesclada)
                   href: ./get-started/whats-new-changed-10-0-30.md
                 - name: Human Resources 10.0.29 (infraestrutura mesclada)
                   href: ./get-started/whats-new-changed-10-0-29.md
                 - name: Human Resources 10.0.28 (infraestrutura mesclada)
                   href: ./get-started/whats-new-changed-10.0.28.md
-                - name: Human Resources 10.0.27 (infraestrutura mesclada)
-                  href: ./get-started/hr-whats-new-changed-10-0-27.md
-                - name: Human Resources 10.0.26 (infraestrutura mesclada)
-                  href: ./get-started/hr-whats-new-changed-10-0-26.md
-                - name: Human Resources 10.0.25 (infraestrutura mesclada)
-                  href: ./get-started/hr-whats-new-changed-10-0-25.md
                 - name: Novidades no Dynamics 365 Human Resources (autônomo)
                   items:
                     - name: Arquivos de 2021 das Novidades no Dynamics 365 Human Resources (autônomo)
@@ -718,9 +714,11 @@
               href: hr-develop-create-performance-review.md
         - name: Aprendizado
           items:
+            - name: Visão geral do curso
+              href: hr-course-overview.md
             - name: Configurar cursos de treinamento
               href: hr-learning-courses.md
-            - name: Visão geral de Questionários
+            - name: Visão geral de questionários
               href: hr-learning-questionnaires.md
             - name: Criar questionários
               href: hr-learning-design-questionnaires.md

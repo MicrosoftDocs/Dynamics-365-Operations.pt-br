@@ -10,18 +10,16 @@
           items:
             - name: Novidades ou alterações nos aplicativos de finanças e operações
               href: ../fin-ops/get-started/whats-new-changed.md?toc=/dynamics365/fin-ops-core/dev-itpro/toc.yml
-            - name: Novidades ou alterações em Atualizações de plataforma
+            - name: Novidades ou alterações em Atualizações da plataforma
               items:
-                - name: Novidades ou alterações na home page de Atualizações de plataforma
+                - name: Novidades ou alterações na home page de Atualizações da plataforma
                   href: get-started/whats-new-home-page.md
-                - name: Atualizações de plataforma para a versão 10.0.31 (fevereiro de 2023)
+                - name: Atualizações da plataforma para a versão 10.0.31 (fevereiro de 2023)
                   href: get-started/whats-new-platform-updates-10-0-31.md
                 - name: Atualizações da plataforma para a versão 10.0.30 (novembro de 2022)
                   href: get-started/whats-new-platform-updates-10-0-30.md
                 - name: Atualizações da plataforma para a versão 10.0.29 (outubro de 2022)
                   href: get-started/whats-new-platform-updates-10-0-29.md
-                - name: Atualizações da plataforma para a versão 10.0.28 (agosto de 2022)
-                  href: get-started/whats-new-platform-updates-10-0-28.md
             - name: Recursos removidos ou preteridos
               items:
                 - name: Home page de recursos removidos ou preteridos
@@ -1605,7 +1603,11 @@
             - name: Relatório de códigos de licença e chaves de configuração
               href: sysadmin/license-codes-configuration-keys-report.md
             - name: Compartilhamento de dados interempresarial
-              href: sysadmin/cross-company-data-sharing.md
+              href: sysadmin/srs-overview.md
+            - name: Tabelas com suporte para compartilhamento de dados
+              href: sysadmin/drs-srs-tables.md
+            - name: Compartilhamento de dados para desenvolvedores
+              href: sysadmin/drs-srs-dev.md
             - name: Modo de manutenção
               href: sysadmin/maintenance-mode.md
             - name: Contas do sistema pré-configuradas

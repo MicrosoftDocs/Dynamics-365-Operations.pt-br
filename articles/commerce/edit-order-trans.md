@@ -2,7 +2,7 @@
 title: Editar e auditar transações da ordem do cliente assíncronas e ordem online
 description: Este artigo descreve como editar e auditar transações da ordem do cliente assíncronas e ordem online no Microsoft Dynamics 365 Commerce.
 author: josaw1
-ms.date: 11/04/2020
+ms.date: 10/21/2022
 ms.topic: index-page
 ms.prod: ''
 ms.technology: ''
@@ -15,12 +15,12 @@ ms.dyn365.ops.version: ''
 ms.custom: ''
 ms.assetid: ed0f77f7-3609-4330-bebd-ca3134575216
 ms.search.industry: Retail
-ms.openlocfilehash: dac7ffe6d62aaea11f2f5af0476db446b091938b
-ms.sourcegitcommit: 87e727005399c82cbb6509f5ce9fb33d18928d30
+ms.openlocfilehash: dbeeff47446c1617da44f34ae56f333717f577a1
+ms.sourcegitcommit: 18b7a02c497709e8d9c7b943d82f1fcc3dafa4cd
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/12/2022
-ms.locfileid: "9287667"
+ms.lasthandoff: 10/21/2022
+ms.locfileid: "9712098"
 ---
 # <a name="edit-and-audit-online-order-and-asynchronous-customer-order-transactions"></a>Editar e auditar transações da ordem do cliente assíncronas e ordem online
 
@@ -34,12 +34,13 @@ Entre o Commerce versões 10.0.5 e 10.0.6, foi adicionado o suporte para editar 
 
 ## <a name="edit-and-audit-order-transactions"></a>Editar e auditar transações da ordem
 
-Para editar e auditar transações na matriz do Commerce, siga estas etapas:
+Para editar e auditar transações de ordem no Commerce headquarters, siga estas etapas:
 
-1. Instalar o [Microsoft Dynamics Office Add-in](https://appsource.microsoft.com/product/office/WA104379629?tab=Overview).
-1. Na página **Parâmetros reais**, na guia **Ordens do cliente**, na FastTab **Ordem**, especifique um código de bloqueio para **Código de bloqueio para erros de sincronização da ordem**.
-1. Abra o espaço de trabalho **Finanças da loja**. Os blocos **Erros de sincronização da ordem online** e **Erros de sincronização da ordem do cliente** fornecem uma exibição pré-filtrada da página de transação de varejo. Cada um deles mostra os registros de transação que falharam na sincronização do tipo de ordem correspondente.
-1. Abra a página **Erros de sincronização da ordem online** ou a página **Erros de sincronização da ordem do cliente**. Selecione um registro para exibir os detalhes de erro de sincronização. A FastTab **Status de sincronização** fornece os seguintes detalhes de erro:
+1. Instale o [Microsoft Dynamics Office Add-in](https://appsource.microsoft.com/product/office/WA104379629?tab=Overview).
+1. Na página **Parâmetros do Commerce**, na guia **Ordens do cliente**, na Guia Rápida **Ordem**, especifique um código de bloqueio para **Código de bloqueio para erros de sincronização**.
+2. Pause outros trabalhos de sincronização de ordem que entrarão em conflito com a realização da edição e da auditoria.
+3. Abra o espaço de trabalho **Finanças da loja**. Os blocos **Erros de sincronização da ordem online** e **Erros de sincronização da ordem do cliente** fornecem uma exibição pré-filtrada da página de transação de varejo. Cada um deles mostra os registros de transação que falharam na sincronização do tipo de ordem correspondente.
+4. Abra a página **Erros de sincronização da ordem online** ou a página **Erros de sincronização da ordem do cliente**. Selecione um registro para exibir os detalhes de erro de sincronização. A FastTab **Status de sincronização** fornece os seguintes detalhes de erro:
 
     - Status da ordem pendente
     - Detalhes do erro da ordem
@@ -66,8 +67,16 @@ Para editar e auditar transações na matriz do Commerce, siga estas etapas:
         - **Encargos** – essa planilha tem os dados relacionados aos encargos da transação.
 
 1. No arquivo Excel, no campo **Status da ordem pendente**, insira **Edição** e publique a alteração. Dessa forma, você impede que o trabalho **Sincronizar ordem** sendo executado no modo de lote ignore esse registro durante o processamento.
-1. No arquivo do Excel, você modifica os campos apropriados e carrega os dados de volta na matriz do Commerce usando a funcionalidade de publicação do Dynamics Excel Add-in. Depois que os dados forem publicados, as alterações serão refletidas no sistema. Durante a publicação, nenhuma validação é feita nas alterações feitas pelos usuários.
-1. É possível exibir uma trilha de auditoria completa das alterações pode ser exibida ao selecionar **Exibir trilha de auditoria** no cabeçalho **Transação de varejo** para as alterações no nível do cabeçalho e na seção e no registro relevantes na página de transação apropriada. Por exemplo, todas as alterações relacionadas às linhas de vendas serão mostradas na página **Transações de vendas** e todas as alterações relacionadas a pagamentos serão mostradas na página **Transações de pagamento**. Os seguintes detalhes de auditoria serão mantidos para as alterações:
+1. No arquivo do Excel, você modifica os campos apropriados e carrega os dados de volta no Commerce headquarters usando a funcionalidade de publicação do Dynamics Excel Add-in. Depois que os dados forem publicados, as alterações serão refletidas no sistema. Durante a publicação, nenhuma validação é feita nas alterações realizadas pelos usuários.
+    > [!NOTE]
+    > Se você não encontrar o campo que deve ser editado, siga as etapas abaixo para adicionar o campo ausente na planilha.
+    >   1. Selecione **Design** no Conector de Dados.
+    >   1. Selecione o ícone de lápis ao lado da tabela à qual você deseja adicionar um campo.
+    >   1. Selecione o campo na seção **Campos disponíveis** e, em seguida, selecione **Adicionar**.
+    >   1. Adicione quantos campos forem necessários e selecione **Atualizar**.
+    >   1. Quando a atualização for concluída, talvez seja necessário selecionar **Atualizar** para atualizar os valores.
+
+3. É possível exibir uma trilha de auditoria completa das alterações ao selecionar **Exibir trilha de auditoria** no cabeçalho **Transação de varejo** para as alterações no nível do cabeçalho e na seção e no registro relevantes na página de transação apropriada. Por exemplo, todas as alterações relacionadas às linhas de vendas serão mostradas na página **Transações de vendas** e todas as alterações relacionadas a pagamentos serão mostradas na página **Transações de pagamento**. Os seguintes detalhes de auditoria serão mantidos para as alterações:
 
     - Data e hora da modificação
     - Campo

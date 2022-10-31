@@ -12,6 +12,8 @@
               items:
                 - name: Novidades ou alterações na home page do Commerce
                   href: get-started/whats-new-home-page.md
+                - name: Commerce 10.0.31 (fevereiro de 2023)
+                  href: get-started/whats-new-commerce-10-0-31.md
                 - name: Commerce 10.0.30 (novembro de 2022)
                   href: get-started/whats-new-commerce-10-0-30.md
                 - name: Commerce 10.0.29 (outubro de 2022)
@@ -568,6 +570,8 @@
                       href: call-center-refund-payments.md
                     - name: 'Configuração, autorização e captura de cartão de crédito'
                       href: ../finance/accounts-receivable/credit-card-authorizations.md?context=/dynamics365/context/commerce
+                    - name: Limitar o uso de token de pagamento
+                      href: dev-itpro/limit-token-usage.md
                     - name: Configurar denominações de pagamento à vista do PDV
                       href: cash-denominations.md
                     - name: Configurar processamento do cartão de crédito
@@ -1236,6 +1240,8 @@
                       href: cart-icon-module.md
                     - name: Módulo de finalização da compra
                       href: add-checkout-module.md
+                    - name: Códigos de referência de erro do módulo de finalização da compra
+                      href: checkout-module-error-codes.md
                     - name: Módulo de pagamento
                       href: payment-module.md
                     - name: Módulo de endereço de remessa
@@ -3006,7 +3012,7 @@
                   href: troubleshoot/restrict-access-storefront.md
                 - name: Entrar no link redireciona de volta ao site de comércio eletrônico
                   href: troubleshoot/sign-in-redirects-back.md
-                - name: Os registros de clientes não são exibidos na matriz do Commerce
+                - name: Os registros de clientes não são exibidos no Commerce headquarters
                   href: troubleshoot/customer-record-not-appearing.md
                 - name: A opção Separar este não é exibida
                   href: troubleshoot/pickup-store-link-missing.md
