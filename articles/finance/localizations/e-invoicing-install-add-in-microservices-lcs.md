@@ -15,12 +15,12 @@ ms.dyn365.ops.version: ''
 ms.custom: ''
 ms.assetid: ''
 ms.search.form: ''
-ms.openlocfilehash: a837b85d4893f2915b5fbb5ffaae8eb95f19bc0e
-ms.sourcegitcommit: 87e727005399c82cbb6509f5ce9fb33d18928d30
+ms.openlocfilehash: 938b00192acc0ff5534239f2f280792471181fad
+ms.sourcegitcommit: 1ecfc1d8afb2201ab895ae6f93304ba2b120f14b
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/12/2022
-ms.locfileid: "9272243"
+ms.lasthandoff: 10/21/2022
+ms.locfileid: "9710799"
 ---
 # <a name="install-the-add-in-for-microservices-in-lifecycle-services"></a>Instalar o suplemento para microsserviços no Lifecycle Services
 
@@ -35,7 +35,7 @@ Para registrar um ambiente, siga estas etapas.
 2. No projeto, no painel **Ambientes**, selecione seu ambiente implantado. O ambiente selecionado deve estar em execução.
 3. Na guia **Integração do Power Platform**, na seção **Complementos do ambiente**, selecione **Instalar novo complemento**.
 4. Selecione **Fatura eletrônica**.
-5. No campo **ID do aplicativo do AAD**, insira **091c98b0-a1c9-4b02-b62c-7753395ccabe**. Esse valor é um valor fixo. Certifique-se de inserir somente um identificador global exclusivo (GUID). Não inclua outros símbolos, como espaços, vírgulas, pontos ou aspas.
+5. No campo **ID do aplicativo do AAD**, insira o valor fixo **091c98b0-a1c9-4b02-b62c-7753395ccabe**. Esse valor não muda nunca. Certifique-se de inserir somente um identificador global exclusivo (GUID). Não inclua outros símbolos, como espaços, vírgulas, pontos ou aspas.
 6. No campo **ID de locatário AAD**, insira a ID do locatário da sua conta de assinatura do Azure. O locatário do Azure Active Directory (Azure AD) que você especifica deve ser o mesmo locatário usado para o Regulatory Configuration Service (RCS).
 7. Analise os termos e condições e depois marque a caixa de seleção.
 8. Selecione **Instalar**. Após alguns minutos, o status deve mudar de **Instalando** para **Instalado**. Pode ser necessário atualizar a página para ver esta alteração.

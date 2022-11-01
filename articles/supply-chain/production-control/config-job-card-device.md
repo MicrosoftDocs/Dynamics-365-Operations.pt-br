@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: johanho
 ms.search.validFrom: 2020-05-29
 ms.dyn365.ops.version: 10.0.12
-ms.openlocfilehash: 0f42ad593f59f716fb6cb535d73654d3549ba00e
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: c3024ca2e3b7eb24ac9a171def4a72cde7493a7a
+ms.sourcegitcommit: 9e6a9d644a34158390c6e209e80053ccbdb7d974
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8860715"
+ms.lasthandoff: 10/20/2022
+ms.locfileid: "9708608"
 ---
 # <a name="configure-job-card-for-devices"></a>Configurar o cartão de trabalho para dispositivos
 
@@ -73,7 +73,7 @@ A Guia Rápida **Geral** permite configurar cada uma das várias opções dispon
 - **Grupo de recursos** - Selecione um grupo de recursos a ser aplicado como um critério de filtro padrão para a lista de trabalhos mostrada para cada trabalhador. Somente os trabalhos agendados em recursos agrupados no grupo de recursos selecionado serão exibidos inicialmente pelo dispositivo. Se **Permitir que os trabalhadores definam filtros pessoais** estiver habilitado, os funcionários poderão editar esse valor; caso contrário, esse filtro sempre se aplicará quando a configuração desse dispositivo estiver ativa.
 - **Recurso** - Selecione um recurso a ser aplicado como um critério de filtro padrão para a lista de trabalhos mostrada para cada trabalhador. Somente os trabalhos agendados no recurso selecionado serão exibidos inicialmente pelo dispositivo. Se **Permitir que os trabalhadores definam filtros pessoais** estiver habilitado, os funcionários poderão editar esse valor; caso contrário, esse filtro sempre se aplicará quando a configuração desse dispositivo estiver ativa.
 - **Gerar placa de licença** - Defina esta opção como **Sim** para gerar uma nova placa de licença cada vez que um trabalhador usar o dispositivo de ficha de trabalho para relatar como concluído. O número da placa de licença é gerado a partir de uma sequência numérica configurada na página **Parâmetros de gerenciamento de depósito**. Quando definido como **Não**, os trabalhadores devem especificar uma placa de licença existente ao relatar como concluído.
-- **Imprimir etiqueta** - Defina esta opção como **Sim** para imprimir uma etiqueta da placa de licença quando um trabalhador usar o dispositivo de ficha de trabalho para relatar como concluído. A configuração da etiqueta é configurada no roteamento de documentos, conforme descrito no [Layout de roteamento de documentos para etiquetas da placa de licença](../warehousing/document-routing-layout-for-license-plates.md).
+- **Imprimir etiqueta** - Defina esta opção como **Sim** para imprimir uma etiqueta da placa de licença quando um trabalhador usar o dispositivo de ficha de trabalho para relatar como concluído. A configuração da etiqueta é configurada no roteamento de documentos, conforme descrito nos [Layouts de etiquetas de roteamento de documentos](../warehousing/document-routing-layout-for-license-plates.md).
 
 <a name="assigned-users"></a>
 

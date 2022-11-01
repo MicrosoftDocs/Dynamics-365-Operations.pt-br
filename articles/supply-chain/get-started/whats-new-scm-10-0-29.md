@@ -1,5 +1,5 @@
 ---
-title: 'Versão preliminar do Dynamics 365 Supply Chain Management 10.0.29: (October 2022)'
+title: Novidades ou alterações no Dynamics 365 Supply Chain Management 10.0.29 (outubro de 2022)
 description: Este artigo descreve os recursos novos ou alterados no Microsoft Dynamics 365 Supply Chain Management 10.0.29.
 author: kamaybac
 ms.date: 08/12/2022
@@ -10,12 +10,12 @@ ms.search.region: Global
 ms.author: kamaybac
 ms.search.validFrom: 2022-08-01
 ms.dyn365.ops.version: 10.0.29
-ms.openlocfilehash: 62e06f2348ca3524beaaef5d8879c199db56696f
-ms.sourcegitcommit: 3e04f7e4bc0c29c936dc177d5fa11761a58e9a02
+ms.openlocfilehash: d12932f35b3b451577d38948f60bc3a73c10e2a0
+ms.sourcegitcommit: 86c0562ce1ecdf7937125c0f5a6771f178b459e7
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/18/2022
-ms.locfileid: "9689274"
+ms.lasthandoff: 10/24/2022
+ms.locfileid: "9714824"
 ---
 # <a name="whats-new-or-changed-in-dynamics-365-supply-chain-management-10029-october-2022"></a>Novidades ou alterações no Dynamics 365 Supply Chain Management 10.0.29 (outubro de 2022)
 

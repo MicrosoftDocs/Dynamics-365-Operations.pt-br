@@ -15,12 +15,12 @@ ms.dyn365.ops.version: ''
 ms.custom: ''
 ms.assetid: ''
 ms.search.form: ''
-ms.openlocfilehash: 11378991a24e1a5f5e213d64f0f414db2e5c2573
-ms.sourcegitcommit: 87e727005399c82cbb6509f5ce9fb33d18928d30
+ms.openlocfilehash: 9d4a408f2169b220fefd9ab7e9f3b37217fb3cfe
+ms.sourcegitcommit: 1ecfc1d8afb2201ab895ae6f93304ba2b120f14b
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/12/2022
-ms.locfileid: "9279890"
+ms.lasthandoff: 10/21/2022
+ms.locfileid: "9710826"
 ---
 # <a name="complete-publish-and-deploy-a-globalization-feature"></a>Conclua, publique e implante um recurso de Globalização
 
@@ -59,8 +59,8 @@ No RCS, use o comando **Implantar** para publicar uma versão do recurso de fatu
 2. Na guia **Versões**, no lado direito da página, selecione a versão do recurso de faturamento eletrônico que você deseja implantar no ambiente de serviço ou no aplicativo conectado. A versão selecionada deve ter o status **Concluído** ou **Publicado**.
 3. Selecione **Implantar** e uma das seguintes ou ambas as opções para definir o destino da implantação:
 
-    - Aplicativo **Conectado** – A configuração fornecida pela configuração do aplicativo é gravada na instância do Microsoft Dynamics 365 Finance ou Dynamics 365 Supply Chain Management que foi previamente associada a ela.
-    - **Ambiente de serviço** – A versão do recurso de faturamento eletrônico é implantada no ambiente de serviço. O Faturamento eletrônico então estará pronto para receber e processar documentos eletrônicos enviados pelo Finance ou pelo Supply Chain Management.
+    - **Aplicativo conectado** – esta opção não é obrigatória, mas é necessária se você quiser que configuração fornecida pela configuração do aplicativo seja gravada na instância do Microsoft Dynamics 365 Finance ou Dynamics 365 Supply Chain Management que foi previamente associada a ela. Pular esse tipo de implantação exige configuração manual dos parâmetros definidos na configuração do aplicativo do Finance ou do Supply Chain Management.
+    - **Ambiente de serviço** – esta opção implanta a versão do recurso de faturamento eletrônico no ambiente de serviço. O Faturamento eletrônico então estará pronto para receber e processar documentos eletrônicos enviados pelo Finance ou pelo Supply Chain Management.
 
 > [!NOTE]
 > Normalmente, você irá alterar os parâmetros do recurso ER (relatório eletrônico) que deve ser implantado no ambiente de serviço. As alterações no aplicativo conectado serão raras. Você deve implantar novas versões no aplicativo conectado somente quando alterar os parâmetros correspondentes de seu aplicativo.

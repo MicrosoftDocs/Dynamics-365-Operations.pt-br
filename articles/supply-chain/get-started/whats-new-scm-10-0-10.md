@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: kamaybac
 ms.search.validFrom: 2020-03-21
 ms.dyn365.ops.version: 10.0.10
-ms.openlocfilehash: 62f771f6eda949f13536e700ef13a118881886ef
-ms.sourcegitcommit: 873d66c03a51ecb7082e269f30f5f980ccd9307f
+ms.openlocfilehash: c377a910cca8bbf1fd640b6c9a99810be1a8d40f
+ms.sourcegitcommit: 9e6a9d644a34158390c6e209e80053ccbdb7d974
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 07/06/2022
-ms.locfileid: "9123520"
+ms.lasthandoff: 10/20/2022
+ms.locfileid: "9708685"
 ---
 # <a name="whats-new-or-changed-in-dynamics-365-supply-chain-management-10010-may-2020"></a>Novidades ou alterações no Dynamics 365 Supply Chain Management 10.0.10 (maio de 2020)
 
@@ -39,7 +39,7 @@ Os seguintes recursos estão incluídos nesta versão. Os títulos do recurso es
 
 - [Aprimoramentos no gerenciamento de carga de entrada para gerenciamento de depósito](/dynamics365-release-plan/2020wave1/dynamics365-supply-chain-management/warehouse-management-inbound-load-management-enhancement)<br> - Para obter mais informações, consulte [Manuseio de depósito de cargas de entrada para ordens de compra](../warehousing/inbound-load-handling.md).
 
-- [Aprimoramentos de impressão de etiquetas para o gerenciamento de depósito](/dynamics365-release-plan/2020wave1/dynamics365-supply-chain-management/label-printing-enhancements-warehouse-management)<br> - Para obter mais informações, consulte [Layout de roteamento de documentos para etiquetas de placa de licença](../warehousing/document-routing-layout-for-license-plates.md).
+- [Aprimoramentos de impressão de etiquetas para o gerenciamento de depósito](/dynamics365-release-plan/2020wave1/dynamics365-supply-chain-management/label-printing-enhancements-warehouse-management)<br> - Para mais informações, consulte [Layouts de etiquetas de roteamento de documentos](../warehousing/document-routing-layout-for-license-plates.md).
 
 - [O planejamento mestre inclui itens com estoque disponível quando os filtros de pré-processamento estão habilitados](/dynamics365-release-plan/2020wave1/dynamics365-supply-chain-management/master-planning-include-items-on-hand-when-pre-processing-filters-are-enabled)
 

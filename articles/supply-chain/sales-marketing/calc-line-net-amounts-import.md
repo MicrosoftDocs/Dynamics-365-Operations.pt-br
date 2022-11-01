@@ -1,6 +1,6 @@
 ---
-title: Recalcular valores líquidos de linha ao importar ordens de venda, cotações e devoluções
-description: Este artigo descreve se e como o sistema recalcula valores líquidos de linha quando ordens de venda, cotações e devoluções são importados. Ele também explica como você pode controlar o comportamento em diferentes versões do Microsoft Dynamics 365 Supply Chain Management.
+title: Recalcular valores líquidos de linha ao importar pedidos de venda e cotações
+description: Este artigo descreve se e como o sistema recalcula valores líquidos de linha quando pedidos de venda e cotações são importados. Ele também explica como você pode controlar o comportamento em diferentes versões do Microsoft Dynamics 365 Supply Chain Management.
 author: Henrikan
 ms.date: 08/05/2022
 ms.topic: article
@@ -11,25 +11,25 @@ ms.search.region: Global
 ms.author: henrikan
 ms.search.validFrom: 2022-06-08
 ms.dyn365.ops.version: 10.0.29
-ms.openlocfilehash: 08b30044a93e46c9c83848b60d69c595bc774570
-ms.sourcegitcommit: 203c8bc263f4ab238cc7534d4dd902fd996d2b0f
+ms.openlocfilehash: edda0c016130e2a273adf8f3d3e00e2d3ae9d5c6
+ms.sourcegitcommit: ce58bb883cd1b54026cbb9928f86cb2fee89f43d
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/23/2022
-ms.locfileid: "9335545"
+ms.lasthandoff: 10/25/2022
+ms.locfileid: "9719325"
 ---
-# <a name="recalculate-line-net-amounts-when-importing-sales-orders-quotations-and-returns"></a>Recalcular valores líquidos de linha ao importar ordens de venda, cotações e devoluções
+# <a name="recalculate-line-net-amounts-when-importing-sales-orders-and-quotations"></a>Recalcular valores líquidos de linha ao importar pedidos de venda e cotações
 
 [!include [banner](../includes/banner.md)]
 
-Este artigo descreve se e como o sistema recalcula valores líquidos de linha quando ordens de venda, cotações e devoluções são importados. Ele também explica como você pode controlar o comportamento em diferentes versões do Microsoft Dynamics 365 Supply Chain Management.
+Este artigo descreve se e como o sistema recalcula valores líquidos de linha quando pedidos de venda e cotações são importados. Ele também explica como você pode controlar o comportamento em diferentes versões do Microsoft Dynamics 365 Supply Chain Management.
 
 ## <a name="how-updates-to-net-line-amounts-are-calculated-on-import"></a>Como as atualizações de valores de linha líquida são calculadas na importação
 
-Supply Chain Management versão 10.0.23 apresentado [bugfix 604418](https://fix.lcs.dynamics.com/issue/results/?q=604418). Este bugfix alterou as condições em que o campo **Valor líquido** em uma linha pode ser atualizado ou recalculado quando são importadas atualizações para ordens de venda, devoluções e cotações existentes. Na versão 10.0.29, você pode substituir este bugfix ativando o recurso *Calcular valor líquido de linha mediante importação*. Esse recurso tem um efeito semelhante, mas oferece uma configuração global que permite que volte ao comportamento antigo se precisar. Embora o novo comportamento faça o sistema operar de forma mais intuitiva, ele pode gerar resultados inesperados em cenários específicos em que todas estas condições são atendidas:
+Supply Chain Management versão 10.0.23 apresentado [bugfix 604418](https://fix.lcs.dynamics.com/issue/results/?q=604418). Este bugfix alterou as condições em que o campo **Valor líquido** em uma linha pode ser atualizado ou recalculado quando são importadas atualizações para pedidos de venda e cotações existentes. Na versão 10.0.29, você pode substituir este bugfix ativando o recurso *Calcular valor líquido de linha mediante importação*. Esse recurso tem um efeito semelhante, mas oferece uma configuração global que permite que volte ao comportamento antigo se precisar. Embora o novo comportamento faça o sistema operar de forma mais intuitiva, ele pode gerar resultados inesperados em cenários específicos em que todas estas condições são atendidas:
 
 - Os dados que atualizam registros existentes são importados por meio da entidade *Linhas de ordem de venda V2*, *Linhas de cotação de venda V2* ou *Linhas da ordem de devolução* usando o Protocolo Open Data (OData), incluindo situações em que você usa a gravação dupla, a importação/exportação por meio do Excel e algumas integrações de terceiros.
-- [Políticas de avaliação de contrato comercial](/dynamicsax-2012/appuser-itpro/trade-agreement-evaluation-policies-white-paper) que estão em vigor estabelecem uma política de alteração que restringe as atualizações para o campo **Valor líquido** em linhas da ordem de venda, linhas da cotação de venda e/ou linhas da ordem de devolução.
+- [Políticas de avaliação de contrato comercial](/dynamicsax-2012/appuser-itpro/trade-agreement-evaluation-policies-white-paper) que estão em vigor estabelecem uma política de alteração que restringe as atualizações para o campo **Valor líquido** em linhas da ordem de venda, linhas da cotação de venda e/ou linhas da ordem de devolução. Para linhas de ordem de devolução, o campo **Valor líquido** é sempre calculado e não pode ser definido manualmente.
 - Os dados importados incluem alterações no campo **Valor líquido** em linhas, ou alterações (como preço unitário, quantidade ou desconto) que levarão ao recálculo do campo **Valor líquido** em linhas para um ou mais registros de linha existentes.
 
 Nesses cenários específicos, o efeito da política de avaliação do contrato comercial é colocar uma restrição em atualizações do campo **Valor líquido** na linha. Essa restrição é conhecida como *política de alteração*. Por causa dessa política, ao usar a interface do usuário para editar ou recalcular o campo, o sistema solicita que você confirme se deseja fazer a alteração. No entanto, quando você importa um registro, o sistema deve fazer a escolha para você. Antes da versão 10.0.23, o sistema sempre deixava o valor líquido da linha inalterado, a menos que o valor líquido da linha de entrada fosse 0 (zero). No entanto, em versões mais recentes, o sistema sempre atualiza ou recalcula o valor líquido conforme necessário, a menos que seja explicitamente orientado a não fazê-lo. Embora o novo comportamento seja mais lógico, ele poderá causar problemas se você já estiver executando processos ou integrações que assumam o comportamento anterior. Este artigo descreve como reverter para o comportamento anterior se você precisar.

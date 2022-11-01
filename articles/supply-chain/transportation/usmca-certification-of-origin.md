@@ -6,18 +6,19 @@ ms.date: 08/09/2022
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
+ms.search.form: WHSShipPlanningListPage, WHSShipmentDetails
 audience: Application User
 ms.reviewer: kamaybac
 ms.search.region: Global
 ms.author: weijiesa
 ms.search.validFrom: 2020-10-23
 ms.dyn365.ops.version: 10.0.16
-ms.openlocfilehash: edf235351fc7cbffc6bf80c7e05c53159c1e8a7f
-ms.sourcegitcommit: 203c8bc263f4ab238cc7534d4dd902fd996d2b0f
+ms.openlocfilehash: c67fd12c31b475b323bc4c7feee4cc5267da7793
+ms.sourcegitcommit: 229ea085cf35579a2631ea1e5fc2c602fa47e3f3
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/23/2022
-ms.locfileid: "9336535"
+ms.lasthandoff: 10/24/2022
+ms.locfileid: "9714688"
 ---
 # <a name="usmca-certification-of-origin"></a>Certificação de origem do USMCA
 
@@ -57,7 +58,7 @@ Para obter mais informações sobre cada um desses elementos e como seus valores
 Para imprimir um documento de certificação de origem do USMCA para uma remessa, faça o seguinte:
 
 1. Execute um destes procedimentos:
-    - Acesse **Gerenciamento de transporte > Remessas > Todas as remessas** e selecione a remessa em relação à qual deseja imprimir o documento.
+    - Acesse **Gerenciamento de transporte \>Planejamento \> Remessas \> Todas as remessas** e selecione a remessa referente ao documento que você quer imprimir.
     - Abra a página **Detalhes da remessa** da remessa em relação à qual deseja imprimir o documento (há várias maneiras de chegar aqui, incluindo a página **Todas as remessas**).
 1. No Painel de Ações, abra a guia **Remessas** e, no grupo **Imprimir**, selecione **Certificação de origem do USMCA**.
 1. A caixa de diálogo **Certificado ou origem** é aberta. Faça as configurações descritas nas subseções a seguir e selecione **OK** para gerar o documento.

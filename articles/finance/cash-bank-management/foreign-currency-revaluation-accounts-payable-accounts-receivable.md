@@ -2,7 +2,7 @@
 title: Reavaliação de moeda para contas a pagar e contas a receber
 description: Este artigo oferece informações sobre o processo de reavaliação de moeda estrangeira executado para atualizar o valor de transação abertas em Contas a pagar e em Contas a receber.
 author: angelad116
-ms.date: 06/20/2017
+ms.date: 10/24/2022
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: angelading
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 4ffa4e1a02c84eda5f6710cb9049eab06955fac0
-ms.sourcegitcommit: 0b7a034e644f4d93fe55c7baca5a3f89dbe56898
+ms.openlocfilehash: 73f20323ff2eb36c89f4fb2848a056c2cb24ec30
+ms.sourcegitcommit: 0d5c07ba91a9ceb2eeb11db032fd28037216789d
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 07/14/2022
-ms.locfileid: "9151810"
+ms.lasthandoff: 10/25/2022
+ms.locfileid: "9715712"
 ---
 # <a name="currency-revaluation-for-accounts-payable-and-accounts-receivable"></a>Reavaliação de moeda para contas a pagar e contas a receber
 

@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: benebotg
 ms.search.validFrom: 2020-09-28
 ms.dyn365.ops.version: 10.0.15
-ms.openlocfilehash: 71b5ec792013ae80be643b9581e388c291d608dd
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: 6c578609a64c21a33f10b64a1d77f006b45bac41
+ms.sourcegitcommit: 229ea085cf35579a2631ea1e5fc2c602fa47e3f3
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8849580"
+ms.lasthandoff: 10/24/2022
+ms.locfileid: "9714727"
 ---
 # <a name="manage-changes-to-engineering-products"></a>Gerenciar alterações em produtos de engenharia
 
@@ -141,6 +141,8 @@ Ao revisar as notificações de ordem de produção na página **Notificações 
 ### <a name="create-a-change-order-from-a-change-request"></a>Criar uma ordem de alteração de uma solicitação de alteração
 
 Um engenheiro que está revendo uma solicitação de alteração de engenharia pode criar uma ordem de alteração de engenharia diretamente na página **Solicitações de alteração de engenharia**. No Painel de Ações, na guia **Solicitação de alteração**, no grupo **Ordem de alteração de engenharia**, selecione **Copiar link e produtos**.
+
+Selecione a empresa certa para a nova ordem de alteração de engenharia. Se a ordem de alteração for gerar a mudança no próprio produto de engenharia (nova versão, novo produto ou nova variante), ela precisa ser atribuída à empresa de engenharia. Se for necessário fazer apenas um alteração de local (a opção **Impacto** é definida como *Nenhum*), a ordem pode ser atribuída a uma empresa local e as alterações serão aplicadas ao produto atual.
 
 ## <a name="engineering-change-orders"></a>Ordens de alteração de engenharia
 

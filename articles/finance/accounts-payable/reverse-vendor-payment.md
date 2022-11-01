@@ -1,8 +1,8 @@
 ---
 title: Estornar um pagamento do fornecedor
-description: Este artigo descreve as diferenças entre estornar, excluir, anular e rejeitar um pagamento. Além disso, explica os dois métodos para estornar um cheque de fornecedor.
-author: abruer
-ms.date: 08/22/2017
+description: Este artigo descreve as diferenças entre estornar, excluir, anular e rejeitar um pagamento e como estornar um cheque de fornecedor.
+author: angelad116
+ms.date: 10/24/2022
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -12,17 +12,17 @@ ms.reviewer: twheelo
 ms.custom: 14361
 ms.assetid: 9f0a1883-cbe0-4cc7-b9f3-dd12fb85ebe8
 ms.search.region: Global
-ms.author: shpandey
+ms.author: angelading
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 6216aed10866dbd5d814ae7f6b5a16ee67874fda
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: db82446d42a6d6fd69757d837fb8544e9b2fb224
+ms.sourcegitcommit: 0d5c07ba91a9ceb2eeb11db032fd28037216789d
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8858546"
+ms.lasthandoff: 10/25/2022
+ms.locfileid: "9715793"
 ---
-# <a name="reverse-a-vendor-payment"></a>Estornar um pagamento do fornecedor
+# <a name="reverse-a-vendor-payment"></a>Reverter um pagamento de fornecedor
 
 [!include [banner](../includes/banner.md)]
 

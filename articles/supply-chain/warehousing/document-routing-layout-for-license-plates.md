@@ -1,5 +1,5 @@
 ---
-title: Layout de roteiro de documentos para etiquetas de placa de licença
+title: Layouts de etiquetas de roteamento de documentos
 description: Este artigo descreve como usar métodos de formatação para imprimir valores em etiquetas.
 author: perlynne
 ms.date: 04/01/2020
@@ -13,23 +13,24 @@ ms.search.region: Global
 ms.author: perlynne
 ms.search.validFrom: 2012-04-01
 ms.dyn365.ops.version: 10.0.10
-ms.openlocfilehash: 10e63353cda93d666d7f23f59508b73e5492c3cc
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: a4e0c16b71c257cae832870ca58679884047ea16
+ms.sourcegitcommit: 9e6a9d644a34158390c6e209e80053ccbdb7d974
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8847865"
+ms.lasthandoff: 10/20/2022
+ms.locfileid: "9708635"
 ---
-# <a name="document-routing-layout-for-license-plate-labels"></a>Layout de roteiro de documentos para etiquetas de placa de licença
+# <a name="document-routing-label-layout"></a>Layout de etiquetas de roteamento de documentos
 
 [!include [banner](../includes/banner.md)]
 
+Este artigo descreve como criar layouts para etiquetas de placas de veículos, contêineres e ciclos. Ele inclui diretrizes para usar a Linguagem de Programação Zebra (ZPL) na criação dos layouts.
 
-O layout de circulação de documentos define o layout dos rótulos de placa de licença e os dados impressos neles. Os pontos do disparador de impressão são configurados quando você configura itens de menu e modelos de trabalho de dispositivo móvel.
+Os layouts de etiquetas de roteamento de documentos definem a forma como elas serão aplicadas e os dados impressos nelas. Os pontos do disparador de impressão são configurados quando você configura itens de menu e modelos de trabalho de dispositivo móvel.
 
-Em um cenário típico, os auxiliares de recebimento de depósito imprimem etiquetas de placa de licença imediatamente após registrarem o conteúdo dos paletes que chegam na área de recebimento. As etiquetas físicas são aplicadas aos paletes. Em seguida, eles podem ser usados para validação como parte do processo de retirada que segue e operações de separação de saída futura.
+As informações deste artigo se aplicam a todos os layouts de etiquetas de roteamento de documentos, incluindo para [placas de veículos](tasks/license-plate-label-printing.md), [contêineres](print-container-labels.md) e [ciclos](configure-wave-label-printing.md).
 
-Você pode imprimir etiquetas altamente complexas, desde que o dispositivo de impressão possa interpretar o texto enviado a ela. Por exemplo, um layout de linguagem de programação zebra (ZPL) que inclui um código de barras pode ser semelhante ao exemplo a seguir.
+Você pode imprimir etiquetas altamente complexas, desde que o dispositivo de impressão possa interpretar o texto enviado a ela. Por exemplo, um layout ZPL que inclui um código de barras pode ser semelhante ao exemplo a seguir.
 
 ```dos
 ^XA~TA000~JSN^LT0^MNW^MTD^PON^PMN^LH0,0^JMA^PR2,2~SD15^JUS^LRN^CI0^XZ
@@ -45,11 +46,9 @@ Você pode imprimir etiquetas altamente complexas, desde que o dispositivo de im
 ^PQ1,,,Y^XZ
 ```
 
-Como parte do processo de impressão de etiquetas, o texto `$LicensePlateId$` neste exemplo será substituído por um valor de dados.
+Como parte do processo de impressão de etiquetas, o texto `$LicensePlateId$` neste exemplo será substituído por um valor de dados. Várias ferramentas de geração de etiquetas amplamente disponíveis podem ajudá-lo a formatar o texto para o layout da etiqueta. Muitas dessas ferramentas dão suporte ao formato `$FieldName$`. Além disso, o Microsoft Dynamics 365 Supply Chain Management usa lógica de formatação especial como parte do mapeamento de campos para o layout de roteiro de documentos.
 
 Para ver os valores que serão impressos, Acesse **Gerenciamento de depósito \> Consultas e relatórios \> Etiquetas de placa de licença**.
-
-Várias ferramentas de geração de etiquetas amplamente disponíveis podem ajudá-lo a formatar o texto para o layout da etiqueta. Muitas dessas ferramentas dão suporte ao formato `$FieldName$`. Além disso, o Microsoft Dynamics 365 Supply Chain Management usa lógica de formatação especial como parte do mapeamento de campos para o layout de roteiro de documentos.
 
 ## <a name="turn-on-this-feature-for-your-system"></a>Ative este recurso para o seu sistema
 
@@ -137,7 +136,10 @@ $DisplayListOfItemsNumbers()[1]$
 
 ## <a name="more-information-about-how-to-print-labels"></a>Mais informações sobre como imprimir etiquetas
 
-Para obter mais informações sobre como configurar e imprimir etiquetas, consulte [Habilitar impressão de etiqueta de placa de licença](tasks/license-plate-label-printing.md).
+Para mais informações sobre como configurar e imprimir as etiquetas, confira estes artigos:
 
+- [Impressão de etiqueta de placa de veículo](tasks/license-plate-label-printing.md)
+- [Impressão de etiqueta de contêiner](print-container-labels.md)
+- [Impressão de etiqueta do ciclo](configure-wave-label-printing.md)
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

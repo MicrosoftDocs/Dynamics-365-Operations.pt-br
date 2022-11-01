@@ -1,8 +1,8 @@
 ---
 title: Dimensões financeiras e lançamento
-description: Ao planejar e configurar seu plano de contas, você deve considerar como os diversos componentes funcionarão em conjunto quando você lançar um documento ou um diário. Esses componentes incluem estruturas de conta, regras avançadas e dimensões fixas e de balanceamento. Este artigo explica o que cada componente é e como eles funcionam em conjunto.
+description: Este artigo explica quais são os componentes de um gráfico de contas e como eles funcionam em conjunto.
 author: aprilolson
-ms.date: 08/04/2017
+ms.date: 10/24/2022
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: aolson
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: July 2017 update
-ms.openlocfilehash: a165c4084a9f2075a54c99a7e4913a4e3c3dfe55
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: 89696f08755a7ff2b01ec7e0cf8550a3b5914bc0
+ms.sourcegitcommit: 0d5c07ba91a9ceb2eeb11db032fd28037216789d
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8910103"
+ms.lasthandoff: 10/25/2022
+ms.locfileid: "9715461"
 ---
 # <a name="financial-dimensions-and-posting"></a>Dimensões financeiras e lançamento 
 

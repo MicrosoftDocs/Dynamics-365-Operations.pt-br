@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: kweekley
 ms.search.validFrom: 2020-09
 ms.dyn365.ops.version: 8.0999999999999996
-ms.openlocfilehash: d15980b05cfac68f2e2441c86b4506c13b38b4d5
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: 14d6ba013a93756f86e959756dd3073851881095
+ms.sourcegitcommit: c6c2486be2359bd30106f7f52bda788239147d8c
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8864329"
+ms.lasthandoff: 10/22/2022
+ms.locfileid: "9713880"
 ---
 # <a name="configure-ledgers"></a>Configurar razões
 
@@ -42,7 +42,7 @@ Cada entidade legal no Dynamics 365 Finance pode ser configurada para usar uma o
 
 Observe que, se você tiver várias estruturas de conta, poderá selecionar somente estruturas de conta que não tenham combinações sobrepostas de contas principais e dimensões financeiras. Por exemplo, uma de suas estruturas de conta está configurada para adicionar uma unidade de negócios para contas principais entre 1000 e 1999. Em outra estrutura de conta, você adicionou uma dimensão financeira de departamento para contas principais que começam com 1. Nesse caso, somente uma das estruturas de conta pode ser adicionada na mesma entidade legal.
 
-Para configurar estruturas de conta para o razão, na página **Razão**, na FastTab **Estruturas de conta**, selecione **Adicionar**, selecione uma estrutura de conta na lista e, em seguida, selecione **Selecionar**. Pode levar alguns minutos para que as estruturas de conta sejam adicionadas e salvas. Observe que as estruturas de conta selecionadas por você devem estar ativas. Caso contrário, os detalhes das estruturas de conta não entrarão em vigor nas entidades legais nas quais estão vinculados.
+Para configurar estruturas de conta para o razão, na página **Razão**, na FastTab **Estruturas de conta**, selecione **Adicionar**, selecione uma estrutura de conta na lista e, em seguida, selecione **Selecionar**. Poderá levar alguns minutos para que as estruturas de conta sejam adicionadas e salvas. Quando a estrutura de conta que mudou for salva no razão, o processo para sincronizar todas as transações sem suporte vai começar. Você precisa esperar a conclusão da mudança do razão atual na entidade legal em que a alteração está começando antes de mudar a estrutura da conta para um razão pertencente a outra entidade legal. Observe que as estruturas de conta selecionadas por você devem estar ativas. Caso contrário, os detalhes das estruturas de conta não entrarão em vigor nas entidades legais nas quais estão vinculados.
 
 Para remover uma estrutura de conta, na página **Razão**, na FastTab **Estruturas de conta**, selecione **Remover**. Observe que, se você remover uma estrutura de conta do razão, não remova as transações que foram lançadas usando a configuração dessa estrutura de conta.
 
@@ -70,7 +70,7 @@ Para obter mais informações sobre balanceamento de entradas, consulte [Diário
 
 A página **Razão** também é usada para controlar e definir as moedas que serão usadas quando as transações são lançadas no razão geral. Você deve especificar a moeda contábil, que é a moeda usada na coluna **Moeda contábil** no razão geral de todos os comprovantes. Além disso, na coluna **Moeda de relatório**, você pode selecionar uma segunda moeda. Se você selecionar uma moeda de relatório, todas as transações serão registradas na coluna **Moeda de relatório** do razão geral em todos os comprovantes.
 
-Se as transações forem lançadas em uma moeda diferente, o sistema converterá automaticamente o valor da transação da moeda de transações na moeda contábil e na moeda organizacional no comprovante. Na página **Razão**, no campo **Tipo de taxa de câmbio da moeda contábil**, selecione o tipo de taxa de câmbio configurado para as taxas de câmbio que devem ser usadas para converter valores da moeda da transação na moeda contábil em um comprovante. Se você tiver selecionado uma moeda de relatório, também deve definir o campo **Tipo de taxa de câmbio da moeda organizacional** para indicar a taxa de câmbio que deve ser usada para converter valores da moeda de transação na moeda de relatório em um comprovante.
+Se as transações forem lançadas em uma moeda diferente, o sistema converterá automaticamente o valor da transação da moeda de transação na moeda contábil e na moeda organizacional no comprovante. Na página **Razão**, no campo **Tipo de taxa de câmbio da moeda contábil**, selecione o tipo de taxa de câmbio configurado para as taxas de câmbio que devem ser usadas para converter valores da moeda da transação na moeda contábil em um comprovante. Se você tiver selecionado uma moeda de relatório, também deve definir o campo **Tipo de taxa de câmbio da moeda organizacional** para indicar a taxa de câmbio que deve ser usada para converter valores da moeda de transação na moeda de relatório em um comprovante.
 
 Se estiver usando a funcionalidade de orçamento, você também poderá definir o campo **Tipo de taxa de câmbio do orçamento** para indicar a taxa de câmbio que deve ser usada para converter transações de orçamento de uma moeda para outra.
 
