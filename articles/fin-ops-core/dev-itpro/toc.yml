@@ -334,12 +334,16 @@
                       href: deployment/deployenvironment-newinfrastructure.md
                     - name: Perguntas frequentes sobre implantação
                       href: deployment/deploymentFAQ.md
+                    - name: Migrar um ambiente
+                      href: deployment/geo-to-geo-migrations.md
                     - name: Problemas conhecidos com a implantação de autoatendimento
                       href: deployment/known-issues-new-deployment-experience.md
                     - name: Operações de manutenção para implantações
                       href: deployment/maintenanceoperationsguide-newinfrastructure.md
                     - name: Atualizar um ambiente
                       href: deployment/updateenvironment-newinfrastructure.md
+                    - name: Migrar um ambiente
+                      href: deployment/geo-to-geo-migrations.md
                     - name: Solucionar problemas de ambientes implantados por meio da implantação de autoatendimento
                       href: deployment/troubleshoot-newinfrastructure.md
                     - name: Perguntas frequentes sobre manutenção planejada em ambientes de autoatendimento
@@ -970,9 +974,11 @@
                   href: lifecycle-services/whats-new-lcs.md
             - name: Guia do usuário do Lifecycle Services
               href: lifecycle-services/lcs-user-guide.md
-            - name: Integração do Project
+            - name: Integração do projeto
               href: lifecycle-services/project-onboarding.md
-            - name: Avaliador de assinatura
+            - name: Gerenciador de migração de projeto
+              href: lifecycle-services/project-migration-manager.md
+            - name: Avaliador de subscrição
               href: lifecycle-services/subscription-estimator.md
             - name: Configurar segurança
               href: lifecycle-services/configure-lcs-security.md
@@ -1730,7 +1736,7 @@
                   href: migration-upgrade/app-validation-process.md
                 - name: Upgrade do AX 2012 — Teste funcional aprovado
                   href: migration-upgrade/upgrade-functional-validation.md
-                - name: Upgrade do AX 2012 — Preparar para o Go Live
+                - name: Upgrade do AX 2012 — Preparar para ativação
                   href: migration-upgrade/upgrade-go-live-prep.md
                 - name: Upgrade do AX 2012 — Go Live
                   href: migration-upgrade/2012-upgrade-cutover.md
