@@ -4,6 +4,18 @@
       items:
         - name: Home page do Dynamics 365 Human Resources
           href: index.md
+        - name: Mesclagem de infraestruturas do Human Resources
+          items:
+            - name: Visão geral da mesclagem de infraestruturas do Human Resources
+              href: hr-infrastructure-merge.md
+            - name: Migração de cliente da infra-estrutura do Human Resources
+              href: hr-cust-migration.md
+            - name: Perguntas frequentes sobre a mesclagem de infraestruturas do Human Resources
+              href: hr-infrastructure-merge-faq.md
+            - name: Perguntas frequentes sobre a migração do Human Resources
+              href: customer-migration.md
+            - name: Problemas conhecidos da mesclagem de infraestruturas do Human Resources
+              href: hr-migration-issues.md
         - name: Novidades ou alterações
           items:
             - name: Novidades ou alterações nos aplicativos de finanças e operações
@@ -238,19 +250,15 @@
                   href: ../fin-ops-core/fin-ops/organization-administration/tasks/set-users-preferred-time-zone.md?toc=/dynamics365/human-resources/toc.json
                 - name: Entender o Lifecycle Services
                   href: ../fin-ops-core/dev-itpro/lifecycle-services/lcs-works-lcs.md?toc=/dynamics365/human-resources/toc.json
-                - name: Preparar para o Go Live
+                - name: Preparar para ativação
                   href: hr-admin-go-live-prepare.md
-                - name: Perguntas frequentes sobre o Go Live
+                - name: Perguntas frequentes sobre ativação
                   href: hr-admin-go-live-faq.md
-                - name: Perguntas frequentes sobre a mesclagem de infraestruturas do Human Resources
-                  href: hr-infrastructure-merge-faq.md
-                - name: Perguntas frequentes sobre a migração do Human Resources
-                  href: customer-migration.md
                 - name: Recursos de documentação
                   items:
-                    - name: Sistema da Ajuda
+                    - name: Sistema de ajuda
                       href: ../fin-ops-core/fin-ops/get-started/help-overview.md?toc=/dynamics365/human-resources/toc.json
-                    - name: Conectar o sistema da Ajuda
+                    - name: Conectar o Sistema de ajuda
                       href: ../fin-ops-core/fin-ops/get-started/help-connect.md?toc=/dynamics365/human-resources/toc.json
                     - name: Visão geral da ajuda personalizada
                       href: ../fin-ops-core/dev-itpro/help/custom-help-overview.md?toc=/dynamics365/human-resources/toc.json

@@ -204,9 +204,9 @@
                   href: ../fin-ops-core/fin-ops/imp-lifecycle/onboard.md?context=/dynamics365/context/commerce
                 - name: Planejamento de ambiente
                   href: ../fin-ops-core/fin-ops/imp-lifecycle/environment-planning.md?context=/dynamics365/context/commerce
-                - name: Preparar para o Go Live
+                - name: Preparar para ativação
                   href: ../fin-ops-core/fin-ops/imp-lifecycle/prepare-go-live.md?context=/dynamics365/context/commerce
-                - name: Perguntas frequentes sobre o Go Live
+                - name: Perguntas frequentes sobre para ativação
                   href: ../fin-ops-core/fin-ops/imp-lifecycle/go-live-faq.md?context=/dynamics365/context/commerce
                 - name: Enviar uma solicitação de serviço
                   href: ../fin-ops-core/dev-itpro/lifecycle-services/submit-request-dynamics-service-engineering-team.md?context=/dynamics365/context/commerce
@@ -256,8 +256,6 @@
                   href: dev-itpro/retail-modern-pos-architecture.md
                 - name: Modernização da pilha de tecnologia na loja do Commerce (white paper)
                   href: 'https://www.microsoft.com/download/details.aspx?id=103896'
-                - name: Implementação e solução de problemas offline do Commerce
-                  href: dev-itpro/implementation-considerations-offline.md
                 - name: Publicar um catálogo da loja online
                   href: dev-itpro/retail-online-store-publishing-architecture.md
                 - name: Conteúdo do Power BI do Retail Channel Performance
@@ -396,12 +394,16 @@
                   items:
                     - name: Aplicativo Store Commerce
                       href: dev-itpro/store-commerce.md
+                    - name: Recursos do aplicativo Store Commerce
+                      href: store-commerce-capabilities.md
                     - name: Aplicativo Store Commerce para plataformas móveis
                       href: dev-itpro/store-commerce-mobile.md
                     - name: Migrar o Modern POS para o Store Commerce
                       href: dev-itpro/pos-extension/migrate-mpos-store-commerce.md
                     - name: Orientações para implementação de gerenciamento de dispositivo
                       href: implementation-considerations-devices.md
+                    - name: Implementação e solução de problemas offline do Commerce
+                      href: dev-itpro/implementation-considerations-offline.md
                     - name: Escolher entre o Store Commerce e o Cloud POS
                       href: MPOS-or-CPOS.md
                     - name: Operações de PDV online e offline
@@ -814,7 +816,7 @@
                       href: ../supply-chain/procurement/purchase-order-overview.md?context=/dynamics365/context/commerce
                     - name: Criar ordens de compra
                       href: ../supply-chain/procurement/purchase-order-creation.md?context=/dynamics365/context/commerce
-                    - name: Recebimento de produtos contra ordens de compra
+                    - name: Recebimento de produtos em relação a ordens de compra
                       href: ../supply-chain/procurement/product-receipt-against-purchase-orders.md?context=/dynamics365/context/commerce
                     - name: Aprovar e confirmar ordens de compra
                       href: ../supply-chain/procurement/purchase-order-approval-confirmation.md?context=/dynamics365/context/commerce

@@ -182,9 +182,9 @@
                   href: ../fin-ops-core/fin-ops/imp-lifecycle/onboard.md?context=/dynamics365/context/finance
                 - name: Planejamento de ambiente
                   href: ../fin-ops-core/fin-ops/imp-lifecycle/environment-planning.md?context=/dynamics365/context/finance
-                - name: Preparar para o Go Live
+                - name: Preparar para ativação
                   href: ../fin-ops-core/fin-ops/imp-lifecycle/prepare-go-live.md?context=/dynamics365/context/finance
-                - name: Perguntas frequentes sobre o Go Live
+                - name: Perguntas frequentes sobre para ativação
                   href: ../fin-ops-core/fin-ops/imp-lifecycle/go-live-faq.md?context=/dynamics365/context/finance
                 - name: Enviar uma solicitação de serviço
                   href: ../fin-ops-core/dev-itpro/lifecycle-services/submit-request-dynamics-service-engineering-team.md?context=/dynamics365/context/finance
@@ -692,20 +692,14 @@
               items:
                 - name: Processo de configuração de reconciliação bancária avançada
                   href: cash-bank-management/configure-advanced-bank-reconciliation.md
-                - name: Configurar processo de importação de reconciliação bancária avançada
-                  href: cash-bank-management/set-up-advanced-bank-reconciliation-import-process.md
                 - name: Configurar processo de importação de reconciliação bancária avançada usando Relatório Eletrônico
                   href: accounts-payable/import-bai2-er.md
                 - name: Configurar regras de correspondência de reconciliação bancária
                   href: cash-bank-management/set-up-bank-reconciliation-matching-rules.md
                 - name: Reconciliar extratos bancários usando reconciliação bancária avançada
                   href: cash-bank-management/reconcile-bank-statements-advanced-bank-reconciliation.md
-                - name: Importação de reconciliação bancária avançada MT940 – Upgrade de entidade de dados composta
-                  href: cash-bank-management/advanced-bank-reconciliation-mt940-data-entity-upgrade-steps.md
                 - name: VIsão geral de reconciliação bancária avançada
                   href: cash-bank-management/advanced-bank-reconciliation-overview.md
-                - name: Solução de problemas de importação de arquivo de extrato bancário
-                  href: cash-bank-management/import-bank-statement-file-failed-incorrect-results.md
                 - name: Atualizar a entidade composta de diário bancário
                   href: cash-bank-management/upgrade-bank-journal-composite-entity.md
         - name: Contabilização de custos

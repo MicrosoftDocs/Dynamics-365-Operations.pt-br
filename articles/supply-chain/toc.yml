@@ -184,9 +184,9 @@
                   href: ../fin-ops-core/fin-ops/imp-lifecycle/onboard.md?context=/dynamics365/context/supply-chain
                 - name: Planejamento de ambiente
                   href: ../fin-ops-core/fin-ops/imp-lifecycle/environment-planning.md?context=/dynamics365/context/supply-chain
-                - name: Preparar para o Go Live
+                - name: Preparar para ativação
                   href: ../fin-ops-core/fin-ops/imp-lifecycle/prepare-go-live.md?context=/dynamics365/context/supply-chain
-                - name: Perguntas frequentes sobre o Go Live
+                - name: Perguntas frequentes sobre para ativação
                   href: ../fin-ops-core/fin-ops/imp-lifecycle/go-live-faq.md?context=/dynamics365/context/supply-chain
                 - name: Enviar uma solicitação de serviço
                   href: ../fin-ops-core/dev-itpro/lifecycle-services/submit-request-dynamics-service-engineering-team.md?context=/dynamics365/context/supply-chain
@@ -2239,9 +2239,19 @@
                   href: procurement/tasks/create-purchasing-policies.md
                 - name: Configurar políticas para hierarquias de categoria de compras
                   href: procurement/tasks/set-up-policies-procurement-category-hierarchies.md
+            - name: Fornecer avaliação de risco
+              items:
+                - name: Visão geral da avaliação de risco de fornecimento
+                  href: procurement/supply-risk-assessment-overview.md
+                - name: Configurar avaliação de risco de fornecimento
+                  href: procurement/supply-risk-assessment-configuration.md
+                - name: Espaço de trabalho acionável para descobrir e lidar com riscos de fornecedores
+                  href: procurement/supply-risk-assessment-workspace.md
+                - name: Relatórios do Power BI para análise de riscos e classificação de desempenho
+                  href: procurement/supply-risk-assessment-reports.md
             - name: Recebimentos e faturamento de produtos
               items:
-                - name: ​Recebimento de produtos contra ordens de compra​
+                - name: Recebimento de produtos em relação a ordens de compra
                   href: procurement/product-receipt-against-purchase-orders.md
                 - name: ​Visão geral de faturas de fornecedor​
                   href: ../finance/accounts-payable/vendor-invoices-overview.md?context=/dynamics365/context/supply-chain
