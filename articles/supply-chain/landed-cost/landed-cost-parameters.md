@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: weijiesa
 ms.search.validFrom: 2020-12-07
 ms.dyn365.ops.version: 10.0.17
-ms.openlocfilehash: 99dbe17d4e83c2c75d52ca3fd22a1772d8045355
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: 609403b251338b7e792f3ab624fb37a1833c919b
+ms.sourcegitcommit: eb9a53d5cf10f1ada68757536d6a94b2cb00929d
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8871968"
+ms.lasthandoff: 10/27/2022
+ms.locfileid: "9725512"
 ---
 # <a name="landed-cost-parameters-setup"></a>Configuração de parâmetros de custo de entrega
 
@@ -125,14 +125,11 @@ As configurações desta guia estabelecem as dimensões padrão para cada págin
 
 A guia **Sequências numéricas** da página **Parâmetros de custo de entrega** lista cada tipo de sequência numérica de referência exigido pelo Custo de entrega, mas que não é compartilhado entre entidades legais. Para cada referência na lista, selecione um código de sequência numérica.
 
-> [!NOTE]
-> Em uma configuração de várias empresas, diferentes sequências numéricas devem ser criadas para cada empresa (entidade legal).
 
 ## <a name="shared-number-sequences-tab"></a>Guia Sequências numéricas compartilhadas
 
 A guia **Sequências numéricas compartilhadas** da página **Parâmetros de custo de entrega** lista cada tipo de sequência numérica de referência que é compartilhado entre entidades legais para o Custo de entrega. No momento, há apenas uma sequência numérica na lista. Essa sequência numérica é usada para a ID da viagem.
 
-Na página **Todas as viagens**, os usuários podem exibir todas as viagens em todas as entidades legais. No entanto, para editar e processar uma viagem, os usuários devem estar na entidade legal do registro selecionado.
 
 ## <a name="feature-visibility-tab"></a>Guia Visibilidade de recursos
 

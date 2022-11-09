@@ -2,7 +2,7 @@
 title: Visão geral de modelos e layouts
 description: Este artigo aborda modelos e layouts no Microsoft Dynamics 365 Commerce.
 author: phinneyridge
-ms.date: 12/12/2019
+ms.date: 10/26/2022
 ms.topic: overview
 ms.prod: ''
 ms.technology: ''
@@ -14,12 +14,12 @@ ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.5
 ms.search.industry: ''
 ms.search.form: ''
-ms.openlocfilehash: e0bf7e942339775b2e9ee15060d555be07c1cdc5
-ms.sourcegitcommit: 87e727005399c82cbb6509f5ce9fb33d18928d30
+ms.openlocfilehash: 0664dd1ae06d09557cf8b8ec58baf6d27c1198bd
+ms.sourcegitcommit: 023ae5557e1351a8329a59a41a551e8901db99a8
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/12/2022
-ms.locfileid: "9277924"
+ms.lasthandoff: 11/01/2022
+ms.locfileid: "9733375"
 ---
 # <a name="templates-and-layouts-overview"></a>Visão geral de modelos e layouts
 
@@ -66,7 +66,13 @@ O modelo neste exemplo define uma estrutura simples e um conjunto de opções pa
 
 Uma etapa inicial importante para os administradores de sites e de marca é determinar o equilíbrio correto entre restrição e flexibilidade para o layout filho e autores da página. Quando modelos são usados, esse saldo é completamente configurável. Isso afeta se os elementos da página são atualizados centralmente (bloqueados no modelo) ou deixados para níveis filho individuais que são mais baixos na hierarquia da página.
 
-Para começar a usar modelos, [Trabalhar com modelos](work-with-templates.md).
+### <a name="relationship-between-template-defaults-and-page-content"></a>Relacionamento entre padrões de modelo e conteúdo de página
+
+A função principal de um modelo é simplificar a experiência de criação de módulos quando uma página é criada. Mesmo quando os padrões de módulo são definidos ou até bloqueados em um modelo, não há nenhuma conexão de dados adicional das configurações de módulo de uma página para os padrões do modelo, exceto quando a página é editada. Os modelos controlam a experiência de criação da estrutura de página e depois que uma página é criada, os padrões do modelo não estão mais vinculados ao conteúdo localizável nessa página. Em outras palavras, os padrões do módulo que são definidos em um modelo controlam a experiência de criação de páginas filhas. Eles não controlam o conteúdo dessas páginas depois que as páginas são criadas e editadas.
+
+A única exceção para o comportamento descrito anteriormente ocorre quando um [fragmento](work-with-fragments.md) é adicionado a um modelo. Os fragmentos podem ser usados para adicionar ou editar dinamicamente conteúdo localizável em todas as páginas filho de um modelo ou em um layout, a qualquer momento, mesmo depois que muitas páginas tiverem sido criadas a partir de um determinado modelo. A melhor prática é usar fragmentos em modelos e layouts sempre que conteúdo localizável tiver que ser adicionado, removido ou editado dinamicamente em todas as páginas filho. Por exemplo, os fragmentos devem ser usados para cabeçalhos, rodapés, metadados/scripts comuns ou qualquer outro conteúdo que deva ser editável centralmente e o mesmo em todas as páginas filho. Os fragmentos fornecem uma forma de usar modelos e layouts para controlar o conteúdo em todas as páginas filho.
+
+Para começar a usar modelos, consulte [Trabalhar com modelos](work-with-templates.md).
 
 ## <a name="layouts"></a>Layouts
 
@@ -96,7 +102,7 @@ Os layouts de seu site podem ser *predefinidos* ou *personalizados*:
 
 O layout predefinido e os layouts personalizados são editados em diferentes partes do conjunto de ferramentas de criação. Como os layouts personalizados não dependem de outras páginas, eles são editados diretamente no editor de páginas. Nesse caso, a existência de um layout é transparente para o usuário e é exposta apenas nas propriedades no nível da página e através das ações para opções de layout. No entanto, como as alterações nos layouts predefinidos podem afetar muitas páginas filhas, elas devem ser editadas no editor de layout, onde as ações de publicação consideram o impacto total do downstream nas páginas filhas.
 
-As ilustrações a seguir mostram cenários de layouts predefinidos e personalizados.
+A ilustração a seguir mostra cenários de layouts predefinidos e personalizados.
 
 ![Cenários de layout predefinidos e personalizados.](../commerce/media/template-figure1.png)
 

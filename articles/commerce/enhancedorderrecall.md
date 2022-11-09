@@ -12,12 +12,12 @@ ms.search.region: global
 ms.author: hhaines
 ms.search.validFrom: ''
 ms.dyn365.ops.version: 10.0.15
-ms.openlocfilehash: 3723b40209ee1f8fb0ef77cb1ad52d123ff2a02f
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: 0624c251646110644a8a72658a6dd6f8d319c57f
+ms.sourcegitcommit: e25fe4228add88dd37f4f38ece86979e1c621f6a
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8869453"
+ms.lasthandoff: 11/01/2022
+ms.locfileid: "9734285"
 ---
 # <a name="recall-order-operation-in-pos"></a>Cancelar operação de ordem no PDV
 
@@ -65,5 +65,11 @@ Da AppBar, um usuário pode selecionar uma operação. Dependendo do status da o
 ## <a name="add-notifications-to-the-recall-order-operation"></a>Adicionar notificações à operação para cancelar a ordem
 
 Na versão 10.0.18 e posterior, é possível configurar notificações de PDV e alertas de bloco dinâmico para a operação **Cancelamento da Ordem**, se desejado. Para obter mais informações, consulte [Mostrar notificações de ordem no ponto de venda (PDV)](notifications-pos.md).  
+
+> [!NOTE]
+> Para habilitar o recurso de pesquisa de ordens, verifique se a chave **Cotações** está habilitada em **Configuração da licença** > **Chaves de configuração**.
+>
+> ![A configuração da chave de licença de cotações deve estar ativada](./media/Quotations_License_Key_Configuration.png)
+
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -14,12 +14,12 @@ ms.search.validFrom: 2021-08-15
 ms.dyn365.ops.version: Release 10.0.22
 ms.custom: ''
 ms.assetid: ''
-ms.openlocfilehash: 8c60ed0c334bf09916dd633302c6d813ea6f16b6
-ms.sourcegitcommit: 87e727005399c82cbb6509f5ce9fb33d18928d30
+ms.openlocfilehash: a891de4a1da6641a02b8316d16ac2e9a8180fac1
+ms.sourcegitcommit: e25fe4228add88dd37f4f38ece86979e1c621f6a
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/12/2022
-ms.locfileid: "9281445"
+ms.lasthandoff: 11/01/2022
+ms.locfileid: "9734234"
 ---
 # <a name="order-lookup-module"></a>Módulo de pesquisa de ordem
 
@@ -44,6 +44,12 @@ A ilustração a seguir mostra um exemplo do formulário processado pelo módulo
 ## <a name="add-an-order-lookup-module-to-a-page"></a>Adicionar um módulo de pesquisa de ordem a uma página
 
 O módulo de pesquisa de ordem pode ser adicionado ao corpo de qualquer página do site de comércio eletrônico. Se desejar usar o módulo de pesquisa de ordem para habilitar a pesquisa de ordem para finalização de compra do convidado, adicione-o a uma página que não exija que o usuário esteja conectado. Para localizar uma definição **Requer entrada?** no modo de exibição de árvore do site do Commerce, selecione o slot **Página padrão (obrigatório)** e veja a parte inferior do painel à direita.
+
+
+> [!NOTE]
+> Para habilitar o recurso de pesquisa de ordens, verifique se a chave **Cotações** está habilitada em **Configuração da licença** > **Chaves de configuração**.
+>
+> ![A configuração da chave de licença de cotações deve estar ativada](./media/Quotations_License_Key_Configuration.png)
 
 ## <a name="additional-resources"></a>Recursos adicionais
 

@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: weijiesa
 ms.search.validFrom: 2020-12-14
 ms.dyn365.ops.version: 10.0.17
-ms.openlocfilehash: 4cc556c47f7027f2f5d5b24c235b11ced63b3e4e
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: ab5729cd441246a6c04ac060d5a69f949bfe47c5
+ms.sourcegitcommit: eb9a53d5cf10f1ada68757536d6a94b2cb00929d
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8905882"
+ms.lasthandoff: 10/27/2022
+ms.locfileid: "9725468"
 ---
 # <a name="manage-folios"></a>Gerenciar fólios
 
@@ -48,9 +48,9 @@ A tabela a seguir descreve os botões disponíveis na guia **Gerenciar** do Pain
 
 | Botão | Descrição |
 |---|---|
-| Lançar lista de recebimentos | Lance uma lista de recebimentos para todas as linhas de ordem de compra no fólio. Se as remessas de várias empresas forem usadas, uma nova caixa de diálogo lançamento de lista de recebimento será aberta para cada empresa. |
-| Lançar recebimento de produto | Lance um recebimento de produtos para todas as linhas de ordem de compra no fólio. Se as viagens de várias empresas forem usadas, uma nova caixa de diálogo lançamento de recebimentos de produtos será aberta para cada empresa. |
-| Lançar fatura | Lance uma fatura para todas as linhas de ordem de compra no fólio. Se as viagens de várias empresas forem usadas, uma nova caixa de diálogo lançamento de fatura será aberta para cada empresa. |
+| Lançar lista de recebimentos | Lance uma lista de recebimentos para todas as linhas de ordem de compra no fólio.  |
+| Lançar recebimento de produto | Lance um recebimento de produtos para todas as linhas de ordem de compra no fólio. |
+| Lançar fatura | Lance uma fatura para todas as linhas de ordem de compra no fólio.  |
 | Remeter ordem de transferência | Lance uma ordem de transferência para todas as linhas de ordem de transferência relacionadas ao fólio atual na remessa relacionada. |
 | Receber ordem de transferência | Lance um recebimento de ordem de transferência para todas as linhas de ordem de transferência relacionadas ao fólio atual na remessa relacionada. |
 | Receber mercadorias em trânsito | Receba todas as linhas de ordem que estão em trânsito no fólio. |
@@ -65,7 +65,7 @@ A tabela a seguir descreve os botões disponíveis na guia **Geral** do Painel d
 
 | Botão | descrição |
 |---|---|
-| Lista de Recebimentos | Lance uma lista de recebimentos para todas as linhas de ordem de compra no fólio. Se as viagens de várias empresas forem usadas, uma nova caixa de diálogo lançamento de lista de recebimentos será aberta para cada empresa. |
+| Lista de Recebimentos | Lance uma lista de recebimentos para todas as linhas de ordem de compra no fólio.  |
 | Recebimento de produtos | Exiba o registro de recebimento de produtos, se ele for usado. |
 | Entrada de item | Exiba o diário de entrada de itens, se ele for usado. |
 | Consulta de custos | Abra a página de consulta de custo para exibir todos os custos de uma viagem, incluindo o contêiner de remessa, o fólio e a ordem de compra. Você pode ajustar a exibição exata da página usando a ação Exibir. Na página de consulta de custo, você pode exibir uma das áreas, além do código de tipo de item e de custo. Ao remover esses itens, você pode ajustar a página agrupando custos juntos. Esse recurso poderá ser útil se você estiver usando tamanhos e cores. Você pode alterar as dimensões que são mostradas na página. A página **Custos** mostra somente códigos de tipo de custo em que a entrada **Dr** na guia **Lançamento** está definida como *Item*. |

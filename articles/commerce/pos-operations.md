@@ -2,7 +2,7 @@
 title: Operações de ponto de venda (PDV) online e offline
 description: Este artigo fornece detalhes sobre as operações de ponto de venda (PDV) no Dynamics 365 Commerce. Ele especifica em que ponto do aplicativo as operações podem ser invocadas, e se estão disponíveis no modo offline.
 author: josaw1
-ms.date: 05/27/2022
+ms.date: 10/27/2022
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -15,12 +15,12 @@ ms.dyn365.ops.version: AX 7.0.0, Retail July 2017 update
 ms.custom: ''
 ms.assetid: ''
 ms.search.industry: Retail
-ms.openlocfilehash: 39f827d759f37daf056ff2df6284dda3db113c7f
-ms.sourcegitcommit: 87e727005399c82cbb6509f5ce9fb33d18928d30
+ms.openlocfilehash: 42010bbc0cfb9714fc2be360c817bad07e184eb3
+ms.sourcegitcommit: 435e69160dbd7f9c61b37ac4440285a5df144622
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/12/2022
-ms.locfileid: "9272840"
+ms.lasthandoff: 10/28/2022
+ms.locfileid: "9728267"
 ---
 # <a name="online-and-offline-point-of-sale-pos-operations"></a>Operações de ponto de venda (PDV) online e offline
 
@@ -101,7 +101,7 @@ As seguintes colunas especificam onde as operações podem ser invocados:
 | 212  | Informações sobre cartão de frota                                   | Esta operação não tem suporte.                                                                                                                                                                                | Não aplicável | Não aplicável     | Não aplicável | Não aplicável    | Não aplicável  |
 | 213  | Pagar Memorando de Crédito                                   | Aceitar um memorando de crédito (comprovante) que foi emitido pela loja.                                                                                                                                                          | Sim            | Sim                | Número             | Número                | Número              |
 | 214  | Pagar com cartão-presente                                     | Aceitar um cartão-presente emitido pela loja.                                                                                                                                                                      | Sim            | Sim                | Número             | Número                | Número              |
-| 215  | Resgatar cartão-presente                                | Esta operação não tem suporte.                                                                                                                                                                                | Sim            | Sim                | Número             | Número                | Número              |
+| 215  | Resgatar cartão-presente                                | Transação de crédito com a quantidade total de cartões-presente pendentes, se estiver dentro do limite de desconto configurado.                                                                                                                                                                              | Sim            | Sim                | Número             | Número                | Número              |
 | 216  | Pagar valor exato do cartão                                    | Esta operação não tem suporte.                                                                                                                                                                                | Não aplicável | Não aplicável     | Não aplicável | Não aplicável    | Não aplicável  |
 | 217  | Pagar valor exato do cheque                                   | Esta operação não tem suporte.                                                                                                                                                                                | Não aplicável | Não aplicável     | Não aplicável | Não aplicável    | Não aplicável  |
 | 218  | Pagar valor exato da conta de cliente                        | Esta operação não tem suporte.                                                                                                                                                                                | Não aplicável | Não aplicável     | Não aplicável | Não aplicável    | Não aplicável  |

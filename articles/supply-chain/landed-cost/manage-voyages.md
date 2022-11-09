@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: weijiesa
 ms.search.validFrom: 2020-12-14
 ms.dyn365.ops.version: 10.0.17
-ms.openlocfilehash: 43f28a7e30dbbe15bb02d26483289f25515fcfca
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: 4499eeb9cdd4efd9c4b630106c6e052378191f2a
+ms.sourcegitcommit: eb9a53d5cf10f1ada68757536d6a94b2cb00929d
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8905853"
+ms.lasthandoff: 10/27/2022
+ms.locfileid: "9725460"
 ---
 # <a name="manage-voyages"></a>Gerenciar viagens
 
@@ -29,9 +29,10 @@ Uma viagem normalmente representa uma embarcação. No entanto, dependendo de su
 A página **Todas as viagens** fornece detalhes da viagem, informações de entrega e custos, e informações sobre itens, ordens de compra e ordens de transferência. Para abrir a página **Todas as viagens**, acesse **Custo de entrega \> Viagens \> Todas as viagens**. Esta página mostra uma lista de todas as viagens atuais. Você pode usar os botões no Painel de Ações para criar, excluir e trabalhar com viagens. Selecione uma viagem na lista para exibir detalhes.
 
 > [!NOTE]
-> Os contêineres de remessa e os fólios estão vinculados a uma viagem. As linhas de compra são vinculadas a um contêiner de remessa. Se os contêineres de remessa e os fólios estiverem desativados, eles também poderão ser vinculados diretamente a uma viagem. Além disso, os custos inseridos aqui são distribuídos para todas as linhas de compra associadas.
+> Os contêineres de remessa e os fólios estão vinculados a uma viagem. As linhas de compra são vinculadas a um contêiner de remessa. Além disso, os custos inseridos aqui são distribuídos para todas as linhas de compra associadas.
+> A ordem de compra do projeto não tem suporte no Custo de Entrega.
 
-## <a name="action-pane"></a>Painel de Ação
+## <a name="action-pane"></a>Painel de Ações
 
 O Painel de Ações da página **Viagens** fornece botões que permitem trabalhar com uma viagem selecionada. Cada botão executa uma única ação. O Painel de Ações também inclui guias; cada uma, por sua vez, fornece um conjunto de botões relacionados. Exceto onde indicado, todos os botões e guias estão disponíveis na exibição de lista da página **Todas as viagens** e na exibição detalhada de uma única viagem selecionada.
 

@@ -2,19 +2,19 @@
 title: Códigos de referência de erro do módulo de finalização da compra
 description: Este artigo descreve os códigos de referência de erro do módulo de finalização da compra exibidos nas mensagens de erro do usuário no Microsoft Dynamics 365 Commerce.
 author: BrianShook
-ms.date: 10/20/2022
+ms.date: 10/27/2022
 ms.topic: article
 audience: Application User, Developer, IT Pro
 ms.reviewer: v-chgriffin
 ms.search.region: Global
 ms.author: brshoo
 ms.search.validFrom: 2022-09-20
-ms.openlocfilehash: cd8269a71e56f23dbe3782ec3ffc69ec3ea6b151
-ms.sourcegitcommit: 6bd8822f7aa781d596b70956bead834117cf302c
+ms.openlocfilehash: 952cb932522b4e0bb91be985e4f8974cb6cd8bc0
+ms.sourcegitcommit: 435e69160dbd7f9c61b37ac4440285a5df144622
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/20/2022
-ms.locfileid: "9709645"
+ms.lasthandoff: 10/28/2022
+ms.locfileid: "9728236"
 ---
 # <a name="checkout-module-error-reference-codes"></a>Códigos de referência de erro do módulo de finalização da compra
 
@@ -31,9 +31,13 @@ Dependendo do erro encontrado, a tabela no artigo inclui os seguintes detalhes:
 - Informações a serem consideradas no ambiente ou nas configurações do conector de pagamento
 - Informações que poderão ser referenciadas em um caso de suporte se ele exigir mais ajuda
 
+## <a name="prerequisites"></a>Pré-requisitos
+
+Para habilitar os códigos de referência de erro do módulo de check-out listado abaixo, no construtor de sites do seu site, vá para **Configurações de site \> Extensões** e na seção **Carrinho e de finalização da compra**, selecione **Ativar Mensagem de Exibição de Erro do Canal On-line Avançado**. 
+
 ## <a name="checkout-module-error-reference-codes"></a>Códigos de referência de erro do módulo de finalização da compra
 
-Use a seguinte tabela para ver mais detalhes sobre as referências de códigos de erro fornecidas pelos clientes ou que acontecem na loja on-line.
+Use a seguinte tabela para ver mais detalhes sobre as referências de códigos de erro fornecidas pelos clientes ou que acontecem na loja on-line. Role para a direita para exibir a coluna **Descrição do Erro**.
 
 | Código de erro | Código de erro relacionado ao Dynamics | Descrição do erro |
 | ---------- | ------------------------------ | ----------------- |

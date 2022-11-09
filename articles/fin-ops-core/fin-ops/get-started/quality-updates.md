@@ -11,12 +11,12 @@ ms.author: rashmim
 ms.search.validFrom: 2022-08-19
 ms.search.form: ''
 ms.dyn365.ops.version: 10.0.29
-ms.openlocfilehash: 60f9d84b240016671ff726fc3cca2e02cfd811ca
-ms.sourcegitcommit: 3e04f7e4bc0c29c936dc177d5fa11761a58e9a02
+ms.openlocfilehash: da5881a901d3ba4d01e6d4510a53ca079efd7e75
+ms.sourcegitcommit: c8b97eea28f07b6b179825f3b134c8c8704ff8fc
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/18/2022
-ms.locfileid: "9689190"
+ms.lasthandoff: 10/29/2022
+ms.locfileid: "9731601"
 ---
 # <a name="proactive-quality-updates"></a>Atualizações de qualidade proativas
 
@@ -40,13 +40,13 @@ Vários avanços já foram implantados para permitir a entrega proativa de atual
 
 - **Atualização do tempo de inatividade quase zero**: para enviar ambientes mais frequentes, é essencial que o impacto na disponibilidade do ambiente seja reduzido para preservar os contratos de nível de serviço (SLAs) do Dynamics 365. A atualização do tempo de inatividade quase zero foi originalmente apresentada para ajudar a melhorar a aplicação de patch do sistema operacional mensal usando um failover de cluster para ativar a imagem atualizada com interrupção mínima. O mecanismo para aplicar atualizações está sendo aprimorado para que seja ainda menos prejudicial, e abrangerá a aplicação de patch do sistema operacional e a implantação da atualização de qualidade.
 
-    Para usuários interativos, uma sessão ativa pode ser interrompida e a repetição irá para o ambiente atualizado agora. Com a introdução do [agendamento de lotes com base na prioridade](../../dev-itpro/sysadmin/priority-based-batch-scheduling.md), que agora está disponível com base na aceitação, o agendamento e o processamento em lotes são recuperados e retomados imediatamente após a atualização. O agendamento de lotes com base na prioridade será feito para os clientes antes que comecem a participar da distribuição proativa de atualizações de qualidade para ambientes de produção.
+Para usuários interativos, uma sessão ativa pode ser interrompida e a repetição irá para o ambiente atualizado agora. Com a introdução do [agendamento de lotes com base na prioridade](../../dev-itpro/sysadmin/priority-based-batch-scheduling.md) o agendamento e o processamento em lotes são recuperados e retomados imediatamente após a atualização. O agendamento de lotes com base na prioridade será feito para os clientes antes que comecem a participar da distribuição proativa de atualizações de qualidade para ambientes de produção.
 
 - **Horas escuras**: as horas escuras são definidas para cada região do Azure e as atualizações de tempo de inatividade quase zero ocorrerão no período de hora escura.
 
 ## <a name="the-proactive-update-process"></a>O processo de atualização proativo
 
-A implantação de atualizações de qualidade proativas seguirá um processo de implantação seguro (SDP). As especificações do SDP evoluirão, mas as atualizações de qualidade serão inicialmente implantadas em ambientes de área restrita. O processo iniciará com ambientes que aceitam a implantação antecipada. Como a porcentagem de áreas restritas implantadas com êxito aumenta, a implantação em ambientes de produção será iniciada. Vale lembrar que o processo iniciará com ambientes que aceitam a implantação antecipada. Os sistemas de escuta monitorarão a telemetria do sistema e incidentes de Livesite, e interromperão a distribuição de uma versão específica se qualquer regressão for detectada. Caso desejem, os clientes ainda poderão extrair as atualizações de qualidade antes da implantação proativa.
+A implantação de atualizações de qualidade proativas seguirá um processo de implantação seguro (SDP). As especificações do SDP evoluirão, mas as atualizações de qualidade serão inicialmente implantadas em ambientes de área restrita. Como a porcentagem de áreas restritas implantadas com êxito aumenta, a implantação em ambientes de produção será iniciada. Os sistemas de escuta monitorarão a telemetria do sistema e incidentes de Livesite, e interromperão a distribuição de uma versão específica se qualquer regressão for detectada. Caso desejem, os clientes ainda poderão extrair as atualizações de qualidade antes da implantação proativa.
 
 Os dados atuais de gerenciamento de versões mostram que menos de 3% das regressões são introduzidas em atualizações de qualidade. Com o aumento do foco na eliminação da regressão e de um SDP aprimorado, o impacto potencial das regressões será bem menor do que os ganhos de qualidade obtidos por meio da agilidade na implantação de correções implantadas para clientes.
 
@@ -92,13 +92,13 @@ Para obter informações sobre o período noturno de cada região, consulte [Qua
 **Versão do aplicativo: 10.0.1326.70**
 **Artigo da base de conhecimento mais recente correspondente: 748926**
 
-| Estação | Regiões | Programação da área restrita
-|---|---|---|
-| Estação 1 | Canadá Central, Leste do Canadá, França Central, Índia central, Leste da Noruega, Oeste da Suíça | 14 a 17 de outubro de 2022 |
-| Estação 2 | Sul da França, Sul da Índia, Oeste da Noruega, Norte da Suíça, Norte da África do Sul, Leste da Austrália, Sul do Reino Unido, Norte dos EAU, Leste do Japão, Sudeste da Austrália, Sudeste da Ásia | 15 a 18 de outubro de 2022 |
-| Estação 3 | Leste da Ásia, Oeste do Reino Unido, Oeste do Japão, Sul do Brasil, Oeste da Europa, Leste dos EUA, EAU Central | 16 a 19 de outubro de 2022 |
-| Estação 4 | Norte da Europa, EUA Central, Oeste dos EUA | 17 a 20 de outubro de 2022 |
-| Estação 5 | DoD (Nuvem da comunidade governamental, China) | Não programado |
+| Estação | Regiões | Agenda concluída | Programação da área restrita|
+|---|---|---|---|
+| Estação 1 | Canadá Central, Leste do Canadá, França Central, Índia central, Leste da Noruega, Oeste da Suíça | 14 a 17 de outubro de 2022 | 2 de novembro a 5 de novembro de 2022 |
+| Estação 2 | Sul da França, Sul da Índia, Oeste da Noruega, Norte da Suíça, Norte da África do Sul, Leste da Austrália, Sul do Reino Unido, Norte dos EAU, Leste do Japão, Sudeste da Austrália, Sudeste da Ásia | 15 a 18 de outubro de 2022 | 2 de novembro a 5 de novembro de 2022 |
+| Estação 3 | Leste da Ásia, Oeste do Reino Unido, Oeste do Japão, Sul do Brasil, Oeste da Europa, Leste dos EUA, EAU Central | 16 a 19 de outubro de 2022 | 2 de novembro a 5 de novembro de 2022 |
+| Estação 4 | Norte da Europa, EUA Central, Oeste dos EUA | 17 a 20 de outubro de 2022 | 2 de novembro a 5 de novembro de 2022 |
+| Estação 5 | DoD (Nuvem da comunidade governamental, China) | Não programado | Não programado |
 
 > [!IMPORTANT] 
 > Com cinco dias de antecedência, a Microsoft atualizará o agendamento anterior e enviará notificações por email para o conjunto de ambientes agendados para receber essas atualizações de qualidade. A agenda anterior é aplicável apenas a ambientes que receberam notificação sobre uma futura atualização. Para obter informações sobre o período noturno de cada região, consulte [Quais são as janelas de manutenção planejadas por região?](../../dev-itpro/deployment/plannedmaintenance-selfservice.md#windows).

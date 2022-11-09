@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: weijiesa
 ms.search.validFrom: 2020-12-14
 ms.dyn365.ops.version: 10.0.17
-ms.openlocfilehash: 22f2512125679f160cb658923893d5f5aa739a2d
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: b409017407ce1c027184bdc2292197840c61e04a
+ms.sourcegitcommit: eb9a53d5cf10f1ada68757536d6a94b2cb00929d
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8906143"
+ms.lasthandoff: 10/27/2022
+ms.locfileid: "9725432"
 ---
 # <a name="manage-shipping-containers"></a>Gerenciar contêineres de remessa
 
@@ -40,9 +40,9 @@ A tabela a seguir descreve os botões disponíveis na guia **Gerenciar** do Pain
 
 | Botão | Descrições |
 |---|---|
-| Lançar lista de recibos | Lance uma lista de recebimentos ou exiba as listas de recebimento de produtos para todas as linhas da ordem de compra no contêiner de remessa. Se as remessas de várias empresas forem usadas, uma nova caixa de diálogo lançamento de lista de recebimento será aberta para cada empresa. |
+| Lançar lista de recibos | Lance uma lista de recebimentos ou exiba as listas de recebimento de produtos para todas as linhas da ordem de compra no contêiner de remessa.  |
 | Lançar recebimento de produto | Lance um recebimento de produtos para todas as linhas de ordem de compra no contêiner de remessa. |
-| Lançar fatura | Lance uma fatura para todas as linhas de ordem de compra no contêiner de remessa. Se as remessas de várias empresas forem usadas, uma nova caixa de diálogo lançamento de fatura será aberta para cada empresa. |
+| Lançar fatura | Lance uma fatura para todas as linhas de ordem de compra no contêiner de remessa.  |
 | Remeter ordem de transferência | Lance uma remessa de ordem de transferência para todas as linhas de ordem de transferência no contêiner de remessa. Somente as linhas do contêiner de remessa que são um tipo de ordem de transferência aparecem na caixa de diálogo. |
 | Receber ordem de transferência | Lance um recebimento de ordem de transferência para todas as linhas de ordem de transferência no contêiner de remessa. A caixa de diálogo receber é a forma mais simples de receber mercadorias em um contêiner de remessa ou viagem e é uma das três opções disponíveis. Você também pode receber por diários de entrada ou processamento de dispositivo móvel. |
 | Criar diário de entrada | Você pode gerar um diário de entrada para organizações usando recursos avançados de depósito. As opções são _Inicializar quantidade_ (recomendado), _Criar a partir de mercadorias em trânsito_ ou _Criar a partir de ordens de compra_. As duas últimas opções dependem do uso do processamento de mercadorias em trânsito. |
@@ -56,8 +56,8 @@ A tabela a seguir descreve os botões disponíveis na guia **Geral** do Painel d
 
 | Botão | Descrições |
 |---|---|
-| Lista de recebimentos | Lance uma lista de recebimentos para todas as linhas de ordem de compra no contêiner de remessa. Se as viagens de várias empresas forem usadas, uma nova caixa de diálogo lançamento de lista de recebimentos será aberta para cada empresa. |
-| Recebimento de produto | Exiba o registro de recebimento de produtos, se ele for usado. O processo de recebimento de produtos só será usado se as mercadorias não usarem a funcionalidade de mercadorias em trânsito. |
+| Lista de recebimentos | Lance uma lista de recebimentos para todas as linhas de ordem de compra no contêiner de remessa.  |
+| Recebimento de produtos | Exiba o registro de recebimento de produtos, se ele for usado. O processo de recebimento de produtos só será usado se as mercadorias não usarem a funcionalidade de mercadorias em trânsito. |
 | Entrada de item | Exiba o diário de entrada de itens para o contêiner de remessa se o diário for usado. |
 | Trechos | Os trechos são usados para identificar partes separadas de um percurso. Os prazos de entrega podem ser associados a cada trecho para ajudar no rastreamento de remessa. Para obter mais informações, consulte [Configuração de percurso de vários trechos](multi-leg-journey-setup.md). |
 | Rastreamento | Exiba ou atualize o rastreamento de remessa. |

@@ -13,11 +13,11 @@ ms.search.region: Global
 ms.author: hangwan
 ms.search.validFrom: 03/23/2022
 ms.dyn365.ops.version: Version 10.0.21
-ms.openlocfilehash: 38ef8c51d52de6b8f748330d0697e860d75233bf
-ms.sourcegitcommit: 43cf54d057eccd07a71bb48e2fcf858d043a9669
+ms.openlocfilehash: 2bb381939ebe32cb51caf730cdd441557d83a4c0
+ms.sourcegitcommit: 088a7b5eb9a3b68710dfe012abf4c24776978750
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/04/2022
+ms.lasthandoff: 11/01/2022
 ms.locfileid: "9620889"
 ---
 # <a name="enable-debug-mode-in-the-tax-calculation-service"></a>Habilitar modo de depuração no serviço de Cálculo de Imposto
@@ -27,7 +27,7 @@ ms.locfileid: "9620889"
 Este artigo explica como habilitar o modo de depuração no serviço Cálculo de Imposto para investigar problemas.
 
 1. Adicione **&debug=vs%2CconfirmExit&** à URL do AOS (Servidor de Objetos de Aplicativo) e, em seguida, atualize a página.
-2. Quando você seleciona **Imposto** para calcular o imposto, um arquivo de texto chamado **TaxServiceTroubleshootingLog.txt** será capturado no servidor, em **C:\AXWeb_SMBShare\temporary-file\\{%session%}\\**. O arquivo **TaxServiceTroubleshootingLog.txt** contém **TaxableDocument** e o parâmetro de cálculo. Esses resultados são retornados do serviço de imposto e das informações de exceção para a solução de problemas.
+2. Quando você seleciona **Impostos** para calcular o imposto, um arquivo de texto chamado **TaxServiceTroubleshootingLog.txt** é aberto. O arquivo **TaxServiceTroubleshootingLog.txt** contém **TaxableDocument** e o parâmetro de cálculo. Esses resultados são retornados do serviço de imposto e das informações de exceção para a solução de problemas.
 
 ## <a name="sample"></a>Exemplo
 
