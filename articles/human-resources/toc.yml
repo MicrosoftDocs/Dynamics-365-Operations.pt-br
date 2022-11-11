@@ -541,7 +541,11 @@
                     - name: Recrutar candidatos ao trabalho
                       href: hr-personnel-recruit.md
         - name: Gerenciamento de tarefas
-          href: hr-task-mgmt.md
+          items:
+            - name: Visão geral
+              href: hr-task-mgmt.md
+            - name: Upgrade de gerenciamento de tarefas
+              href: hr-task-update.md
         - name: Licença e ausência
           items:
             - name: Visão geral
@@ -822,7 +826,7 @@
               href: ../fin-ops-core/fin-ops/hr/localizations/noam-usa-comply-ada.md
             - name: Gerenciar acomodações do trabalhador
               href: ../fin-ops-core/fin-ops/hr/localizations/tasks/manage-worker-accommodations.md
-    - name: Desenvolvimento de recursos humanos
+    - name: Desenvolvimento do Human Resources
       items:
         - name: Visão geral
           href: hr-developer-overview.md
@@ -832,6 +836,10 @@
           href: hr-developer-entities.md
         - name: Campos personalizados
           href: hr-developer-custom-fields.md
+        - name: Desenvolver e personalizar
+          items:
+            - name: Enumeração de base de gênero
+              href: enum-exten.md
         - name: Configurar integração de dados
           items:
             - name: Escolher uma tecnologia de integração de dados

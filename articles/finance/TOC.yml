@@ -450,6 +450,8 @@
                       href: accounts-receivable/sb-billing-schedules.md
                     - name: Copiar uma agenda de cobrança
                       href: accounts-receivable/sb-copy-schedules-items.md
+                    - name: Divisão do cliente com uma agenda de cobrança
+                      href: accounts-receivable/sb-customer-split.md
                     - name: Recursos de agenda de cobrança
                       href: accounts-receivable/sb-schedule-billing-features.md
                     - name: Cobrança por etapa
@@ -1172,6 +1174,8 @@
                   href: general-ledger/close-general-ledger-at-period-end.md
                 - name: Espaço de trabalho de fechamento do período financeiro
                   href: general-ledger/financial-period-close-workspace.md
+                - name: Otimizar o fechamento do exercício
+                  href: general-ledger/optimize-year-end-close.md
                 - name: Fechamento do exercício
                   href: general-ledger/year-end-close.md
                 - name: Fechar o ano fiscal

@@ -384,7 +384,7 @@
                       href: ../finance/localizations/rus-goods-transit-vendor.md?context=/dynamics365/context/supply-chain
         - name: Topologia híbrida distribuída
           items:
-            - name: 'No momento, a capacidade da unidade de escala está em pausa para novos clientes'
+            - name: 'No momento, a capacidade da unidade de escala do Supply Chain Management está em pausa'
               href: cloud-edge/cloud-edge-landing-page.md
         - name: Gerenciamento de ativos
           items:
@@ -1751,38 +1751,56 @@
               href: iot/iot-intelligence-home-page.md
         - name: Planejamento mestre
           items:
-            - name: Home page do planejamento mestre
+            - name: Home page Planejamento mestre
               href: master-planning/master-planning-home-page.md
-            - name: Migração do planejamento mestre para a Otimização de Planejamento
-              href: master-planning/new-master-planning-engine.md
-            - name: Otimização de Planejamento
+            - name: Introdução ao planejamento mestre
+              href: master-planning/planning-optimization/get-started.md
+            - name: Arquitetura do sistema de planejamento mestre
+              href: master-planning/master-planning-architecture.md
+            - name: Administração do planejamento mestre
               items:
-                - name: Visão geral da Otimização de Planejamento
-                  href: master-planning/planning-optimization/planning-optimization-overview.md
-                - name: Introdução à Otimização de Planejamento
-                  href: master-planning/planning-optimization/get-started.md
                 - name: Processo de liberação da Otimização de Planejamento e histórico de versões
                   href: master-planning/planning-optimization/release-process.md
-                - name: Análise de ajuste da Otimização de Planejamento
-                  href: master-planning/planning-optimization/planning-optimization-fit-analysis.md
-                - name: Diferenças entre planejamento mestre interno e Otimização de Planejamento
-                  href: master-planning/planning-optimization/planning-optimization-differences-with-built-in.md
-                - name: Parâmetros não usados pela Otimização de Planejamento
-                  href: master-planning/planning-optimization/not-used-parameters.md
-                - name: Plano de fornecimento
-                  href: master-planning/supply-schedule.md
-                - name: Aplicar filtros a um plano
-                  href: master-planning/planning-optimization/plan-filters.md
+                - name: Solucionar Problemas da Otimização de Planejamento
+                  href: master-planning/planning-optimization/planning-optimization-trouble-shooting.md
+                - name: Resolver o erro de mecanismo de agendamento "Não foi possível localizar capacidade suficiente"
+                  href: master-planning/not-enough-capacity-error-resolution.md
+                - name: Cancelar um trabalho de planejamento
+                  href: master-planning/planning-optimization/cancel-planning-job.md
+                - name: Extensibilidade da Otimização de Planejamento
+                  href: master-planning/planning-optimization/extensibility.md
+                - name: Exibir histórico e logs de planejamento
+                  href: master-planning/planning-optimization/plan-history-logs.md
+                - name: Parâmetros de data e hora usados pela Otimização de Planejamento
+                  href: master-planning/planning-optimization/date-time-used.md
+            - name: Configurar planejamento mestre
+              items:
+                - name: Atrasos
+                  href: master-planning/delays.md
+                - name: Usar o rastreamento para detalhamento
+                  href: master-planning/trace-explosion.md
+                - name: Automação de fornecimento sob encomenda
+                  href: master-planning/make-to-order-supply-automation.md
+                - name: Dias negativos e dias negativos dinâmicos
+                  href: master-planning/more-about-dynamic-negative-days.md
+                - name: Calendários e planejamento mestre
+                  href: master-planning/supply-chain-calendars-master-planning.md
+                - name: Criar uma agenda para um site
+                  href: master-planning/tasks/create-schedule-site.md
+                - name: Criar um plano para um site
+                  href: master-planning/tasks/create-plan-site.md
                 - name: Planejamento mestre com previsões de demanda
                   href: master-planning/planning-optimization/demand-forecast.md
                 - name: Planejamento mestre com previsões de fornecimento
                   href: master-planning/planning-optimization/supply-forecast.md
+                - name: Agenda de fornecimento
+                  href: master-planning/supply-schedule.md
+                - name: Executar o planejamento para um subconjunto de itens
+                  href: master-planning/planning-optimization/plan-filters.md
                 - name: Planejamento mestre com contratos comerciais de compra
                   href: master-planning/planning-optimization/purchase-trade-agreement.md
-                - name: Planejar com base em Cotações e RFQs
+                - name: Planejar com base em cotações e RFQs
                   href: master-planning/planning-optimization/quotation-planning.md
-                - name: Parâmetros de data e hora usados pela Otimização de Planejamento
-                  href: master-planning/planning-optimization/date-time-used.md
                 - name: Margens de segurança
                   href: master-planning/planning-optimization/safety-margins.md
                 - name: Tolerância a atraso (dias negativos)
@@ -1799,55 +1817,21 @@
                   href: master-planning/planning-optimization/finite-capacity.md
                 - name: Agendamento com seleção de recursos com base na capacidade
                   href: master-planning/planning-optimization/capability-based-scheduling.md
-                - name: Planejamento baseado em prioridade
-                  href: master-planning/planning-optimization/priority-based-planning.md
-                - name: Planejamento de Requisição de Materiais Baseado na Demanda (DDMRP)
-                  items:
-                    - name: Visão geral de DDMRP
-                      href: master-planning/planning-optimization/ddmrp-overview.md
-                    - name: Ativar o recurso de DDMRP para seu sistema
-                      href: master-planning/planning-optimization/ddmrp-enable.md
-                    - name: Posicionamento de estoque
-                      href: master-planning/planning-optimization/ddmrp-inventory-positioning.md
-                    - name: Perfil e níveis de buffer
-                      href: master-planning/planning-optimization/ddmrp-buffer-profile-and-levels.md
-                    - name: Planejamento orientado por demanda
-                      href: master-planning/planning-optimization/ddmrp-planning.md
-                    - name: Execução visual e colaborativa
-                      href: master-planning/planning-optimization/ddmrp-visual-and-collaborative-execution.md
-                - name: Marca de estoque com otimização de planejamento
+                - name: Marcação de estoque
                   href: master-planning/planning-optimization/marking.md
                 - name: Planejamento intercompanhia
                   href: master-planning/planning-optimization/Intercompany-planning.md
                 - name: Exclua produtos com determinados estados de ciclo de vida do produto
                   href: master-planning/planning-optimization/product-lifecycle-state.md
-                - name: Métodos de reabastecimento e modificação de quantidade
-                  href: master-planning/planning-optimization/replenishment-methods-quantity-modification.md
                 - name: Limites de tempo de cobertura
                   href: master-planning/planning-optimization/coverage-time-fence.md
-                - name: Requisitos líquidos e informações de vinculação com a Otimização de Planejamento
+                - name: Requisitos líquidos e informações de vinculação
                   href: master-planning/planning-optimization/net-requirements.md
-                - name: Aprovar ordens planejadas
-                  href: master-planning/planning-optimization/approved-planned-order.md
-                - name: Confirmar ordens planejadas
-                  href: master-planning/planning-optimization/planned-order-firming.md
-                - name: Ordens planejadas simplificadas
-                  href: master-planning/planning-optimization/planned-orders-simplified.md
                 - name: Planejamento com quantidades disponíveis negativas
                   href: master-planning/planning-optimization/negative-on-hand.md
-                - name: Exibir histórico e logs de planejamento
-                  href: master-planning/planning-optimization/plan-history-logs.md
-                - name: Cancelar um trabalho de planejamento
-                  href: master-planning/planning-optimization/cancel-planning-job.md
-                - name: Mensagens de ação
-                  href: master-planning/action-messages.md
                 - name: Calcular datas de entrega da ordem de venda usando CTP
                   href: master-planning/planning-optimization/calculate-delivery-dates-using-ctp.md
-                - name: Solucionar Problemas da Otimização de Planejamento
-                  href: master-planning/planning-optimization/planning-optimization-trouble-shooting.md
-                - name: Extensibilidade da Otimização de Planejamento
-                  href: master-planning/planning-optimization/extensibility.md
-            - name: Planos mestres
+            - name: Configurar planos mestres
               items:
                 - name: Visão geral de planos mestres
                   href: master-planning/master-plans.md
@@ -1855,74 +1839,60 @@
                   href: master-planning/master-planning-setup.md
                 - name: Assistente de configuração do planejamento mestre
                   href: master-planning/master-planning-setup-wizard.md
+                - name: Gerar um plano restrito
+                  href: master-planning/tasks/constrained-plan.md
+            - name: Configurar estratégias de reabastecimento
+              items:
                 - name: Configurações de cobertura
                   href: master-planning/coverage-settings.md
                 - name: Definir regras de cobertura para itens
                   href: master-planning/tasks/define-coverage-rules-items.md
-                - name: Gerar um plano restrito
-                  href: master-planning/tasks/constrained-plan.md
-                - name: Criar um plano de materiais para coprodutos
-                  href: master-planning/tasks/create-material-plan-co-products.md
-                - name: Manter ordens planejadas
-                  href: master-planning/maintain-planned-orders.md
-                - name: Atendimento de estoque de segurança para itens
+                - name: Fornecer produtos e materiais de vários fornecedores
+                  href: master-planning/source-from-multiple-vendors.md
+                - name: Planejamento baseado em prioridade
+                  href: master-planning/planning-optimization/priority-based-planning.md
+                - name: Métodos de reabastecimento e modificação de quantidade
+                  href: master-planning/planning-optimization/replenishment-methods-quantity-modification.md
+            - name: Planos mestres e funcionalidade multissite
+              items:
+                - name: Visão geral de planejamento mestre e funcionalidade multissite
+                  href: master-planning/master-plan-multisite-functionality.md
+                - name: 'Planejamento mestre para cobertura de site, depósito obrigatório'
+                  href: master-planning/master-plan-site-coverage-warehouse-mandatory.md
+                - name: 'Planejamento mestre para cobertura de site, depósito não obrigatório'
+                  href: master-planning/master-plan-site-coverage-warehouse-not-mandatory.md
+                - name: 'Planejamento mestre para de site e cobertura de depósito, depósito obrigatório'
+                  href: master-planning/master-plan-site-warehouse-coverage-warehouse-mandatory.md
+                - name: 'Planejamento mestre para cobertura de site e de depósito, depósito não obrigatório'
+                  href: master-planning/master-plan-site-warehouse-coverage-warehouse-not-mandatory.md
+                - name: Determinar a versão da BOM
+                  href: master-planning/master-plan-bom-version-determined.md
+                - name: Explosão de uma versão da BOM
+                  href: master-planning/master-plan-explosion-bom-version.md
+            - name: Estoque de segurança
+              items:
+                - name: Processamento de estoque de segurança para itens
                   href: master-planning/safety-stock-replenishment.md
                 - name: Usar o diário de estoque de segurança para atualizar a cobertura mínima para os itens
                   href: master-planning/safety-stock-journal.md
-                - name: Atrasos
-                  href: master-planning/delays.md
-                - name: Cancelar um trabalho mestre de planejamento
-                  href: master-planning/cancel-master-planning-job.md
-                - name: Usar o rastreamento para detalhamento
-                  href: master-planning/trace-explosion.md
-                - name: Monitorar a execução de um planejamento mestre
-                  href: master-planning/tasks/monitor-master-planning-run.md
-                - name: Criar uma agenda para um site
-                  href: master-planning/tasks/create-schedule-site.md
-                - name: Criar um plano para um site
-                  href: master-planning/tasks/create-plan-site.md
-                - name: Calendários e planejamento mestre
-                  href: master-planning/supply-chain-calendars-master-planning.md
-                - name: Resolver o erro de mecanismo de agendamento "Não foi possível localizar capacidade suficiente"
-                  href: master-planning/not-enough-capacity-error-resolution.md
-                - name: Melhorar o desempenho do planejamento mestre
-                  href: master-planning/master-planning-performance.md
-                - name: Melhorar o desempenho do mecanismo de agendamento
-                  href: master-planning/scheduling-engine-performance.md
-                - name: Planos mestres e funcionalidade multissite
-                  items:
-                    - name: Visão geral de planejamento mestre e funcionalidade multissite
-                      href: master-planning/master-plan-multisite-functionality.md
-                    - name: 'Planejamento mestre para cobertura de site, depósito obrigatório'
-                      href: master-planning/master-plan-site-coverage-warehouse-mandatory.md
-                    - name: 'Planejamento mestre para cobertura de site, depósito não obrigatório'
-                      href: master-planning/master-plan-site-coverage-warehouse-not-mandatory.md
-                    - name: 'Planejamento mestre para de site e cobertura de depósito, depósito obrigatório'
-                      href: master-planning/master-plan-site-warehouse-coverage-warehouse-mandatory.md
-                    - name: 'Planejamento mestre para de site e cobertura de depósito, depósito não obrigatório'
-                      href: master-planning/master-plan-site-warehouse-coverage-warehouse-not-mandatory.md
-                    - name: Determinar a versão da BOM
-                      href: master-planning/master-plan-bom-version-determined.md
-                    - name: Explosão de uma versão da BOM
-                      href: master-planning/master-plan-explosion-bom-version.md
-                - name: Dias negativos e dias negativos dinâmicos
-                  href: master-planning/more-about-dynamic-negative-days.md
-                - name: Criar um plano intercompanhia
-                  href: master-planning/tasks/create-intercompany-plan.md
-                - name: Exibir planejamento de demanda intercompanhia de saída
-                  href: master-planning/tasks/view-outbound-planned-intercompany-demand.md
-                - name: Requisitos líquidos e informações de vinculação com o planejamento mestre interno
-                  href: master-planning/net-requirements-built-in-master-planning.md
-                - name: Automação de fornecimento sob encomenda
-                  href: master-planning/make-to-order-supply-automation.md
+            - name: Gerenciar ordens planejadas
+              items:
+                - name: Manter ordens planejadas
+                  href: master-planning/maintain-planned-orders.md
+                - name: 'Exibir, gerenciar e aprovar ordens planejadas'
+                  href: master-planning/planning-optimization/approved-planned-order.md
+                - name: Confirmar ordens planejadas
+                  href: master-planning/planning-optimization/planned-order-firming.md
+                - name: Ordens planejadas simplificadas
+                  href: master-planning/planning-optimization/planned-orders-simplified.md
+                - name: Mensagens de ação
+                  href: master-planning/action-messages.md
             - name: Previsão
               items:
-                - name: Previsão de demanda e fornecimento
-                  items:
-                    - name: Previsões de estoque
-                      href: master-planning/inventory-forecast.md
-                    - name: 'Guia: Modificar uma previsão de demanda manualmente'
-                      href: master-planning/tasks/modify-demand-forecast-manually.md
+                - name: Previsões de estoque
+                  href: master-planning/inventory-forecast.md
+                - name: 'Guia: Modificar uma previsão de demanda manualmente'
+                  href: master-planning/tasks/modify-demand-forecast-manually.md
                 - name: Previsão de demanda
                   items:
                     - name: Visão geral da previsão de demanda
@@ -1943,10 +1913,50 @@
                       href: master-planning/monitor-forecast-accuracy.md
                     - name: 'Guia: Criar uma previsão de linha de base'
                       href: master-planning/tasks/create-baseline-forecast.md
-                - name: Planejamento mestre com previsão
-                  items:
-                    - name: Chaves de redução da previsão
-                      href: master-planning/reduction-keys.md
+                - name: Chaves de redução da previsão
+                  href: master-planning/reduction-keys.md
+            - name: Planejamento de Requisição de Materiais Baseado na Demanda (DDMRP)
+              items:
+                - name: Visão geral de DDMRP
+                  href: master-planning/planning-optimization/ddmrp-overview.md
+                - name: Ativar o recurso de DDMRP para seu sistema
+                  href: master-planning/planning-optimization/ddmrp-enable.md
+                - name: Posicionamento de estoque
+                  href: master-planning/planning-optimization/ddmrp-inventory-positioning.md
+                - name: Perfil e níveis de buffer
+                  href: master-planning/planning-optimization/ddmrp-buffer-profile-and-levels.md
+                - name: Planejamento orientado por demanda
+                  href: master-planning/planning-optimization/ddmrp-planning.md
+                - name: Execução visual e colaborativa
+                  href: master-planning/planning-optimization/ddmrp-visual-and-collaborative-execution.md
+            - name: Mecanismo de planejamento preterido
+              items:
+                - name: Visão geral do mecanismo de planejamento preterido
+                  href: master-planning/deprecated-master-planning-overview.md
+                - name: Migração do planejamento mestre para a Otimização de Planejamento
+                  href: master-planning/new-master-planning-engine.md
+                - name: Parâmetros não usados pela Otimização de Planejamento
+                  href: master-planning/planning-optimization/not-used-parameters.md
+                - name: Diferenças entre Otimização de Planejamento e mecanismo de planejamento mestre preterido
+                  href: master-planning/planning-optimization/planning-optimization-differences-with-built-in.md
+                - name: Análise de ajuste da Otimização do Planejamento
+                  href: master-planning/planning-optimization/planning-optimization-fit-analysis.md
+                - name: Melhorar o desempenho do planejamento mestre
+                  href: master-planning/master-planning-performance.md
+                - name: Melhorar o desempenho do mecanismo de agendamento
+                  href: master-planning/scheduling-engine-performance.md
+                - name: Criar um plano intercompanhia
+                  href: master-planning/tasks/create-intercompany-plan.md
+                - name: Exibir planejamento de demanda intercompanhia de saída
+                  href: master-planning/tasks/view-outbound-planned-intercompany-demand.md
+                - name: Monitorar a execução de um planejamento mestre
+                  href: master-planning/tasks/monitor-master-planning-run.md
+                - name: Requisitos líquidos e informações de vinculação com o mecanismo de planejamento preterido
+                  href: master-planning/net-requirements-built-in-master-planning.md
+                - name: Criar um plano de materiais para coprodutos
+                  href: master-planning/tasks/create-material-plan-co-products.md
+                - name: Cancelar um trabalho criado usando o mecanismo de planejamento mestre preterido
+                  href: master-planning/cancel-master-planning-job.md
         - name: Aplicativo móvel
           items:
             - name: Home page do aplicativo móvel
