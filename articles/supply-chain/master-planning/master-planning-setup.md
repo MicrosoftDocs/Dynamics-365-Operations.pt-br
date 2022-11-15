@@ -1,6 +1,6 @@
 ---
-title: Configurar planejamento mestre
-description: Este artigo descreve várias estratégias e parâmetros importantes que são usados para configurar o planejamento mestre.
+title: Configurar planos mestres
+description: Este artigo descreve várias estratégias e parâmetros importantes que são usados para configurar os planos mestres.
 author: t-benebo
 ms.date: 07/01/2019
 ms.topic: article
@@ -16,14 +16,14 @@ ms.search.industry: Manufacturing
 ms.author: benebotg
 ms.search.validFrom: 2019-05-31
 ms.dyn365.ops.version: AX 10.0.0
-ms.openlocfilehash: effdefcf8326babaa89d7de4b28a86bbef7280f8
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: 150e02916e056946016155d1b4969e99fbd47af5
+ms.sourcegitcommit: 491ab9ae2b6ed991b4eb0317e396fef542d3a21b
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8888547"
+ms.lasthandoff: 11/03/2022
+ms.locfileid: "9740648"
 ---
-# <a name="set-up-master-planning"></a>Configurar planejamento mestre
+# <a name="set-up-master-plans"></a>Configurar planos mestres
 
 [!include [banner](../includes/banner.md)]
 

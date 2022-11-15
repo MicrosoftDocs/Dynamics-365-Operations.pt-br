@@ -16,12 +16,12 @@ ms.search.industry: ''
 ms.author: benebotg
 ms.search.validFrom: 2020-11-05
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: a94b424ad1a454feecede8a7b037171b2984504f
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: dbbc58f0dcd833f63e84a73ac68ada60bd0c291d
+ms.sourcegitcommit: 491ab9ae2b6ed991b4eb0317e396fef542d3a21b
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8846088"
+ms.lasthandoff: 11/03/2022
+ms.locfileid: "9739942"
 ---
 # <a name="migration-to-planning-optimization-for-master-planning"></a>Migração para a Otimização de Planejamento para o planejamento mestre
 
@@ -31,35 +31,35 @@ O mecanismo de planejamento mestre interno está programado para se tornar obsol
 
 A Otimização de Planejamento permite que os cálculos do planejamento mestre ocorram fora do Supply Chain Management e de seu banco de dados SQL do Azure. Os benefícios associados à Otimização de Planejamento incluem desempenho aprimorado e impacto minimizado no banco de dados SQL durante as execuções do planejamento mestre. Como execuções de planejamento rápido podem ser feitas mesmo durante o horário de expediente, os planejadores podem reagir imediatamente à demanda ou às alterações de parâmetro.
 
-Para obter mais informações sobre a Otimização de Planejamento, consulte [Visão geral da Otimização de Planejamento](planning-optimization/planning-optimization-overview.md).
+Para obter mais informações sobre a Otimização de Planejamento, consulte [Arquitetura do sistema de planejamento mestre](master-planning-architecture.md).
 
 ## <a name="obsolescence-of-the-existing-master-planning-engine"></a>Obsolescência do mecanismo de planejamento mestre existente
 
-A Microsoft está no processo de tornar o mecanismo de planejamento interno obsoleto em favor da Otimização de Planejamento. Essa alteração afeta todos os ambientes de nuvem. As instalações locais não são afetadas. Na versão 10.0.16 e posteriores, você receberá uma mensagem de erro se executar o planejamento mestre interno sem gerar ordens de produção planejadas. No entanto, a execução do planejamento mestre será concluída com êxito apesar da mensagem de erro.
+A Microsoft está no processo de tornar obsoleto o mecanismo de planejamento mestre preterido em favor da Otimização de Planejamento. Essa alteração afeta todos os ambientes de nuvem. As instalações locais não são afetadas. Na versão 10.0.16 e posteriores, você receberá uma mensagem de erro se executar o mecanismo de planejamento preterido mestre sem gerar ordens de produção planejadas. No entanto, a execução do planejamento mestre será concluída com êxito apesar da mensagem de erro.
 
-Para obter mais informações sobre a obsolescência do mecanismo de planejamento interno, consulte os comunicados em [Recursos removidos ou preteridos no Dynamics 365 Supply Chain Management](../get-started/removed-deprecated-features-scm-updates.md).
+Para obter mais informações sobre o mecanismo de planejamento mestre preterido, consulte os comunicados em [Recursos removidos ou preteridos no Dynamics 365 Supply Chain Management](../get-started/removed-deprecated-features-scm-updates.md).
 
 ## <a name="migration-messages-and-exceptions"></a>Migração, mensagens e exceções
 
-Os proprietários de ambientes existentes que executam o mecanismo de planejamento mestre interno sem gerar ordens de produção planejadas receberão um email com detalhes sobre o processo de exceção. Recomendamos que você trabalhe com um parceiro para avaliar e planejar a migração para a Otimização de Planejamento.
+Os proprietários de ambientes existentes que executam o mecanismo de planejamento mestre preterido sem gerar ordens de produção planejadas receberão um email com detalhes sobre o processo de exceção. Recomendamos que você trabalhe com um parceiro para avaliar e planejar a migração para a Otimização de Planejamento.
 
-Como foi mencionado, você receberá uma mensagem de erro na versão 10.0.16 e posteriores se executar o planejamento mestre interno sem gerar ordens de produção planejadas. Essa mensagem de erro inclui orientações sobre migração e instruções para solicitação de uma exceção.
+Como foi mencionado, você receberá uma mensagem de erro na versão 10.0.16 e posteriores se executar o mecanismo de planejamento mestre preterido sem gerar ordens de produção planejadas. Essa mensagem de erro inclui orientações sobre migração e instruções para solicitação de uma exceção.
 
 ### <a name="new-deployments"></a>Implantações novas
 
-A Otimização de Planejamento deve ser considerada o mecanismo de planejamento mestre padrão para todas as novas implantações na nuvem. Em geral, a Otimização de Planejamento deve ser usada para todas as novas implantações que não geram ordens de produção planejadas durante o planejamento mestre. Se uma nova implantação depender de funcionalidades às quais a Otimização de Planejamento não oferece suporte no momento, você poderá solicitar uma exceção para continuar a usar o mecanismo de planejamento mestre interno.
+A Otimização de Planejamento deve ser considerada o mecanismo de planejamento mestre padrão para todas as novas implantações na nuvem. Em geral, a Otimização de Planejamento deve ser usada para todas as novas implantações que não geram ordens de produção planejadas durante o planejamento mestre. Se uma nova implantação depender de funcionalidades às quais a Otimização de Planejamento não oferece suporte no momento, você poderá solicitar uma exceção para continuar a usar o mecanismo de planejamento mestre preterido.
 
 ### <a name="existing-deployments"></a>Implantações existentes
 
-Os proprietários de implantações existentes baseadas na nuvem que dependem do planejamento mestre devem planejar a migração para a Otimização de Planejamento. Se a sua implementação depender de funcionalidades às quais a Otimização de Planejamento não oferece suporte no momento, você poderá solicitar uma exceção para continuar a usar o mecanismo de planejamento mestre interno.
+Os proprietários de implantações existentes baseadas na nuvem que dependem do planejamento mestre devem planejar a migração para a Otimização de Planejamento. Se a sua implementação depender de funcionalidades às quais a Otimização de Planejamento não oferece suporte no momento, você poderá solicitar uma exceção para continuar a usar o mecanismo de planejamento mestre preterido.
 
 Para ambientes que atualmente usam processos do planejamento mestre que estão se tornando obsoletos, a Microsoft enviará um email ao administrador do ambiente. Esse email fornecerá informações sobre as ações necessárias para a migração ou a solicitação de uma exceção.
 
 ## <a name="the-exception-process"></a>O processo de exceção
 
-Você pode solicitar uma exceção se precisar continuar a usar o mecanismo de planejamento mestre interno, pois seus processos empresariais dependem muito de, pelo menos, um recurso que não está implementado na Otimização de Planejamento no momento. Para obter uma lista de recursos disponíveis, consulte [Análise de ajuste da Otimização de Planejamento](planning-optimization/planning-optimization-fit-analysis.md).
+Você pode solicitar uma exceção se precisar continuar a usar o mecanismo de planejamento mestre preterido, pois seus processos empresariais dependem muito de, pelo menos, um recurso que não está implementado na Otimização de Planejamento no momento. Para obter uma lista de recursos disponíveis, consulte [Análise de ajuste da Otimização de Planejamento](planning-optimization/planning-optimization-fit-analysis.md).
 
-No momento, as exceções da migração para a Otimização de Planejamento só são relevantes se o seu processo de planejamento mestre não incluir a produção (ou seja, ordens de produção planejadas geradas pelo planejamento mestre) e se você precisar do mecanismo de planejamento mestre interno além da versão 10.0.15.
+No momento, as exceções da migração para a Otimização de Planejamento só são relevantes se o seu processo de planejamento mestre não incluir a produção (ou seja, ordens de produção planejadas geradas pelo planejamento mestre) e se você precisar do mecanismo de planejamento mestre preterido além da versão 10.0.15.
 
 Depois que os recursos necessários forem disponibilizados, a Microsoft fornecerá um período de carência até a expiração da exceção. O administrador do ambiente será informado quando os recursos necessários estiverem disponíveis e o período de carência tiver começado.
 
@@ -74,9 +74,9 @@ O fluxograma abaixo resume as informações fornecidas neste artigo para que voc
 
 ### <a name="sandbox-environments"></a><a name="faq-sandbox"></a>​Ambientes de área restrita​
 
-Posso usar o planejamento mestre interno no meu ambiente de área restrita? Preciso de uma exceção?
+Posso usar o mecanismo de planejamento mestre preterido no meu ambiente de área restrita? Preciso de uma exceção?
 
-**Resposta:** Normalmente, as exceções não são relevantes para ambientes de área restrita porque o erro de exceção da Otimização de Planejamento não impede que o mecanismo de planejamento mestre interno seja executado com êxito. No entanto, se a mensagem de erro incomoda você, é possível desabilitá-la em um ambiente de área restrita IaaS (não Service Fabric) executando a seguinte consulta no seu banco de dados:
+**Resposta:** Normalmente, as exceções não são relevantes para ambientes de área restrita porque o erro de exceção da Otimização de Planejamento não impede que o mecanismo de planejamento mestre preterido seja executado com êxito. No entanto, se a mensagem de erro incomoda você, é possível desabilitá-la em um ambiente de área restrita IaaS (não Service Fabric) executando a seguinte consulta no seu banco de dados:
 
 ```sql
 -- Insert or update an enabled flight:
@@ -92,13 +92,13 @@ ELSE
 
 Meu ambiente é local. Preciso de uma exceção?
 
-**Resposta:** Não. Uma exceção não é necessária para ambientes locais. Você pode continuar a usar o planejamento mestre interno. O administrador do ambiente será informado se qualquer ação for necessária.
+**Resposta:** Não. Uma exceção não é necessária para ambientes locais. Você pode continuar a usar o mecanismo de planejamento mestre preterido. O administrador do ambiente será informado se qualquer ação for necessária.
 
 ### <a name="production-scenarios"></a>Cenários de produção
 
 Usamos ordens de produção planejadas, mas estou preocupado com o que acontecerá quando atualizarmos para a versão 10.0.16. Devo executar alguma ação?
 
-**Resposta:** Você não deve se preocupar. Você pode continuar a usar o planejamento mestre interno na versão 10.0.16. No entanto, recomendamos que você avalie se a migração para a Otimização de Planejamento pode começar com a funcionalidade atual. Também recomendamos que você se mantenha informado sobre novas funcionalidades.
+**Resposta:** Você não deve se preocupar. Você pode continuar a usar o mecanismo de planejamento mestre preterido na versão 10.0.16. No entanto, recomendamos que você avalie se a migração para a Otimização de Planejamento pode começar com a funcionalidade atual. Também recomendamos que você se mantenha informado sobre novas funcionalidades.
 
 ### <a name="email-from-microsoft"></a>Email da Microsoft
 
@@ -110,9 +110,9 @@ Nosso administrador de ambiente recebeu um email da Microsoft. Esse email inform
 
 Estou usando a versão 10.0.16 ou posteriores e recebi a seguinte mensagem de erro ao executar o planejamento mestre. O planejamento mestre está bloqueado?
 
-> Você recebeu essa mensagem de erro porque o mecanismo de planejamento mestre interno foi usado para cenários com suporte da Otimização de Planejamento. Você deve migrar para a Otimização de Planejamento agora, pois o planejamento mestre interno atual será preterido. Observe que essa execução do planejamento mestre foi concluída com êxito.
+> Você recebeu essa mensagem de erro porque o mecanismo de planejamento mestre preterido foi usado para cenários com suporte da Otimização de Planejamento. Você deve migrar para a Otimização de Planejamento agora, pois o mecanismo de planejamento mestre interno atual foi preterido. Observe que essa execução do planejamento mestre foi concluída com êxito.
 >
-> Caso sua migração tenha fortes dependências de recursos pendentes, uma exceção para continuar o uso do mecanismo de planejamento mestre interno poderá ser solicitada.
+> Caso sua migração tenha fortes dependências de recursos pendentes, uma exceção para continuar o uso do mecanismo de planejamento mestre preterido poderá ser solicitada.
 >
 > Preencha o seguinte questionário para começar e, se for o caso, solicitar uma exceção da migração para a Otimização de Planejamento.
 
