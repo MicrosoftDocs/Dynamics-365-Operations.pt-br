@@ -1,6 +1,6 @@
 ---
 title: Exibir logs de histórico de plano e de planejamento
-description: Este artigo explica como exibir o histórico de trabalhos de planejamento disparados pela funcionalidade Otimização de Planejamento.
+description: Este artigo explica como exibir o histórico de trabalhos de planejamento.
 author: t-benebo
 ms.date: 06/01/2020
 ms.topic: article
@@ -16,18 +16,18 @@ ms.search.industry: Manufacturing
 ms.author: benebotg
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: AX 10.0.5
-ms.openlocfilehash: b2c9257fc67a06b57418b2f5b035b2b540131405
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: ab469686a009364bf53cb963506fd2107075a283
+ms.sourcegitcommit: 491ab9ae2b6ed991b4eb0317e396fef542d3a21b
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8863930"
+ms.lasthandoff: 11/03/2022
+ms.locfileid: "9740922"
 ---
 # <a name="view-plan-history-and-planning-logs"></a>Exibir logs de histórico de plano e de planejamento
 
 [!include [banner](../../includes/banner.md)]
 
-Este artigo explica como exibir o histórico de trabalhos de planejamento disparados pela funcionalidade Otimização de Planejamento no Microsoft Dynamics 365 Supply Chain Management.
+Este artigo explica como exibir o histórico de trabalhos de planejamento no Microsoft Dynamics 365 Supply Chain Management.
 
 Para exibir o histórico de um plano, abra o plano em **Planejamento mestre** \> **Configuração** \> **Planos** \> **Planos mestres** e selecione **Histórico**. O histórico lista todos os trabalhos do plano selecionado. A lista inclui os trabalhos concluídos e ativos.
 
@@ -47,14 +47,6 @@ Para exibir erros de confirmação automática e outros avisos ou erros ocorrido
     - Se estiver usando o formulário herdado: no Painel de Ações, na guia **Trabalho em lotes**, selecione **Log**.
 
 1. Selecione **Detalhes da mensagem** para abrir o painel **Detalhes da mensagem**, no qual você poderá exibir todos os avisos e erros capturados durante o processamento.
-
-## <a name="related-resources"></a>Recursos relacionados
-
-- [Visão geral da Otimização do Planejamento](planning-optimization-overview.md)
-- [Introdução à Otimização do Planejamento](get-started.md)
-- [Análise de ajuste da Otimização de Planejamento](planning-optimization-fit-analysis.md)
-- [Aplicar filtros a um plano](plan-filters.md)
-- [Cancelar um trabalho de planejamento](cancel-planning-job.md)
 
 
 [!INCLUDE[footer-include](../../../includes/footer-banner.md)]

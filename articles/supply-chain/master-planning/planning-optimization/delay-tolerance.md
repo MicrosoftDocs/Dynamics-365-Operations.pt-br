@@ -10,14 +10,15 @@ ms.search.region: Global
 ms.author: benebotg
 ms.search.validFrom: 2021-07-30
 ms.dyn365.ops.version: 10.0.21
-ms.openlocfilehash: fa4d2d1506546cacf5f9a7ec936f17601c5727d2
-ms.sourcegitcommit: 203c8bc263f4ab238cc7534d4dd902fd996d2b0f
+ms.openlocfilehash: 78ba4236705f1a200d9fe796eb80d0241b0fa537
+ms.sourcegitcommit: 491ab9ae2b6ed991b4eb0317e396fef542d3a21b
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/23/2022
-ms.locfileid: "9335365"
+ms.lasthandoff: 11/03/2022
+ms.locfileid: "9740459"
 ---
 # <a name="delay-tolerance-negative-days"></a>Tolerância de atraso (dias negativos)
+<!-- KFM: Split topic into PO and classic -->
 
 [!include [banner](../../includes/banner.md)]
 
@@ -47,7 +48,7 @@ O sistema vincula o cálculo de tolerância de atraso à *data de reabasteciment
 Esta fórmula garante que o planejamento mestre não crie novas ordens de suprimento quando existir suprimento suficiente durante o prazo do produto.
 
 > [!NOTE]
-> O cálculo de tolerância de atraso na Otimização de Planejamento sempre utiliza o cálculo dinâmico de dias negativos do planejamento mestre incorporado. A configuração **Usar dias negativos dinâmicos** na página **Parâmetros de planejamento Mestre não tem efeito** sobre esse comportamento.
+> O cálculo de tolerância de atraso na Otimização de Planejamento sempre utiliza o cálculo dinâmico de dias negativos do mecanismo de planejamento mestre preterido. A configuração **Usar dias negativos dinâmicos** na página **Parâmetros de planejamento Mestre não tem efeito** sobre esse comportamento.
 
 Se a oferta existente implicar um atraso de demanda menor ou igual à tolerância de atraso calculada, a Otimização de Planejamento associará a oferta existente com a demanda. Em alguns casos, é melhor atrasar a demanda do que acabar com o excesso de oferta.
 
