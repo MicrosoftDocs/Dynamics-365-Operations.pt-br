@@ -10,12 +10,12 @@ ms.search.region: Global
 ms.author: benebotg
 ms.search.validFrom: 2021-09-21
 ms.dyn365.ops.version: 10.0.20
-ms.openlocfilehash: 807834bf5cd062ed24e5e3f3512d8389717a2d39
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: 2ef78c73a1c7033735f9586229ff7ba21daaa5ef
+ms.sourcegitcommit: 491ab9ae2b6ed991b4eb0317e396fef542d3a21b
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8885889"
+ms.lasthandoff: 11/03/2022
+ms.locfileid: "9740895"
 ---
 # <a name="date-and-time-parameters-used-by-planning-optimization"></a>Parâmetros de data e hora usados pela Otimização de Planejamento
 
@@ -23,7 +23,7 @@ ms.locfileid: "8885889"
 
 Este artigo fornece informações sobre os parâmetros de data e hora que a Otimização de Planejamento usa durante a operação.
 
-Enquanto o mecanismo interno de planejamento mestre usa datas de transação em todos os cálculos, a Otimização de Planejamento funciona com valores de data e hora convertidos em datas. Essa diferença no comportamento pode levar a situações em que, por exemplo, as transações de previsão criadas à meia-noite no dia em que o planejamento mestre é executado não sejam incluídas porque a Otimização de Planejamento considera que elas foram criadas antes da data atual.
+Enquanto o mecanismo de planejamento mestre preterido usa datas de transação em todos os cálculos, a Otimização de Planejamento funciona com valores de data e hora convertidos em datas. Essa diferença no comportamento pode levar a situações em que, por exemplo, as transações de previsão criadas à meia-noite no dia em que o planejamento mestre é executado não sejam incluídas porque a Otimização de Planejamento considera que elas foram criadas antes da data atual.
 
 ## <a name="parameters-for-issue-and-demand-transactions"></a>Parâmetros para transações de saída e de demanda
 

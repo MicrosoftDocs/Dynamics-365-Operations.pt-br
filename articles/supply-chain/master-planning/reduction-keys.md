@@ -16,12 +16,12 @@ ms.search.industry: Manufacturing
 ms.author: benebotg
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: b7eaf57e0f02c0b9dd6454a58184db7bb3f58c04
-ms.sourcegitcommit: 203c8bc263f4ab238cc7534d4dd902fd996d2b0f
+ms.openlocfilehash: 0efd7245d100730622e9862554f484ed6b17d1ed
+ms.sourcegitcommit: 491ab9ae2b6ed991b4eb0317e396fef542d3a21b
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/23/2022
-ms.locfileid: "9337121"
+ms.lasthandoff: 11/03/2022
+ms.locfileid: "9739915"
 ---
 # <a name="forecast-reduction-keys"></a>Chaves de redução da previsão
 
@@ -234,7 +234,7 @@ Quando você seleciona **Transações - chave de redução** ou **Transações -
 
 ## <a name="additional-resources"></a>Recursos adicionais
 
-[Visão geral de planos mestres](master-plans.md)
+- [Visão geral de planos mestres](master-plans.md)
 
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

@@ -11,18 +11,16 @@ ms.search.region: Global
 ms.author: benebotg
 ms.search.validFrom: 2020-12-15
 ms.dyn365.ops.version: 10.0.13
-ms.openlocfilehash: 5c8169a8d2c3e45304142fb6b4d504e620c545a4
-ms.sourcegitcommit: 203c8bc263f4ab238cc7534d4dd902fd996d2b0f
+ms.openlocfilehash: 43da249637c44b3f56e8b5e210a0e44d9ac6cb9d
+ms.sourcegitcommit: 491ab9ae2b6ed991b4eb0317e396fef542d3a21b
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/23/2022
-ms.locfileid: "9335245"
+ms.lasthandoff: 11/03/2022
+ms.locfileid: "9740540"
 ---
 # <a name="production-planning"></a>Planejamento de produção
 
 [!include [banner](../../includes/banner.md)]
-
-A Otimização de Planejamento oferece suporte a vários cenários de produção. Se você estiver migrando do mecanismo de planejamento principal integrado já existente, é importante estar ciente de alteração no comportamento.
 
 O vídeo a seguir apresenta uma breve introdução a alguns dos conceitos abordados neste artigo: [Dynamics 365 Supply Chain Management: aprimoramentos na Otimização de Planejamento](https://youtu.be/u1pcmZuZBTw).
 
@@ -46,10 +44,6 @@ As ordens de produção planejadas incluem a ID de roteiro necessária para o ag
 
 - **Ordem de produção planejada** – o prazo de entrega baseia-se no prazo de entrega estático do produto liberado.
 - **Ordem de produção confirmada** – o prazo de entrega baseia-se no agendamento que usa informações de roteiro e restrições de recursos relacionadas.
-
-Para obter mais informações sobre a disponibilidade esperada de recursos, consulte [Análise de ajuste da Otimização de Planejamento](planning-optimization-fit-analysis.md).
-
-Se você depender de uma funcionalidade de produção que ainda não está disponível para a Otimização de Planejamento, poderá continuar usando o mecanismo de planejamento mestre interno. Nenhuma exceção é necessária.
 
 ## <a name="delays"></a>Atrasos
 
@@ -76,15 +70,15 @@ Você pode usar a página **Detalhamento** para analisar a demanda necessária p
 
 ## <a name="filters"></a><a name="filters"></a>Filtros
 
-Para garantir que a Otimização do Planejamento tenha as informações necessárias para calcular o resultado correto, você deve incluir todos os produtos que tenham qualquer relação com os produtos em toda a estrutura de BOM da ordem planejada. Por isso, para cenários de planejamento que incluam produção, recomendamos que você evite execuções filtradas do planejamento principal.
+Para garantir que o planejamento mestre tenha as informações necessárias para calcular o resultado correto, você deve incluir todos os produtos que tenham qualquer relação com os produtos em toda a estrutura de BOM da ordem planejada. Por isso, para cenários de planejamento que incluam produção, recomendamos que você evite execuções filtradas do planejamento principal.
 
-Embora os itens secundários dependentes sejam detectados automaticamente e incluídos nas execuções de planejamento principal quando o mecanismo de planejamento principal integrado está sendo usado, a Otimização do Planejamento não realiza esta ação no momento.
+Embora os itens secundários dependentes sejam detectados automaticamente e incluídos nas execuções de planejamento principal quando o mecanismo de planejamento principal preterido está sendo usado, a Otimização do Planejamento não realiza esta ação no momento.
 
 Por exemplo, se um único parafuso da estrutura da BOM do produto A também for usado para produzir o produto B, todos os produtos na estrutura da BOM dos produtos A e B deverão ser incluídos no filtro. Garantir que todos os produtos façam parte do filtro pode ser complexo. Por isso, recomendamos que você evite execuções filtradas de planejamento principal quando ordens de produção forem envolvidas. Caso contrário, o planejamento principal fornecerá resultados indesejáveis.
 
 ### <a name="reasons-to-avoid-filtered-master-planning-runs"></a>Motivos para evitar execuções planejadas do planejamento principal
 
-Quando você executa o planejamento principal para um produto, a Otimização de Planejamento (não como o mecanismo de planejamento principal integrado) não detecta todos os subprodutos e matéria-prima na estrutura de BOM desse produto e, portanto, não os inclui na execução de planejamento principal. Embora a Otimização de Planejamento identifique o primeiro nível da estrutura de BOM do produto, ela não carrega configurações de produto (assim como o tipo de ordem padrão ou cobertura de item) no banco de dados.
+Quando você executa o planejamento principal para um produto, a Otimização de Planejamento (não como o mecanismo de planejamento principal preterido) não detecta todos os subprodutos e matéria-prima na estrutura de BOM desse produto e, portanto, não os inclui na execução de planejamento principal. Embora a Otimização de Planejamento identifique o primeiro nível da estrutura de BOM do produto, ela não carrega configurações de produto (assim como o tipo de ordem padrão ou cobertura de item) no banco de dados.
 
 Na Otimização de Planejamento, os dados para a execução são carregados antecipadamente e os filtros são aplicados. Isso significa que, se um subproduto ou matéria-prima incluído em um produto específico não for parte do filtro, as informações sobre ele não serão capturados para a execução. Além disso, se o subproduto ou matéria prima também for incluída em outro produto, uma execução filtrada que inclua somente o produto original e seus componentes removeria a demanda planejada existente que foi criada para aquele outro produto.
 

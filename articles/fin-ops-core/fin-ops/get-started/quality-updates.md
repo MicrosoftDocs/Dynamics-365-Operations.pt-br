@@ -2,7 +2,7 @@
 title: Atualizações de qualidade proativas
 description: Este artigo fornece informações sobre a entrega proativa de atualizações de qualidade.
 author: rashmansur
-ms.date: 09/12/2022
+ms.date: 11/07/2022
 ms.topic: article
 audience: Application User, Developer, IT Pro
 ms.reviewer: sericks
@@ -11,12 +11,12 @@ ms.author: rashmim
 ms.search.validFrom: 2022-08-19
 ms.search.form: ''
 ms.dyn365.ops.version: 10.0.29
-ms.openlocfilehash: da5881a901d3ba4d01e6d4510a53ca079efd7e75
-ms.sourcegitcommit: c8b97eea28f07b6b179825f3b134c8c8704ff8fc
+ms.openlocfilehash: ff2232c9e1010ad1e2524df0c7ed4d771b489ed1
+ms.sourcegitcommit: 05069f7e5eb7a9335c0a62031d7663f88e4821df
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/29/2022
-ms.locfileid: "9731601"
+ms.lasthandoff: 11/09/2022
+ms.locfileid: "9752289"
 ---
 # <a name="proactive-quality-updates"></a>Atualizações de qualidade proativas
 
@@ -25,6 +25,19 @@ ms.locfileid: "9731601"
 Nos últimos anos, a Microsoft fez um progresso contínuo no que denominamos [One Version](../../dev-itpro/lifecycle-services/oneversion-overview.md). A premissa de One Version é simples: quanto mais clientes usarem a mesma versão do software, maior será a qualidade oferecida. Encontramos e corrigimos os problemas uma vez, e mais clientes tiveram acesso a essas soluções com mais rapidez.
 
 Essa premissa é confirmada pelos resultados: menos incidentes em nossos produtos. Quando os clientes não estão na mesma versão, é comum serem afetados por problemas para os quais já existe uma solução disponível. Fizemos grandes progressos com o Dynamics 365 Finance, o Dynamics 365 Supply Chain, o Dynamics 365 Project Operations e o Dynamics 365 Commerce. Graças a avanços técnicos recentes, agora é possível dar o próximo passo. As informações a seguir traçam um panorama do que faremos, do que já fizemos, além de como e quando apresentaremos os novos recursos sem interrupção.
+
+## <a name="what-you-need-to-know"></a>O que você precisa saber
+
+- Atualizações de qualidade proativas são aplicadas mensalmente.
+- A Microsoft aplicará atualizações de qualidade proativas a qualquer ambiente de área restrita que esteja executando uma atualização de serviço que estava [em serviço](./public-preview-releases.md#targeted-release-schedule-dates-subject-to-change) quando as atualizações de qualidade proativas foram criadas.
+- Exceções para atualizações de qualidade proativas serão permitidas para clientes regulamentados pela Food and Drug Administration (FDA) dos EUA.
+- A Microsoft está determinando como as atualizações de qualidade proativas serão gerenciadas para ambientes regulamentados e para clientes de nuvem soberana e governamentais.
+- As notificações relacionadas a atualizações de qualidade proativas são lançadas no [Centro de Mensagens do Microsoft 365](https://admin.microsoft.com/AdminPortal/) e em um banner no projeto do Microsoft Dynamics Lifecycle Services do cliente.
+- Cinco dias antes de uma atualização de qualidade proativa ser aplicada a um ambiente, os clientes são notificados de que a atualização ocorrerá.
+- Os clientes não podem cancelar ou adiar atualizações de qualidade proativas.
+- As atualizações de qualidade proativas são instaladas durante a [janela de manutenção planejada](../../dev-itpro/deployment/plannedmaintenance-selfservice.md#windows) específica da região.
+- As atualizações de qualidade são projetadas para ter um baixo risco de problemas ou regressões, o que é compatível com os dados da Microsoft.
+- A Microsoft recomenda testes direcionados para problemas específicos ou hotfixes específicos relacionados a uma atualização de qualidade proativa.
 
 ## <a name="focus-on-quality-updates"></a>Foco em atualizações de qualidade
 
@@ -40,7 +53,7 @@ Vários avanços já foram implantados para permitir a entrega proativa de atual
 
 - **Atualização do tempo de inatividade quase zero**: para enviar ambientes mais frequentes, é essencial que o impacto na disponibilidade do ambiente seja reduzido para preservar os contratos de nível de serviço (SLAs) do Dynamics 365. A atualização do tempo de inatividade quase zero foi originalmente apresentada para ajudar a melhorar a aplicação de patch do sistema operacional mensal usando um failover de cluster para ativar a imagem atualizada com interrupção mínima. O mecanismo para aplicar atualizações está sendo aprimorado para que seja ainda menos prejudicial, e abrangerá a aplicação de patch do sistema operacional e a implantação da atualização de qualidade.
 
-Para usuários interativos, uma sessão ativa pode ser interrompida e a repetição irá para o ambiente atualizado agora. Com a introdução do [agendamento de lotes com base na prioridade](../../dev-itpro/sysadmin/priority-based-batch-scheduling.md) o agendamento e o processamento em lotes são recuperados e retomados imediatamente após a atualização. O agendamento de lotes com base na prioridade será feito para os clientes antes que comecem a participar da distribuição proativa de atualizações de qualidade para ambientes de produção.
+    Para usuários interativos, uma sessão ativa pode ser interrompida e a repetição irá para o ambiente atualizado agora. Com a introdução do [agendamento de lotes com base na prioridade](../../dev-itpro/sysadmin/priority-based-batch-scheduling.md) o agendamento e o processamento em lotes são recuperados e retomados imediatamente após a atualização. O agendamento de lotes com base na prioridade será feito para os clientes antes que comecem a participar da distribuição proativa de atualizações de qualidade para ambientes de produção.
 
 - **Horas escuras**: as horas escuras são definidas para cada região do Azure e as atualizações de tempo de inatividade quase zero ocorrerão no período de hora escura.
 
@@ -56,9 +69,11 @@ Um conjunto de alterações de processo está sendo implementado antes da ativa�
 
 - **Esquema**: a ferramenta garante que as compilações de atualização de qualidade incluam somente alterações de esquema que possam ser aplicadas enquanto o serviço está online. Essa abordagem ajudará a manter a capacidade de aplicar a atualização com tempo de inatividade quase zero.
 - **Maior investigação de alterações**: no momento, já existe uma etapa de processo extra para aprovar alterações para inclusão em uma atualização de qualidade. A investigação na etapa extra será maior para ajudar a reduzir o potencial de regressões. Alterações interruptivas não são permitidas em atualizações de qualidade e a maior investigação de alterações ajudará a garantir a atingir esse objetivo.
-- **Visibilidade** – enviamos notificações pelo centro de administração, Lifecycle Services (LCS) e outros canais disponíveis para atualizações futuras de qualidade proativa. Além disso, as equipes de suporte e os clientes potenciais de incidentes terão visibilidade sobre onde as atualizações de qualidade foram implantadas de forma proativa.
- > [!NOTE]
- > A equipe de Comunicações da Microsoft está investigando uma degradação contínua da ferramenta de email que está impedindo a entrega de notificações por email. Continue a monitorar o Centro de Mensagens do Microsoft 365 para integração e mensagens relacionadas à notificação.
+- **Visibilidade** – As notificações são enviadas pelo centro de administração, Lifecycle Services e outros canais disponíveis para futuras atualizações de qualidade proativas. Além disso, as equipes de suporte e os clientes potenciais de incidentes terão visibilidade sobre onde as atualizações de qualidade foram implantadas de forma proativa.
+
+    > [!NOTE]
+    > A equipe de Comunicações da Microsoft está investigando uma degradação contínua da ferramenta de email que está impedindo a entrega de notificações por email. Continue a monitorar o Centro de Mensagens do Microsoft 365 para integração e mensagens relacionadas à notificação.
+
 - **Segurança contra falhas por versão de pré-lançamento** – A versão de pré-lançamento será usada para proteger as alterações de código sempre que aplicável em uma correção de bug de atualização de qualidade ou usar a versão de pré-lançamento de recurso existente relevante para a correção. Se for necessário um fallback ou desativar uma alteração após uma implantação proativa, isso poderá ser feito por meio do sistema de versão de pré-lançamento para evitar mais falhas.
 - **Designação de sincronização da área restrita**: menos de 20% dos clientes têm várias áreas restritas e mantêm uma área restrita implantada onde a versão corresponde à produção, para ajudar na solução de problemas. Se um cliente estiver usando uma área restrita para testar uma versão mais recente do que a produção dele, essa área restrita receberá atualizações de qualidade para a versão mais recente.
 
@@ -77,7 +92,7 @@ Neste momento, as atualizações de qualidade estão direcionando apenas áreas 
 Para obter informações sobre o período noturno de cada região, consulte [Quais são as janelas de manutenção planejadas por região?](../../dev-itpro/deployment/plannedmaintenance-selfservice.md#windows).
 
 ### <a name="proactive-quality-update-release-10028"></a>Versão de atualização de qualidade proativa: 10.0.28
-**Versão do aplicativo: 10.0.1265.89**
+**Versão do aplicativo: 10.0.1265.89**  
 **Artigo da base de conhecimento mais recente correspondente: 745340**
 
 | Estação | Regiões | Agenda concluída| Programação da área restrita
@@ -89,19 +104,31 @@ Para obter informações sobre o período noturno de cada região, consulte [Qua
 | Estação 5 | DoD (Nuvem da comunidade governamental, China) | Não programado | Não programado |
 
 ### <a name="proactive-quality-update-release-10029"></a><a name="schedule"></a> Versão de atualização de qualidade proativa: 10.0.29
-**Versão do aplicativo: 10.0.1326.70**
+**Versão do aplicativo: 10.0.1326.70**  
 **Artigo da base de conhecimento mais recente correspondente: 748926**
 
 | Estação | Regiões | Agenda concluída | Programação da área restrita|
 |---|---|---|---|
-| Estação 1 | Canadá Central, Leste do Canadá, França Central, Índia central, Leste da Noruega, Oeste da Suíça | 14 a 17 de outubro de 2022 | 2 de novembro a 5 de novembro de 2022 |
-| Estação 2 | Sul da França, Sul da Índia, Oeste da Noruega, Norte da Suíça, Norte da África do Sul, Leste da Austrália, Sul do Reino Unido, Norte dos EAU, Leste do Japão, Sudeste da Austrália, Sudeste da Ásia | 15 a 18 de outubro de 2022 | 2 de novembro a 5 de novembro de 2022 |
-| Estação 3 | Leste da Ásia, Oeste do Reino Unido, Oeste do Japão, Sul do Brasil, Oeste da Europa, Leste dos EUA, EAU Central | 16 a 19 de outubro de 2022 | 2 de novembro a 5 de novembro de 2022 |
-| Estação 4 | Norte da Europa, EUA Central, Oeste dos EUA | 17 a 20 de outubro de 2022 | 2 de novembro a 5 de novembro de 2022 |
+| Estação 1 | Canadá Central, Leste do Canadá, França Central, Índia central, Leste da Noruega, Oeste da Suíça | 14 de outubro a 17 de outubro de 2022, 2 de novembro a 5 de novembro de 2022 | 13 de novembro a 16 de novembro de 2022 |
+| Estação 2 | Sul da França, Sul da Índia, Oeste da Noruega, Norte da Suíça, Norte da África do Sul, Leste da Austrália, Sul do Reino Unido, Norte dos EAU, Leste do Japão, Sudeste da Austrália, Sudeste da Ásia | 15 de outubro a 18 de outubro de 2022, 2 de novembro a 5 de novembro de 2022 | 13 de novembro a 16 de novembro de 2022 |
+| Estação 3 | Leste da Ásia, Oeste do Reino Unido, Oeste do Japão, Sul do Brasil, Oeste da Europa, Leste dos EUA, EAU Central | 16 de outubro a 19 de outubro de 2022, 2 de novembro a 5 de novembro de 2022 | 13 de novembro a 16 de novembro de 2022 |
+| Estação 4 | Norte da Europa, EUA Central, Oeste dos EUA | 17 de outubro a 20 de outubro de 2022, 2 de novembro a 5 de novembro de 2022 | 13 de novembro a 16 de novembro de 2022 |
 | Estação 5 | DoD (Nuvem da comunidade governamental, China) | Não programado | Não programado |
 
+### <a name="proactive-quality-update-release-10030"></a><a name="schedule"></a> Versão de atualização de qualidade proativa: 10.0.30
+**Versão do aplicativo: a ser definida**
+**Artigo da base de conhecimento mais recente correspondente: a ser definido**
+
+| Estação | Regiões | Programação da área restrita |
+|---|---|---|
+| Estação 1 | Canadá Central, Leste do Canadá, França Central, Índia central, Leste da Noruega, Oeste da Suíça | 1 a 4 de dezembro de 2022 |
+| Estação 2 | Sul da França, Sul da Índia, Oeste da Noruega, Norte da Suíça, Norte da África do Sul, Leste da Austrália, Sul do Reino Unido, Norte dos EAU, Leste do Japão, Sudeste da Austrália, Sudeste da Ásia | 2 a 5 de dezembro de 2022 |
+| Estação 3 | Leste da Ásia, Oeste do Reino Unido, Oeste do Japão, Sul do Brasil, Norte da Europa, Leste dos EUA, EAU Central | 3 a 6 de dezembro de 2022 |
+| Estação 4 | Oeste da Europa, EUA Central, Oeste dos EUA | 4 a 7 de dezembro de 2022 |
+| Estação 5 | DoD (Nuvem da comunidade governamental, China) | Não programado |
+
 > [!IMPORTANT] 
-> Com cinco dias de antecedência, a Microsoft atualizará o agendamento anterior e enviará notificações por email para o conjunto de ambientes agendados para receber essas atualizações de qualidade. A agenda anterior é aplicável apenas a ambientes que receberam notificação sobre uma futura atualização. Para obter informações sobre o período noturno de cada região, consulte [Quais são as janelas de manutenção planejadas por região?](../../dev-itpro/deployment/plannedmaintenance-selfservice.md#windows).
+> Com cinco dias de antecedência, a Microsoft atualizará o agendamento anterior e enviará uma notificação para o conjunto de ambientes agendados para receber essas atualizações de qualidade. A agenda anterior é aplicável apenas a ambientes que receberam notificação sobre uma futura atualização. Para obter informações sobre o período noturno de cada região, consulte [Quais são as janelas de manutenção planejadas por região?](../../dev-itpro/deployment/plannedmaintenance-selfservice.md#windows).
 >
 > Para cada grupo de regiões, ou *estação*, onde uma atualização de qualidade está programada para ser implementada, a agenda mostra um intervalo de quatro dias. As atualizações de qualidade começarão apenas com ambientes de área restrita. Dessa forma, à medida que a porcentagem de áreas restritas implantadas com sucesso aumenta, a implantação em ambientes de produção começará com notificações prévias aos clientes.
 > 
@@ -124,13 +151,13 @@ As etapas a seguir são uma solução temporária, pois continuamos trabalhando 
 
 Use o KB# 745340 para o trem de atualização de qualidade 10.0.28 e versão de aplicativo relacionada 10.0.1265.89.
 
-1. No LCS, abra a página **Detalhes do ambiente** da área restrita. 
+1. No Lifecycle Services, abra a página **Detalhes do ambiente** da área restrita. 
 2. Na seção **Atualizações disponíveis**, selecione **Visualizar atualização** para obter a versão mais recente da Atualização de Qualidade. 
 3. Exporte o build para um arquivo CSV ou Microsoft Excel.
 4. No arquivo exportado, classifique as informações com base no tempo (o mais antigo primeiro) e procure o número do KB 745340 na coluna **ID da atualização**. Agora deve ser possível ver a lista delta de KBs.
  
- > [!NOTE]
- > A exportação para um arquivo CSV ou Excel deve ocorrer antes da atualização do ambiente. Caso contrário, é possível usar um ambiente com configuração semelhante que não tenha a atualização instalada e seguir as etapas acima.
+> [!NOTE]
+> A exportação para um arquivo CSV ou Excel deve ocorrer antes da atualização do ambiente. Caso contrário, é possível usar um ambiente com configuração semelhante que não tenha a atualização instalada e seguir as etapas acima.
 
 [![Exemplo de ambiente com atualização de qualidade.](./media/how-to-get-kb-list-pqu.png)](./media/how-to-get-kb-list-pqu.png)
 
@@ -139,8 +166,8 @@ Um problema crítico ou regressão é um ou mais eventos que geralmente fazem co
 
 Se um ambiente de cliente único for afetado, entre em contato o suporte da Microsoft para abrir um tíquete. Com base na justificativa, a implantação da atualização de qualidade será interrompida em todos os outros ambientes do projeto até que o problema seja reduzido.
 
-## <a name="can-customers-still-manually-apply-hotfix-updates-from-lcs"></a>Os clientes ainda podem aplicar atualizações de hotfix manualmente no LCS?
-Sim. Para garantir a paridade contínua com a forma como os hotfixes funcionam, as atualizações de hotfix ainda podem ser aplicadas a ambientes de cliente no LCS. No entanto, é importante observar que os hotfixes implantados como parte de uma atualização de qualidade passam pelo SDP padrão antes da atualização ser implantada. Isso reduz o risco de regressões devido a uma qualidade superior. Recomendamos que você escolha uma atualização de qualidade em vez da aplicação manual de hotfixes para maior confiabilidade.
+## <a name="can-customers-still-manually-apply-hotfix-updates-from-lifecycle-services"></a>Os clientes ainda podem aplicar atualizações de hotfix manualmente no Lifecycle Services?
+Sim. Para garantir a paridade contínua com a forma como os hotfixes funcionam, as atualizações de hotfix ainda podem ser aplicadas a ambientes de cliente no Lifecycle Services. No entanto, é importante observar que os hotfixes implantados como parte de uma atualização de qualidade passam pelo SDP padrão antes da atualização ser implantada. Isso reduz o risco de regressões devido a uma qualidade superior. Recomendamos que você escolha uma atualização de qualidade em vez da aplicação manual de hotfixes para maior confiabilidade.
 
 ## <a name="can-customers-proactively-install-a-quality-update-build-ahead-of-the-schedule"></a>Os clientes podem instalar proativamente uma atualização de qualidade antes do previsto?
 Sim. Você pode instalar uma atualização de qualidade proativamente. A Microsoft ignorará a atualização se a versão de compilação atual do ambiente for igual ou maior do que a atualização de qualidade em questão.
@@ -149,7 +176,7 @@ Sim. Você pode instalar uma atualização de qualidade proativamente. A Microso
 - As atualizações de qualidade não serão aplicadas a ambientes de produção se houver uma atualização de serviço iminente agendada dentro de uma semana a partir da data em que a atualização de qualidade está programada.
 - Se um ambiente de área restrita tiver uma versão de compilação igual ou superior à da atualização de qualidade iminente, ele será ignorado.
 - Se um ambiente de produção tiver uma versão de compilação igual ou superior à da atualização de qualidade iminente, ele será ignorado.
-- Se uma área restrita tiver a mesma versão de compilação ou superior devido a uma atualização de qualidade ou uma atualização manual da produção, a produção ainda receberá a versão programada da atualização de serviço mensal. Se não desejar que o ambiente de produção programado seja atualizado para a versão de atualização de serviço, você poderá pausar a atualização de serviço no LCS. 
+- Se uma área restrita tiver a mesma versão de compilação ou superior devido a uma atualização de qualidade ou uma atualização manual da produção, a produção ainda receberá a versão programada da atualização de serviço mensal. Se não desejar que o ambiente de produção programado seja atualizado para a versão de atualização de serviço, você poderá pausar a atualização de serviço no Lifecycle Services. 
 - Recomendamos que você use a versão mais recente da atualização de qualidade para testar suas alterações para uma atualização de serviço futura para obter melhor estabilidade e resultados.
 
 ## <a name="if-an-environment-has-an-upcoming-scheduled-action-and-a-scheduled-quality-update-in-the-same-maintenance-window-will-it-still-receive-the-quality-update"></a>Se um ambiente tiver uma ação agendada futura e uma atualização de qualidade agendada na mesma janela de manutenção, ele ainda receberá a atualização de qualidade?
@@ -164,11 +191,11 @@ O plano para clientes sujeitos a validação e regulamentação da FDA ainda est
 ## <a name="what-versions-of-service-updates-are-supported-for-these-quality-updates"></a>Que versões das atualizações de serviço são compatíveis com essas atualizações de qualidade?
 Os clientes em todas as versões compatíveis de atualizações de serviço se qualificam para atualizações de qualidade. 
 
-## <a name="finance-and-operations-apps-deployments-with-retail-components-typically-require-additional-work-in-addition-to-having-to-redeploy-mpos-how-will-these-quality-updates-impact-the-retailsdk"></a>As implantações de aplicativos de finanças e operações com componentes de varejo geralmente exigem trabalho adicional, além da necessidade de reimplantar o MPOS. Como essas atualizações de qualidade afetarão o RetailSDK? 
+## <a name="finance-and-operations-apps-deployments-with-retail-components-typically-require-additional-work-in-addition-to-having-to-redeploy-mpos-how-will-these-quality-updates-impact-the-retail-sdk"></a>As implantações de aplicativos de finanças e operações com componentes de varejo geralmente exigem trabalho adicional, além da necessidade de reimplantar o MPOS. Como essas atualizações de qualidade afetarão o SDK do Retail? 
 Como a natureza do hotfix em si não é alterada na carga de atualizações de qualidade, não antecipamos impactos adicionais relacionados aos componentes de varejo no momento.
 
 ## <a name="is-there-any-impact-to-cloud-hosted-environments-che"></a>Existe algum impacto nos ambientes hospedados na nuvem (CHE)? 
-Os ambientes CHE estão fora do escopo de atualizações de qualidade porque estão fora do âmbito da Microsoft
+Os ambientes CHE estão fora do escopo de atualizações de qualidade porque estão fora do âmbito da Microsoft.
 
 ## <a name="are-there-any-integration-issues-with-microsoft-dataverse"></a>Há problemas de integração com o Microsoft Dataverse? 
 Não há problemas de integração conhecidos para atualizações de qualidade com o Dataverse.

@@ -11,12 +11,12 @@ ms.search.region: Global
 ms.author: benebotg
 ms.search.validFrom: 2022-09-19
 ms.dyn365.ops.version: 10.0.29
-ms.openlocfilehash: 3d116b5f7f456630415378e6cc069907e339068b
-ms.sourcegitcommit: 3e04f7e4bc0c29c936dc177d5fa11761a58e9a02
+ms.openlocfilehash: 5f02ec58c88cfd0d663a97de4e3e4dff1cdd5e90
+ms.sourcegitcommit: 491ab9ae2b6ed991b4eb0317e396fef542d3a21b
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/18/2022
-ms.locfileid: "9689684"
+ms.lasthandoff: 11/03/2022
+ms.locfileid: "9740077"
 ---
 # <a name="finite-capacity-planning-and-scheduling"></a>Planejamento e agendamento de capacidade finita
 
@@ -28,9 +28,8 @@ A capacidade finita é uma abordagem que ajuda você a entender quanto trabalho 
 
 O planejamento e o agendamento de capacidade finita criam uma programação mais realista para os processos de produção do que a abordagem de carregamento infinito cria. Se não houver capacidade suficiente nos recursos, a data de entrega será adiada e o trabalho será agendado quando houver capacidade suficiente.
 
-## <a name="planning-optimization-support-for-finite-capacity-planning"></a>Suporte à Otimização de Planejamento para planejamento de capacidade finita
-
-O planejamento e o agendamento de capacidade finita funcionam quase da mesma maneira, independentemente de você usar a Otimização de Planejamento ou o mecanismo de planejamento integrado. Contudo, a Otimização de Planejamento não usa o parâmetro de limite **Tempo de gargalo**. Quando você usa a Otimização de Planejamento, os recursos de gargalo são sempre planejados usando o mesmo limite de tempo que os recursos sem gargalo (conforme indicado pelo limite de tempo de capacidade finita).
+> [!NOTE]
+> O planejamento e o agendamento de capacidade finita funcionam quase da mesma maneira, independentemente de você usar a Otimização de Planejamento ou o mecanismo de planejamento preterido. Contudo, a Otimização de Planejamento não usa o parâmetro de limite **Tempo de gargalo**. Quando você usa a Otimização de Planejamento, os recursos de gargalo são sempre planejados usando o mesmo limite de tempo que os recursos sem gargalo (conforme indicado pelo limite de tempo de capacidade finita).
 
 ## <a name="set-up-finite-capacity-functionality"></a>Configurar a funcionalidade de capacidade finita
 

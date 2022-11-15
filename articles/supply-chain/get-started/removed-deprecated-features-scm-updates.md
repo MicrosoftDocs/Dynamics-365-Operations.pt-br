@@ -12,12 +12,12 @@ ms.search.region: Global
 ms.author: kamaybac
 ms.search.validFrom: 2020-03-03
 ms.dyn365.ops.version: Platform update 33
-ms.openlocfilehash: f70d05f5663d8249b2435ad353421c278692a9ac
-ms.sourcegitcommit: c98d55a4a6e27239ae6b317872332f01cbe8b875
+ms.openlocfilehash: 722b34e89a54715db39259549c11a78d69d2b4d3
+ms.sourcegitcommit: 491ab9ae2b6ed991b4eb0317e396fef542d3a21b
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/02/2022
-ms.locfileid: "9218792"
+ms.lasthandoff: 11/03/2022
+ms.locfileid: "9739861"
 ---
 # <a name="removed-or-deprecated-features-in-dynamics-365-supply-chain-management"></a>Recursos removidos ou preteridos do Dynamics 365 Supply Chain Management
 
@@ -89,7 +89,7 @@ Esta lista é destinada a ajudá-lo a considerar essas remoções e reprovaçõe
 | **Substituída por outro recurso?**   | Sim, a Otimização de Planejamento substituirá o mecanismo de planejamento mestre do Supply Chain Management interno. |
 | **Áreas afetadas do produto**         | Supply Chain Management - Planejamento mestre |
 | **Opção de implantação**              | Somente nuvem. A otimização de planejamento não é suportada com implantações locais. |
-| **Status**                         | Preterido. Até 1º de abril de 2022, os cenários de fabricação não serão mais oferecidos para o mecanismo de planejamento mestre interno do Supply Chain Management. A partir dessa data, a Microsoft interromperá todo o desenvolvimento ativo em cenários de fabricação para o mecanismo de planejamento interno, não lançará novos recursos e só lançará as correções críticas de erros. Após essa data, todas as empresas que necessitam de suporte para cenários de fabricação devem usar a otimização de planejamento para seus cálculos de planejamento mestre. Espera-se que a otimização do planejamento dê suporte total aos cenários de fabricação até outubro de 2022. Para obter mais informações, consulte a [documentação da Otimização de Planejamento](../master-planning/planning-optimization/planning-optimization-overview.md).<br><br>As empresas com implantações locais do Supply Chain Management podem continuar a usar o mecanismo de planejamento mestre interno para cenários de fabricação depois de abril de 2022. No entanto, não serão fornecidas mais melhorias de recursos. |
+| **Status**                         | Preterido. Até 1º de abril de 2022, os cenários de fabricação não serão mais oferecidos para o mecanismo de planejamento mestre interno do Supply Chain Management. A partir dessa data, a Microsoft interromperá todo o desenvolvimento ativo em cenários de fabricação para o mecanismo de planejamento interno, não lançará novos recursos e só lançará as correções críticas de erros. Após essa data, todas as empresas que necessitam de suporte para cenários de fabricação devem usar a otimização de planejamento para seus cálculos de planejamento mestre. Espera-se que a otimização do planejamento dê suporte total aos cenários de fabricação até outubro de 2022. Para obter mais informações, consulte [Visão geral do planejamento mestre preterido](../master-planning/deprecated-master-planning-overview.md).<br><br>As empresas com implantações locais do Supply Chain Management podem continuar a usar o mecanismo de planejamento mestre interno para cenários de fabricação depois de abril de 2022. No entanto, não serão fornecidas mais melhorias de recursos. |
 
 ## <a name="features-removed-or-deprecated-in-the-supply-chain-management-10011-release"></a>Recursos removidos ou substituídos na versão 10.0.11 do Supply Chain Management
 
@@ -101,7 +101,7 @@ Esta lista é destinada a ajudá-lo a considerar essas remoções e reprovaçõe
 | **Substituída por outro recurso?**   | Sim, a Otimização de Planejamento substituirá o mecanismo de planejamento mestre do Supply Chain Management interno. |
 | **Áreas afetadas do produto**         | Supply Chain Management - Planejamento mestre |
 | **Opção de implantação**              | Somente nuvem. A otimização de planejamento não é suportada com implantações locais. |
-| **Status**                         | Preterido. Em 1 de abril de 2021, os cenários de distribuição não receberão mais suporte com o mecanismo de planejamento mestre interno do Dynamics 365 Supply Chain Management. Para cenários de distribuição, os clientes devem usar a otimização de planejamento para os cálculos de planejamento mestre. Para obter mais informações, consulte [Introdução à documentação da Otimização de Planejamento](../master-planning/planning-optimization/planning-optimization-overview.md). Os clientes com implantações locais do Dynamics 365 Supply Chain Management podem continuar a usar o mecanismo de planejamento mestre de gerenciamento de cadeia de fornecimento para cenários de distribuição depois de 2021 de abril. No entanto, não serão fornecidas mais melhorias de recursos. |
+| **Status**                         | Preterido. Em 1 de abril de 2021, os cenários de distribuição não receberão mais suporte com o mecanismo de planejamento mestre interno do Dynamics 365 Supply Chain Management. Para cenários de distribuição, os clientes devem usar a otimização de planejamento para os cálculos de planejamento mestre. Para obter mais informações, consulte [Visão geral do planejamento mestre preterido](../master-planning/deprecated-master-planning-overview.md). Os clientes com implantações locais do Dynamics 365 Supply Chain Management podem continuar a usar o mecanismo de planejamento mestre de gerenciamento de cadeia de fornecimento para cenários de distribuição depois de 2021 de abril. No entanto, não serão fornecidas mais melhorias de recursos. |
 
 ## <a name="previous-announcements-about-removed-or-deprecated-features"></a>Comunicados anteriores sobre recursos removidos ou obsoletos
 

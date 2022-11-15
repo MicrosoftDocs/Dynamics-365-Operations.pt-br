@@ -2,7 +2,7 @@
 title: Configurar a interface de execução de piso de produção
 description: Este artigo descreve como criar uma ou mais configurações para a interface de execução do piso de produção. Quando você abre a interface de execução de piso de produção, ela carrega automaticamente uma configuração selecionada e um filtro de trabalho específicos do navegador e do dispositivo. Na configuração, você define as políticas que devem ser aplicáveis para um uso específico.
 author: johanhoffmann
-ms.date: 08/05/2022
+ms.date: 11/07/2022
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: johanho
 ms.search.validFrom: 2020-10-05
 ms.dyn365.ops.version: 10.0.15
-ms.openlocfilehash: 7196306b34a72e4c53113dd644f666346f170ed7
-ms.sourcegitcommit: 9e6a9d644a34158390c6e209e80053ccbdb7d974
+ms.openlocfilehash: 641b293617df608bc07b97c077dbcd05664f8e2a
+ms.sourcegitcommit: 4abf9b375fed6885ea11a425c524958fea29c3b9
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/20/2022
-ms.locfileid: "9708715"
+ms.lasthandoff: 11/07/2022
+ms.locfileid: "9748677"
 ---
 # <a name="configure-the-production-floor-execution-interface"></a>Configurar a interface de execução de piso de produção
 
@@ -85,17 +85,19 @@ Esse recurso oferece uma experiência melhor para exibir listas de números de p
 
 Para usar esse recurso, você deve habilitá-lo no seu sistema. A partir do Supply Chain Management versão 10.0.25, o recurso está ativado por padrão. A partir do Supply Chain Management versão 10.0.29, o recurso é obrigatório e não pode ser desativado. Se você estiver executando uma versão anterior à 10.0.29, os administradores poderão ativar ou desativar essa funcionalidade, pesquisando o recurso *Mostrar números de série, de lote e da placa de licença completos na interface de execução de chão de produção* no espaço de trabalho [Gerenciamento de recursos](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md).
 
-
 A partir da versão 10.0.25 do Supply Chain Management, este recurso está ativado por padrão. Os administradores podem ativar ou desativar essa funcionalidade, pesquisando o recurso *Mostrar números de série, de lote e da placa de licença completos na interface de execução da área de produção* no espaço de trabalho [Gerenciamento de recursos](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md).
 
 ### <a name="register-material-consumption"></a>Registrar consumo de materiais
+
+[!INCLUDE [preview-banner-section](../../includes/preview-banner-section.md)]
+<!-- KFM: Preview until further notice -->
 
 Esse recurso permite que os trabalhadores usem a interface de execução do piso de produção para registrar o consumo de materiais, os números de lote e os números de série. Alguns fabricantes, especialmente no setor de processamento, devem registrar explicitamente a quantidade de material que é consumido para cada ordem de produção ou lote. Por exemplo, os trabalhadores podem usar uma escala para avaliar a quantidade de material que é consumido conforme trabalham. Para garantir a rastreabilidade total do material, essas organizações também devem registrar os números de lote que foram consumidos para produzir cada produto.
 
 Existem duas versões deste recurso. Um oferece suporte a itens que *não estão* habilitados para usar processos de gerenciamento de depósito (WMS). O outro dá suporte a itens que *estão* habilitados para usar o WMS. Para usar essa funcionalidade, ative um ou ambos os seguintes recursos no [Gerenciamento de recursos](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) (nesta ordem), dependendo da existência de itens habilitados para o WMS:
 
 - *Registrar consumo de material na interface de execução do piso de produção (não WMS)*
-- *Registrar consumo de materiais na interface de execução do chão de produção (habilitado para WMS)*
+- *(Versão preliminar) Registrar consumo de materiais na interface de execução de piso de produção (habilitado para WMS)*
 
 > [!IMPORTANT]
 > Só é possível usar o recurso que não seja do WMS. Se você usar o WMS, deverá habilitar os dois recursos.
@@ -138,6 +140,25 @@ Para usar essa funcionalidade, ative o seguinte recurso em [Gerenciamento de rec
 
 - *Configuração adicional na interface de execução de piso de produção*
 
+### <a name="enable-the-my-jobs-tab"></a>Habilitar a guia Meus trabalhos
+
+A guia **Meus trabalhos** permite que trabalhadores exibam facilmente todos os trabalhos não iniciados e não concluídos que são atribuídos especificamente a eles. Ele é útil em empresas em que os trabalhos são às vezes ou sempre atribuídos a trabalhadores específicos (recursos humanos) em vez de outros tipos de recursos (como máquinas).
+
+Para usar essa funcionalidade, ative o seguinte recurso em [Gerenciamento de recursos](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md):
+
+- *Guia Meus trabalhos na interface de execução de piso de produção*
+
+### <a name="enable-use-of-a-numpad-on-the-sign-in-page"></a>Habilitar o uso de um teclado numérico na página de entrada
+
+[!INCLUDE [preview-banner-section](../../includes/preview-banner-section.md)]
+<!-- KFM: Preview until 10.0.31 GA -->
+
+Esse recurso permite que os administradores adicionem um controle de teclado numérico à página de entrada para a interface de execução da área de produção. Os trabalhadores podem então entrar usando o teclado numérico para inserir a ID do crachá ou o número pessoal.
+
+Para usar essa funcionalidade, ative o seguinte recurso em [Gerenciamento de recursos](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md):
+
+- *Habilitar o uso de um teclado numérico na página de entrada*
+
 ## <a name="work-with-production-floor-execution-configurations"></a>Trabalhar com configurações de execução de piso de produção
 
 Para criar e manter as configurações de execução de piso de produção, acesse **Controle de produção \> Configuração \> Execução de fabricação \> Configurar execução de piso de produção**. A página **Configurar execução de piso de produção** mostra uma lista das configurações existentes. Nessa página, você pode executar as seguintes ações:
@@ -161,6 +182,7 @@ As configurações a seguir estão disponíveis na guia rápida **Geral**:
 - **Bloquear funcionário** – quando essa opção for definida como *Não*, os trabalhadores serão desconectados imediatamente depois que fizerem um registro (como um novo trabalho). A interface retornará à página de entrada. Quando esta opção for definida como *Sim*, os trabalhadores permanecerão conectados à interface de execução de piso de produção. No entanto, um trabalhador pode se desconectar manualmente para que outro trabalhador possa entrar enquanto a interface de execução de piso de produção continua em execução na mesma conta de usuário do sistema. Para obter mais informações sobre esses tipos de contas, consulte [Usuários atribuídos](config-job-card-device.md#assigned-users).
 - **Usar o tempo real de registro** - defina essa opção como *Sim* para definir a hora para cada novo registro como a hora exata em que o trabalhador enviou o registro. Quando essa opção for definida como *Não*, a hora de entrada será usada. Em geral, você desejará definir essa opção como *Sim* se tiver definido as opções **Bloquear funcionário** e/ou **Trabalhador único** como *Sim* em casos onde os trabalhadores com frequência permanecem conectados por períodos mais longos.
 - **Trabalhador único** – Defina essa opção como *Sim* se apenas um trabalhador usar a interface de execução de piso de produção onde essa configuração está ativa. Quando essa opção estiver definida como *Sim*, a opção **Bloquear funcionário** será automaticamente definida como *Sim*. Além disso, essa configuração remove o requisito (e a capacidade) de o trabalhador entrar usando uma ID de crachá (ou outra ID semelhante). Em vez disso, o trabalhador entra no Microsoft Dynamics 365 Supply Chain Management usando uma conta de usuário do sistema vinculada a um *trabalhador com tempo registrado* (da tabela *Trabalhadores*) e entra na interface de execução de piso de produção como esse trabalhador ao mesmo tempo.
+- **Habilitar teclado numérico** – Defina esta opção como *Sim* para adicionar um teclado numérico à tela de entrada, que permite que os funcionários insiram sua ID de crachá ou número pessoal usando um teclado numérico de tela sensível ao toque. Defina esta opção como *Não* para ocultar o teclado numérico.
 - **Permitir bloqueio da tela touch** – Defina essa opção como *Sim* para permitir que os trabalhadores bloqueiem a tela touch da interface de execução de piso de produção para que possam corrigi-la. Quando essa opção é definida como *Sim*, um botão **Bloquear tela para correção** é adicionado à página de entrada. Quando um trabalhador seleciona esse botão, a tela touch trava temporariamente para evitar a entrada não intencional. Também é mostrado um temporizador de contagem regressiva. Então, o trabalhador pode limpar com segurança o dispositivo e a tela. Quando a contagem regressiva for concluída, a tela touch será automaticamente desbloqueada.
 - **Duração do bloqueio de tela** - quando a opção **Permitir bloqueio da tela touch** estiver definida como *Sim*, use essa opção para especificar o número de segundos de bloqueio da tela touch para correção. A duração deve ser entre 5 e 120 segundos.
 - **Gerar placa de licença** – Defina essa opção como *Sim* para gerar uma nova placa de licença cada vez que um trabalhador usar a interface de execução de piso de produção para relatar como concluído. O número da placa de licença é gerado de uma sequência numérica configurada na página **Parâmetros de gerenciamento de depósito**. Quando essa opção estiver definida como *Não*, os trabalhadores deverão especificar uma placa de licença existente ao relatarem como concluído.

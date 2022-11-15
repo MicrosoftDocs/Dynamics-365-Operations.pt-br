@@ -2,7 +2,7 @@
 title: Visão geral de pagamentos de omni-channel
 description: Este artigo fornece uma visão geral de pagamentos de omni-channel no Dynamics 365 Commerce.
 author: BrianShook
-ms.date: 09/17/2020
+ms.date: 11/04/2020
 ms.topic: overview
 ms.prod: ''
 ms.technology: ''
@@ -17,16 +17,17 @@ ms.search.industry: Retail
 ms.author: brshoo
 ms.search.validFrom: 2019-01-01
 ms.dyn365.ops.version: AX 8.1.3
-ms.openlocfilehash: d850e532a764d22bc926f5649f4ad2907b49d1a0
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: a5cc0725b383ca6657bd19b9dd25b0c60b364467
+ms.sourcegitcommit: 9e2e54ff7d15aa51e58309da3eb52366328e199d
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8881700"
+ms.lasthandoff: 11/04/2022
+ms.locfileid: "9746116"
 ---
 # <a name="omni-channel-payments-overview"></a>Visão geral de pagamentos de omni-channel
 
 [!include [banner](../includes/banner.md)]
+[!include [banner](../includes/preview-banner.md)]
 
 Este artigo fornece uma visão geral de pagamentos de omni-channel no Dynamics 365 Commerce. Ele inclui uma lista abrangente de cenários com suporte, informações sobre funcionalidade, configuração e solução de problemas e descrições de alguns problemas típicos.
 
@@ -169,9 +170,9 @@ Siga estas etapas para executar o cenário.
 6. Na barra de pesquisa, insira **Seattle** e depois selecione a loja de **Seattle** para retirada. 
 7. Selecione **OK** para aceitar a data atual como a data de retirada.
 9. Selecione **Pagar cartão** para iniciar o pagamento.
-10. Conceda o pagamento com cartão para o valor que é devido para o depósito. 
+10. Conceda o pagamento com cartão para o valor que é devido para o depósito.
 11. Conclua o pagamento do depósito no terminal de pagamento. 
-12. Após o depósito ser pago, selecione a opção de usar o mesmo cartão para preenchimento e aguarde a conclusão da ordem. 
+12. Após o depósito ser pago, selecione a opção de usar o mesmo cartão para preenchimento e aguarde a conclusão da ordem. Se 100% do depósito for pago (da etapa 10 acima), os fundos serão capturados imediatamente no cartão e um token de autorização não estará disponível no faturamento porque os fundos já foram capturados e rastreados como pagos.
 13. Inicie o PDV para a loja de Seattle.
 14. No PDV, na página de boas-vindas, selecione a operação **Ordens para retirada** para ver as ordens de retirada na loja. 
 15. Selecione uma ou mais linhas da ordem que foi criada na vitrine da referência e, em seguida, selecione **Retirar**.
@@ -198,7 +199,7 @@ Siga estas etapas para executar o cenário.
 8. Selecione **Pagar cartão** para iniciar o pagamento.
 9. Conceda o pagamento com cartão para o valor que é devido para o depósito. 
 10. Conclua o pagamento do depósito no terminal de pagamento. 
-11. Após o depósito ser pago, selecione a opção de usar o mesmo cartão para preenchimento e aguarde a conclusão da ordem.
+11. Após o depósito ser pago, selecione a opção de usar o mesmo cartão para preenchimento e aguarde a conclusão da ordem. Se 100% do depósito for pago (da etapa 9 acima), os fundos serão capturados imediatamente no cartão e um token de autorização não estará disponível no faturamento porque os fundos já foram capturados e rastreados como pagos.
 
 Quando a ordem é retirada, embalada e faturada no back office, os detalhes de pagamento que são fornecidos no PDV serão usados para capturar os fundos para as mercadorias que estão sendo enviadas para o cliente. 
 

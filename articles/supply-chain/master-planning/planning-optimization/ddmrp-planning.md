@@ -11,12 +11,12 @@ ms.search.region: Global
 ms.author: benebotg
 ms.search.validFrom: 2022-06-30
 ms.dyn365.ops.version: 10.0.28
-ms.openlocfilehash: f1e2cfca47d507c8de7f9323bb8e4262a0e90949
-ms.sourcegitcommit: 3e04f7e4bc0c29c936dc177d5fa11761a58e9a02
+ms.openlocfilehash: 8ba9a6d24923b66259bc8b6cc688ec667cb000de
+ms.sourcegitcommit: 491ab9ae2b6ed991b4eb0317e396fef542d3a21b
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/18/2022
-ms.locfileid: "9689149"
+ms.lasthandoff: 11/03/2022
+ms.locfileid: "9740293"
 ---
 # <a name="demand-driven-planning"></a>Planejamento orientado por demanda
 
@@ -55,4 +55,4 @@ Se você executar o planejamento mestre agora, uma ordem planejada será gerada 
 Este exemplo produz uma ordem de compra planejada para uma quantidade de 130, que é igual ao nível máximo menos o fluxo líquido. A ordem planejada recebe uma prioridade de 53,07, com base na sua porcentagem de quantidade máxima. Como esses valores foram encontrados em 20 de junho, o sistema cria uma ordem planejada com data de 20 de junho mais o prazo de entrega separado para o item (cinco dias úteis neste exemplo). Portanto, como cinco dias úteis são uma semana a partir de hoje, a ordem planejada é datada de 27 de junho.
 
 > [!NOTE]
-> A Otimização de Planejamento calcula somente itens separados usando o DDMRP. Todos os outros itens são calculados usando MRP (Planejamento de Requisitos de Material) padrão.
+> O planejamento mestre calcula somente itens separados usando o DDMRP. Todos os outros itens são calculados usando MRP (Planejamento de Requisitos de Material) padrão.

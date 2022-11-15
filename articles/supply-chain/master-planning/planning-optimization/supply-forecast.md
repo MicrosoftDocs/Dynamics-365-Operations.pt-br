@@ -11,12 +11,12 @@ ms.search.region: Global
 ms.author: benebotg
 ms.search.validFrom: 2022-09-21
 ms.dyn365.ops.version: 10.0.30
-ms.openlocfilehash: dc83d10851958ec67166cb7e40cfd84dceae6651
-ms.sourcegitcommit: 3e04f7e4bc0c29c936dc177d5fa11761a58e9a02
+ms.openlocfilehash: 2bac9355bb1ac00f697ec459f494a64553e0eacc
+ms.sourcegitcommit: 491ab9ae2b6ed991b4eb0317e396fef542d3a21b
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/18/2022
-ms.locfileid: "9690070"
+ms.lasthandoff: 11/03/2022
+ms.locfileid: "9740132"
 ---
 # <a name="master-planning-with-supply-forecasts"></a>Planejamento mestre com previsões de fornecimento
 
@@ -168,13 +168,13 @@ Quando você executar um plano mestre configurado para usar *Nenhum* como o mét
 
 Agora, você edita a ordem de compra planejada que foi criada após o último planejamento executado, e altera a quantidade para *15 ea*. Depois, você aprova a ordem. Da próxima vez que você executar o plano mestre, ele criará uma ordem de compra planejada para o fornecedor *US-101*, site *1*, depósito *11*, uma quantidade de *10* ea e a data *10/10/22*. Desta vez, a quantidade será reduzida para refletir a quantidade da ordem aprovada existente do planejamento anterior executado.
 
-## <a name="differences-between-planning-optimization-and-the-built-in-planning-engine"></a>Diferenças entre Otimização de Planejamento e o mecanismo de planejamento interno
+## <a name="differences-between-planning-optimization-and-the-deprecated-master-planning-engine"></a>Diferenças entre Otimização de Planejamento e mecanismo de planejamento mestre preterido
 
-As previsões de fornecimento operam de forma um pouco distinta, dependendo do mecanismo de planejamento utilizado (planejamento mestre interno ou Otimização de Planejamento). Esta seção descreve as diferenças.
+As previsões de fornecimento operam de forma um pouco distinta, dependendo do mecanismo de planejamento utilizado (otimização de planejamento ou o mecanismo de planejamento mestre preterido). Esta seção descreve as diferenças.
 
 ### <a name="vendor-groups"></a>Grupos de fornecedores
 
-Ao adicionar uma linha prevista, você pode especificar um fornecedor e um grupo de fornecedores. No mecanismo de planejamento interno, as ordens planejadas criadas são agrupadas pela combinação dos valores do fornecedor e do grupo de fornecedores. Na Otimização de Planejamento, as ordens planejadas são agrupadas por fornecedor.
+Ao adicionar uma linha prevista, você pode especificar um fornecedor e um grupo de fornecedores. No mecanismo de planejamento mestre preterido, as ordens planejadas criadas são agrupadas pela combinação dos valores do fornecedor e do grupo de fornecedores. Na Otimização de Planejamento, as ordens planejadas são agrupadas por fornecedor.
 
 A tabela a seguir fornece alguns exemplos de linhas de previsão de fornecimento para um item.
 
@@ -186,7 +186,7 @@ A tabela a seguir fornece alguns exemplos de linhas de previsão de fornecimento
 
 O fornecedor *VendorA* é o fornecedor padrão do grupo de fornecedores *VendorGroupA*. Ele também é o fornecedor padrão do item.
 
-O mecanismo de planejamento interno criará as seguintes ordens:
+O mecanismo de planejamento mestre preterido criará as seguintes ordens:
 
 - Uma ordem de compra planejada para o fornecedor *VendorA*, grupo de fornecedores *VendorGroupA* e uma quantidade de *11*
 - Uma ordem de compra planejada para o fornecedor *VendorA* e uma quantidade de *7*
@@ -197,7 +197,7 @@ A Otimização de Planejamento criará apenas uma ordem:
 
 ### <a name="reduction-of-general-forecasts-by-more-specific-forecasts"></a>Redução de previsões gerais por previsões mais específicas
 
-No mecanismo de planejamento mestre interno, o resultado será imprevisível se algumas previsões tiverem um fornecedor, mas outras não.
+No mecanismo de planejamento mestre preterido, o resultado será imprevisível se algumas previsões tiverem um fornecedor, mas outras não.
 
 Na Otimização de Planejamento, as previsões gerais são sempre reduzidas por previsões mais específicas, como mostra o exemplo a seguir.
 
@@ -218,15 +218,15 @@ A previsão geral (para 15,0 peças) é reduzida pelas previsões mais específi
 
 ### <a name="respect-for-default-order-settings-when-planned-orders-are-generated"></a>Respeitar as configurações de ordem padrão quando as ordens planejadas são geradas
 
-Cada item pode ter configurações de ordem padrão, como uma quantidade de ordem de compra mínima. O mecanismo de planejamento interno ignora essas configurações e, portanto, converte as previsões em ordens planejadas que têm a mesma quantidade. A otimização do planejamento respeita essas configurações quando as ordens planejadas são geradas a partir de previsões de fornecimento. 
+Cada item pode ter configurações de ordem padrão, como uma quantidade de ordem de compra mínima. O mecanismo de planejamento mestre preterido ignora essas configurações e, portanto, converte as previsões em ordens planejadas que têm a mesma quantidade. A otimização do planejamento respeita essas configurações quando as ordens planejadas são geradas a partir de previsões de fornecimento. 
 
 ### <a name="aggregation-of-planned-orders-as-a-result-of-reduction-by-approved-orders"></a>Agregação de ordens planejadas como resultado da redução por ordens aprovadas
 
-O mecanismo de planejamento mestre interno supõe que apenas uma ordem reduzirá a previsão de fornecimento existente. Portanto, se várias ordens corresponderem a uma linha de previsão de fornecimento, apenas a primeira ordem será reduzida. Na Otimização de Planejamento, todas as ordens que correspondem à linha de previsão de fornecimento a reduzirão.
+O mecanismo de planejamento mestre preterido supõe que apenas uma ordem reduzirá a previsão de fornecimento existente. Portanto, se várias ordens corresponderem a uma linha de previsão de fornecimento, apenas a primeira ordem será reduzida. Na Otimização de Planejamento, todas as ordens que correspondem à linha de previsão de fornecimento a reduzirão.
 
 ### <a name="reduction-of-forecasts-by-matching-vendors-only"></a>Redução de previsões somente por fornecedores correspondentes
 
-Quando o mecanismo de planejamento mestre interno reduz uma previsão por ordens de compra lançadas existentes, isso não garante que o fornecedor na ordem de compra corresponda ao fornecedor da previsão. A Otimização do Planejamento reduz as previsões somente por ordens de compra com um valor correspondente no campo de fornecedor.
+Quando o mecanismo de planejamento mestre preterido reduz uma previsão por ordens de compra lançadas existentes, isso não garante que o fornecedor na ordem de compra corresponda ao fornecedor da previsão. A Otimização do Planejamento reduz as previsões somente por ordens de compra com um valor correspondente no campo de fornecedor.
 
 Para ordens de transferência e de produção, o campo de fornecedor é sempre ignorado, pois ele não é relevante para esses tipos de ordem.
 
@@ -234,4 +234,4 @@ Para ordens de transferência e de produção, o campo de fornecedor é sempre i
 
 Se o tipo de ordem padrão de um item for *Transferência*, as previsões só poderão ser reduzidas pelas ordens de transferência planejadas existentes. Mas, para ordens de produção e ordens de compra, somente ordens liberadas reduzem a previsão de fornecimento.
 
-O mecanismo de planejamento interno reduz todos os estados de ordem de transferência, enquanto a Otimização de Planejamento reduz previsões somente por ordens de transferência no estado *Liberado*.
+O mecanismo de planejamento mestre preterido reduz todos os estados de ordem de transferência, enquanto a Otimização de Planejamento reduz previsões somente por ordens de transferência no estado *Liberado*.

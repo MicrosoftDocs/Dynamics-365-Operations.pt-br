@@ -2,23 +2,23 @@
 title: Configurar gerenciamento de tarefas
 description: Este artigo descreve como configurar os recursos de gerenciamento de tarefas no Microsoft Dynamics 365 Commerce.
 author: gvrmohanreddy
-ms.date: 02/10/2020
+ms.date: 11/04/2022
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
 audience: Application User
-ms.reviewer: v-chgriffin
+ms.reviewer: josaw
 ms.search.region: Global
 ms.author: gmohanv
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Release 10.0.9
 ms.search.industry: ''
-ms.openlocfilehash: ff97abab330174b41af76d22c202e8338d6d37fd
-ms.sourcegitcommit: 87e727005399c82cbb6509f5ce9fb33d18928d30
+ms.openlocfilehash: cc2d75f52b183559de344982c8e4208000af786e
+ms.sourcegitcommit: 9e2e54ff7d15aa51e58309da3eb52366328e199d
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/12/2022
-ms.locfileid: "9282752"
+ms.lasthandoff: 11/04/2022
+ms.locfileid: "9746053"
 ---
 # <a name="configure-task-management"></a>Configurar gerenciamento de tarefas
 
@@ -80,7 +80,11 @@ A ilustração a seguir mostra a operação **Gerenciamento de tarefas** na pág
 
 ![Operação de gerenciamento de tarefas na página operações de PDV.](media/HQ-POS-Tasks-Notifications.png)
 
-Para obter mais informações sobre como configurar notificações POS, consulte [Mostrar notificações de ordem no ponto de venda (PDV)](notifications-pos.md).
+Para obter mais informações sobre como configurar notificações POS, consulte o artigo [Mostrar notificações de ordem no ponto de venda (PDV)](notifications-pos.md).
+
+> [!NOTE]
+> Quando você salvar suas alterações, a seguinte mensagem de aviso será exibida: o **parâmetro de operação não será habilitado no designer da grade de botões para uma ID de operação igual ou menor que 4000. Se estiver criando uma operação personalizada e deseja aprovar o parâmetro do designer da grade de botões, use uma ID de operação maior que 4000.** Selecione **Fechar** para fechar a caixa de diálogo.
+
 
 ## <a name="configure-the-tasks-tile-on-a-pos-application-home-page"></a>Configurar o bloco de tarefas em uma home page do aplicativo de PDV
 

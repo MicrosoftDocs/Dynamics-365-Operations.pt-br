@@ -16,12 +16,12 @@ ms.custom: 52851
 ms.assetid: 5c21385e-64e0-4091-98fa-6a662eb33010
 ms.search.industry: Retail
 ms.search.form: RetailChannelProfile, RetailMediaGallery, RetailImages,
-ms.openlocfilehash: f282c163ef5a74283231492e499201c6d4619115
-ms.sourcegitcommit: 87e727005399c82cbb6509f5ce9fb33d18928d30
+ms.openlocfilehash: d334701b2865a4f19365a2773641e324326b02e3
+ms.sourcegitcommit: 78cbb125f20a33df38bda0546203b8f837cbcd93
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/12/2022
-ms.locfileid: "9287502"
+ms.lasthandoff: 11/09/2022
+ms.locfileid: "9751907"
 ---
 # <a name="set-up-and-manage-images-for-modern-pos-mpos"></a>Configurar e gerenciar imagens para Modern POS (MPOS)
 
@@ -160,7 +160,7 @@ Para todas as entidades, exceto Produtos, você pode substituir a URL de imagem 
     [![Página da galeria Imagens de catálogo.](./media/preview-4.png)](./media/preview-4.png)
 
 > [!NOTE]
-> No momento, a galeria não mostra visualizações de imagem para URLs de imagem do modelo da mídia. Para as entidades Catálogo, Trabalhador, Cliente e Categoria, se o usuário fornece explicitamente uma URL através desta página, é recomendável indicar a imagem que é padrão, pois os clientes do Commerce Scale Unit mostram apenas uma imagem por Catálogo, Cliente, Trabalhador e Categoria. Se o usuário não especifica uma imagem padrão, o sistema determina a imagem padrão e a envia ao chamador de serviço do Commerce (MPOS ou comércio eletrônico).
+> Somente imagens acessíveis publicamente e anonimamente serão renderizadas no PDV. O PDV permite a renderização de imagens hospedadas externamente, com o requisito de que as imagens sejam retornadas como fluxo de octetos em linha para solicitações GET sem cabeçalhos. Com a política de acesso anônimo, especificamente para imagens hospedadas no SharePoint que exigem que os cabeçalhos de solicitação contenham cabeçalhos de host e de agente de usuário, uma resposta "Proibido" será retornada. Portanto, o gerenciamento de imagens usando o SharePoint como host não tem suporte pronto para uso no momento. A página da galeria **Imagens do catálogo** não mostra visualizações de imagem para URLs de imagem de modelo de mídia. Como os clientes do Commerce Scale Unit (CSU) mostram apenas uma imagem por entidade Catálogo, Cliente, Trabalhador e Categoria, se você fornecer explicitamente uma URL por meio desta página para entidades Catálogo, Trabalhador, Cliente e Categoria, recomendamos que você indique qual imagem é a imagem padrão. Se você não especificar uma imagem padrão, o sistema determinará a imagem padrão e a enviará para o chamador do serviço do Commerce (MPOS ou comércio eletrônico).
 
 ### <a name="overwrite-the-image-url-for-catalog-product-images-from-the-preview-page"></a>Substituir a URL de imagem para imagens de produto do catálogo da página Visualização
 

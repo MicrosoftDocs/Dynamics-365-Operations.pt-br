@@ -1,6 +1,6 @@
 ---
 title: Métodos de reabastecimento e modificação de quantidade
-description: Este artigo fornece informações sobre os métodos de reabastecimento na Otimização de Planejamento. Também explica como a quantidade múltipla de ordens de um produto afeta o resultado.
+description: Este artigo fornece informações sobre os métodos de reabastecimento. Também explica como a quantidade múltipla de ordens de um produto afeta o resultado.
 author: t-benebo
 ms.date: 6/1/2021
 ms.topic: article
@@ -11,26 +11,26 @@ ms.search.region: Global
 ms.author: benebotg
 ms.search.validFrom: 2021-06-01
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: d3e8ef3d38f1b9bacd89304aaf3f0350050232bd
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: d1e0fe6c1f49bc0f6887f1b29118c1fee7a6222f
+ms.sourcegitcommit: 491ab9ae2b6ed991b4eb0317e396fef542d3a21b
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8873685"
+ms.lasthandoff: 11/03/2022
+ms.locfileid: "9739747"
 ---
 # <a name="replenishment-methods-and-quantity-modification"></a>Métodos de reabastecimento e modificação de quantidade
 
 [!include [banner](../../includes/banner.md)]
 
-Este artigo fornece informações sobre os métodos de reabastecimento na Otimização de Planejamento. Também explica como a quantidade múltipla de ordens de um produto afeta o resultado.
+Este artigo fornece informações sobre os métodos de reabastecimento. Também explica como a quantidade múltipla de ordens de um produto afeta o resultado.
 
 Os métodos de reabastecimento também são conhecidos como métodos de cobertura e métodos de dimensionamento de lotes.
 
 ## <a name="coverage-codes"></a>Códigos de cobertura
 
-A Otimização de Planejamento pode ser configurada para usar diversos métodos de reabastecimento. Os métodos de reabastecimento são as técnicas que o sistema usa para calcular os requisitos de um produto. Os métodos de reabastecimento são definidos por códigos de cobertura que você pode configurar no grupo de cobertura ou no produto.
+O planejamento mestre pode ser configurado para usar diversos métodos de reabastecimento. Os métodos de reabastecimento são as técnicas que o sistema usa para calcular os requisitos de um produto. Os métodos de reabastecimento são definidos por códigos de cobertura que você pode configurar no grupo de cobertura ou no produto.
 
-Os seguintes códigos de cobertura podem ser usados na Otimização de Planejamento:
+Os seguintes códigos de cobertura podem ser usados:
 
 - **Período** - O método de reabastecimento combina toda a demanda de um período em uma ordem para o produto. A ordem será planejada para o primeiro dia do período e sua quantidade preencherá as requisições líquidas durante o período estabelecido. O período começa com a primeira a demanda do produto e abrange o tempo definido. O período seguinte começará com as requisições seguintes do produto. O código de cobertura *Período* é usado frequentemente para emissão de inventário não previsível, produtos sazonais ou produtos de alto custo. A ilustração a seguir mostra um exemplo.
 
@@ -64,13 +64,13 @@ Na página **Configuração de ordem padrão** para um produto liberado, você p
 
 ## <a name="examples-of-replenishment-that-use-the-minmax-coverage-code"></a>Exemplos de reabastecimentos que usam o código de cobertura Mín./Máx.
 
-Se você não especificar um valor no campo **Múltiplo** para um produto na página de **Configuração de ordem padrão** e se você estiver usando o método de reabastecimento *Mín./Máx.*, a Otimização de Planejamento reabastecerá o inventário até um nível específico quando o nível disponível previsto estiver abaixo de um limite específico.
+Se você não especificar um valor no campo **Múltiplo** para um produto na página de **Configuração de ordem padrão** e se você estiver usando o método de reabastecimento *Mín./Máx.*, o planejamento mestre reabastecerá o inventário até um nível específico quando o nível disponível previsto estiver abaixo de um limite específico.
 
 Se você definir uma quantidade múltipla para um produto, o método de reabastecimento *Mín./Máx.* mudará seu comportamento e considerará o valor **Múltiplo**.
 
-Em outras palavras, a Otimização de Planejamento ainda reabastecerá o inventário até o nível máximo definido quando o nível previsto disponível for inferior ao nível mínimo definido. No entanto, a quantidade de reabastecimento deve ser um múltiplo do valor de **Múltiplo**.
+Em outras palavras, o planejamento mestre ainda reabastecerá o inventário até o nível máximo definido quando o nível previsto disponível for inferior ao nível mínimo definido. No entanto, a quantidade de reabastecimento deve ser um múltiplo do valor de **Múltiplo**.
 
-Se a quantidade de reabastecimento (a diferença entre o nível máximo e o nível previsto disponível) não for um múltiplo da quantidade múltipla definida, a Otimização de Planejamento usará o primeiro valor possível que, juntamente com o nível previsto disponível, esteja abaixo do nível máximo. Se a soma for inferior ao nível mínimo, a Otimização de Planejamento utilizará o primeiro valor que, juntamente com o previsto disponível, estiver acima do nível máximo.
+Se a quantidade de reabastecimento (a diferença entre o nível máximo e o nível previsto disponível) não for um múltiplo da quantidade múltipla definida, o planejamento mestre usará o primeiro valor possível que, juntamente com o nível previsto disponível, esteja abaixo do nível máximo. Se a soma for inferior ao nível mínimo, o planejamento mestre utilizará o primeiro valor que, juntamente com o previsto disponível, estiver acima do nível máximo.
 
 As seguintes subseções fornecem alguns exemplos que mostram como o resultado do método de reabastecimento *Mín./Máx.* é afetada pela quantidade múltipla da ordem para um produto.
 

@@ -15,12 +15,12 @@ ms.dyn365.ops.version: AX 7.0.0, Retail July 2017 update
 ms.custom: ''
 ms.assetid: ''
 ms.search.industry: Retail
-ms.openlocfilehash: 42010bbc0cfb9714fc2be360c817bad07e184eb3
-ms.sourcegitcommit: 435e69160dbd7f9c61b37ac4440285a5df144622
+ms.openlocfilehash: eb21dc5ca474a87fcabe2dda2a06dda7aa42ebc2
+ms.sourcegitcommit: 719600437fc0895efac374f954a895e4c951da6e
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/28/2022
-ms.locfileid: "9728267"
+ms.lasthandoff: 11/03/2022
+ms.locfileid: "9736872"
 ---
 # <a name="online-and-offline-point-of-sale-pos-operations"></a>Operações de ponto de venda (PDV) online e offline
 
@@ -42,6 +42,7 @@ As seguintes colunas especificam onde as operações podem ser invocados:
 
 > [!NOTE]
 > As operações listadas a seguir se aplicam à versão mais recente do Commerce. Algumas operações podem ter mudado ou podem não estar disponíveis nas versões anteriores.
+> Para obter detalhes adicionais sobre recursos e configuração offline, consulte o artigo [Implementação e solução de problemas offline do Commerce](dev-itpro/implementation-considerations-offline.md).
 
 | ID   | Operação                                         | Descrição                                                                                                                                                                                                    | Operações do usuário    | Tela de transação | Tela de boas-vindas | Disponível offline? | Específico de localidade |
 | ---- | ------------------------------------------------- | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | -------------- | ------------------ | -------------- | ----------------- | --------------- |

@@ -1,6 +1,6 @@
 ---
-title: Requisitos líquidos e informações de vinculação com a Otimização de Planejamento
-description: Este artigo fornece informações sobre os requisitos líquidos e as informações de vinculação calculadas na Otimização do Planejamento.
+title: Requisitos líquidos e informações de vinculação
+description: Este artigo fornece informações sobre os requisitos líquidos e as informações de vinculação calculadas.
 author: t-benebo
 ms.date: 7/28/2021
 ms.topic: article
@@ -11,20 +11,20 @@ ms.search.region: Global
 ms.author: benebotg
 ms.search.validFrom: 2021-07-28
 ms.dyn365.ops.version: 10.0.20
-ms.openlocfilehash: 259e5793a8dfac67793034d98ccb627fe1947bab
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: a31ff5490b08d92f0d966388b65de02bca25b050
+ms.sourcegitcommit: 613be2f35e600ae1a1fa7ea2ae30e78984ca398a
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8888518"
+ms.lasthandoff: 11/07/2022
+ms.locfileid: "9748429"
 ---
-# <a name="net-requirements-and-pegging-information-with-planning-optimization"></a>Requisitos líquidos e informações de vinculação com a Otimização de Planejamento
+# <a name="net-requirements-and-pegging-information"></a>Requisitos líquidos e informações de vinculação
 
 [!include [banner](../../includes/banner.md)]
 
-Quando você executa o planejamento mestre na Otimização de Planejamento, é importante que você compreenda a saída deste recurso, a forma como o fornecimento existente cobre a demanda e por que um fornecimento específico foi gerado. Você pode usar a página **Requisitos líquidos** para compreender melhor os requisitos calculados que o planejamento mestre gera.
+Quando você executa o planejamento mestre, é importante que você compreenda a saída deste recurso, a forma como o fornecimento existente cobre a demanda e por que um fornecimento específico foi gerado. Você pode usar a página **Requisitos líquidos** para compreender melhor os requisitos calculados que o planejamento mestre gera.
 
-A página **Requisitos líquidos** mostra os requisitos líquidos que a Otimização de Planejamento calculou para o produto. Isso também mostra as configurações de cobertura que foram aplicadas durante a execução do planejamento mestre, um detalhamento dos requisitos totais por tipo de transação e informações sobre vinculação.
+A página **Requisitos líquidos** mostra os requisitos líquidos que o planejamento mestre calculou para o produto. Isso também mostra as configurações de cobertura que foram aplicadas durante a execução do planejamento mestre, um detalhamento dos requisitos totais por tipo de transação e informações sobre vinculação.
 
 ## <a name="open-the-net-requirements-page"></a>Abrir a página Requisitos líquidos
 
@@ -64,8 +64,8 @@ A seção inferior da página fornece as seguintes guias:
 Os seguintes comandos estão disponíveis no Painel de Ações:
 
 - **Atualizar \> Planejamento mestre** – Execute o planejamento mestre diretamente na página **Requisitos líquidos**.
-- **Atualizar \> Planejamento de previsão** – Execute o planejamento de previsão diretamente na página **Requisitos líquidos**. A Otimização de Planejamento ainda não oferece suporte a essa operação.
-- **Atualizar \> Plano de continuidade** – Execute o planejamento de continuidade diretamente na página **Requisitos líquidos**. A Otimização de Planejamento ainda não oferece suporte a essa operação.
+- **Atualizar \> Planejamento de previsão** – Execute o planejamento de previsão diretamente na página **Requisitos líquidos**. A Otimização de Planejamento não oferece suporte a essa operação.
+- **Atualizar \> Plano de continuidade** – Execute o planejamento de continuidade diretamente na página **Requisitos líquidos**. A Otimização de Planejamento não oferece suporte a essa operação.
 
 ## <a name="example-scenario"></a>Cenário de exemplo
 
@@ -133,8 +133,6 @@ Em seguida, você abrirá a página **Requisitos líquidos** do produto *1000* p
     ![Informações sobre vinculação para a ordem de venda](media/pegging-planned-purchase-order.png "Informações sobre vinculação para a ordem de venda")
 
 > [!NOTE]
-> Como a Otimização de Planejamento ainda não oferece suporte a alguns recursos, os tipos de requisitos *Estoque de segurança* e *Lote expirado* não são incluídos na página **Requisitos líquidos**. Para obter mais informações, consulte [Introdução à análise de ajuste da Otimização de Planejamento](planning-optimization-fit-analysis.md).
->
-> Se você estiver usando o mecanismo de planejamento mestre interno, os produtos controlados por lote serão aceitos. Para produtos controlados por lote, o estoque disponível expirado é mostrado na página **Requisitos líquidos**, mas não é vinculado com requisitos de demanda. As linhas disponíveis e vencidas deste tipo, são mostradas como linhas de requisitos de *Lote expirado* na página **Requisitos líquidos**.
+> O requisito *Estoque de segurança* não está incluído na página **Requisitos líquidos**.
 
 [!INCLUDE[footer-include](../../../includes/footer-banner.md)]

@@ -1,6 +1,6 @@
 ---
-title: Introdução à Otimização do Planejamento
-description: Este artigo explica como começar a usar a funcionalidade Otimização de Planejamento.
+title: Introdução ao planejamento mestre
+description: Este artigo explica como começar a usar a funcionalidade de planejamento mestre no Dynamics 365 Supply Chain Management.
 author: t-benebo
 ms.date: 05/20/2021
 ms.topic: article
@@ -16,27 +16,18 @@ ms.search.industry: Manufacturing
 ms.author: benebotg
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: AX 10.0.5
-ms.openlocfilehash: 629a84135434ad79f8397649ee9a4a62e49751d9
-ms.sourcegitcommit: 14a27b776befbc6793390f97e8fb0279c0ea18c1
+ms.openlocfilehash: 958de3f9ae6ead6cb6914bd3b7a4560e768013ab
+ms.sourcegitcommit: 491ab9ae2b6ed991b4eb0317e396fef542d3a21b
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/15/2022
-ms.locfileid: "9295915"
+ms.lasthandoff: 11/03/2022
+ms.locfileid: "9740320"
 ---
-# <a name="get-started-with-planning-optimization"></a>Introdução à Otimização de Planejamento
+# <a name="get-started-with-master-planning"></a>Introdução ao planejamento mestre
 
 [!include [banner](../../includes/banner.md)]
 
-Como [anunciado anteriormente](../../get-started/removed-deprecated-features-scm-updates.md#use-of-built-in-supply-chain-management-master-planning-engine-for-distribution-scenarios), a Otimização de Planejamento está agendada para substituir o mecanismo de planejamento mestre existente.
-
-Se estiver usando o mecanismo de planejamento mestre interno no momento, você deverá começar a planejar a migração para a Otimização de Planejamento agora. É importante começar logo; caso contrário, suas operações poderão ser impactadas quando a substituição for imposta (embora a imposição não esteja agendada no momento). É altamente recomendável concluir a migração assim que a Otimização do Planejamento der suporte aos recursos necessários para que você possa começar a aproveitar os vários aperfeiçoamentos de desempenho e outros novos recursos fornecidos pelo novo serviço.
-
-No momento, a funcionalidade Otimização de Planejamento não dá suporte a todos os recursos disponíveis no mecanismo de planejamento interno do Supply Chain Management. Portanto, é importante que você avalie se o conjunto de recursos disponível no momento na Otimização de Planejamento atenderá aos seus requisitos. No momento, a funcionalidade Otimização de Planejamento não está ativada por padrão no Dynamics Lifecycle Services (LCS), de modo que você tem a oportunidade de fazer a avaliação antes do recurso ser ativado.
-
-> [!NOTE]
-> Você precisará solicitar uma exceção da migração para a Otimização de Planejamento se o processo de planejamento mestre não incluir a produção (ordens de produção planejadas geradas pelo planejamento mestre) e se precisar do mecanismo de planejamento mestre interno além da versão 10.0.15. A partir da versão 10.0.16, um erro será mostrado nos ambientes durante a execução do planejamento mestre interno sem a geração de ordens de produção planejadas. A Otimização de Planejamento deverá ser usada para todas as novas implantações que não gerem ordens de produção planejadas durante o planejamento mestre. Os proprietários de ambientes existentes que executam o mecanismo de planejamento mestre interno sem a geração de ordens de produção planejadas receberão um email com detalhes sobre o processo de exceção. Recomendamos que você trabalhe com um parceiro para avaliar e planejar a migração para a Otimização de Planejamento.
-
-Antes de ativar a Otimização de Planejamento, recomendamos enfaticamente que você avalie os resultados da análise de ajuste da Otimização de Planejamento. Para obter mais informações, consulte [Introdução à análise de ajuste da Otimização de Planejamento](planning-optimization-fit-analysis.md).
+O planejamento mestre no Supply Chain Management é fornecido por um serviço externo denominado Suplemento de Otimização de Planejamento para Microsoft para Dynamics 365 Supply Chain Management. Este tópico explica como obter e configurar este serviço.
 
 ## <a name="availability"></a>Disponibilidade
 
@@ -108,31 +99,15 @@ O status de conexão indica o status atual da conexão entre o Supply Chain Mana
 A configuração da opção **Usar Otimização de Planejamento** determina qual mecanismo de planejamento é usado para o planejamento mestre:
 
 - **Sim** – a Otimização de Planejamento é usada para o planejamento mestre.
-- **Não** – o mecanismo de planejamento interno do Supply Chain Management é usado para o planejamento mestre.
+- **Não** – o mecanismo de planejamento mestre preterido é usado para planejamento mestre.
 
-Esse cenário se aplica a todas as entidades legais (empresas). Não é possível utilizar a Otimização de Planejamento em algumas entidades legais e o planejamento mestre incorporado em outras entidades legais.
+Esse cenário se aplica a todas as entidades legais (empresas). Não é possível utilizar a Otimização de Planejamento em algumas entidades legais e o mecanismo de planejamento mestre preterido em outras entidades legais.
 
 > [!NOTE]
-> Se os trabalhos em lotes de planejamento existentes criados para o mecanismo de planejamento interno do Supply Chain Management forem disparados quando a opção **Usar Otimização de Planejamento** estiver definida como **Sim**, esses trabalhos falharão.
+> Se os trabalhos em lotes de planejamento existentes criados para o mecanismo de planejamento mestre preterido forem disparados quando a opção **Usar Otimização de Planejamento** estiver definida como **Sim**, esses trabalhos falharão.
 
 ### <a name="integration-with-the-setup"></a>Integração com a configuração
 
 Se Otimização de Planejamento estiver ativado, o planejamento mestre será feito usando o Suplemento Otimização de Planejamento. Neste caso, os resultados do planejamento mestre e os recursos são afetados.
 
-## <a name="additional-resources"></a>Recursos adicionais
-
-[Termos e condições para a versão prévia](https://go.microsoft.com/fwlink/?linkid=2015274)
-
-[Visão geral de Otimização de Planejamento](planning-optimization-overview.md)
-
-[Análise de ajuste da Otimização de Planejamento](planning-optimization-fit-analysis.md)
-
-[Exibir logs de histórico de plano e de planejamento](plan-history-logs.md)
-
-[Aplicar filtros a um plano](plan-filters.md)
-
-[Cancelar um trabalho de planejamento](cancel-planning-job.md)
-
-
 [!INCLUDE[footer-include](../../../includes/footer-banner.md)]
-

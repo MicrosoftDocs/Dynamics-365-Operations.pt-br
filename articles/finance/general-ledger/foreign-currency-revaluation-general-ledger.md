@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: kweekley
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 1e90780ca2a33725130b261fcaf4cb08d30f3270
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: 3e0f4184237537464998b2bc1a6ab02561d9d291
+ms.sourcegitcommit: f96e5dec5a808d9819d2a23b8e15ce00aeff475b
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8904518"
+ms.lasthandoff: 11/10/2022
+ms.locfileid: "9752794"
 ---
 # <a name="foreign-currency-revaluation-for-general-ledger"></a>Reavaliação de moeda estrangeira para contabilidade
 
@@ -64,7 +64,9 @@ O processo de reavaliação pode ser executado para uma ou mais entidades legais
 
 Reavaliação pode ser realizado para uma ou mais moedas estrangeiras. A pesquisa incluirá todas as moedas lançadas no intervalo de data relevante para o tipo de conta principal (balanço ou lucros e perdas), para as entidades legais selecionadas para reavaliação. A moeda contábil será incluída na lista, mas nada será reavaliado, se a moeda contábil estiver selecionada. 
 
-Defina **Visualizar antes do lançamento** como **Sim** se quiser revisar o resultado da reavaliação da Contabilidade. A exibição na contabilidade é diferente da simulação na reavaliação de moeda estrangeira de AR e AP. A simulação em AR e AP é um relatório, mas a contabilidade tem uma visualização que pode ser lançada, sem precisar executar novamente o processo de reavaliação. Os resultados de exibição podem ser exportados para o Microsoft Excel para manter o histórico como os valores foram calculados. Você não pode usar o processamento em lotes se você deseja visualizar os resultados de reavaliação. Visualização, o usuário tem a opção de lançar os resultados de todas as entidades legais usando **Lançar** o botão. Se houver um problema com os resultados de uma entidade legal, o usuário também tem a opção de lançar um subconjunto entidades legais usando **Entidades legais no lançamento** o botão. 
+Defina **Visualizar antes do lançamento** como **Sim** se quiser revisar o resultado da reavaliação da Contabilidade. A exibição na contabilidade é diferente da simulação na reavaliação de moeda estrangeira de AR e AP. A simulação em AR e AP é um relatório, mas a contabilidade tem uma visualização que pode ser lançada, sem precisar executar novamente o processo de reavaliação. Os resultados de exibição podem ser exportados para o Microsoft Excel para manter o histórico como os valores foram calculados. Você não pode usar o processamento em lotes se você deseja visualizar os resultados de reavaliação. Visualização, o usuário tem a opção de lançar os resultados de todas as entidades legais usando **Lançar** o botão. Se houver um problema com os resultados de uma entidade legal, o usuário também tem a opção de lançar um subconjunto entidades legais usando **Entidades legais no lançamento** o botão.
+
+Se quiser excluir ajustes que foram lançados usando o **Diário de ajustes de moeda de relatório** do processo de reavaliação, defina **Excluir ajustes de moeda de relatório** como **Sim**. Por padrão, os ajustes de moeda de relatório são incluídos na reavaliação. 
 
 Depois que o processo de reavaliação de moeda estrangeira for concluído, será criado um registro para controlar o histórico de cada execução.  Um registro separado será criado para cada entidade legal e nível de lançamento.
 
