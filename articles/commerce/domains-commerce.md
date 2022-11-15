@@ -2,19 +2,19 @@
 title: Domínios no Dynamics 365 Commerce
 description: Este artigo descreve como os domínios são tratados no Microsoft Dynamics 365 Commerce.
 author: BrianShook
-ms.date: 09/09/2022
+ms.date: 11/08/2022
 ms.topic: article
 audience: Application User, Developer, IT Pro
 ms.reviewer: v-chgriffin
 ms.search.region: Global
 ms.author: BrShoo
 ms.search.validFrom: 2017-06-20
-ms.openlocfilehash: 132aec92d2b3d2765dd6bd261fb4182f8aae679a
-ms.sourcegitcommit: dbb997f252377b8884674edd95e66caf8d817816
+ms.openlocfilehash: f1a2de7984aad7d291b8a4dc68f5690d57ebe6cc
+ms.sourcegitcommit: 2b654e60e2553a5835ab5790db4ccfa58828fae7
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 09/10/2022
-ms.locfileid: "9465184"
+ms.lasthandoff: 11/08/2022
+ms.locfileid: "9750671"
 ---
 # <a name="domains-in-dynamics-365-commerce"></a>Domínios no Dynamics 365 Commerce
 
@@ -44,7 +44,7 @@ Você pode criar uma solicitação de serviço para adicionar outros domínios a
 
 Ao provisionar um ambiente de comércio eletrônico do Dynamics 365 Commerce, o Commerce gerará uma URL que será o endereço funcional do ambiente. Essa URL é referenciada no link do site de comércio eletrônico mostrado no LCS depois que o ambiente é provisionado. Uma URL gerada pelo Commerce está no formato `https://<e-commerce tenant name>.dynamics365commerce.ms`, em que o nome do locatário de comércio eletrônico é o nome inserido no LCS para o ambiente do Commerce.
 
-Você também pode usar nomes de host de sites de produção em um ambiente de área restrita. Essa opção é ideal para copiar um site de um ambiente de área restrita para produção.
+Você também pode usar nomes de host de sites de produção em um ambiente de área restrita. Essa opção é ideal quando você estiver copiando um site de um ambiente de área restrita para produção.
 
 ## <a name="site-setup"></a>Configuração do site
 
@@ -95,6 +95,12 @@ Por exemplo, o ambiente "xyz" foi provisionado e dois sites foram criados e asso
 
 Quando uma cadeia de caracteres de consulta de domínio não é fornecida em um ambiente com vários domínios fornecidos, o Commerce usa o primeiro domínio fornecido. Por exemplo, se o caminho "fabrikam" foi fornecido primeiro durante a configuração do site, a URL `https://xyz.dynamics365commerce.ms` pode ser usada para acessar o conteúdo do site publicado para `www.fabrikam.com`.
 
+Você também pode adicionar domínios personalizados. Para fazer isso, na página de gerenciamento de ambientes do Commerce para o projeto, no subtítulo **e-Commerce** selecione **+ Adicionar domínio personalizado**. O controle deslizante mostra os domínios personalizados existentes e fornece a opção de adicionar um novo domínio personalizado.
+
+## <a name="update-which-commerce-scale-unit-is-used"></a>Atualizar qual Commerce Scale Unit é usada
+
+A Commerce Scale Unit (CSU) usada pelo Commerce geralmente é selecionada quando um ambiente é criado inicialmente. O Commerce permite que você altere a instância de CSU que seu ambiente usa, permitindo que você mantenha uma melhor arquitetura com a funcionalidade de autoatendimento e reduzindo a necessidade de contatar o suporte. Para atualizar sua instância CSU, vá para a página de gerenciamento do Commerce do ambiente do projeto e selecione **Atualizar unidade de escala**. Use o controle deslizante **Nova Commerce Scale Unit** para selecionar uma nova instância de CSU na lista de CSUs disponíveis para seu ambiente.
+
 ## <a name="traffic-forwarding-in-production"></a>Encaminhamento de tráfego na produção
 
 Você pode simular vários domínios usando parâmetros de cadeias de caracteres de consulta de domínio no próprio ponto de extremidade commerce.dynamics.com. No entanto, quando você precisar ficar ativo na produção, deverá encaminhar o tráfego do seu domínio personalizado para o ponto de extremidade `<e-commerce tenant name>.dynamics365commerce.ms`.
@@ -103,9 +109,9 @@ O ponto de extremidade `<e-commerce tenant name>.dynamics365commerce.ms` não of
 
 Para configurar domínios personalizados usando um serviço de front door ou uma CDN, você tem duas opções:
 
-- Configurar um serviço de front door como o Azure Front Door para lidar com tráfego front-end e conectar-se ao seu ambiente do Commerce. Isso oferece maior controle sobre o gerenciamento de domínios e certificados, além de políticas de segurança mais granulares.
+- Configure um serviço de front door como Azure Front Door para lidar com o tráfego de front-end e conecte-se ao seu ambiente do Commerce, o que fornece maior controle sobre o gerenciamento de domínio e de certificados e diretivas de segurança mais granulares.
 
-- Usar a instância do Azure Front Door fornecida pelo Commerce. Isso requer a coordenação de ações com a equipe do Dynamics 365 Commerce para a verificação de domínio e a obtenção de certificados SSL para o seu domínio de produção.
+- Use a instância do Azure Front Door fornecida pelo Commerce que requer a ação de coordenação com a equipe do Dynamics 365 Commerce para a verificação de domínio e a obtenção de certificados SSL para o seu domínio de produção.
 
 > [!NOTE]
 > Se você estiver usando uma CDN externa ou um serviço de front door, certifique-se de que a aterrissagem da solicitação seja na plataforma do Commerce com o nome do host fornecido pelo Commerce, mas com o cabeçalho X-Forwarded-Host (XFH) \<custom-domain\>. Por exemplo, se o ponto de extremidade do Commerce for `xyz.dynamics365commerce.ms` e o domínio personalizado for `www.fabrikam.com`, o cabeçalho do host da solicitação encaminhada deverá ser `xyz.dynamics365commerce.ms` e o cabeçalho XFH deverá ser `www.fabrikam.com`.
@@ -115,7 +121,7 @@ Para obter informações sobre como configurar um serviço de CDN diretamente, c
 Para usar a instância do Azure Front Door fornecida pelo Commerce, você deve criar uma solicitação de serviço para obter assistência de configuração da CDN da equipe de integração do Commerce. 
 
 - Você precisará fornecer o nome da empresa, o domínio de produção, a ID do ambiente e o nome do locatário de produção de comércio eletrônico. 
-- Você precisará confirmar se esse é um domínio existente (usado para um site ativo no momento) ou um novo domínio. 
+- Você precisará confirmar se essa solicitação de serviço é para um domínio existente (usado para um site ativo no momento) ou um novo domínio. 
 - Para um novo domínio, a verificação de domínio e o certificado SSL podem ser obtidos em uma única etapa. 
 - Para um domínio que atende a um site existente, há um processo de várias etapas necessário para estabelecer a verificação de domínio e o certificado SSL. Esse processo tem um contrato de nível de serviço (SLA) de 7 dias úteis para um domínio entrar no ar, pois ele inclui várias etapas sequenciais.
 

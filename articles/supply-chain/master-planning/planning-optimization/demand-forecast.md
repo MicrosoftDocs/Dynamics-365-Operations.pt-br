@@ -1,6 +1,6 @@
 ---
 title: Planejamento mestre com previsões de demanda
-description: Este artigo explica como incluir previsões de demanda durante o planejamento mestre com Otimização de Planejamento.
+description: Este artigo explica como incluir previsões de demanda durante o planejamento mestre.
 author: t-benebo
 ms.date: 12/02/2020
 ms.topic: article
@@ -16,18 +16,18 @@ ms.search.industry: Manufacturing
 ms.author: benebotg
 ms.search.validFrom: 2020-12-02
 ms.dyn365.ops.version: AX 10.0.13
-ms.openlocfilehash: 63221b5270416cad9cdfb586c697d7700f3b561b
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: 79a25d6fc5c809947b5b92a32cc00c9a3cc73202
+ms.sourcegitcommit: 491ab9ae2b6ed991b4eb0317e396fef542d3a21b
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8878980"
+ms.lasthandoff: 11/03/2022
+ms.locfileid: "9739774"
 ---
 # <a name="master-planning-with-demand-forecasts"></a>Planejamento mestre com previsões de demanda
 
 [!include [banner](../../includes/banner.md)]
 
-Você pode usar uma previsão de demanda junto com a Otimização de Planejamento para contabilizar a demanda esperada no planejamento mestre. Você pode criar manualmente uma previsão de demanda, importá-la ou gerá-la usando a funcionalidade de previsão de demanda no Microsoft Dynamics 365 Supply Chain Management. Para obter mais informações sobre a previsão de demanda, consulte [Visão geral de previsão de demanda](../introduction-demand-forecasting.md).
+Você pode usar uma previsão de demanda para contabilizar a demanda esperada no planejamento mestre. Você pode criar manualmente uma previsão de demanda, importá-la ou gerá-la usando a funcionalidade de previsão de demanda no Microsoft Dynamics 365 Supply Chain Management. Para obter mais informações sobre a previsão de demanda, consulte [Visão geral de previsão de demanda](../introduction-demand-forecasting.md).
 
 > [!NOTE]
 > Não há suporte para planejamento de previsão separado com a Otimização de Planejamento. Portanto, a configuração **Plano de previsão atual** na página **Parâmetros de planejamento mestre** não tem efeito ao usar a Otimização de Planejamento.
@@ -50,7 +50,7 @@ Para configurar um plano mestre de forma que inclua uma previsão de demanda, si
     - **Período de tempo de previsão** – se você definir a opção **Plano de previsão** como *Sim*, especifique o número de dias (a partir da data de hoje) em que a previsão de demanda deve ser aplicada.
 
     > [!IMPORTANT]
-    > A configuração de **Plano de previsão** ainda não tem suporte com a Otimização de Planejamento.
+    > A configuração de **Plano de previsão** não tem suporte com a Otimização de Planejamento.
 
 ## <a name="set-up-a-coverage-group-to-include-a-demand-forecast"></a>Configurar um grupo de cobertura para incluir uma previsão de demanda
 

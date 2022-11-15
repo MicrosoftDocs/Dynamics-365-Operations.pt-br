@@ -1,6 +1,6 @@
 ---
 title: Margens de segurança
-description: Este artigo descreve como as margens de segurança podem ser usadas com o Suplemento de Otimização de Planejamento do Microsoft Dynamics 365 Supply Chain Management.
+description: Este artigo descreve como as margens de segurança funcionam durante o planejamento mestre.
 author: t-benebo
 ms.date: 08/09/2022
 ms.topic: article
@@ -16,18 +16,18 @@ ms.search.industry: Manufacturing
 ms.author: benebotg
 ms.search.validFrom: 2020-9-14
 ms.dyn365.ops.version: AX 10.0.13
-ms.openlocfilehash: 247b48afab68651cff0ce84c8268a1df35a15c02
-ms.sourcegitcommit: 203c8bc263f4ab238cc7534d4dd902fd996d2b0f
+ms.openlocfilehash: 87b38276a2723374969a67c5413dde15537d04ec
+ms.sourcegitcommit: 491ab9ae2b6ed991b4eb0317e396fef542d3a21b
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/23/2022
-ms.locfileid: "9335185"
+ms.lasthandoff: 11/03/2022
+ms.locfileid: "9740432"
 ---
 # <a name="safety-margins"></a>Margens de segurança
 
 [!include [banner](../../includes/banner.md)]
 
-Este artigo descreve como as margens de segurança podem ser usadas com o Suplemento de Otimização de Planejamento do Microsoft Dynamics 365 Supply Chain Management.
+Este artigo descreve como as margens de segurança funcionam durante o planejamento mestre.
 
 ## <a name="safety-margins-overview"></a>Visão geral das margens de segurança
 
@@ -165,12 +165,5 @@ Os três tipos de margens de segurança são incluídos quando o sistema determi
 Por exemplo, um item tem prazo de entrega de um dia e uma margem de recebimento de três dias. Uma ordem de venda para este item é definida como exigida hoje. Nesse caso, o atraso é calculado como *prazo de entrega* + *margem de recebimento* = quatro dias. Portanto, se hoje for 14 de agosto, os quatro dias de atraso geram uma entrega em 18 de agosto. A ilustração a seguir mostra esse exemplo.
 
 ![Exemplo de cálculo de atraso.](media/safety-margins-delays.png)
-
-## <a name="additional-resources"></a>Recursos adicionais
-
-[Introdução à Otimização do Planejamento](get-started.md)
-
-[Análise de ajuste da Otimização de Planejamento](planning-optimization-fit-analysis.md)
-
 
 [!INCLUDE[footer-include](../../../includes/footer-banner.md)]

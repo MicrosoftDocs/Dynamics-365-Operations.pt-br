@@ -11,12 +11,12 @@ ms.search.region: Global
 ms.author: benebotg
 ms.search.validFrom: 2022-06-30
 ms.dyn365.ops.version: 10.0.28
-ms.openlocfilehash: 31b45fdb92cf8a590ff77104f0c8015fb4d329d5
-ms.sourcegitcommit: 3e04f7e4bc0c29c936dc177d5fa11761a58e9a02
+ms.openlocfilehash: cf5ca3996a882111b840e3acb5e2a4f3f26ec4b7
+ms.sourcegitcommit: 491ab9ae2b6ed991b4eb0317e396fef542d3a21b
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/18/2022
-ms.locfileid: "9689479"
+ms.lasthandoff: 11/03/2022
+ms.locfileid: "9740841"
 ---
 # <a name="demand-driven-material-requirements-planning-ddmrp-overview"></a>Visão geral do DDMRP (Planejamento de Requisitos de Material Orientado por Demanda)
 
@@ -44,6 +44,6 @@ Normalmente, o DDMRP é usado pelos fabricantes que têm uma BOM (lista de mater
 
 ## <a name="ddmrp-in-dynamics-365-supply-chain-management"></a>DDMRP no Dynamics 365 Supply Chain Management
 
-O DDMRP está incluído no Microsoft Dynamics 365 Supply Chain Management e não requer taxas de licença adicionais. No Supply Chain Management, a funcionalidade do DDMRP foi adicionada ao módulo **Planejamento mestre** existente. No entanto, é necessário usar o suplemento Otimização de Planejamento. 
+O DDMRP está incluído no Microsoft Dynamics 365 Supply Chain Management e não requer taxas de licença adicionais. No Supply Chain Management, a funcionalidade do DDMRP foi adicionada ao módulo **Planejamento mestre** existente. No entanto, é necessário usar o suplemento Otimização de Planejamento.
 
 O DDMRP é integrado às configurações de planejamento existentes no Supply Chain Management e é usado em conjunto com essas configurações para chegar à configuração de planejamento correta para a sua empresa. Ele é controlado por um novo código de cobertura que é completamente diferente do período, mín/máx, requisito e assim por diante. Não se trata de um módulo novo e ele não substitui a funcionalidade de planejamento existente. No entanto, ele oferece mais funcionalidade a ser usada.

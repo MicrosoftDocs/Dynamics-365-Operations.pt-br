@@ -2,7 +2,7 @@
 title: Estabelecer condições de pagamento de cliente
 description: Este procedimento define uma configuração de desconto à vista e a data de vencimento.
 author: aprilolson
-ms.date: 08/29/2018
+ms.date: 08/29/2022
 ms.topic: business-process
 ms.prod: ''
 ms.technology: ''
@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: aolson
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 6069d28d84ab1705fd62a33cea7e0b923f0e0705
-ms.sourcegitcommit: 28a726b3b0726ecac7620b5736f5457bc75a5f84
+ms.openlocfilehash: 9b2ae5e63a2efb4bc913efa4d88c65a70133a2d9
+ms.sourcegitcommit: f96e5dec5a808d9819d2a23b8e15ce00aeff475b
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/29/2022
-ms.locfileid: "9065698"
+ms.lasthandoff: 11/10/2022
+ms.locfileid: "9752767"
 ---
 # <a name="establish-customer-payment-terms"></a>Estabelecer condições de pagamento de cliente
 
@@ -34,7 +34,11 @@ Este procedimento define uma configuração de desconto à vista e a data de ven
 6. No campo **Dia do mês**, insira uma data. A data deve ser inserida como um número, como '10', e não como '10º'. 
 7. Clique em **Salvar**.
 8. Feche a página.
-9. Acesse **Painel de Navegação > Módulos > Contas a receber > Configuração de pagamentos > Condições de pagamento**.
+9. Acesse **Painel de Navegação > Módulos > Contas a receber > Configuração de pagamentos > Condições de pagamento**. 
+
+>[!NOTE] 
+>Se as **Condições de pagamento** forem **À Vista**, o campo **Pagamento à vista**, na página **Condições de pagamento**, deve ser **Não**.
+
 10. Clique em **Novo**. As **condições de pagamento** são usadas para definir como as datas de vencimento serão calculadas. A data de desconto à vista é definida em uma página separada. 
 11. No campo **Condições de pagamento**, insira uma ID.
 12. No campo **Descrição**, insira uma descrição.

@@ -1,6 +1,6 @@
 ---
 title: Planejamento com quantidades disponíveis negativas
-description: Este artigo explica como a quantidade negativa disponível é tratada quando você usa a otimização do planejamento.
+description: Este artigo explica como o negativo disponível é tratado.
 author: t-benebo
 ms.date: 07/22/2021
 ms.topic: article
@@ -16,12 +16,12 @@ ms.search.industry: Manufacturing
 ms.author: benebotg
 ms.search.validFrom: 2020-02-18
 ms.dyn365.ops.version: AX 10.0.5
-ms.openlocfilehash: 04006bb12142be69c84bc8085dd82fc99280e90b
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: b4fc8b37fd800e3b4652513f150f9806bf1d5d67
+ms.sourcegitcommit: 491ab9ae2b6ed991b4eb0317e396fef542d3a21b
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8856125"
+ms.lasthandoff: 11/03/2022
+ms.locfileid: "9741113"
 ---
 # <a name="planning-with-negative-on-hand-quantities"></a>Planejamento com quantidades disponíveis negativas
 
@@ -29,7 +29,7 @@ ms.locfileid: "8856125"
 
 Se o sistema mostrar uma quantidade disponível agregada negativa, o mecanismo de planejamento tratará a quantidade como 0 (zero) para ajudar a evitar o excesso de suprimento. Veja como essa funcionalidade funciona:
 
-1. O recurso de otimização de planejamento agrega quantidades disponíveis no menor nível de dimensões de cobertura. (Por exemplo, se o *local* não é uma dimensão de cobertura, a otimização do planejamento agrega quantidades disponíveis no nível do *depósito*.)
+1. O planejamento mestre agrega as quantidades disponíveis no nível mais baixo das dimensões de cobertura. (Por exemplo, se o *local* não é uma dimensão de cobertura, o planejamento mestre agrega quantidades disponíveis no nível do *depósito*.)
 1. Se a quantidade disponível agregada no nível mais baixo das dimensões de cobertura for negativa, o sistema assume que a quantidade disponível é realmente 0 (zero).
 
 > [!IMPORTANT]
@@ -88,14 +88,6 @@ O sistema está configurado da seguinte maneira:
 - Existe uma ordem de venda para uma quantidade de *10* unidades. do produto *FG*.
 - A quantidade da ordem de venda é fisicamente reservada em relação ao estoque disponível existente.
 
-Em seguida, ajuste a quantidade do produto *FG* para que o estoque disponível seja 5. Como o estoque disponível do produto é 5, a quantidade da ordem de venda agora está reservada em relação à quantidade indisponível (isso seria semelhante se a quantidade disponível fosse 0, caso em que a ordem de venda seria reservada no estoque negativo). Se você executar o planejamento mestre agora, uma ordem planejada de quantidade 5 para *FG* será criada para fornecer a ordem de venda, pois a Otimização do Planejamento sempre usará o fornecimento existente ou criará uma nova ordem planejada para disponibilizar a reserva física.
-
-## <a name="related-resources"></a>Recursos relacionados
-
-- [Visão geral da Otimização do Planejamento](planning-optimization-overview.md)
-- [Introdução à Otimização do Planejamento](get-started.md)
-- [Análise de ajuste da Otimização de Planejamento](planning-optimization-fit-analysis.md)
-- [Exibir logs de histórico de plano e de planejamento](plan-history-logs.md)
-- [Cancelar um trabalho de planejamento](cancel-planning-job.md)
+Em seguida, ajuste a quantidade do produto *FG* para que o estoque disponível seja 5. Como o estoque disponível do produto é 5, a quantidade da ordem de venda agora está reservada em relação à quantidade indisponível (isso seria semelhante se a quantidade disponível fosse 0, caso em que a ordem de venda seria reservada no estoque negativo). Se você executar o planejamento mestre agora, uma ordem planejada de quantidade 5 para *FG* será criada para fornecer a ordem de venda, pois o planejamento mestre sempre usará o fornecimento existente ou criará uma ordem planejada para disponibilizar a reserva física.
 
 [!INCLUDE[footer-include](../../../includes/footer-banner.md)]

@@ -1,6 +1,6 @@
 ---
 title: Requisições de compra
-description: Este artigo descreve como as requisições de compra têm suporte na Otimização de Planejamento.
+description: Este artigo descreve as requisições de compra.
 author: t-benebo
 ms.date: 01/04/2021
 ms.topic: article
@@ -16,14 +16,14 @@ ms.search.industry: Manufacturing
 ms.author: benebotg
 ms.search.validFrom: 2021-01-04
 ms.dyn365.ops.version: 10.0.16
-ms.openlocfilehash: b4dcae11e83748da3ec0368e1ddf47fedf5de23c
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: d9d55186307b18f4c3be78ae0828b08d3c987aad
+ms.sourcegitcommit: 491ab9ae2b6ed991b4eb0317e396fef542d3a21b
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8867888"
+ms.lasthandoff: 11/03/2022
+ms.locfileid: "9740675"
 ---
-# <a name="purchase-requisitions"></a>Requisições de Compra
+# <a name="purchase-requisitions"></a>Requisições de compra
 
 [!include [banner](../../includes/banner.md)]
 
@@ -59,7 +59,7 @@ Ao definir um limite de tempo de requisições aprovadas para um plano mestre in
 1. Repita as etapas 2 e 3 para cada plano mestre adicional no qual você deseja definir um limite de tempo de requisições aprovadas.
 
 > [!IMPORTANT]
-> **Em breve:** os limites de tempo de requisições aprovadas ainda não têm suporte para a Otimização de Planejamento. Até que tenham suporte, todos os valores inseridos no campo **Limite de tempo de requisições aprovadas (dias)** serão ignorados.
+> Os limites de tempo de requisições aprovadas não têm suporte para a Otimização de Planejamento. Até que tenham suporte, todos os valores inseridos no campo **Limite de tempo de requisições aprovadas (dias)** serão ignorados.
 
 ## <a name="independent-supply-regardless-of-coverage-code"></a>Fornecimento autônomo, independentemente do código de cobertura
 

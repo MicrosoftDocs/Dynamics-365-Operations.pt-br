@@ -16,12 +16,12 @@ ms.search.industry: Manufacturing
 ms.author: benebotg
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 327bb259cc108f1fad068c847441229dcaee7ff1
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: 6b03bd1970aa7a2f3276186a0a9f8c2cd2880956
+ms.sourcegitcommit: 491ab9ae2b6ed991b4eb0317e396fef542d3a21b
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8859217"
+ms.lasthandoff: 11/03/2022
+ms.locfileid: "9741140"
 ---
 # <a name="master-planning-for-site-coverage-warehouse-not-mandatory"></a>Planejamento mestre para cobertura de site, depósito não obrigatório
 
@@ -47,15 +47,11 @@ O gráfico a seguir ilustra como o planejamento mestre ocorre. Os parâmetros re
 
 ## <a name="additional-resources"></a>Recursos adicionais
 
-[Visão geral de planejamento mestre e funcionalidade multissite](master-plan-multisite-functionality.md)
-
-[Planejamento mestre para de site e cobertura de depósito, depósito obrigatório](master-plan-site-coverage-warehouse-mandatory.md)
-
-[Planejamento mestre para cobertura de site, depósito obrigatório](master-plan-site-warehouse-coverage-warehouse-not-mandatory.md)
-
-[Planejamento mestre para cobertura de site, depósito não obrigatório](master-plan-site-warehouse-coverage-warehouse-mandatory.md)
-
-[Determinar a versão da BOM](master-plan-bom-version-determined.md)
+- [Visão geral de planejamento mestre e funcionalidade multissite](master-plan-multisite-functionality.md)
+- [Planejamento mestre para de site e cobertura de depósito, depósito obrigatório](master-plan-site-coverage-warehouse-mandatory.md)
+- [Planejamento mestre para cobertura de site, depósito obrigatório](master-plan-site-warehouse-coverage-warehouse-not-mandatory.md)
+- [Planejamento mestre para cobertura de site, depósito não obrigatório](master-plan-site-warehouse-coverage-warehouse-mandatory.md)
+- [Determinar a versão da BOM](master-plan-bom-version-determined.md)
 
 
 

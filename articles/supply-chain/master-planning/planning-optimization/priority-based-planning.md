@@ -11,18 +11,18 @@ ms.search.region: Global
 ms.author: benebotg
 ms.search.validFrom: 2021-10-15
 ms.dyn365.ops.version: 10.0.23
-ms.openlocfilehash: e17e45f1d4e9f7c62317eac6f3ea1be84017b562
-ms.sourcegitcommit: 203c8bc263f4ab238cc7534d4dd902fd996d2b0f
+ms.openlocfilehash: 1a952fe5734f01325842a8a130b9322eadc67951
+ms.sourcegitcommit: 491ab9ae2b6ed991b4eb0317e396fef542d3a21b
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/23/2022
-ms.locfileid: "9335275"
+ms.lasthandoff: 11/03/2022
+ms.locfileid: "9740583"
 ---
 # <a name="priority-based-planning"></a>Planejamento baseado em prioridade
 
 [!include [banner](../../includes/banner.md)]
 
-Este artigo descreve o recurso de planejamento baseado em prioridade do Microsoft Dynamics 365 Supply Chain Management. O recurso adiciona o suporte para planejamento orientado por demanda, que é uma etapa do [Planejamento de Requisitos de Material (DDMRP) por Demanda](ddmrp-overview.md). O planejamento baseado em prioridade permite que a Otimização do Planejamento gere ordens planejadas que são controladas por prioridades de planejamento em vez de datas de requisito.
+Este artigo descreve o recurso de planejamento baseado em prioridade do Microsoft Dynamics 365 Supply Chain Management. O recurso adiciona o suporte para planejamento orientado por demanda, que é uma etapa do [Planejamento de Requisitos de Material (DDMRP) por Demanda](ddmrp-overview.md). O planejamento baseado em prioridade permite que o sistema gere ordens planejadas que são controladas por prioridades de planejamento em vez de datas de requisito.
 
 O planejamento baseado em prioridade permite priorizar as ordens de reabastecimento para garantir que a demanda urgente seja priorizada em relação à demanda menos importante. Por exemplo, uma ordem de reabastecimento de estoque será priorizada em uma ordem de reabastecimento de reabastecimento padrão. O sistema pode dividir automaticamente ordens maiores em ordens menores separadas em que as linhas da ordem são agrupadas por prioridade. Em seguida, ele pode processar todas as ordens de alta prioridade primeiro.
 
@@ -37,11 +37,11 @@ Para poder usar esse recurso, você deve habilitá-lo para o seu sistema. Os adm
 
 ## <a name="where-and-how-planning-priorities-are-assigned"></a>Onde e como as prioridades de planejamento são atribuídas
 
-As informações de *Prioridade de planejamento* sobre fornecimento e demanda são a base do planejamento baseado em prioridade. A prioridade de planejamento define a importância de uma linha de fornecimento ou de uma demanda. A Otimização de Planejamento a utiliza quando o campo **Código de cobertura** está definido como *Prioridade*.
+As informações de *Prioridade de planejamento* sobre fornecimento e demanda são a base do planejamento baseado em prioridade. A prioridade de planejamento define a importância de uma linha de fornecimento ou de uma demanda. O planejamento mestre a utiliza quando o campo **Código de cobertura** está definido como *Prioridade*.
 
 A prioridade de planejamento geralmente é um número entre 0 (zero) e 100, em que 0 representa a maior importância. Ela é exibida e definido no campo **Prioridade de planejamento**. Este campo pode ser encontrado nas seguintes páginas: **Linhas de previsão de demanda**, **Detalhes da ordem de venda**, **Detalhes da ordem de compra**, **Detalhes da ordem de transferência** e **Detalhes da ordem planejada**.
 
-Quando o campo **Código de cobertura** para o item ou grupo de cobertura relevante é definido como *Prioridade*, a Otimização de Planejamento equilibra o suprimento com a demanda usando uma abordagem orientada por demanda, pois ela calcula a prioridade de planejamento e, para cada produto liberado, considera os valores definidos para os campos **Mínimo**, **Ponto de reabastecimento** e **Máximo** na página **Cobertura de item**.
+Quando o campo **Código de cobertura** para o item ou grupo de cobertura relevante é definido como *Prioridade*, o planejamento mestre equilibra o suprimento com a demanda usando uma abordagem orientada por demanda, pois ela calcula a prioridade de planejamento e, para cada produto liberado, considera os valores definidos para os campos **Mínimo**, **Ponto de reabastecimento** e **Máximo** na página **Cobertura de item**.
 
 > [!NOTE]
 > O valor *Prioridade* está disponível para o campo **Código de cobertura** somente quando a Otimização do Planejamento está habilitada.

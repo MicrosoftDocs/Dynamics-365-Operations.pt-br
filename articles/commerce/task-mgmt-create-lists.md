@@ -2,24 +2,24 @@
 title: Criar listas de tarefas e adicionar tarefas
 description: Este artigo descreve como criar listas de tarefas e adicionar tarefas a elas no Microsoft Dynamics 365 Commerce.
 author: gvrmohanreddy
-ms.date: 02/10/2020
+ms.date: 11/04/2022
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
 audience: Application User
-ms.reviewer: v-chgriffin
+ms.reviewer: josaw
 ms.search.region: Global
 ms.author: gmohanv
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Release 10.0.9
 ms.search.industry: ''
 ms.search.form: ''
-ms.openlocfilehash: f754ee78547e785fa2386dee6c3d89371bc0de41
-ms.sourcegitcommit: 87e727005399c82cbb6509f5ce9fb33d18928d30
+ms.openlocfilehash: b81f27f79362516f8a25766c1f663a7691ebb42a
+ms.sourcegitcommit: 9e2e54ff7d15aa51e58309da3eb52366328e199d
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/12/2022
-ms.locfileid: "9268910"
+ms.lasthandoff: 11/04/2022
+ms.locfileid: "9746150"
 ---
 # <a name="create-task-lists-and-add-tasks"></a>Criar listas de tarefas e adicionar tarefas
 
@@ -35,7 +35,7 @@ Os gerentes e trabalhadores podem criar listas de tarefas no back-office do Comm
 
 ## <a name="create-a-task-list"></a>Criar uma lista de tarefas
 
-Para criar uma lista de tarefas, siga estas etapas.
+Antes de iniciar o processo de criação de uma lista de tarefas, certifique-se de concluir as configurações no artigo [Configurar gerenciamento de tarefas](task-mgmt-configure.md). Para criar uma lista de tarefas, siga estas etapas.
 
 1. Acesse **Retail e Commerce \> Gerenciamento de tarefas \> Administração de gerenciamento de tarefas**.
 1. Selecione **Novo**, e depois insira os valores nos campos **Nome**, **Descrição** e **Proprietário**.

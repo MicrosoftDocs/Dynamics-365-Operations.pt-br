@@ -11,12 +11,12 @@ ms.search.region: Global
 ms.author: benebotg
 ms.search.validFrom: 2022-06-30
 ms.dyn365.ops.version: 10.0.28
-ms.openlocfilehash: 92e38c6ea19b60ae0a61e55f240ff52698e06933
-ms.sourcegitcommit: 3e04f7e4bc0c29c936dc177d5fa11761a58e9a02
+ms.openlocfilehash: ce32a4449da8e85f958f212f2c2dfd2841ca6887
+ms.sourcegitcommit: 491ab9ae2b6ed991b4eb0317e396fef542d3a21b
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/18/2022
-ms.locfileid: "9689767"
+ms.lasthandoff: 11/03/2022
+ms.locfileid: "9740814"
 ---
 # <a name="visual-and-collaborative-execution"></a>Execução visual e colaborativa
 
@@ -34,7 +34,7 @@ No Microsoft Dynamics 365 Supply Chain Management, você pode rastrear visualmen
 1. Selecione um item liberado que seja configurado como um ponto de separação. (Para obter mais informações, consulte [Posicionamento de estoque](ddmrp-inventory-positioning.md).)
 1. No Painel de Ações, na guia **Plano**, selecione **Cobertura do item**.
 1. Na página **Cobertura do item**, selecione um registro de cobertura de item que crie um ponto de separação. (Esse registro mostrará o nome de um grupo de cobertura configurado para criar pontos de separação.)
-1. Selecione a guia **Disponível**. Essa guia inclui um gráfico que mostra como as quantidades disponíveis são alteradas ao longo do tempo, juntamente com o valor do nível disponível que foi registrado para um período específico toda vez que a otimização do planejamento foi executada. A guia também inclui uma tabela que mostra em qual das seguintes categorias cada nível disponível registrado se enquadra:
+1. Selecione a guia **Disponível**. Essa guia inclui um gráfico que mostra como as quantidades disponíveis são alteradas ao longo do tempo, juntamente com o valor do nível disponível que foi registrado para um período específico, toda vez que o planejamento mestre foi executado. A guia também inclui uma tabela que mostra em qual das seguintes categorias cada nível disponível registrado se enquadra:
 
     - **Criticamente baixo** – menos da metade do mínimo para o período.
     - **Baixo** – entre a metade do mínimo e o mínimo.
