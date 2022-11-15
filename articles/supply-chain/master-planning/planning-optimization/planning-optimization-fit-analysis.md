@@ -16,20 +16,20 @@ ms.search.industry: Manufacturing
 ms.author: benebotg
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: 10.0.9
-ms.openlocfilehash: 15ec53c1f13b3017fb6e829bd1c8e99fbb938ce3
-ms.sourcegitcommit: 3e04f7e4bc0c29c936dc177d5fa11761a58e9a02
+ms.openlocfilehash: 4459a5d72fafe2596b7fc0cedf060b8f23bb43d2
+ms.sourcegitcommit: 2b654e60e2553a5835ab5790db4ccfa58828fae7
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/18/2022
-ms.locfileid: "9689985"
+ms.lasthandoff: 11/08/2022
+ms.locfileid: "9750698"
 ---
 # <a name="planning-optimization-fit-analysis"></a>Análise de ajuste da Otimização de Planejamento
 
 [!include [banner](../../includes/banner.md)]
 
-Você deve analisar o resultado da análise de ajuste da Otimização de Planejamento, como parte do processo de migração. Observe que o escopo da Otimização de Planejamento não é igual à funcionalidade de planejamento mestre incorporado atual. Recomendamos que você trabalhe com seu parceiro e leia a documentação para se preparar para a migração. 
+Você deve analisar o resultado da análise de ajuste da Otimização de Planejamento, como parte do processo de migração. Observe que o escopo da Otimização de Planejamento não é igual à funcionalidade de mecanismo de planejamento mestre preterido. Recomendamos que você trabalhe com seu parceiro e leia a documentação para se preparar para a migração.
 
-A análise de ajuste da Otimização de Planejamento ajuda a identificar onde o resultado pode diferir entre o mecanismo de planejamento mestre e a Otimização de Planejamento internos. Essa análise é feita com base na configuração e nos dados atuais. 
+A análise de ajuste da Otimização de Planejamento ajuda a identificar onde o resultado pode diferir entre o mecanismo de planejamento mestre e a Otimização de Planejamento preteridos. Essa análise é feita com base na configuração e nos dados atuais. 
 
 Para ver o resultado da análise de ajuste de Otimização de Planejamento, Acesse o **Planejamento mestre** \> **Configuração** \> **Análise de ajuste da Otimização de Planejamento** e, depois selecione **Executar análise**. Se a análise localizar inconsistências, elas serão listadas na mesma página. (A análise pode demorar alguns minutos).
 
@@ -64,7 +64,6 @@ A tabela a seguir mostra os vários resultados que podem ser exibidos após uma 
 | Calendários base | Calendários usando o calendário base: *\#* | Este recurso agora é suportado. | Com suporte | 
 | Códigos de disposição em lotes | Mestres de disposição em lotes não-líquidos: *\#* | Este recurso agora tem suporte. Para obter informações adicionais, consulte [Usar códigos de disposição em lotes para marcar os lotes como disponíveis ou indisponíveis](../../inventory/batch-disposition-codes.md) | Com suporte |
 | Capacidade de comprometimento (CTP) | Configurações de ordem padrão com controle de data entrega definido como CTP: *\#* | No Supply Chain Management 10.0.28 e mais recente, um processo chamado *CTP para Otimização de Planejamento* torna as datas de remessa e de recebimento confirmadas disponíveis após a execução do plano dinâmico. Para versões anteriores do Supply Chain Management, a configuração do CTP herdado é ignorada quando a Otimização do Planejamento é habilitada. | Com suporte |
-| Copiar plano estático para dinâmico | A cópia de plano estático para dinâmico está habilitada nos parâmetros do plano mestre. | A otimização do planejamento não copia o plano estático para o plano dinâmico, independentemente dessa configuração. Em geral, esse conceito é menos relevante devido à velocidade e à regeneração completa que a otimização do planejamento oferece. Se dois ou mais planos forem usados, o planejamento mestre deverá ser disparado para cada plano. | N/D |
 | Confirmação | Grupos de cobertura com limite de tempo de confirmação automática definido: *\#* | Na versão 10.0.7 e mais recente, a confirmação é suportada como um trabalho em lotes de confirmação separado após a conclusão do planejamento mestre (desde que o recurso *Confirmação automática para a otimização de planejamento* seja habilitado no [gerenciamento de recursos](../../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md)). Observe que a confirmação automática para otimização de planejamento é baseada na data da ordem (data de início), e não na data do requisito (data final). Esse comportamento garante que a confirmação das ordens planejadas ocorra no tempo devido, sem que seja necessário incluir o prazo de entrega no limite de tempo de confirmação. | Com suporte |
 | Confirmação | Registros de cobertura de item com confirmação automática definida: *\#* | Na versão 10.0.7 e mais recente, a confirmação automática é suportada como um trabalho em lotes de confirmação separado após a conclusão do planejamento mestre (desde que o recurso *Confirmação automática para a otimização de planejamento* seja habilitado no [gerenciamento de recursos](../../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md)). Observe que a confirmação automática para otimização de planejamento é baseada na data da ordem (data de início), e não na data do requisito (data final). Esse comportamento garante que a confirmação das ordens planejadas ocorra no tempo devido, sem que seja necessário incluir o prazo de entrega no limite de tempo de confirmação. | Suportado |
 | Confirmação | Planos mestres com confirmação automática definida: *\#* | Na versão 10.0.7 e mais recente, a confirmação automática é suportada como um trabalho em lotes de confirmação separado após a conclusão do planejamento mestre (desde que o recurso *Confirmação automática para a otimização de planejamento* seja habilitado no [gerenciamento de recursos](../../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md)). Observe que a confirmação automática para otimização de planejamento é baseada na data da ordem (data de início), e não na data do requisito (data final). Esse comportamento garante que a confirmação das ordens planejadas ocorra no tempo devido, sem que seja necessário incluir o prazo de entrega no limite de tempo de confirmação. | Suportado |
@@ -93,34 +92,27 @@ A tabela a seguir mostra os vários resultados que podem ser exibidos após uma 
 | Produção | Versões de fórmula com Coprodutos/Subprodutos: *\#* | Este recurso está pendente. No momento, os coprodutos e subprodutos associados à versão da fórmula são ignorados quando a otimização do planejamento é habilitada. | Ciclo de lançamentos 2 de 2022 |
 | Produção | Versões de fórmula com Produção: *\#* | Este recurso está pendente. No momento, o rendimento associado à versão da fórmula é ignorado quando a otimização do planejamento é habilitada. | Ciclo de lançamentos 2 de 2022 |
 | Produção | Planos que incluem sequenciamento: *\#* | Este recurso está pendente. No momento, o sequenciamento é ignorado quando a otimização do planejamento é habilitada, independentemente dessa configuração. | Ciclo de lançamentos 2 de 2022 |
-| Produção | Ordens de produção liberadas que não foram iniciadas, nas quais o início agendado é anterior a hoje: *\#* | Este recurso está pendente. Atualmente, se uma ordem de produção estiver atrasada, o planejamento mestre presumirá que ela será concluída hoje. Isso é relevante para ordens de produção lançadas em que uma data de entrega está no passado, mas ainda não foi concluída. | Ciclo futuro |
+| Produção | Ordens de produção liberadas que não foram iniciadas, nas quais o início agendado é anterior a hoje: *\#* | Este recurso está pendente. Atualmente, se uma ordem de produção estiver atrasada, o planejamento mestre presumirá que ela será concluída hoje. Isso é relevante para ordens de produção lançadas em que uma data de entrega está no passado, mas ainda não foi concluída. | Ciclo de lançamentos 2 de 2022 |
 | Produção | Recursos agendados com capacidade finita: *\#* | Este recurso agora tem suporte.| Suportado |
 | Produção | Roteiros usados no planejamento: *\#* | Este recurso é suportado. | Com suporte |
-| Produção | Reserva de linha de vendas usando detalhamento: *\#* | A reserva de linha de venda que usa detalhamento não tem suporte quando a otimização de planejamento está habilitada. | Ciclo futuro |
-| Produção | Agendamento com detalhamento das ordens de produção: *\#* | Agendamento que usa explosão de ordens de produção não tem suporte quando a otimização de planejamento está habilitada. As ordens de produção podem ser planejadas individualmente. | Ciclo futuro |
+| Produção | Reserva de linha de vendas usando detalhamento: *\#* | A reserva de linha de venda que usa detalhamento não tem suporte quando a otimização de planejamento está habilitada. | Ciclo de lançamentos 2 de 2022 |
+| Produção | Agendamento com detalhamento das ordens de produção: *\#* | Agendamento que usa explosão de ordens de produção não tem suporte quando a otimização de planejamento está habilitada. As ordens de produção podem ser planejadas individualmente. | Ciclo de lançamentos 2 de 2022 |
 | Solicitação de cotação | Planos mestres com solicitações de cotação habilitadas: *\#* | Este recurso está pendente. No momento, as solicitações de cotação (RFQs) não são consideradas como demandas quando a otimização do planejamento for habilitada. Eles serão ignorados, independentemente dessa configuração. | Ciclo de lançamentos 2 de 2022 |
 | Requisições | Planos mestres com requisições habilitadas: *\#* | Este recurso agora tem suporte. Para obter mais informações, consulte [Requisições de compra](purchase-requisitions.md) | Com suporte |
 | Margens de segurança | Grupos de cobertura com margem de segurança: *\#* | Este recurso agora tem suporte. Para obter informações adicionais, consulte [Margens de segurança](safety-margins.md) | Com suporte |
 | Margens de segurança | Planos mestres com margem de segurança: *\#* | Este recurso agora tem suporte. Para obter informações adicionais, consulte [Margens de segurança](safety-margins.md) |  Com suporte |
-| Atendimento de estoque de segurança | Registros de cobertura de item com "Preencher mínimo" diferente de "Data de hoje + tempo de aquisição": *\#* | A otimização de planejamento sempre usa a *Data de hoje + tempo de aquisição*. Essa alteração é feita para preparar-se para uma configuração de planejamento simplificada no futuro e para fornecer um resultado acionável. Se o tempo de compras não for incluído no estoque de segurança, as ordens planejadas criadas para o estoque baixo atual sempre estarão atrasadas por conta do prazo de entrega. Esse comportamento pode causar um ruído significativo e ordens planejadas indesejadas. A prática recomendada é alterar a configuração de forma que a *Data de hoje + tempo de aquisição* seja usada. Atualize os dados mestres para evitar avisos. | N/D |
-| Cotações de venda | Planos mestres com cotações de venda habilitadas: *\#* | Este recurso está pendente. No momento, cotações não são consideradas quando a otimização do planejamento for habilitada. Eles serão ignorados, independentemente dessa configuração. | Ciclo de lançamentos 2 de 2022 ou posterior |
-| Validade | Planos mestres com validade habilitada: *\#* | Este recurso está pendente. | Ciclo de lançamentos 2 de 2022 |
+| Cotações de venda | Planos mestres com cotações de venda habilitadas: *\#* | Este recurso está pendente. No momento, cotações não são consideradas quando a otimização do planejamento for habilitada. Eles serão ignorados, independentemente dessa configuração. | Ciclo de lançamentos 2 de 2022 |
+| Validade | Planos mestres com validade habilitada: *\#* | Este recurso agora tem suporte. | Com suporte |
 
 ## <a name="additional-resources"></a>Recursos adicionais
 
-[Visão geral da Otimização do Planejamento](planning-optimization-overview.md)
-
-[Introdução à Otimização do Planejamento](get-started.md)
-
-[Diferenças entre o planejamento mestre clássico e a Otimização de Planejamento](planning-optimization-differences-with-built-in.md)
-
-[Parâmetros não usados pela Otimização de Planejamento](not-used-parameters.md)
-
-[Exibir histórico e logs de planejamento](plan-history-logs.md)
-
-[Aplicar filtros a um plano](plan-filters.md)
-
-[Cancelar um trabalho de planejamento](cancel-planning-job.md)
+- [Arquitetura do sistema de planejamento mestre](../master-planning-architecture.md)
+- [Introdução ao planejamento mestre](get-started.md)
+- [Diferenças entre o planejamento mestre clássico e a Otimização de Planejamento](planning-optimization-differences-with-built-in.md)
+- [Parâmetros não usados pela Otimização de Planejamento](not-used-parameters.md)
+- [Exibir histórico e logs de planejamento](plan-history-logs.md)
+- [Executar o planejamento para um subconjunto de itens](plan-filters.md)
+- [Cancelar um trabalho de planejamento](cancel-planning-job.md)
 
 
 [!INCLUDE[footer-include](../../../includes/footer-banner.md)]

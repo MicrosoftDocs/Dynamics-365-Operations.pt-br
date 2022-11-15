@@ -10,12 +10,12 @@ ms.search.region: Global
 ms.author: benebotg
 ms.search.validFrom: 2021-04-22
 ms.dyn365.ops.version: 10.0.19
-ms.openlocfilehash: 7c8d5b7992c7955b9c5b1c7e773fdd467ccba6f9
-ms.sourcegitcommit: 203c8bc263f4ab238cc7534d4dd902fd996d2b0f
+ms.openlocfilehash: c2e4294cb54e9ba41467f505e361d5ee45f1f27d
+ms.sourcegitcommit: 491ab9ae2b6ed991b4eb0317e396fef542d3a21b
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/23/2022
-ms.locfileid: "9335335"
+ms.lasthandoff: 11/03/2022
+ms.locfileid: "9740513"
 ---
 # <a name="firm-planned-orders"></a>Confirmar ordens planejadas
 
@@ -33,7 +33,7 @@ Este artigo descreve cada método em detalhes.
 
 ## <a name="enable-the-features-that-are-described-in-this-article"></a><a name="enable-features"></a>Habilitar os recursos descritos neste artigo
 
-A maioria dos recursos de ordem planejada estão disponíveis em todas as instalações padrão do Microsoft Dynamics 365 Supply Chain Management que usam a Otimização do Planejamento. No entanto, alguns dos recursos descritos neste artigo devem estar habilitados no gerenciamento de recursos para que você possa usá-los.
+A maioria dos recursos de ordem planejada estão disponíveis em todas as instalações padrão do Microsoft Dynamics 365 Supply Chain Management. No entanto, alguns dos recursos descritos neste artigo devem estar habilitados no gerenciamento de recursos para que você possa usá-los.
 
 ### <a name="turn-parallelized-firming-of-planned-orders-on-or-off"></a>Ativar ou desativar a confirmação paralelizada de ordens planejadas
 
@@ -91,7 +91,7 @@ Para confirmar manualmente ordens planejadas, você encontra e seleciona as orde
 
 ## <a name="auto-firm-planned-orders"></a>Confirmação automática de ordens planejadas
 
-A confirmação automática permite que você confirme ordens planejadas como parte do processo de planejamento mestre. Você pode definir um limite de tempo de confirmação para grupos de cobertura, itens individuais e combinações de itens e planos mestre. Em seguida, durante as execuções do planejamento mestre, as ordens planejadas serão confirmadas automaticamente se a data da ordem estiver no limite de tempo especificado para a confirmação. As ordens planejadas geradas pela otimização de planejamento e a operação de planejamento mestre interno tratam a data da ordem (ou seja, a data de início) de modo diferente.
+A confirmação automática permite que você confirme ordens planejadas como parte do processo de planejamento mestre. Você pode definir um limite de tempo de confirmação para grupos de cobertura, itens individuais e combinações de itens e planos mestre. Em seguida, durante as execuções do planejamento mestre, as ordens planejadas serão confirmadas automaticamente se a data da ordem estiver no limite de tempo especificado para a confirmação. As ordens planejadas geradas pela otimização de planejamento e o mecanismo de planejamento mestre preterido tratam a data da ordem (ou seja, a data de início) de modo diferente.
 
 > [!NOTE]
 > A confirmação automática de ordens de compra planejada só poderá ocorrer para itens associados a um fornecedor.
@@ -99,13 +99,13 @@ A confirmação automática permite que você confirme ordens planejadas como pa
 > As ordens derivadas (ou seja, ordens de compra do subcontratado) que forem confirmadas terão um status *Em revisão* se o controle de alterações estiver ativado.
 
 > [!IMPORTANT]
-> Para que o recurso descrito nesta seção possa ser usado com Otimização de Planejamento, o [recurso *Confirmação automática da Otimização de Planejamento*](#enable-features) precisa estar ativado no sistema, conforme descrito no início deste artigo. A confirmação automática sempre pode ser usada com o mecanismo de planejamento mestre interno.
+> Para que o recurso descrito nesta seção possa ser usado com Otimização de Planejamento, o [recurso *Confirmação automática da Otimização de Planejamento*](#enable-features) precisa estar ativado no sistema, conforme descrito no início deste artigo. A confirmação automática sempre pode ser usada com o mecanismo de planejamento mestre preterido.
 
-### <a name="auto-firming-with-planning-optimization-vs-the-built-in-planning-engine"></a>Confirmação automática com otimização de planejamento x o mecanismo de planejamento interno
+### <a name="auto-firming-with-planning-optimization-vs-the-deprecated-master-planning-engine"></a>Confirmação automática com otimização de planejamento x o mecanismo de planejamento mestre preterido
 
-A otimização de planejamento e o mecanismo de planejamento interno podem ser usados para ordens planejadas de confirmação automática. No entanto, há alguns diferenças importantes. Por exemplo, a otimização de planejamento usa a data da ordem (ou seja, a data de início) para determinar quais ordens planejadas devem ser confirmadas, enquanto o mecanismo de planejamento interno usa a data de requisição (ou seja, a data de término). A tabela a seguir resume as diferenças.
+A otimização de planejamento e o mecanismo de planejamento mestre preterido podem ser usados para ordens planejadas de confirmação automática. No entanto, há alguns diferenças importantes. Por exemplo, a otimização de planejamento usa a data da ordem (ou seja, a data de início) para determinar quais ordens planejadas devem ser confirmadas, enquanto o mecanismo de planejamento mestre preterido usa a data de requisição (ou seja, a data de término). A tabela a seguir resume as diferenças.
 
-| Recurso | Otimização do Planejamento | Mecanismo de planejamento interno |
+| Recurso | Otimização do Planejamento | Mecanismo de planejamento mestre preterido |
 |---|---|---|
 | **Base de data** | A confirmação automática se baseia na data da ordem (data inicial). | A confirmação automática se baseia na data de requisição (data final). |
 | **Lead time** | Como a data da ordem (data inicial) dispara a confirmação, você não precisa considerar o prazo de entrega como parte do limite de tempo de confirmação. | Para ajudar a garantir que as ordens sejam confirmadas em tempo hábil, o limite de tempo de confirmação deverá ser superior ao prazo de entrega. |
