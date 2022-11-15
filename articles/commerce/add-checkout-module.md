@@ -2,7 +2,7 @@
 title: Módulo de finalização da compra
 description: Este artigo descreve como adicionar um módulo de finalização da compra a uma página e definir as propriedades necessárias.
 author: anupamar-ms
-ms.date: 05/18/2022
+ms.date: 11/04/2022
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -14,16 +14,17 @@ ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.5
 ms.custom: ''
 ms.assetid: ''
-ms.openlocfilehash: b6f3aef08f723eff8b172db2ca5c355121e93bdc
-ms.sourcegitcommit: 87e727005399c82cbb6509f5ce9fb33d18928d30
+ms.openlocfilehash: 295b99c7012e35a40af34d454ff7082d4100c74a
+ms.sourcegitcommit: 9e2e54ff7d15aa51e58309da3eb52366328e199d
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/12/2022
-ms.locfileid: "9280465"
+ms.lasthandoff: 11/04/2022
+ms.locfileid: "9746216"
 ---
 # <a name="checkout-module"></a>Módulo de finalização da compra
 
 [!include [banner](includes/banner.md)]
+[!include [banner](includes/preview-banner.md)]
 
 Este artigo descreve como adicionar um módulo de finalização da compra a uma página e definir as propriedades necessárias.
 
@@ -104,6 +105,8 @@ Para adicionar um módulo de finalização da compra a uma nova página e defini
 1. Selecione **Concluir edição** para fazer check-in do fragmento e, depois, selecione **Publicar** para publicá-lo.
 1. Crie um modelo que use o novo fragmento de finalização da compra.
 1. Crie uma página de finalização da compra que use o novo modelo.
+
+> [OBSERVAÇÃO] Ao usar uma única autorização de pagamento, conforme descrito em [Aprimoramento de pagamentos em finalização da compra de loja](./dev-itpro/enhanced-sca.md), na seção **Informações da finalização da compra** da página da finalização da compra, confirme se o contêiner da seção da finalização da compra está posicionado por último. Isso garante que todas as informações necessárias sejam coletadas pela página da finalização da compra, antes das ações de finalização de pagamento e conclusão de ordem. 
 
 ## <a name="additional-resources"></a>Recursos adicionais
 
