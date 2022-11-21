@@ -590,6 +590,8 @@
                           href: dev-itpro/adyen-connector-faq.md
                         - name: Configurar Google Pay com Adyen
                           href: dev-itpro/google-pay-adyen.md
+                        - name: Configurar Apple Pay com Adyen
+                          href: dev-itpro/apple-pay-adyen.md
                         - name: Solucionar problemas do Dynamics 365 Payment Connector para Adyen
                           href: dev-itpro/adyen-connector-troubleshoot.md
                     - name: Salvando meios de pagamento online com o conector Adyen
@@ -598,10 +600,12 @@
                       href: adyen_redirect.md
                     - name: Terminais de pagamento dedicados e solicitações para uma impressora e caixa registradora
                       href: pos-multi-hws.md
-                    - name: Alternância offline perfeita para operações de vale-presente e memorando de crédito
+                    - name: Alternância offline perfeita para operações de cartão-presente e memorando de crédito
                       href: dev-itpro/seamless-offline-improvements.md
                     - name: Configurar cenários de pagamentos de fatura
                       href: payinvoice.md
+                    - name: Pagamentos antecipados no Dynamics 365 Commerce
+                      href: dev-itpro/prepayments-commerce.md
                     - name: Prevenção de pagamentos duplicados
                       href: duplicate-payment-protection.md
                     - name: Visão geral de pagamentos de omnicanal

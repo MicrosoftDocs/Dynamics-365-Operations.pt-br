@@ -430,7 +430,7 @@
                   href: accounts-receivable/rev-rec-bundles.md
                 - name: Realocação de reconhecimento de receita
                   href: accounts-receivable/rev-rec-reallocation.md
-                - name: Realocação de reconhecimento de receita – cenário 1
+                - name: Realocação de reconhecimento de receita cenário 1
                   href: accounts-receivable/rev-rec-reallocation-scenario-1.md
                 - name: Realocação de reconhecimento de receita cenário 2
                   href: accounts-receivable/rev-rec-reallocation-scenario-2.md
@@ -1188,6 +1188,8 @@
                   href: general-ledger/ledger-settlements.md
                 - name: Reconhecimento entre a liquidação do razão e o fechamento do exercício
                   href: general-ledger/awareness-between-ledger-settlement-year-end-close.md
+                - name: Automatizar liquidações do razão
+                  href: general-ledger/auto-settle.md
                 - name: Reavaliação de moeda estrangeira para contabilidade
                   href: general-ledger/foreign-currency-revaluation-general-ledger.md
                 - name: Saldos de conta contábil
