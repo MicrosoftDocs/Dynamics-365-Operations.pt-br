@@ -8,17 +8,17 @@ ms.prod: ''
 ms.technology: ''
 ms.search.form: CustTable, CustRecurrenceInvoice
 audience: Application User
-ms.reviewer: kfend
+ms.reviewer: twheeloc
 ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 1e8330e26f1450dac27bb837bb56f8bbffefc9bc
-ms.sourcegitcommit: 04e6c1c9400e1b582180cf3e0e4767434e736c26
+ms.openlocfilehash: 49074c11659ae30fd2decdb93b4721441edff2c5
+ms.sourcegitcommit: cf6b764824bd1cf2c0dde6d37ddd0a7abab87ff0
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/05/2022
-ms.locfileid: "8712192"
+ms.lasthandoff: 11/16/2022
+ms.locfileid: "9780444"
 ---
 # <a name="assign-a-free-text-invoice-template-to-a-customer"></a>Atribuir um modelo de fatura de texto livre a um cliente
 
@@ -36,15 +36,16 @@ Essa tarefa demonstra como atribuir um modelo de nota fiscal de texto livre a um
 8. Na lista, clique no link na linha selecionada.
 9. No campo **Data de início de faturamento**, insira a data em que a primeira fatura será gerada.
 10. Na seção **Final da recorrência**, insira uma data final recorrente.  
-    * Selecione uma das seguintes opções: Nenhuma data final – as notas fiscais serão geradas indefinidamente até que o modelo seja removido da conta do cliente.
-    * Data de término da cobrança - Selecione esta opção e insira a última data em que a fatura pode ser gerada.  
+    Selecione uma das seguintes opções: 
+    - **Nenhuma data de término** – as faturas serão geradas indefinidamente até que o modelo seja removido da conta do cliente.
+    - **Data de término da cobrança** – selecione essa opção e insira a última data em que a fatura pode ser gerada.  
 11. No campo **Valor cumulativo máximo**, insira o valor cumulativo máximo após o qual a geração da fatura será interrompida. Insira o valor cumulativo máximo que pode ser alcançado usando o modelo selecionado. Por exemplo, se você inserir 1.000,00 e gerar notas fiscais mensais para cada 100,00, as notas fiscais encerrarão a produção após a décima nota fiscal gerada.  
 12. Na seção **Gerar faturas recorrentes usando os valores padrão de**, selecione o modelo de fatura de texto livre ou a conta do cliente. Opte por usar o modelo de fatura de texto livre ou a conta do cliente para determinar os valores padrão para o idioma, o perfil de lançamentos, o grupo de impostos, o grupo de impostos do item, o código de lista, o país/região para entrega, a moeda, as condições de pagamento, o método de pagamento, as especificações de pagamento, o plano de pagamento, o desconto à vista, as dimensões financeiras e a guia de transferência de dinheiro por débito direto quando as faturas são criadas.  
 13. No campo **Padrão de recorrência**, selecione o padrão de recorrência.
-    + Diário – Escolha esta opção e insira o número de dias no campo Por. Por exemplo, se você inserir 15, uma fatura será gerada a cada 15 dias para esse cliente.
-    + Semanal - Escolha essa opção e insira o número de semanas no campo Por. Por exemplo, se você inserir 2, uma fatura será gerada a cada duas semanas para esse cliente.
-    + Mensal - Escolha essa opção e insira o número de meses no campo Por. Por exemplo, se você inserir 6, uma fatura será gerada a cada seis meses para esse cliente.
-    + Anual - Escolha essa opção e insira o número de anos no campo Por. Por exemplo, se você inserir 2, uma fatura será gerada a cada dois anos para esse cliente.  
+    - **Diariamente** – selecione essa opção e insira o número de dias no campo Por. Por exemplo, se você inserir 15, uma fatura será gerada a cada 15 dias para esse cliente.
+    - **Semanalmente** – selecione essa opção e insira o número de semanas no campo Por. Por exemplo, se você inserir 2, uma fatura será gerada a cada duas semanas para esse cliente.
+    - **Mensalmente** – selecione essa opção e insira o número de meses no campo Por. Por exemplo, se você inserir 6, uma fatura será gerada a cada seis meses para esse cliente.
+    - **Anualmente** – selecione essa opção e insira o número de anos no campo Por. Por exemplo, se você inserir 2, uma fatura será gerada a cada dois anos para esse cliente.  
 14. No campo **Por**, insira um número.
 
 
