@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: jchrist
 ms.search.validFrom: 2021-02-03
 ms.dyn365.ops.version: 10.0.16
-ms.openlocfilehash: 502a026f2070e92a017733ce2c37bf357eaa10ea
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: 9022051ce1c99da7ff62e30583a20656c77d89f9
+ms.sourcegitcommit: 9c4638c4bb5b5f8adc7508542a0a2c3e1de5190c
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8908144"
+ms.lasthandoff: 11/15/2022
+ms.locfileid: "9778662"
 ---
 # <a name="process-collection-letters-example"></a>Processar exemplo de cartas de cobrança
 
@@ -32,11 +32,11 @@ Quando terminar, siga estas etapas.
 
 1. Acesse **Crédito e cobranças \> Carta de cobrança \> Configurar sequência de cartas de cobrança** e configure a sequência de carta de cobrança, conforme mostrado na tabela a seguir que é atribuída ao perfil de lançamentos do cliente.
 
-|     Código de carta de cobrança      |     descrição                           |     Moeda      |     Conta principal        |     Taxa em moeda     |     Mínimo sobre        |     Bloco de Dias      |
-|---------------------------------  |---------------------------------------    |-----------------  |-----------------------    |-------------------------- |-----------------------    |---------------------  |
-|     Carta de cobrança 1         |     Segunda notificação com taxa        |     USD           |                           |     0,00                  |     0,00                  |     2                 |
-|     Carta de cobrança 2         |     Segunda notificação com taxa        |     USC           |     403150                |     20.00                 |     10,00                 |     3                 |
-|     Cobrança                    |     Notificação final com taxa         |     USD           |     403150                |     50.00                 |     100.00                |     15                |
+|   Código de carta de cobrança      |     descrição       |     Moeda      |     Conta principal        |     Taxa em moeda       |   Mínimo sobre  |   Bloco de Dias        |
+|-----------------------------  |--------------------   |-----------------  |-----------------------    |--------------------   |-----------------------    |------------------ |
+|  Carta de cobrança 1          |     Primeira notificação |     USD          |                   |     0,00              |     0,00                  |     2                 |
+|  Carta de cobrança 2          |     Segunda notificação com taxa      |     USD      |     403150         |     20.00         |     10,00     |     3                 |
+|  Coleção                   |     Notificação final com taxa       |     USD           |     403150    |     50.00         |     100.00                |     15            |
 
 A ilustração a seguir mostra as informações que estão na tabela como apareceriam na página **Cartas de cobrança**. 
 

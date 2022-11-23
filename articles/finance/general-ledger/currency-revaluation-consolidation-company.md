@@ -2,7 +2,7 @@
 title: Reavaliação de moeda em uma empresa de consolidação
 description: Este artigo descreve como reavaliar a moeda em uma empresa de consolidação.
 author: aprilolson
-ms.date: 10/02/2018
+ms.date: 10/02/2022
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: aolson
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 8fbbc1d0a7ae5b7e288710c99a6af362b3db3d36
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: c05ef0d4d05d5113d3b858dafe49ee9c1c7211d9
+ms.sourcegitcommit: cf6b764824bd1cf2c0dde6d37ddd0a7abab87ff0
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8888994"
+ms.lasthandoff: 11/16/2022
+ms.locfileid: "9779653"
 ---
 # <a name="currency-revaluation-in-a-consolidation-company"></a>Reavaliação de moeda em uma empresa de consolidação
 
@@ -41,18 +41,18 @@ Após consolidar dados de uma moeda contábil para outra, você ainda deverá ex
 
 | Data       | Conta contábil               | Moeda | Valor |
 |------------|------------------------------|----------|--------|
-| 11/10/2015 | 110110 – à vista                | USD      | 500    |
-| 11/10/2015 | 130100 – Contas a Receber | USD      | -500   |
+| 11/10/2020 | 110110 – à vista                | USD      | 500    |
+| 11/10/2020 | 130100 – Contas a Receber | USD      | -500   |
 
 ## <a name="exchange-rates"></a>Taxas de câmbio
 
 | Moeda inicial | Moeda final | Data inicial | Taxa de câmbio |
 |---------------|-------------|------------|---------------|
-| EUR           | USD         | 1/10/2015  | 200           |
-| EUR           | USD         | 1/11/2015  | 150           |
-| EUR           | USD         | 1/12/2012  | 100           |
+| EUR           | USD         | 1/10/2020  | 200           |
+| EUR           | USD         | 1/11/2020  | 150           |
+| EUR           | USD         | 1/12/2017  | 100           |
 
-## <a name="perform-the-consolidation-for-october-2015"></a>Execute a consolidação de outubro de 2015
+## <a name="perform-the-consolidation-for-october-2020"></a>Execute a consolidação de outubro de 2020
 ### <a name="balances-in-the-consolidation-company"></a>Saldos na empresa de consolidação
 
 | Conta contábil | Moeda | Valor | Cálculo    |
@@ -60,7 +60,7 @@ Após consolidar dados de uma moeda contábil para outra, você ainda deverá ex
 | 110110         | EUR      | 250    | R$500 × 50%  |
 | 130100         | EUR      | -250   | -R$500 × 50% |
 
-## <a name="perform-currency-revaluation-for-the-accounts-from-october-1-2015-through-november-30-2015"></a>Execute a reavaliação de moeda para as contas desde 1º de outubro de 2015 até 30 de novembro de 2015
+## <a name="perform-currency-revaluation-for-the-accounts-from-october-1-2020-through-november-30-2020"></a>Executar a reavaliação de moeda para as contas desde 1º de outubro de 2020 até 30 de novembro de 2020
 ### <a name="balances-in-the-consolidation-company"></a>Saldos na empresa de consolidação
 
 | Conta contábil | Moeda | Valor  | Cálculo                        |
@@ -72,7 +72,7 @@ Após consolidar dados de uma moeda contábil para outra, você ainda deverá ex
 
 Você verá transações adicionais para os valores de moeda de relatório.
 
-## <a name="perform-currency-revaluation-for-the-accounts-from-october-1-2015-through-december-31-2015"></a>Execute a reavaliação de moeda para as contas desde 1º de outubro de 2015 até 31 de dezembro de 2015
+## <a name="perform-currency-revaluation-for-the-accounts-from-october-1-2020-through-december-31-2020"></a>Executar a reavaliação de moeda para as contas desde 1º de outubro de 2020 até 31 de dezembro de 2020
 ### <a name="balances-in-the-consolidation-company"></a>Saldos na empresa de consolidação
 
 | Conta contábil | Moeda | Valor  | Cálculo                                          |

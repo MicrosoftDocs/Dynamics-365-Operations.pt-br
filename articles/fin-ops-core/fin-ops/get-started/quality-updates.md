@@ -11,12 +11,12 @@ ms.author: rashmim
 ms.search.validFrom: 2022-08-19
 ms.search.form: ''
 ms.dyn365.ops.version: 10.0.29
-ms.openlocfilehash: ff2232c9e1010ad1e2524df0c7ed4d771b489ed1
-ms.sourcegitcommit: 05069f7e5eb7a9335c0a62031d7663f88e4821df
+ms.openlocfilehash: d417b16706ac4389e40e25ffbbddde5ebac92db3
+ms.sourcegitcommit: 9740f9b41a7dcf1821c6baccb2e05b9865ac2966
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/09/2022
-ms.locfileid: "9752289"
+ms.lasthandoff: 11/15/2022
+ms.locfileid: "9775397"
 ---
 # <a name="proactive-quality-updates"></a>Atualizações de qualidade proativas
 
@@ -112,7 +112,7 @@ Para obter informações sobre o período noturno de cada região, consulte [Qua
 | Estação 1 | Canadá Central, Leste do Canadá, França Central, Índia central, Leste da Noruega, Oeste da Suíça | 14 de outubro a 17 de outubro de 2022, 2 de novembro a 5 de novembro de 2022 | 13 de novembro a 16 de novembro de 2022 |
 | Estação 2 | Sul da França, Sul da Índia, Oeste da Noruega, Norte da Suíça, Norte da África do Sul, Leste da Austrália, Sul do Reino Unido, Norte dos EAU, Leste do Japão, Sudeste da Austrália, Sudeste da Ásia | 15 de outubro a 18 de outubro de 2022, 2 de novembro a 5 de novembro de 2022 | 13 de novembro a 16 de novembro de 2022 |
 | Estação 3 | Leste da Ásia, Oeste do Reino Unido, Oeste do Japão, Sul do Brasil, Oeste da Europa, Leste dos EUA, EAU Central | 16 de outubro a 19 de outubro de 2022, 2 de novembro a 5 de novembro de 2022 | 13 de novembro a 16 de novembro de 2022 |
-| Estação 4 | Norte da Europa, EUA Central, Oeste dos EUA | 17 de outubro a 20 de outubro de 2022, 2 de novembro a 5 de novembro de 2022 | 13 de novembro a 16 de novembro de 2022 |
+| Estação 4 | Norte da Europa, EUA Central, Oeste dos EUA | 17 de outubro a 20 de outubro de 2022, 2 de novembro a 5 de novembro de 2022 | 15 de novembro a 18 de novembro de 2022 |
 | Estação 5 | DoD (Nuvem da comunidade governamental, China) | Não programado | Não programado |
 
 ### <a name="proactive-quality-update-release-10030"></a><a name="schedule"></a> Versão de atualização de qualidade proativa: 10.0.30

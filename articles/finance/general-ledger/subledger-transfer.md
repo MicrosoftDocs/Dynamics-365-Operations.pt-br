@@ -8,19 +8,19 @@ ms.prod: ''
 ms.technology: ''
 ms.search.form: LedgerJournalSetup, LedgerJournalTable
 audience: Application User
-ms.reviewer: kfend
+ms.reviewer: twheeloc
 ms.custom: 15721
 ms.assetid: b4b406fa-b772-44ec-8dd8-8eb818a921ef
 ms.search.region: Global
 ms.author: rcarlson
 ms.search.validFrom: 2020-01-18
 ms.dyn365.ops.version: AX 10.0.8
-ms.openlocfilehash: a53b7834271355aaf11c13c3f1886257a97b1da8
-ms.sourcegitcommit: 28a726b3b0726ecac7620b5736f5457bc75a5f84
+ms.openlocfilehash: 7ef93b81ce37128f7ff400eb4034ffea01756038
+ms.sourcegitcommit: cf6b764824bd1cf2c0dde6d37ddd0a7abab87ff0
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/29/2022
-ms.locfileid: "9068980"
+ms.lasthandoff: 11/16/2022
+ms.locfileid: "9779844"
 ---
 # <a name="subledger-transfer-to-the-general-ledger"></a>Transferir razão auxiliar para a contabilidade
 
@@ -35,7 +35,7 @@ As opções a seguir estão disponíveis para transferir lotes do razão auxilia
 - **Assíncrona** – a transferência das entradas de contabilidade do razão auxiliar para a contabilidade é agendada imediatamente. O comprovante da contabilidade será registrado assim que os recursos estiverem disponíveis para processar a solicitação no servidor.
 - **Lote agendado** – as entradas contábeis do razão auxiliar que devem ser transferidas são adicionadas à fila de processamento na Contabilidade. As entradas na fila serão processadas na ordem em que foram recebidas. Cada comprovante da contabilidade atualizará as contas no horário agendado se os recursos estiverem disponíveis para processar o trabalho em lotes no servidor.
 
-Na versão 10.0.8, foram feitas melhorias para aprimorar o desempenho da opção **Assíncrona**. Este recurso está habilitado com o nome **Transferência do razão auxiliar para a otimização do desempenho da Contabilidade**.
+Foram feitas melhorias para aprimorar o desempenho da opção **Assíncrona**. Este recurso está habilitado com o nome **Transferência do razão auxiliar para a otimização do desempenho da Contabilidade**.
 
 A funcionalidade para a transferência assíncrona de lotes do razão auxiliar ajuda a melhorar a transferência de dados do razão auxiliar para a contabilidade. Ao agrupar conjuntos de transações menores e transferir as transações em grupos, a funcionalidade processa as transações com mais eficiência. Quando as transações são agrupadas, os recursos do servidor de lote são usados com mais eficiência.
 

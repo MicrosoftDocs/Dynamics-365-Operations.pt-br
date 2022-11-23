@@ -2,7 +2,7 @@
 title: Configurar a visibilidade de estoque
 description: Este artigo descreve como configurar a visibilidade de estoque.
 author: yufeihuang
-ms.date: 05/27/2022
+ms.date: 11/04/2022
 ms.topic: article
 ms.search.form: ''
 audience: Application User
@@ -11,17 +11,16 @@ ms.search.region: Global
 ms.author: yufeihuang
 ms.search.validFrom: 2021-08-02
 ms.dyn365.ops.version: 10.0.21
-ms.openlocfilehash: 61819d9c5af64b58697e07be85beebc084ae5935
-ms.sourcegitcommit: 20ce54cb40290dd116ab8b157c0a02d6757c13f5
+ms.openlocfilehash: 915382c14cc9ba89b9d543cfd668a94cecbc0a55
+ms.sourcegitcommit: 4f987aad3ff65fe021057ac9d7d6922fb74f980e
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 09/20/2022
-ms.locfileid: "9542263"
+ms.lasthandoff: 11/14/2022
+ms.locfileid: "9765701"
 ---
 # <a name="configure-inventory-visibility"></a>Configurar a visibilidade de estoque
 
 [!include [banner](../includes/banner.md)]
-
 
 Este artigo descreve como configurar a Visibilidade de Estoque usando o aplicativo Visibilidade de Estoque para Power Apps.
 
@@ -53,27 +52,32 @@ O Suplemento de Visibilidade de Estoque adiciona vários recursos novos à sua i
 |---|---|
 | *OnHandReservation* | Este tópico permite criar reservas, consumir reservas e/ou cancelar a reserva de quantidades de estoque especificadas usando a Visibilidade de Estoque. Para obter mais informações, consulte [Reservas de Visibilidade de Estoque](inventory-visibility-reservations.md). |
 | *OnHandMostSpecificBackgroundService* | Este recurso fornece um resumo de estoque para produtos juntamente com todas as dimensões. Os dados do resumo de estoque serão sincronizados periodicamente de Visibilidade de Estoque. A frequência de sincronização padrão é uma vez a cada 15 minutos e pode ser definida como uma vez a cada 5 minutos. Para obter mais informações, consulte [Resumo de estoque](inventory-visibility-power-platform.md#inventory-summary). |
-| *onHandIndexQueryPreloadBackgroundService* | Esse recurso permite pré-carregar as consultas disponíveis sobre a Visibilidade de Estoque para montar listas disponíveis com dimensões pré-selecionadas. A frequência de sincronização padrão é uma vez a cada 15 minutos. Para obter mais informações, consulte [Resumo de estoque](inventory-visibility-power-platform.md#preload-the-inventory-visibility-onhand-query). |
+| *onHandIndexQueryPreloadBackgroundService* | Esse recurso permite pré-carregar as consultas disponíveis sobre a Visibilidade de Estoque para montar listas disponíveis com dimensões pré-selecionadas. A frequência de sincronização padrão é uma vez a cada 15 minutos. Para obter mais informações, consulte [Pré-carregar uma consulta de estoque disponível simplificada](inventory-visibility-power-platform.md#preload-streamlined-onhand-query). |
 | *OnhandChangeSchedule* | Esse recurso habilita o plano de alterações disponível e os recursos disponíveis para promessa (ATP). Para obter mais informações, consulte [Agenda de alterações disponíveis e disponível para promessa de Visibilidade de Estoque](inventory-visibility-available-to-promise.md). |
 | *Alocação* | Esse recurso opcional permite que a Visibilidade de Estoque tenha a capacidade de proteção de inventário (ringfencing) e controle de venda excessiva. Para obter mais informações, consulte [Alocação de estoque de visibilidade do estoque](inventory-visibility-allocation.md). |
 | *Habilitar itens de depósito em Visibilidade de Estoque* | Esse recurso opcional permite que a Visibilidade do Estoque dê suporte a itens habilitados para processos de gerenciamento de depósito (WMS). Para obter mais informações, consulte [Suporte do Visibilidade de Estoque para itens WMS](inventory-visibility-whs-support.md). |
 
 ## <a name="find-the-service-endpoint"></a><a name="get-service-endpoint"></a>Localizar o ponto de extremidade de serviço
 
-Se você não souber o ponto de extremidade de serviço de Visibilidade de Estoque correto, abra a página **Configuração** no Power Apps e selecione **Mostrar Ponto de Extremidade de Serviço** no canto superior direito. A página mostrará o ponto de extremidade de serviço correto.
+Se você não souber o ponto de extremidade de serviço de Visibilidade de Estoque correto, abra a página **Configuração** no Power Apps e selecione **Mostrar Detalhes do Serviço** no canto superior direito. A página mostrará o ponto de extremidade de serviço correto. Você também pode encontrar o ponto de extremidade no Microsoft Dynamics Lifecycle Services, conforme descrito em [Encontre o ponto de extremidade de acordo com seu ambiente de serviços de ciclo de vida](inventory-visibility-api.md#endpoint-lcs).
+
+> [!NOTE]
+> O uso de um ponto de extremidade incorreto pode causar falha na instalação do Visibilidade de estoque erros quando o Supply Chain Management é sincronizado com o Visibilidade de estoque. Se você não tiver certeza de qual é o seu ponto de extremidade, entre em contato com o administrador do sistema. Os URLs de ponto de extremidade usam o seguinte formato:
+>
+> `https://inventoryservice.<RegionShortName>-il<IsLandNumber>.gateway.prod.island.powerapps.com`
 
 ## <a name="data-source-configuration"></a><a name="data-source-configuration"></a>Configuração de fonte de dados
 
-Cada fonte de dados representa um sistema de onde vêm seus dados. Exemplos de nomes de fonte de dados incluem `fno` (que significa aplicativos de finanças e operações do "Dynamics 365") e `pos` (que significa "ponto de venda"). Por padrão, o Supply Chain Management é configurado como uma fonte de dados padrão (`fno`) no Visibilidade de Estoque.
+Cada fonte de dados representa um sistema de onde vêm seus dados. Exemplos de nomes de fontes de dados incluem `fno` (que corresponde a Supply Chain Management) e `pos` (que significa "ponto de venda"). Por padrão, o Supply Chain Management é configurado como uma fonte de dados padrão (`fno`) no Visibilidade de Estoque.
 
 > [!NOTE]
-> A fonte de dados `fno` é reservada para o Supply Chain Management. Se o Suplemento de Visibilidade de Estoque estiver integrado a um ambiente do Supply Chain Management, recomendamos que você não exclua as configurações relacionadas a `fno` na fonte de dados.
+> A fonte de dados `fno` é reservada para o Supply Chain Management. Se o suplemento Visibilidade de Estoque estiver integrado a um ambiente do Supply Chain Management, recomendamos que você não exclua as configurações relacionadas a `fno` na fonte de dados.
 
 Para adicionar uma fonte de dados, siga estas etapas.
 
 1. Entre no seu ambiente do Power Apps e abra **Visibilidade de Estoque**.
 1. Abra a página **Configuração**.
-1. Na guia **Fonte de Dados**, selecione **Nova Fonte de Dados** para adicionar uma fonte de dados.
+1. Na guia **Fonte de dados**, selecione **Nova fonte de dados** para adicionar uma fonte de dados (por exemplo, `ecommerce` ou outra ID de fonte de dados significativa).
 
 > [!NOTE]
 > Ao adicionar uma fonte de dados, valide o nome da fonte de dados, as medidas físicas e os mapeamentos de dimensão antes de atualizar a configuração para o serviço Visibilidade de Estoque. Não será possível modificar essas configurações depois de selecionar **Atualizar Configuração**.
@@ -88,11 +92,11 @@ A configuração da fonte de dados inclui as seguintes partes:
 
 O objetivo da configuração da dimensão é padronizar a integração de vários sistemas para postar eventos e consultas, com base nas combinações de dimensão. Visibilidade de Estoque fornece uma lista de dimensões básicas que podem ser mapeadas desde as dimensões da sua fonte de dados. Trinta e três dimensões disponíveis para mapeamento.
 
-- Por padrão, se você estiver usando o Supply Chain Management como uma de suas fontes de dados, 13 dimensões serão mapeadas para as dimensões padrão do Supply Chain Management. Doze outras dimensões (`inventDimension1` a `inventDimension12`) são mapeadas para dimensões personalizadas no Supply Chain Management. As oito dimensões restantes são dimensões estendidas que podem ser mapeadas para fontes de dados externas.
+- Por padrão, se você estiver usando o Supply Chain Management como uma de suas fontes de dados, 13 dimensões já são mapeadas para as dimensões padrão do Supply Chain Management. As outras 12 dimensões (`inventDimension1` a `inventDimension12`) também são mapeadas para dimensões personalizadas no Supply Chain Management. As oito dimensões restantes (`ExtendedDimension1` a `ExtendedDimension8`) são dimensões estendidas que podem ser mapeadas para fontes de dados externas.
 - Se não usar o Supply Chain Management como uma de suas fontes de dados, você poderá mapear as dimensões livremente. A tabela a seguir mostra a lista completa de dimensões disponíveis.
 
 > [!NOTE]
-> Se a dimensão não estiver na lista de dimensões padrão e se você estiver usando uma fonte de dados externa, recomendamos o uso de `ExtendedDimension1` a `ExtendedDimension8` para fazer o mapeamento.
+> Se você usar o Supply Chain Management e alterar os mapeamentos de dimensão padrão entre o Supply Chain Management e o Visibilidade de estoque, a dimensão alterada não sincronizará os dados. Portanto, se a dimensão não estiver na lista de dimensões padrão e se você estiver usando uma fonte de dados externa, recomendamos o uso de `ExtendedDimension1` a `ExtendedDimension8` para fazer o mapeamento.
 
 | Tipo de dimensão | Dimensão base |
 |---|---|
@@ -114,11 +118,11 @@ O objetivo da configuração da dimensão é padronizar a integração de vário
 | Sistema | `Empty` |
 
 > [!NOTE]
-> Os tipos de dimensão listados na tabela anterior são apenas para referência. Você não precisa defini-los no Visibilidade de Estoque.
+> Os tipos de dimensão listados na tabela anterior são apenas para sua referência. Você não precisa defini-los no Visibilidade de Estoque.
 >
-> As dimensões de estoque (personalizadas) podem ser reservadas para o Supply Chain Management. Nesse caso, você pode usar as dimensões estendidas.
+> As dimensões (personalizadas) de estoque podem ser reservadas para o Supply Chain Management. Nesse caso, use as dimensões estendidas.
 
-Os sistemas externos podem acessar o Visibilidade de Estoque por meio de suas APIs RESTful. Para a integração, o Visibilidade de Estoque permite que você configure a _fonte de dados externa_ e o mapeamento das _dimensões externas_ para as _dimensões base_. Aqui está um exemplo de uma tabela de mapeamento de dimensão.
+Os sistemas externos podem acessar o Visibilidade de Estoque por meio de suas APIs RESTful. Para a integração, o Visibilidade de Estoque permite que você configure a *fonte de dados externa* e o mapeamento das *dimensões externas* para as *dimensões base*. Aqui está um exemplo de uma tabela de mapeamento de dimensão.
 
 | Dimensão externa | Dimensão base |
 |---|---|
@@ -134,20 +138,21 @@ Para adicionar mapeamentos de dimensão, siga estas etapas.
 
 1. Entre no seu ambiente do Power Apps e abra **Visibilidade de Estoque**.
 1. Abra a página **Configuração**.
-1. Na guia **Fonte de Dados**, na seção **Mapeamentos de Dimensão**, selecione **Adicionar** para adicionar mapeamentos de dimensão.
+1. Na guia **Data Source**, selecione a fonte de dados onde deseja fazer o mapeamento de dimensão. Em seguida, na seção **Mapeamentos de Dimensão**, selecione **Adicionar** para adicionar mapeamentos de dimensão.
+
     ![Adição de mapeamentos de dimensão](media/inventory-visibility-dimension-mapping.png "Adição de mapeamentos de dimensão")
 
 1. No campo **Nome da Dimensão**, especifique a dimensão de origem.
 1. No campo **Para Dimensão Base**, selecione a dimensão no Visibilidade de Estoque que você deseja mapear.
 1. Selecione **Salvar**.
 
-Por exemplo, se a sua fonte de dados incluir uma dimensão de cor do produto, você poderá mapeá-la para a dimensão base `ColorId` a fim de adicionar uma dimensão personalizada `ProductColor` à fonte de dados `exterchannel`. Em seguida, ela será mapeada para a dimensão base `ColorId`.
+Por exemplo, você já criou uma fonte de dados chamada `ecommerce` que inclui uma dimensão de cor do produto. Neste caso, para fazer o mapeamento, você pode primeiro adicionar `ProductColor` ao campo **Nome da dimensão** na fonte de dados `ecommerce` e então selecionar `ColorId` no campo **Para dimensão base**.
 
 ### <a name="physical-measures"></a><a name="data-source-configuration-physical-measures"></a>Medidas físicas
 
 Quando uma fonte de dados lança uma alteração de estoque em Visibilidade de Estoque, ela lança essa alteração usando *medidas físicas*. As medidas físicas modificam a quantidade e refletem o status do estoque. Você pode definir suas próprias medidas físicas, com base em seus requisitos. As consultas podem ser baseadas nas medidas físicas.
 
-O Visibilidade de Estoque fornece uma lista de medidas físicas padrão que estão vinculadas ao Supply Chain Management (a fonte de dados `fno`). Essas medidas físicas padrão são tiradas dos status da transação de estoque na página **Lista de disponíveis** no Supply Chain Management (**Gerenciamento de Estoque \> Consultas e Relatório \> Lista de disponíveis**). A tabela a seguir fornece um exemplo de medidas físicas.
+O Visibilidade de Estoque fornece uma lista de medidas físicas padrão que estão mapeadas ao Supply Chain Management (a fonte de dados `fno`). Essas medidas físicas padrão são tiradas dos status da transação de estoque na página **Lista de disponíveis** no Supply Chain Management (**Gerenciamento de Estoque \> Consultas e Relatório \> Lista de disponíveis**). A tabela a seguir fornece um exemplo de medidas físicas.
 
 | Nome da medida física | Descrição |
 |---|---|
@@ -163,16 +168,16 @@ O Visibilidade de Estoque fornece uma lista de medidas físicas padrão que est�
 | `PostedQty` | Quantidade lançada |
 | `QuotationIssue` | Saída de cotação |
 | `QuotationReceipt` | Recebimento de cotação |
-| `Received` | Recebidos |
+| `Received` | Recebido |
 | `Registered` | Registrado |
 | `ReservOrdered` | Ordem reservada |
 | `ReservPhysical` | Reserva física |
 
-Se a fonte de dados for o Supply Chain Management, você não precisará recriar as medidas físicas padrão. No entanto, para fontes de dados externas, você poderá criar novas medidas físicas seguindo estas etapas.
+Se a sua fonte de dados for o Supply Chain Management, você não precisará recriar as medidas físicas padrão. No entanto, para fontes de dados externas, você poderá criar novas medidas físicas seguindo estas etapas.
 
 1. Entre no seu ambiente do Power Apps e abra **Visibilidade de Estoque**.
 1. Abra a página **Configuração**.
-1. Na guia **Fonte de Dados**, na seção **Medidas Físicas**, selecione **Adicionar**, especifique um nome de medida de origem e salve as alterações.
+1. Na guia **Fonte de dados**, selecione a fonte de dados para adicionar medidas físicas (por exemplo, a fonte de dados `ecommerce`). Em seguida, na seção **Medidas físicas**, selecione **Adicionar** e especifique o nome da medida (por exemplo, `Returned` se desejar registrar as quantidades devolvidas nesta fonte de dados como Visibilidade do inventário). Salve as alterações.
 
 ### <a name="calculated-measures"></a>Medidas calculadas
 
@@ -181,7 +186,7 @@ Você pode usar Visibilidade de Estoque para consultar tanto as medidas físicas
 > [!IMPORTANT]
 > Uma medida calculada é uma composição de medidas físicas. Sua fórmula pode incluir somente medidas físicas sem duplicatas, não medidas calculadas.
 
-A configuração permite que você defina um conjunto de modificadores adicionados ou subtraídos para obter a quantidade de saída agregada total.
+A configuração permite definir um conjunto de fórmulas de medida calculadas que incluem modificadores de adição ou subtração para obter a quantidade total de saída agregada.
 
 Para configurar uma medida calculada personalizada, siga estas etapas.
 
@@ -191,7 +196,7 @@ Para configurar uma medida calculada personalizada, siga estas etapas.
 1. Defina os seguintes campos para a nova medida calculada:
 
     - **Nome da nova medida calculada** – Insira o nome da medida calculada.
-    - **Fonte de dados** – selecione a fonte de dados associada ao novo modificador. O sistema de consulta é uma fonte de dados.
+    - **Fonte de dados** – Selecione a fonte de dados na qual a nova medida calculada será incluída. O sistema de consulta é uma fonte de dados.
 
 1. Selecione **Adicionar** para adicionar um modificador à nova medida calculada.
 1. Defina os seguintes campos para o novo modificador:
@@ -200,15 +205,21 @@ Para configurar uma medida calculada personalizada, siga estas etapas.
     - **Fonte de dados** – selecione a fonte de dados em que a medida que fornece o valor do modificador deve ser encontrada.
     - **Medida** – Selecione o nome da medida (da fonte de dados selecionada) que fornece o valor para o modificador.
 
-1. Repita as etapas 5 a 6 até adicionar todos os modificadores necessários.
+1. Repita as etapas 5 a 6 até adicionar todos os modificadores necessários e concluir a fórmula da medida calculada.
 1. Selecione **Salvar**.
 
-Por exemplo, você pode ter o resultado de consulta a seguir.
+Por exemplo, uma empresa de moda opera em três fontes de dados:
+
+- `pos` - Corresponde ao canal da loja.
+- `fno` - Corresponde ao Supply Chain Management.
+- `ecommerce` - Corresponde ao seu canal web.
+
+Sem medidas calculadas, ao consultar o produto D0002 (Armário) no local 1, depósito 11 e um valor de dimensão `ColorID` de `Red`, você pode obter o seguinte resultado de consulta, que mostra as quantidades de estoque em cada físico pré-configurado a medida. No entanto, você não tem visibilidade do total disponível para quantidades de reserva em suas fontes de dados.
 
 ```json
 [
     {
-        "productId": "T-shirt",
+        "productId": "D0002",
         "dimensions": {
             "SiteId": "1",
             "LocationId": "11",
@@ -224,7 +235,7 @@ Por exemplo, você pode ter o resultado de consulta a seguir.
                 "orderedintotal": 50.0,
                 "orderedreserved": 10.0
             },
-            "externalchannel": {
+            "ecommerce": {
                 "received": 90.0,
                 "scheduled": 30.0,
                 "issued": 60.0,
@@ -239,22 +250,22 @@ Em seguida, você configura uma medida calculada chamada `MyCustomAvailableforRe
 
 | Sistema de consumo | Medida calculada | Fonte de dados | Medida física | Tipo de cálculo |
 |---|---|---|---|---|
-| `CustomChannel` | `MyCustomAvailableforReservation` | `fno` | `availphysical` | `Addition` |
-| `CustomChannel` | `MyCustomAvailableforReservation` | `fno` | `orderedintotal` | `Addition` |
-| `CustomChannel` | `MyCustomAvailableforReservation` | `fno` | `orderedreserved` | `Subtraction` |
-| `CustomChannel` | `MyCustomAvailableforReservation` | `pos` | `inbound` | `Addition` |
-| `CustomChannel` | `MyCustomAvailableforReservation` | `pos` | `outbound` | `Subtraction` |
-| `CustomChannel` | `MyCustomAvailableforReservation` | `externalchannel` | `received` | `Addition` |
-| `CustomChannel` | `MyCustomAvailableforReservation` | `externalchannel` | `scheduled` | `Addition` |
-| `CustomChannel` | `MyCustomAvailableforReservation` | `externalchannel` | `issued` | `Subtraction` |
-| `CustomChannel` | `MyCustomAvailableforReservation` | `externalchannel` | `reserved` | `Subtraction` |
+| `CrossChannel` | `MyCustomAvailableforReservation` | `fno` | `availphysical` | `Addition` |
+| `CrossChannel` | `MyCustomAvailableforReservation` | `fno` | `orderedintotal` | `Addition` |
+| `CrossChannel` | `MyCustomAvailableforReservation` | `fno` | `orderedreserved` | `Subtraction` |
+| `CrossChannel` | `MyCustomAvailableforReservation` | `pos` | `inbound` | `Addition` |
+| `CrossChannel` | `MyCustomAvailableforReservation` | `pos` | `outbound` | `Subtraction` |
+| `CrossChannel` | `MyCustomAvailableforReservation` | `ecommerce` | `received` | `Addition` |
+| `CrossChannel` | `MyCustomAvailableforReservation` | `ecommerce` | `scheduled` | `Addition` |
+| `CrossChannel` | `MyCustomAvailableforReservation` | `ecommerce` | `issued` | `Subtraction` |
+| `CrossChannel` | `MyCustomAvailableforReservation` | `ecommerce` | `reserved` | `Subtraction` |
 
 Quando essa fórmula de cálculo for usada, o novo resultado da consulta incluirá a medida personalizada.
 
 ```json
 [
     {
-        "productId": "T-shirt",
+        "productId": "D0002",
         "dimensions": {
             "SiteId": "1",
             "LocationId": "11",
@@ -270,13 +281,13 @@ Quando essa fórmula de cálculo for usada, o novo resultado da consulta incluir
                 "orderedintotal": 50.0,
                 "orderedreserved": 10.0
             },
-            "externalchannel": {
+            "ecommerce": {
                 "received": 90.0,
                 "scheduled": 30.0,
                 "issued": 60.0,
                 "reserved": 40.0
             },
-            "CustomChannel": {
+            "CrossChannel": {
                 "MyCustomAvailableforReservation": 220.0
             }
         }
@@ -304,7 +315,7 @@ A solução inclui essa configuração de partição por padrão. Portanto, *voc
 
 Na maioria das vezes, a consulta de estoque disponível não será apenas no nível "total" mais alto. Em vez disso, talvez você deseje ver os resultados agregados com base nas dimensões do estoque.
 
-A Visibilidade de Estoque fornece flexibilidade, permitindo que você configure _índices_ para aprimorar o desempenho de consultas. Esses índices são baseados em uma dimensão ou combinação de dimensões. Um índice consiste em um *número do conjunto*, uma *dimensão* e uma *hierarquia*, conforme definido na tabela a seguir.
+A Visibilidade de Estoque fornece flexibilidade, permitindo que você configure *índices* para aprimorar o desempenho de consultas. Esses índices são baseados em uma dimensão ou combinação de dimensões. Um índice consiste em um *número do conjunto*, uma *dimensão* e uma *hierarquia*, conforme definido na tabela a seguir.
 
 | Organização | Descrição |
 |---|---|
@@ -334,15 +345,15 @@ Esta seção fornece um exemplo que mostra o funcionamento da hierarquia.
 
 A tabela a seguir fornece uma lista de estoque disponível para este exemplo.
 
-| Item  | ColorId | SizeId | StyleId | Quantidade |
+| Item | ColorId | SizeId | StyleId | Quantidade |
 |---|---|---|---|---|
-| Camiseta | Preto | Pequeno | Largo | 1 |
-| Camiseta | Preto | Pequeno | Regular | 2 |
-| Camiseta | Preto | Grande | Largo | 3 |
-| Camiseta | Preto | Grande | Regular | 4 |
-| Camiseta | Vermelho | Pequeno | Largo | 5 |
-| Camiseta | Vermelho | Pequeno | Regular | 6 |
-| Camiseta | Vermelho | Grande | Regular | 7 |
+| D0002 | Preto | Pequeno | Largo | 1 |
+| D0002 | Preto | Pequeno | Regular | 2 |
+| D0002 | Preto | Grande | Largo | 3 |
+| D0002 | Preto | Grande | Regular | 4 |
+| D0002 | Vermelho | Pequeno | Largo | 5 |
+| D0002 | Vermelho | Pequeno | Regular | 6 |
+| D0002 | Vermelho | Grande | Regular | 7 |
 
 A tabela a seguir mostra como a hierarquia de índice é configurada.
 
@@ -356,29 +367,29 @@ O índice permite consultar o estoque disponível das seguintes maneiras:
 
 - `()` – agrupado por todos
 
-    - Camiseta, 28
+    - D0002, 28
 
 - `(ColorId)` – agrupado por `ColorId`
 
-    - Camiseta, Preta, 10
-    - Camiseta, Vermelha, 18
+    - D0002, Preto, 10
+    - D0002, Vermelho, 18
 
 - `(ColorId, SizeId)` – agrupado pela combinação de `ColorId` e `SizeId`
 
-    - Camiseta, Preta, Pequena, 3
-    - Camiseta, Preta, Grande, 7
-    - Camiseta, Vermelha, Pequena, 11
-    - Camiseta, Vermelha, Grande, 7
+    - D0002, Preto, Pequeno, 3
+    - D0002, Preto, Grande, 7
+    - D0002, Vermelho, Pequeno, 11
+    - D0002, Vermelho, Grande, 7
 
 - `(ColorId, SizeId, StyleId)` – agrupado pela combinação de `ColorId`, `SizeId` e `StyleId`
 
-    - Camiseta, Preta, Pequena, Larga, 1
-    - Camiseta, Preta, Pequena, Regular, 2
-    - Camiseta, Preta, Grande, Larga, 3
-    - Camiseta, Preta, Grande, Regular, 4
-    - Camiseta, Vermelha, Pequena, Larga, 5
-    - Camiseta, Vermelha, Pequena, Regular, 6
-    - Camiseta, Vermelha, Grande, Regular, 7
+    - D0002, Preto, Pequeno, Largo, 1
+    - D0002, Preto, Pequeno, Regular, 2
+    - D0002, Preto, Grande, Largo, 3
+    - D0002, Preto, Grande, Regular, 4
+    - D0002, Vermelho, Pequeno, Largo, 5
+    - D0002, Vermelho, Pequeno, Regular, 6
+    - D0002, Vermelho, Grande, Regular, 7
 
 ## <a name="reservation-configuration-optional"></a><a name="reservation-configuration"></a>Configuração de reserva (opcional)
 
@@ -397,35 +408,35 @@ Antes de configurar esse mapeamento, as medidas físicas, as medidas calculadas 
 
 Para definir o mapeamento de reserva flexível, siga estas etapas.
 
-1. Defina a medida física que serve como medida da reserva flexível (por exemplo, `SoftReservOrdered`).
-1. Na guia **Medida calculada** da página **Configuração**, defina a medida calculada AFR (*disponível para reserva*) que contém a fórmula de computação AFR que você deseja mapear para a medida física. Por exemplo, você pode configurar `AvailableToReserve` (disponível para reserva) para que ele seja mapeado para a medida física `SoftReservOrdered` definida anteriormente. Dessa forma, você poderá descobrir quais quantidades têm o status de estoque `SoftReservOrdered` estarão disponíveis para reserva. A tabela a seguir mostra a fórmula de computação AFR.
+1. Defina a medida física que serve como medida da reserva flexível (por exemplo, `SoftReservPhysical`).
+1. Na guia **Medida calculada** da página **Configuração**, defina a medida calculada AFR (*disponível para reserva*) que contém a fórmula de computação AFR que você deseja mapear para a medida física. Por exemplo, você pode configurar `AvailableToReserve` (disponível para reserva) para que ele seja mapeado para a medida física `SoftReservPhysical` definida anteriormente. Dessa forma, você poderá descobrir quais quantidades têm o status de estoque `SoftReservPhysical` estarão disponíveis para reserva. A tabela a seguir mostra a fórmula de computação AFR.
 
     | Tipo de cálculo | Fonte de dados | Medida física |
     |---|---|---|
     | Adição | `fno` | `AvailPhysical` |
     | Adição | `pos` | `Inbound` |
     | Subtração | `pos` | `Outbound` |
-    | Subtração | `iv` | `SoftReservOrdered` |
+    | Subtração | `iv` | `SoftReservPhysical` |
 
-    É recomendável configurar a medida calculada para que contenha a medida física na qual a medida da reserva se baseia. Dessa forma, a quantidade da medida calculada será afetada pela quantidade da medida da reserva. Portanto, neste exemplo, a medida calculada `AvailableToReserve` da fonte de dados `iv` deve conter a medida física `SoftReservOrdered` de `iv` como componente.
+    É recomendável configurar a medida calculada para que contenha a medida física na qual a medida da reserva se baseia. Dessa forma, a quantidade da medida calculada será afetada pela quantidade da medida da reserva. Portanto, neste exemplo, a medida calculada `AvailableToReserve` da fonte de dados `iv` deve conter a medida física `SoftReservPhysical` de `iv` como componente.
 
 1. Abra a página **Configuração**.
-1. Na guia **Mapeamento de Reserva Flexível**, configure o mapeamento da medida física para a medida calculada. No exemplo anterior, você poderia usar as configurações a seguir para mapear `AvailableToReserve` para a medida física `SoftReservOrdered` definida anteriormente.
+1. Na guia **Mapeamento de Reserva Flexível**, configure o mapeamento da medida física para a medida calculada. No exemplo anterior, você poderia usar as configurações a seguir para mapear `AvailableToReserve` para a medida física `SoftReservPhysical` definida anteriormente.
 
     | Fonte de dados de medida física | Medida física | Disponível para a fonte de dados de reserva | Disponível para medida calculada da reserva |
     |---|---|---|---|
-    | `iv` | `SoftReservOrdered` | `iv` | `AvailableToReserve` |
+    | `iv` | `SoftReservPhysical` | `iv` | `AvailableToReserve` |
 
     > [!NOTE]
     > Se não puder editar a guia **Mapeamento de Reserva Flexível**, você poderá precisar ativar o recurso *OnHandReservation* na guia **Gerenciamento de Recursos**.
 
-Agora, quando você fizer a reserva em `SoftReservOrdered`, o Visibilidade de Estoque encontrará automaticamente `AvailableToReserve` e sua fórmula de cálculo relacionada para fazer a validação da reserva.
+Agora, quando você fizer a reserva em `SoftReservPhysical`, o Visibilidade de Estoque encontrará automaticamente `AvailableToReserve` e sua fórmula de cálculo relacionada para fazer a validação da reserva.
 
 Por exemplo, você tem o estoque a seguir disponível no Visibilidade de Estoque.
 
 ```json
 {
-    "productId": "T-shirt",
+    "productId": "D0002",
     "dimensions": {
         "SiteId": "1",
         "LocationId": "11",
@@ -433,7 +444,7 @@ Por exemplo, você tem o estoque a seguir disponível no Visibilidade de Estoque
     },
     "quantities": {
         "iv": {
-            "SoftReservOrdered": 90
+            "SoftReservPhysical": 90
         },
         "fno": {
             "availphysical": 70.0,
@@ -448,14 +459,14 @@ Por exemplo, você tem o estoque a seguir disponível no Visibilidade de Estoque
 
 Nesse caso, o seguinte cálculo se aplica:
 
-`AvailableToReserve` = `fno.availphysical` + `pos.inbound` – `pos.outbound` – `iv.SoftReservOrdered`  
+`AvailableToReserve` = `fno.availphysical` + `pos.inbound` – `pos.outbound` – `iv.SoftReservPhysical`  
 = 70 + 50 – 20 – 90  
 = 10
 
-Portanto, se você tentar fazer reservas em `iv.SoftReservOrdered` e a quantidade for menor ou igual a `AvailableToReserve` (10), você poderá fazer a reserva.
+Portanto, se você tentar fazer reservas em `iv.SoftReservPhysical` e a quantidade for menor ou igual a `AvailableToReserve` (10), a reserva flexível será bem-sucedida.
 
 > [!NOTE]
-> Ao chamar a API de reserva, você pode controlar a validação da reserva especificando o parâmetro booliano `ifCheckAvailForReserv` no corpo da solicitação. Um valor `True` significa que a validação é necessária, enquanto um valor `False` significa que a validação não é necessária. O valor padrão é `True`.
+> Ao chamar a API de reserva, você pode controlar a validação da reserva especificando o parâmetro booliano `ifCheckAvailForReserv` no corpo da solicitação. Um valor de `True` significa que a validação é necessária, enquanto um valor de `False` significa que a validação não é necessária (embora você possa acabar com uma quantidade negativa de `AvailableToReserve`, o sistema ainda permitirá você para reserva flexível). O valor padrão é `True`.
 
 ### <a name="soft-reservation-hierarchy"></a>Hierarquia de reserva flexível
 
@@ -488,18 +499,21 @@ Você pode configurar a visibilidade do inventário para permitir que você prog
 
 ## <a name="complete-and-update-the-configuration"></a>Concluir e atualizar a configuração
 
-Depois de concluir a configuração, você deverá confirmar todas as alterações em Visibilidade de Estoque. Para confirmar as alterações, selecione **Atualizar Configuração** no canto superior direito da página **Configuração** no Power Apps.
+Depois de concluir a configuração, você deverá confirmar todas as alterações em Visibilidade de Estoque. Siga estas etapas para confirmar suas alterações.
 
-Na primeira vez que você seleciona **Atualizar Configuração**, o sistema solicita suas credenciais.
+1. No Power Apps, na página **Configuração**, selecione **Atualizar configuração** no canto superior direito. 
+1. O sistema solicita credenciais de login. Insira os seguintes valores:
 
-- **ID do Cliente** – a ID do aplicativo do Azure criada para Visibilidade de Estoque.
-- **ID de Locatário** – sua ID de locatário do Azure.
-- **Segredo do Cliente** – o segredo do aplicativo do Azure criado para Visibilidade de Estoque.
+    - **ID do Cliente** – a ID do aplicativo do Azure criada para Visibilidade de Estoque.
+    - **ID de Locatário** – sua ID de locatário do Azure.
+    - **Segredo do Cliente** – o segredo do aplicativo do Azure criado para Visibilidade de Estoque.
 
-Depois de entrar, a configuração será atualizada no serviço Visibilidade de Estoque.
+    Para obter mais informações sobre essas credenciais como encontrá-las, consulte [Instalar e configurar o Visibilidade de Estoque](inventory-visibility-setup.md).
 
-> [!NOTE]
-> Valide o nome da fonte de dados, as medidas físicas e os mapeamentos de dimensão antes de atualizar a configuração para o serviço Visibilidade de Estoque. Não será possível modificar essas configurações depois de selecionar **Atualizar Configuração**.
+    > [!IMPORTANT]
+    > Valide o nome da fonte de dados, as medidas físicas e os mapeamentos de dimensão antes de atualizar a configuração. Não será possível modificar essas configurações depois de atualizar.
+
+1. Após entrar, selecione **Atualizar configuração** novamente. O sistema aplica suas configurações e mostra o que mudou.
 
 ## <a name="default-configuration-sample"></a><a name="default-configuration-sample"></a>Exemplo de configuração padrão
 
@@ -694,13 +708,19 @@ Os mapeamentos de dimensão listados na tabela a seguir são configurados para a
 
 As seguintes medidas físicas são configuradas para a fonte de dados `fno`:
 
-- `Ordered`
 - `Arrived`
-- `AvailPhysical`
 - `PhysicalInvent`
 - `ReservPhysical`
+- `onorder`
+- `notspecified`
+- `availordered`
+- `availphysical`
+- `picked`
+- `postedqty`
+- `quotationreceipt`
+- `received`
+- `ordered`
 - `ReservOrdered`
-- `OnOrder`
 
 #### <a name="configuration-of-the-pos-data-source"></a>Configuração da fonte de dados "pos"
 
@@ -766,7 +786,7 @@ A tabela a seguir mostra o mapeamento de reserva padrão.
 
 | Fonte de dados de medida física | Medida física | Disponível para a fonte de dados de reserva | Disponível para medida calculada da reserva |
 |---|---|---|---|
-| `iv` | `SoftReservOrdered` | `iv` | `AvailableToReserve` |
+| `iv` | `SoftReservPhysical` | `iv` | `AvailableToReserve` |
 
 #### <a name="reservation-hierarchy"></a>Hierarquia de reservas
 
@@ -778,35 +798,5 @@ A tabela a seguir mostra a hierarquia de reserva padrão.
 | `LocationId` | 2 |
 | `ColorId` | 3 |
 | `SizeId` | 4 |
-| `StyleId` | 5 |
-| `BatchId` | 6 |
-| `SerialId` | 7 |
-| `StatusId` | 8 |
-| `LicensePlateId` | 9 |
-| `WMSLocationId` | 10 |
-| `WMSPalletId` | 11 |
-| `ConfigId` | 12 |
-| `VersionId` | 13 |
-| `CustomDimension1` | 14 |
-| `CustomDimension2` | 15 |
-| `CustomDimension3` | 16 |
-| `CustomDimension4` | 17 |
-| `CustomDimension5` | 18 |
-| `CustomDimension6` | 19 |
-| `CustomDimension7` | 20 |
-| `CustomDimension8` | 21 |
-| `CustomDimension9` | 22 |
-| `CustomDimension10` | 23 |
-| `CustomDimension11` | 24 |
-| `CustomDimension12` | 25 |
-| `ExtendedDimension1` | 26 |
-| `ExtendedDimension2` | 27 |
-| `ExtendedDimension3` | 28 |
-| `ExtendedDimension4` | 29 |
-| `ExtendedDimension5` | 30 |
-| `ExtendedDimension6` | 31 |
-| `ExtendedDimension7` | 32 |
-| `ExtendedDimension8` | 33 |
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]
-

@@ -8,19 +8,19 @@ ms.prod: ''
 ms.technology: ''
 ms.search.form: CustFreeInvoice
 audience: Application User
-ms.reviewer: kfend
+ms.reviewer: twheeloc
 ms.custom: 3141
 ms.assetid: fecd17a2-d7b4-4a20-ac81-eb71abbfa9d1
 ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 8e2b6d75034c06704cad4cbc800ce3311ef5330e
-ms.sourcegitcommit: 04e6c1c9400e1b582180cf3e0e4767434e736c26
+ms.openlocfilehash: f5120c4e75e821776201d5add2d498feb94d0297
+ms.sourcegitcommit: 9c4638c4bb5b5f8adc7508542a0a2c3e1de5190c
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/05/2022
-ms.locfileid: "8712276"
+ms.lasthandoff: 11/15/2022
+ms.locfileid: "9778402"
 ---
 # <a name="accounting-distributions-and-subledger-entries-for-free-text-invoices"></a>Distribuições contábeis e entradas no razão auxiliar para faturas de texto livre
 
@@ -30,9 +30,9 @@ As distribuições contábeis são usadas para definir como um valor será conta
 
 ## <a name="accounting-distributions"></a>Distribuições contábeis
 
-Você pode usar os botões a seguir na página Fatura de texto livre para exibir e, possivelmente, alterar as distribuições contábeis de cada valor da fatura de texto livre.
+Você pode usar os botões a seguir na página **Fatura de texto livre** para exibir e possivelmente alterar as distribuições contábeis para cada valor na fatura de texto livre.
 
--   **Distribuir valores**—Exibir e modificar as distribuições contábeis para uma linha individual e todas as linhas filho, como impostos ou encargos. Também é possível exibir e modificar as distribuições contábeis para a linha filho diretamente da página Transações de imposto ou Transações de encargos.
+-   **Distribuir valores**—Exibir e modificar as distribuições contábeis para uma linha individual e todas as linhas filho, como impostos ou encargos. Também é possível exibir e alterar as distribuições contábeis para a linha filho diretamente da página **Transações de impostos** ou da página **Transações de encargos**.
     -   Modifique os valores do cabeçalho da fatura de texto livre, como encargos ou valores de arredondamento de moeda.
     -   Modifique os valores da linha da fatura de texto livre.
 -   **Exibir distribuições** - Exibir as distribuições contábeis para todas as linhas do documento. Você não pode alterar as distribuições contábeis nesse modo de exibição.
@@ -89,7 +89,7 @@ Quando você insere uma fatura de texto livre, cada valor será distribuído com
 </tr>
 <tr class="odd">
 <td>Valor do desconto da fatura de texto livre</td>
-<td>A conta principal para descontos do cliente na página Descontos à vista.</td>
+<td>O campo Conta principal para descontos do Cliente na página Descontos à vista.</td>
 <td><ol>
 <li>Se a conta principal é uma conta de alocação, use o valor padrão de definição da conta de alocação.</li>
 <li>Se a conta principal não é uma conta de alocação, use o modelo padrão de dimensão financeira na linha da fatura de texto livre.</li>
@@ -120,7 +120,7 @@ Quando você insere uma fatura de texto livre, cada valor será distribuído com
 </table>
 
 ## <a name="distributing-taxes"></a>Impostos de distribuição
-As distribuições contábeis de impostos não podem ser criadas até que os impostos sejam calculados. Para calcular impostos, você deve concluir uma das seguintes tarefas no formulário Fatura de texto livre:
+As distribuições contábeis de impostos não podem ser criadas até que os impostos sejam calculados. Para calcular impostos sobre vendas, conclua uma das seguintes tarefas na página **Fatura de texto livre**:
 -   Exibir imposto.
 -   Exibir total da fatura.
 -   Exibir caixa registradora.

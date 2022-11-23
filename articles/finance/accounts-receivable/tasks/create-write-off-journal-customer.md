@@ -8,17 +8,17 @@ ms.prod: ''
 ms.technology: ''
 ms.search.form: CustParameters, CustPosting, DefaultDashboard, CustCollectionsPoolsListPage, CustWriteOff, LedgerJournalTable, LedgerJournalTransDaily, CustCollections, CustOpenInvoicesListPage, CustTable
 audience: Application User
-ms.reviewer: kfend
+ms.reviewer: twheeloc
 ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 7da01759fe4aaa7beb1719ede51ac0abfc3b404c
-ms.sourcegitcommit: d1683d033fc74adbc4465dd26f7b0055e7639753
+ms.openlocfilehash: 21aaeda413e767fed1815423b0262127c6692bb6
+ms.sourcegitcommit: 9740f9b41a7dcf1821c6baccb2e05b9865ac2966
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/05/2022
-ms.locfileid: "8713661"
+ms.lasthandoff: 11/15/2022
+ms.locfileid: "9775290"
 ---
 # <a name="create-a-write-off-journal-for-a-customer"></a>Criar um diário de baixa para um cliente
 
@@ -48,9 +48,9 @@ Esta guia de tarefa mostrará como configurar parâmetros de baixas contábeis e
 7. Vá até **Painel de Navegação > Módulos > Contabilidade > Entradas de diário > Diários gerais**.
 8. Selecione o número do lote do diário para o diário que contém a amortização. Uma linha é criada para reverter o saldo do cliente. Uma ou mais linhas são criadas para lançar a amortização na conta de valores.  
 9. Feche a página.
-10. Feche a página.
 
-## <a name="write-off-transactions-from-the-collections-form"></a>Dar baixa nas transações do formulário das coleções.
+
+## <a name="write-off-transactions-from-the-collections-page"></a>Dar baixa nas transações pela página de coleções
 1. Acesse **Crédito e coleções > Cobranças > Saldos antigos**.
 2. Selecione o nome do cliente que tem as transações que deseja dar baixa. Por exemplo, selecione Vendas por atacado da cavidade (US-004).
 3. Marcar a linha como a primeira transação.
@@ -63,7 +63,7 @@ Esta guia de tarefa mostrará como configurar parâmetros de baixas contábeis e
 10. Acesse **Contabilidade > Entradas de diários > Diários gerais**.
 11. Selecione o número do lote do diário para o diário que contém a amortização. Uma linha é criada para reverter o saldo do cliente. Uma ou mais linhas são criadas para lançar a amortização na conta de valores.  
 12. Feche a página.
-13. Feche a página.
+
 
 ## <a name="write-off-an-invoice-from-the-open-customers-invoices-page"></a>Dar baixa em uma nota fiscal da página de notas fiscais de clientes em Aberto
 1. Acesse **Painel de Navegação > Módulos > Contas a receber > Faturas > Faturas abertas do cliente**.

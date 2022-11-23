@@ -15,18 +15,18 @@ ms.search.region: Global
 ms.author: kweekley
 ms.search.validFrom: 2022-01-03
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 4f0609e333fb16ba189b6a971f88fbb5bf900fec
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: bb563008f156e1bfa6e4e9a705e9170342719ce7
+ms.sourcegitcommit: 9740f9b41a7dcf1821c6baccb2e05b9865ac2966
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8887967"
+ms.lasthandoff: 11/15/2022
+ms.locfileid: "9775159"
 ---
 # <a name="set-up-and-process-bridged-payments"></a>Configurar e processar pagamentos de transição
 
 [!include [banner](../includes/banner.md)]
 
-O pagamento de transição é lançado no livro-razão em duas etapas. Normalmente, essa abordagem é usada quando o método de pagamento é definido como **Banco**, e você deve lançar transações para a conta bancária somente quando a transação for compensada pelo banco. No entanto, você também pode usá-la para uma conta do livro-razão. Nesse caso, o sistema move o valor de uma conta principal para outra quando o lançamento de transição é processado.
+O pagamento de transição é lançado no livro-razão em duas etapas. Normalmente, essa abordagem é usada quando o método de pagamento é definido como **Banco**, e você deve lançar transações para a conta bancária somente quando a transação for compensada pelo banco. No entanto, você também pode usá-la para uma conta do livro-razão. Nesse caso, o valor de uma conta principal será movido para outra quando o lançamento de transição é processado.
 
 Você pode criar pagamentos de transição a partir de contas a pagar ou contas a receber. Embora este artigo explique como configurar o lançamento de transições para contas a receber, as etapas para transações de contas a pagar são semelhantes.
 

@@ -2,7 +2,7 @@
 title: Alocação de estoque do Inventory Visibility
 description: Este artigo explica como configurar e usar o recurso alocação de estoque, que permite separar o estoque dedicado para garantir que você possa atender a canais ou clientes mais rentáveis.
 author: yufeihuang
-ms.date: 05/27/2022
+ms.date: 11/04/2022
 ms.topic: article
 ms.search.form: ''
 audience: Application User
@@ -11,35 +11,39 @@ ms.search.region: Global
 ms.author: yufeihuang
 ms.search.validFrom: 2022-05-13
 ms.dyn365.ops.version: 10.0.27
-ms.openlocfilehash: f79497a24a5b4dd501bb0d13d9eaca7e98672533
-ms.sourcegitcommit: f2175fe5e900d39f34167d671aab5074b09cc1b8
+ms.openlocfilehash: 449ca0616405ba589b92fba1ef078a4350d1e3b1
+ms.sourcegitcommit: 49f8973f0e121eac563876d50bfff00c55344360
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/17/2022
-ms.locfileid: "9306104"
+ms.lasthandoff: 11/14/2022
+ms.locfileid: "9762663"
 ---
-# <a name="inventory-visibility-inventory-allocation"></a>Alocação de estoque de visibilidade de estoque
+# <a name="inventory-visibility-inventory-allocation"></a>Alocação de estoque do Inventory Visibility
 
 [!include [banner](../includes/banner.md)]
 
 ## <a name="business-background-and-purpose"></a>Plano de fundo e finalidade dos negócios
 
-Em muitos casos, os fabricantes, varejistas e outros proprietários de empresas da cadeia de suprimento devem pré-alocar estoque para canais de vendas importantes, locais ou clientes, ou para eventos de vendas específicos. A alocação de estoque é uma prática típica no processo de planejamento operacional de vendas e é realizada antes que as atividades reais de vendas ocorram e uma ordem de venda seja criada.
+As organizações geralmente precisam pré-alocar seu estoque disponível para seus canais de vendas, grupos de clientes, regiões e eventos promocionais mais importantes para garantir que o estoque pré-alocado seja protegido contra qualquer outro uso e possa ser consumido apenas por meio de transações de vendas relevantes para o alocação. A alocação de estoque na Visibilidade de estoque é um componente do processo de planejamento operacional de vendas e é feita antes que qualquer atividade de venda real ocorra ou que um pedido de venda seja criado.
 
-Por exemplo, uma empresa de bicicleta tem estoque limitado disponível para uma bicicleta muito popular. Esta empresa faz vendas online e na loja. Em cada canal de vendas, a empresa tem alguns parceiros comerciais importantes (mercados e varejistas grandes) que exigem que uma parte específica do estoque disponível da bicicleta seja salva para eles. Portanto, a empresa de bicicleta deve ser capaz de equilibrar a distribuição de estoque em canais e também gerenciar as expectativas de parceiros VIP. A melhor maneira de atingir ambas as metas é usar a alocação de estoque, de forma que cada canal e varejista possa receber quantidades alocadas específicas que possam ser vendidas para os consumidores posteriormente.
+Por exemplo, uma empresa chamada Contoso produz uma bicicleta conhecida. Infelizmente, como uma interrupção recente na cadeia de suprimentos afetou todo o estoque em trânsito dessa bicicleta, a Contoso tem apenas um estoque disponível limitado e deve aproveitá-lo da melhor maneira possível. A Contoso faz vendas online e na loja. Em cada canal de vendas, a empresa tem alguns parceiros comerciais importantes (mercados e varejistas grandes) que exigem que uma parte específica do estoque disponível da bicicleta seja salva para eles. Portanto, a empresa de bicicleta deve ser capaz de equilibrar a distribuição de estoque em canais e também gerenciar as expectativas de parceiros VIP. A melhor maneira de atingir ambas as metas é usar a alocação de estoque, de forma que cada canal e varejista possa receber quantidades alocadas específicas que possam ser vendidas para os consumidores posteriormente.
 
 A alocação de estoque tem duas finalidades comerciais básicas:
 
-- **Proteção de estoque (ringfencing)** – as organizações desejam pré-alocar estoque restrito ou limitado para canais priorizados, regiões, clientes VIP e empresas subsidiárias. O recurso de alocação de visibilidade de estoque visa proteger o estoque alocado, de forma que as outras alocações, reservas ou outras demandas de venda não afetem o estoque previamente alocado.
+- **Proteção de estoque (ringfencing)** – As organizações desejam pré-alocar estoque restrito ou limitado para canais priorizados, regiões, clientes VIP e empresas subsidiárias. O recurso de alocação de visibilidade de estoque visa proteger o estoque alocado, de forma que as outras alocações, reservas ou outras demandas de venda não afetem o estoque previamente alocado.
 - **Controle de venda excessiva** – o recurso de alocação de visibilidade de estoque visa colocar uma restrição nas quantidades alocadas anteriormente, de modo que a parte destinatária (por exemplo, um canal ou grupo de clientes) não as consuma em excesso quando a transação de vendas real baseada em uma reserva flexível entrar em vigor.
 
 ## <a name="allocation-definition-in-inventory-visibility-service"></a>Definição de alocação no serviço de visibilidade de estoque
 
-Embora o recurso de alocação no serviço de visibilidade de estoque não reserve quantidades de estoque físico, ele se refere à quantidade de estoque físico disponível para definir a quantidade inicial de pool virtual *disponível para alocar*. A alocação de estoque na visibilidade de estoque é uma alocação flexível. Ela é realizada antes das transações reais de vendas e não depende de ordens de venda. Por exemplo, você pode alocar o estoque para os canais de vendas mais importantes ou grandes varejistas empresariais antes que os clientes finais visitem o canal de vendas ou a loja de varejo para comprá-lo.
+### <a name="allocation-virtual-pool"></a>Pool de alocação virtual
 
-A diferença entre alocação de estoque e [reserva flexível de estoque](inventory-visibility-reservations.md) é que a reserva flexível geralmente é vinculada a transações de vendas reais (linhas da ordem de venda). Portanto, se você desejar usar os recursos de alocação e reserva flexível juntos, é recomendável fazer a alocação de estoque primeiro e, depois, fazer a reserva flexível para as quantidades alocadas. Para obter mais informações, consulte [Consumir como reserva flexível](#consume-to-soft-reserved).
+Embora o recurso de alocação na Visibilidade de estoque não reserve quantidades de estoque físico, ele se refere à quantidade de estoque físico disponível para definir a quantidade inicial de pool virtual *disponível para alocar*. A alocação de estoque na visibilidade de estoque é uma alocação flexível. Ela é realizada antes das transações reais de vendas e não depende de ordens de venda. Por exemplo, você pode alocar o estoque para os canais de vendas mais importantes ou grandes varejistas empresariais antes que os clientes finais visitem o canal de vendas ou a loja de varejo para comprá-lo.
 
-O recurso de alocação de estoque permite que os planejadores de vendas ou os principais gerentes de contas gerenciem e pré-aloquem estoque importante entre grupos de alocação (como canais, regiões e grupos de clientes). Ele também oferece suporte a rastreamento, ajuste e análise de consumo em tempo real em relação a quantidades alocadas, de forma que o reabastecimento ou a realocação possa ser feita no prazo. Essa capacidade de ter visibilidade em tempo real sobre alocação, consumo e saldo de alocação é especialmente importante em eventos de promoção e venda rápida.
+### <a name="difference-between-inventory-allocation-and-soft-reservation"></a>Diferença entre a alocação de estoque e a reserva flexível
+
+[Reservas flexíveis](inventory-visibility-reservations.md) geralmente são vinculadas a transações de vendas reais (linhas de ordem de venda). Tanto as alocações quanto a reserva flexível podem ser usadas de maneira independente, mas se você quiser usá-las juntas, a reserva flexível deve ser feita após a alocação. Recomendamos que você primeiro faça a alocação de estoque e, em seguida, faça uma reserva flexível em relação às quantidades alocadas para atingir o consumo quase em tempo real em relação à alocação. Para obter mais informações, consulte [Consumir como reserva flexível](#consume-to-soft-reserved).
+
+O recurso de alocação de estoque permite que os planejadores de vendas ou os principais gerentes de contas gerenciem e pré-aloquem estoque importante entre grupos de alocação (como canais, regiões e grupos de clientes). Ele também oferece suporte a rastreamento, ajuste e análise de consumo em tempo real em relação a quantidades alocadas, garantindo que o reabastecimento ou a realocação possa ser feita no prazo. Essa capacidade de ter visibilidade em tempo real sobre alocação, consumo e saldo de alocação é especialmente importante em eventos de promoção e venda rápida.
 
 ## <a name="terminology"></a>Terminologia
 
@@ -49,12 +53,16 @@ Os seguintes termos e conceitos são úteis em discussões de alocação de esto
 - **Valor do grupo de alocação** – o valor de cada grupo de alocação. Por exemplo, *web* ou *loja* pode ser o valor do grupo de alocação de canais de vendas, enquanto *VIP* ou *normal* pode ser o valor do grupo de alocação do cliente.
 - **Hierarquia de alocação** – um meio de combinar grupos de alocação de forma hierárquica. Por exemplo, você pode definir *canal* como nível hierárquico 1, *região* como nível 2 e *grupo de clientes* como nível 3. Durante a alocação de estoque, você deve seguir a sequência da hierarquia de alocação ao especificar o valor do grupo de alocação. Por exemplo, você pode alocar 200 bicicletas vermelhas para o canal da *Web*, a região de *Londres* e o grupo de clientes *VIP*.
 - **Disponível para alocar** – o *pool comum virtual* que indica a quantidade disponível para alocação adicional. Esta é uma medida calculada que você pode definir livremente usando sua própria fórmula. Se você também estiver usando o recurso de reserva reversível, é recomendável usar a mesma fórmula para calcular disponível para alocar e disponível para reservar.
-- **Alocado** – uma medida física que mostra a cota alocada que pode ser consumida pelos grupos de alocação.
+- **Alocado** – uma medida física que mostra a cota alocada que pode ser consumida pelos grupos de alocação. Ele é deduzido ao mesmo tempo que se soma a quantidade consumida.
 - **Consumido** – uma medida física que indica as quantidades consumidas com relação à quantidade alocada original. À medida que os números são adicionados a essa medida física, a medida física alocada é reduzida automaticamente.
 
 A ilustração a seguir mostra o fluxo de trabalho comercial para alocação de estoque.
 
 ![Fluxo de trabalho comercial de alocação da visibilidade de estoque.](media/inventory-visibility-allocation-flow.png "Fluxo de trabalho comercial de alocação da visibilidade de estoque.")
+
+A ilustração a seguir mostra a hierarquia de alocação e os grupos de alocação. O *pool comum virtual* mostrado aqui é a quantidade disponível para alocação.
+
+[<img src="media/inventory-visibility-allocation-hierarchy.png" alt="Inventory Visibility allocation hierarchy." title="Hierarquia de alocação do Visibilidade de estoque" width="720" />](media/inventory-visibility-allocation-hierarchy.png)
 
 ## <a name="set-up-inventory-allocation"></a>Configurar alocação de estoque
 
@@ -63,14 +71,16 @@ O recurso de alocação de estoque consiste nos seguintes componentes:
 - A fonte de dados predefinida, relacionada à alocação, medidas físicas e medidas calculadas.
 - Grupos de alocação personalizáveis com, no máximo, oito níveis.
 - Um conjunto de interfaces de programação de aplicação (APIs) de alocação:
-  - alocar
-  - realocar
-  - desalocar
-  - consumir
-  - consulta
 
-O processo de configuração do recurso de alocação tem duas etapas:
+    - alocar
+    - realocar
+    - desalocar
+    - consumir
+    - consulta
 
+O processo de configuração do recurso de alocação tem três etapas:
+
+- Ative o recurso no aplicativo Visibilidade de estoque acessando **Configuração \> Gerenciamento de recursos e configurações \> Alocação**.
 - Configure a [fonte de dados](inventory-visibility-configuration.md#data-source-configuration) e suas [medidas](inventory-visibility-configuration.md#data-source-configuration-physical-measures).
 - Configure o nome e a hierarquia do grupo de alocação.
 
@@ -78,24 +88,24 @@ O processo de configuração do recurso de alocação tem duas etapas:
 
 Ao habilitar o recurso de alocação e chamar a API de atualização de configuração, a visibilidade de estoque cria uma fonte de dados predefinida e várias medidas iniciais.
 
-A fonte de dados é chamada de `@iv`.
-
-Estas são as medidas físicas iniciais:
+A fonte de dados é chamada de `@iv`. Isso inclui um conjunto de medidas físicas padrão. Você pode visualizá-los no aplicativo Visibilidade de estoque acessando **Configuração \> Fonte de dados**. Você deverá ver **Datasource - @IV**. Expanda a fonte de dados `@iv` para visualizar a lista de medidas físicas iniciais:
 
 - `@iv`
-  - `@allocated`
-  - `@cumulative_allocated`
-  - `@consumed`
-  - `@cumulative_consumed`
 
-Estas são as medidas calculadas iniciais:
+    - `@allocated`
+    - `@cumulative_allocated`
+    - `@consumed`
+    - `@cumulative_consumed`
+
+Selecione a guia **Medidas calculadas** para visualizar a medida inicial calculada, chamada `@iv.@available_to_allocate`
 
 - `@iv`
-  - `@iv.@available_to_allocate` = `??` – `??` – `@iv.@allocated`
+
+    - `@iv.@available_to_allocate` = `??` – `??` – `@iv.@allocated`
 
 ### <a name="add-other-physical-measures-to-the-available-to-allocate-calculated-measure"></a>Adicionar outras medidas físicas à medida calculada disponível para alocar
 
-Para usar a alocação, você deve configurar a medida calculada de disponível para alocar (`@iv.@available_to_allocate`). Por exemplo, você tem a fonte de dados `fno` e a medida `onordered`, a fonte de dados `pos` e a medida `inbound`, e deseja fazer a alocação no que há disponível para a soma de `fno.onordered` e `pos.inbound`. Nesse caso, `@iv.@available_to_allocate` deve conter `pos.inbound` e `fno.onordered` na fórmula. Este é um exemplo:
+Para usar a alocação, você deve configurar corretamente a fórmula para a medida calculada disponível para alocar (`@iv.@available_to_allocate`). Por exemplo, você tem a fonte de dados `fno` e a medida `onordered`, a fonte de dados `pos` e a medida `inbound` e deseja fazer a alocação no estoque disponível para a soma de `fno.onordered` e `pos.inbound`. Nesse caso, `@iv.@available_to_allocate` deve conter `pos.inbound` e `fno.onordered` na fórmula. Este é um exemplo:
 
 `@iv.@available_to_allocate` = `fno.onordered` + `pos.inbound` – `@iv.@allocated`
 
@@ -104,32 +114,40 @@ Para usar a alocação, você deve configurar a medida calculada de disponível 
 >
 > Você pode adicionar novas medidas físicas à medida calculada predefinida `@iv.@available_to_allocate`, mas não deve alterar seu nome.
 
-### <a name="change-the-allocation-group-name"></a>Alterar o nome do grupo de alocação
+### <a name="manage-allocation-groups"></a>Gerenciar grupos de alocação
 
-É possível definir no máximo oito nomes de grupos de alocação. Os grupos têm uma hierarquia.
+É possível definir no máximo oito nomes de grupos de alocação. Os grupos têm uma hierarquia. Siga estas etapas para exibir e atualizar grupos de alocação.
 
-Defina os nomes de grupos na página **Configuração do Power App de Visibilidade de Estoque**. Para abrir esta página, no ambiente do Microsoft Dataverse, abra a aplicação de Visibilidade de Estoque e selecione **Configuração \> Alocação**.
+1. Entre no seu ambiente do Power Apps e abra **Visibilidade de Estoque**.
+1. Abra a página **Configuração** e, na guia **Alocação**, selecione **Editar configuração**. Por padrão, há uma hierarquia de alocação que possui quatro camadas: `Channel` (camada superior), `customerGroup` (segunda camada),`Region` (terceira camada) e `OrderType` (quarta camada).
+1. Você pode remover um grupo de alocação existente selecionando **X** ao lado dele. Você também pode adicionar novos grupos de alocação à hierarquia inserindo o nome de cada novo grupo diretamente no campo.
 
-Por exemplo, se você usar quatro nomes de grupos e defini-los como \[`channel`, `customerGroup`, `region`, `orderType`\], os nomes serão válidos para solicitações relativas à alocação quando você chamar a API de atualização de configuração.
+    > [!IMPORTANT]
+    > Tenha cuidado ao excluir ou alterar o mapeamento da hierarquia de alocação. Para obter orientação, consulte [Dicas para usar a alocação](#allocation-tips).
 
-### <a name="allocation-using-tips"></a>Alocação usando dicas
+1. Quando terminar de configurar o grupo de alocação e as configurações de hierarquia, salve suas alterações e selecione **Atualizar configuração** no canto superior direito. Os valores dos grupos de alocação configurados serão atualizados quando você criar uma alocação usando a interface do usuário ou API POST (/api<wbr>/environment<wbr>/\{environmentId\}<wbr>/allocation<wbr>/allocate). Detalhes sobre ambas as abordagens são fornecidos posteriormente neste artigo.
+
+Se você usar quatro nomes de grupo e defini-los como \[`channel`, `customerGroup`, `region`, `orderType`\], esses nomes serão válidos para solicitações relacionadas à alocação quando você chamar o API de atualização de configuração.
+
+### <a name="tips-for-using-allocation"></a><a name="allocation-tips"></a>Dicas para usar alocação
 
 - Para cada produto, a função de alocação deve ser usada no mesmo *nível de dimensão*, de acordo com a hierarquia de índice do produto definida na [configuração da hierarquia do índice do produto](inventory-visibility-configuration.md#index-configuration). Por exemplo, suponha que sua hierarquia de índice seja \[`Site`, `Location`, `Color`, `Size`\]. Se você alocar alguma quantidade para um produto no nível de dimensão \[`Site`, `Location`, `Color`\], na próxima vez que você quiser alocar este produto, você também deve alocar no mesmo nível, \[`Site`, `Location`, `Color`\]. Se você usar o nível \[`Site`, `Location`, `Color`, `Size`\] or \[`Site`, `Location`\], os dados serão inconsistentes.
-- A alteração do nome do grupo de alocação não afetará os dados salvos no serviço.
-- A alocação deverá ocorrer depois que o produto tiver a quantidade disponível positiva.
+- **Modificando grupos de alocação e a hierarquia:** se os dados de alocação já existirem no sistema, a exclusão de grupos de alocação existentes ou uma mudança na hierarquia do grupo de alocação corromperá o mapeamento existente entre os grupos de alocação. Portanto, certifique-se de limpar manualmente todos os dados antigos antes de atualizar sua nova configuração. No entanto, como a adição de novos grupos de alocação à hierarquia mais baixa não afeta os mapeamentos existentes, você não precisará limpar os dados.
+- A alocação terá sucesso somente se o produto tiver uma quantidade `available_to_allocate` positiva.
 - Para alocar produtos de um grupo de *nível de alocação* alto para um subgrupo, use a API `Reallocate`. Por exemplo, você tem uma hierarquia de grupos de alocação \[`channel`, `customerGroup`, `region`, `orderType`\] e deseja alocar algum produto do grupo de alocação \[Online, VIP\] para o subgrupo de alocação \[Online, VIP, EU\], use a API `Reallocate` para mover a quantidade. Se você usar a API `Allocate`, ela alocará a quantidade do pool comum virtual.
+- Para visualizar a disponibilidade geral do produto (o pool comum), use a API [consulta disponível](inventory-visibility-api.md#query-on-hand) para solicitar a quantidade de estoque *disponível para alocação*. Você pode então tomar decisões de alocação com base nessas informações.
 
-### <a name="using-the-allocation-api"></a><a name="using-allocation-api"></a>Usar a API de alocação
+## <a name="use-the-allocation-api"></a><a name="using-allocation-api"></a>Usar a API de alocação
 
 No momento, cinco APIs de alocação estão abertas:
 
-- POST /api/environment/{environmentId}/allocation/allocate
-- POST /api/environment/{environmentId}/allocation/unallocate
-- POST /api/environment/{environmentId}/allocation/reallocate
-- POST /api/environment/{environmentId}/allocation/consume
-- POST /api/environment/{environmentId}/allocation/query
+- **POST /api<wbr>/environment<wbr>/\{environmentId\}<wbr>/allocation<wbr>/allocate** – Essa API é usada para criar a alocação inicial.
+- **POST /api<wbr>/environment<wbr>/\{environmentId\}<wbr>/allocation<wbr>/unallocate** – Essa API é usada para reverter ou remover as quantidades alocadas.
+- **POST /api<wbr>/environment<wbr>/\{environmentId\}<wbr>/allocation<wbr>/reallocate** – Essa API é usada para mover a quantidade alocada de uma alocação existente para outros grupos de alocação.
+- **POST /api<wbr>/environment<wbr>/\{environmentId\}<wbr>/allocation<wbr>/consume** – Essa API é usada para deduzir (usar) a quantidade alocada.
+- **POST /api<wbr>/environment<wbr>/\{environmentId\}<wbr>/allocation<wbr>/query** – Essa API é usada para verificar os registros de alocação existentes em relação aos grupos de alocação e hierarquia.
 
-#### <a name="allocate"></a>Alocar
+### <a name="allocate"></a>Alocar
 
 Chame a API `Allocate` para alocar um produto com dimensões específicas. Este é o esquema do corpo da solicitação.
 
@@ -157,10 +175,10 @@ Por exemplo, você deseja alocar 10 unidades do produto *Bicicleta*, site *1*, l
 
 ```json
 {
-    "id": "???",
+    "id": "test101",
     "productId": "Bike",
     "groups": {
-        "channel": "Online",
+        "channel": "Web",
         "customerGroup": "VIP",
         "region": "US"
     },
@@ -176,11 +194,11 @@ Por exemplo, você deseja alocar 10 unidades do produto *Bicicleta*, site *1*, l
 
 A quantidade deve ser sempre maior que 0 (zero).
 
-#### <a name="unallocate"></a>Desalocar
+### <a name="unallocate"></a>Desalocar
 
 Use a API `Unallocate` para reverter a operação `Allocate`. A quantidade negativa não é permitida em uma operação `Allocate`. O corpo de `Unallocate` é idêntico ao corpo de `Allocate`.
 
-#### <a name="reallocate"></a>Realocar
+### <a name="reallocate"></a>Realocar
 
 Use a API `Reallocate` para mover uma quantidade alocada para outra combinação de grupos. Este é o esquema do corpo da solicitação.
 
@@ -213,15 +231,15 @@ Por exemplo, você pode mover duas bicicletas com as dimensões \[site=1, local=
 
 ```json
 {
-    "id": "???",
+    "id": "test102",
     "productId": "Bike",
     "sourceGroups": {
-        "channel": "Online",
+        "channel": "Web",
         "customerGroup": "VIP",
         "region": "US"
     },
     "groups": {
-        "channel": "Online",
+        "channel": "Web",
         "customerGroup": "VIP",
         "region": "EU"
     },
@@ -235,7 +253,7 @@ Por exemplo, você pode mover duas bicicletas com as dimensões \[site=1, local=
 }
 ```
 
-#### <a name="consume"></a>Consumir
+### <a name="consume"></a>Consumir
 
 Use a API `Consume` para lançar a quantidade de consumo em relação à alocação. Por exemplo, você pode usar esta API para mover a quantidade alocada para algumas medidas reais. Este é o esquema do corpo da solicitação.
 
@@ -274,7 +292,7 @@ Agora, três bicicletas são vendidas e são retiradas do pool de alocação. Pa
 
 ```json
 {
-    "id": "???",
+    "id": "test103",
     "organizationId": "usmf",
     "productId": "Bike",
     "dimensions": {
@@ -283,7 +301,7 @@ Agora, três bicicletas são vendidas e são retiradas do pool de alocação. Pa
         "colorId": "red"
     },
     "groups": {
-        "channel": "Online",
+        "channel": "Web",
         "customerGroup": "VIP",
         "region": "US"
     },
@@ -302,11 +320,11 @@ Nesta solicitação, observe que a medida física usada no corpo da solicitaçã
 
 A fonte de dados `fno` não pode ser usada no corpo de consumo porque sempre reivindicamos que a visibilidade de estoque não pode alterar dados da fonte de dados `fno`. O fluxo de dados é unidirecional, o que significa que todas as alterações de quantidade da fonte de dados `fno` devem ser obtidas do ambiente do Supply Chain Management.
 
-#### <a name="consume-as-a-soft-reservation"></a><a name="consume-to-soft-reserved"></a>Consumir como uma reserva flexível
+### <a name="consume-as-a-soft-reservation"></a><a name="consume-to-soft-reserved"></a>Consumir como uma reserva flexível
 
 A API `Consume` também pode consumir a quantidade alocada como uma reserva flexível. Nesse caso, a operação `Consume` reduzirá a quantidade alocada e, depois, fará uma reserva flexível para essa quantidade. Para usar essa abordagem, você também deve usar o recurso [reserva flexível](inventory-visibility-reservations.md) de visibilidade de estoque.
 
-Por exemplo, você definiu um modificador de reserva flexível (medida) como `iv.softreserved`. A seguinte fórmula é usada para a medida calculada de disponível para reservar:
+Por exemplo, você definiu uma medida de reserva flexível como `iv.softreserved`. A seguinte fórmula é usada para a medida calculada de disponível para reservar:
 
 `iv.available_to_reserve` = `fno.onordered` + `pos.inbound` – `iv.softreserved`
 
@@ -329,7 +347,7 @@ Quando desejar consumir uma quantidade de 3 e reservá-la diretamente, você pod
         "colorId": "red"
     },
     "groups": {
-        "channel": "Online",
+        "channel": "Web",
         "customerGroup": "VIP",
         "region": "US"
     },
@@ -344,7 +362,7 @@ Quando desejar consumir uma quantidade de 3 e reservá-la diretamente, você pod
 
 Nesta solicitação, note que `iv.softreserved` tem o valor `Addition`, e não `Subtraction`.
 
-#### <a name="query"></a>Consulta
+### <a name="query"></a>Consulta
 
 Use a API `Query` para recuperar informações relativas à alocação de alguns produtos. É possível usar filtros de dimensão e filtros de grupos de alocação para restringir os resultados. As dimensões devem coincidir exatamente com a que você deseja recuperar; por exemplo, \[site=1, local=11\] terão resultados não relacionados comparados a \[site=1, local=11, cor=vermelho\].
 
@@ -377,7 +395,7 @@ Por exemplo, use \[site=1, local=11, cor=vermelho\] e o campo grupos vazios para
         "colorId": "red"
     },
     "groups": {
-        "channel": "Online",
+        "channel": "Web",
         "customerGroup": "VIP",
         "region": "US"
     },
@@ -396,9 +414,33 @@ Use \[site=1, local=11, cor=vermelho\] e grupos \[canal=Online, customerGroup=VI
         "colorId": "red"
     },
     "groups": {
-        "channel": "Online",
+        "channel": "Web",
         "customerGroup": "VIP",
         "region": "US"
     },
 }
 ```
+
+## <a name="use-the-allocation-user-interface"></a>Usar a interface do usuário de alocação
+
+Você pode gerenciar manualmente as alocações por meio da interface do usuário abrindo o aplicativo Visibilidade de estoque e acessando **Visibilidade operacional \> Alocação**. Lá, você pode executar qualquer uma das ações descritas nas subseções a seguir.
+
+### <a name="create-an-allocation"></a>Criar uma alocação
+
+Siga estas etapas para criar uma alocação na página **Alocação** do aplicativo Visibilidade de estoque.
+
+1. Selecione **Alocar**.
+1. Defina os campos base, as dimensões e os valores dos grupos de alocação de destino. (Ao selecionar a fonte de dados coletada na seção **Dimensões**, primeiro use a lista suspensa para especificar as dimensões (por exemplo, `siteId`). Em seguida, insira os valores de dimensão nos campos exibidos.)
+1. Selecione **enviar**.
+
+### <a name="consume-an-allocation"></a>Consumir uma alocação
+
+Selecione **Consumir** para consumir uma alocação. Para garantir que você consuma dentro do grupo de alocação e da hierarquia corretos, insira os mesmos conjuntos de organização e detalhes de dimensão inseridos ao criar a alocação.
+
+### <a name="reallocate-an-allocation"></a>Realocar uma alocação
+
+Selecione **Realocar** para mover a quantidade alocada existente de um conjunto de grupos de alocação para outro.
+
+### <a name="query-existing-allocations"></a>Consultar alocações existentes
+
+Selecione **Consultar** e insira os valores de produto, organização, dimensão e grupo de alocação para obter os resultados da consulta de alocações existentes.

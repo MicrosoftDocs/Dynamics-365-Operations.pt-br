@@ -2,23 +2,23 @@
 title: Importar dados da subsidiária de arquivos
 description: Este artigo explica como preparar dados de sistemas externos para que possam ser importados para o Microsoft Dynamics 365 Finance.
 author: jinniew
-ms.date: 10/09/2020
+ms.date: 10/09/2022
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
 ms.search.form: ''
 audience: Application User
-ms.reviewer: kfend
+ms.reviewer: twheeloc
 ms.search.region: Global
 ms.author: jiwo
 ms.search.validFrom: 2020-12-01
 ms.dyn365.ops.version: 8.0.1
-ms.openlocfilehash: 6886e2ee79ee9e4ccc067dc4f661c1eea646cfa6
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: 494f6396d5e6fab6fef9404ad473566b02b1b9ab
+ms.sourcegitcommit: cf6b764824bd1cf2c0dde6d37ddd0a7abab87ff0
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8846760"
+ms.lasthandoff: 11/16/2022
+ms.locfileid: "9780087"
 ---
 # <a name="import-subsidiary-data-from-files"></a>Importar dados da subsidiária de arquivos
 
@@ -32,27 +32,27 @@ Este artigo explica como preparar dados de sistemas externos para que possam ser
 3. Exporte os dados para um arquivo seguindo as etapas no procedimento "Processo de importação/exportação de dados" em [Visão geral de trabalhos de importação e exportação de dados](../../fin-ops-core/dev-itpro/data-entities/data-import-export-job.md). Você pode usar esse procedimento para consolidar dados de outra instância do Dynamics 365 Finance ou do Dynamics 365 Business Central. Se você estiver importando dados de sistemas externos, os dados deverão estar no formato descrito em [Exportar dados da subsidiária para arquivos](export-subsidiary-data-to-file.md).
 4. Acesse **Consolidações \> Consolidar com importação**. Na página **Consolidar com importação**, na guia **Critérios**, especifique os detalhes do relatório e/ou da importação definindo os campos a seguir.
 
-    | Campo                                 | Valor para o relatório | Valor para a importação |
-    |---------------------------------------|----------------------|----------------------|
-    | Descrição                           | Não Aplicável | Insira uma descrição para identificar a importação. |
-    | Conta principal                          | Defina o intervalo de contas que o relatório deve incluir. Se você não definir um intervalo, todas as contas serão incluídas. | Defina o intervalo de contas que a importação deve incluir. Se você não definir um intervalo, todas as contas serão incluídas. |
-    | Período de consolidação                  | Defina o intervalo de datas a ser consolidado. | Defina o intervalo de datas a ser consolidado. |
-    | Incluir valores reais                | Defina esta opção como **Sim** para incluir dados reais. | Defina esta opção como **Sim** para incluir dados reais. |
-    | Incluir valores de orçamento                | Defina esta opção como **Sim** para incluir valores de orçamento em consolidações. | Defina esta opção como **Sim** para incluir valores de orçamento em consolidações. |
-    | Recriar saldos durante a consolidação | Defina esta opção como **Sim** se o processo de recriação precisar limpar completamente o saldo e os novos registros e recrie o saldo do início do tempo. | Defina esta opção como **Sim** se o processo de recriação precisar limpar completamente o saldo e os novos registros e recrie o saldo do início do tempo. |
-    | Modelos de orçamento                         | Não Aplicável | Se você optou por importar valores de orçamento, insira os modelos de orçamento a serem consolidados. |
-    | Tipo de taxa de orçamento                      | Não Aplicável | Insira o tipo de taxa de câmbio de orçamento. |
+| Campo                                 | Valor para o relatório | Valor para a importação |
+|---------------------------------------|----------------------|----------------------|
+| **Descrição**                      | Não Aplicável | Insira uma descrição para identificar a importação. |
+| **Conta principal**    | Defina o intervalo de contas que o relatório deve incluir. Se você não definir um intervalo, todas as contas serão incluídas. | Defina o intervalo de contas que a importação deve incluir. Se você não definir um intervalo, todas as contas serão incluídas. |
+    | **Período de consolidação**                  | Defina o intervalo de datas a ser consolidado. | Defina o intervalo de datas a ser consolidado. |
+    | **Incluir valores reais**                | Defina esta opção como **Sim** para incluir dados reais. | Defina esta opção como **Sim** para incluir dados reais. |
+| **Incluir valores de orçamento** | Defina esta opção como **Sim** para incluir valores de orçamento em consolidações. | Defina esta opção como **Sim** para incluir valores de orçamento em consolidações. |
+| **Recriar saldos durante a consolidação** | Defina esta opção como **Sim** se o processo de recriação precisar limpar completamente o saldo e os novos registros e recrie o saldo do início do tempo. | Defina esta opção como **Sim** se o processo de recriação precisar limpar completamente o saldo e os novos registros e recrie o saldo do início do tempo. |
+| **Modelos de orçamento**                         | Não Aplicável | Se você optou por importar valores de orçamento, insira os modelos de orçamento a serem consolidados. |
+    | **Tipo de taxa de orçamento**                      | Não Aplicável | Insira o tipo de taxa de câmbio de orçamento. |
 
 6. Se você tiver moedas contábeis diferentes, use os campos na guia **Conversão de moeda** para configurar a conversão feita durante a consolidação.
 
     | Campo                      | Descrição |
     |----------------------------|-------------|
-    | Entidade legal de origem        | Selecione a entidade legal da qual você está importando. |
-    | Moeda contábil da origem | A moeda padrão é a moeda associada à entidade legal de origem selecionada no campo **Entidade legal de origem**. |
-    | Da conta e Para conta       | Defina o intervalo de contas a ser importado da entidade legal de origem. |
-    | Tipo de taxa de câmbio         | Selecione o tipo de taxa de câmbio. Os tipos de taxa de câmbio são atribuídos quando você cria uma conta principal. Para saber mais, consulte [Criar uma conta principal](tasks/create-main-account.md). |
-    | Aplicar taxa de câmbio de   | Insira uma data para aplicar a taxa de câmbio efetiva nessa data. Como alternativa, insira o valor que deve ser usado como a taxa de câmbio. |
-    | Taxa de câmbio              | O valor padrão depende do tipo de taxa de câmbio que você selecionou no campo **Tipo de taxa de câmbio**. Se você tiver inserido uma taxa de câmbio definida pelo usuário, poderá definir uma taxa. |
+ | **Entidade legal de origem**        | Selecione a entidade legal da qual você está importando. |
+ | **Moeda contábil da origem** | A moeda padrão é a moeda associada à entidade legal de origem selecionada no campo **Entidade legal de origem**. |
+ | **Da conta** e **Para conta**       | Defina o intervalo de contas a ser importado da entidade legal de origem. |
+    | **Tipo de taxa de câmbio**         | Selecione o tipo de taxa de câmbio. Os tipos de taxa de câmbio são atribuídos quando você cria uma conta principal. Para saber mais, consulte [Criar uma conta principal](tasks/create-main-account.md). |
+| **Aplicar taxa de câmbio de**   | Insira uma data para aplicar a taxa de câmbio efetiva nessa data. Como alternativa, insira o valor que deve ser usado como a taxa de câmbio. |
+| **Taxa de câmbio**  | O valor padrão depende do tipo de taxa de câmbio que você selecionou no campo **Tipo de taxa de câmbio**. Se você tiver inserido uma taxa de câmbio definida pelo usuário, poderá definir uma taxa. |
 
 7. Defina a opção **Executar em segundo plano** como **Sim** para permitir que o processo de importação seja executado em segundo plano.
 8. Defina a opção **Processamento em lotes** como **Sim** para executar a consolidação como um trabalho em lotes em uma hora específica. Para executar a consolidação imediatamente, selecione **OK**. 

@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 04c26eec8be61d60908bef67c75958287e7e1a01
-ms.sourcegitcommit: 85141b21ac90f3db1b378c21f9c7f3d8f74e182f
+ms.openlocfilehash: a0d1221e07f6dc4a5a99aa205c4a7f6fb367f000
+ms.sourcegitcommit: cf6b764824bd1cf2c0dde6d37ddd0a7abab87ff0
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 07/09/2022
-ms.locfileid: "9129502"
+ms.lasthandoff: 11/16/2022
+ms.locfileid: "9780430"
 ---
 # <a name="create-a-customer-invoice"></a>Criar uma fatura de cliente
 
@@ -31,11 +31,10 @@ Uma **Fatura de cliente para uma ordem de venda** é uma nota que está relacion
 Uma **Fatura de texto livre** não está relacionada a uma ordem de venda. Ela contém linhas de ordem que incluem contas contábeis, descrições de texto livre e um valor de venda que você insere. Não é possível inserir um número de item neste tipo de fatura. Você deverá inserir as informações apropriadas de impostos sobre vendas. Uma conta principal para a venda é indicada em cada linha da fatura, que você pode distribuir para diversas contas contáveis clicando em **Distribuir valores** na página **Fatura de texto livre**. Além disso, o saldo do cliente é lançado na conta resumo do perfil de lançamento usado para a fatura de texto livre.
 
 Para obter mais informações, consulte:
-
-[Criar faturas de texto](../accounts-receivable/create-free-text-invoice-new.md)
-[Criar um modelo de fatura de texto livre](../accounts-receivable/create-free-text-invoice-template-new.md)
-[Atribuir modelo de fatura de texto a um cliente](tasks/assign-free-text-invoice-template-customer.md)
-[Gerar e lançar faturas de texto livre recorrentes](tasks/post-recurring-free-text-invoices.md)
+ - [Criar faturas de texto livre](../accounts-receivable/create-free-text-invoice-new.md)
+ - [Criar um modelo de fatura de texto livre](../accounts-receivable/create-free-text-invoice-template-new.md)
+ - [Atribuir um modelo de fatura de texto livre a um cliente](tasks/assign-free-text-invoice-template-customer.md)
+ - [Gerar e lançar faturas de texto livre recorrentes](tasks/post-recurring-free-text-invoices.md)
 
 
 Uma **Fatura pro forma** é uma fatura preparada como uma previsão dos valores da fatura real antes de a fatura ser lançada. Você pode imprimir uma **Fatura pro forma** de uma fatura de cliente de uma ordem de venda ou de uma fatura de texto livre. 
@@ -89,7 +88,13 @@ Você pode configurar a divisão de faturas de clientes de ordens de venda por s
  - Escolha a opção **Dividir com base nas informações de entrega da fatura** para produzir uma fatura por endereço de entrega de linha da ordem de venda ao lançar. 
 
 ## <a name="post-to-revenue-account-for-sales-order-lines-that-have-no-price-and-no-cost"></a>Lançar na Conta de receita para linhas de ordem de venda sem preço e sem custo
-Você terá a opção de atualizar a conta de **Receita** na **Contabilidade** para linhas de ordem de venda sem preço e sem custo. Para configurar ou exibir essas informações, acesse o parâmetro **Lançar na Conta de receita para linhas de fatura de ordem de venda e custo zero** na guia **Razão e imposto** da página **Parâmetros de contas a receber**. (**Contas a receber > Configuração > Parâmetros de contas a receber**). Selecione **Sim** para atualizar a conta de **Receita** de linhas da fatura da ordem de venda sem preço e sem custo. Se esta opção for selecionada, o comprovante conterá 0,00 entradas para os tipos de lançamento **Saldo do cliente** e **Receita**. Uma conta de receita é definida na página do parâmetro **Lançamento de estoque**, na guia de definição de conta **Ordem de venda**. Se esta opção não for selecionada, as linhas sem informações de preço ou custo não serão lançadas na conta de **Receita**. O comprovante conterá uma entrada 0,00 para o tipo de lançamento **Saldo do cliente**.
+Você terá a opção de atualizar a conta de **Receita** na **Contabilidade** para linhas de ordem de venda sem preço e sem custo. 
+
+Para configurar ou exibir estas informações:
+1. Acesse o parâmetro **Lançar na Conta de receita para linhas de fatura de ordem de venda e custo zero** na guia **Razão e imposto** da página **Parâmetros de contas a receber**. (**Contas a receber > Configuração > Parâmetros de contas a receber**). 
+2. Selecione **Sim** para atualizar a conta de **Receita** de linhas da fatura da ordem de venda sem preço e sem custo. 
+ - Se esta opção for selecionada, o comprovante conterá 0,00 entradas para os tipos de lançamento **Saldo do cliente** e **Receita**. Uma conta de receita é definida na página de parâmetro **Lançamento de estoque**, na guia de definição de conta de **Pedido de venda**. 
+ - Se essa opção não estiver selecionada, as linhas que não tiverem informações de preço ou custo não serão publicadas na conta de **Receita**. O comprovante conterá uma entrada 0,00 para o tipo de lançamento **Saldo do cliente**.
 
 ## <a name="line-creation-sequence-number-information"></a>Informações do número da sequência de criação de linha
 Ao lançar linhas da fatura do cliente, você terá a opção de criar números de sequência da criação de linha sequencial. Os números de sequência de criação de linha são atribuídos durante o processo de lançamento. Ao permitir a numeração não sequencial, você pode ajudar a melhorar o desempenho do lançamento de faturas dos clientes. Os números de sequência de criação de linha podem ser usados por integrações de terceiros que esperam pedidos sequenciais. Consulte seu departamento de TI sobre extensões que podem ser integradas aos números de sequência de criação de linha.

@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: jasongre
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: a5bf22228749a725baa66ee3094f670c60f0f39a
-ms.sourcegitcommit: 1d5cebea3e05b6d758cd01225ae7f566e05698d2
+ms.openlocfilehash: 384ce8611a7dbf6adf7b8ae6ad9569e2a41c22d1
+ms.sourcegitcommit: e02bd317e96faf6182e70fb50b126868a94d9d06
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 09/02/2022
-ms.locfileid: "9405425"
+ms.lasthandoff: 11/10/2022
+ms.locfileid: "9757158"
 ---
 # <a name="keyboard-shortcuts"></a>Atalhos de teclado
 
@@ -50,7 +50,7 @@ Os usuários poderão descobrir atalhos disponíveis atualmente diretamente da i
 | Fechar uma guia no Painel de ações ou em um menu        | Esc                              |
 | Simular um clique com o botão direito do mouse                          | Shift+F10                        |
 | Abrir o menu de contexto    | Ctrl+F10                         |
-| Executar o botão padrão em um formulário/caixa de diálogo | Alt+Enter                        |
+| Executar o botão padrão em uma página/caixa de diálogo | Alt+Enter                        |
 | Clicar em um botão ou um quadro                          | Enter ou Espaço                   |
 | Exibir informações de atualização para um bloco de contagem       | Alt+Seta para cima                     |
 | Exibir atalhos disponíveis atualmente              | Alt+Shift+K                      |
@@ -85,22 +85,22 @@ Os usuários poderão descobrir atalhos disponíveis atualmente diretamente da i
 |---------------------------------------------------------------------------------------------------------------------|--------------------------|
 | Abrir filtragem de grade da coluna atual                                                                          | Ctrl+G                   |
 | Fechar filtragem de grade da coluna atual                                                                         | Esc                      |
-| Abrir o painel de Filtro (ou alternar o foco entre o painel de Filtro e o formulário principal, se o painel de Filtro já estiver aberto) | Alt+M,F ou Ctrl+F3       |
+| Abrir o painel de Filtro (ou alternar o foco entre o painel de Filtro e a página principal, se o painel de Filtro já estiver aberto) | Alt+M,F ou Ctrl+F3       |
 | Fechar o painel de Filtro (com foco no painel de Filtro)                                                               | Esc                      |
 | Abrir a filtragem/classificação avançada                                                                                        | Ctrl+Shift+F3            |
 | Aplicar o filtro rápido (quando o foco estiver no filtro rápido)                                                              | Enter                    |
 | Aplicar o filtro de grade (quando o foco estiver no campo de filtro do cabeçalho da coluna)                                             | Enter                    |
 
-## <a name="form-shortcuts"></a>Atalhos do formulário
+## <a name="page-shortcuts"></a>Atalhos de página
 
-| Para                                    | Pressione             |
+| Para                                    | Pressionar              |
 |-----------------------------------------------|-------------------|
 | Criar um novo registro                           | Alt+N             |
 | Excluir um registro                               | Alt+Del ou Alt+F9 |
 | Salvar registro                                   | Alt+S ou Ctrl+S   |
 | Reverter (restaurar)                              | Ctrl+Shift+F5     |
 | Atualizar dados                                  | Shift+F5          |
-| Se move para o primeiro campo visível no formulário   | Alt+Shift+F       |
+| Se move para o primeiro campo visível na página   | Alt+Shift+F       |
 | Alternar modo de edição                              | F2                |
 | Anexar um documento                             | Ctrl+Shift+A      |
 | Exportar para o Excel                               | Ctrl+Shift+E      |
@@ -108,13 +108,13 @@ Os usuários poderão descobrir atalhos disponíveis atualmente diretamente da i
 | Mover para o próximo registro (fora de uma grade)      | Ctrl+Seta para baixo   |
 | Mover para o primeiro registro (fora de uma grade)     | Ctrl+Home         |
 | Mover para o último registro (fora de uma grade)      | Ctrl+End          |
-| Fechar o formulário (clicar em Voltar)                   | Esc               |
-| Fechar o formulário com salvar explícito             | Shift+Esc         |
-| Fechar o formulário que descarta todas as alterações não salvas | Alt+Shift+Q       |
+| Fechar a página, (selecione o botão Voltar)<br><br>**Observação:** se houver uma janela pop-up (dica de ferramenta, seletor de data, menu suspenso etc.) aberta, o primeiro uso de Esc descartará o pop-up.       | Esc               |
+| Fechar a página com salvamento explícito             | Shift+Esc         |
+| Fechar a página que descarta todas as alterações não salvas | Alt+Shift+Q       |
 
-## <a name="form-navigation-shortcuts"></a>Atalhos de navegação do formulário
+## <a name="page-navigation-shortcuts"></a>Atalhos de navegação da página
 
-| Para                                          | Pressione                                        |
+| Para                                          | Pressionar                                         |
 |-----------------------------------------------------|----------------------------------------------|
 | Mover para o campo anterior/próximo                     | Tab / Shift+Tab                              |
 | Mover para a guia anterior/próxima                       | Alt+Shift+Seta para a direita/Alt+Shift+Seta para a esquerda |
@@ -192,13 +192,13 @@ Os usuários poderão descobrir atalhos disponíveis atualmente diretamente da i
 | Abra o painel de ajuda                                                            | Ctrl+?                     |
 | Abrir o analisador de rastreamento                                                         | Alt+Shift+T                |
 | Mover para o painel de navegação                                                   | Alt + F1                     |
-| Adicionar/remover formulário como favorito (com foco em um formulário no painel de navegação)   | Shift+F                    |
+| Adicionar/remover página como favorito (com foco em uma página no painel de navegação)   | Shift+F                    |
 | Mover para o Painel de ação padrão                                              | Alt+M,A ou Ctrl+F6         |
 | Mover para o painel Filtrar (que podem incluir sua abertura)                        | Alt+M,F ou Ctrl+F3         |
 | Mover o foco para a página de conteúdo (com foco no painel Filtro)                | Alt+M,M ou Ctrl+F3         |
-| Mover para a lista de navegação no formulário Detalhes (que pode incluir sua abertura)    | Alt+M,S ou Ctrl+F8         |
+| Mover para a lista de navegação (que pode incluir sua abertura)    | Alt+M,S ou Ctrl+F8         |
 | Mover o foco para a página de conteúdo (com foco na lista de navegação)            | Alt+M,M ou Ctrl+F8         |
-| Fechar a lista de navegação no formulário Detalhes (com foco na lista de navegação) | Esc                        |
+| Fechar a lista de navegação (com foco na lista de navegação) | Esc                        |
 | Mover para o conteúdo da página principal (com foco em outro painel)                    | Alt+M,M                    |
 | Mover para o painel Quadro de Fatos (que pode incluir sua abertura)                       | Alt+M,B ou Ctrl+F2         |
 | Mover para o próximo de recurso e textos explicativos                                              | Alt+M,C                    |

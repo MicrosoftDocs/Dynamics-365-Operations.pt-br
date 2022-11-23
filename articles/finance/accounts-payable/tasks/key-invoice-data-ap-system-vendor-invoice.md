@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: abruer
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 7ad75439bf3dfa1ed33e35fa9cfee153012e9f60
-ms.sourcegitcommit: 1d2eeacad11c28889681504cdc509c90e3e8ea86
+ms.openlocfilehash: 4c441d197957674d68c4c92b454a9dca91d76ea0
+ms.sourcegitcommit: 9740f9b41a7dcf1821c6baccb2e05b9865ac2966
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/05/2022
-ms.locfileid: "8716793"
+ms.lasthandoff: 11/15/2022
+ms.locfileid: "9775152"
 ---
 # <a name="key-invoice-data-in-ap-using-a-vendor-invoice"></a>Dados principais de fatura no AP usando uma fatura de fornecedor
 
@@ -68,7 +68,10 @@ Este guia de tarefas ajudará você a criar uma fatura de fornecedor a partir de
 17. No campo **Preço unitário**, insira um número. Agora que o preço unitário foi conciliado, o status é atualizado para Aprovado. Se sua política permitir discrepâncias ou se a conciliação for apenas um aviso, você ainda poderá lançar a fatura.  
 18. Feche a página.
 19. Clique em **Enviar**.
-20. Feche o formulário. Observe que a ordem de compra não está mais listada como recebida, mas como não faturada.  
+20. Feche a página. 
+
+>[!Note] 
+>O pedido de compra não está mais listada como recebida, mas como não faturada.  
 
 
 

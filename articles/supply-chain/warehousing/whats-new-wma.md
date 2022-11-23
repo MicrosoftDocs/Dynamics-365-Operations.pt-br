@@ -10,18 +10,30 @@ ms.search.region: Global
 ms.author: mirzaab
 ms.search.validFrom: 2021-06-07
 ms.dyn365.ops.version: 10.0.21
-ms.openlocfilehash: da7e8a47496092a00ecc05c17933cc0e0cdb0fd0
-ms.sourcegitcommit: 27ce4fc706100b626b81c3a1023238acd872e76c
+ms.openlocfilehash: 21abbffe6b16217a0d2e20f662faa080420da12e
+ms.sourcegitcommit: 4f987aad3ff65fe021057ac9d7d6922fb74f980e
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/20/2022
-ms.locfileid: "9702186"
+ms.lasthandoff: 11/14/2022
+ms.locfileid: "9764230"
 ---
 # <a name="whats-new-or-changed-in-the-warehouse-management-mobile-app"></a>Novidades ou alterações no aplicativo móvel Warehouse Management
 
 [!include [banner](../includes/banner.md)]
 
 Este artigo lista recursos novos, correções, aprimoramentos e problemas conhecidos para cada versão lançada do aplicativo móvel do Warehouse Management para o Microsoft Dynamics 365 Supply Chain Management.
+
+## <a name="version-20370"></a>Versão 2.0.37.0
+
+Esta versão introduz os novos recursos, correções e aprimoramentos a seguir:
+- Adicionada uma configuração de usuário que permite que os funcionários escolham onde o aplicativo exibe as fotos do produto (nos cartões e nos cabeçalhos das etapas, apenas nos cabeçalhos das etapas ou não). 
+- O layout da tela do cartão de detalhes foi aprimorado, reduzindo o tamanho do banner da etapa e do controle giratório de entrada de quantidade, o que deixa mais espaço para outro conteúdo. 
+- A interface do usuário foi melhorada ao executar em um dispositivo Honeywell Thor. 
+- Modo de tela cheia aprimorado (aplica-se apenas a dispositivos com teclado físico). 
+- Resultados aprimorados ao classificar cartões de detalhes e páginas personalizadas por prioridade ou subprioridade (DataPriority ou DisplaySubPriority). 
+- Suporte adicionado a mais idiomas. 
+- Estabilidade aprimorada. 
+- Várias imagens e ícones melhorados. 
 
 ## <a name="version-20350"></a>Versão 2.0.35.0
 

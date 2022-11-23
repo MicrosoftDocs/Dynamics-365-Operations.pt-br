@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: angelading
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 59ad9b9e7e75027fc46658c901da7a70520a1332
-ms.sourcegitcommit: 0d5c07ba91a9ceb2eeb11db032fd28037216789d
+ms.openlocfilehash: 828c82d88bef1d942af1219505af591d27043fa5
+ms.sourcegitcommit: cf6b764824bd1cf2c0dde6d37ddd0a7abab87ff0
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/25/2022
-ms.locfileid: "9715744"
+ms.lasthandoff: 11/16/2022
+ms.locfileid: "9780448"
 ---
 # <a name="settle-partial-payment-before-discount-date-and-final-payment-after-discount-date"></a>Liquidar um pagamento parcial antes da data do desconto e um pagamento final após a data do desconto
 
@@ -35,20 +35,20 @@ Em 25 de junho, Amanda insere e lança uma fatura de 1.000,00 para o fornecedor 
 
 | Comprovante   | Tipo de transação | Data      | Fatura | Valor em débito na moeda da transação | Valor em crédito na moeda da transação | Saldo   | Moeda |
 |-----------|------------------|-----------|---------|--------------------------------------|---------------------------------------|-----------|----------|
-| Inv-10020 | Fatura          | 25/6/2015 | 10020   |                                      | 1.000,00                              | -1.000,00 | USD      |
+| Inv-10020 | Fatura          | 25/6/2020 | 10020   |                                      | 1.000.00                              | -1.000,00 | USD      |
 
 ## <a name="partial-payment-on-july-2"></a>Pagamento parcial em 2 de julho
 Em 2 de julho, Alice deseja liquidar 300.00 da fatura. O pagamento está qualificado para um desconto, pois a Fabrikam obtém descontos em pagamentos parciais. Consequentemente, April paga 297,00 e tem um desconto de 3,00. Ela cria um diário de pagamento e insere uma linha para o fornecedor 3057. Ela então abre a página **Liquidar transações**, dessa forma, ela pode marcar a fatura para liquidação.
 
 | Marcar     | Usar desconto à vista | Comprovante   | Conta | Data      | Data de conclusão  | Fatura | Valor na moeda da transação | Moeda | Valor para liquidar |
 |----------|-------------------|-----------|---------|-----------|-----------|---------|--------------------------------|----------|------------------|
-| Selecionada | Normal            | Inv-10020 | 3057    | 25/6/2015 | 25/7/2015 | 10020   | -1.000,00                      | USD      | -297,00          |
+| Selecionados | Normal            | Inv-10020 | 3057    | 25/6/2020 | 25/7/2020 | 10020   | -1.000,00                      | USD      | -297,00          |
 
 As informações do desconto aparecem na parte inferior da página **Liquidar transações abertas**.
 
-| Campo                        | Alíquota     |
+| Campo                        | Valor     |
 |------------------------------|-----------|
-| Data do desconto à vista           | 09/07/2015 |
+| Data do desconto à vista           | 09/7/2020 |
 | Valor de desconto à vista         | -10,00    |
 | Usar desconto à vista            | Normal    |
 | Desconto à vista obtido          | 0,00      |
@@ -58,22 +58,22 @@ Então Alice lança o pagamento. Agora a fatura tem um saldo de 700,00. Alice po
 
 | Comprovante    | Tipo de transação | Data      | Fatura | Valor em débito na moeda da transação | Valor em crédito na moeda da transação | Saldo | Moeda |
 |------------|------------------|-----------|---------|--------------------------------------|---------------------------------------|---------|----------|
-| Inv-10020  | Fatura          | 25/6/2015 | 10020   |                                      | 1.000,00                              | -700,00 | USD      |
-| APP-10020  | Pagamento          | 01/07/2015  |         | 297.00                               |                                       | 0,00    | USD      |
-| DISC-10020 | Desconto à vista    | 01/07/2015  |         | 3,00                                 |                                       | 0,00    | USD      |
+| Inv-10020  | Fatura          | 25/6/2020 | 10020   |                                      | 1.000.00                              | -700,00 | USD      |
+| APP-10020  | Pagamento          | 01/07/2020  |         | 297.00                               |                                       | 0,00    | USD      |
+| DISC-10020 | Desconto à vista    | 01/07/2020  |         | 3.00                                 |                                       | 0,00    | USD      |
 
 ## <a name="remaining-payment-on-july-15-use-cash-discount--normal"></a>Pagamento restante em 15 de julho, Usar desconto à vista = Normal
 Alice paga o restante da fatura em 15 de julho, que ocorre após o período de desconto. Na página **Liquidar transações abertas**, nenhum valor de desconto será exibido no campo **Estimativa de desconto à vista** e o valor no campo **Valor de desconto à vista** é **0,00**. Quando April pagar os 700,00 restantes, nenhum desconto adicional será obtido.
 
 | Marcar     | Usar desconto à vista | Comprovante   | Conta | Data      | Data de conclusão  | Fatura | Valor na moeda da transação | Moeda | Valor para liquidar |
 |----------|-------------------|-----------|---------|-----------|-----------|---------|--------------------------------|----------|------------------|
-| Selecionada | Normal            | Inv-10020 | 3057    | 25/6/2015 | 25/7/2015 | 10020   | -700,00                        | USD      | -700,00          |
+| Selecionados | Normal            | Inv-10020 | 3057    | 25/6/2020 | 25/7/2020 | 10020   | -700,00                        | USD      | -700,00          |
 
 As informações do desconto aparecem na parte inferior da página **Liquidar transações**. April pode ver que ela já obteve um desconto de 3,00.
 
-| Campo                        | Alíquota     |
+| Campo                        | Valor     |
 |------------------------------|-----------|
-| Data do desconto à vista           | 09/07/2015 |
+| Data do desconto à vista           | 09/7/2020 |
 | Valor de desconto à vista         | 0,00      |
 | Usar desconto à vista            | Normal    |
 | Desconto à vista obtido          | -3,00     |
@@ -83,23 +83,23 @@ April lança o pagamento. Quando ela abre a página **Transações do fornecedor
 
 | Comprovante    | Tipo de transação | Data      | Fatura | Valor em débito na moeda da transação | Valor em crédito na moeda da transação | Saldo | Moeda |
 |------------|------------------|-----------|---------|--------------------------------------|---------------------------------------|---------|----------|
-| Inv-10020  | Fatura          | 25/6/2015 | 10020   |                                      | 1.000,00                              | 0,00    | USD      |
-| APP-10020  | Pagamento          | 01/07/2015  |         | 297.00                               |                                       | 0,00    | USD      |
-| DISC-10020 | Desconto à vista    | 01/07/2015  |         | 3,00                                 |                                       | 0,00    | USD      |
-| APP-10021  | Pagamento          | 15/7/2015 |         | 700.00                               |                                       | 0,00    | USD      |
+| Inv-10020  | Fatura          | 25/6/2020 | 10020   |                                      | 1.000.00                              | 0,00    | USD      |
+| APP-10020  | Pagamento          | 01/07/2020  |         | 297.00                               |                                       | 0,00    | USD      |
+| DISC-10020 | Desconto à vista    | 01/07/2020  |         | 3.00                                 |                                       | 0,00    | USD      |
+| APP-10021  | Pagamento          | 15/7/2020 |         | 700,00                               |                                       | 0,00    | USD      |
 
 ## <a name="remaining-payment-on-july-15-use-cash-discount--always"></a>Pagamento restante em 15 de julho, Usar desconto à vista = Sempre
 Se o fornecedor permitir que April obtenha um desconto, mesmo que ela esteja pagando após a data de desconto, ela poderá alterar o valor no campo **Usar desconto à vista** para **Sempre**. A configuração **Calcular descontos em dinheiro para pagamentos parciais** é substituída, e o desconto é tomado. O valor do pagamento é de 693,00, e o desconto equivale aos 7,00 restantes.
 
 | Marcar     | Usar desconto à vista | Comprovante   | Conta | Data      | Data de conclusão  | Fatura | Valor em débito na moeda da transação | Valor em crédito na moeda da transação | Moeda | Valor para liquidar |
-|----------|-------------------|-----------|---------|-----------|-----------|---------|--------------------------------------|---------------------------------------|----------|------------------|
-| Selecionada | Sempre            | Inv-10020 | 3057    | 25/6/2015 | 25/7/2015 | 10020   | 700.00                               |                                       | USD      | -693,00          |
+|----------|----------|------|------|-----------|-----------|---------|-----------------------|---------------------------------------|----------|------------------|
+| Selecionados | Sempre            | Inv-10020 | 3057    | 25/6/2020 | 25/7/2020 | 10020   | 700,00                   |                   | USD      | -693,00          |
 
 As informações do desconto aparecem na parte inferior da página **Liquidar transações**.
 
-| Campo                        | Alíquota     |
+| Campo                        | Valor     |
 |------------------------------|-----------|
-| Data do desconto à vista           | 09/07/2015 |
+| Data do desconto à vista           | 09/7/2020 |
 | Valor de desconto à vista         | 7.00      |
 | Usar desconto à vista            | Sempre    |
 | Desconto à vista obtido          | -3,00     |
@@ -109,11 +109,11 @@ April lança o pagamento. Quando ela abre a página **Transações do fornecedor
 
 | Comprovante    | Tipo de transação | Data      | Fatura | Valor em débito na moeda da transação | Valor em crédito na moeda da transação | Saldo | Moeda |
 |------------|------------------|-----------|---------|--------------------------------------|---------------------------------------|---------|----------|
-| Inv-10020  | Fatura          | 25/6/2015 | 10020   |                                      | 1.000,00                              | 0,00    | USD      |
-| APP-10020  | Pagamento          | 01/07/2015  |         | 297.00                               |                                       | 0,00    | USD      |
-| DISC-10020 | Desconto à vista    | 01/07/2015  |         | 3,00                                 |                                       | 0,00    | USD      |
-| APP-10021  | Pagamento          | 15/7/2015 |         | 693.00                               |                                       | 0,00    | USD      |
-| DISC-10021 | Desconto à vista    | 15/7/2015 |         | 7:00                                 |                                       | 0,00    | USD      |
+| Inv-10020  | Fatura          | 25/6/2020 | 10020   |                                      | 1.000.00                              | 0,00    | USD      |
+| APP-10020  | Pagamento          | 01/07/2020  |         | 297.00                               |                                       | 0,00    | USD      |
+| DISC-10020 | Desconto à vista    | 01/07/2020  |         | 3.00                                 |                                       | 0,00    | USD      |
+| APP-10021  | Pagamento          | 15/7/2020 |         | 693.00                               |                                       | 0,00    | USD      |
+| DISC-10021 | Desconto à vista    | 15/7/2020 |         | 7.00                                 |                                       | 0,00    | USD      |
 
 
 

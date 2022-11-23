@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: abruer
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 6c83ac47bc5e7f7ed223c772591cf8a7c1e63a40
-ms.sourcegitcommit: 0d5c07ba91a9ceb2eeb11db032fd28037216789d
+ms.openlocfilehash: b3cc07a1f0ba444250eddcf892681e2ca63e9c1a
+ms.sourcegitcommit: cf6b764824bd1cf2c0dde6d37ddd0a7abab87ff0
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/25/2022
-ms.locfileid: "9715488"
+ms.lasthandoff: 11/16/2022
+ms.locfileid: "9780441"
 ---
 # <a name="correct-a-free-text-invoice"></a>Corrigir uma fatura de texto livre
 
@@ -28,7 +28,11 @@ ms.locfileid: "9715488"
 
 Este artigo explica como corrigir uma nota fiscal de texto livre que foi lançada e emiti-la novamente como uma nota fiscal corrigida.
 
-Para corrigir uma fatura de texto livre que já foi lançada, abra a fatura de texto livre lançada. Na página **Fatura**, selecione **Cancelamento** e, em seguida, selecione **Corrigir fatura**. Selecione um código de motivo, adicione comentários, e selecione a data para a nova fatura corrigida. Você pode modificar a fatura corrigida e lançá-la. 
+Para corrigir uma fatura de texto que já foi lançada: 
+1. Abra a fatura de texto livre lançada. 
+2. Na página **Fatura**, selecione **Cancelamento** e, em seguida, selecione **Corrigir fatura**. 
+3. Selecione um código de motivo, adicione comentários, e selecione a data para a nova fatura corrigida.
+4. Você pode modificar a fatura corrigida e lançá-la. 
 
 Ao lançar a fatura corrigida, uma fatura de cancelamento será criada para um valor de crédito que é igual ao valor da fatura original. Sendo assim, o saldo combinado da fatura original e da fatura de cancelamento é igual a 0 (zero). A fatura de cancelamento é liquidada com relação à fatura original. 
 

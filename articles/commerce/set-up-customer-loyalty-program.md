@@ -2,26 +2,22 @@
 title: Visão geral de fidelidade
 description: Este artigo descreve os recursos de fidelidade no Dynamics 365 Commerce e as etapas de instalação correspondentes para oferecer ao fornecedor uma introdução aos programas programas de fidelidade.
 author: josaw1
-ms.date: 07/21/2020
+ms.date: 11/16/2022
 ms.topic: overview
-ms.prod: ''
-ms.technology: ''
-audience: Application User
+audience: Application User, Developer, IT Pro
 ms.reviewer: josaw
-ms.search.region: global
+ms.search.region: Global
 ms.author: josaw
 ms.search.validFrom: 2016-02-28
-ms.dyn365.ops.version: AX 7.0.0, Retail July 2017 update
-ms.custom: 16201,  ""intro-internal
+ms.custom: 16201, "intro-internal"
 ms.assetid: f79559d2-bc2d-4f0b-a938-e7a61524ed80
-ms.search.industry: Retail
 ms.search.form: RetailLoyaltyPrograms, RetailPriceDiscGroup
-ms.openlocfilehash: e1b2a5ec6d1a2b925ccae07b5217fbb24a2e6a10
-ms.sourcegitcommit: 87e727005399c82cbb6509f5ce9fb33d18928d30
+ms.openlocfilehash: 17742bb5c0091804fc6f43bb2aabb7af73229890
+ms.sourcegitcommit: 774f8f97a0b14cf1199bd1802178ccf536a25ade
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/12/2022
-ms.locfileid: "9277979"
+ms.lasthandoff: 11/17/2022
+ms.locfileid: "9784955"
 ---
 # <a name="loyalty-overview"></a>Visão geral de fidelidade
 
@@ -36,6 +32,11 @@ Você pode configurar o programa de fidelidade de modo que ele tenha as opções
 - Defina regras de ganhos para identificar as atividades que um cliente deverá concluir para conquistar recompensas. Você também pode definir regras de redenção para identificar quando e como um cliente poderá resgatar recompensas.
 - Emita cartões de fidelidade de qualquer canal que participe de seus programas de fidelidade e vincule cartões de fidelidade a um ou mais programas de fidelidade em que o cliente possa participar. Você também pode vincular um registro de cliente a um cartão de fidelidade, para que o cliente possa agrupar pontos de fidelidade de vários cartões e resgatá-los.
 - Ajuste manualmente cartões-fidelidade ou transfira o saldo de recompensas de fidelidade de um cartão para outro para acomodar ou recompensar um cliente.
+
+O vídeo a seguir fornece uma visão geral dos recursos de demonstração e fidelidade no Dynamics 365 Commerce.
+
+
+> [!VIDEO https://www.microsoft.com/videoplayer/embed/RE5c2wW]
 
 ## <a name="setting-up-loyalty-programs"></a>Configurando programas de fidelidade
 

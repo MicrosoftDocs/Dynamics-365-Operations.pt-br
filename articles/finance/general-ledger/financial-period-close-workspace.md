@@ -2,25 +2,25 @@
 title: Espaço de trabalho de fechamento do período financeiro
 description: Este artigo fornece uma visão geral do espaço de trabalho financeiro final do período e a configuração associada.
 author: kweekley
-ms.date: 11/29/2017
+ms.date: 11/15/2022
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
 ms.search.form: LedgerPeriodCloseProjectWorkspace
 audience: Application User
-ms.reviewer: kfend
+ms.reviewer: twheeloc
 ms.custom: 13791
 ms.assetid: 6ee51758-639b-448e-9cb2-56cf1d804273
 ms.search.region: Global
 ms.author: kweekley
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 531909bb8de892b012ffff347e58f23f997705ef
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: 657bdd04c8b6dd36341e0bf771a978f68f13362d
+ms.sourcegitcommit: cf6b764824bd1cf2c0dde6d37ddd0a7abab87ff0
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8865702"
+ms.lasthandoff: 11/16/2022
+ms.locfileid: "9780033"
 ---
 # <a name="financial-period-close-workspace"></a>Espaço de trabalho de fechamento do período financeiro
 
@@ -28,7 +28,7 @@ ms.locfileid: "8865702"
 
 Este artigo fornece uma visão geral do espaço de **Fechamento do período financeiro** e a configuração associada.
 
-Espaço de trabalho de fechamento do período financeiro
+## <a name="financial-period-close-workspace"></a>Espaço de trabalho de fechamento do período financeiro
 
 O espaço de trabalho **Fechamento do período financeiro** permite acompanhar os processos financeiros de fechamento nas empresas, áreas e contatos. Dependendo de sua exibição do espaço de trabalho **Fechamento do período financeiro**, você verá todas as tarefas e status de uma agenda de fechamento, ou apenas as tarefas atribuídas a você. 
 
@@ -101,7 +101,7 @@ Atribua o calendário apropriado para a agenda de fechamento, para indicar os di
 
 Você também deve definir as empresas que serão associadas à agenda de fechamento. Se as tarefas do modelo forem atribuídas a várias empresas, as tarefas separadas serão criadas para cada companhia que estiver na agenda de fechamento e estiverem atribuídas às tarefas do modelo. 
 
-Depois que uma agenda de fechamento for concluída, selecione a opção **Fechada** para ela. O histórico da tarefa ainda estará disponível na página de listagem **Todas as tarefas de fechamento do período financeiro**, mas a agenda de fechamento será removida do espaço de trabalho. Depois que uma agenda de fechamento for marcada como **Fechada**, não será possível adicionar tarefas, editar tarefas, nem removê-las.
+Depois que uma agenda de fechamento for concluída, selecione a opção **Fechada**. O histórico da tarefa ainda estará disponível na página de listagem **Todas as tarefas de fechamento do período financeiro**, mas a agenda de fechamento será removida do espaço de trabalho. Depois que uma agenda de fechamento for marcada como **Fechada**, não será possível adicionar tarefas, editar tarefas, nem removê-las.
 
 
 

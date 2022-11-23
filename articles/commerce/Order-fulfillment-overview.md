@@ -1,35 +1,37 @@
 ---
 title: Atendimento da ordem na loja
-description: Este artigo fornece uma visão geral do atendimento da ordem da loja.
+description: Este artigo fornece uma visão geral do processamento da ordem da loja no Microsoft Dynamics 365 Commerce.
 author: BrianShook
-ms.date: 10/30/2017
+ms.date: 11/16/2022
 ms.topic: overview
-ms.prod: ''
-ms.technology: ''
-ms.search.form: RetailStoreTable, RetailTillLayout
-audience: Application User
+audience: Application User, Developer, IT Pro
 ms.reviewer: josaw
 ms.search.region: Global
-ms.search.industry: retail
 ms.author: brshoo
 ms.search.validFrom: 2017-10-30
-ms.dyn365.ops.version: ''
-ms.openlocfilehash: 23f0b6ff8ec105da04b4b2416d8f6864c70c92fc
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: bf338c6d0b6a237cad2974d36c23238029fe9b38
+ms.sourcegitcommit: 774f8f97a0b14cf1199bd1802178ccf536a25ade
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8854969"
+ms.lasthandoff: 11/17/2022
+ms.locfileid: "9785063"
 ---
 # <a name="store-order-fulfillment"></a>Atendimento da ordem na loja
 
 [!include [banner](includes/banner.md)]
+
+Este artigo fornece uma visão geral do processamento da ordem da loja no Microsoft Dynamics 365 Commerce.
 
 Vários varejistas querem otimizar o atendimento da ordem permitindo que as lojas atendam as ordens. O atendimento da ordem em nível de loja pode ajudar a amenizar os cenários de estoque excessivo de uma loja específica ou pode ser necessário de um ponto de vista logístico, nos casos em que uma loja tem capacidade extra ou está em um local mais próximo do cliente. Para tratar esta necessidade, uma operação de atendimento unificado da ordem está disponível no ponto de venda.
 
 O atendimento das ordens em uma loja específica tem o depósito da loja designado no cabeçalho ou nas linhas da ordem.
 
 A operação de atendimento da ordem no ponto de venda fornece uma área de trabalho única no ponto de venda que pode ser usada para processar as ordens. Isso inclui tudo, desde aceitar a ordem, marcá-la como remetida ou iniciar a retirada da loja.
+
+O vídeo a seguir fornece uma visão geral dos recursos de demonstração e processamento da loja no Dynamics 365 Commerce.
+
+
+> [!VIDEO https://www.microsoft.com/videoplayer/embed/RE5bRXE]
 
 ## <a name="access-unified-order-fulfillment-in-the-point-of-sale"></a>Acessar atendimento unificado da ordem no ponto de venda
 

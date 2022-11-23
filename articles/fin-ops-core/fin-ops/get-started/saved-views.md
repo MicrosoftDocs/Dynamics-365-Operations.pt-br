@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: jasongre
 ms.search.validFrom: 2019-07-31
 ms.dyn365.ops.version: Platform update 28
-ms.openlocfilehash: 6faf71ec5d14584034f9107c33ccce1cd1d393c7
-ms.sourcegitcommit: c98d55a4a6e27239ae6b317872332f01cbe8b875
+ms.openlocfilehash: 03b0989d40882c3910b35744715c36babdcc3470
+ms.sourcegitcommit: e02bd317e96faf6182e70fb50b126868a94d9d06
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/02/2022
-ms.locfileid: "9220322"
+ms.lasthandoff: 11/10/2022
+ms.locfileid: "9757212"
 ---
 # <a name="saved-views"></a>Exibições salvas
 
@@ -107,7 +107,7 @@ Como alternativa, ao criar uma exibição (ao usar a ação **Salvar como**), vo
 
 A caixa de diálogo **Gerenciar minhas exibições** oferece recursos básicos de manutenção sobre suas exibições pessoais e a ordem das exibições no seletor de exibição. Para abrir essa página, selecione o nome da exibição para abrir o menu suspenso do seletor de exibição, selecione **Mais** e depois selecione **Gerenciar minhas exibições**.
 
-**Versão 10.0.21 ou posterior:** se o recurso **Suporte à entidade legal aperfeiçoado para exibições salvas** estiver ativado, a seção **Minhas exibições** da caixa de diálogo **Gerenciar minhas exibições** mostrará as exibições disponíveis para a página em seções. Todas as exibições específicas da entidade legal atual são mostradas em sua própria seção. A seção **Exibições globais** sempre é mostrada, para que você possa gerenciar as exibições que estão disponíveis para a página em todas as entidades legais. 
+Se o recurso **Suporte à entidade legal aperfeiçoado para exibições salvas** estiver ativado, a seção **Minhas exibições** da caixa de diálogo **Gerenciar minhas exibições** mostrará as exibições disponíveis para a página em seções. Todas as exibições específicas da entidade legal atual são mostradas em sua própria seção. A seção **Exibições globais** sempre é mostrada, para que você possa gerenciar as exibições que estão disponíveis para a página em todas as entidades legais. 
 
 Para obter uma lista de exibições disponíveis dessa página, o conjunto de ações a seguir está disponível.
 
@@ -138,9 +138,9 @@ Para publicar uma exibição, siga estas etapas:
 
 1. Crie e salve uma cópia pessoal da exibição que você deseja publicar. 
 2. Com essa exibição atualmente carregada, selecione o nome da exibição para abrir o menu suspenso do seletor de exibição. 
-3. Selecione o botão **Mais** e depois selecione **Publicar**. A caixa de diálogo Publicar será aberta.
+3. Selecione o botão **Mais** e depois selecione **Publicar**. A caixa de diálogo **Publicar** será aberta.
 4. Insira um nome para a exibição. O nome inserido é o nome que os usuários que recebem essa exibição visualizarão em seus seletores de exibição. Os nomes das exibições publicadas em uma página devem ser exclusivos. Nenhum nome duplicado é permitido, mesmo se a lista de funções ou de entidades legais à qual as exibições são aplicadas diferir.
-5. **Atualização 10.0.17 ou posterior:** se o recurso **(Versão preliminar) Suporte à tradução para exibições da organização** estiver ativado, você poderá adicionar traduções para o seu nome de exibição em quantos idiomas forem necessários para a organização selecionando o botão **Traduções** ao lado do campo **Nome**. O nome da exibição será mostrado aos usuários no seu idioma atual. Você também pode definir o idioma padrão para especificar a tradução que será mostrada aos usuários que estão executando idiomas para os quais nenhuma tradução foi definida.
+5. Se o recurso **Suporte à tradução para exibições da organização** estiver ativado, você poderá adicionar traduções para o seu nome de exibição em quantos idiomas forem necessários para a organização selecionando o botão **Traduções** ao lado do campo **Nome**. O nome da exibição será mostrado aos usuários no seu idioma atual. Você também pode definir o idioma padrão para especificar a tradução que será mostrada aos usuários que estão executando idiomas para os quais nenhuma tradução foi definida.
 5. Opcional: digite uma descrição para a exibição de modo que os usuários que receberem essa exibição possam compreender melhor sua finalidade. 
 6. Determine se a exibição deve ser publicada como a exibição padrão para os usuários selecionados. Quando uma exibição se tornar padrão, os usuários a exibirão na próxima vez em que abrirem a página de destino. A única exibição padrão global de cada usuário direcionado será alterada. No entanto, os usuários ainda podem alterar a exibição padrão após a publicação.
 
@@ -150,9 +150,10 @@ Para publicar uma exibição, siga estas etapas:
     > - Se você publicar uma exibição como o padrão para algumas das entidades legais ou todas elas, ocorrerá o seguinte comportamento:
     >
     >    - Se apenas o recurso de base **Exibições salvas** estiver ativado, a exibição padrão global única será alterada para cada usuário direcionado. 
-    >    - **Versão 10.0.21 ou posterior:** se o recurso **Suporte à entidade legal aperfeiçoado para exibições salvas** estiver ativado e você publicar a exibição em um subconjunto de entidades legais, a exibição padrão dessas entidades legais será alterada para cada usuário direcionado.
+    >    - Se o recurso **Suporte à entidade legal aperfeiçoado para exibições salvas** estiver ativado e você publicar a exibição em um subconjunto de entidades legais, a exibição padrão dessas entidades legais será alterada para cada usuário direcionado.
     >
     > - Se um usuário tiver funções em que várias exibições sejam publicadas como exibição padrão, a última exibição publicada será usada como a exibição padrão do usuário. 
+    > - A publicação não funcionará para atribuições de função feitas usando grupos AAD. 
 
 8. Adicione as funções de segurança que correspondem aos usuários que receberão essa exibição. 
 9. Determine se você deseja publicar a exibição para as funções filho de cada função de segurança selecionada. Se fizer isso, marque a caixa de seleção **Incluir funções filho** na linha para as funções de segurança apropriadas. Observe que esta caixa de seleção não está disponível para funções sem funções filho.
@@ -162,7 +163,7 @@ Para publicar uma exibição, siga estas etapas:
     > Lembre-se do seguinte comportamento se você publicar uma exibição para uma entidade legal específica, mas não publicar essa exibição como o padrão:
     >
     > - Se apenas o recurso de base **Exibições salvas** estiver ativado, o seletor de exibição do usuário para a página mostrará inicialmente a exibição apenas para as entidades legais especificadas. No entanto, depois que a exibição for carregada pela primeira vez, o seletor de exibição da página sempre a mostrará, independentemente da entidade legal.
-    > - **Versão 10.0.21 ou posterior:** se o recurso **Suporte à entidade legal aperfeiçoado para exibições salvas** estiver ativado, o seletor de exibição só mostrará a exibição para as entidades legais especificadas.
+    > - Se o recurso **Suporte à entidade legal aperfeiçoado para exibições salvas** estiver ativado, o seletor de exibição só mostrará a exibição para as entidades legais especificadas.
 
 11. Selecione **Publicar**.
 
@@ -259,7 +260,7 @@ Para páginas com seletores de exibição grandes (personalizações e consultas
 Se você publicar uma exibição para uma entidade legal específica, mas não publicar essa exibição como o padrão, ocorrerá o seguinte comportamento:
 
 - Se apenas o recurso de base **Exibições salvas** estiver ativado, o seletor de exibição do usuário para a página mostrará inicialmente a exibição apenas para as entidades legais especificadas. No entanto, depois que a exibição for carregada pela primeira vez, o seletor de exibição da página sempre a mostrará, independentemente da entidade legal. Esse comportamento ocorre porque os usuários obtêm sua própria cópia pessoal da exibição publicada quando ela é carregada, e as exibições pessoais são globais.
-- **Versão 10.0.21 ou posterior:** se o recurso **Suporte à entidade legal aperfeiçoado para exibições salvas** estiver ativado, o seletor de exibição só mostrará a exibição para as entidades legais especificadas. Esse comportamento ocorre porque o recurso permite que as exibições (inclusive exibições pessoais) sejam vinculadas a entidades legais específicas.
+- Se o recurso **Suporte à entidade legal aperfeiçoado para exibições salvas** estiver ativado, o seletor de exibição só mostrará a exibição para as entidades legais especificadas. Esse comportamento ocorre porque o recurso permite que as exibições (inclusive exibições pessoais) sejam vinculadas a entidades legais específicas.
 
 [!INCLUDE[footer-include](../../../includes/footer-banner.md)]
 

@@ -2,23 +2,23 @@
 title: Configurar cheques pré-datados
 description: Este artigo explica como especificar se deseja lançar entradas de diário para cheques pré-datados e quais diários de lançamento a serem usados para limpar as entradas e os pagamentos de fornecedores.
 author: kweekley
-ms.date: 08/29/2018
+ms.date: 11/15/2022
 ms.topic: business-process
 ms.prod: ''
 ms.technology: ''
 ms.search.form: BankParameters, VendPaymMode, CustPaymMode
 audience: Application User
-ms.reviewer: kfend
+ms.reviewer: twheeloc
 ms.search.region: Global
 ms.author: kweekley
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: e045648230aba7965ed68fbc499f73e077caceed
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: e7172dd56113de23d841fe59ed9785471e90ed1f
+ms.sourcegitcommit: cf6b764824bd1cf2c0dde6d37ddd0a7abab87ff0
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8870297"
+ms.lasthandoff: 11/16/2022
+ms.locfileid: "9779600"
 ---
 # <a name="set-up-postdated-checks"></a>Configurar cheques pré-datados
 
@@ -32,33 +32,33 @@ A função deste procedimento é Tesoureiro. Este procedimento usa a empresa de 
 
 
 ## <a name="set-up-postdated-checks"></a>Configurar cheques pré-datados
-1. Acesse Gerenciamento de dinheiro e banco > Configuração > Parâmetros do gerenciamento de dinheiro e banco.
-2. Clique na aba Cheques pré-datados.
-3. Marque ou desmarque a caixa de seleção Habilitar cheques pré-datados.
-4. Marque ou desmarque a caixa de seleção Lançar entradas de diário para cheques pré-datados.
-5. No campo Conta de compensação para cheques emitidos, especifique os valores desejados.
-6. No campo Conta de compensação para cheques recebidos, especifique os valores desejados.
-7. No campo Diário geral para entradas de compensação, digite um valor.
-8. No campo Transferir cheques pré-datados para este diário de pagamento de fornecedor, digite um valor.
-9. No campo Conta de compensação de imposto retido na fonte, especifique os valores desejados.
-10. Clique em Salvar.
+1. Vá para **Gerenciamento de caixa e bancos > Configuração > Parâmetros de gerenciamento de caixa e bancos**.
+2. Clique na guia **Cheques pré-datados**.
+3. Marque ou desmarque a caixa de seleção **Habilitar cheques pré-datados**.
+4. Marque ou desmarque a caixa de seleção **Lançar entradas de diário para cheques pré-datados**.
+5. No campo **Conta de compensação para cheques emitidos**, especifique os valores desejados.
+6. No campo **Conta de compensação para cheques recebidos**, especifique os valores desejados.
+7. No campo **Diário geral para entradas de compensação**, digite um valor.
+8. No campo **Transferir cheques pré-datados para este diário de pagamento de fornecedor**, digite um valor.
+9. No campo **Conta de compensação de imposto retido na fonte**, especifique os valores desejados.
+10. Clique em **Salvar**.
 11. Feche a página.
-12. Acesse Contas a pagar > Configurar pagamento > Métodos de pagamento.
-13. Clique em Novo.
-14. No campo Método de pagamento, digite um valor.
-15. Selecione a opção de lançamento Compensação de cheque pré-datado para indicar que o valor do cheque está lançado em uma conta de compensação.
-16. No campo Tipo de conta, selecione 'Banco'.
+12. Vá para **Contas a pagar > Configuração de pagamento > Formas de pagamento**.
+13. Clique em **Novo**.
+14. No campo **Método de pagamento**, digite um valor.
+15. Selecione a opção de lançamento **Compensação de cheque pré-datado** para indicar que o valor do cheque está lançado em uma conta de compensação.
+16. No campo **Tipo de conta**, selecione **Banco**.
     * A conta de contrapartida do método de pagamento será um banco.  
-17. No campo Conta de pagamento, especifique os valores desejados.
+17. No campo **Conta de pagamento**, especifique os valores desejados.
     * Selecione a conta bancária utilizada para deduzir o valor da fatura.  
-18. Clique em Salvar.
+18. Clique em **Salvar**.
 19. Feche a página.
 > [!NOTE]
 > Para conseguir postar um cheque prédatado para uma conta bancária quando a data da sessão for superior ou igual à data de vencimento, você deve habilitar o recurso **Validação de data de validade do diário de pagamento de postagem com cheques prédatados para a conta bancária**. Este recurso permite que você poste diários de pagamento para fornecedores ou clientes com cheques prédatados, quando a data da sessão for superior ou igual à data de vencimento.
 > 
 > Ao configurar o **Método de pagamento** (**Contas a pagar > Configuração de pagamento > Métodos de pagamento**), não preencha **Conta de ponte**. Nesse caso, a conta de compensação é preenchida com a conta bancária, que é configurada no **Método de pagamento**.
 >  
-> Quando o recurso é habilitado e a data da sessão é inferior à data de vencimento, a seguinte mensagem de erro é exibida ao postar um diário de pagamento, "A data de vencimento deve ser inferior ou igual à data da sessão se o tipo de conta de compensação for Banco". Se o recurso não estiver habilitado, você pode postar um diário de pagamento com um cheque prédatado quando a data da sessão for inferior à data de vencimento.
+> Quando o recurso é habilitado e a data da sessão é inferior à data de vencimento, a seguinte mensagem de erro é exibida ao postar um diário de pagamento, **A data de vencimento deve ser inferior ou igual à data da sessão se o tipo de conta de compensação for Banco**. Se o recurso não estiver habilitado, você pode postar um diário de pagamento com um cheque prédatado quando a data da sessão for inferior à data de vencimento.
 > Este recurso está disponível na versão 10.0.21 e posterior.    
 
 [!INCLUDE[footer-include](../../../includes/footer-banner.md)]

@@ -2,25 +2,25 @@
 title: Reavaliação de moeda estrangeira para contabilidade
 description: 'Este artigo fornece uma visão geral dos seguintes procedimentos para o processo de reavaliação de moeda estrangeira da contabilidade: instalação, execução do processo, cálculo do processo e como reverter transações de reavaliação, se necessário.'
 author: kweekley
-ms.date: 06/20/2017
+ms.date: 11/15/2022
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
 ms.search.form: CurrencyLedgerGainLossAccount
 audience: Application User
-ms.reviewer: kfend
+ms.reviewer: twheeloc
 ms.custom: 62153
 ms.assetid: 842e8561-560f-4cc6-8668-70cca60b1ba3
 ms.search.region: Global
 ms.author: kweekley
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 3e0f4184237537464998b2bc1a6ab02561d9d291
-ms.sourcegitcommit: f96e5dec5a808d9819d2a23b8e15ce00aeff475b
+ms.openlocfilehash: 96ae50e339c63687a4c8114d3c965123fd5e37ab
+ms.sourcegitcommit: cf6b764824bd1cf2c0dde6d37ddd0a7abab87ff0
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/10/2022
-ms.locfileid: "9752794"
+ms.lasthandoff: 11/16/2022
+ms.locfileid: "9779979"
 ---
 # <a name="foreign-currency-revaluation-for-general-ledger"></a>Reavaliação de moeda estrangeira para contabilidade
 
@@ -38,37 +38,37 @@ Quando você executa o processo de reavaliação, o saldo em cada conta principa
 ## <a name="prepare-to-run-foreign-currency-revaluation"></a>Preparação para executar a reavaliação de moeda estrangeira
 Para executar o processo de reavaliação, é necessária uma configuração adicional.
 
--   Na página **Conta principal**:
--   Se a conta principal tiver de ser reavaliada na Contabilidade, selecione **Reavaliação de moeda estrangeira**. Se a conta for principal reavaliada (como a de AR e se o MESMO reavaliado em razão), desmarque esta opção.
--   Se a conta principal estiver marcado para reavaliação, entre em **Tipo de taxa de câmbio**. Este tipo de taxa de câmbio será usado reavaliando a conta principal. Um campo, **Tipo de taxa de câmbio de relatório financeiro** separado, disponíveis para relatórios financeiros. Os dois campos não são mantidos na sincronização, permitindo tipos de taxa de câmbio diferente ser usado para a reavaliação e o relatório financeiro.
+Na página **Conta principal**:
+ - Se a conta principal tiver de ser reavaliada na Contabilidade, selecione **Reavaliação de moeda estrangeira**. Se a conta for principal reavaliada (como a de AR e se o MESMO reavaliado em razão), desmarque esta opção.
+ - Se a conta principal estiver marcado para reavaliação, entre em **Tipo de taxa de câmbio**. Este tipo de taxa de câmbio será usado reavaliando a conta principal. Um campo, **Tipo de taxa de câmbio de relatório financeiro** separado, disponíveis para relatórios financeiros. Os dois campos não são mantidos na sincronização, permitindo tipos de taxa de câmbio diferente ser usado para a reavaliação e o relatório financeiro.
 
--   Na página **Razão**:
--   Especifique **Tipo de taxa de câmbio**. Se o tipo de taxa de câmbio não for definido na conta principal, este tipo de taxa de câmbio será usado na reavaliação de moeda estrangeira.
--   Especifique o lucro realizado, a perda realizada, o lucro não realizado e a perda não realizada para a reavaliação de moeda. As contas de lucros realizados e perdas realizadas são usadas em transações liquidadas AR e AP, e as contas de lucro não realizado e de perda não realizada são usadas em transações abertas e contas principais de contabilidade.
+Na página **Razão**:
+ - Especifique **Tipo de taxa de câmbio**. Se o tipo de taxa de câmbio não for definido na conta principal, este tipo de taxa de câmbio será usado na reavaliação de moeda estrangeira.
+ - Especifique o lucro realizado, a perda realizada, o lucro não realizado e a perda não realizada para a reavaliação de moeda. As contas de lucros realizados e perdas realizadas são usadas em transações liquidadas AR e AP, e as contas de lucro não realizado e de perda não realizada são usadas em transações abertas e contas principais de contabilidade.
 
--   Na página **Contas de reavaliação de moeda**:
--   A reavaliação de moeda diferente selecionar para cada moeda e empresa. Se nenhuma conta for definida, as contas da página **Razão** serão usadas.
+Na página **Contas de reavaliação de moeda**:
+ - A reavaliação de moeda diferente selecionar para cada moeda e empresa. Se nenhuma conta for definida, as contas da página **Razão** serão usadas.
 
 ## <a name="process-foreign-currency-revaluation"></a>Processar uma reavaliação de moeda estrangeira
 Ao concluir a configuração, use a página **Reavaliação de moeda estrangeira** para reavaliar as transações e os saldos das contas principais. Você pode executar o processo em tempo real ou agendá-lo para execução usando um lote. 
 
 A página **Reavaliação de moeda estrangeira** exibe o histórico por processo de reavaliação, incluindo quando o processo foi executado, que foram definidos critérios, um link para comprovantes criada para reavaliação, e um registro anterior se a reavaliação tiver sido revertida. Para executar o processo de reavaliação, clique no botão **Reavaliação de moeda estrangeira**. 
 
-**A data** Valores e **Até** defina o intervalo de datas para calcular o saldo em moeda estrangeira a ser reavaliado. Quando você reavalia as contas de lucros e perdas, todas as transações que ocorrem no intervalo de datas são reavaliadas. Quando você reavalia as contas de balanço, data é ignorado. Em vez disso, o saldo a ser reavaliado é determinado pela o início do ano fiscal até a data até. 
+**A data** Valores e **Até** defina o intervalo de datas para calcular o saldo em moeda estrangeira a ser reavaliado. Quando você reavalia as contas de lucros e perdas, todas as transações que ocorrem no intervalo de datas são reavaliadas. Quando você reavalia as contas de balanço, **Data inicial** é ignorado. Em vez disso, o saldo a ser reavaliado é determinado pela o início do ano fiscal até a **Data final**. 
 
 A **Data da taxa** pode ser usada para definir a data na qual a taxa de câmbio deve ser padronizada. Por exemplo, você pode reavaliar saldos entre o intervalo de datas de 1º de janeiro ao 31 de janeiro, mas usar a taxa de câmbio definida para 1º de fevereiro. 
 
-Selecione as contas da reavaliação: Tudo ou, balanço, lucros e perdas. Somente as contas principais marcadas para reavaliação (na página Conta principal) serão reavaliadas. Se quiser restringir ainda mais o intervalo de contas principais, use a guia Registros **para incluir** um intervalo de contas principais ou contas principais individuais. 
+Selecione as contas da reavaliação: Tudo ou, balanço, lucros e perdas. Somente as contas principais marcadas para reavaliação (na página **Conta principal**) serão reavaliadas. Se quiser restringir ainda mais o intervalo de contas principais, use a guia **Registros para incluir** para definir um intervalo de contas principais ou contas principais individuais. 
 
 O processo de reavaliação pode ser executado para uma ou mais entidades legais. A pesquisa exibirá somente as entidades legais às quais você tem acesso. Selecione as entidades legais para as quais você deseja executar o processo de reavaliação. 
 
 Reavaliação pode ser realizado para uma ou mais moedas estrangeiras. A pesquisa incluirá todas as moedas lançadas no intervalo de data relevante para o tipo de conta principal (balanço ou lucros e perdas), para as entidades legais selecionadas para reavaliação. A moeda contábil será incluída na lista, mas nada será reavaliado, se a moeda contábil estiver selecionada. 
 
-Defina **Visualizar antes do lançamento** como **Sim** se quiser revisar o resultado da reavaliação da Contabilidade. A exibição na contabilidade é diferente da simulação na reavaliação de moeda estrangeira de AR e AP. A simulação em AR e AP é um relatório, mas a contabilidade tem uma visualização que pode ser lançada, sem precisar executar novamente o processo de reavaliação. Os resultados de exibição podem ser exportados para o Microsoft Excel para manter o histórico como os valores foram calculados. Você não pode usar o processamento em lotes se você deseja visualizar os resultados de reavaliação. Visualização, o usuário tem a opção de lançar os resultados de todas as entidades legais usando **Lançar** o botão. Se houver um problema com os resultados de uma entidade legal, o usuário também tem a opção de lançar um subconjunto entidades legais usando **Entidades legais no lançamento** o botão.
+Defina **Visualizar antes do lançamento** como **Sim** se quiser revisar o resultado da reavaliação da Contabilidade. A exibição na contabilidade é diferente da simulação na reavaliação de moeda estrangeira de AR e AP. A simulação em AR e AP é um relatório, mas a contabilidade tem uma visualização que pode ser lançada, sem precisar executar novamente o processo de reavaliação. Os resultados de exibição podem ser exportados para o Microsoft Excel para manter o histórico como os valores foram calculados. Não é possível usar o processamento em lotes se você deseja visualizar os resultados da reavaliação. Visualização, o usuário tem a opção de lançar os resultados de todas as entidades legais usando **Lançar** o botão. Se houver um problema com os resultados de uma entidade legal, o usuário também tem a opção de lançar um subconjunto entidades legais usando **Entidades legais no lançamento** o botão.
 
 Se quiser excluir ajustes que foram lançados usando o **Diário de ajustes de moeda de relatório** do processo de reavaliação, defina **Excluir ajustes de moeda de relatório** como **Sim**. Por padrão, os ajustes de moeda de relatório são incluídos na reavaliação. 
 
-Depois que o processo de reavaliação de moeda estrangeira for concluído, será criado um registro para controlar o histórico de cada execução.  Um registro separado será criado para cada entidade legal e nível de lançamento.
+Depois que o processo de reavaliação de moeda estrangeira for concluído, será criado um registro para controlar o histórico de cada execução. Um registro separado será criado para cada entidade legal e nível de lançamento.
 
 ## <a name="calculate-unrealized-gainloss"></a>Calcule lucros/perdas não realizado
 As transações de lucros/perdas não realizado são criadas de forma diferente entre reavaliação contábil e o processo de reavaliação de AR e AP. Em dias e o MESMO, reavaliação anterior estiver completa revertida (supondo a transação não será liquidada ainda) e uma nova transação é criada de reavaliação para lucros/perdas não realizado com base na nova taxa de câmbio. Isso porque é reavaliamos cada transação individual em dias e o MESMO. Na contabilidade, a reavaliação anterior não é revertida. Em vez disso, uma transação será criada para o delta entre o saldo da conta principal, incluindo todos os valores de reavaliação anterior, e o novo valor com base na taxa de câmbio da data da taxa. 
@@ -82,8 +82,8 @@ As transações de lucros/perdas não realizado são criadas de forma diferente 
 A conta principal é reavaliada em 31 de janeiro.  O lucro/perda não realizado é calculado como segue.
 
 | Saldo atual na moeda da transação | Saldo atual na moeda contábil | Taxa de câmbio na reavaliação | Novo valor de moeda de contabilidade | Lucro/perda não realizado    |
-|---------------------------------------------|--------------------------------------------|----------------------------------|------------------------------------|-----------------------------|
-| 500 EUR                                     | 1000 USD                                   | 166.6667                         | 833,33 USD (500 x 1,666667)        | 166,67 perda (833,33 – 1000) |
+|--------------------|---------------------------|----------------------------------|------------------------------------|-----------------------------|
+| 500 EUR            | 1000 USD                  | 166.6667                         | 833,33 USD (500 x 1,666667)        | 166,67 perda (833,33 – 1000) |
 
 A entrada de contabilidade a seguir será criada.
 
@@ -95,8 +95,8 @@ A entrada de contabilidade a seguir será criada.
 Nenhuma transação nova será lançada para o mês de fevereiro.  A conta principal será reavaliada em 28 de fevereiro.
 
 | Saldo atual na moeda da transação | Saldo atual na moeda contábil | Taxa de câmbio na reavaliação | Novo valor de moeda de contabilidade | Lucro/perda não realizado    |
-|---------------------------------------------|--------------------------------------------|----------------------------------|------------------------------------|-----------------------------|
-| 500 EUR                                     | 833,33 USD (1000 - 166,67)                 | 250.0000                         | 1250 USD (500 x 2,5)               | 416,67 ganho (1250 – 833,33) |
+|---------------------------------------|-----------------------------------|-------------------------------|--------------------|-----------------------------|
+| 500 EUR                 | 833,33 USD (1000 - 166,67)       | 250.0000              | 1250 USD (500 x 2,5)               | 416,67 ganho (1250 – 833,33) |
 
 A entrada de contabilidade a seguir será criada.
 

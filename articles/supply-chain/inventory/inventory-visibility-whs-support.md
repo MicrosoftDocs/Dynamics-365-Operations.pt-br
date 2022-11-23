@@ -2,7 +2,7 @@
 title: Suporte ao Inventory Visibility para itens de WMS
 description: Este artigo descreve o suporte à Visibilidade de Estoque para itens habilitados para processos de gerenciamento de depósito (itens de WMS).
 author: yufeihuang
-ms.date: 03/10/2022
+ms.date: 11/04/2022
 ms.topic: article
 ms.search.form: ''
 audience: Application User
@@ -11,12 +11,12 @@ ms.search.region: Global
 ms.author: yufeihuang
 ms.search.validFrom: 2022-03-10
 ms.dyn365.ops.version: 10.0.26
-ms.openlocfilehash: 54ce637d2d7b590988f7590eae5248276bcc4b96
-ms.sourcegitcommit: 28a726b3b0726ecac7620b5736f5457bc75a5f84
+ms.openlocfilehash: bed402ecf20c19e81b2687efd90dba600460971a
+ms.sourcegitcommit: 49f8973f0e121eac563876d50bfff00c55344360
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/29/2022
-ms.locfileid: "9066600"
+ms.lasthandoff: 11/14/2022
+ms.locfileid: "9762730"
 ---
 # <a name="inventory-visibility-support-for-wms-items"></a>Suporte ao Inventory Visibility para itens de WMS
 
@@ -45,15 +45,15 @@ Ao usar o recurso de WMS avançado para a visibilidade de estoque, todos os resu
 
 ## <a name="when-to-use-the-feature"></a>Quando usar o recurso
 
-Recomendamos que você use o recurso de WMS avançado para a visibilidade de estoque em cenários em que todas as condições a seguir são atendidas:
+Recomendamos que você use o recurso de WMS avançado para o Visibilidade de estoque em cenários em que todas as condições a seguir são atendidas:
 
 - Você está sincronizando os dados do Supply Chain Management com a visibilidade de estoque.
 - Você está usando WMS no Supply Chain Management.
-- Os usuários fazem reservas para itens de WMS em níveis diferentes do nível de depósito (por exemplo, porque você está usando trabalho de depósito).
+- Os usuários fazem reservas para itens de WMS em níveis abaixo do nível de depósito (por exemplo, no nível da placa de licença porque você está processando trabalho de depósito).
 
 Em outros cenários, os resultados da consulta de disponibilidade serão os mesmos, independentemente da habilitação do recurso de WMS avançado para a visibilidade de estoque. Além disso, o desempenho será melhor se você não habilitar o recurso nesses cenários, pois há menos cálculos e menor sobrecarga.
 
-## <a name="enable-the-advanced-wms-feature-for-inventory-visibility"></a>Habilitar o recurso de WMS avançado para a visibilidade de estoque
+## <a name="enable-the-wms-feature-for-inventory-visibility"></a>Habilitar o recurso de WMS avançado para o Visibilidade de estoque
 
 Para habilitar o recurso de WMS avançado para visibilidade de estoque, siga estas etapas.
 
@@ -65,7 +65,7 @@ Para habilitar o recurso de WMS avançado para visibilidade de estoque, siga est
 
 1. Acesse **Gerenciamento de Estoque \> Configuração \> Parâmetros de integração de Visibilidade de Estoque**.
 1. Na guia **Habilitar itens de WMS**, defina a opção **Habilitar itens de WMS** como *Sim*.
-1. Entre no Power Apps.
+1. Entre no seu ambiente do Power Apps e abra **Visibilidade de Estoque**.
 1. Abra a página **Configuração** e, em seguida, na guia **Gerenciamento de Recursos**, ative o recurso *AdvancedWHS*.
 1. No Supply Chain Management, acesse **Gerenciamento de Estoque \> Tarefas Periódicas \> Integração de Visibilidade de Estoque**.
 1. No painel de ações, selecione **Desabilitar** para desabilitar temporariamente a visibilidade de estoque.
@@ -86,17 +86,20 @@ Todas as outras medidas físicas são calculadas da mesma forma quando o recurso
 
 Para obter informações detalhadas sobre como os cálculos disponíveis para itens de WMS funcionam, consulte o white paper [Reservas no Warehouse Management](https://www.microsoft.com/download/details.aspx?id=43284).
 
-As entidades de dados que são exportadas para o Dataverse ainda não podem atualizar as quantidades para itens de WMS. As quantidades mostradas nas entidades de dados estão corretas para itens que não são de WMS e para quantidades que não são afetadas pela lógica de WMS (isto é, medidas exceto `AvailPhysical`, `AvailOrdered`, `ReservPhysical` e `ReservOrdered` na fonte de dados `fno`).
+## <a name="on-hand-list-view-and-data-entity-for-wms-items"></a>Exibição de lista disponível e entidade de dados para itens WMS
 
-São proibidas alterações nas quantidades de itens de WMS armazenadas na fonte de dados do Supply Chain Management. Como no caso de outros recursos da visibilidade de inventário, essa restrição é aplicada para ajudar a evitar conflitos.
+A página **Pré-carregar Resumo da Visibilidade de Estoque** fornece uma exibição da entidade *Resultados Pré-carregados da Consulta de Índice Disponível*. Diferentemente da entidade *Resumo de estoque*, a entidade *Resultados Pré-carregados da Consulta de Índice Disponível* oferece uma lista de estoque disponível para os produtos juntamente com as dimensões selecionadas. A Visibilidade de Estoque sincroniza os dados de resumo pré-carregados a cada 15 minutos.
 
-## <a name="soft-reservations-on-wms-items-in-inventory-visibility"></a>Reservas flexíveis em itens de WMS na visibilidade de estoque
+Se você usar o Visibilidade de estoque com itens WMS e quiser visualizar a lista disponível para itens WMS, recomendamos que você habilite o recurso *Pré-carregar o resumo de visibilidade do inventário* (consulte também [Pré-carregar uma consulta disponível simplificada](inventory-visibility-power-platform.md#preload-streamlined-onhand-query)). Uma entidade de dados correspondente no Dataverse armazena o resultado do pré-carregamento da consulta, que é atualizado a cada 15 minutos. O nome da entidade de dados é `Onhand Index Query Preload Result`.
 
-Em geral, as [reservas flexíveis](inventory-visibility-reservations.md) são compatíveis em itens de WMS. Você pode incluir medidas físicas relacionadas a WMS em cálculos de reserva flexível. 
+> [!IMPORTANT]
+> A entidade do Dataverse é somente leitura. Você pode visualizar e exportar os dados nas entidades do Visibilidade de estoque, mas **não os modifique**.
 
-Em uma limitação conhecida, o cálculo *disponível para reserva* não é compatível com itens de WMS atualmente. Portanto, se houver reserva acima das dimensões atuais nas quais uma reserva flexível está ocorrendo, o cálculo *disponível para reserva* estará incorreto. As reservas flexíveis não serão afetadas quando a opção **ifCheckAvailForReserv** estiver desabilitada na [API de reserva flexível](inventory-visibility-api.md#create-one-reservation-event).
+São proibidas alterações nas quantidades de itens de WMS armazenadas na fonte de dados do Supply Chain Management (`fno`). Esse comportamento corresponde ao comportamento de outros recursos do Visibilidade de estoque. Essa restrição é aplicada para ajudar a evitar conflitos.
 
-Esta restrição também se aplica a recursos e personalizações com base em reservas flexíveis (como alocação).
+## <a name="wms-item-compatibility-for-other-functions-in-inventory-visibility"></a>Compatibilidade de itens WMS para outras funções no Visibilidade de estoque
+
+Os itens WMS são compatíveis com [reservas flexíveis](inventory-visibility-reservations.md) e [alocação de estoque](inventory-visibility-allocation.md). Você pode incluir medidas físicas relacionadas a WMS em cálculos de reserva flexível e alocação.
 
 ## <a name="calculate-available-to-promise-quantities"></a>Calcular quantidades disponíveis para promessa
 

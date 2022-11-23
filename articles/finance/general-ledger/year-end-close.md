@@ -2,25 +2,25 @@
 title: Fechamento do exercício
 description: Este artigo descreve a configuração e as etapas necessárias para executar o processo de fechamento do exercício da contabilidade.
 author: kweekley
-ms.date: 12/06/2021
+ms.date: 11/06/2022
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
 ms.search.form: LedgerClosingSheet
 audience: Application User
-ms.reviewer: kfend
+ms.reviewer: twheeloc
 ms.custom: 14091
 ms.assetid: c64eed1d-df17-448e-8bb6-d94d63b14607
 ms.search.region: Global
 ms.author: kweekley
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 032c572ec7b29bb6b2823ddde0c4fa76e5f8fcf1
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: 7e1c7722b560246fb597f0b7f91a70afecf69e22
+ms.sourcegitcommit: cf6b764824bd1cf2c0dde6d37ddd0a7abab87ff0
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8883203"
+ms.lasthandoff: 11/16/2022
+ms.locfileid: "9779734"
 ---
 # <a name="year-end-close"></a>Fechamento do exercício
 
@@ -62,7 +62,7 @@ Na página **Configuração do modelo de fechamento do exercício**:
 
 ## <a name="define-year-end-close-templates"></a>Definir modelos de fechamento do exercício
 
-Depois que o sistema está configurado, o processo de fechamento do exercício pode ser executado. Na página **Configuração do modelo de fechamento do exercício**, é possível definir um modelo para o grupo de entidades legais para o qual o processo de fechamento do exercício será executado. O modelo será reutilizado a cada fechamento do exercício, mas poderá ser modificado caso ocorra alterações na organização.
+Após a conclusão da configuração, o processo de fechamento anual pode ser executado. Na página **Configuração do modelo de fechamento do exercício**, é possível definir um modelo para o grupo de entidades legais para o qual o processo de fechamento do exercício será executado. O modelo será reutilizado a cada fechamento do exercício, mas poderá ser modificado caso ocorra alterações na organização.
 
 Primeiramente, defina o campo **Nome do grupo** para o modelo e selecione o calendário fiscal. O nome do grupo deve identificar o grupo de entidades legais que estão incluídas. Ao determinar os grupos de entidades legais, lembre-se de que as entidades legais poderão ser incluídas no mesmo grupo somente se o mesmo calendário fiscal estiver selecionado para elas. Por exemplo, os modelos podem ser configurados com base na geografia, e grupos separados podem ser criados para entidades legais norte-americanas, entidades legais da EMEA (Europa , Oriente Médio e África) e entidades legais da APAC (Pacífico Asiático).
 

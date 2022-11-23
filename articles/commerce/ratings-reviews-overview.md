@@ -2,24 +2,19 @@
 title: Visão geral de classificações e opiniões
 description: Este artigo abrange classificações e opiniões no Microsoft Dynamics 365 Commerce.
 author: gvrmohanreddy
-ms.date: 10/01/2019
+ms.date: 11/16/2022
 ms.topic: overview
-ms.prod: ''
-ms.technology: ''
-audience: Application User
+audience: Application User, Developer, IT Pro
 ms.reviewer: v-chgriffin
 ms.search.region: Global
-ms.author: gmohanv
+ms.author: josaw
 ms.search.validFrom: 2019-10-31
-ms.dyn365.ops.version: Release 10.0.5
-ms.assetid: ''
-ms.search.industry: ''
-ms.openlocfilehash: 612a3ca480049febac352ed9215ec9de83bbecf6
-ms.sourcegitcommit: 87e727005399c82cbb6509f5ce9fb33d18928d30
+ms.openlocfilehash: 1f0d3ed5d95ad49cb09cf1f89d0f4c8c07620b92
+ms.sourcegitcommit: 774f8f97a0b14cf1199bd1802178ccf536a25ade
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/12/2022
-ms.locfileid: "9268991"
+ms.lasthandoff: 11/17/2022
+ms.locfileid: "9785126"
 ---
 # <a name="ratings-and-reviews-overview"></a>Visão geral de classificações e opiniões
 
@@ -43,9 +38,14 @@ A solução de classificações e opiniões fornece widgets que mostram resumos 
 
 A solução de classificações e opiniões também fornecem um modelo do business intelligence (BI) que inclui um conjunto de métricas para fornecer insights para classificações e opiniões. Os dados de classificações e opiniões podem ser exportados para análise mais detalhada.
 
+O vídeo a seguir fornece uma visão geral dos recursos de classificações e avaliações no Dynamics 365 Commerce.
+
+
+> [!VIDEO https://www.microsoft.com/videoplayer/embed/RE5c2wS]
+
 ## <a name="additional-resources"></a>Recursos adicionais
 
-[Aceitar usar classificações e opiniões](opt-in-ratings-reviews.md)
+[Aceitar o uso das classificações e opiniões](opt-in-ratings-reviews.md)
 
 [Gerenciar classificações e opiniões](manage-reviews.md)
 

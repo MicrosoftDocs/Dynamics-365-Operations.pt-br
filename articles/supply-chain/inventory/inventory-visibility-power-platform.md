@@ -11,12 +11,12 @@ ms.search.region: Global
 ms.author: yufeihuang
 ms.search.validFrom: 2021-08-02
 ms.dyn365.ops.version: 10.0.21
-ms.openlocfilehash: 674adb70cc4372a8c5ca8c75ed3ef840d8ec7b79
-ms.sourcegitcommit: d2046cad5de570e6302a4390b41881a7ecb12e26
+ms.openlocfilehash: 9886ddbf0b072283cffd73d4bfdc20835ccb3b7c
+ms.sourcegitcommit: 49f8973f0e121eac563876d50bfff00c55344360
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 09/15/2022
-ms.locfileid: "9520843"
+ms.lasthandoff: 11/14/2022
+ms.locfileid: "9762691"
 ---
 # <a name="use-the-inventory-visibility-app"></a>Usar o aplicativo Inventory Visibility
 
@@ -30,44 +30,73 @@ A Visibilidade de Estoque fornece um aplicativo baseado em modelo para visualiza
 - Ele oferece suporte a consultas de estoque disponível em tempo real em várias combinações de dimensões.
 - Ele fornece uma interface do usuário para o lançamento de solicitações de reserva.
 - Ele fornece uma exibição do estoque disponível para os produtos juntamente com todas as dimensões.
-- Ele fornece a exibição de uma lista de estoque disponível para produtos juntamente com as dimensões predefinidas.
-
+- Ele fornece a exibição de uma lista de estoque disponível para produtos juntamente com as dimensões predefinidas. A exibição de lista disponível pode ser um resumo completo ou um resultado pré-carregado de uma consulta disponível.
 
 ## <a name="prerequisites"></a>Pré-requisitos
 
 Antes de começar, instale e configure o Suplemento Visibilidade de Estoque conforme descrito em [Instalar e configurar Visibilidade do Estoque](inventory-visibility-setup.md).
 
-## <a name="open-the-inventory-visibility-app"></a>Abrir o aplicativo Visibilidade de Estoque
+## <a name="open-and-authenticate-the-inventory-visibility-app"></a><a name="open-authenticate"></a>Abrir e autenticar o aplicativo Visibilidade de estoque
 
-Para abrir o aplicativo Visibilidade de Estoque, entre no seu ambiente do Power Apps e abra **Visibilidade de Estoque**.
+Para abrir e autenticar o aplicativo Visibilidade de estoque, siga estas etapas.
 
-## <a name="configuration"></a><a name="configuration"></a>Configuração
+1. Entre em seu ambiente do Power Apps.
+1. Abrir o aplicativo **Visibilidade de Estoque**.
+1. Abra a página **Visibilidade operacional** no painel esquerdo.
+1. Selecione o botão **Configurações** (símbolo de engrenagem) próximo à parte superior da página.
+1. Na caixa de diálogo **Configurações**, insira os valores **Id do cliente**, **Id do locatário** e **Segredo do cliente** que você anotou quando [instalou e configurou o Visibilidade de estoque](inventory-visibility-setup.md).
+1. Selecione o botão **Atualizar** ao lado desse campo **Token de portador**. O sistema gera um novo token de portador, com base nas informações que você inseriu.
 
-A página **Configuração** do aplicativo Visibilidade de Estoque ajuda você a definir a configuração disponível e a configuração de reserva flexível. Após a instalação do suplemento, a configuração padrão incluirá uma configuração padrão para o Microsoft Dynamics 365 Supply Chain Management (a fonte de dados `fno`). Você pode analisar a configuração padrão. Assim, com base nos requisitos comerciais e nos requisitos de lançamento de estoque do sistema externo, você poderá modificar a configuração para padronizar a forma como as alterações de estoque podem ser lançadas, organizadas e consultadas em vários sistemas.
+    ![Configurações de consulta de disponíveis.](media/inventory-visibility-query-settings.png "Configurações de consulta de disponíveis")
+
+1. Ao receber um token de portador válido, feche a caixa de diálogo. O token do portador expirará após algum tempo. Portanto, você deve atualizá-lo ocasionalmente quando precisar atualizar a configuração, postar dados ou consultar dados.
+
+## <a name="configure-the-inventory-visibility-app"></a><a name="configuration"></a>Configurar o aplicativo Visibilidade de Estoque
+
+A página **Configuração** do aplicativo Visibilidade de estoque ajuda você a definir a configuração geral de gerenciamento de dados e a configuração de recursos. Após a instalação do suplemento, a configuração padrão incluirá uma configuração padrão para o Microsoft Dynamics 365 Supply Chain Management (a fonte de dados `fno`). Você pode analisar a configuração padrão. Depois, com base nos requisitos comerciais e nos requisitos de lançamento de estoque do sistema externo, você poderá modificar a configuração para padronizar a forma como as alterações de estoque podem ser lançadas, organizadas e consultadas em vários sistemas.
 
 Para obter detalhes completos sobre como configurar a solução, consulte [Configurar Visibilidade de Estoque](inventory-visibility-configuration.md).
 
 ## <a name="operational-visibility"></a>Visibilidade operacional
 
-A página **Visibilidade Operacional** fornece os resultados de uma consulta de estoque disponível em tempo real, com base em várias combinações de dimensão. Quando o recurso *OnHandReservation* estiver ativado, você também poderá lançar solicitações de reserva na página **Visibilidade Operacional**.
+A página **Visibilidade Operacional** fornece os resultados de uma consulta de estoque disponível em tempo real, lançamento de reserva e alocação com base em várias combinações de dimensão. Quando o recurso *OnHandReservation* estiver [ativado](inventory-visibility-configuration.md), você também poderá lançar solicitações de reserva na página **Visibilidade Operacional**.
 
 ### <a name="on-hand-query"></a>Consulta de disponíveis
 
-A guia **Consulta de Disponíveis** mostra os resultados de uma consulta de estoque disponível em tempo real.
+A guia **Consulta disponível** da página **Visibilidade operacional** permite consultar o inventário disponível em tempo real. Siga estas etapas para configurar e executar uma consulta.
 
-Quando você abre a guia **Consulta de Disponíveis** da página **Visibilidade Operacional**, o sistema solicita suas credenciais para que possa obter o token de portador necessário para consultar o serviço de Visibilidade de Estoque. Você pode simplesmente colar o token de portador no campo **BearerToken** e fechar a caixa de diálogo. Em seguida, você pode lançar uma solicitação de consulta de disponíveis.
+1. Abrir o aplicativo **Visibilidade de Estoque**.
+1. Abra a página **Visibilidade operacional** no painel esquerdo.
+1. Na guia **Consulta disponível**, insira os valores de **ID da organização**, **ID do site** e **ID do local** que deseja consultar.
+1. No campo **ID do produto**, insira um ou mais IDs de produto para obter uma correspondência exata para sua consulta. Se você deixar o campo **ID do produto** em branco, os resultados incluirão todos os produtos no site e local especificados.
+1. Para obter um resultado mais granular (por exemplo, uma visualização por valores de dimensão, como cor e tamanho), selecione dimensões Agrupadas Por no campo **Agrupar resultado por**.
+1. Para encontrar itens que tenham um valor de dimensão específico (como cor = vermelho), selecione a dimensão no campo **Dimensões do filtro** e insira um valor de dimensão.
+1. Selecione **Consulta**. Você receberá uma mensagem de sucesso (verde) ou uma mensagem de falha (vermelha). Se a consulta falhar, verifique seus critérios de consulta e certifique-se de que seu [portador de token](#open-authenticate) não tenha expirado.
 
-Se o token de portador não for válido ou se tiver expirado, você deverá colar um novo no campo **BearerToken**. Insira os valores corretos de **ID do Cliente**, **ID do Locatário**, **Segredo do Cliente** e selecione **Atualizar**. O sistema receberá automaticamente um novo token de portador válido.
-
-Para lançar uma consulta disponível, insira a consulta no corpo da solicitação. Use o padrão descrito em [Consultar usando o método post](inventory-visibility-api.md#query-with-post-method).
-
-![Configurações de consulta de disponíveis](media/inventory-visibility-query-settings.png "Configurações de consulta de disponíveis")
+Outra maneira de fazer uma consulta sobre disponibilidade é fazer solicitações de API diretas. Você pode usar `/api/environment/{environmentId}/onhand/indexquery` ou `/api/environment/{environmentId}/onhand`. Para obter mais informações, consulte [APIs públicas de Visibilidade de Estoque](inventory-visibility-api.md).
 
 ### <a name="reservation-posting"></a>Lançamento de reserva
 
 Use a guia **Lançamento de reserva** da página **Visibilidade Operacional** para lançar uma solicitação de reserva. Para poder lançar uma solicitação de reserva, você deverá ativar o recurso *OnHandReservation*. Para obter mais informações sobre esse recurso e como ativá-lo, consulte [Reservas de Visibilidade de Estoque](inventory-visibility-reservations.md).
 
-Para lançar uma solicitação de reserva, você deverá inserir um valor no corpo da solicitação. Use o padrão descrito em [Criar um evento de reserva](inventory-visibility-api.md#create-one-reservation-event). Em seguida, selecione **Lançar**. Para exibir os detalhes da resposta da solicitação, selecione **Mostrar detalhes**. Você também pode obter o valor `reservationId` dos detalhes da resposta.
+> [!NOTE]
+> A capacidade de fazer uma reserva flexível por meio da interface do usuário destina-se a permitir que você teste o recurso. Cada solicitação de reserva flexível deve ser associada a uma alteração de linha de ordem de transação (criação, modificação, exclusão e assim por diante). Portanto, recomendamos que você faça apenas reservas flexíveis vinculadas a um pedido de back-end. Para obter mais informações, consulte [Reservas de Visibilidade de Estoque](inventory-visibility-reservations.md).
+
+Siga estas etapas para postar uma solicitação de reserva flexível usando a interface do usuário.
+
+1. Abrir o aplicativo **Visibilidade de Estoque**.
+1. Abra a página **Visibilidade operacional** no painel esquerdo.
+1. Na guia **Lançamento de Reserva**, no campo **Quantidade**, especifique a quantidade da reserva flexível.
+1. Desmarque a caixa de seleção **Habilitar estoque negativo para oferecer suporte a vendas excessivas** para evitar que o estoque seja vendido ou reservado em excesso.
+1. No campo **Operator**, selecione a fonte de dados e a medida física que se aplicam à quantidade de reserva flexível.
+1. Insira os valores de **ID da organização**, **ID do site**, **ID do local** e **ID do produto** que deseja consultar.
+1. Para obter um resultado mais granular, selecione uma fonte de dados, dimensões e valores de dimensão.
+
+Outra maneira de publicar uma reserva flexível é fazer solicitações de API diretas. Use o padrão descrito em [Criar um evento de reserva](inventory-visibility-api.md#create-one-reservation-event). Em seguida, selecione **Lançar**. Para exibir os detalhes da resposta da solicitação, selecione **Mostrar detalhes**. Você também pode obter o valor `reservationId` dos detalhes da resposta.
+
+### <a name="allocation"></a>Alocação
+
+Para obter informações sobre como gerenciar alocações da interface do usuário e APIs, consulte [Alocação de estoque do Visibilidade do estoque](inventory-visibility-allocation.md).
 
 ## <a name="inventory-summary"></a><a name="inventory-summary"></a>Resumo de estoque
 
@@ -84,19 +113,15 @@ Para habilitar a página **Resumo de estoque** e definir a frequência de sincro
 
 1. Selecione **Atualizar configuração** para salvar todas as alterações.
 
-
 > [!NOTE]
 > O recurso *OnHandMostSpecificBackgroundService* rastreia somente as alterações do estoque disponível que ocorreram depois que você ativou o recurso. Os dados de produtos que não foram alterados desde que você ativou o recurso não serão sincronizados do cache do serviço de estoque para o ambiente do Dataverse. Se a sua página **Resumo de estoque** não mostrar todas as informações disponíveis que você espera, abra o Supply Chain Management, acesse **Gerenciamento de Estoque > Tarefas periódicas > Integração da Visibilidade de Estoque**, desabilite o trabalho em lote e habilite-o novamente. Isso fará o push inicial e todos os dados serão sincronizados com a entidade *Soma Disponível de Estoque* nos próximos 15 minutos. Se você quiser usar o recurso *OnHandMostSpecificBackgroundService*, recomendamos que você o ative antes de criar qualquer alteração disponível e ative o habilite o trabalho em lotes **Integração da Visibilidade de Estoque**.
 
-## <a name="preload-a-streamlined-on-hand-query"></a><a name="preload-the-inventory-visibility-onhand-query"></a>Pré-carregar uma consulta de disponibilidade simplificada
+## <a name="preload-a-streamlined-on-hand-query"></a><a name="preload-streamlined-onhand-query"></a>Pré-carregar uma consulta de disponibilidade simplificada
 
 [!INCLUDE [preview-banner-section](../../includes/preview-banner-section.md)]
 <!-- KFM: Preview until further notice -->
 
 O Supply Chain Management armazena um grande volume de informações sobre o estoque disponível atual e as disponibiliza para uma ampla variedade de finalidades. No entanto, muitas operações diárias e integrações de terceiros requerem apenas um pequeno subconjunto desses detalhes e consultar o sistema para todos eles pode resultar em grandes conjuntos de dados que demoram para montar e a transferir. Portanto, o serviço de Visibilidade de Estoque pode buscar e armazenar periodicamente um conjunto simplificado de dados de estoque disponível para tornar as informações otimizadas disponíveis continuamente. Os detalhes de estoque disponível armazenados são filtrados com base nos critérios comerciais configuráveis para garantir que somente as informações mais relevantes sejam incluídas. Como as listas de estoque disponível filtradas são armazenadas localmente no serviço de Visibilidade de Estoque e são atualizadas regularmente, elas oferecem suporte ao acesso rápido, exportações de dados sob demanda e integração simplificada com sistemas externos.
-
-> [!NOTE]
-> A versão preliminar atual deste recurso pode fornecer somente resultados pré-carregados que incluam site e local. Espera-se que a versão final do recurso permita que você selecione outras dimensões para pré-carregar com os resultados.
 
 A página **Pré-carregar Resumo da Visibilidade de Estoque** fornece uma exibição da entidade *Resultados Pré-carregados da Consulta de Índice Disponível*. Diferentemente da entidade *Resumo de estoque*, a entidade *Resultados Pré-carregados da Consulta de Índice Disponível* oferece uma lista de estoque disponível para os produtos juntamente com as dimensões selecionadas. A Visibilidade de Estoque sincroniza os dados de resumo pré-carregados a cada 15 minutos.
 
@@ -113,7 +138,7 @@ A página **Resumo de estoque** fornece três campos acima da grade (**Dimensão
 
 ![A página Resumo de estoque.](media/inventory-visibility-onhand-list.png "A página Resumo de estoque")
 
-Como você terá predefinido as dimensões usadas para carregar os dados do resumo, a página **Pré-carregar Resumo da Visibilidade de Estoque** exibirá as colunas relacionadas à dimensão. *As dimensões não são personalizáveis &mdash; o sistema oferece suporte somente às dimensões de site e de local para listas disponíveis pré-carregadas.* A página **Pré-carregar o Resumo da Visibilidade do Estoque** fornece filtros semelhantes aos da página **Resumo de estoque**, com a exceção de que as dimensões já estão selecionadas. A captura de tela a seguir destaca os campos de filtragem disponíveis na página **Pré-carregar Resumo da Visibilidade de Estoque**.
+Como você terá predefinido as dimensões usadas para carregar os dados do resumo, a página **Pré-carregar Resumo do Visibilidade de Estoque** exibirá as colunas relacionadas à dimensão. *As dimensões não são personalizáveis &mdash; o sistema oferece suporte somente às dimensões de site e de local para listas disponíveis pré-carregadas.* A página **Pré-carregar o Resumo da Visibilidade do Estoque** fornece filtros semelhantes aos da página **Resumo de estoque**, com a exceção de que as dimensões já estão selecionadas. A captura de tela a seguir destaca os campos de filtragem disponíveis na página **Pré-carregar Resumo da Visibilidade de Estoque**.
 
 ![A página de resumo Pré-carregar Visibilidade de Estoque.](media/inventory-visibility-preload-onhand-list.png "A página de resumo Pré-carregar Visibilidade de Estoque")
 

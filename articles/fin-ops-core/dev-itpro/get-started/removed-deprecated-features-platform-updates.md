@@ -12,12 +12,12 @@ ms.search.region: Global
 ms.author: sericks
 ms.search.validFrom: 2020-02-29
 ms.dyn365.ops.version: Platform update 33
-ms.openlocfilehash: b2eec4dd71baef54877b4139a331288bf37f4960
-ms.sourcegitcommit: e4b6521337dfff3515f70086b0125d4c23308c71
+ms.openlocfilehash: 7d74efe7aa4f3a30c116253d647b9d7bec3b508d
+ms.sourcegitcommit: 774f8f97a0b14cf1199bd1802178ccf536a25ade
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/11/2022
-ms.locfileid: "9262288"
+ms.lasthandoff: 11/17/2022
+ms.locfileid: "9785090"
 ---
 # <a name="removed-or-deprecated-platform-features"></a>Recursos de Platform removidos ou preteridos
 
@@ -51,7 +51,7 @@ Como parte do esforço de trabalho da [Plataforma Um do One Dynamics](/dynamics3
 | Solicitações de serviço | Número | Sim | Sim: [Implantações de autoatendimento](../deployment/infrastructure-stack.md) |
 | Integração do SharePoint | Sim | Sim | Número |
 | Gerenciador de configurações e dados | Número | Sim | Número |
-| Pacotes de dados do processo | Número | Sim | Sim: Estrutura de Importação/Exportação de Dados (DIXF) |
+| Pacotes de dados do processo | Número | Sim | Sim: [Estrutura de Importação/Exportação de Dados (DIXF)](/dynamics365/fin-ops-core/dev-itpro/data-entities/data-import-export-job) |
 | Atualização do ambiente | Número | Sim | Sim: as atualizações do serviço [One Version](../lifecycle-services/oneversion-overview.md) estão disponíveis. |
 | Avaliador de infraestrutura | Sim | Número | Número |
 | Dimensionamento da licença | Sim | Número | Número |
@@ -71,10 +71,10 @@ Como parte do esforço de trabalho da [Plataforma Um do One Dynamics](/dynamics3
 | &nbsp;  | &nbsp; |
 |------------|--------------------|
 | **Motivo para a reprovação/remoção** | Estamos removendo a lista de pacotes de criptografia a seguir para cumprir os protocolos de segurança atuais.<br><br>TLS_RSA_WITH_AES_256_GCM_SHA384<br>TLS_RSA_WITH_AES_128_GCM_SHA256<br>TLS_RSA_WITH_AES_256_CBC_SHA256<br>TLS_RSA_WITH_AES_128_CBC_SHA256<br>TLS_RSA_WITH_AES_256_CBC_SHA<br>TLS_RSA_WITH_AES_256_CBC_SHA  |
-| **Substituída por outro recurso?**   | A partir de 30 de novembro de 2022, os clientes só podem usar [conjuntos de criptografia padrão](/power-platform/admin/server-cipher-tls-requirements). Essa alteração afeta os clientes e os servidores que se comunicam com os nossos servidores, por exemplo, podem impactar as integrações de terceiros que não estão seguindo os pacotes de criptografia padrão. |
+| **Substituída por outro recurso?**   | A partir de 31 de janeiro de 2023, os clientes só podem usar nossos [conjuntos de criptografia padrão](/power-platform/admin/server-cipher-tls-requirements). Essa alteração afeta os clientes e os servidores que se comunicam com os nossos servidores, por exemplo, podem impactar as integrações de terceiros que não estão seguindo os pacotes de criptografia padrão. |
 | **Áreas afetadas do produto**         | Aplicativos do Finance and Operations |
 | **Opção de implantação**              | Implantações na nuvem |
-| **Status**                         | Preterido. Os clientes devem atualizar seus servidores antes de 30 de novembro de 2022. Para obter mais informações sobre como configurar a ordem do Conjunto de Criptografia de TLS, consulte [Gerenciar TLS (Transport Layer Security)](/windows-server/security/tls/manage-tls).  |
+| **Status**                         | Preterido. Os clientes devem atualizar seus servidores antes de 31 de janeiro de 2023. Para obter mais informações sobre como configurar a ordem do Conjunto de Criptografia de TLS, consulte [Gerenciar TLS (Transport Layer Security)](/windows-server/security/tls/manage-tls).  |
 
 
 ## <a name="feature-deprecation-effective-june-2022"></a>Substituição de recurso efetiva em junho de 2022
