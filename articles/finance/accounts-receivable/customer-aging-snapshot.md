@@ -13,12 +13,12 @@ ms.author: mrolecki
 ms.search.validFrom: 2021-05-05
 ms.dyn365.ops.version: 10.0.17
 ms.search.form: ''
-ms.openlocfilehash: 88145cdccfe3f1d0d3de4e31dfa519b27df6550a
-ms.sourcegitcommit: c5f2cba3c2b0758e536eeaaa40506659a53085e1
+ms.openlocfilehash: e4ccc8ac9b5374ca0713167a17b8704727c687fd
+ms.sourcegitcommit: 9740f9b41a7dcf1821c6baccb2e05b9865ac2966
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/12/2022
-ms.locfileid: "9643675"
+ms.lasthandoff: 11/15/2022
+ms.locfileid: "9775227"
 ---
 # <a name="customer-aging-snapshots"></a>Instantâneo de classificação por vencimento de cliente 
 
@@ -31,9 +31,10 @@ As informações dos instantâneos de classificação por vencimento aparecem na
 O espaço de trabalho **Crédito e cobranças de clientes** também mostra a classificação por vencimento do cliente. Para obter mais informações, consulte [Conteúdo de gerenciamento de crédito e cobrança do Power BI](credit-collections-power-bi.md).
 
 > [!NOTE]
-> Para ajudar a reduzir o tempo necessário para criar um instantâneo de classificação por vencimento, ative os recursos no espaço de trabalho **Gerenciamento de recursos**: **Aumento de desempenho de classificação por vencimento do cliente** 
-> **Aumento de desempenho de classificação por vencimento do cliente com grupos de clientes**  
-> Com os dois recursos ativados, é possível usar **Grupos de clientes** ao criar o instantâneo de classificação por vencimento. 
+> Para ajudar a reduzir o tempo necessário para criar um instantâneo de classificação por vencimento, ative os seguintes recursos no espaço de trabalho **Gerenciamento de recursos**: 
+> - **Aprimoramento do desempenho de classificação por vencimento de cliente** 
+> - **Desempenho de classificação por vencimento do cliente com pools de clientes**  
+>Com os dois recursos ativados, é possível usar **Grupos de clientes** ao criar o instantâneo de classificação por vencimento. 
 
 Ao criar um instantâneo de classificação por vencimento de cliente, use os campos a seguir para inserir informações sobre ele:
 

@@ -8,19 +8,19 @@ ms.prod: ''
 ms.technology: ''
 ms.search.form: CustOpenTrans, LedgerJournalTransCustPaym
 audience: Application User
-ms.reviewer: kfend
+ms.reviewer: twheeloc
 ms.custom: 14564
 ms.assetid: d9984cef-ddcf-46bd-816d-c01b8cc5cf48
 ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 3a5ecf69c83805834c01c03d0af9b7b8c5310920
-ms.sourcegitcommit: 631d2cea52590af15f208e9af584446e85540fcf
+ms.openlocfilehash: 44f64b9b9cd4fa65d17ba30fb87a688411becd5a
+ms.sourcegitcommit: cf6b764824bd1cf2c0dde6d37ddd0a7abab87ff0
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/07/2022
-ms.locfileid: "8725083"
+ms.lasthandoff: 11/16/2022
+ms.locfileid: "9780428"
 ---
 # <a name="settle-a-partial-customer-payment-that-has-discounts-on-credit-notes"></a>Liquidar um pagamento parcial de cliente com descontos em notas de crédito
 
@@ -35,20 +35,20 @@ O cliente 4035 possui uma fatura de 1.000,00 e uma nota de crédito de 100,00. C
 
 | Comprovante    | Tipo de transação | Data      | Fatura  | Valor em débito na moeda da transação | Valor em crédito na moeda da transação | Saldo  | Moeda |
 |------------|------------------|-----------|----------|--------------------------------------|---------------------------------------|----------|----------|
-| FTI-10050  | Fatura          | 28/6/2015 | 10050    | 1.000,00                             |                                       | 1.000,00 | USD      |
-| CCRN-10050 | Nota de crédito      | 28/6/2015 | CR-10050 |                                      | 100,00                                | -100,00  | USD      |
+| FTI-10050  | Fatura          | 28/6/2020 | 10050    | 1.000.00                             |                                       | 1.000.00 | USD      |
+| CCRN-10050 | Nota de crédito      | 28/6/2020 | CR-10050 |                                      | 100.00                                | -100,00  | USD      |
 
 ## <a name="settle-a-credit-note-with-an-invoice"></a>Liquidar uma nota de crédito com uma fatura
 Na página **Transações do cliente**, Arnie abre a página **Liquidar transações**. Arnie pode usar a página **Liquidar transações** para liquidar a fatura e a nota de crédito. Como parte do processo de liquidação, Arnie visualiza as datas e os valores de desconto em dinheiro. Arnie marca os dois documentos e clica em **Postar** para liquidar as transações. Há um desconto de -1,00 na nota de crédito, pois a Fabrikam permite descontos em notas de crédito.
 
 | Marcar     | Usar desconto à vista | Comprovante    | Conta | Data      | Data de conclusão  | Fatura  | Valor na moeda da transação | Moeda | Valor para liquidar |
 |----------|-------------------|------------|---------|-----------|-----------|----------|--------------------------------|----------|------------------|
-| Selecionada | Normal            | FTI-10050  | 4035    | 28/6/2015 | 28/7/2015 | 10050    | 1.000,00                       | USD      | 990,00           |
-| Selecionado | Normal            | CCRN-10050 | 4035    | 28/6/2015 | 28/7/2015 | CR-10050 | -100,00                        | USD      | -99,00           |
+| Selecionados | Normal            | FTI-10050  | 4035    | 28/6/2020 | 28/7/2020 | 10050    | 1.000.00                       | USD      | 990.00           |
+| Selecionados | Normal            | CCRN-10050 | 4035    | 28/6/2020 | 28/7/2020 | CR-10050 | -100,00                        | USD      | -99,00           |
 
 As informações do desconto aparecem na parte inferior da página **Liquidar transações**.
 
-- **Data do desconto à vista**: 12/07/2015 
+- **Data do desconto à vista**: 12/07/2020 
 - **Valor de desconto à vista**: -1,00     
 - **Usar desconto à vista**: Normal    
 - **Desconto à vista obtido**: 0,00      

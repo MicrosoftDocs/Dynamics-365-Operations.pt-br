@@ -12,12 +12,12 @@ ms.search.region: Global
 ms.author: twheeloc
 ms.search.validFrom: 2018-08-30
 ms.dyn365.ops.version: 8.0.4
-ms.openlocfilehash: 87dc6334baa83ace23b77d94da4d1e464cb0b574
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: 4298d7114e0237072c242e83e51951a922e34e5a
+ms.sourcegitcommit: cf6b764824bd1cf2c0dde6d37ddd0a7abab87ff0
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8878150"
+ms.lasthandoff: 11/16/2022
+ms.locfileid: "9780440"
 ---
 # <a name="create-a-free-text-invoice"></a>Criar uma fatura de texto livre
 
@@ -27,7 +27,7 @@ Este artigo explica como criar faturas de texto livre. Para o procedimento, use 
 
 ## <a name="create-a-free-text-invoice"></a>Criar uma fatura de texto livre
 
-1. Acesse **Contas a receber (ou Razão de Vendas) \> Faturas \> Todas as faturas de texto livre**.
+1. Vá para **Contas recebíveis \> Faturas \> Todas faturas de texto livre**.
 2. Selecione **Novo**.
 3. No campo **Conta de cliente**, selecione um valor.
 

@@ -2,24 +2,24 @@
 title: Reconciliar uma conta bancária
 description: Este artigo descreve como reconciliar uma conta bancária.
 author: angelad116
-ms.date: 07/01/2019
+ms.date: 11/16/2022
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
 audience: Application User
-ms.reviewer: kfend
+ms.reviewer: twheeloc
 ms.search.region: Global
 ms.author: angelading
 ms.search.validFrom:
 - month/year of release that feature was introduced in
 - in format yyyy-mm-dd
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: d36ff753d368bbbe6944aa5ae5010541ee92156d
-ms.sourcegitcommit: 0b7a034e644f4d93fe55c7baca5a3f89dbe56898
+ms.openlocfilehash: 576dcd320600f4741a43bfeee53198637bffce15
+ms.sourcegitcommit: cf6b764824bd1cf2c0dde6d37ddd0a7abab87ff0
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 07/14/2022
-ms.locfileid: "9151241"
+ms.lasthandoff: 11/16/2022
+ms.locfileid: "9779518"
 ---
 # <a name="reconcile-a-bank-account"></a>Reconciliar uma conta bancária
 
@@ -29,27 +29,27 @@ Quando receber um extrato bancário, você deve periodicamente reconciliar as tr
 
 Não é possível reconciliar um extrato bancário com uma conta bancária se algum pagamento de cheque ou guia de depósito listado no extrato tiver, no momento, o status **Cancelamento pendente**. Depois que um revisor lançar ou rejeitar uma reversão de cheque ou um cancelamento de pagamento de guia de depósito, o status não é mais **Cancelamento pendente** e você pode reconciliar a conta.
 
-1.  Acesse **Gerenciamento de caixa e bancos** \> **Contas bancárias** \> **Contas bancárias**. Selecione a conta bancária para reconciliar com o extrato bancário e selecione **Reconciliar** > **Reconciliação de conta**.
+1. Acesse **Gerenciamento de caixa e bancos** \> **Contas bancárias** \> **Contas bancárias**. Selecione a conta bancária para reconciliar com o extrato bancário e selecione **Reconciliar** > **Reconciliação de conta**.
 
-2.  Insira informações nos campos **Data do extrato bancário** e **Extrato bancário**. No campo **Saldo final**, você pode inserir o saldo da conta bancária como ele aparece no extrato.
+2. Insira informações nos campos **Data do extrato bancário** e **Extrato bancário**. No campo **Saldo final**, você pode inserir o saldo da conta bancária como ele aparece no extrato.
 
-3.  Selecione **Transações** para abrir a página **Reconciliação de conta**.
+3. Selecione **Transações** para abrir a página **Reconciliação de conta**.
 
-4.  Para cada transação incluída no extrato bancário, marque a caixa de seleção **Compensado** se o valor no Dynamics 365 Finance corresponder ao valor no extrato bancário. Você também pode inserir ou modificar o valor no campo **Tipo de transação bancária**. Esse valor do campo é importante para as estatísticas de transações bancárias e para alguns relatórios.
+4. Para cada transação incluída no extrato bancário, marque a caixa de seleção **Compensado** se o valor no Dynamics 365 Finance corresponder ao valor no extrato bancário. Você também pode inserir ou modificar o valor no campo **Tipo de transação bancária**. Esse valor do campo é importante para as estatísticas de transações bancárias e para alguns relatórios.
     
 
-    > [!NOTE]
-    > <P>Não marque a caixa de seleção <STRONG>Compensado</STRONG> para transações que não estejam no extrato bancário. Essas transações continuarão sendo exibidas nesta página até que sejam reconciliadas com o extrato bancário futuro.</P>
-    > <P>A caixa de seleção <STRONG>Compensado</STRONG> não estará disponível se o status da transação for <STRONG>Cancelamento pendente</STRONG>. As transações podem ter esse status se o Finance estiver configurado para exigir que estornos ou cancelamentos sejam enviados para revisão antes de serem lançados. Depois que um revisor lançar ou rejeitar a reversão ou o cancelamento, o status deixa de ser <STRONG>Cancelamento pendente</STRONG> e você pode reconciliar a conta bancária com o extrato bancário.</P>
+>[!NOTE]
+>Não marque a caixa de seleção **Compensado** para transações que não estejam no extrato bancário. Essas transações continuarão sendo exibidas nesta página até que sejam reconciliadas com o extrato bancário futuro.
+>A caixa de seleção **Compensado** não estará disponível se o status da transação for **Cancelamento pendente**. As transações podem ter esse status se o Finance estiver configurado para exigir que estornos ou cancelamentos sejam enviados para revisão antes de serem lançados. Depois que um revisor lançar ou rejeitar a reversão ou o cancelamento, o status deixa de ser **Cancelamento pendente** e você pode reconciliar a conta bancária com o extrato bancário.
 
-    
-    Para marcar a caixa de seleção **Compensado** para um intervalo de cheques que também são exibidos no extrato bancário, selecione **Marcar intervalo de cheques** e indique o intervalo.
+
+Para marcar a caixa de seleção **Compensado** para um intervalo de cheques que também são exibidos no extrato bancário, selecione **Marcar intervalo de cheques** e indique o intervalo.
 
 5.  Se o valor de uma transação de conta bancária não corresponder ao valor da transação no extrato bancário, insira o valor da correção no campo **Valor da correção**.
     
 
-    > [!NOTE]
-    > <P>Se o período fiscal da transação a ser corrigida estiver fechado, o campo <STRONG>Valor da correção</STRONG> não poderá ser usado. Em vez de isso, crie uma linha com uma data de transação que está em um período fiscal em aberto para a correção. Nesse caso, você deve adicionar as dimensões financeiras que foram usadas na transação original, além da conta principal de contrapartida.</P>
+> [!NOTE]
+> Se o período fiscal da transação a ser corrigida estiver fechado, o campo **Valor da correção** não poderá ser usado. Em vez de isso, crie uma linha com uma data de transação que está em um período fiscal em aberto para a correção. Nesse caso, você deve adicionar as dimensões financeiras que foram usadas na transação original, além da conta principal de contrapartida.
 
 
 

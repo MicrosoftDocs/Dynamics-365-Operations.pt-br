@@ -2,28 +2,23 @@
 title: Visão geral de clientes
 description: Este artigo mostra uma visão geral dos novos recursos de depoimentos de clientes disponíveis no aplicativo de loja.
 author: bebeale
-ms.date: 02/01/2021
+ms.date: 11/16/2022
 ms.topic: overview
-ms.prod: ''
-ms.technology: ''
-ms.search.form: ''
-audience: Application User
+audience: Application User, Developer, IT Pro
 ms.reviewer: josaw
 ms.custom:
 - "260624"
 - intro-internal
 ms.assetid: a4f9d315-9951-451c-8ee6-37f9b3b15ef0
-ms.search.region: global
-ms.search.industry: Retail
+ms.search.region: Global
 ms.author: shajain
 ms.search.validFrom: 2018-10-01
-ms.dyn365.ops.version: Version 10.0.7
-ms.openlocfilehash: 3d60004367840208f239d69220b3c181109f83d8
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: fc7daeb27c25efa21fd34b0456af8892074056d5
+ms.sourcegitcommit: 774f8f97a0b14cf1199bd1802178ccf536a25ade
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8885602"
+ms.lasthandoff: 11/17/2022
+ms.locfileid: "9785036"
 ---
 # <a name="clienteling-overview"></a>Visão geral de clientes
 
@@ -31,6 +26,11 @@ ms.locfileid: "8885602"
 
 
 Muitos varejistas, principalmente os especializados em tecnologia de ponta, querem que seus representantes de vendas estabeleçam relacionamentos duradouros com seus principais clientes. Os representantes devem saber do que os clientes gostam e não gostam, o histórico de compras, as preferências em termos de produtos, além de datas importantes, como aniversários e bodas. Os representantes precisam de um lugar onde possam capturar essas informações e encontrá-las com facilidade quando necessário. Se essas informações estiverem disponíveis em uma única exibição, os associados poderão selecionar facilmente os clientes que atendem a critérios específicos. Por exemplo, eles podem localizar todos os clientes que preferem comprar bolsas ou aqueles que têm um evento importante próximo, como um aniversário ou uma boda.
+
+O vídeo a seguir mostra um exemplo de cenário de clientes no Dynamics 365 Commerce.
+
+
+> [!VIDEO https://www.microsoft.com/videoplayer/embed/RE5bMSP]
 
 ## <a name="client-book"></a>Catálogo de clientes
 

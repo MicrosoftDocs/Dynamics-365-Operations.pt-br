@@ -2,26 +2,19 @@
 title: Operação de estoque de entrada no PDV
 description: Este artigo descreve os recursos da operação de entrada do estoque do ponto de venda (POS).
 author: hhainesms
-ms.date: 09/17/2020
+ms.date: 11/16/2022
 ms.topic: article
-ms.prod: ''
-ms.technology: ''
-audience: Application User
+audience: Application User, Developer, IT Pro
 ms.reviewer: josaw
 ms.search.region: global
 ms.author: hhaines
-ms.search.validFrom: ''
-ms.dyn365.ops.version: 10.0.9
-ms.custom: ''
-ms.assetid: ''
-ms.search.industry: Retail
-ms.search.form: ''
-ms.openlocfilehash: 3099f03ba2da8a367953ad0d25ee884e41ff9deb
-ms.sourcegitcommit: 87e727005399c82cbb6509f5ce9fb33d18928d30
+ms.search.validFrom: 2017-06-20
+ms.openlocfilehash: 7999c8409c71c7ccf9c1d44bd86ddca6f5e8f6ff
+ms.sourcegitcommit: 774f8f97a0b14cf1199bd1802178ccf536a25ade
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/12/2022
-ms.locfileid: "9288343"
+ms.lasthandoff: 11/17/2022
+ms.locfileid: "9785009"
 ---
 # <a name="inbound-inventory-operation-in-pos"></a>Operação de estoque de entrada no PDV
 
@@ -31,6 +24,11 @@ Na versão 10.0.10 e posterior do Microsoft Dynamics 365 Commerce, as operaçõe
 
 > [!NOTE]
 > Na versão 10.0.10 e posteriores do Commerce, todos os novos recursos do aplicativo do PDV que estão relacionados ao recebimento do estoque da loja em relação às ordens de compra e às ordens de transferência serão adicionados à operação do PDV da **Operação de entrada**. Se você estiver usando a operação de separação e recebimento no PDV, recomendamos que você crie uma estratégia para mover-se dessa operação para as novas operações de entrada e saída. Embora a operação de separação e recebimento não seja removida do produto, não haverá mais investimentos nela, de uma perspectiva funcional ou de desempenho, após a versão 10.0.9.
+
+O vídeo a seguir fornece uma visão geral dos processos empresariais de estoque de loja e recursos no Dynamics 365 Commerce.
+
+
+> [!VIDEO https://www.microsoft.com/videoplayer/embed/RE5bMSx]
 
 ## <a name="prerequisite-configure-an-asynchronous-document-framework"></a>Pré-requisito: configurar uma estrutura de documento assíncrona
 

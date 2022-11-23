@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: twheeloc
 ms.search.validFrom: 2020-10-13
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 63b08a8493702cf319aa078ef6aa787e2094be87
-ms.sourcegitcommit: 088a7b5eb9a3b68710dfe012abf4c24776978750
+ms.openlocfilehash: 4df9a68ea0128378224bf77bd66423fd2e13fa55
+ms.sourcegitcommit: e5b290bac7e8f468167caa1a5607aac6eac9aaea
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/01/2022
-ms.locfileid: "9733430"
+ms.lasthandoff: 11/11/2022
+ms.locfileid: "9760353"
 ---
 # <a name="dynamics-365-human-resources-customer-migration"></a>Migração do cliente do Dynamics 365 Human Resources
 
@@ -38,13 +38,12 @@ A migração do cliente é uma "migração lift-and-shift" (movimento) de um ban
 
 ### <a name="dataverse-environment-backup-sandbox"></a>Backup do ambiente do Dataverse (Área restrita)
 
-1. Opcional, mas recomendado: Atualize o ambiente de área restrita do Human Resources existente usando uma cópia do ambiente de produção do Human Resources.
-2. [Criar um novo ambiente do Dataverse](/power-platform/admin/create-environment#create-an-environment-with-a-database) usando o centro de administração do Power Platform.
+ - Opcional, mas recomendado: Atualize o ambiente de área restrita do Human Resources existente usando uma cópia do ambiente de produção do Human Resources.
+ - Crie um novo ambiente do Dataverse usando o centro de administração do Power Platform.
+ - Copie o ambiente do Dataverse existente, que é vinculado ao aplicativo autônomo do Human Resources, para o ambiente que você criou na etapa anterior.
 
-    > [!NOTE]
-    > Ao adicionar um banco de dados, verifique se a opção **Habilitar aplicativos do Dynamics 365** está definida como **Sim**.
-
-3. [Copie o ambiente do Dataverse existente](/power-platform/admin/copy-environment), que é vinculado ao aplicativo autônomo do Human Resources, para o ambiente que você criou na etapa anterior.
+> [!NOTE]
+> Ao adicionar um banco de dados, verifique se a opção **Habilitar aplicativos do Dynamics 365** está definida como **Sim**. Para obter informações detalhadas, consulte [Preparar um ambiente do Power Platform](hr-cust-migration.md#prepare-a-power-platform-environment)
 
 ### <a name="dataverse-capacity"></a>Capacidade do Dataverse
 
@@ -89,9 +88,9 @@ Depois que um novo projeto do Lifecycle Services for criado, e o processo de int
 #### <a name="prepare-a-power-platform-environment"></a>Preparar um ambiente do Power Platform
 
 > [!NOTE]
-> Esta etapa só se aplica a migração de ambiente de área restrita. Quando você migra o ambiente de produção, o ambiente do centro de administração existente do Power Platform anexado ao ambiente de produção será postergado.
+> Esta etapa só se aplica a migração de ambiente de área restrita. Quando você migra o ambiente de produção, o ambiente do centro de administração existente do Power Platform anexado ao ambiente de produção será postergado. Ao adicionar um banco de dados, verifique se o botão **Habilitar aplicativos do Dynamics 365** está definido como **Sim**. 
 
-- No Centro de administração do Power Platform, [crie um ambiente do Power platform](/power-platform/admin/create-environment#create-an-environment-in-the-power-platform-admin-center) para usar na migração de área restrita ou selecione um ambiente existente.
+- No Centro de administração do Power Platform, [crie um ambiente com banco de dados](/power-platform/admin/create-environment#create-an-environment-with-a-database) para usar na migração de área restrita ou selecione um ambiente existente.
 - [Copie um ambiente](/power-platform/admin/copy-environment) para atualizar o ambiente do Power Platform usado para mapeamento.
 
 #### <a name="migrate-the-sandbox-environment"></a>Migrar o ambiente de área restrita
