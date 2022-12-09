@@ -2,7 +2,7 @@
 title: Definições de linha no designer de relatório financeiro
 description: Uma definição de linha é um componente de relatório ou bloco de construção que especifica o conteúdo de cada linha em um relatório financeiro.
 author: aprilolson
-ms.date: 06/20/2017
+ms.date: 11/22/2022
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -15,12 +15,12 @@ ms.dyn365.ops.version: Version 1611
 ms.custom: 68873
 ms.assetid: 2fd7b5da-700f-48cb-9003-90c0d82f818f
 ms.search.form: FinancialReports
-ms.openlocfilehash: 1481d95bc7a02294b499e07308df2d26a3ab0e3a
-ms.sourcegitcommit: 87e727005399c82cbb6509f5ce9fb33d18928d30
+ms.openlocfilehash: 3325f76f991ea6d2a1b6131f299460e529d63d38
+ms.sourcegitcommit: d27fef61593c6d1e9e26d5c9fad21411bc52fabc
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/12/2022
-ms.locfileid: "9274683"
+ms.lasthandoff: 11/23/2022
+ms.locfileid: "9802436"
 ---
 # <a name="row-definitions-in-financial-report-designer"></a>Definições de linha no designer de relatório financeiro
 
@@ -30,11 +30,11 @@ Uma definição de linha é um componente de relatório ou bloco de construção
 
 ## <a name="create-a-row-definition"></a>Criar uma definição de linha
 
-1. No Designer de Relatórios, no painel de navegação, clique em **Definições de linha**.
-2. No menu **Arquivo**, clique em **Novo** e clique em **Definição de Linha**. Para obter mais informações sobre o conteúdo de cada célula, consulte [Modifique células de definição de linha](modify-row-definition-cells-financial-reporting.md).
+1. No Report Designer, no painel de navegação, clique em **Definições de linha**.
+2. No menu **Arquivo**, clique em **Novo** e, depois, em **Definição de linha**. Para obter mais informações sobre o conteúdo de cada célula, consulte [Modifique células de definição de linha](modify-row-definition-cells-financial-reporting.md).
 
 ## <a name="open-a-row-definition"></a>Abrir uma definição de linha
-1. No Designer de Relatórios, no painel de navegação, clique em **Definições de linha**.
+1. No Report Designer, no painel de navegação, clique em **Definições de linha**.
 2. Clique duas vezes no nome da definição de linha a ser aberta.
 3. Para exibir todos os blocos de construção que estejam associados à definição de linha, clique com o botão direito do mouse na definição de linha e selecione **Associações**.
 
@@ -71,10 +71,10 @@ Uma dimensão é uma interseção de dados e valores. Você pode agrupar dados e
 
 Para adicionar dimensões a uma definição de linha, siga as etapas a seguir.
 
-1. No Designer de Relatórios, clique em **Definições de Linha** e abra a definição de linha para modificá-la.
-2. No menu **Editar**, clique em **Inserir Linhas de Dimensões**.
-3. Na caixa de diálogo **Inserir Linhas de Dimensões**, na linha **Dimensões**, selecione a célula da dimensão a ser transferida para a definição de linha e clique em **Todos &&&**.
-4. Para limitar a definição de linha a um intervalo específico de valores de dimensões, digite o valor de dimensão inicial na célula **Início do Intervalo de Dimensões**, e digite o valor de dimensão final na célula **Final do Intervalo de Dimensões**. Para incluir todos os valores da dimensão selecionada, deixe essas células vazias.
+1. No Report Designer, clique em **Definições de linha** e abra a definição de linha para modificá-la.
+2. No menu **Editar**, clique em **Inserir linhas de dimensões**.
+3. Na caixa de diálogo **Inserir linhas de dimensões**, na linha **Dimensões**, selecione a célula da dimensão a ser transferida para a definição de linha e clique em **Todos &&&**.
+4. Para limitar a definição de linha a um intervalo específico de valores de dimensões, digite o valor de dimensão inicial na célula **Início do intervalo de dimensões**, e digite o valor de dimensão final na célula **Final do intervalo de dimensões**. Para incluir todos os valores da dimensão selecionada, deixe essas células vazias.
 
     > [!NOTE]
     > Os caracteres curinga (\* ou ?) nos intervalos de dimensão não podem retornar todos os resultados que você deseja, dependendo de como o banco de dados de ERP agrupa os dados.
@@ -94,9 +94,9 @@ Quando você tem um balanço em que os valores são arredondados, talvez os tota
 
 Para ajustar o arredondamento em um balanço, siga as etapas a seguir.
 
-1. No Designer de Relatórios, clique em **Definições de Linha** e abra a definição de linha para modificá-la.
+1. No Report Designer, clique em **Definições de linha** e abra a definição de linha para modificá-la.
 2. No menu **Editar**, clique em **Ajuste de arredondamento**.
-3. Na caixa de diálogo **Ajustes de Arredondamento**, insira os seguintes valores:
+3. Na caixa de diálogo **Ajustes de arredondamento**, insira os seguintes valores:
 
     - **Linha de ajuste de arredondamento** – O código de linha da linha que deverá ser ajustada para equilibrar o balanço.
     - **Linha de total de ativos** – O código de linha da linha no balanço que contém os ativos totais.
@@ -124,7 +124,7 @@ Você pode criar e modificar estilos de fonte para o relatório. Em seguida, voc
 <td><strong>Criar um estilo de fonte</strong></td>
 <td>
 <ol>
-<li>No Designer de Relatórios, no menu <strong>Formato </strong>, clique em <strong>Estilos e Formatação</strong>.</li>
+<li>No Report Designer, no menu <strong>Formato</strong>, clique em <strong>Estilos e formatação</strong>.</li>
 <li>Na caixa de diálogo <strong>Estilos e formatação</strong>, clique em <strong>Novo</strong> e insira um nome exclusivo para o novo estilo.</li>
 <li>Faça as seleções de fonte e, em seguida, clique em <strong>OK</strong>.</li>
 </ol>
@@ -134,7 +134,7 @@ Você pode criar e modificar estilos de fonte para o relatório. Em seguida, voc
 <td><strong>Modificar um estilo de fonte</strong></td>
 <td>
 <ol>
-<li>No Designer de Relatórios, no menu <strong>Formato </strong>, clique em <strong>Estilos e Formatação</strong>.</li>
+<li>No Report Designer, no menu <strong>Formato</strong>, clique em <strong>Estilos e formatação</strong>.</li>
 <li>Na caixa de diálogo <strong>Estilos e formatação</strong>, selecione um estilo para modificar e clique em <strong>Modificar</strong>.</li>
 <li>Faça as seleções de fonte e, em seguida, clique em <strong>OK</strong>.</li>
 </ol>
@@ -144,7 +144,7 @@ Você pode criar e modificar estilos de fonte para o relatório. Em seguida, voc
 <td><strong>Aplicar um estilo de fonte</strong></td>
 <td>
 <ol>
-<li>Em designer de relatório, uma definição ou definição de coluna, ou em cabeçalhos e rodapés, selecione uma ou mais células.</li>
+<li>No Report Designer, em uma definição ou definição de coluna, ou em cabeçalhos e rodapés, selecione uma ou mais células.</li>
 <li>Na lista <strong>Estilo</strong> na barra de ferramentas, selecione um estilo de fonte.</li>
 </ol>
 </td>
@@ -158,7 +158,7 @@ A formatação que é especificada na definição de coluna substitui a formata�
 
 1. No Report Designer, abra a definição de linha a ser modificada.
 2. Selecione as células para formatar. Para selecionar várias células, mantenha pressionada a tecla CTRL enquanto seleciona a célula.
-3. Clique no botão na barra de ferramentas do formato a ser aplicado. Por exemplo, para recuar uma linha, selecione a linha e clique em **Aumentar Recuo** ![Aumentar Recuo.](media/indent.gif "Aumentar Recuo") na barra de ferramentas.
+3. Clique no botão na barra de ferramentas do formato a ser aplicado. Por exemplo, para recuar uma linha, selecione a linha e clique em **Aumentar recuo** ![Aumentar recuo.](media/indent.gif "Aumentar Recuo") na barra de ferramentas.
 
 ### <a name="adjust-columns-while-you-design-reports"></a>Ajuste colunas ao criar relatórios
 
@@ -166,19 +166,19 @@ Para facilitar a exibição das colunas em que estiver trabalhando na definiçã
 
 ### <a name="change-the-width-of-a-column-in-the-view-pane"></a>Alterar a largura de uma coluna no painel de exibição
 
-1. No Designer de Relatórios, abra a definição de linha a ser modificada.
-2. No menu **Formato**, selecione **Largura da Coluna**.
-3. Na caixa de diálogo **Largura da coluna**, insira um valor, e clique em **OK**. De forma alternativa, você também pode arrastar o limite direito de uma célula de título da coluna para alterar a largura da coluna.
+1. No Report Designer, abra a definição de linha a ser modificada.
+2. No menu **Formato**, selecione **Largura da coluna**.
+3. Na caixa de diálogo **Largura da coluna**, insira um valor e clique em **OK**. De forma alternativa, você também pode arrastar o limite direito de uma célula de título da coluna para alterar a largura da coluna.
 
 ### <a name="hide-columns-in-the-view-pane"></a>Ocultar colunas no painel de exibição
 
-1. No Designer de Relatórios, abra a definição de linha a ser modificada.
+1. No Report Designer, abra a definição de linha a ser modificada.
 2. Selecione uma ou mais colunas para minimizar.
 3. Clique no botão direito do mouse e clique em **Ocultar**.
 
 ### <a name="show-all-hidden-columns-in-the-view-pane"></a>Mostrar todas as colunas ocultas no painel de exibição
 
-1. No Designer de Relatórios, abra a definição de linha a ser modificada.
+1. No Report Designer, abra a definição de linha a ser modificada.
 2. Clique com o botão direito do mouse na coluna minimizada a ser exibida. Clique em **Reexibir**.
 
 

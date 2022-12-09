@@ -2,7 +2,7 @@
 title: Visão geral das competências
 description: Este artigo descreve competências, e fornece informações sobre como configurá-las e criar transações.
 author: aprilolson
-ms.date: 01/11/2018
+ms.date: 11/21/2022
 ms.topic: overview
 ms.prod: ''
 ms.technology: ''
@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: aolson
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 2e10842929ba58b845a1df949ecb7c776ae077e8
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: 022d6574895d3263ce1e21a2f04985c418f45b61
+ms.sourcegitcommit: fb9b6969218f2b82f0a4c72bfad75387fe00395c
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8904691"
+ms.lasthandoff: 11/22/2022
+ms.locfileid: "9799379"
 ---
 # <a name="accruals-overview"></a>Visão geral das competências
 
@@ -41,7 +41,9 @@ Os esquemas das competências são usados para configurar a receita e os custos 
 Depois que você determina quais contas usar, é possível especificar como o número do comprovante é criado quando as transações de competência são criadas. Você também pode especificar com que frequência as transações ocorrerão, o número de vezes em que as transações são criadas e quando as transações são lançadas. Depois que o esquema de competência foi criado, é possível usá-lo em qualquer um dos diários usando a função de competências do razão.
 
 ## <a name="ledger-accruals"></a>Competências do razão
-Quando você insere um diário, é possível clicar em **Competências do razão** no menu **Funções**. Em seguida, quando você seleciona o esquema de competência, você verá o valor base do diário que será dividido durante o período, conforme determinado pelo esquema de competência. Por exemplo, se você pagar o seguro de um funcionário para todo o ano em janeiro e o valor for 12.000, você deve reconhecer as despesas todos os meses. Você pode selecionar a data de início. Você também pode especificar se o valor que é acumulado é baseado na conta ou na conta de compensação. Depois das seleções, clique em **Transações** para exibir todas as transações que foram criadas com base no esquema de competência. Por exemplo, se você tiver 12.000 em despesas de seguro durante o ano, você verá 1.000 para cada mês. Depois de lançar o diário, você pode exibir as transações usando a página de consulta **Transações de comprovante**. Se não for possível aplicar um esquema de competência (por exemplo, quando uma fatura de ordem de venda ou uma fatura de ordem de compra for envolvida), você pode creditar o valor pago antecipadamente e debitar o valor de despesas. Você pode selecionar **Contrapartida** ao aplicar o esquema de competência.
+Quando você insere um diário, é possível clicar em **Competências do razão** no menu **Funções**. Em seguida, quando você seleciona o esquema de competência, você verá o valor base do diário que será dividido durante o período, conforme determinado pelo esquema de competência. 
+
+Por exemplo, se você pagar o seguro de um funcionário para todo o ano em janeiro e o valor for 12.000, você deve reconhecer as despesas todos os meses. Você pode selecionar a data de início. Você também pode especificar se o valor que é acumulado é baseado na conta ou na conta de compensação. Depois das seleções, clique em **Transações** para exibir todas as transações que foram criadas com base no esquema de competência. Por exemplo, se você tiver 12.000 em despesas de seguro durante o ano, você verá 1.000 para cada mês. Depois de lançar o diário, você pode exibir as transações usando a página de consulta **Transações de comprovante**. Se não for possível aplicar um esquema de competência (por exemplo, quando uma fatura de ordem de venda ou uma fatura de ordem de compra for envolvida), você pode creditar o valor pago antecipadamente e debitar o valor de despesas. Você pode selecionar **Contrapartida** ao aplicar o esquema de competência.
 
 
 Para obter mais informações, consulte [Criar esquemas de competência](tasks/create-accrual-schemes.md) e [Criar transações de competências do razão](tasks/create-ledger-accrual-transactions.md).

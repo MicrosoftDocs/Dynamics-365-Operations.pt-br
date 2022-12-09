@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 62f828b93075c134778da280243c0875edf99300
-ms.sourcegitcommit: 0d5c07ba91a9ceb2eeb11db032fd28037216789d
+ms.openlocfilehash: 1d123a341a471dd37fcc33e0025ce5e98235a27f
+ms.sourcegitcommit: 81bb8e51951395be3f18f45212e47e6c41656f6a
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/25/2022
-ms.locfileid: "9715820"
+ms.lasthandoff: 11/23/2022
+ms.locfileid: "9804254"
 ---
 # <a name="prepayment-invoices-vs-prepayments"></a>Faturas de pagamento antecipado versus pagamentos antecipados
 
@@ -65,12 +65,13 @@ Uma conta de pagamento antecipado deve ser definida na guia **Ordem de compra** 
 
 A conta de Resumo de impostos de contas a pagar é definida no perfil **lançamentos de fornecedores**. Para definir o perfil de lançamento padrão, clique em **Contas a pagar \>Configuração \> Parâmetros das contas a pagar \>Guia de razão e impostos \> Perfil de lançamento com fatura de fornecedor**.
 
-A **Política de aplicação do pagamento antecipado** indica se o sistema automaticamente aplicará as faturas de pagamento antecipado pagas à fatura criada manualmente. As faturas criadas usando uma entidade de dados não seguem a **Política de aplicação do pagamento antecipado**. Você precisará aplicar manualmente as faturas de pagamento antecipado a faturas criadas usando uma entidade de dados. Para definir a política, acesse **Contas a pagar \>Configuração \> Parâmetros de contas a pagar \> Guia de razão e impostos \> Política de aplicação do pagamento antecipado**. Se o campo **Política de aplicação de pagamento antecipado** estiver configurado como **Automático**, a fatura de pagamento antecipado será automaticamente definida para ser paga com a fatura final. Se o campo estiver configurado como **Notificação**, quando a fatura final for criada, será exibida uma indicação visual que o pagamento antecipado da fatura está disponível para aplicação.
+A **Política de aplicação do pagamento antecipado** indica se as faturas de pagamento antecipado liquidado serão aplicadas automaticamente à fatura final criada de forma manual. As faturas criadas usando uma entidade de dados não seguem a **Política de aplicação do pagamento antecipado**. Você precisará aplicar manualmente as faturas de pagamento antecipado a faturas criadas usando uma entidade de dados. Para definir a política, acesse **Contas a pagar \>Configuração \> Parâmetros de contas a pagar \> Guia de razão e impostos \> Política de aplicação do pagamento antecipado**. Se o campo **Política de aplicação de pagamento antecipado** estiver configurado como **Automático**, a fatura de pagamento antecipado será automaticamente definida para ser paga com a fatura final. Se o campo estiver configurado como **Notificação**, quando a fatura final for criada, será exibida uma indicação visual que o pagamento antecipado da fatura está disponível para aplicação.
 
 ## <a name="create-a-purchase-order-that-contains-prepayment-invoice-information"></a>Crie uma ordem de compra que contém informações da fatura de pagamento antecipado
-Quando um fornecedor informa que é necessário um pagamento antecipado de bens e serviços contidos em uma ordem de compra, você deve definir o valor do pagamento antecipado da ordem de compra associada. Acesse **Contas a pagar \> Comum \> Ordens de compra \> Todas as ordens de compra** e encontre a ordem de compra do fornecedor. No Painel de ação, selecione a guia **Compra** e **Pagamento antecipado**. Insira informações do pagamento antecipado, incluindo uma descrição, o valor do pagamento antecipado, se o pagamento antecipado é um valor fixo ou uma porcentagem, e um ID da categoria de pagamento antecipado. 
+Quando um fornecedor informa que é necessário um pagamento antecipado de bens e serviços contidos em uma ordem de compra, você deve definir o valor do pagamento antecipado da ordem de compra associada. Acesse **Contas a pagar \> Comum \> Ordens de compra \> Todas as ordens de compra** e encontre a ordem de compra do fornecedor. No Painel de Ações, selecione a guia **Compra** e, depois, **Pagamento antecipado**. Insira informações do pagamento antecipado, incluindo uma descrição, o valor do pagamento antecipado, se o pagamento antecipado é um valor fixo ou uma porcentagem, e um ID da categoria de pagamento antecipado. 
 
-Observe que não são permitidas várias definições de pagamentos antecipados em uma ordem de compra. Se você precisar permitir vários pagamentos antecipados em uma ordem de compra, lance os pagamentos usando o diário de pagamento em vez de uma fatura de pagamento antecipado.
+> [!Note] 
+> Não são permitido ter várias definições de pagamentos antecipados em uma ordem de compra. Se você precisar permitir vários pagamentos antecipados em uma ordem de compra, lance os pagamentos usando o diário de pagamento em vez de uma fatura de pagamento antecipado.
 
 O pagamento antecipado pode ser removido da ordem de compra, exceto se você já tiver feito um pagamento da fatura de pagamento lançada ou lançar a fatura padrão. Para remover uma informação de pagamento antecipado da ordem de compra, selecione **Contas a pagar \> Comum \> Ordens de compra \> Todas as ordens de compra** e localize a ordem de compra do fornecedor. No Painel de ação, selecione a guia **Compra** e **Remover pagamento antecipado**.
 

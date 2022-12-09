@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: kweekley
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: f5fbcee713625c597080d1d63ba0ffc70f088799
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: 0691c65e6a499f713952070811cefaa7a213af7b
+ms.sourcegitcommit: c364f50ea0ad50bac5c30724b6ce301d9574b653
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8901274"
+ms.lasthandoff: 11/18/2022
+ms.locfileid: "9787544"
 ---
 # <a name="ledger-allocation-rules"></a>Regras de alocação do razão
 
@@ -28,7 +28,7 @@ ms.locfileid: "8901274"
 
 Este artigo oferece informações gerais sobre as regras de alocação do razão. Ele descreve os diversos componentes dessas regras de alocação e os métodos de alocação que podem ser usados para eles.
 
-As regras de alocação do razão são usadas para calcular e gerar automaticamente os diários de alocação e entradas de conta da alocação dos saldos ou valores fixos do razão. Os métodos de alocação podem ser fixos ou variáveis. Os seguintes métodos de alocação podem ser usados para regras de alocação do razão:
+As regras de alocação do razão são usadas para calcular e gerar automaticamente os diários de alocação e entradas de conta da alocação dos saldos ou valores fixos do razão. Os métodos de alocação podem ser fixos ou variáveis. A alocação se baseia no valor da moeda da transação. Por exemplo, as entradas contábeis de lucros/perdas em moeda estrangeira são lançadas para ajustar os valores de contabilidade e moeda de relatório. Essas entradas não estão sujeitas às regras de alocação porque o valor da moeda da transação é 0,00. Os seguintes métodos de alocação podem ser usados para regras de alocação do razão:
 
 -   **Base** – Este método de variável é usado quando a alocação depende do saldo real do razão, com base em critérios de filtragem. Por exemplo, as despesas publicitárias podem ser alocadas com base nas vendas de cada departamento em relação ao total das vendas departamentais.
 -   **Percentual fixo** e **Peso fixo** – Para esses métodos, a porcentagem ou peso de alocação é definido diretamente para a regra. Por exemplo, as despesas publicitárias podem ser alocadas, de forma que o Departamento A receba 70 por cento de despesas publicitárias e o Departamento B receba 30 por cento.

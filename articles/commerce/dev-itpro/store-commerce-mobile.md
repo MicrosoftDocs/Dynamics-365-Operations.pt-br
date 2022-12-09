@@ -2,32 +2,33 @@
 title: Aplicativo do Store Commerce para plataformas móveis
 description: Este artigo descreve como começar a usar o aplicativo Microsoft Dynamics 365 Commerce Store Commerce para Android e iOS.
 author: stuharg
-ms.date: 10/07/2022
+ms.date: 11/30/2022
 ms.topic: article
 audience: Application User, Developer, IT Pro
 ms.reviewer: v-chgriffin
 ms.search.region: global
 ms.author: stuharg
 ms.search.validFrom: 2018-10-29
-ms.openlocfilehash: 1f07a130629863ebd9d036378436cf360e90ac26
-ms.sourcegitcommit: 98231ff810f41f9fcdc6b536d87e453028aa6db8
+ms.openlocfilehash: dc952698a2a3301aff312e8310c58cbbb9cfe290
+ms.sourcegitcommit: 2804b05214c87f76457608b5db072582ff339852
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/07/2022
-ms.locfileid: "9642332"
+ms.lasthandoff: 12/01/2022
+ms.locfileid: "9815774"
 ---
 # <a name="store-commerce-app-for-mobile-platforms"></a>Aplicativo do Store Commerce para plataformas móveis
 
 [!include [banner](../includes/banner.md)]
+[!include [banner](../includes/preview-banner.md)]
 
 Este artigo descreve como começar a usar os aplicativos Microsoft Dynamics 365 Commerce Store Commerce para Android e iOS.
 
-Os aplicativos móveis do Dynamics 365 Commerce para Android e iOS tornam o processo de implantação de dispositivos móveis de ponto de venda (PDV) completos para seu ambiente de varejo simples e objetivo. Os aplicativos móveis do Store Commerce oferecem todos os recursos e vantagens do aplicativo [Store Commerce para Windows](store-commerce.md) para celulares e tablets. Os aplicativos móveis do Store Commerce podem ser instalados diretamente das lojas de aplicativos Apple e Google Play e não exigem que um desenvolvedor crie um pacote de aplicativos para implantá-los ou atualizá-los. 
+Os aplicativos móveis do Dynamics 365 Commerce para Android e iOS tornam o processo de implantação de dispositivos móveis de ponto de venda (PDV) completos para seu ambiente de varejo simples e objetivo. Os aplicativos móveis do Store Commerce oferecem quase todos os recursos e vantagens do [aplicativo Store Commerce para Windows](store-commerce.md) e têm um bom desempenho em uma ampla variedade de celulares e tablets iOS e Android. Os aplicativos móveis do Store Commerce podem ser instalados diretamente das lojas de aplicativos Apple e Google Play e não exigem que um desenvolvedor crie um pacote de aplicativos para implantá-los ou atualizá-los. 
 
 Os aplicativos móveis do Store Commerce mantêm a paridade funcional total com os aplicativos híbridos de varejo atuais. Além disso, o Store Commerce para iOS inclui suporte para uma estação de hardware dedicada, para que os dispositivos iOS possam se comunicar com terminais de pagamento em rede, impressoras de recibos e caixas registradoras sem a necessidade de implantar uma estação de hardware compartilhada. 
 
 > [!IMPORTANT]
-> Os aplicativos Store Commerce para Windows, Android e iOS são a próxima geração de aplicativos de PDV para o Dynamics 365 Commerce. O atual aplicativo Modern POS (MPOS) e os [aplicativos híbridos de varejo](hybridapp.md) para dispositivos móveis serão preteridos em outubro de 2023. A Microsoft recomenda usar o Store Commerce ou o Cloud POS (CPOS) para todas as novas implantações de PDV. Os clientes existentes devem planejar a migração do aplicativo híbrido de varejo para o Store Commerce. Para obter mais informações sobre a agenda de substituição do MPOS e os aplicativos híbridos de varejo, consulte [Como modernizar a pilha de tecnologia em armazenamento do Dynamics 365 Commerce](https://www.microsoft.com/download/details.aspx?id=103896). 
+> Os aplicativos do Store Commerce para Windows, Android e iOS são a próxima geração de aplicativos de PDV para o Dynamics 365 Commerce. Os aplicativos do Store Commerce oferecem vários aprimoramentos em relação aos predecessoras, mantendo a paridade total funcional e de recursos. A Microsoft substituirá o MPOS e os aplicativos híbridos do Retail POS para Android e iOS no final de 2023. Ela recomenda que você use o Store Commerce ou o PDV em Nuvem (CPOS) para todas as novas implantações de PDV. Os clientes existentes devem planejar a migração de aplicativos híbridos de varejo para o Store Commerce. Para obter mais informações, consulte [Migrar o Modern POS para o Store Commerce](pos-extension/migrate-mpos-store-commerce.md). 
 
 ## <a name="app-architecture"></a>Arquitetura do aplicativo
 
@@ -51,7 +52,7 @@ Os aplicativos móveis do Store Commerce exigem o Dynamics 365 Commerce, especif
 Você pode instalar os aplicativos móveis do Store Commerce diretamente da Google Play Store ou da Apple App Store. 
 
 - [Aplicativo do Store Commerce para Android](https://aka.ms/storecommerceandroid)
-- Aplicativo do Store Commerce para iOS (disponível em breve)
+- [Aplicativo do Store Commerce para iOS](https://aka.ms/storecommerceios)
 
 Os pacotes do aplicativo Android (.apk) e do aplicativo Apple (.ipa) também podem ser baixados da biblioteca de ativos compartilhados no Microsoft Dynamics Lifecycle Services. 
 

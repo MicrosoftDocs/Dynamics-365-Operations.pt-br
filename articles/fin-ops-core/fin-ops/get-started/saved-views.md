@@ -2,7 +2,7 @@
 title: Exibições salvas
 description: Este artigo descreve como usar os recursos de exibições salvas.
 author: jasongre
-ms.date: 07/26/2022
+ms.date: 11/21/2022
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: jasongre
 ms.search.validFrom: 2019-07-31
 ms.dyn365.ops.version: Platform update 28
-ms.openlocfilehash: 03b0989d40882c3910b35744715c36babdcc3470
-ms.sourcegitcommit: e02bd317e96faf6182e70fb50b126868a94d9d06
+ms.openlocfilehash: 571a4f403da0d20256f788c791cab273827c91b5
+ms.sourcegitcommit: fb9b6969218f2b82f0a4c72bfad75387fe00395c
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/10/2022
-ms.locfileid: "9757212"
+ms.lasthandoff: 11/22/2022
+ms.locfileid: "9799482"
 ---
 # <a name="saved-views"></a>Exibições salvas
 
@@ -55,7 +55,7 @@ Existem duas variações de tamanho para o seletor de exibição:
  
 Se você selecionar o nome da exibição, o seletor de exibição será aberto e mostrará a lista de exibições disponíveis para a página.
 
-**Versão 10.0.21 ou posterior:** se o recurso **Suporte à entidade legal aperfeiçoado para exibições salvas** estiver ativado, o seletor de exibições mostrará as exibições disponíveis em duas seções. A primeira seção mostra todas as exibições específicas da entidade legal atual, e a segunda mostra as exibições disponíveis para todas as entidades legais. A primeira seção será visível apenas se houver exibições específicas da entidade legal para a página.
+Se o recurso **Suporte à entidade legal aperfeiçoado para exibições salvas** estiver ativado, o seletor de exibições mostrará as exibições disponíveis em duas seções. A primeira seção mostra todas as exibições específicas da entidade legal atual, e a segunda mostra as exibições disponíveis para todas as entidades legais. A primeira seção será visível apenas se houver exibições específicas da entidade legal para a página.
 
 - **Exibição padrão** – a exibição **padrão** é a exibição pronta para uso da página, em que nenhuma personalização é aplicada.
 - **Exibições pessoais** – as exibições sem cadeados representam as exibições pessoais. São exibições que você criou ou que um administrador forneceu a você.
@@ -81,7 +81,7 @@ Se você quiser salvar essas alterações, siga as etapas a seguir.
     1. Selecione **Salvar como**. 
     2. No painel **Salvar exibição como**, insira um nome e, opcionalmente, uma descrição para a exibição.
     3. Se desejar que essa seja sua exibição padrão, selecione **Fixar como padrão**. Para obter mais informações sobre as exibições padrão, consulte a seção [Alterar a exibição padrão](#changing-the-default-view) a seguir. 
-    4. **Versão 10.0.21 ou posterior:** se o recurso **Suporte à entidade legal aperfeiçoado para exibições salvas** estiver ativado, você poderá selecionar se deseja que essa exibição esteja disponível para todas as entidades legais ou apenas um subconjunto delas.
+    4. Se o recurso **Suporte à entidade legal aperfeiçoado para exibições salvas** estiver ativado, você poderá selecionar se deseja que essa exibição esteja disponível para todas as entidades legais ou apenas um subconjunto delas.
     5. Selecione **Salvar**.
 
 ## <a name="changing-the-default-view"></a>Alteração da exibição padrão
@@ -90,7 +90,7 @@ A exibição padrão é aquela que o sistema tenta abrir quando você abre a pá
 
 > [!NOTE]
 > - No recurso de base **Exibições salvas**, há uma exibição padrão global única em todas as entidades legais. Se você alterar a exibição padrão, essa exibição será aberta por padrão, seja qual for a entidade legal utilizada no momento.
-> - **Versão 10.0.21 ou posterior:** quando o recurso **Suporte à entidade legal aperfeiçoado para exibições salvas** está ativado, cada entidade legal pode ter sua própria exibição padrão por página.
+> - Quando o recurso **Suporte à entidade legal aperfeiçoado para exibições salvas** está ativado, cada entidade legal pode ter sua própria exibição padrão por página.
 
 Para alterar a exibição padrão de uma página, siga estas etapas:
 
@@ -101,7 +101,7 @@ Para alterar a exibição padrão de uma página, siga estas etapas:
 Como alternativa, ao criar uma exibição (ao usar a ação **Salvar como**), você pode tornar essa nova exibição a exibição padrão, definindo a opção **Fixar como padrão** antes de salvar a exibição.
 
 > [!WARNING]
-> Em alguns casos, a consulta que é associada à exibição padrão não é executada quando você abre uma página pela primeira vez. Por exemplo, se você abrir a página por meio de um bloco, a consulta do bloco será executada, independentemente da consulta que estiver associada à exibição padrão. Além disso, se você abrir uma página com uma exibição **padrão** que já tenha uma consulta definida, a consulta original será executada em vez da consulta da exibição padrão. Nesse caso, você receberá uma mensagem informativa quando a exibição for carregada. Se você alternar exibições depois que a página for carregada, a consulta de exibição deverá poder ser executada conforme esperado. Na versão 10.0.10 e posterior, a mensagem informativa recebida terá uma ação incorporada que permite carregar diretamente a consulta da exibição padrão.
+> Em alguns casos, a consulta que é associada à exibição padrão não é executada quando você abre uma página pela primeira vez. Por exemplo, se você abrir a página por meio de um bloco, a consulta do bloco será executada, independentemente da consulta que estiver associada à exibição padrão. Além disso, se você abrir uma página com uma exibição **padrão** que já tenha uma consulta definida, a consulta original será executada em vez da consulta da exibição padrão. Neste caso, você receberá uma mensagem informativa quando a exibição for carregada com uma ação incorporada que permita carregar diretamente a consulta da exibição padrão. Se você alternar exibições depois que a página for carregada, a consulta de exibição deverá poder ser executada conforme esperado. 
 
 ## <a name="managing-personal-views"></a>Gerenciamento de exibições pessoais
 

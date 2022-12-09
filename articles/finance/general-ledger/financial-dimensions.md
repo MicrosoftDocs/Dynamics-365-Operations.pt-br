@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: aolson
 ms.search.validFrom: 2018-10-31
 ms.dyn365.ops.version: 8.0999999999999996
-ms.openlocfilehash: 9b07831ab789b570963ff5f425f149ba5a564a38
-ms.sourcegitcommit: e700528679a821237e644b3e21058c36ae1323c3
+ms.openlocfilehash: adfa2c1164550e32b07da25de0d96aa82430b980
+ms.sourcegitcommit: fb9b6969218f2b82f0a4c72bfad75387fe00395c
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/13/2022
-ms.locfileid: "9680348"
+ms.lasthandoff: 11/22/2022
+ms.locfileid: "9799617"
 ---
 # <a name="financial-dimensions"></a>Dimensões financeiras
 
@@ -120,7 +120,7 @@ As dimensões derivadas com essa configuração não substituirão automaticamen
 
 ### <a name="preventing-changes-with-derived-dimensions"></a>Impedindo alterações com dimensões derivadas
  
-Quando você usa **Adicionar segmento”** na **Página Dimensões derivadas** para adicionar um segmento como uma dimensão derivada, uma opção é fornecida na parte inferior da página **Adicionar segmento** que permite evitar alterações nessa dimensão quando ela é derivada em uma página. A configuração padrão está desativada; então, ela não evita que os valores de dimensão derivada sejam alterados. Altere a configuração para **Sim** se você quiser impedir que a dimensão seja alterada após ser derivada. Por exemplo, se o valor da dimensão Departamento for derivado do valor de dimensão Centro de custo, o valor do Departamento não poderá ser alterado caso a configuração de **Impedir alterações** seja **Sim**. 
+Quando você usa **Adicionar segmento”** na **Página Dimensões derivadas** para adicionar um segmento como uma dimensão derivada, uma opção é fornecida na parte inferior da página **Adicionar segmento** que permite evitar alterações nessa dimensão quando ela é derivada em uma página. A configuração padrão está desativada; então, ela não evita a alteração dos valores de dimensão derivada. Altere a configuração para **Sim** se você quiser impedir que a dimensão seja alterada após ser derivada. Por exemplo, se o valor da dimensão Departamento for derivado do valor de dimensão Centro de custo, o valor do Departamento não poderá ser alterado caso a configuração de **Impedir alterações** seja **Sim**. 
  
 A configuração não impedirá alterações se o valor de dimensão for válido, mas ele não será listado na lista de dimensões derivadas. Por exemplo, se o departamento 20 derivar do Centro de custo 10 e você inserir Centro de custo 10, você não poderá editar o departamento 20. Entretanto, se você inserir o Centro de custos 20 e ele não estiver na lista de dimensões derivadas do centro de custos, você poderá editar o valor do departamento. 
  
@@ -136,6 +136,12 @@ Você pode configurar os segmentos e valores das dimensões derivadas usando as 
 - A entidade Valor de dimensões derivadas permite importar os valores que devem ser derivados para cada dimensão de controle.
 
 Quando você usa uma entidade para importar dados, se a entidade importar dimensões, regras de dimensão derivada serão aplicadas durante importação, a menos que a entidade substitua especificamente essas dimensões.
+
+## <a name="financial-dimension-service"></a>Serviço de dimensão financeira
+
+O suplemento Serviço de dimensão financeira está disponível no ambiente Lifecycle Services do Microsoft Dynamics. Ele oferece melhor desempenho quando você usa a estrutura de gerenciamento de dados para importar um diário que tem um grande número de linhas. Para usar o serviço, você deve habilitá-lo na página **Parâmetros do serviço de dimensão financeira**. No momento, o serviço funciona somente em diários importados com 500 linhas ou mais. Além disso, ele só pode processar diários gerais em que o tipo de conta **Razão** é definido nas linhas do diário. Não há suporte atualmente a outros tipos de conta em linhas do diário, como **Cliente**, **Fornecedor** e **Banco**. Esse serviço não será invocado quando dimensões derivadas forem configuradas no sistema.
+
+O serviço de dimensão financeira oferece melhor desempenho quando os diários são importados usando um novo serviço executado em paralelo para a importação de dados. Ele é executado somente nos dados da conta principal e da dimensão financeira no diário e gera as combinações de dimensões especificadas no campo sequência de contas contábeis nas linhas do diário. O processamento converte essa sequência no armazenamento de dados estruturado que a estrutura da dimensão financeira usa no restante do produto para validação, relatórios resumidos e consultas. Para obter mais informações sobre o relatório de resumo de dados de dimensão financeira, consulte [Conjuntos de dimensões financeiras](financial-dimension-sets.md).
 
 Para obter mais informações, consulte os seguintes tópicos:
 

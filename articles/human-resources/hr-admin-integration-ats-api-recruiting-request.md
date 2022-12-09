@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: jaredha
 ms.search.validFrom: 2021-02-05
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 58e509a819e5cda650fddab8dd0c4d55d5148db1
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: d89d3e77d096f5908207ac53f4e9022f686ac5f3
+ms.sourcegitcommit: 5f8f042f3f7c3aee1a7303652ea66e40d34216e3
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8872258"
+ms.lasthandoff: 11/29/2022
+ms.locfileid: "9806366"
 ---
 # <a name="recruiting-request"></a>Solicitação de recrutamento
 
@@ -68,7 +68,7 @@ Descreve uma solicitação de recrutamento para um trabalho.
     "_mshr_fk_jobtype_id_value": "Guid",
     "_mshr_fk_compensationlevel_id_value": "Guid",
     "mshr_hcmrecruitingrequestentityid": "Guid",
-    "_mshr_fk_recruitingrequestlocation_id_value": “Guid”
+    "_mshr_fk_recruitingrequestlocation_id_value": "Guid"
 }
 ```
 
@@ -87,7 +87,7 @@ Descreve uma solicitação de recrutamento para um trabalho.
 | **Status**<br>mshr_status<br>Conjunto de opções *RecruitingRequestStatus* | Ler/gravar<br>Obrigatório<br> | Indica o status da solicitação de recrutamento. |
 | **Descrição**<br>mshr_description<br>*Cadeia de caracteres* | Ler/gravar<br>Obrigatório | Descreve a solicitação. |
 | **ID da localização da solicitação de recrutamento**<br>mshr_recruitingrequestlocationid<br>*Cadeia de caracteres* | Ler/gravar<br>Opcional | O identificador exclusivo legível pelo usuário do local de trabalho associado a esta solicitação. |
-| **Valor da ID de local de recrutamento**<br>_mshr_fk_recruitinglocation_id_value<br>*GUID* | Somente leitura<br>Opcional<br>Chave estrangeira: entidade mshr_hcmrecruitingrequestlocationentityid de mshr_hcmrecruitingrequestlocationentity | Valor GUID gerado pelo sistema para identificar o local de solicitação de recrutamento selecionado para a solicitação. |
+| **Valor da ID de local de recrutamento**<br>_mshr_fk_recruitingrequestlocation_id_value<br>*GUID* | Somente leitura<br>Opcional<br>Chave estrangeira: entidade mshr_hcmrecruitingrequestlocationentityid de mshr_hcmrecruitingrequestlocationentity | Valor GUID gerado pelo sistema para identificar o local de solicitação de recrutamento selecionado para a solicitação. |
 | **Comentários**<br>mshr_comments<br>*Cadeia de caracteres* | Ler/gravar<br>Opcional | Comentários sobre a solicitação de uso por gerentes de contratação e recrutadores. |
 | **ID do trabalho**<br>mshr_jobid<br>*Cadeia de caracteres* | Gravação única<br>Obrigatório |   O identificador exclusivo legível pelo usuário do trabalho compartilhado por todas as posições associadas a esta solicitação. |
 | **Valor de ID do trabalho**<br>_mshr_fk_job_id_value<br>*GUID* | Somente leitura<br>Obrigatório<br>Chave estrangeira: entidade mshr_hcmjobentityid de mshr_hcmjobentity | O identificador exclusivo gerado pelo sistema do trabalho compartilhado por todas as posições associadas à solicitação de recrutamento. |

@@ -2,21 +2,21 @@
 title: Relatórios de valor de estoque
 description: Este artigo explica como configurar, gerar e usar relatórios de valor de estoque. Esses relatórios fornecem detalhes sobre as quantidades e os valores físicos e financeiros de estoque.
 author: JennySong-SH
-ms.date: 08/05/2022
+ms.date: 11/28/2022
 ms.topic: article
-ms.search.form: InventValueProcess, InventValueReportSetup
+ms.search.form: InventValueProcess, InventValueReportSetup, InventValueExecutionHistory, DataManagementWorkspace
 audience: Application User
 ms.reviewer: kamaybac
 ms.search.region: Global
 ms.author: yanansong
 ms.search.validFrom: 2021-10-19
 ms.dyn365.ops.version: 10.0.9
-ms.openlocfilehash: f97b5bd228c6f769438d50bb27950b8d8fbda3e8
-ms.sourcegitcommit: 203c8bc263f4ab238cc7534d4dd902fd996d2b0f
+ms.openlocfilehash: 6b21f6a7856526863914aac73d50e5c3a70605e8
+ms.sourcegitcommit: 5f8f042f3f7c3aee1a7303652ea66e40d34216e3
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/23/2022
-ms.locfileid: "9334915"
+ms.lasthandoff: 11/29/2022
+ms.locfileid: "9806397"
 ---
 # <a name="inventory-value-reports"></a>Relatórios de valor de estoque
 
@@ -129,7 +129,7 @@ Use a página **Relatórios de valor de estoque** para configurar o conteúdo in
     - **Terceirização direta** – defina essa opção como *Sim* para mostrar os custos de terceirização direta do WIP. Essas informações são úteis para subcontratação.
     - **Nível de Detalhe** – selecione uma opção de exibição para o relatório:
 
-        - *Transações* – exiba todas as transações relevantes no relatório. Observe que você pode enfrentar problemas de desempenho ao exibir relatórios que incluem um grande volume de transações. Portanto, se desejar usar esta opção de exibição, recomendamos que você use o relatório **Armazenamento de relatórios de valor de estoque**.
+        - *Transações* – exiba todas as transações relevantes no relatório. Você poderá enfrentar problemas de desempenho ao exibir relatórios que incluam um grande volume de transações. Portanto, se desejar usar esta opção de exibição, recomendamos que você use o relatório **Armazenamento de relatórios de valor de estoque**.
         - *Totais* – exiba o resultado total.
 
     - **Incluir saldo inicial** – defina essa opção como *Sim* para mostrar o saldo inicial. Essa opção só estará disponível quando o campo **Nível de detalhe** estiver definido como *Transações*.
@@ -172,7 +172,7 @@ Depois de gerar um relatório, você pode visualizá-lo e explorá-lo a qualquer
     - Use o campo **Filtrar** para filtrar o relatório por qualquer valor em qualquer uma das várias colunas disponíveis.
     - Use o menu de exibição (acima do campo **Filtrar**) para salvar e carregar suas combinações favoritas de opções de classificação e filtro.
 
-## <a name="export-an-inventory-value-report-storage-report"></a>Exportar um relatório de armazenamento de relatórios de valor de estoque
+## <a name="export-an-inventory-value-report-storage-report"></a><a name="export-stored-report"></a>Exportar um relatório de armazenamento de relatórios de valor de estoque
 
 Todos relatórios que você gera é armazenado na entidade de dados **Valor do estoque**. Você pode usar os recursos de gerenciamento de dados padrão do Supply Chain Management para exportar dados dessa entidade para qualquer formato de dados compatível, como CSV ou Excel.
 
@@ -180,7 +180,7 @@ O exemplo a seguir mostra como exportar um relatório **Armazenamento de relató
 
 1. Acesse **Administração de sistema \> Locais de trabalho \> Gerenciamento de dados**.
 1. Na seção **Importar/Exportar**, selecione o bloco **Exportar**.
-1. Na página **Exportar** que aparece, você configurará o trabalho de exportação. Primeiro, insira um nome de grupo para o trabalho.
+1. Na página **Exportar** que aparecer, configure o trabalho de exportação. Primeiro, insira um nome de grupo para o trabalho.
 1. Na seção **Entidades selecionadas**, selecione **Adicionar entidade**.
 1. Na caixa de diálogo que aparece, defina os campos a seguir:
 
@@ -203,6 +203,34 @@ O exemplo a seguir mostra como exportar um relatório **Armazenamento de relató
 1. Na página **Resumo de execução** na que aparece, você pode ver o status do seu trabalho de exportação e uma lista de entidades que foram exportadas. Na seção **Status de processamento da entidade**, selecione a entidade **Valor de estoque** na lista, e selecione **Baixar arquivo** para baixar os dados que foram exportados a partir dessa entidade.
 
 Para obter mais informações sobre como usar o gerenciamento de dados para exportar dados, consulte [Visão geral de trabalhos de importação e exportação de dados](../../fin-ops-core/dev-itpro/data-entities/data-import-export-job.md).
+
+## <a name="delete-stored-inventory-value-reports"></a>Excluir relatórios de valores de estoque armazenados
+
+À medida que o número de relatórios de valor de estoque cresce, eles podem acabar ocupando muito espaço no banco de dados. Essa situação pode afetar o desempenho do sistema e aumentar os custos com armazenamento de dados. Portanto, você provavelmente precisará limpar os relatórios periodicamente, excluindo relatórios mais antigos.
+
+> [!IMPORTANT]
+> Antes de excluir um dos relatórios de valor de estoque gerados anteriormente, é altamente recomendável primeiro [exportar os relatórios](#export-stored-report) e armazená-los externamente, porque talvez não consiga gerá-los novamente mais tarde. Essa limitação existe porque, quando você gera um relatório de valor de estoque, o sistema funciona retroativamente a partir de hoje e processa cada registro de transação de estoque na ordem inversa, durante o processo. Se você tentar retroceder ao gerar um relatório, o volume das transações a serem processadas poderá crescer tanto que o tempo de duração do sistema terminará antes de concluir a geração do relatório. A distância a ser retrocedida para gerar novos relatórios depende do número de transações de estoque existentes no sistema para o período de tempo relevante.
+
+### <a name="delete-one-report-at-a-time"></a>Excluir um relatório de cada vez
+
+Siga estas etapas para excluir um relatório armazenado por vez.
+
+1. [Exporte o relatório](#export-stored-report) que que você pretende excluir e armazene-o em um local externo para referência futura.
+1. Acesse **Gerenciamento de custos \> Consultas e relatórios \> Armazenamento do relatório de valor de estoque**.
+1. No painel de lista, selecione o relatório a ser excluído.
+1. No Painel de Ações, selecione **Excluir**.
+1. Uma mensagem de aviso lembra você de fazer backup dos relatórios gerados. Selecione **Sim** se estiver pronto para prosseguir com a exclusão.
+
+### <a name="delete-several-reports-at-the-same-time"></a>Exclua vários relatórios ao mesmo tempo
+
+Siga estas etapas para excluir vários relatórios armazenados ao mesmo tempo.
+
+1. [Exporte todos os relatórios](#export-stored-report) que você pretende excluir e armazene-os em um local externo para referência futura.
+1. Vá para **Gerenciamento de custos \> Contabilidade de estoque \> Limpeza \> Limpeza de dados do relatório de valor de estoque**.
+1. Na caixa de diálogo **Limpeza de dados do relatório de valor de estoque**, no campo **Excluir relatório de valor de estoque executado antes**, selecione a data antes da qual todos os relatórios de valor de estoque devem ser excluídos.
+1. Na FastTab **Registros a serem incluídos**, você pode definir condições de filtro adicionais para limitar o conjunto de relatórios a serem excluídos. Selecione **Filtrar** para abrir uma um editor de consultas padrão, onde você pode definir as propriedades dos relatórios a serem excluídos.
+1. Na FastTab **Executar em segundo plano**, você pode especificar como, quando e com que frequência os relatórios devem ser excluídos. Os campos funcionam da mesma forma que em outros tipos de [trabalhos em segundo plano](../../fin-ops-core/dev-itpro/sysadmin/batch-processing-overview.md) no Supply Chain Management. Em geral, você executará esse trabalho manualmente toda vez que for necessário.
+1. Selecione **OK** para excluir os relatórios especificados.
 
 ## <a name="generate-a-standard-inventory-value-report"></a>Gerar um relatório Valor de estoque padrão
 
@@ -245,6 +273,6 @@ Normalmente, você usará um relatório de valor de estoque para exibir o valor 
 - Revise os grupos de armazenamento de item e de dimensão de rastreamento. Somente as dimensões nas quais a opção **Estoque financeiro** está habilitada poderão ser mostradas no relatório.
 - Acesse **Gerenciamento de custos \> Configuração de políticas de contabilidade de estoque \> Relatórios de valor de estoque**, selecione a configuração de relatório usada para gerar o relatório e verifique se as dimensões de estoque necessárias estão selecionadas na coluna **Exibir**.
 
-Por exemplo, você tem um item com o número do item *A0001*. No grupo de dimensões de armazenamento, somente o local será habilitado para estoque financeiro. O local e o depósito estão habilitados para o estoque físico. No grupo de dimensões de rastreamento, o número do lote está habilitado para o estoque físico, mas não para o estoque financeiro. Em seguida, você usa uma configuração de relatório na qual o local, o depósito e o número do lote estão todos selecionados. Ao exibir o relatório, você verá um valor somente para o site. As colunas para o depósito e o número do lote estão em branco. Como mostra este exemplo, os relatórios de valor de estoque só podem mostrar a dimensão de estoque habilitada para o estoque financeiro.
+Por exemplo, você tem um item com o número do item *A0001*. No grupo de dimensões de armazenamento, somente o local será habilitado para estoque financeiro. O local e o depósito estão habilitados para o estoque físico. No grupo de dimensões de rastreamento, o número do lote está habilitado para o estoque físico, mas não para o estoque financeiro. Em seguida, você usa uma configuração de relatório na qual o local, o depósito e o número do lote estão todos selecionados. Ao exibir o relatório, você verá um valor somente para o site. As colunas para o depósito e o número do lote estão em branco. Como mostra este exemplo, os relatórios de valor de estoque só podem mostrar as dimensões de estoque habilitadas para o estoque financeiro.
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: angelading
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 4843d9555b86c4ebe1edfe2da763f305357a7423
-ms.sourcegitcommit: 0d5c07ba91a9ceb2eeb11db032fd28037216789d
+ms.openlocfilehash: 16548572cd70129efcc7dacf0236f3eb4b252d88
+ms.sourcegitcommit: 81bb8e51951395be3f18f45212e47e6c41656f6a
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/25/2022
-ms.locfileid: "9715631"
+ms.lasthandoff: 11/23/2022
+ms.locfileid: "9804038"
 ---
 # <a name="set-up-centralized-payments"></a>Configurar pagamentos centralizados
 
@@ -34,7 +34,10 @@ Siga essas etapas para se preparar para processar pagamentos em uma entidade leg
 -   Configurar contabilidade intercompanhia.
 
 ## <a name="set-up-an-organizational-hierarchy-for-centralized-payments"></a>Configurar uma hierarquia organizacional para pagamentos centralizados.
-Configure uma hierarquia organizacional para pagamentos centralizados. A mesma hierarquia organizacional é usada para processar pagamentos centralizados de fornecedor e de cliente. **Nota:** Para pagamentos centralizados, a estrutura da hierarquia não importa. A entidade legal na hierarquia poderá processar os pagamentos em nome de outra entidade legal na hierarquia. NA página **Hierarquias da organização**, você pode criar uma nova hierarquia da organização. No campo **Finalidade**, você deve selecionar **Pagamentos centralizados**. 
+Configure uma hierarquia organizacional para pagamentos centralizados. A mesma hierarquia organizacional é usada para processar pagamentos centralizados de fornecedor e de cliente. 
+
+>[!Note] 
+>Para pagamentos centralizados, a estrutura da hierarquia não importa. A entidade legal na hierarquia poderá processar os pagamentos em nome de outra entidade legal na hierarquia. NA página **Hierarquias da organização**, você pode criar uma nova hierarquia da organização. No campo **Finalidade**, você deve selecionar **Pagamentos centralizados**. 
 
 ## <a name="set-up-an-intercompany-account-for-centralized-payments"></a>Configurar uma conta intercompanhia para os pagamentos centralizados
 Quando as transações de pagamento na entidade legal atual forem liquidadas com faturas em outras entidades legais, serão criadas transações a vencer e vencidas apropriadas para cada entidade legal. Você deve especificar a entidade legal em que os descontos à vista aplicáveis e os lucros realizados ou valores de perda são lançados. Antes de começar, decida qual entidade legal que será usada para processar pagamentos do fornecedor e do cliente. Se uma entidade legal processa os pagamentos do fornecedor, mas outra entidade legal processa os pagamentos do cliente, você deverá alternar para cada entidade legal. Na página **Contabilidade intercompanhia** você pode selecionar um registro intercompanhia da relação para uma entidade legal que você processe pagamentos em nome de. 

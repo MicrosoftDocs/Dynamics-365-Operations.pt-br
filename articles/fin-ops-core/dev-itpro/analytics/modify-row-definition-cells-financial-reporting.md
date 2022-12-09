@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: aolson
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: 6c3e9323c2011f7ca6ceb9926575d661c5269e22
-ms.sourcegitcommit: 6b209919de39c15e0ebe4abc9cbcd30618f2af0b
+ms.openlocfilehash: 1c125369a5b2134759bf3650175276acf42b69e0
+ms.sourcegitcommit: d27fef61593c6d1e9e26d5c9fad21411bc52fabc
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 07/11/2022
-ms.locfileid: "9135529"
+ms.lasthandoff: 11/23/2022
+ms.locfileid: "9802814"
 ---
 # <a name="modify-row-definition-cells"></a>Modificar células de definição de linha
 
@@ -30,7 +30,7 @@ Este artigo descreve as informações que são necessárias para cada célula em
 
 ## <a name="specify-a-row-code-in-a-row-definition"></a>Especifique um código de linha em uma definição de linha
 
-Em definições de linha, os números ou rótulos na célula **Código da Linha** identificam cada linha na definição de linha. É possível especificar o código de linha para referir-se aos dados nos cálculos e totais.
+Em definições de linha, os números ou rótulos na célula **Código da linha** identificam cada linha na definição de linha. É possível especificar o código de linha para referir-se aos dados nos cálculos e totais.
 
 ### <a name="row-code-requirements"></a>Requisitos do código de linha
 
@@ -51,14 +51,14 @@ Os seguintes exemplos são códigos de linha válidos:
 
 ### <a name="change-a-row-code-in-a-row-definition"></a>Altere um código de linha em uma definição de linha
 
-1. No Designer de Relatórios, clique em **Definições de Linha** e abra a definição de linha para modificá-la.
-2. Na linha apropriada, insira o novo valor na célula na coluna **Código de Linha**.
+1. No Report Designer, clique em **Definições de linha** e abra a definição de linha para modificá-la.
+2. Na linha apropriada, insira o novo valor na célula na coluna **Código de linha**.
 
 ### <a name="reset-numeric-row-codes"></a>Redefinir códigos de linha numéricos
 
-1. No Designer de Relatórios, clique em **Definições de Linha** e abra a definição de linha para modificá-la.
-2. No menu **Editar**, clique em **Renumerar Linhas**.
-3. Na caixa de diálogo **Renumerar Linhas**, especifique novos valores para o código de linha inicial e o incremento do código de linha. É possível redefinir os códigos numéricos de linha para valores equidistantes. No entanto, o designer de relatórios renumera somente códigos de linha que começam com os números (por exemplo, 130 ou 246). Ele não renumera códigos de linha que começam com letras (por exemplo, INCOME\_93 ou TP0693).
+1. No Report Designer, clique em **Definições de linha** e abra a definição de linha para modificá-la.
+2. No menu **Editar**, clique em **Renumerar linhas**.
+3. Na caixa de diálogo **Renumerar linhas**, especifique novos valores para o código de linha inicial e o incremento do código de linha. É possível redefinir os códigos numéricos de linha para valores equidistantes. No entanto, o designer de relatórios renumera somente códigos de linha que começam com os números (por exemplo, 130 ou 246). Ele não renumera códigos de linha que começam com letras (por exemplo, INCOME\_93 ou TP0693).
 
 > [!NOTE]
 > Quando você renumera códigos de linha, o designer de relatórios atualiza automaticamente as referências **TOT** e **CAL**. Por exemplo, se uma linha **TOT** se refere a um intervalo que começa com o código de linha 100, e você renumera linhas, começando por 90, a referência inicial **TOT** muda de 100 para 90.
@@ -71,38 +71,38 @@ A célula de descrição fornece a descrição dos dados financeiros na linha do
 
 ### <a name="add-the-description-for-a-line-on-a-report"></a>Adicionar a descrição para uma linha em um relatório
 
-1. No Designer de Relatórios, clique em **Definições de Linha** e abra a definição de linha para modificá-la.
+1. No Report Designer, clique em **Definições de linha** e abra a definição de linha para modificá-la.
 2. Selecione a célula **Descrição** e insira o nome da linha do relatório.
 3. Aplique a formatação.
 
 ### <a name="add-additional-text-from-a-reporting-tree-in-the-description"></a>Adicionar outro texto de uma hierarquia organizacional na descrição
 
-1. No Designer de Relatórios, clique em **Definições de Linha** e abra a definição de linha para modificá-la.
+1. No Report Designer, clique em **Definições de linha** e abra a definição de linha para modificá-la.
 2. Insira o código do texto adicional e qualquer outro texto na célula **Descrição** apropriado.
 3. Aplique a formatação.
 
 ### <a name="limit-the-additional-text-to-a-specific-reporting-unit"></a>Limitar o texto adicional a uma unidade organizacional específica
 
-1. No Designer de Relatórios, clique em **Definições de Linha** e abra a definição de linha para modificá-la.
+1. No Report Designer, clique em **Definições de linha** e abra a definição de linha para modificá-la.
 2. Localize a linha em que o texto adicional deve ser criado. Clique duas vezes na célula na coluna **Fórmulas/Linhas/Unidades Relacionadas**.
-3. Na caixa de diálogo **Seleção de Unidade de Relatório**, no campo **Árvore de relatório**, selecione uma árvore de relatório.
+3. Na caixa de diálogo **Seleção de unidade de relatório**, no campo **Árvore de relatório**, selecione uma árvore de relatório.
 4. No campo **Selecione uma unidade de relatório para restrição**, expanda ou recolha a árvore de relatório, e selecione uma unidade de relatório.
 
 ## <a name="add-a-format-code"></a>Adicionar um código de formato
-A célula **Código de Formato** oferece uma seleção de opções pré-formatadas para o conteúdo dessa linha. Se a célula **Código de Formato** estiver em branco, a linha será interpretada como uma linha de detalhes de dados financeiros.
+A célula **Código de formato** oferece uma seleção de opções pré-formatadas para o conteúdo dessa linha. Se a célula **Código de formato** estiver em branco, a linha será interpretada como uma linha de detalhes de dados financeiros.
 
 > [!NOTE]
 > Se um relatório contiver linhas de formatação sem valor que estão relacionadas a linhas de valor que foram suprimidas (por exemplo, devido a saldo zero), você pode usar a coluna **Fórmulas/Linhas/Unidades Relacionadas** para impedir que as linhas de título e formato sejam impressas.
 
 ### <a name="add-a-format-code-to-a-report-row"></a>Adicionar um código de formato a uma linha do relatório
 
-1. No Designer de Relatórios, clique em **Definições de Linha** e selecione uma definição de linha para modificá-la.
-2. Clique duas vezes na célula **Código de Formato**.
+1. No Report Designer, clique em **Definições de linha** e selecione uma definição de linha para modificá-la.
+2. Clique duas vezes na célula **Código de formato**.
 3. Selecione um código de formato na lista. A tabela a seguir descreve os códigos de formato e suas ações.
 
     | Código de formato                   | Interpretação do código de formato | Ação |
     |-------------------------------|-----------------------------------|--------|
-    | (Nenhuma)                        |                                   | Desmarca a célula **Código de Formato**. |
+    | (Nenhum)                        |                                   | Desmarca a célula **Código de formato**. |
     | TOT                           | Total                             | Identifica uma linha que usa operadores matemáticos na coluna **Fórmulas/Linhas/Unidades Relacionadas**. Os totais contêm operadores simples, como **+** ou **-**. |
     | CAL                           | Cálculo                       | Identifica uma linha que usa operadores matemáticos na coluna **Fórmulas/Linhas/Unidades Relacionadas**. Os cálculos contêm operadores complexos, como as instruções **+**, **-**, **\**_, _*/** e **IF/THEN/ELSE**. |
     | DES                           | descrição                       | Identifica uma linha de título ou uma linha em branco em um relatório. |
@@ -122,7 +122,7 @@ A célula **Código de Formato** oferece uma seleção de opções pré-formatad
     | SORT ASORT SORTDESC ASORTDESC | Classificar                              | Classifica despesas e receitas, define sequência de um relatório de variação real ou de orçamento pela variação maior ou classifica as descrições da linha em ordem alfabética. |
 
 ## <a name="specify-related-formulasrowsunits"></a>Especificar fórmulas/linhas/unidades relacionadas
-A célula **Fórmulas/Linhas/Unidades Relacionadas** tem várias finalidades. Dependendo do tipo de linha, uma célula **Fórmulas/Linhas/Unidades Relacionadas** pode realizar uma das seguintes funções:
+A célula **Fórmulas/Linhas/Unidades relacionadas** tem várias finalidades. Dependendo do tipo de linha, uma célula **Fórmulas/Linhas/Unidades Relacionadas** pode realizar uma das seguintes funções:
 
 - Definir as linhas a serem incluídas em um cálculo quando você usa um código de formato **TOT** ou **CAL**.
 - Vincular uma linha de formatação a uma linha de valor, para imprimir a formatação apenas quando o valor relacionado for impresso.
@@ -149,20 +149,20 @@ Quando você criar uma fórmula de total de linha, deverá usar códigos de linh
 
 ### <a name="create-a-row-total"></a>Criar um total da linha
 
-1. No Report Designer, clique em **Definições de linha** e abra a definição de linha a ser modificada.
-2. Clique duas vezes na célula **Código de Formato** na definição de linha, e selecione **TOT**.
+1. No Report Designer, clique em **Definições de linha** e abra a definição de linha para modificá-la.
+2. Clique duas vezes na célula **Código de formato**, na definição de linha, e selecione **TOT**.
 3. Na célula **Fórmulas/Linhas/Unidades Relacionadas**, insira a fórmula total.
 
 ### <a name="relate-a-format-row-to-an-amount-row"></a>Relacionar uma linha de formato a uma linha de valor
 
-Na coluna **Código de Formato** em uma definição de linha, os códigos de formato **DES**, **LFT**, **RGT**, **CEN**, **---** e **===** aplicam formatação a linhas sem valor. Para impedir que esta formatação seja impressa quando as linhas de valor relacionado forem suprimidas (por exemplo, porque as linhas de valor contêm valores zero ou nenhuma atividade no período), você deve relacionar as linhas de formato às linhas de valor correspondente. Essa funcionalidade é útil quando você deseja evitar que cabeçalhos ou formatação relativos a subtotais sejam impressos quando não há detalhes para impressão no período.
+Na coluna **Código de formato** em uma definição de linha, os códigos de formato **DES**, **LFT**, **RGT**, **CEN**, **---** e **===** aplicam formatação a linhas sem valor. Para impedir que esta formatação seja impressa quando as linhas de valor relacionado forem suprimidas (por exemplo, porque as linhas de valor contêm valores zero ou nenhuma atividade no período), você deve relacionar as linhas de formato às linhas de valor correspondente. Essa funcionalidade é útil quando você deseja evitar que cabeçalhos ou formatação relativos a subtotais sejam impressos quando não há detalhes para impressão no período.
 
 > [!NOTE]
 > Você também pode impedir que linhas de valor detalhado sejam impressas desmarcando a opção para exibir linhas sem valores. Esta opção está localizada na guia **Configurações** da definição de relatório. Por padrão, as contas de detalhes da transação com um saldo zero ou nenhuma atividade de período são suprimidas dos relatórios. Para mostrar essas contas de detalhes da transação, marque a caixa de seleção **Exibir linhas sem valores** na guia **Configurações** da definição de relatório.
 
 ### <a name="relate-a-format-row-to-an-amount-row"></a>Relacionar uma linha de formato a uma linha de valor
 
-1. No Designer de Relatórios, clique em **Definições de Linha** e selecione uma definição de linha para modificá-la.
+1. No Report Designer, clique em **Definições de linha** e selecione uma definição de linha para modificá-la.
 2. Na linha de formatação, na célula **Fórmulas/Linhas/Unidades Relacionadas**, insira o código de linha da linha de valor a ser suprimida.
 
     > [!NOTE]
@@ -172,7 +172,7 @@ Na coluna **Código de Formato** em uma definição de linha, os códigos de for
 
 ### <a name="example-of-preventing-printing-of-rows"></a>Exemplo de prevenção de impressão de linhas
 
-No exemplo a seguir, um usuário quer impedir a impressão do título e sublinhados da linha **Caixa Total** do seu relatório porque não houve atividade nas contas de caixa. Então, na linha 220 (que, como indicado pelo código de formato **---**, é uma linha de formatação), na célula **Fórmulas/Linhas/Unidades Relacionadas**, o usuário insere **250**, que é o código de linha da linha de valor que o usuário deseja suprimir.
+No exemplo a seguir, um usuário quer impedir a impressão do título e sublinhados da linha **Caixa total** do seu relatório porque não houve atividade nas contas de caixa. Então, na linha 220 (que, como indicado pelo código de formato **---**, é uma linha de formatação), na célula **Fórmulas/Linhas/Unidades Relacionadas**, o usuário insere **250**, que é o código de linha da linha de valor que o usuário deseja suprimir.
 
 [![RelatedRowsRowDefinition.](./media/relatedrowsrowdefinition-1024x144.png)](./media/relatedrowsrowdefinition.png)
 
@@ -192,15 +192,15 @@ Em uma definição de coluna, o tipo de coluna **CALC** indica uma coluna que es
 
 ### <a name="select-the-base-row-in-a-row-definition-for-a-column-calculation"></a>Seleciona a linha de base em uma definição de linha para o cálculo de uma coluna
 
-1. No Designer de Relatórios, clique em **Definições de Coluna** e abra a definição de coluna para um demonstrativo de receita.
+1. No Report Designer, clique em **Definições de coluna** e abra a definição de coluna para um demonstrativo de receita.
 2. Adicione uma nova coluna à definição de coluna, e defina o tipo de coluna como **CALC**.
 3. Na célula **Fórmula** da nova coluna, insira a fórmula **X/BASEROW**, onde **X** é o tipo de coluna **FD** para ver uma porcentagem.
-4. Clique duas vezes na célula **Substituição de Formato/Moeda**.
-5. Na caixa de diálogo **Substituição de Formato**, na lista **Categoria de Formato**, selecione **Porcentagem** e clique em **OK**.
+4. Clique duas vezes na célula **Substituição de formato/moeda**.
+5. Na caixa de diálogo **Substituição de formato**, na lista **Categoria de formato**, selecione **Porcentagem** e clique em **OK**.
 6. No menu **Arquivo**, clique em **Salvar Como** para salvar a definição de coluna com um novo nome. Anexe **CBR** ao nome de arquivo atual (por exemplo, **CUR\_YTD\_CBR**). Esta definição de coluna é a definição de coluna da linha base
-7. No Designer de Relatórios, clique em **Definições de Linha** e abra a definição de linha a ser alterada usando o cálculo de linha base.
+7. No Report Designer, clique em **Definições de linha** e abra a definição de linha a ser alterada usando o cálculo de linha base.
 8. Inserir uma nova linha acima da linha onde o cálculo da linha base deve começar.
-9. Clique duas vezes na célula **Código de Formato** da definição de linha, e selecione **CBR**.
+9. Clique duas vezes na célula **Código de formato** da definição de linha, e selecione **CBR**.
 10. Na célula **Fórmulas/Linhas/Unidades Relacionadas**, insira o número de código de linha da linha base.
 
 ### <a name="example-of-base-row-calculation"></a>Exemplo de cálculo de linha de base
@@ -227,10 +227,10 @@ Os códigos de classificação classificam contas ou valores, definem um código
 
 ### <a name="select-a-sorting-code"></a>Selecionar um código de classificação
 
-1. No Designer de Relatórios, clique em **Definições de Linha** e abra a definição de linha para modificá-la.
-2. Clique duas vezes na célula **Código do Formato** e selecione um código de classificação.
+1. No Report Designer, clique em **Definições de linha** e abra a definição de linha para modificá-la.
+2. Clique duas vezes na célula **Código do formato** e selecione um código de classificação.
 3. Na célula **Fórmulas/Linhas/Unidades Relacionadas**, especifique o intervalo de códigos de linha para classificação. Para especificar um intervalo, insira o primeiro código de linha, dois pontos (:), e então o último código de linha. Por exemplo, insira **160:490** para especificar que o intervalo é da linha 160 até a linha 490.
-4. Na célula **Restrição de Coluna**, insira a letra da coluna do relatório a ser usada para a classificação.
+4. Na célula **Restrição de coluna**, insira a letra da coluna do relatório a ser usada para a classificação.
 
     > [!NOTE]
     > Inclua apenas as linhas de valor em um cálculo de classificação.
@@ -239,25 +239,25 @@ Os códigos de classificação classificam contas ou valores, definem um código
 
 No exemplo a seguir, os valores na coluna D do relatório serão classificados em ordem ascendente para linhas 160 a 490. Além disso, os valores absolutos na coluna G do relatório serão classificados em ordem descendente das linhas 610 a 940.
 
-| Código de Linha | Descrição                                         | Código de formato | Fórmulas/linhas/unidades relacionadas | Saldo normal | Restrição da coluna | Vincular a Dimensões Financeiras |
-|----------|-----------------------------------------------------|-------------|-----------------------------|----------------|--------------------|------------------------------|
-| 100      | Classificados por variação mensal em ordem crescente       | DES         |                             |                |                    |                              |
-| 130      |                                                     | SORT        | 160:490                     |                | D                  |                              |
-| 160      | Venda                                               |             |                             | C              |                    | 4100                         |
-| 190      | Devolução de venda                                       |             |                             |                |                    | 4110                         |
-|          | ...                                                 |             |                             |                |                    |                              |
-| 490      | Rendimento de juros                                     |             |                             | C              |                    | 7000                         |
-| 520      |                                                     | DES         |                             |                |                    |                              |
-| 550      | Classificados por variação absoluta de YTD em ordem decrescente | DES         |                             |                |                    |                              |
-| 580      |                                                     | ASORTDESC   | 610:940                     |                | G                  |                              |
-| 610      | Vendas                                               |             |                             | C              |                    | 4100                         |
-| 640      | Devolução de venda                                       |             |                             |                |                    | 4110                         |
-|          | ...                                                 |             |                             |                |                    |                              |
-| 940      | Rendimento de juros                                     |             |                             | C              |                    | 7000                         |
+| Código da linha | Descrição                             | Código de formato | Fórmulas/linhas/unidades relacionadas | Saldo normal | Restrição de coluna | Link para dimensões financeiras |
+|----------|-----------------------------------------|-------------|-----------------------------|----------------|--------------------|------------------------------|
+| 100      | Classificados por variação mensal em ordem crescente       | DES         |                |                |                    |                              |
+| 130      |                                        | SORT        | 160:490                     |                | D                  |                              |
+| 160      | Venda                                   |             |                             | C              |                    | 4100                         |
+| 190      | Devolução de venda                        |             |                             |                |                    | 4110                         |
+|          | ...                             |             |                             |                |                    |                              |
+| 490      | Rendimento de juros              |             |                             | C              |                    | 7000                         |
+| 520      |                                     | DES         |                             |                |                    |                              |
+| 550      | Classificados por variação absoluta de YTD em ordem decrescente | DES         |             |                |                    |                              |
+| 580      |                              | ASORTDESC   | 610:940                     |                | G                  |                              |
+| 610      | Vendas                     |             |                             | C              |                    | 4100                         |
+| 640      | Devolução de venda                |             |                             |                |                    | 4110                         |
+|          | ...                       |             |                             |                |                    |                              |
+| 940      | Rendimento de juros               |             |                             | E              |                    | 7000                         |
 
 
-## <a name="specify-a-format-override-cell"></a>Especificar uma Célula de Substituição de Formato
-A célula **Substituição de Formato** especifica a formatação que é usada para a linha quando o relatório é impresso. Essa formatação substitui a formatação que esteja especificada na definição da coluna e na definição do relatório. Por padrão, a formatação especificada nessas definições é a moeda. Se uma linha do relatório listar o número de ativos, como o número de compilações, e outra linha listar valor monetário desses ativos, é possível substituir a formatação de moeda e inserir a formatação numérica para a linha que especifica o número de compilações. Especifique essas informações na caixa de diálogo **Substituição de Formato**. As opções disponíveis dependem da categoria de formato selecionada. A área **Exemplo** da caixa de diálogo mostra os formatos de exemplo. As categorias de formato a seguir estão disponíveis:
+## <a name="specify-a-format-override-cell"></a>Especificar uma célula de substituição de formato
+A célula **Substituição de formato** especifica a formatação que é usada para a linha quando o relatório é impresso. Essa formatação substitui a formatação que esteja especificada na definição da coluna e na definição do relatório. Por padrão, a formatação especificada nessas definições é a moeda. Se uma linha do relatório listar o número de ativos, como o número de compilações, e outra linha listar valor monetário desses ativos, é possível substituir a formatação de moeda e inserir a formatação numérica para a linha que especifica o número de compilações. Especifique essas informações na caixa de diálogo **Substituição de formato**. As opções disponíveis dependem da categoria de formato selecionada. A área **Exemplo** da caixa de diálogo mostra os formatos de exemplo. As categorias de formato a seguir estão disponíveis:
 
 - Formatação de moeda
 - Formatação numérica
@@ -267,8 +267,8 @@ A célula **Substituição de Formato** especifica a formatação que é usada p
 ### <a name="override-cell-formatting"></a>Substituir a formatação da célula
 
 1. No Report Designer, abra a definição de linha a ser modificada.
-2. Na linha para substituir o formato, clique duas vezes na célula na coluna **Substituição de Formato**.
-3. Na caixa de diálogo **Substituição de Formato**, selecione as opções de formatação a serem usadas para essa linha no relatório.
+2. Na linha para substituir o formato, clique duas vezes na célula na coluna **Substituição de formato**.
+3. Na caixa de diálogo **Substituição de formato**, selecione as opções de formatação a serem usadas para essa linha no relatório.
 4. Clique em **OK**.
 
 ### <a name="currency-formatting"></a>Formatação de moeda
@@ -327,10 +327,10 @@ O tipo deve representar o valor positivo e, em seguida, o valor negativo. Em ger
 | 0,00%;(0,00%)                  | 123456,00% | (123456,00%) | 0,00%   |
 
 ## <a name="specify-a-normal-balance-cell"></a>Especificar uma célula de Saldo normal
-A célula **Saldo Normal** em uma definição de linha controla o sinal dos valores em uma linha. Para reverter o sinal de uma linha, ou se o saldo normal de uma conta for um crédito, insira um **C** na célula **Saldo Normal** dessa linha. O criador de relatório reverte o sinal em todas as contas de saldo de crédito nessa linha. Quando o designer de relatórios converte essas contas, ele remove a característica de débito/crédito de todos os valores e torna a totalização simples. Por exemplo, para calcular o rendimento líquido, você subtrai as despesas da renda. Normalmente, as linhas calculadas e totalizadas não são afetadas por um código **C**. No entanto, o controle de impressão **XCR** na definição de coluna reverte o sinal de qualquer linha contendo um **C** na coluna **Saldo Normal**. Essa formatação é especialmente importante quando você deseja mostrar todas as variações desfavoráveis como valores negativos. Se um número totalizado ou calculado tiver um sinal errado, insira um **C** na célula **Saldo Normal** para a linha para reverter o sinal.
+A célula **Saldo Normal** em uma definição de linha controla o sinal dos valores em uma linha. Para reverter o sinal de uma linha, ou se o saldo normal de uma conta for um crédito, insira um **C** na célula **Saldo normal** dessa linha. O criador de relatório reverte o sinal em todas as contas de saldo de crédito nessa linha. Quando o Report Designer converte essas contas, ele remove a característica de débito/crédito de todos os valores e torna a totalização simples. Por exemplo, para calcular o rendimento líquido, você subtrai as despesas da renda. Normalmente, as linhas calculadas e totalizadas não são afetadas por um código **C**. No entanto, o controle de impressão **XCR** na definição de coluna reverte o sinal de qualquer linha contendo um **C** na coluna **Saldo normal**. Essa formatação é especialmente importante quando você deseja mostrar todas as variações desfavoráveis como valores negativos. Se um número totalizado ou calculado tiver um sinal errado, insira um **C** na célula **Saldo normal** para a linha para reverter o sinal.
 
-## <a name="specify-a-row-modifier-cell"></a>Especificar uma célula de Modificador de linha
-O conteúdo da célula **Modificador da Linha** em uma definição de linha substitui os anos fiscais, períodos e outras informações especificadas na definição de coluna dessa linha. O modificador selecionado se aplica a cada conta na linha. Você pode alterar cada linha usando um ou mais dos tipos de modificadores a seguir:
+## <a name="specify-a-row-modifier-cell"></a>Especificar uma célula de modificador de linha
+O conteúdo da célula **Modificador da linha** em uma definição de linha substitui os anos fiscais, períodos e outras informações especificadas na definição de coluna dessa linha. O modificador selecionado se aplica a cada conta na linha. Você pode alterar cada linha usando um ou mais dos tipos de modificadores a seguir:
 
 - Modificadores de conta
 - Modificadores do código do cenário
@@ -339,8 +339,8 @@ O conteúdo da célula **Modificador da Linha** em uma definição de linha subs
 ### <a name="override-a-column-definition"></a>Substituir uma definição de coluna
 
 1. No Report Designer, abra a definição de linha a ser modificada.
-2. Na linha em que você deseja substituir a definição de coluna, clique duas vezes na célula **Modificador da Linha**.
-3. Na caixa de diálogo **Modificador da Linha**, selecione uma opção no campo **Modificador da Conta**. Para obter uma descrição das opções, consulte a seção "Modificadores de conta".
+2. Na linha em que você deseja substituir a definição de coluna, clique duas vezes na célula **Modificador da linha**.
+3. Na caixa de diálogo **Modificador da linha**, selecione uma opção no campo **Modificador da Conta**. Para obter uma descrição das opções, consulte a seção "Modificadores de conta".
 4. No campo **Modificador de código do livro**, selecione o código do livro a ser usado para a linha.
 5. Em **Atributos**, siga estas etapas para adicionar uma entrada para cada atributo que deve ser incluído com o código de linha:
 
@@ -382,11 +382,11 @@ Você pode limitar uma linha a um código de livro existente. A definição de c
 
 Alguns sistemas contábeis oferecem suporte para atributos de contas e de transações nos dados financeiros. Esses atributos funcionam como segmentos virtuais da conta, e podem conter informações adicionais sobre a conta ou transação. Essas informações adicionais podem ser IDs de contas, IDs do lote, CEP ou outros atributos. Se seu sistema contábil oferece suporte para atributos, você pode usar atributos de contas ou de transações como modificadores de linha na definição de linha. Para obter informações sobre como substituir informações de linha, consulte a seção "Substituir definição de coluna" exibida anteriormente neste artigo.
 
-## <a name="specify-a-link-to-financial-dimensions-cell"></a>Especificar uma célula Link para Dimensões Financeiras
-A célula **Link para Dimensões Financeiras** contém links para os dados financeiros que devem ser incluídos em cada linha de um relatório. Esta célula contém valores de dimensão. Para abrir a caixa de diálogo **Dimensões**, clique duas vezes na célula **Link para Dimensões Financeiras**.
+## <a name="specify-a-link-to-financial-dimensions-cell"></a>Especificar um link para a célula de dimensões financeiras
+A célula **Link para dimensões financeiras** contém links para os dados financeiros que devem ser incluídos em cada linha de um relatório. Esta célula contém valores de dimensão. Para abrir a caixa de diálogo **Dimensões**, clique duas vezes na célula **Link para dimensões financeiras**.
 
 > [!NOTE]
-> O Designer de Relatórios não pode selecionar contas, dimensões ou campos do sistema ERP no Microsoft Dynamics que incluam qualquer um dos seguintes caracteres reservados: &, \*, \[, \], {, ou }. Para especificar informações para uma linha que já está na definição de linha, adiciona e informação na célula **Vincular a dimensões financeiras**. Para adicionar novas linhas que sejam vinculadas aos dados financeiros, use a caixa de diálogo **Inserir Linhas de** para criar novas linhas na definição de relatório. O título de coluna é alterado de acordo com a forma na qual as colunas são configuradas, conforme exibido na tabela a seguir.
+> Porém, o Report Designer não pode selecionar contas, dimensões ou campos do sistema Microsoft Dynamics 365 Finance que incluam um dos seguintes caracteres reservados: &, \*, \[, \], { ou }. Para especificar informações para uma linha que já esteja na definição de linha, adicione as informações na célula **Vincular a dimensões financeiras**. Para adicionar novas linhas que sejam vinculadas aos dados financeiros, use a caixa de diálogo **Inserir Linhas de** para criar novas linhas na definição de relatório. O título de coluna é alterado de acordo com a forma na qual as colunas são configuradas, conforme exibido na tabela a seguir.
 
 | Tipo de link selecionado       | A descrição na coluna do link é alterada para |
 |----------------------------------|----------------------------------------------------|
@@ -395,8 +395,8 @@ A célula **Link para Dimensões Financeiras** contém links para os dados finan
 
 ### <a name="specify-a-dimension-or-range"></a>Especifique uma dimensão ou intervalo.
 
-1. No Designer de Relatórios, abra a definição de linha a ser modificada.
-2. Clique duas vezes na coluna **Vincular a dimensões financeiras**.
+1. No Report Designer, abra a definição de linha a ser modificada.
+2. Clique duas vezes em uma célula na coluna **Vincular a dimensões financeiras**.
 3. Na caixa de diálogo **Dimensões**, clique duas vezes na célula no nome da dimensão.
 4. Na caixa de diálogo da dimensão, selecione **Individual ou intervalo**.
 5. No campo **De**, digite a dimensão inicial ou clique em ![Pequisar.](media/browse.gif "Procurar") para procurar dimensões disponíveis. Para inserir um intervalo de dimensões, insira a dimensão final no campo **Até**.
@@ -423,32 +423,32 @@ Ao inserir um valor de segmento natural na caixa de diálogo **Dimensões**, voc
 É possível especificar um intervalo de valores de segmento ou de valores de dimensão. A vantagem de especificar um intervalo é não precisar atualizar a definição de linha sempre que um novo valor de segmento ou valor de dimensão é adicionado aos dados financeiros. Por exemplo, o intervalo **+Account=\[6100:6900\]** recebe os valores da conta 6100 até 6900 para o valor da linha. Quando um intervalo inclui um caractere curinga (?), o designer de relatórios não avalia o intervalo caractere por caractere. As extremidades inferior e superior do intervalo são determinadas. Depois, os valores finais e todos os valores entre eles são incluídos.
 
 > [!NOTE]
-> O Designer de Relatórios não pode selecionar contas, dimensões ou campos do sistema ERP no Microsoft Dynamics que incluam qualquer um dos seguintes caracteres reservados: &, \*, \[, \], {, ou }. Você pode adicionar um E comercial (&) somente quando cria automaticamente definições de linha usando a caixa de diálogo **Inserir Linhas de Dimensões**.
+> Porém, o Report Designer não pode selecionar contas, dimensões ou campos do sistema Microsoft Dynamics 365 Finance que incluam um dos seguintes caracteres reservados: &, \*, \[, \], { ou }. Você pode adicionar um E comercial (&) somente quando cria automaticamente definições de linha usando a caixa de diálogo **Inserir linhas de dimensões**.
 
 ### <a name="multiple-segment-or-multiple-dimension-ranges"></a>Intervalos de vários segmentos ou de várias dimensões
 
 Quando você insere um intervalo usando várias combinações de valores de dimensão, a comparação de intervalo é feita em uma base de ..\\dimensões financeiras\\dimensão por dimensão. A comparação de intervalo não pode ser feita caractere por caractere ou com base em segmento parcial. Por exemplo, o intervalo **+Account=\[5000:6000\], Department=\[1000:2000\], Cost center=\[00\]** inclui apenas as contas que correspondem a cada segmento. Neste cenário, a primeira dimensão deve estar no intervalo de 5000 a 6000, a segunda dimensão deve estar no intervalo de 1000 até 2000, e a última deve ser 00. Por exemplo, **+Account=\[5100\], Department=\[1100\], Cost center=\[01\]** não está incluído no relatório porque o último segmento está fora da variação especificada. Se um valor de segmento incluir espaços, coloque esse valor entre colchetes (\[ \]). Os seguintes valores são válidos para um segmento de quatro caracteres: **\[ 234\], \[123 \], \[1 34\]**. Os valores de dimensão devem ser colocados entre colchetes (\[ \]), e o designer de relatórios adiciona esses colchetes para você. Quando um intervalo de vários segmentos ou de várias dimensões contém caracteres curingas (? ou \*), as extremidades inferior e superior do intervalo de segmento múltiplo completo ou dimensão múltipla são determinadas. Depois, os valores finais e todos os valores entre eles são incluídos. Se tiver um grande intervalo, como o intervalo de todas as contas de 40000 a 99999, procure especificar uma conta inicial e uma conta final válidas, sempre que possível.
 
 > [!NOTE] 
-> O Designer de Relatórios não pode selecionar contas, dimensões ou campos do sistema ERP no Microsoft Dynamics que incluam qualquer um dos seguintes caracteres reservados: &, \*, \[, \], {, ou }. Você pode adicionar um E comercial (&) somente quando cria automaticamente definições de linha usando a caixa de diálogo **Inserir Linhas de Dimensões**.
+> Porém, o Report Designer não pode selecionar contas, dimensões ou campos do sistema Microsoft Dynamics 365 Finance que incluam um dos seguintes caracteres reservados: &, \*, \[, \], { ou }. Você pode adicionar um E comercial (&) somente quando cria automaticamente definições de linha usando a caixa de diálogo **Inserir linhas de dimensões**.
 
 ## <a name="add-or-subtract-from-other-accounts-in-a-row-definition"></a>Adicionar ou subtrair de outras contas em uma definição de linha
 Para adicionar ou subtrair os valores monetários em uma conta dos valores monetários em outra conta, você pode usar o sinal de adição (+) e o sinal de subtração (-) na célula **Link para Dimensões Financeiras**. A tabela a seguir mostra formatos aceitáveis para adicionar e subtrair links para dados financeiros.
 
-| Operação                                                                               | Usar este formato                                                                                              |
-|-----------------------------------------------------------------------------------------|--------------------------------------------------------------------------------------------------------------|
-| Adicionar duas contas totalmente qualificadas                                                       | +Division=\[000\], Account=\[1205\], Department=\[00\]+Division=\[100\], Account=\[1205\], Department=\[00\] |
-| Adicionar dois valores de segmento.                                                                 | +Account=\[1205\]+Account=\[1210\]                                                                           |
-| Adicionar valores de segmento que incluam caracteres curinga.                                    | +Account=\[120?+Account=\[11??\]                                                                             |
-| Adicionar um intervalo de contas totalmente qualificadas                                                | +Division=\[000:100\], Account=\[1205\], Department=\[00\]                                                   |
-| Adicionar um intervalo de valores de segmento.                                                          | +Account=\[1200:1205\]                                                                                       |
-| Adicionar um intervalo de valores de segmento que incluam caracteres curinga.                         | +Account=\[120?:130?\]                                                                                       |
+| Operação                                            | Usar este formato                                                                                              |
+|----------------------------------------|--------------------------------------------------------------------------------------------------------------|
+| Adicionar duas contas totalmente qualificadas      | +Division=\[000\], Account=\[1205\], Department=\[00\]+Division=\[100\], Account=\[1205\], Department=\[00\] |
+| Adicionar dois valores de segmento.                    | +Account=\[1205\]+Account=\[1210\]                                                                           |
+| Adicionar valores de segmento que incluam caracteres curinga.  | +Account=\[120?+Account=\[11??\]                                                                     |
+| Adicionar um intervalo de contas totalmente qualificadas              | +Division=\[000:100\], Account=\[1205\], Department=\[00\]                                           |
+| Adicionar um intervalo de valores de segmento.                | +Account=\[1200:1205\]                                                                                       |
+| Adicionar um intervalo de valores de segmento que incluam caracteres curinga.         | +Account=\[120?:130?\]                                                           |
 | Subtrair uma conta totalmente qualificada de outra conta totalmente qualificada.              | +Division=\[000\], Account=\[1205\], Department=\[00\]-Division=\[100\], Account=\[1205\], Department=\[00\] |
-| Subtrair um valor de segmento de outro valor de segmento.                                  | +Account=\[1205\]-Account=\[1210\]                                                                           |
-| Subtrair um valor de segmento que inclua um caractere curinga de outro valor de segmento. | +Account=\[1200\]-Account=\[11??\]                                                                           |
-| Subtrair um intervalo de contas totalmente qualificadas                                           | -Division=\[000:100\], Account=\[1200:1205\], Department=\[00:01\]                                           |
-| Subtrair um intervalo de valores de segmento.                                                     | -Account=\[1200:1205\]                                                                                       |
-| Subtrair um intervalo de valores de segmento que incluam caracteres curinga.                    | -Account=\[120?:130?\]                                                                                       |
+| Subtrair um valor de segmento de outro valor de segmento.          | +Account=\[1205\]-Account=\[1210\]                                                               |
+| Subtrair um valor de segmento que inclua um caractere curinga de outro valor de segmento. | +Account=\[1200\]-Account=\[11??\]                                        |
+| Subtrair um intervalo de contas totalmente qualificadas                               | -Division=\[000:100\], Account=\[1200:1205\], Department=\[00:01\]                   |
+| Subtrair um intervalo de valores de segmento.                   | -Account=\[1200:1205\]                                                                                       |
+| Subtrair um intervalo de valores de segmento que incluam caracteres curinga.                    | -Account=\[120?:130?\]                                               |
 
 Embora você possa mudar as contas diretamente, também pode usar a caixa de diálogo **Dimensões** para aplicar a formatação correta aos links de dados financeiros. Qualquer um dos valores podem incluir caracteres curinga (? ou \*). Porém, o Designer de Relatórios não pode selecionar contas, dimensões ou campos do sistema ERP no Microsoft Dynamics que incluam qualquer um dos seguintes caracteres reservados: &, \*, \[, \], {, ou }.
 
@@ -457,11 +457,11 @@ Embora você possa mudar as contas diretamente, também pode usar a caixa de di�
 
 ### <a name="add-or-subtract-accounts-from-other-accounts"></a>Adicionar ou subtrair contas de outras contas
 
-1. No Designer de Relatórios, abra a definição de linha a ser modificada.
-2. Na linha apropriada, clique duas vezes na célula na coluna **Link para Dimensões Financeiras**.
+1. No Report Designer, abra a definição de linha a ser modificada.
+2. Na linha apropriada, clique duas vezes na célula na coluna **Link para dimensões financeiras**.
 3. Na primeira linha na caixa de diálogo **Dimensões**, siga estas etapas:
 
-    1. No primeiro campo, selecione todas as dimensões (padrão), ou clique par abrir a caixa de diálogo **Gerenciar Conjuntos de Dimensões**, onde você pode criar, modificar, copiar ou excluir um conjunto.
+    1. No primeiro campo, selecione todas as dimensões (padrão), ou clique par abrir a caixa de diálogo **Gerenciar conjuntos de dimensões**, onde você pode criar, modificar, copiar ou excluir um conjunto.
     2. Clique duas vezes na célula **Operador +/-** e selecione o operador de adição (**+**) ou de subtração (**-**) que se aplica a um ou mais valores ou conjuntos de dimensão na linha.
     3. Na coluna apropriada do valor de dimensão, clique duas vezes na célula para abrir a caixa de diálogo **Dimensões**, e selecione se este valor de dimensão é para individual ou intervalo, um conjunto de valores de dimensão ou contas de totalização. Para obter descrições dos campos da caixa de diálogo **Dimensões**, consulte a seção "Descrição da caixa de diálogo Dimensão".
     4. Insira os valores de segmento nas colunas **De** e **Até**.
@@ -471,23 +471,23 @@ Embora você possa mudar as contas diretamente, também pode usar a caixa de di�
 > [!NOTE]
 > O operador se aplica a todas as dimensões na linha.
 
-## <a name="description-of-the-dimensions-dialog-box"></a>Descrição da caixa de diálogo Dimensões.
+## <a name="description-of-the-dimensions-dialog-box"></a>Descrição da caixa de diálogo Dimensões
 A tabela a seguir descreve os campos na caixa de diálogo **Dimensões**.
 
 | Item                | Descrição |
 |---------------------|-------------|
 | Individual ou intervalo | No campo **De**, insira o nome da conta ou clique no botão **Pesquisar** ![Pesquisar.](media/browse.gif "Procurar") para procurar a conta. Para selecionar um intervalo, insira ou procure um valor no campo **Até**. |
-| Conjunto de Valores de Dimensões | No campo **Nome**, insira o nome de um conjunto de valores de dimensão. Para criar, modificar, copiar ou excluir um conjunto, clique em **Gerenciar Conjuntos de Valores de Dimensão**. O campo **Fórmula** é preenchido com a fórmula da célula **Link para Dimensões Financeiras** para este conjunto de valores de dimensão na definição de linha. |
-| Contas de totalização   | No campo **Nome**, insira ou procure uma dimensão da totalização de contas. O campo **Fórmula** é preenchido com a fórmula na célula **Link para Dimensões Financeiras** para esta conta de totalização na definição de relatório. |
+| Conjunto de Valores de Dimensões | No campo **Nome**, insira o nome de um conjunto de valores de dimensão. Para criar, modificar, copiar ou excluir um conjunto, clique em **Gerenciar Conjuntos de Valores de Dimensão**. O campo **Fórmula** é preenchido com a fórmula da célula **Link para dimensões financeiras** para este conjunto de valores de dimensão na definição de linha. |
+| Contas de totalização   | No campo **Nome**, insira ou procure uma dimensão da totalização de contas. O campo **Fórmula** é preenchido com a fórmula na célula **Link para dimensões financeiras** para esta conta de totalização na definição de relatório. |
 
 ## <a name="add-dimension-value-sets-in-a-row-definition"></a>Adicionar conjuntos de valores de dimensão em uma definição de linha
 Um conjunto de valores de dimensão é um grupo nomeado de valores de dimensão. Um conjunto de valores de dimensão só pode conter valores em uma única dimensão, mas você pode usar um conjunto de valores de dimensão em várias definições de linha, definições de coluna, definições de árvore de relatório e definições de relatório. Você também pode combinar conjuntos de valores de dimensão em uma definição de relatório. Quando uma alteração nos dados financeiros exige que você altere o conjunto do valor de dimensões, você pode atualizar a definição do conjunto de valores da dimensão e essa atualização será aplicada para todas as áreas que usam o conjunto de valores de dimensão. Por exemplo, se você indica com frequência um intervalo de valores a ser vinculado aos dados financeiros, como os valores de 5100 a 5600, você deve atribuir esse intervalo ao conjunto de contas intitulado Vendas. Depois de criar um conjunto de valores de dimensão, você pode selecionar este conjunto como seu vínculo de dados financeiros. Em outro exemplo, se você tiver o intervalo de valor de 5100 a 5600 atribuído às Vendas e 4175 para os descontos, é possível determinar vendas subtraindo-se descontos de vendas. Esta operação é indicada como **(5100:5600)-4175**.
 
 ### <a name="create-a-set-of-dimension-values"></a>Criar um conjunto de valores de dimensão.
 
-1. No Designer de Relatórios, abra a linha, a coluna ou a definição de árvore a ser modificada.
-2. No menu **Editar**, clique em **Gerenciar Conjuntos de Valores de Dimensão**.
-3. Na caixa de diálogo **Gerenciar Conjuntos de Valores de Dimensão**, no campo **Dimensão**, selecione o tipo do conjunto de valores de dimensão a ser criado e clique em **Novo**.
+1. No Report Designer, abra a linha, coluna ou hierarquia de definição a ser alterada.
+2. No menu **Editar**, clique em **Gerenciar conjuntos de valores de dimensão**.
+3. Na caixa de diálogo **Gerenciar conjuntos de valores de dimensão**, no campo **Dimensão**, selecione o tipo do conjunto de valores de dimensão a ser criado e clique em **Novo**.
 4. Na caixa de diálogo **Novo**, insira um nome e uma descrição para o conjunto.
 5. Na coluna **De**, clique duas vezes em uma célula.
 6. Na caixa de diálogo **Conta**, selecione o nome da conta na lista, ou procure a entrada no campo **Pesquisar**. Clique em **OK**.
@@ -498,8 +498,8 @@ Um conjunto de valores de dimensão é um grupo nomeado de valores de dimensão.
 ### <a name="update-a-set-of-dimension-values"></a>Atualizar um conjunto de valores de dimensão
 
 1. No Report Designer, abra a linha, coluna ou hierarquia de definição a ser alterada.
-2. No menu **Editar**, clique em **Gerenciar Conjuntos de Valores de Dimensão**.
-3. Na caixa de diálogo **Gerenciar Conjuntos de Valores de Dimensão**, no campo **Dimensão**, selecione o tipo de dimensão.
+2. No menu **Editar**, clique em **Gerenciar conjuntos de valores de dimensão**.
+3. Na caixa de diálogo **Gerenciar conjuntos de valores de dimensão**, no campo **Dimensão**, selecione o tipo de dimensão.
 4. Na lista, selecione o conjunto de valores de dimensão a ser atualizado, e clique em **Modificar**.
 5. Na caixa de diálogo **Modificar**, modifique os valores da fórmula a ser incluída no conjunto.
 
@@ -512,16 +512,16 @@ Um conjunto de valores de dimensão é um grupo nomeado de valores de dimensão.
 ### <a name="copy-a-dimension-set"></a>Copiar um conjunto de dimensões
 
 1. No Report Designer, abra a linha, coluna ou hierarquia de definição a ser alterada.
-2. No menu **Editar**, clique em **Gerenciar Conjuntos de Valores de Dimensão**.
-3. Na caixa de diálogo **Gerenciar Conjuntos de Valores de Dimensão**, no campo **Dimensão**, selecione o tipo de dimensão.
-4. Na lista, selecione o conjunto a ser copiado e clique em **Salvar Como**.
+2. No menu **Editar**, clique em **Gerenciar conjuntos de valores de dimensão**.
+3. Na caixa de diálogo **Gerenciar conjuntos de valores de dimensão**, no campo **Dimensão**, selecione o tipo de dimensão.
+4. Na lista, selecione o conjunto a ser copiado e clique em **Salvar como**.
 5. Insira um novo nome para o grupo copiado e clique em **OK**.
 
 ### <a name="delete-a-dimension-set"></a>Excluir um conjunto de dimensões
 
 1. No Report Designer, abra a linha, coluna ou hierarquia de definição a ser alterada.
-2. No menu **Editar**, clique em **Gerenciar Conjuntos de Valores de Dimensão**.
-3. Na caixa de diálogo **Gerenciar Conjuntos de Valores de Dimensão**, no campo **Dimensão**, selecione o tipo de dimensão.
+2. No menu **Editar**, clique em **Gerenciar conjuntos de valores de dimensão**.
+3. Na caixa de diálogo **Gerenciar conjuntos de valores de dimensão**, no campo **Dimensão**, selecione o tipo de dimensão.
 4. Selecione o conjunto a ser excluído e clique em **Excluir**. Clique em **Sim** para excluir permanentemente o conjunto de valores de dimensão.
 
 ## <a name="additional-resources"></a>Recursos adicionais

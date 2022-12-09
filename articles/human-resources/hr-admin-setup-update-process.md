@@ -2,7 +2,7 @@
 title: Atualizar processo
 description: O Microsoft Dynamics 365 Human Resources é um software como serviço (SaaS) que disponibiliza atualizações de serviço contínuas e touchless para alterações de aplicação e plataforma.
 author: twheeloc
-ms.date: 09/01/2022
+ms.date: 12/01/2022
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: twheeloc
 ms.search.validFrom: 2020-02-27
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 71815866ef9674f317b7f08ecf2a65b465ddfff3
-ms.sourcegitcommit: d2046cad5de570e6302a4390b41881a7ecb12e26
+ms.openlocfilehash: 197b3c5717494ab3c80a57cda337a9021293bf73
+ms.sourcegitcommit: 68efa7b89273d04484566cbe14d3533a8fd4ee53
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 09/15/2022
-ms.locfileid: "9520801"
+ms.lasthandoff: 12/02/2022
+ms.locfileid: "9819287"
 ---
 # <a name="update-process"></a>Atualizar processo
 
@@ -41,7 +41,7 @@ As atualizações são lançadas regularmente para todos os ambientes. O Human R
 
 As atualizações do Human Resources são aplicadas a todos os ambientes automaticamente. O Human Resources oferece dois tipos de versão:
 
-- **Atualizações de serviço**: atualizações ocorrem a cada duas semanas e incluem correções de bugs e novos recursos. As atualizações de serviço também incluem atualizações de plataforma aplicáveis quando são lançadas. Para obter mais informações sobre versões da plataforma, consulte [Novidades ou alterações em Atualizações de plataforma](../fin-ops-core/dev-itpro/get-started/whats-new-home-page.md). As atualizações têm uma distribuição global em etapas entre regiões. Para obter mais informações sobre atualizações, consulte [Novidades ou alterações no Dynamics 365 Human Resources](hr-admin-whats-new.md).
+- **Atualizações de serviço**: as atualizações de serviço incluem atualizações de plataforma aplicáveis quando são lançadas. Além das atualizações baseadas em exceção, as atualizações de serviço regulares ocorrem após a disponibilidade geral (GA) de atualizações da plataforma do Dynamics 365 Finance. Para obter mais informações sobre versões da plataforma, consulte [Novidades ou alterações em Atualizações de plataforma](../fin-ops-core/dev-itpro/get-started/whats-new-home-page.md). As atualizações têm uma distribuição global em etapas entre regiões. Para obter mais informações sobre atualizações, consulte [Novidades ou alterações no Dynamics 365 Human Resources](hr-admin-whats-new.md).
 
 - **Atualizações de soluções do Dataverse**: essas atualizações ocorrem aproximadamente a cada seis semanas, conforme a necessidade. Elas incluem novas entidades e alterações às entidades existentes no Dataverse. Essas atualizações serão lançadas nas mesmas regiões como as atualizações quinzenais, e levam até seis semanas para serem replicadas em todos os data centers. As atualizações da solução podem ou não estar alinhadas às atualizações de serviço quinzenais.
 
@@ -55,15 +55,6 @@ Quando necessário, o Human Resources também oferece os seguintes tipos de corr
 - **Correção de emergência**: hotfixes proativos e reativos que são independentes por natureza, podem incluir alterações de código ou somente para configuração para solucionar problemas de sites ativos e podem ocorrer sem um lançamento de atualização de serviço quinzenal
 
 As versões são analisadas, testadas e validadas em um ambiente interno. Após as compilações serem aprovadas, elas são implementadas na produção.
-
-## <a name="release-cadence-exceptions-in-2021"></a>Exceções de cadência da versão em 2021
-
-Para contabilizar feriados, a agenda de lançamentos para novembro e dezembro de 2021 é a seguinte:
-
-- Lançamento de novembro: 1 de novembro - 14 de novembro
-- Lançamento de dezembro: 29 de novembro - 12 de dezembro
- 
-A cadência de lançamentos de duas semanas será retomada normalmente em 10 de janeiro de 2022.
 
 ## <a name="communications"></a>Comunicações
 

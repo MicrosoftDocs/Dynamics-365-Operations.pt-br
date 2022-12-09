@@ -2,7 +2,7 @@
 title: Fluxo de trabalho do fornecedor
 description: Modifique as informações do fornecedor e o fluxo de trabalho de uso de aprová-las.
 author: sunfzam
-ms.date: 08/24/2018
+ms.date: 11/21/2020
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: twheeloc
 ms.search.validFrom: 2018-08-30
 ms.dyn365.ops.version: 8.0.4
-ms.openlocfilehash: 1801e3d90bbf80c59bb62329acc593d2c66a179c
-ms.sourcegitcommit: 5d1772bdeb21a9bec6dc49e64550aaf34127a4e2
+ms.openlocfilehash: cfc255265df48e4a47aee4f13016356fb4775aa7
+ms.sourcegitcommit: fb9b6969218f2b82f0a4c72bfad75387fe00395c
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/10/2022
-ms.locfileid: "8735657"
+ms.lasthandoff: 11/22/2022
+ms.locfileid: "9799455"
 ---
 # <a name="vendor-workflow"></a>Fluxo de trabalho do fornecedor
 
@@ -46,7 +46,7 @@ Antes de usar o recurso fluxo de trabalho do fornecedor, você deve habilitá-lo
 
 ## <a name="change-vendor-information-and-submit-the-changes-to-the-workflow"></a>Alterar informações do fornecedor e enviar as alterações para o fluxo de trabalho
 
-Quando alterar um campo que está habilitado para o fluxo de trabalho, a página **Alterações propostas** será exibida. Esta página mostra o valor original do campo e do novo valor inserido. O campo que você alterou foi revertido para o valor original. Uma mensagem de status também informa que as alterações não foram enviadas. 
+Quando alterar um campo que está habilitado para o fluxo de trabalho, a página **Alterações propostas** será exibida. Esta página mostra o valor original do campo e do novo valor inserido. O campo que você alterou foi revertido para o valor original. Uma mensagem de status informará que suas alterações não foram enviadas. 
 
 Cada vez que um campo que está habilitado para o fluxo de trabalho for alterado, o campo será adicionado à lista na página **Alterações propostas**. Para rejeitar o valor proposto para um campo, use o botão **Descartar** ao lado do campo na lista. Para descartar todas as alterações, use o botão **Descartar todas as alterações** na parte inferior da página. Selecione **OK** para fechar a página.
 

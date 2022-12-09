@@ -2,7 +2,7 @@
 title: Pagamentos antecipados do cliente
 description: Este artigo explica como configurar e processar pagamentos antecipados do cliente (também conhecido como depósitos do cliente).
 author: twheeloc
-ms.date: 04/30/2021
+ms.date: 11/21/2022
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: raprofit
 ms.search.validFrom: ''
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 88773067c472471fb75167712268d1076c1738a5
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: f085d45895530aaf0a16439f62dfc13b27da84b6
+ms.sourcegitcommit: fb9b6969218f2b82f0a4c72bfad75387fe00395c
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8861550"
+ms.lasthandoff: 11/22/2022
+ms.locfileid: "9799424"
 ---
 # <a name="customer-prepayments"></a>Pagamentos antecipados do cliente
 
@@ -32,7 +32,7 @@ O processo de configurar e trabalhar com pagamentos antecipados do cliente consi
 
 1. Crie um perfil de postagem do cliente para pagamentos antecipados.
 2. Defina o parâmetro **Perfil de postagem com comprovante de diário do pagamento antecipado**.
-3. Crie um diário de pagamento do cliente e marque a caixa de seleção **Comprovante de diário do pagamento antecipado** em cada linha.
+3. Crie um diário de pagamento do cliente e marque a caixa de seleção **Comprovante do diário de pagamento antecipado** em cada linha.
 4. Lançar o diário de pagamentos do cliente.
 5. Quando uma fatura é gerada, liquide o pagamento antecipado com ela usando a página **Liquidar transações em aberto**.
 

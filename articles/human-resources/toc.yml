@@ -570,6 +570,8 @@
               href: hr-leave-and-absence-suspend-leave.md
             - name: Solicitação de licença
               href: hr-employee-self-service-request-leave-of-absence.md
+            - name: Criar uma licença aberta
+              href: hr-create-open-leave-absence.md
             - name: Gerenciar licença de funcionário
               href: hr-leave-and-absence-manage-employee-leave.md
             - name: Exibir análises de licenças e ausências

@@ -2,7 +2,7 @@
 title: Configuração dos parâmetros de gerenciamento de crédito
 description: Este artigo descreve as opções que você pode usar para configurar o Gerenciamento de crédito de acordo com as necessidades da sua empresa.
 author: JodiChristiansen
-ms.date: 12/10/2021
+ms.date: 11/21/2022
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -12,12 +12,12 @@ ms.search.region: Global
 ms.author: twheeloc
 ms.search.validFrom: ''
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: 2ac5e0ba8c9279fc5f04a80d4444b11850e72d3c
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: 8955518e7b5c0200d3827c1c22b7d150a09be244
+ms.sourcegitcommit: fb9b6969218f2b82f0a4c72bfad75387fe00395c
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8876344"
+ms.lasthandoff: 11/22/2022
+ms.locfileid: "9799536"
 ---
 # <a name="credit-management-parameters-setup"></a>Configuração dos parâmetros de gerenciamento de crédito
 
@@ -44,9 +44,9 @@ Existem quatro FastTabs na seção **Crédito** onde é possível alterar os par
 
 ### <a name="credit-management-checkpoint"></a>Ponto de verificação de gerenciamento de crédito
 
-É possível definir o tempo usado para verificar ordens de venda no caso de problemas de crédito. A FastTab **Ponto de verificação de gerenciamento de crédito** identifica os processos de lançamento de documentos que incluem o processamento de regras de gerenciamento de crédito. Também é possível verificar as regras de crédito enquanto você executa um lançamento pro forma ou um lançamento completo da ordem de venda. Marque as caixas de seleção para definir os processos de lançamento que devem colocar uma ordem em espera se for encontrado um problema após o processamento das regras de bloqueio de gerenciamento de crédito.
+É possível definir o tempo usado para verificar ordens de venda no caso de problemas de crédito. A FastTab **Ponto de verificação de gerenciamento de crédito** identifica os processos de lançamento de documentos que incluem o processamento de regras de gerenciamento de crédito. Também é possível verificar as regras de crédito enquanto você executa um lançamento pro forma ou um lançamento completo da ordem de venda. Marque as caixas de seleção para definir os processos de lançamento que deverão colocar uma ordem em espera se for encontrado um problema após o processamento de regras de bloqueio de gerenciamento de crédito.
 
-Você também pode definir o número de dias de carência antes que as regras de crédito sejam verificadas novamente. Apesar de você poder especificar que as regras de gerenciamento de crédito sejam verificadas no lançamento, as regras não serão verificadas pelo número especificado de dias de carência. Por exemplo, você confirma uma ordem de venda no dia 1 e especifica dois dias de carência para a etapa de confirmação. Nesse caso, as regras de crédito não serão verificadas na próxima etapa de lançamento (por exemplo, a criação de uma guia de remessa ou o faturamento da ordem) até o dia 4. No dia 4 ou depois dele, as regras serão verificadas novamente quando ocorrer o lançamento, e o número de dias de carência será alterado para o valor especificado para o próximo ponto de verificação de lançamento.
+Você também pode definir o número de dias de carência antes que as regras de crédito sejam verificadas novamente. Apesar de você poder especificar que as regras de gerenciamento de crédito sejam verificadas no lançamento, as regras não serão verificadas pelo número especificado de dias de carência. Por exemplo, você confirma uma ordem de venda no dia um e especifica dois dias de carência para a etapa de confirmação. Nesse caso, as regras de crédito não serão verificadas na próxima etapa de lançamento (por exemplo, a criação de uma guia de remessa ou o faturamento da ordem) até o dia quatro. No dia quatro ou depois dele, as regras serão verificadas novamente quando ocorrer o lançamento, e o número de dias de carência será alterado para o valor especificado para o próximo ponto de verificação de lançamento.
 
 Se você não especificar o número de dias de carência, as regras de crédito serão verificadas a cada etapa de lançamento configurada para executar regras de gerenciamento de crédito. Se você liberar a ordem de venda sem lançar e, depois, executar a mesma etapa de processamento da ordem novamente, as regras de crédito serão verificadas de novo. Por exemplo, uma ordem é colocada em espera após uma confirmação, e você a libera com ou sem lançamento. Nesse caso, a ordem será colocada em espera novamente se você confirmá-la mais uma vez. Use os dias de carência se a ordem tiver de avançar para a próxima etapa de processamento sem ser colocada em espera novamente.
 
@@ -73,7 +73,7 @@ Várias estatísticas de gerenciamento de crédito são incluídas no Quadro de 
 
 - No Gerenciamento de crédito, o limite de crédito do cliente é mostrado na moeda do cliente. Você deve definir o tipo de taxa de câmbio para o limite de crédito na moeda do cliente. No campo **Tipo de taxa de câmbio de limite de crédito**, selecione o tipo de taxa de câmbio que deve ser usado para converter o limite de crédito principal para o limite de crédito do cliente.
 - Defina a opção **Permitir a edição manual de limites de crédito** como **Não** para impedir que os usuários editem os limites crédito na página **Cliente**. Se esta opção for definida como **Não**, as alterações no limite de crédito de um cliente só poderão ser feitas lançando transações de ajuste de limite de crédito.
-- Defina a opção **Ignorar reservas de estoque** como **Sim** para desconsiderar as reservas de estoque quando as regras de bloqueio de gerenciamento de crédito são verificadas. Nesse caso, o sistema verificará as quantidades completas de linha e habilitará os períodos de cortesia do ponto de verificação, independentemente da quantidade de reserva de estoque.
+- Defina a opção **Ignorar reservas de estoque** como **Sim** para desconsiderar as reservas de estoque quando as regras de bloqueio de gerenciamento de crédito são verificadas. Nesse caso, haverá uma verificação das quantidades e a habilitação de períodos de carência do ponto de verificação, seja qual for a quantidade de reserva de estoque.
 - Quando o gerenciamento de crédito está habilitado, a configuração do campo **Mensagem quando o limite de crédito for excedido** é usada para processar somente faturas de texto livre. Embora as mensagens ainda sejam adicionadas a ordens de venda quando os clientes excederam seu limite de crédito, a presença dessas mensagens não bloqueará a confirmação, a impressão de listas de separação e guias de remessa ou o lançamento de faturas.
 
     O gerenciamento de crédito é habilitado por padrão, mas você pode desabilitá-lo. Se estiver habilitado, você poderá usar os pontos de verificação e as regras de bloqueio de gerenciamento de crédito para identificar quando os clientes excederam seu limite de crédito. Se estiver desabilitado, as mensagens adicionadas às ordens de venda com base na configuração do campo **Mensagem quando o limite de crédito for excedido** podem ajudá-lo a identificar quando os clientes excederam seu limite de crédito.

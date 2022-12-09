@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: kweekley
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: f07748c2dc41f6411add1d54589652baa7fc3fbb
-ms.sourcegitcommit: cf6b764824bd1cf2c0dde6d37ddd0a7abab87ff0
+ms.openlocfilehash: 95a79b3c391c15099aee0a8d34419e1cf48fafbc
+ms.sourcegitcommit: 81bb8e51951395be3f18f45212e47e6c41656f6a
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/16/2022
-ms.locfileid: "9779429"
+ms.lasthandoff: 11/23/2022
+ms.locfileid: "9803982"
 ---
 # <a name="import-letter-of-credit"></a>Importar carta de crédito
 
@@ -42,7 +42,10 @@ Este procedimento usa a empresa de dados de demonstração USMF.
 10. Na lista, clique no link na linha selecionada.
 11. No campo **Data contábil**, insira uma data.
 12. No campo **Data de entrega**, insira uma data.
-    * Observação: o campo **Tipo de documento bancário** deve ser **Carta de crédito**.  
+
+>[!Note] 
+>O campo **Tipo de documento bancário** deve ser **Carta de crédito**.  
+
 13. Clique em **OK**.
 14. No campo **Número do item**, insira ou selecione um valor.
 15. Na lista, localize e selecione o PDV desejado.
@@ -97,7 +100,7 @@ Este procedimento usa a empresa de dados de demonstração USMF.
 1. No Painel de Ação, clique em **Receber**.
 2. Clique em **Recebimento de produtos**.
 3. No campo **PurchParmTable_Num**, digite um valor.
-    * Selecione o número de remessa criado com referência à Carta de crédito.  
+    * Selecione o **Número de remessa** criado com referência à Carta de crédito.  
 4. Na lista, clique no link na linha selecionada.
 5. No campo **Data de recebimento de produtos**, insira uma data.
 6. Clique em **OK**.
@@ -108,7 +111,7 @@ Este procedimento usa a empresa de dados de demonstração USMF.
 1. Acesse **Gerenciamento de caixa e bancos > Cartas de crédito > Importar carta de crédito e importar coleção**.
 2. Na lista, localize e selecione o PDV desejado.
 3. Na lista, clique no link na linha selecionada.
-    * O status de Importar Carta de crédito.     
+    * Verifique o **Status de Importar carta de crédito**.     
 4. Feche a página.
 5. Feche a página.
 
@@ -152,7 +155,7 @@ Este procedimento usa a empresa de dados de demonstração USMF.
 6. No campo **Data**, insira uma data.
 7. No campo **Conta**, especifique os valores desejados.
 8. Clique em **Liquidar transações**.
-9. Expanda a seção Totais.
+9. Expanda a seção **Totais**.
 10. No campo **Mostrar**, selecione uma opção.
     * Verifique se os campos **Número do documento bancário** e **Número de remessa** foram atualizados.  
 11. Marque a caixa de seleção **Marcar**.
@@ -167,12 +170,12 @@ Este procedimento usa a empresa de dados de demonstração USMF.
 1. Acesse **Gerenciamento de caixa e bancos > Cartas de crédito > Importar carta de crédito e importar coleção**.
 2. Na lista, localize e selecione o PDV desejado.
 3. Na lista, clique no link na linha selecionada.
-    * O status de Importar Carta de crédito.   
+    * Verifique o **Status de Importar carta de crédito**.   
 4. Feche a página.
 
 ## <a name="verify-the-bank-facility-limit-and-utilization-report"></a>Verifique o limite de recurso do banco e o relatório de utilização
 1. Acesse **Gerenciamento de caixa e bancos > Consultas e relatórios > Cartas de crédito ou garantia > Relatório de utilização e facilidades bancárias**.
-2. Expanda os Registros para incluir a seção.
+2. Expanda a seção **Registros a serem incluídos**.
 3. Clique em **Filtrar**.
     * Defina o campo **Critérios** com a conta bancária necessária.  
 4. No campo **Critérios**, insira ou selecione um valor.

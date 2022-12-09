@@ -1,8 +1,8 @@
 ---
 title: Interface do Designer de Relatórios
-description: Este artigo explica como navegar através do Designer de relatórios e como usar as diversas opções para atender a necessidades específicas.
+description: Este artigo explica como navegar pelo Report Designer e como usar as diversas opções para atender a necessidades específicas.
 author: aprilolson
-ms.date: 06/20/2017
+ms.date: 11/22/2022
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -15,20 +15,20 @@ ms.dyn365.ops.version: AX 7.0.1
 ms.custom: 59041
 ms.assetid: 054de5b0-8618-4195-be12-f031b4bb4d74
 ms.search.form: FinancialReports
-ms.openlocfilehash: 3bc3ddb9f04f7f6f2a63b2ecccfe04fbaf2eadfc
-ms.sourcegitcommit: 87e727005399c82cbb6509f5ce9fb33d18928d30
+ms.openlocfilehash: 25d913e6f5d4c95dceda1291a2c33abe37348574
+ms.sourcegitcommit: d27fef61593c6d1e9e26d5c9fad21411bc52fabc
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/12/2022
-ms.locfileid: "9274717"
+ms.lasthandoff: 11/23/2022
+ms.locfileid: "9802733"
 ---
 # <a name="report-designer-interface"></a>Interface do Designer de Relatórios
 
 [!include [banner](../includes/banner.md)]
 
-Este artigo explica como navegar através do Designer de relatórios e como usar as diversas opções para atender a necessidades específicas.
+Este artigo explica como navegar pelo Report Designer e como usar as diversas opções para atender a necessidades específicas.
 
-## <a name="report-designer-menu-commands"></a>Comandos de menu do Designer de Relatórios
+## <a name="report-designer-menu-commands"></a>Comandos de menu do Report Designer
 
 As tabelas a seguir descrevem os comandos de menu e as opções que podem ser usadas quando você cria relatórios financeiros. Alguns comandos de menu e opções estão disponíveis apenas em condições específicas. Por exemplo, os comandos para promover e rebaixar as unidades organizacionais estão disponíveis apenas enquanto você está modificando uma definição da hierarquia organizacional.
 
@@ -39,18 +39,18 @@ O menu **Arquivo** está disponível a todos os usuários e inclui os comandos a
 | Comando                           | Descrição |
 |-----------------------------------|-------------|
 | Novo                               | Criar uma nova definição de relatório, definição de linha, definição de coluna, definição de árvore de relatório, definição de grupo de relatórios ou pasta. Opções adicionais estão disponíveis, dependendo da sua função de usuário. |
-| Abertas                              | Abrir uma definição de linha existente, definição de coluna, definição de árvore de relatórios ou definição de relatório. |
+| Abertas                              | Abrir uma definição existente de linha, de coluna, de hierarquia organizacional ou de relatório. |
 | Fechar                             | Fecha o bloco de construção atual. |
-| Fechar Tudo                         | Fecha todos os blocos de construção. |
+| Fechar tudo                         | Fecha todos os blocos de construção. |
 | Salvar                              | Salvar a definição atual de linha, de coluna, de hierarquia organizacional ou de relatório. |
 | Salvar como                           | Salva a definição atual de linha, de coluna, de hierarquia organizacional ou de relatório com um novo nome. |
 | Propriedades                        | Abrir a caixa de diálogo **Propriedades**, na qual você pode alterar o nome e a descrição de um relatório. |
 | Gerar                          | Gera o relatório atual. Esse comando está disponível em uma definição de relatório. |
 | Exibir relatório                       | Abra a versão mais recente do relatório gerado. Este comando está disponível em uma definição de relatório se você gerou pelo menos um relatório. |
-| Definições de Relatório Recentes         | Mostra uma lista de relatórios que foram criados ou modificados. Em seguida, é possível selecionar um relatório na lista. |
-| Definições de Linha Recentes            | Mostra uma lista de definições de linha que foram criadas ou modificadas. EM seguida, é possível selecionar uma definição da linha na lista. |
-| Definições de Coluna Recentes         | Exiba uma lista de definições da coluna que foram criadas ou modificadas recentemente. Em seguida, é possível selecionar uma definição da linha na lista. |
-| Definições de Hierarquia Organizacional Recentes | Mostra uma lista de definições da hierarquia organizacional que foram criadas ou modificadas. Em seguida, é possível selecionar uma definição da hierarquia organizacional na lista. |
+| Definições de relatório recentes         | Mostra uma lista de relatórios que foram criados ou modificados. Em seguida, é possível selecionar um relatório na lista. |
+| Definições de linha recentes            | Mostra uma lista de definições de linha que foram criadas ou modificadas. EM seguida, é possível selecionar uma definição da linha na lista. |
+| Definições de coluna recentes         | Exiba uma lista de definições da coluna que foram criadas ou modificadas recentemente. Em seguida, é possível selecionar uma definição da linha na lista. |
+| Definições de árvore de relatórios recentes | Mostra uma lista de definições da hierarquia organizacional que foram criadas ou modificadas. Em seguida, é possível selecionar uma definição da hierarquia organizacional na lista. |
 | Sair                              | Sai do Report Designer. |
 
 ### <a name="edit-menu"></a>Menu Editar
@@ -67,19 +67,19 @@ O menu **Editar** está disponível para usuários com a função **Designer** o
 | Limpar                                  | Exclui o conteúdo da célula do bloco de construção selecionada. |
 | Localizar                                   | Abra a caixa de diálogo **Localizar e Substituir**, na qual você pode pesquisar o texto no painel de exibição. |
 | Substituir                                | Abra a caixa de diálogo **Localizar e Substituir**, na qual você pode pesquisar e substituir o texto no painel de exibição. |
-| Inserir Linhas de Dimensões            | Abra a caixa de diálogo **Inserir Linhas de Dimensões**, na qual você pode selecionar os valores de dimensão a serem incluídos na definição de linha. Esse comando está disponível em uma definição de linha. |
-| Renumerar Linhas                          | Renumera todos os códigos numéricos das linhas. Esse comando está disponível em uma definição de linha. |
-| Links de Linha                              | Abra a caixa de diálogo **Links de Linhas**, na qual você pode especificar as origens de definições de links de dados e as definições de árvores de relatórios. Esse comando está disponível em uma definição de linha. |
-| Ajuste de Arredondamento                    | Abra a caixa de diálogo **Ajustes de Arredondamento**, na qual você pode especificar os parâmetros para arredondamento. Esse comando está disponível em uma definição de linha. |
-| Gerenciar Conjuntos de Dimensões                  | Abra a caixa de diálogo **Conjuntos de Dimensões**, na qual você pode criar e modificar conjuntos de dimensões. Esse comando está disponível em uma definição de linha ou uma definição de hierarquia organizacional. |
-| Inserir Linha                             | Insere uma linha em branco na definição de linha ou uma linha de cabeçalho em branco na definição de coluna. Esse comando está disponível em uma definição de linha ou de coluna. |
-| Excluir Linha                             | Exclui a linha selecionada da definição de linha ou a linha de cabeçalho selecionada na definição de coluna. Esse comando está disponível em uma definição de linha ou de coluna. |
-| Inserir Coluna                          | Inserir uma coluna vazia na definição de coluna. Esse comando está disponível em uma definição de coluna. |
-| Excluir Coluna                          | Exclui a coluna selecionada na definição de coluna. Esse comando está disponível em uma definição de coluna. |
-| Inserir Unidades Organizacionais de Dimensões | Abra a caixa de diálogo **Inserir Unidades de Relatório de Dimensões**, na qual você pode selecionar os valores de dimensão a serem incluídos na definição de árvore de relatórios. Esse comando está disponível em uma definição de hierarquia organizacional. |
-| Importar Hierarquia do Conjunto de Dimensões         | Abra a caixa de diálogo **Hierarquia de Conjunto de Dimensões**, na qual você pode importar uma hierarquia de conjunto de dimensões dos dados financeiros. Este comando está disponível em uma definição de árvore de relatórios de um sistema baseado em dimensão..\\financial-dimensions\\. |
-| Inserir Unidade Organizacional                  | Inserir uma linha em branco na definição de árvore de relatórios. Esse comando está disponível em uma definição de hierarquia organizacional. |
-| Excluir Unidade Organizacional                  | Exclui a linha selecionada da unidade organizacional da definição de hierarquia organizacional. Esse comando está disponível em uma definição de hierarquia organizacional. |
+| Inserir linhas de dimensões            | Abra a caixa de diálogo **Inserir Linhas de Dimensões**, na qual você pode selecionar os valores de dimensão a serem incluídos na definição de linha. Esse comando está disponível em uma definição de linha. |
+| Renumerar linhas                          | Renumera todos os códigos numéricos das linhas. Esse comando está disponível em uma definição de linha. |
+| Links de linha                              | Abra a caixa de diálogo **Links de Linhas**, na qual você pode especificar as origens de definições de links de dados e as definições de árvores de relatórios. Esse comando está disponível em uma definição de linha. |
+| Ajuste de arredondamento                    | Abra a caixa de diálogo **Ajustes de Arredondamento**, na qual você pode especificar os parâmetros para arredondamento. Esse comando está disponível em uma definição de linha. |
+| Gerenciar conjuntos de dimensões                  | Abra a caixa de diálogo **Conjuntos de Dimensões**, na qual você pode criar e modificar conjuntos de dimensões. Esse comando está disponível em uma definição de linha ou uma definição de hierarquia organizacional. |
+| Inserir linha                             | Insere uma linha em branco na definição de linha ou uma linha de cabeçalho em branco na definição de coluna. Esse comando está disponível em uma definição de linha ou de coluna. |
+| Excluir linha                             | Exclui a linha selecionada da definição de linha ou a linha de cabeçalho selecionada na definição de coluna. Esse comando está disponível em uma definição de linha ou de coluna. |
+| Inserir coluna                          | Inserir uma coluna vazia na definição de coluna. Esse comando está disponível em uma definição de coluna. |
+| Excluir coluna                          | Exclui a coluna selecionada na definição de coluna. Esse comando está disponível em uma definição de coluna. |
+| Inserir unidades de relatório de dimensões | Abra a caixa de diálogo **Inserir Unidades de Relatório de Dimensões**, na qual você pode selecionar os valores de dimensão a serem incluídos na definição de árvore de relatórios. Esse comando está disponível em uma definição de hierarquia organizacional. |
+| Importar hierarquia do conjunto de dimensões         | Abra a caixa de diálogo **Hierarquia de Conjunto de Dimensões**, na qual você pode importar uma hierarquia de conjunto de dimensões dos dados financeiros. Este comando está disponível em uma definição de árvore de relatórios de um sistema baseado em dimensão..\\financial-dimensions\\. |
+| Inserir unidade de relatórios                  | Inserir uma linha em branco na definição de árvore de relatórios. Esse comando está disponível em uma definição de hierarquia organizacional. |
+| Excluir unidade de relatórios                  | Exclui a linha selecionada da unidade organizacional da definição de hierarquia organizacional. Esse comando está disponível em uma definição de hierarquia organizacional. |
 
 ### <a name="view-menu"></a>Menu exibir
 
@@ -89,7 +89,7 @@ O menu **Exibir** está disponível para todos os usuários e inclui os comandos
 |-----------------|------------------------------------------------------------------------|
 | Painel de Navegação | Mostrar ou ocultar o painel de navegação.                                      |
 | Barras de ferramentas        | Selecionar as barras de ferramentas que estão visíveis.                                  |
-| Barra de Status      | Mostrar ou ocultar as informações de status na janela **Designer de Relatórios**. |
+| Barra de Status      | Mostrar ou ocultar as informações de status na janela **Report Designer**. |
 | Página de Boas-vindas    | Abrir a página de **Boas-vindas**.                                             |
 
 ### <a name="format-menu"></a>Menu Formatar
@@ -98,8 +98,8 @@ O menu **Formatar** está disponível para usuários com a função **Designer**
 
 | Comando               | Descrição |
 |-----------------------|-------------|
-| Estilos e Formatação | Abra a caixa de diálogo **Estilos e Formatação**, na qual você pode criar e modificar o estilo do texto em definições de linha e definições da coluna. Esse comando está disponível em uma definição de linha ou de coluna. |
-| Largura da Coluna          | Abra a caixa de diálogo **Largura da Coluna**, na qual você pode definir a largura da coluna selecionada. Esse comando está disponível em uma definição de linha, de coluna ou de hierarquia organizacional. |
+| Estilos e Formatação | Abra a caixa de diálogo **Estilos e formatação**, na qual você pode criar e modificar o estilo do texto em definições de linha e definições da coluna. Esse comando está disponível em uma definição de linha ou de coluna. |
+| Largura da Coluna          | Abra a caixa de diálogo **Largura da coluna**, na qual você pode definir a largura da coluna selecionada. Esse comando está disponível em uma definição de linha, de coluna ou de hierarquia organizacional. |
 | Ocultar                  | Oculte a coluna selecionada. Esse comando está disponível em uma definição de linha, de coluna ou de hierarquia organizacional. |
 | Mostrar                | Torna visíveis as colunas ocultas entre as colunas selecionadas. Esse comando está disponível em uma definição de linha, de coluna ou de hierarquia organizacional. |
 
@@ -110,7 +110,7 @@ O menu **Empresa** está disponível para usuários com a função **Designer** 
 | Comando               | Descrição                                                                                                            |
 |-----------------------|------------------------------------------------------------------------------------------------------------------------|
 | Empresas             | Abra a caixa de diálogo **Empresas**, na qual você pode criar e modificar empresas.                                          |
-| Grupos de Blocos de Construção | Abra a caixa de diálogo **Grupos do Bloco de Construção**, na qual é possível criar, modificar, importar exportar grupos do bloco de construção. |
+| Grupos de Blocos de Construção | Abra a caixa de diálogo **Grupos de blocos de construção**, na qual é possível criar, modificar, importar e exportar grupos de blocos de construção. |
 
 ### <a name="go-menu"></a>Menu Ir
 
@@ -162,7 +162,7 @@ O menu **Ajuda** está disponível para todos os usuários e inclui os comandos 
 | Ajuda    | Abra a página do artigo de ajuda para relatórios financeiros. |
 |         |                                                                          |
 
-## <a name="report-designer-toolbar-buttons"></a>Botões da barra de ferramentas do Designer de Relatórios
+## <a name="report-designer-toolbar-buttons"></a>Botões da barra de ferramentas do Report Designer
 As tabelas a seguir descrevem os botões da barra de ferramentas que você pode usar quando cria relatórios. Alguns botões da barra de ferramentas estão disponíveis apenas em circunstâncias específicas. Por exemplo, os botões para promover e rebaixar as unidades organizacionais estão disponíveis apenas enquanto você está modificando uma definição da hierarquia organizacional.
 
 ### <a name="standard-toolbar"></a>Barra de ferramentas padrão
@@ -194,18 +194,18 @@ A barra de ferramentas padrão fornece acesso rápido a comandos de arquivo e ed
 
 A barra de ferramentas de formatação fornece acesso fácil a comandos de estilo. Esta barra de ferramentas inclui os botões a seguir.
 
-| Botão                                                                                                       | descrição                                             |
-|--------------------------------------------------------------------------------------------------------------|---------------------------------------------------------|
-| [![Botão Estilo da fonte.](./media/formattingc130389.png)](./media/formattingc130389.png)                         | Aplicar o estilo de fonte selecionado ao texto atual.      |
-| [![Botão Fonte.](./media/fonttype.png)](./media/fonttype.png)                                                 | Defina o texto atual para a fonte selecionada.              |
-| [![Botão Tamanho da fonte.](./media/fontsize.png)](./media/fontsize.png)                                            | Defina o texto atual para o tamanho de fonte selecionado (em pontos). |
-| [![Botão Negrito.](./media/boldc130389.png)](./media/boldc130389.png)                                           | Tornar negrito o texto atual.                             |
-| [![botão Itálico.](./media/italicsc130389.png)](./media/italicsc130389.png)                                   | Tornar itálico o texto atual.                           |
-| [![Botão Sublinhar.](./media/underlinec130389.png)](./media/underlinec130389.png)                            | Sublinhar o texto atual.                             |
-| [![Botão Diminuir recuo.](./media/outdentlsc130389.png)](./media/outdentlsc130389.png)                      | Diminuir o recuo do texto atual.                |
-| [![Botão Aumentar recuo.](./media/indentlsc130389.png)](./media/indentlsc130389.png)                        | Aumentar o recuo do texto atual.                |
-| [![Botão Cor do plano de fundo.](./media/fillbackgroundcolorc130389.png)](./media/fillbackgroundcolorc130389.png) | Alterar a cor de plano de fundo da célula atual.        |
-| [![Botão Cor da fonte.](./media/fontcolorc130389.png)](./media/fontcolorc130389.png)                           | Alterar a cor do texto atual.                   |
+| Botão                                                                                                       | descrição                                           |
+|--------------------------------------------------------------------------------------------------------------|--------------------------------------------------|
+| [![Botão Estilo da fonte.](./media/formattingc130389.png)](./media/formattingc130389.png)                         | Aplicar o estilo de fonte selecionado ao texto atual.   |
+| [![Botão Fonte.](./media/fonttype.png)](./media/fonttype.png)                                                 | Defina o texto atual para a fonte selecionada.           |
+| [![Botão Tamanho da fonte.](./media/fontsize.png)](./media/fontsize.png)                                            | Defina o texto atual com o tamanho de fonte selecionado (em pontos). |
+| [![Botão Negrito.](./media/boldc130389.png)](./media/boldc130389.png)                                           | Tornar negrito o texto atual.                          |
+| [![botão Itálico.](./media/italicsc130389.png)](./media/italicsc130389.png)                                   | Tornar itálico o texto atual.                        |
+| [![Botão Sublinhar.](./media/underlinec130389.png)](./media/underlinec130389.png)                            | Sublinhar o texto atual.                          |
+| [![Botão Diminuir recuo.](./media/outdentlsc130389.png)](./media/outdentlsc130389.png)                      | Diminuir o recuo do texto atual.             |
+| [![Botão Aumentar recuo.](./media/indentlsc130389.png)](./media/indentlsc130389.png)                        | Aumentar o recuo do texto atual.             |
+| [![Botão Cor do plano de fundo.](./media/fillbackgroundcolorc130389.png)](./media/fillbackgroundcolorc130389.png) | Alterar a cor de plano de fundo da célula atual.     |
+| [![Botão Cor da fonte.](./media/fontcolorc130389.png)](./media/fontcolorc130389.png)                           | Alterar a cor do texto atual.                |
 
 ### <a name="report-designer-toolbar"></a>Barra de ferramentas do designer de relatórios
 
@@ -213,9 +213,9 @@ A barra de ferramentas do designer de relatórios fornece acesso rápido aos com
 
 | Botão                                                                                              | descrição |
 |-----------------------------------------------------------------------------------------------------|-------------|
-| [![Botão Definição de relatório.](./media/reportc130389.png)](./media/reportc130389.png)                 | Mostrar a definição de relatório que está listada no menu **Janela**. |
-| [![Botão Definição de linha.](./media/rowc130389.png)](./media/rowc130389.png)                          | Exibe a definição que é atribuída à definição do relatório ativo. |
-| [![Botão Definição de coluna.](./media/columnc130389.png)](./media/columnc130389.png)                 | Exibe a definição de coluna atribuída à definição de relatório ativo. |
+| [![Botão Definição de relatório.](./media/reportc130389.png)](./media/reportc130389.png)            | Mostrar a definição de relatório que está listada no menu **Janela**. |
+| [![Botão Definição de linha.](./media/rowc130389.png)](./media/rowc130389.png)             | Exibe a definição que é atribuída à definição do relatório ativo. |
+| [![Botão Definição de coluna.](./media/columnc130389.png)](./media/columnc130389.png)  | Exibe a definição de coluna atribuída à definição de relatório ativo. |
 | [![Botão Definição de árvore de relatórios.](./media/treec130389.png)](./media/treec130389.png)             | Exibe a definição de hierarquia organizacional atribuída à definição de relatório ativa. |
 | [![Botão Visualizador de Relatórios.](./media/reportviewerc130389.png)](./media/reportviewerc130389.png)         | Inicia o visualizador de relatórios e mostra a versão mais recente do relatório gerado. Este botão está disponível a partir de uma definição de relatório se você gerou pelo menos um relatório. |
 | [![Botão Gerar relatório.](./media/generate-to-ddvc130389.png)](./media/generate-to-ddvc130389.png) | Gerar um relatório a partir da definição de relatório ativa. Este botão está disponível em uma definição de relatório. |

@@ -2,7 +2,7 @@
 title: Exibir relatórios financeiros
 description: Este artigo descreve como exibir e explorar relatórios financeiros no Microsoft Dynamics 365 Finance. Ele inclui informações sobre as várias opções que você pode aplicar a relatórios financeiros para alterar sua aparência e os dados que eles incluem.
 author: kweekley
-ms.date: 03/25/2019
+ms.date: 11/22/2022
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: kweekley
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 2d4b28add4406b2248a2ce842072e577ecd760cd
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: 0f932bbef2543e4894c65b9a04c1ef66f1b3ab8e
+ms.sourcegitcommit: d27fef61593c6d1e9e26d5c9fad21411bc52fabc
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8907882"
+ms.lasthandoff: 11/23/2022
+ms.locfileid: "9802382"
 ---
 # <a name="view-financial-reports"></a>Exibir relatórios financeiros
 
@@ -31,7 +31,7 @@ Este artigo descreve como exibir e explorar relatórios financeiros. Ele inclui 
 ## <a name="financial-reporting-overview"></a>Visão geral de relatórios financeiros
 
 ## <a name="open-a-financial-report"></a>Abrir um relatório financeiro
-Para abrir um relatório, selecione o nome do relatório. Na primeira vez que um relatório for aberto, será gerado automaticamente para o mês anterior. Por exemplo, se você abrir um relatório pela primeira vez em agosto de 2015, o relatório é gerado para 31 de julho de 2015. Depois que um relatório for aberto, você pode começar a explorá-la ao aprofundamento de partes específicas de dados e alterar opções de relatório.
+Para abrir um relatório, selecione o nome do relatório. Na primeira vez que um relatório for aberto, será gerado automaticamente para o mês anterior. Por exemplo, se você abrir um relatório pela primeira vez em agosto de 2020, o relatório é gerado para 31 de julho de 2020. Depois que um relatório for aberto, você pode começar a explorá-la ao aprofundamento de partes específicas de dados e alterar opções de relatório.
 
 ## <a name="drill-down-on-a-financial-report"></a>Busca detalhada em um relatório financeiro
 Os relatórios financeiros podem incluir vários níveis de detalhe. O nível financeiro é o primeiro nível exibido quando você abre um relatório financeiro. Para ir até o nível de conta, selecione os dados sobre os quais realizar a busca detalhada. Por exemplo, para visualizar os detalhes da conta para vendas, selecione os dados de vendas que você deseja explorar. No nível de conta, você pode fazer a busca detalhada para visualizar as transações que compõem o saldo da conta. Existem duas maneiras de visualizar as transações: transações de relatório e transações de comprovante.
@@ -46,12 +46,12 @@ Você pode aplicar filtros de atributo e dimensão ou alterar o cenário de orç
 
 -   Para aplicar filtros de atributo em um relatório, selecione **Adicionar um filtro de atributo**. Selecione o atributo, digite o valor do atributo, e clique em **OK**. Por exemplo, se você selecionar o atributo **Categoria da Conta**, insira **VENDAS** como valor de atributo. Para remover um filtro de atributo, clique em **Limpar**.
 -   Para aplicar filtros de dimensão em um relatório, selecione **Adicionar um filtro de dimensão**. Selecione a dimensão e, em seguida, digite o ID de dimensão ou selecione a dimensão na lista. Para remover um filtro de dimensão, clique em **Limpar**.
--   Para alterar o cenário em um relatório **Real versus orçamento**, selecione um novo cenário, e clique em **OK**. Se o cenário selecionado for de um ano fiscal diferente, nenhum resultado será retornado. Por exemplo, se for gerado um relatório para FY2015, o cenário atual for de FY2015 e o novo cenário selecionado for relativo a FY2016, nenhum resultado será retornado. Se for necessário um novo cenário para outro ano fiscal, gere uma nova versão do relatório para o ano fiscal relacionado ao cenário.
+-   Para alterar o cenário em um relatório **Real versus orçamento**, selecione um novo cenário, e clique em **OK**. Se o cenário selecionado for de um ano fiscal diferente, nenhum resultado será retornado. Por exemplo, se for gerado um relatório para FY2015, o cenário atual for de FY2020 e o novo cenário selecionado for relativo a FY2016, nenhum resultado será retornado. Se for necessário um novo cenário para outro ano fiscal, gere uma nova versão do relatório para o ano fiscal relacionado ao cenário.
 
 Quando você clica em **OK**, todas as opções selecionadas serão aplicadas ao relatório. Se você decidir que não deseja aplicar as opções selecionadas, clique em **Cancelar**.
 
 ## <a name="update-a-financial-report"></a>Atualizar um relatório financeiro
-Você pode atualizar um relatório financeiro para que ele mostre os dados mais recentes do período e ano para o qual foi gerado. Por exemplo, se você atualizar um relatório financeiro que foi gerado para outubro de 2015, o relatório irá refletir todas as novas transações que foram lançadas para outubro de 2015. Para atualizar um relatório financeiro, no Painel de Ação, clique em **Atualizar**. Um relatório atualizado está disponível apenas para a pessoa que o atualizou. Para que outras pessoas possam visualizar os mesmos dados, o relatório deve ser publicado.
+Você pode atualizar um relatório financeiro para que ele mostre os dados mais recentes do período e ano para o qual foi gerado. Por exemplo, se você atualizar um relatório financeiro que foi gerado para outubro de 2020, o relatório irá refletir todas as novas transações que foram lançadas para outubro de 2020. Para atualizar um relatório financeiro, no Painel de Ação, clique em **Atualizar**. Um relatório atualizado está disponível apenas para a pessoa que o atualizou. Para que outras pessoas possam visualizar os mesmos dados, o relatório deve ser publicado.
 
 ## <a name="publish-a-financial-report"></a>Publicar um relatório financeiro
 Após atualizar um relatório financeiro, é possível publicá-lo. Outras pessoas na organização poderão então visualizá-lo. Para publicar um relatório, no Painel de Ação, clique em **Publicar**.

@@ -2,7 +2,7 @@
 title: Liquidações de razão
 description: Este artigo explica como usar a página de liquidações do razão para liquidar as transações do razão e pagamentos revertidos.
 author: kweekley
-ms.date: 01/31/2022
+ms.date: 11/21/2022
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: kweekley
 ms.search.validFrom: 2018-11-30
 ms.dyn365.ops.version: 8.1.1
-ms.openlocfilehash: 39fd6c6677565a4b1e9a9bf6f43a4c630cb5e07b
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: 6357629f83873437eb62a4839fafd8efd98fffc1
+ms.sourcegitcommit: 9041fa6e00ecbdf1a1880659d9bdfff4d888f20e
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8902477"
+ms.lasthandoff: 11/22/2022
+ms.locfileid: "9800622"
 ---
 # <a name="ledger-settlements"></a>Liquidações do razão
 
@@ -75,7 +75,7 @@ Para liquidar as transações do razão, siga estas etapas.
 ## <a name="make-transactions-easier-to-find"></a>Torne as transações mais fáceis de serem encontradas
 A página **Liquidações do razão** inclui recursos que facilitam a exibição das transações necessárias para liquidação.
 
-- Usar o filtro **Marcado** para filtrar as transações dependendo se a caixa de seleção **Marcado** está selecionada para elas.
+- Use o filtro **Marcado** para filtrar transações dependendo se a caixa de seleção **Marcado** estiver selecionada para elas.
 - Use o filtro **Status** para filtrar transações com base no status.
 - Selecionar **Classificar por valor** para classificar os valores por valor absoluto. Dessa forma, você pode agrupar os débitos e os créditos que têm o mesmo valor.
 
@@ -90,7 +90,12 @@ Você pode reverter um pagamento feito por engano.
     > [!IMPORTANT]
     > Todas as transações com a mesma ID de liquidação serão revertidas, mesmo que não estejam marcadas. Por exemplo, quatro linhas foram marcadas e liquidadas. As quatro linhas têm a mesma ID de liquidação. Se você marcar uma dessas quatro linhas e, depois, selecionar **Reverter transações marcadas**, as quatro linhas serão revertidas.
 
+## <a name="unmark-for-selected-users"></a>Desmarcar para usuários selecionados
+Selecione **Desmarcar para usuários selecionados** para desmarcar transações liquidadas do razão para todas as entidades legais por ID de usuário. Por exemplo, isso permitirá que um gerente de contabilidade desmarque transações para um usuário que saiu de férias antes de concluir a liquidação ou para um usuário que saiu da organização. A ação permitirá que essas transações sejam marcadas para liquidação por outro usuário.
 
+
+## <a name="unmark-all-transactions"></a>Desmarcar todas as transações
+Selecione **Desmarcar todas as transações** para desmarcar todas as transações liquidadas do razão para todos os usuários e entidades legais. Esta ação está disponível para a função de administrador.
 
 
 

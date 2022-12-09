@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: jiwo
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: a202dac3880717e9498212ca34570101188f48ce
-ms.sourcegitcommit: 631d2cea52590af15f208e9af584446e85540fcf
+ms.openlocfilehash: b26d2ec261720499fc309a5fb850de2cb796bd8b
+ms.sourcegitcommit: d27fef61593c6d1e9e26d5c9fad21411bc52fabc
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/07/2022
-ms.locfileid: "8725195"
+ms.lasthandoff: 11/23/2022
+ms.locfileid: "9802598"
 ---
 # <a name="trial-balance-financial-reports"></a>Relatórios financeiros de balancete
 
@@ -32,8 +32,8 @@ Este artigo descreve os relatórios padrão para saldos de teste. Ele também de
 
 Três relatórios do balancete estão disponíveis no relatório financeiro.
 
-| Relatório padrão                                 | O que ele faz                                                                                                                                                                                        |
-|------------------------------------------------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| Relatório padrão                                 | O que ele faz                                                                            |
+|------------------------------------------------|--------------------------------------------------------------------------------------|
 | Balancete Detalhado - Padrão               | Fornece informações de saldo para todas as contas e inclui saldos de débito e crédito e suas redes com a data de transação, comprovante e descrição do diário.                  |
 | Resumo do Balancete – Padrão                | Fornece informações de saldo de todas as contas e inclui saldos de abertura e de fechamento e os saldos de débito e de crédito, com a diferença líquida.                                        |
 | Resumo do Balancete Ano a Ano – Padrão | Fornece informações sobre saldo para todas as contas e inclui saldos de abertura e de fechamento e saldos de débito e crédito com a diferença líquida para o ano atual e o ano passado. |
@@ -54,7 +54,7 @@ Os relatórios financeiros de balancete usam os seguintes blocos de construção
 
 A definição de linha, balancete - padrão, contém uma única linha que puxa todas as contas principais. Consequentemente, qualquer pessoa pode gerar o relatório sem fazer modificações. Ao visualizar o relatório, você navega na linha única para ver os detalhes sobre cada conta. É possível modificar a definição da linha para que inclua mais detalhes. Para modificar a definição da linha Balancete – Padrão para que inclua linhas para todas as contas, siga as etapas.
 
-1.  Clique em **Editar**, e clique em **Inserir linhas nas dimensões**. O comando **Inserir linhas para dimensões** permite escolher as dimensões desejadas em sua definição de linha. Para esta definição da linha, você utilizará **Conta principal**.
+1.  Clique em **Editar** e, depois, em **Inserir linhas de dimensões**. O comando **Inserir linhas de dimensões** permite escolher as dimensões desejadas em sua definição de linha. Para esta definição da linha, você utilizará **Conta principal**.
 2.  Verifique se **Conta principal** contém todos os E comerciais (&) e clique em **OK**.
 
 Agora, a definição da linha contém todas as contas principais para sua entidade legal padrão.

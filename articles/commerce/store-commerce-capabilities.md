@@ -9,12 +9,12 @@ ms.reviewer: josaw
 ms.search.region: Global
 ms.author: anupamar
 ms.search.validFrom: 2022-09-30
-ms.openlocfilehash: d713cc0e9537ae20ffddee6e77779a16e74bd779
-ms.sourcegitcommit: eb9a53d5cf10f1ada68757536d6a94b2cb00929d
+ms.openlocfilehash: 58f2ab1f913d3629de7971c8eeb2d1821161e44f
+ms.sourcegitcommit: 29d9a7573bdac004726da88a9d7b2cc9c383e9ca
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/27/2022
-ms.locfileid: "9725629"
+ms.lasthandoff: 11/18/2022
+ms.locfileid: "9788503"
 ---
 # <a name="store-commerce-app-capabilities"></a>Recursos do aplicativo Store Commerce
 
@@ -41,7 +41,7 @@ Este artigo fornece uma visão geral dos recursos do aplicativo Store Commerce.
 
 | Capacidade | Descrição | Documentação | Conteúdo complementar |
 |---|---|---|---|
-| Vários fatores forma | O aplicativo Store Commerce tem suporte em vários fatores forma de dispositivo, como PCs, tablets e dispositivos móveis. A interface do usuário (UI) responsiva permite que o layout seja redimensionado automaticamente e ajustado para o tamanho da tela. | [Configurações visuais](pos-screen-layouts.md) | |
+| Vários fatores forma | O aplicativo Store Commerce tem suporte em vários fatores forma de dispositivo, como PCs, tablets e dispositivos móveis. A interface do usuário (UI) responsiva permite que o layout seja redimensionado automaticamente e ajustado para o tamanho da tela. | [Configurações visuais](pos-screen-layouts.md) |  |
 | Plataforma cruzada | O aplicativo Store Commerce tem suporte nas plataformas Web, Windows, iOS e Android. | [Plataformas](dev-itpro/hybridapp.md) | |
 | Identidade visual | O designer de tela permite que você personalize layouts de tela para atender às suas necessidades comerciais. Além disso, os temas, layouts, cores e imagens podem ser criados com base nas funções do funcionário e podem ser compartilhados por usuários para a consistência da identidade e a facilidade de uso. | [Configurações visuais](pos-screen-layouts.md) | [Vídeo](https://www.youtube.com/watch?v=ldqCw2wf5fY) |
 | Topologia | Há suporte para diferentes topologias na loja, com base na disponibilidade da rede. | <p>[Topologia](dev-itpro/retail-modern-pos-architecture.md)</p><p>[Infográfico](dev-itpro/retail-in-store-topology.md)</p> | |
@@ -77,7 +77,7 @@ Este artigo fornece uma visão geral dos recursos do aplicativo Store Commerce.
 | Pesquisa do produto | Pesquisar produtos por nome e refinar pesquisas usando atributos de produtos como marca, preço e material. Esse recurso é fornecido pelo Azure Cognitive Search. | [Pesquisa habilitada para a nuvem](cloud-powered-search-overview.md) | |
 | Página Detalhes de produto | As páginas de detalhes do produto avançado podem incluir imagens, uma descrição, atributos de produtos e produtos recomendados. As recomendações são ativadas pelo Serviço de Recomendações. | | |
 | Comparação de produtos | Compare vários produtos e ajude os clientes a escolher um e adicioná-lo a uma transação. | | |
-| Corredor infinito | Procure facilmente o estoque em outras lojas e crie ordens. | [Pesquisa de estoque](pos-inventory-lookup-operation.md) | [Tech talk](https://community.dynamics.com/365/dynamics-365-fasttrack/b/techtalks/posts/techtalk-dynamics-365-commerce---store-inventory-may-13-2021) |
+| Corredor infinito | Procure facilmente o estoque em outras lojas e crie ordens. | [Pesquisa de estoque](pos-inventory-lookup-operation.md) | <p>[Tech talk](https://community.dynamics.com/365/dynamics-365-fasttrack/b/techtalks/posts/techtalk-dynamics-365-commerce---store-inventory-may-13-2021)</p> <p>[Vídeo](https://www.microsoft.com/en-us/videoplayer/embed/RE5bMSx)</p> |
 | Recomendações | Produtos com venda e venda cruzada usando o Serviço de Recomendações. Esse serviço usa tecnologia patenteada para sugerir recomendações, com base nas tendências de compra e características como recentemente recebidas, aparências semelhantes e mais vendidos. Essas recomendações estão disponíveis em páginas de detalhes do produto, na página **Detalhes do cliente** e na página **Transações**. | [Recomendações](product-recommendations.md) | [Tech talk](https://community.dynamics.com/365/dynamics-365-fasttrack/b/techtalks/posts/unlock-the-power-of-dynamics-365-commerce-recommendations-march-2-2021) |
 
 ## <a name="customer-relationship"></a>Relacionamento do cliente
@@ -88,8 +88,8 @@ Este artigo fornece uma visão geral dos recursos do aplicativo Store Commerce.
 | Atributos de clientes | A estrutura de atributos do Cliente permite que dados adicionais relacionados ao cliente sejam capturados com base nos requisitos de negócios. | [Atributos](dev-itpro/customer-attributes.md) | |
 | Página de detalhes do cliente | Uma página avançada de detalhes do cliente fornece uma exibição de omnicanal das interações do cliente em todos os canais. Essas interações incluem compras, listas de desejos e pontos de fidelidade. | | |
 | Pesquisa do cliente habilitada para a nuvem | Pesquisar clientes por nome, número de telefone, endereço de email, cartão-fidelidade, endereço, etc. | [Pesquisa habilitada para a nuvem](pos-search-improvements.md#customer-search) | |
-| Fidelidade e premiações | Os clientes podem participar de programas de fidelidade e conquistar e resgatar pontos de fidelidade em canais. | [Fidelidade](set-up-customer-loyalty-program.md) | |
-| Clientela | Gerencie clientes principais usando um catálogo do cliente e controle atividades e notas sobre o perfil do cliente. A integração do Dynamics 365 Customer Insights permite que os funcionários da loja recebam dicas sobre a próxima melhor ação para cada cliente. | [Clientela](clienteling-overview.md#activities-and-notes) | |
+| Fidelidade e premiações | Os clientes podem participar de programas de fidelidade e conquistar e resgatar pontos de fidelidade em canais. | [Fidelidade](set-up-customer-loyalty-program.md) | [Vídeo](https://www.microsoft.com/en-us/videoplayer/embed/RE5c2wW) |
+| Clientela | Gerencie clientes principais usando um catálogo do cliente e controle atividades e notas sobre o perfil do cliente. A integração do Dynamics 365 Customer Insights permite que os funcionários da loja recebam dicas sobre a próxima melhor ação para cada cliente. | [Clientela](clienteling-overview.md#activities-and-notes) | [Vídeo](https://www.microsoft.com/en-us/videoplayer/embed/RE5bMSP) |
 
 ## <a name="pricing-and-discounts"></a>Preços e descontos
 
@@ -132,8 +132,8 @@ Este artigo fornece uma visão geral dos recursos do aplicativo Store Commerce.
 | Atributos da ordem | A estrutura de atributos da Ordem permite que informações adicionais relacionadas à ordem sejam capturadas com base nos requisitos de negócios. | [Atributos](dev-itpro/order-attributes.md) | |
 | Entrega direta | Os itens podem ser marcados para entrega direta por um fornecedor para um endereço do cliente. A entrega direta também é conhecida como remessa direta. | [Entrega direta](/dynamics365/supply-chain/sales-marketing/tasks/ship-orders-direct-deliveries) | |
 | Cotação | Os funcionários da loja podem criar cotações para os clientes e podem especificar um preço especial, descontos manuais e uma data de validade da cotação. | [Cotação](/dynamics365/supply-chain/sales-marketing/tasks/create-edit-sales-quotations) | |
-| Processamento | As lojas podem separar, empacotar e remeter ordens. Uma guia de remessa pode ser adicionada aos pacotes que estão prontos para remessa. | [Processamento](order-fulfillment-overview.md) | [Tech talk](https://community.dynamics.com/365/dynamics-365-fasttrack/b/techtalks/posts/unlock-the-power-of-dynamics-365-commerce-supporting-buy-online-pickup-in-store-curbside-with-dynamics-365-commerce-pos-february-3-2021) |
-| Gerenciamento de ordem distribuído | O aplicativo Store Commerce oferece suporte à otimização de atendimento de ordens inteligentes, na qual as estratégias comerciais podem ser configuradas com base na natureza da empresa, no tipo de cliente, na origem de uma ordem e no método de entrega de uma ordem. | [DOM](dom.md) | |
+| Processamento | As lojas podem separar, empacotar e remeter ordens. Uma guia de remessa pode ser adicionada aos pacotes que estão prontos para remessa. | [Processamento](order-fulfillment-overview.md) | <p>[Tech talk](https://community.dynamics.com/365/dynamics-365-fasttrack/b/techtalks/posts/unlock-the-power-of-dynamics-365-commerce-supporting-buy-online-pickup-in-store-curbside-with-dynamics-365-commerce-pos-february-3-2021)</p> <p>[Vídeo](https://www.microsoft.com/videoplayer/embed/RE5bRXE)</p>|
+| Gerenciamento de ordem distribuído | O aplicativo Store Commerce oferece suporte à otimização de atendimento de ordens inteligentes, na qual as estratégias comerciais podem ser configuradas com base na natureza da empresa, no tipo de cliente, na origem de uma ordem e no método de entrega de uma ordem. | [DOM](dom.md) | [Vídeo](https://www.microsoft.com/en-us/videoplayer/embed/RE5bRYl)|
 
 ## <a name="inventory-management"></a>Gerenciamento de estoque
 
@@ -141,12 +141,12 @@ Este artigo fornece uma visão geral dos recursos do aplicativo Store Commerce.
 |---|---|---|---|
 | Compra centralizada | Simplificar a distribuição do estoque disponível de um centro de distribuição para várias lojas ou depósitos. | [Compra centralizada](tasks/set-up-rules-parameters-cross-docking-buyers-push.md) | [Tech talk](https://community.dynamics.com/365/dynamics-365-fasttrack/b/techtalks/posts/techtalk-dynamics-365-commerce---store-inventory-may-13-2021) |
 | Distribuição integrada | Simplificar a distribuição de estoque em ordens de compra de entrada para várias lojas ou depósitos. | [Distribuição integrada](tasks/set-up-rules-parameters-cross-docking-buyers-push.md) | [Tech talk](https://community.dynamics.com/365/dynamics-365-fasttrack/b/techtalks/posts/techtalk-dynamics-365-commerce---store-inventory-may-13-2021) |
-| Estoque de entrada | Receber o estoque de um fornecedor por uma ordem de compra ou de outro depósito por uma ordem de transferência. Criar uma ordem de compra de entrada ou uma solicitação de ordem de transferência. | [Entrada](pos-inbound-inventory-operation.md) | [Tech talk](https://community.dynamics.com/365/dynamics-365-fasttrack/b/techtalks/posts/techtalk-dynamics-365-commerce---store-inventory-may-13-2021) |
-| Estoque de saída | Remeter estoque para outro depósito por uma ordem de transferência e criar uma solicitação de ordem de transferência de saída. | [Saída](pos-outbound-inventory-operation.md) | [Tech talk](https://community.dynamics.com/365/dynamics-365-fasttrack/b/techtalks/posts/techtalk-dynamics-365-commerce---store-inventory-may-13-2021) |
-| Pesquisa de estoque | Verificar o estoque disponível de produtos em lojas e depósitos e verificar o estoque disponível para promessa (ATP) em datas futuras. | [Pesquisa de estoque](pos-inventory-lookup-operation.md) | [Tech talk](https://community.dynamics.com/365/dynamics-365-fasttrack/b/techtalks/posts/techtalk-dynamics-365-commerce---store-inventory-may-13-2021) |
-| Ajuste de estoque | Ajustar o estoque dentro ou fora de um depósito da loja para atender a necessidades comerciais específicas sem usar uma venda, um recebimento ou uma reconta. | [Ajuste de estoque](work-with-store-inventory.md) | [Tech talk](https://community.dynamics.com/365/dynamics-365-fasttrack/b/techtalks/posts/techtalk-dynamics-365-commerce---store-inventory-may-13-2021) |
-| Contagens de estoque | Fazer contagem de estoque físico e ajustar o estoque de escrituração contábil do sistema para que seja correspondente. | [Contagem](work-with-store-inventory.md) | [Tech talk](https://community.dynamics.com/365/dynamics-365-fasttrack/b/techtalks/posts/techtalk-dynamics-365-commerce---store-inventory-may-13-2021) |
-| Movimentação de estoque | Mover estoque entre localizações em uma loja. | [Movimentação](work-with-store-inventory.md) | [Tech talk](https://community.dynamics.com/365/dynamics-365-fasttrack/b/techtalks/posts/techtalk-dynamics-365-commerce---store-inventory-may-13-2021) |
+| Estoque de entrada | Receber o estoque de um fornecedor por uma ordem de compra ou de outro depósito por uma ordem de transferência. Criar uma ordem de compra de entrada ou uma solicitação de ordem de transferência. | [Entrada](pos-inbound-inventory-operation.md) | <p>[Tech talk](https://community.dynamics.com/365/dynamics-365-fasttrack/b/techtalks/posts/techtalk-dynamics-365-commerce---store-inventory-may-13-2021)</p>  <p>[Vídeo](https://www.microsoft.com/en-us/videoplayer/embed/RE5bMSx)</p>|
+| Estoque de saída | Remeter estoque para outro depósito por uma ordem de transferência e criar uma solicitação de ordem de transferência de saída. | [Saída](pos-outbound-inventory-operation.md) | <p>[Tech talk](https://community.dynamics.com/365/dynamics-365-fasttrack/b/techtalks/posts/techtalk-dynamics-365-commerce---store-inventory-may-13-2021)</p>  <p>[Vídeo](https://www.microsoft.com/en-us/videoplayer/embed/RE5bMSx)</p> |
+| Pesquisa de estoque | Verificar o estoque disponível de produtos em lojas e depósitos e verificar o estoque disponível para promessa (ATP) em datas futuras. | [Pesquisa de estoque](pos-inventory-lookup-operation.md) | <p>[Tech talk](https://community.dynamics.com/365/dynamics-365-fasttrack/b/techtalks/posts/techtalk-dynamics-365-commerce---store-inventory-may-13-2021)</p> <p>[Vídeo](https://www.microsoft.com/en-us/videoplayer/embed/RE5bMSx)</p> |
+| Ajuste de estoque | Ajustar o estoque dentro ou fora de um depósito da loja para atender a necessidades comerciais específicas sem usar uma venda, um recebimento ou uma reconta. | [Ajuste de estoque](work-with-store-inventory.md) | <p>[Tech talk](https://community.dynamics.com/365/dynamics-365-fasttrack/b/techtalks/posts/techtalk-dynamics-365-commerce---store-inventory-may-13-2021)</p> <p>[Vídeo](https://www.microsoft.com/en-us/videoplayer/embed/RE5bMSx)</p>|
+| Contagens de estoque | Fazer contagem de estoque físico e ajustar o estoque de escrituração contábil do sistema para que seja correspondente. | [Contagem](work-with-store-inventory.md) | <p>[Tech talk](https://community.dynamics.com/365/dynamics-365-fasttrack/b/techtalks/posts/techtalk-dynamics-365-commerce---store-inventory-may-13-2021)</p> <p>[Vídeo](https://www.microsoft.com/en-us/videoplayer/embed/RE5bMSx)<p> |
+| Movimentação de estoque | Mover estoque entre localizações em uma loja. | [Movimentação](work-with-store-inventory.md) | <p>[Tech talk](https://community.dynamics.com/365/dynamics-365-fasttrack/b/techtalks/posts/techtalk-dynamics-365-commerce---store-inventory-may-13-2021)</p> <p>[Vídeo](https://www.microsoft.com/en-us/videoplayer/embed/RE5bMSx)</p> |
 
 ## <a name="financials"></a>Finanças
 

@@ -12,12 +12,12 @@ ms.search.region: Global
 ms.author: twheeloc
 ms.search.validFrom: 2018-08-30
 ms.dyn365.ops.version: 8.0.4
-ms.openlocfilehash: 4298d7114e0237072c242e83e51951a922e34e5a
-ms.sourcegitcommit: cf6b764824bd1cf2c0dde6d37ddd0a7abab87ff0
+ms.openlocfilehash: e8f80aa4cc0a7248506e0725881b8f575a0c7ff4
+ms.sourcegitcommit: 29d9a7573bdac004726da88a9d7b2cc9c383e9ca
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/16/2022
-ms.locfileid: "9780440"
+ms.lasthandoff: 11/18/2022
+ms.locfileid: "9788531"
 ---
 # <a name="create-a-free-text-invoice"></a>Criar uma fatura de texto livre
 
@@ -69,6 +69,8 @@ Este artigo explica como criar faturas de texto livre. Para o procedimento, use 
     * Você pode alterar a hora da impressão da fatura. Selecione **Atual** para imprimir cada fatura, conforme for atualizada. Selecione **Depois** para imprimir depois todas as faturas que foram atualizadas.
     * Para alterar como o limite de crédito do cliente é verificado antes de a fatura ser lançada, altere o valor no campo **Tipo de limite de crédito**.
     * Você pode optar por interromper o lançamento da fatura de texto livre quando ocorrer um erro na guia **Atualizações** na página **Parâmetros de contas a receber** (**Contas a receber > Configuração > Parâmetros de contas a receber**). Selecione **Sim** para o parâmetro **Interromper o lançamento de faturas de texto livre no primeiro erro** para interromper o lançamento de faturas de texto livre quando ocorrer um erro. Se o lançamento for em lote, um erro interromperá o processo de lançamento e o status do lote será definido como **Erro**. Se esta opção não for selecionada, o processo de lançamento ignorará uma fatura com um erro de lançamento e continuará a lançar faturas adicionais. Se o lançamento for em lote, um erro de lançamento não impedirá que outras faturas sejam lançadas. O status do lote será **Terminado**. Um relatório detalhado do processo de lançamento estará disponível para revisão no histórico de trabalhos em lote.
+    * No Microsoft Dynamics 365 Finance 10.0.30, o recurso **Aperfeiçoamento do lançamento de faturas de texto livre para cálculo de totais** melhora o desempenho do lançamento, permitindo que ele seja executado com mais eficiência. Quando este recurso está habilitado, o lançamento salva os totais calculados, em vez de recalcular os totais várias vezes durante o processo de lançamento. 
+    * No Microsoft Dynamics 365 Finance 10.0.31, o recurso **Aperfeiçoamento do processo de lançamento em lotes de faturas de texto livre** melhora o desempenho do lançamento, permitindo que ele seja executado com mais eficiência. Quando esse recurso está habilitado, o lançamento usa um padrão que gerencia automaticamente a carga de trabalho de lançamento em lotes em um número fixo de segmentos, em vez de atribuir um número fixo de documentos em um número ilimitado de segmentos.
     * Para imprimir a fatura, defina a opção como **Sim**.
     * Para lançar a fatura, defina a opção como **Sim**. Você pode imprimir a fatura sem lançá-la.
 

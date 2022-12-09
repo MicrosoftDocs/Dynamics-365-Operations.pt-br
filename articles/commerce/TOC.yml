@@ -1010,8 +1010,24 @@
                   href: manage-robots-txt-files.md
                 - name: Carregar redirecionamentos de URL em massa
                   href: upload-bulk-redirects.md
-                - name: Configurar um locatário de B2C no Commerce
-                  href: set-up-B2C-tenant.md
+                - name: Configurar um locatário B2C no Commerce
+                  items:
+                    - name: Configurar um locatário B2C
+                      href: set-up-B2C-tenant.md
+                    - name: Criar ou vincular um locatário B2C do Azure AD
+                      href: create-link-aad-b2c-tenant.md
+                    - name: Criar um aplicativo B2C
+                      href: create-b2c-app.md
+                    - name: Criar políticas de fluxo de usuário
+                      href: create-user-flow-policies.md
+                    - name: Adicionar provedores de identidade social
+                      href: add-social-identity-providers.md
+                    - name: Atualizar o Commerce headquarters com as novas informações de B2C do Azure AD
+                      href: update-hq-aad-b2c-info.md
+                    - name: Configurar o locatário B2C no construtor de sites
+                      href: config-b2c-tenant-site-builder.md
+                    - name: Informações adicionais de B2C
+                      href: additional-b2c-info.md
                 - name: Configurar páginas personalizadas para entradas dos usuários
                   href: custom-pages-user-logins.md
                 - name: Habilitar a vinculação automática de registros de identidade a contas de clientes
@@ -1570,6 +1586,8 @@
               items:
                 - name: Gerar códigos QR e imprimi-los nos recibos para a Arábia Saudita
                   href: localizations/emea-sau-qr-code.md
+                - name: Gerar e enviar faturas eletrônicas simplificadas da Arábia Saudita
+                  href: localizations/emea-sau-simplified-e-invoices.md
             - name: Suécia
               items:
                 - name: Funcionalidade de caixa registradora
@@ -2984,15 +3002,15 @@
                   href: troubleshoot/store-commerce-extensions.md
             - name: Processamento de ordens
               items:
-                - name: O tipo de pagamento deve ser um erro de cartão de crédito
+                - name: Tipo de pagamento deve ser um erro de cartão de crédito
                   href: troubleshoot/payment-type-credit-card-error.md
-                - name: Os impostos sobre as ordens online foram calculados incorretamente
+                - name: Impostos sobre as ordens online foram calculados incorretamente
                   href: troubleshoot/tax-miscalculated-online-order.md
-                - name: Erro de sincronização da ordem relacionada ao serviço de pagamento padrão
+                - name: Problemas de sincronização de ordem assíncrona
                   href: troubleshoot/synchronization-error.md
             - name: Processamento de pagamentos
               items:
-                - name: O reembolso na ordem de devolução foi recusado
+                - name: Reembolso na ordem de devolução foi recusado
                   href: troubleshoot/refund-declined.md
                 - name: Encargos reembolsáveis calculados incorretamente com base na quantidade devolvida
                   href: troubleshoot/refund-miscalculated-partial-return.md

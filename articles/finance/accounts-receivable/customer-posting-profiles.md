@@ -2,7 +2,7 @@
 title: Perfis de lançamentos de cliente
 description: Este artigo descreve perfis de lançamento o cliente, que controla o lançamento de transações do cliente para a contabilidade.
 author: JodiChristiansen
-ms.date: 12/22/2021
+ms.date: 11/21/2022
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: abruer
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: d0563040590eefab57706b183281c47a82e46076
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: 04cf5b8656bccde974fb1adfdf830080e2f52436
+ms.sourcegitcommit: fb9b6969218f2b82f0a4c72bfad75387fe00395c
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8891685"
+ms.lasthandoff: 11/22/2022
+ms.locfileid: "9799563"
 ---
 # <a name="customer-posting-profiles"></a>Perfis de lançamentos de cliente
 
@@ -58,15 +58,15 @@ Se quiser que todas as transações de fornecedores tenham o mesmo perfil de lan
 </thead>
 <tbody>
 <tr>
-<td>Perfil de lançamento</td>
+<td><strong>Perfil de lançamentos</strong></td>
 <td>Insira um código para o perfil de lançamento. Por exemplo, você pode criar dois perfis de lançamento para obter uma conta para os saldos de cliente na moeda nacional e outra para os saldos de cliente em uma moeda estrangeira. Você poderia chamar uma conta de Nacional e a outra de Estrangeira.</td>
 </tr>
 <tr>
-<td>Descrição</td>
+<td><strong>Descrição</strong></td>
 <td>Insira uma descrição do perfil de lançamento. É usado apenas para melhor identificar o perfil de lançamento quando você o exibe nessa página.</td>
 </tr>
 <tr>
-<td>Código da conta</td>
+<td><strong>Código da conta</strong></td>
 <td>Especifique se o perfil de lançamento se aplica a um único cliente, um grupo de clientes ou todos os clientes:
 <ul>
 <li><b>Tabela</b> – O perfil de lançamento se aplica a um único cliente. Selecione a conta de cliente no campo <b>Conta/Número de grupo</b>.</li>
@@ -76,33 +76,33 @@ Se quiser que todas as transações de fornecedores tenham o mesmo perfil de lan
 </td>
 </tr>
 <tr>
-<td>Número de conta/grupo</td>
+<td><strong>Número de conta/grupo</strong></td>
 <td>Se <b>Tabela</b> for selecionada no campo <b>Código da conta</b>, selecione o número de conta do cliente que está associado ao perfil de lançamento. Se <b>Grupo</b> for selecionado, selecione o grupo de clientes. Se <b>Todos</b> estiver selecionado, deixe este campo em branco.</td>
 </tr>
 <tr>
-<td>Conta resumo</td>
+<td><strong>Conta resumo</strong></td>
 <td>Selecione a principal conta que será usada com conta comercial de Contas a receber para os clientes associados ao perfil de lançamento. Esta conta é a conta do tipo de lançamento de <b>Saldo do cliente</b>.</td>
 </tr>
 <tr>
-<td>Conta de liquidez para pagamentos</td>
-<td>Selecione a conta contábil de liquidez usada para previsões de fluxo de caixa. Este campo só aparecerá se as previsões de fluxo de caixa estiverem habilitadas.</td>
+<td><strong>Conta de liquidez para pagamentos</strong></td>
+<td>Selecione a <strong>Conta contábil de liquidez</strong> usada para previsões de fluxo de caixa. Este campo só aparecerá se as previsões de fluxo de caixa estiverem habilitadas.</td>
 </tr>
 <tr>
-<td>Pagamentos antecipados de imposto</td>
+<td><strong>Pagamentos antecipados de imposto</strong></td>
 <td><p>Selecione a conta para imposto sobre vendas para os pagamentos recebidos antecipadamente.</p>
 <p><strong>Observação:</strong> Use a página <b>Parâmetros de contas a receber</b> para especificar o perfil de lançamento a ser usado quando um pagamento for marcado como pagamento antecipado.</p>
 </td>
 </tr>
 <tr>
-<td>Passivos para conta de desconto</td>
+<td><strong>Passivos para conta de desconto</strong></td>
 <td>Selecione a conta contábil para passivos de desconto.</td>
 </tr>
 <tr>
-<td>Sequência de cartas de cobrança</td>
+<td><strong>Sequência de cartas de cobrança</strong></td>
 <td>Selecione o identificador da sequência de cartas de cobrança a ser usado para clientes aos quais o perfil de lançamento é atribuído.</td>
 </tr>
 <tr>
-<td>Código de juros</td>
+<td><strong>Código de juros</strong></td>
 <td>Selecione o código de juros a ser usado para o cálculo de juros para clientes aos quais o perfil de lançamento é atribuído.</td>
 </tr>
 </tbody>
@@ -110,7 +110,7 @@ Se quiser que todas as transações de fornecedores tenham o mesmo perfil de lan
 
 ## <a name="posting-examples"></a>​Exemplos de lançamento​
 
-A tabela a seguir mostra exemplos dos tipos de lançamento padrão com as principais contas e descrições da amostra. A coluna **Débito/crédito** indica se a transação normalmente Debita ou Credita ou em alguns casos, pode lançar. A coluna **Conta de compensação** indica que o tipo de lançamento é uma conta de compensação. Isso significa que o valor lançado nessa conta é revertido automaticamente quando uma transação posterior é lançada. 
+A tabela a seguir mostra exemplos dos tipos de lançamento padrão com as principais contas e descrições da amostra. A coluna **Débito/crédito** indica se a transação normalmente Debita ou Credita ou, em alguns casos, pode lançar. A coluna **Conta de compensação** indica que o tipo de lançamento é uma conta de compensação. Isso significa que o valor lançado nessa conta é revertido automaticamente quando uma transação posterior é lançada. 
 
 | Tipo de lançamento | Exemplo de conta principal | Exemplo de nome de conta principal | Tipo de conta | Débito/Crédito | Conta de compensação | Descrição |
 |--------------|----------------------|---------------------------|--------------|--------------|------------------|-------------|

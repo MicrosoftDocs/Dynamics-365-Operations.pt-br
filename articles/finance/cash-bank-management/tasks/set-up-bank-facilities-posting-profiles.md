@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: kweekley
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 1bfdef0cd535f47bb1df9fb7494043d3dd519c5b
-ms.sourcegitcommit: cf6b764824bd1cf2c0dde6d37ddd0a7abab87ff0
+ms.openlocfilehash: 0987ae1e9cfbb1e2d2a957a5fd1ad82257292c0a
+ms.sourcegitcommit: 81bb8e51951395be3f18f45212e47e6c41656f6a
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/16/2022
-ms.locfileid: "9779871"
+ms.lasthandoff: 11/23/2022
+ms.locfileid: "9804092"
 ---
 # <a name="set-up-bank-facilities-and-posting-profiles-for-letters-of-guarantee"></a>Configurar recursos bancários e perfis de lançamento para cartas de garantia
 
@@ -58,7 +58,7 @@ Esta tarefa usa a empresa de demonstração USMF.
 10. No campo **Grupo de instalações**, clique no botão suspenso para abrir a pesquisa.
 11. Na lista, localize e selecione o registro desejado.
 12. Na lista, clique no link na linha selecionada.
-13. No campo **Natureza da instalação, selecione uma opção.
+13. No campo **Natureza da instalação**, selecione uma opção.
 14. Clique em **Salvar**.
 15. Feche a página.
 

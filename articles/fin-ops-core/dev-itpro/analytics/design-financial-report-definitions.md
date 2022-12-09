@@ -2,7 +2,7 @@
 title: Definições de relatório no designer de relatório financeiro
 description: Este artigo fornece informações sobre definições de relatório.
 author: aprilolson
-ms.date: 06/20/2017
+ms.date: 11/22/2022
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -15,12 +15,12 @@ ms.dyn365.ops.version: Version 1611
 ms.custom: 59131
 ms.assetid: 966a3f1d-c59c-4a84-acd4-5bb7e65144c8
 ms.search.form: FinancialReports
-ms.openlocfilehash: e1095502e6dafbe217f51658ac65292c422a0002
-ms.sourcegitcommit: 87e727005399c82cbb6509f5ce9fb33d18928d30
+ms.openlocfilehash: 2ffef335c694af56486ccd7738818c4edda49b9e
+ms.sourcegitcommit: d27fef61593c6d1e9e26d5c9fad21411bc52fabc
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/12/2022
-ms.locfileid: "9291788"
+ms.lasthandoff: 11/23/2022
+ms.locfileid: "9802523"
 ---
 # <a name="report-definitions-in-financial-report-designer"></a>Definições de relatório no designer de relatório financeiro
 
@@ -37,8 +37,8 @@ Uma definição de relatórios é um componente de relatório (ou bloco de const
 Entretanto, dependendo de como os dados são armazenados no sistema de ERP do Microsoft Dynamics, os detalhes da transação podem não estar disponíveis nos relatórios.
 
 ## <a name="create-a-report-definition"></a>Criar uma definição de relatório
-1. No Designer de Relatórios, no menu **Arquivo**, clique em **Novo** e selecione **Definição de Relatório**.
-2. Especifique as informações apropriadas nas guias **Relatório**, **Saída e Distribuição**, **Cabeçalhos e Rodapés** e **Configurações**.
+1. No Report Designer, no menu **Arquivo**, clique em **Novo** e selecione **Definição de relatório**.
+2. Especifique as informações apropriadas nas guias **Relatório**, **Saída e distribuição**, **Cabeçalhos e rodapés** e **Configurações**.
 
 ## <a name="contents-of-a-report-definition"></a>Conteúdos para uma definição de relatório
 A tabela a seguir descreve as guias em uma definição de relatório e como as informações são usadas.
@@ -56,11 +56,11 @@ A tabela a seguir descreve as guias em uma definição de relatório e como as i
 <td>Criar, configurar ou alterar um relatório existente.</td>
 </tr>
 <tr>
-<td>Saída e Distribuição</td>
+<td>Saída e distribuição</td>
 <td>Alterar o tipo de saída e o destino do relatório.</td>
 </tr>
 <tr>
-<td>Cabeçalhos e Rodapés</td>
+<td>Cabeçalhos e rodapés</td>
 <td>Definir e formatar os cabeçalhos e rodapés do relatório. Por exemplo, você pode adicionar texto ou imagens ao cabeçalho ou ao rodapé. O relatório financeiro dá suporte a arquivos .bmp, .jpg e .png para imagens. Você também pode adicionar códigos de autotexto para inserir outras informações, como o nome da empresa, o nome do relatório ou o número de página.</td>
 </tr>
 <tr>

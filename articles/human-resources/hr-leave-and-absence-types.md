@@ -2,7 +2,7 @@
 title: Configurar tipos de licença e ausência
 description: Configurar tipos de licença que os funcionários podem executar no Dynamics 365 Human Resources.
 author: twheeloc
-ms.date: 09/09/2021
+ms.date: 11/21/2022
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -14,14 +14,16 @@ ms.search.region: Global
 ms.author: twheeloc
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 982e5afe6442e038774d59419a7edc0a9ec5444c
-ms.sourcegitcommit: 66d129874635d34a8b29c57762ecf1564e4dc233
+ms.openlocfilehash: e35c5fed886ebf9a453c22b3e04ca9ffe50b6d70
+ms.sourcegitcommit: e88ecaccd82afa3a915e41df1d4287d99da6a48a
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/23/2022
-ms.locfileid: "9323948"
+ms.lasthandoff: 11/29/2022
+ms.locfileid: "9805195"
 ---
 # <a name="configure-leave-and-absence-types"></a>Configurar tipos de licença e ausência
+
+[!include [preview banner](../includes/preview-banner.md)]
 
 [!include [Applies to Human Resources](../includes/applies-to-hr.md)]
 
@@ -41,19 +43,25 @@ Os tipos de licenças no Dynamics 365 Human Resources definem os tipos de ausên
 1. No espaço de trabalho **Licença e ausência**, selecione a guia **Links**.
 2. Em **Configuração**, selecione **Tipos de licença e ausência**.
 3. Selecione **Novo**.
-4. Digite um nome para o tipo de licença em **Tipo**, selecione um fluxo de trabalho em **ID do fluxo de trabalho** e digite uma descrição em **Descrição**.
+4. Insira um nome para o tipo de licença em **Tipo**, insira uma descrição em **Descrição** e selecione um fluxo de trabalho no campo **ID do fluxo de trabalho**. Com base no tipo de licença, selecione um tipo de solicitação no campo **Tipo de solicitação**. Por exemplo, selecione **Folga** ou **Licença**.
 5. Em **Geral**, selecione **Nenhum**, **Agendado** ou **Não agendado** no menu suspenso **Categoria**.
 6. Selecione um código de ganhos no menu suspenso **Código de ganhos**.
-7. Em **Código de motivo obrigatório**, escolha se deseja exigir um código de motivo. Se desejar exigir códigos de motivo, talvez seja necessário adicioná-los. Em **Códigos de motivo**, selecione **Adicionar**, selecione um código de motivo e marque a caixa de seleção **Habilitado** ao lado dele.
-8. Em **Restringir acesso a funções selecionadas**, escolha se deseja restringir o acesso. Em seguida, selecione as funções de segurança em **Funções de segurança para este tipo de licença**. As funções de segurança são definidas no fluxo de trabalho selecionado em **ID do fluxo de trabalho**, que vimos antes neste procedimento.
-9. Em **Cor do calendário**, escolha a cor a ser exibida nos calendários de licença e ausência desse tipo de licença. 
-10. Em **Relações de suspensão**, escolha se você deseja que esse tipo de licença suspenda outro tipo de licença ou seja suspenso por outro tipo de licença. Quando uma solicitação de licença for enviada para o tipo de licença de suspensão, uma suspensão de licença será automaticamente criada para o tipo de licença suspensa. 
-11. Selecione **Salvar**.
+7. Em **Código de motivo obrigatório**, selecione se deseja exigir um código de motivo. Se desejar exigir códigos de motivo, talvez precise adicioná-los. Em **Códigos de motivo**, selecione **Adicionar**, selecione um código de motivo e marque a caixa de seleção **Habilitado** ao lado dele.
+8. Se o tipo de solicitação for **Licença**, siga estas etapas:
+
+      1. Em **Data de término aberta**, selecione se os usuários podem ser capazes de criar licenças com data de término aberta.
+      2. Se **Data de término aberta** estiver habilitado, você poderá selecionar se os trabalhadores deverão enviar um aviso de retorno ao trabalho quando voltarem de uma licença.
+      3. Se os trabalhadores precisarem enviar um aviso de retorno ao trabalho, você poderá habilitar **Habilitar aviso de retorno ao trabalho**. Se a opção **Habilitar aviso de retorno ao trabalho** estiver ativada, **Anexo necessário** será automaticamente ativada e não poderá ser desativada.
+
+9. Se os usuários precisarem carregar documentos ao criar ou atualizar solicitações de licença, você poderá ativar **Anexo necessário**.
+10. Em **Restringir acesso a funções selecionadas**, selecione se deseja restringir o acesso. Em **Funções de segurança para este tipo de licença**, selecione as funções de segurança. As funções de segurança são definidas no fluxo de trabalho selecionado em **ID do fluxo de trabalho**, que vimos antes neste procedimento.
+11. Em **Cor do calendário**, selecione a cor a ser mostrada nos calendários de licença e ausência desse tipo de licença.
+11. Em **Relações de suspensão**, selecione se você deseja que esse tipo de licença suspenda outro tipo de licença ou seja suspenso por outro tipo de licença. Quando uma solicitação de licença for enviada para o tipo de licença de suspensão, uma suspensão de licença será automaticamente criada para o tipo de licença suspensa.
+12. Selecione **Salvar**.
 
 ## <a name="configure-leave-type-rules"></a>Configurar regras de tipo de licença
 
 1. Defina as opções de arredondamento para o tipo de **Licença e ausência**. As opções incluem **Nenhum**, **Para cima**, **Para baixo** e **Mais próximo**. Você também pode definir a precisão de arredondamento para o tipo de licença.
-
 2. Defina a **Correção de feriado** para o tipo de licença. Quando você selecionar esta opção, o número de feriados que caem em um dia útil será usado para determinar como acumular folgas para o tipo de licença. Por exemplo, se o dia de Natal cair na segunda-feira, o Human Resources subtrairá um dia do tipo de licença ao processar competências.
 
    Você pode definir feriados no calendário de horário de trabalho. Para obter mais informações, consulte [Criar um calendário de horário de trabalho](hr-leave-and-absence-working-time-calendar.md).
@@ -69,7 +77,7 @@ Os tipos de licenças no Dynamics 365 Human Resources definem os tipos de ausên
 
 1. Na página **Licença e ausência**, na guia **Links**, em **Configuração**, selecione **Tipos de licença e ausência**.
 
-2. Selecione um tipo de licença e ausência na lista. Em seguida, na seção **Geral**, use o campo **Anexo necessário** para especificar se um anexo deve ser carregado quando um funcionário enviar uma nova solicitação de licença para o tipo de licença selecionado. 
+2. Selecione um **Tipo de licença e ausência** na lista. Na seção **Geral**, use o campo **Anexo necessário** para especificar se um anexo deverá ser carregado quando um funcionário enviar uma nova solicitação de licença para o tipo de licença selecionado. 
 
 Os funcionários serão solicitados a carregar um anexo quando enviarem uma nova solicitação de licença que tenha um tipo de licença em que o campo **Anexo necessário** esteja habilitado. Para exibir o anexo que foi carregado como parte de uma solicitação de licença, os aprovadores da solicitação de licença podem usar a opção **Anexos** para os itens de trabalho atribuídos a eles. Se uma solicitação de licença for acessada usando o aplicativo Human Resources no Microsoft Teams, a opção **Exibir detalhes** para a solicitação de licença poderá ser usada para exibir os detalhes e todos os anexos.
 

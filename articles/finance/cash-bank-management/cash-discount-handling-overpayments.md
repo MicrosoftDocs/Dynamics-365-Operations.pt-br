@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: angelading
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 1afc8aec18c61b1ce488472adf540e47540eaa17
-ms.sourcegitcommit: 0d5c07ba91a9ceb2eeb11db032fd28037216789d
+ms.openlocfilehash: d7c4e98481bc3607d3dce68a6b6cb0478524442f
+ms.sourcegitcommit: 81bb8e51951395be3f18f45212e47e6c41656f6a
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/25/2022
-ms.locfileid: "9715515"
+ms.lasthandoff: 11/23/2022
+ms.locfileid: "9804129"
 ---
 # <a name="cash-discounts-for-overpayments"></a>Descontos à vista para pagamentos a maior
 
@@ -53,7 +53,9 @@ O cliente envia um pagamento de 95,00 no período de desconto à vista. O pagame
 | Pagamento       | -95,00 | 0,00    |
 | Desconto à vista | -10,50 | 0,00    |
 
-As seguintes entradas contábeis serão geradas para o pagamento e a liquidação. **Pagamento**
+As seguintes entradas contábeis serão geradas para o pagamento e a liquidação.
+
+**Pagamento**
 
 | Conta             | Valor do débito | Valor de crédito |
 |---------------------|--------------|---------------|
@@ -85,7 +87,9 @@ O cliente envia um pagamento de 95,00 no período de desconto à vista. O pagame
 | Pagamento       | -95,00 | -0,50   |
 | Desconto à vista | -10,50 | 0,00    |
 
-O valor do pagamento a maior de 0.50 permanecerá como um saldo em aberto no pagamento e pode ser liquidado outra fatura. As seguintes entradas contábeis serão geradas para o pagamento e a liquidação. **Pagamento**
+O valor do pagamento a maior de 0.50 permanecerá como um saldo em aberto no pagamento e pode ser liquidado outra fatura. As seguintes entradas contábeis serão geradas para o pagamento e a liquidação. 
+
+**Pagamento**
 
 | Conta             | Valor do débito | Valor de crédito |
 |---------------------|--------------|---------------|
@@ -118,7 +122,9 @@ O cliente envia um pagamento de 95,00 na data de desconto à vista. O pagamento 
 | Pagamento       | -95,00 | -0,00   |
 | Desconto à vista | -10,00 | 0,00    |
 
-O valor do desconto à vista é reduzido de 10,50 para 10,00. O pagamento e a fatura são considerados liquidados. **Pagamento**
+O valor do desconto à vista é reduzido de 10,50 para 10,00. O pagamento e a fatura são considerados liquidados. 
+
+**Pagamento**
 
 | Conta             | Valor de débito | Valor de crédito |
 |---------------------|--------------|---------------|

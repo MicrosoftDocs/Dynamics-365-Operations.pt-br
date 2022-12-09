@@ -2,7 +2,7 @@
 title: Exibição e criação de relatórios financeiros
 description: Este artigo contém exercícios de orientação para exibir e criar relatórios financeiros do Microsoft Dynamics 365 Finance.
 author: jcart1106
-ms.date: 10/02/2019
+ms.date: 11/21/2022
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -15,12 +15,12 @@ ms.dyn365.ops.version: AX 7.0.0
 ms.custom: 10814
 ms.assetid: cd5f6483-c09b-4c2d-9336-d22eb6ab6e4f
 ms.search.form: FinancialReportingSetup
-ms.openlocfilehash: b6709f90065c91c55a489f101da430db33355a75
-ms.sourcegitcommit: 87e727005399c82cbb6509f5ce9fb33d18928d30
+ms.openlocfilehash: 92474e7b99af7d83b2089b6652558630c60824c1
+ms.sourcegitcommit: fb9b6969218f2b82f0a4c72bfad75387fe00395c
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/12/2022
-ms.locfileid: "9273415"
+ms.lasthandoff: 11/22/2022
+ms.locfileid: "9799509"
 ---
 # <a name="view-and-design-financial-reports"></a>Exibir e criar relatórios financeiros
 
@@ -51,30 +51,30 @@ Para este ano, você estará gerando e explorando um relatório padrão. Este re
     > [!NOTE]
     > Será solicitado que você baixe o criador de relatórios de clique único e faça logon. Use suas credenciais para fazer logon.
 
-7. Altere o ano de base para 2012 e selecione **Gerar**. Quando um relatório é gerado do designer de relatórios, ele é aberto em uma nova guia do navegador. Também é possível explorar o relatório na nova guia do navegador ou ir para a guia do navegador original e abrir o relatório de lá, selecionando-o da lista **Relatórios financeiros**.
+7. Altere o ano de base para 2021 e selecione **Gerar**. Quando um relatório é gerado do designer de relatórios, ele é aberto em uma nova guia do navegador. Também é possível explorar o relatório na nova guia do navegador ou ir para a guia do navegador original e abrir o relatório de lá, selecionando-o da lista **Relatórios financeiros**.
 8. No relatório aberto, selecione um dos valores para ser detalhado no detalhe da conta do relatório.
 9. Nos detalhes da conta, selecione uma conta com dados e **detalhe o nível de transação do relatório**. No nível da transação do relatório, você pode ver as propriedades (atributos) que estão incluídas na criação do relatório. Dependendo da transação e da conta, alguns ou todos os atributos podem ser exibidos.
 10. Feche o nível da transação do relatório.
-11. Selecione a mesma ou uma conta diferente e **abra as transações do comprovante**. As transações de comprovante são filtradas por período, ano e conta + combinação da dimensão da conta selecionada. Nas transações de comprovante, é possível explorar outras informações sobre a transação.
-12. Feche as transações do comprovante. Dentro de um relatório financeiro, você pode exibir os dados para um período e um ano diferentes ou com atributos diferentes e as dimensões aplicados. Isso é feito ao usar as **Opções do relatório**.
+11. Selecione a mesma ou uma conta diferente e **abra as transações do comprovante**. As transações de comprovante são filtradas por período, ano e conta + combinação da dimensão da conta selecionada. Em **Transações de comprovante**, é possível explorar outras informações sobre a transação.
+12. Feche **Transações de comprovante**. Dentro de um relatório financeiro, você pode exibir os dados para um período e um ano diferentes ou com atributos diferentes e as dimensões aplicados. Isso é feito ao usar as **Opções do relatório**.
 13. Selecione **Opções do relatório**.
 14. Selecione **Adicionar um filtro de dimensão** e escolha **Unidade de negócios**.
-15. Digite 001 no campo e selecione **OK**. Agora, o relatório só exibe os dados para a Unidade de negócios 001. Esta é uma visualização personalizada do relatório e não está disponível para outras pessoas.
+15. Insira **001** no campo e selecione **OK**. Agora, o relatório só exibe os dados para a Unidade de negócios 001. Esta é uma visualização personalizada do relatório e não está disponível para outras pessoas.
 16. Feche o relatório filtrado. Os relatórios financeiros podem ser exibidos em qualquer moeda que foi adicionada ao aplicativo.
 17. Selecione **Moeda** e selecione **EUR**. E novo relatório é exibido em Euro. Agora, todos os códigos ou símbolos de moeda incluídos na criação do relatórios são exibidos na moeda aplicada. Se nenhum símbolo de moeda for definido, o símbolo da moeda não será exibido.
 18. Feche o relatório **Detalhes de contabilidade**.
 19. Feche o **Criador de relatórios**.
 
 ## <a name="exercise-2-add-additional-account-properties-to-a-report-design"></a>Ano 2: Adicione as propriedades da conta adicionais a um design de relatório
-Neste exercício, você modificará um relatório padrão existente. Você atualizará a definição de linha para incluir todas as contas e atualizará a definição da coluna para conter os atributos da conta. Depois que as atualizações forem concluídas, você gerará um relatório recém-criado e explorarão o relatório. Nós iniciaremos na lista de relatórios financeiros.
+Neste exercício, você modificará um relatório padrão existente. Você atualizará a definição de linha para incluir todas as contas e atualizará a definição da coluna para conter os atributos da conta. Depois que as atualizações forem concluídas, você gerará um relatório recém-criado e explorarão o relatório. Iniciaremos na lista **Relatórios financeiros**.
 
-1. Acesse **Relatórios financeiros** em Consultas e relatórios na contabilidade.
+1. Acesse **Relatórios financeiros** em **Consultas e relatórios** na contabilidade.
 2. Selecione a linha para o relatório chamado **Resumo do balanço – Padrão**.
 3. Selecione **Editar**. O **Resumo do balancete resumida – Padrão** será aberto no criador de relatórios
-4. Selecione **Arquivo** e **Salvar como** e nomeie o relatório Balancete detalhado com Atributos.
+4. Selecione **Arquivo**, **Salvar como** e nomeie o relatório **Balancete detalhado com atributos**.
 
     > [!NOTE]
-    > Sempre que um novo relatório é criado no criador de relatórios, a lista de relatórios financeiros é atualizada.
+    > Sempre que um novo relatório é criado no Report Designer, a lista **Relatórios financeiros** é atualizada.
 
 5. Na definição do relatório, selecione o ícone de definição da linha para abrir a **definição da linha Balancete - Padrão**.
 6. Salvar a definição da linha como **Balancete detalhado com atributos**.
@@ -107,17 +107,17 @@ Neste exercício, você modificará um relatório padrão existente. Você atual
 26. Feche o **Criador de relatórios**.
 
 ## <a name="exercise-3-create-a-multidimensional-report-using-a-reporting-tree"></a>Exercício 3: Criar um relatório multidimensional usando uma árvore de relatórios
-Para este ano, você modificará um relatório padrão existente. Você criará uma árvore de relatórios e adicionará a uma definição de relatórios para produzir um demonstrativo do centro de custo/entrada por divisão. Depois de concluir as atualizações, você gerará um demonstrativo do centro de custo e da entrada por divisão e explorará o relatório usando a árvore de relatórios. Nós iniciaremos na lista de relatórios financeiros.
+Para este ano, você modificará um relatório padrão existente. Você criará uma árvore de relatórios e adicionará a uma definição de relatórios para gerar um **Demonstrativo do centro de custo/entrada por divisão**. Ao concluir as atualizações, você gerará um **Demonstrativo do centro de custo/entrada por divisão** e explorará o relatório usando a árvore de relatórios. Iniciaremos na lista **Relatórios financeiros**.
 
 1. Acesse **Relatórios financeiros** em Consultas e relatórios na contabilidade.
 2. Selecione a linha do relatório chamada **Demonstrativo de renda – Padrão**.
 3. Selecione **Editar**. O **Demonstrativo de renda – Padrão** será aberto no criador de relatórios.
 4. No menu **Arquivo**, posicione o cursor em **Novo** e clique em **Definição da árvore de relatórios**.
 5. No menu **Editar**, clique em **Inserir Unidades Organizacionais de Dimensões**.
-6. Limpar caixas de seleção para todas as dimensões, exceto **Centro de custos**.
+6. Limpe as caixas de seleção de todas as dimensões, exceto **Centro de custo**.
 7. Clique no campo **Da dimensão** para a dimensão do centro de custos, digite **007** e pressione a tecla TAB. No campo **Para dimensão**, digite **018**.
-8. **Salve** a árvore resultante com o nome **Centros de custo por divisão.** Agora que a árvore do relatório foi criada, você alterará a árvore de relatórios para conter três novas unidades de acúmulo; Marketing, Operações e Varejo.
-9. No menu **Visualizar**, clique em **Centros de custo por divisão**. (Se a árvore do relatório foi fechada, selecione-a nas Definições de árvore de relatórios no painel de navegação.)
+8. **Salve** a árvore resultante com o nome **Centros de custo por divisão**. Agora que a árvore do relatório foi criada, você alterará a árvore de relatórios para conter três novas unidades de acúmulo; Marketing, Operações e Varejo.
+9. No menu **Visualizar**, clique em **Centros de custo por divisão**. (Se a árvore do relatório foi fechada, selecione-a em **Definições de árvore de relatório** no painel de navegação.)
 10. Clique na unidade número dois **Feiras profissionais** e clique no ícone **Inserir unidade de relatórios**.
 11. Clique duas vezes na coluna da entidade na linha em branco, e selecione **USMF**.
 12. Digite **Mercado** nas colunas B e C.
@@ -131,13 +131,13 @@ Para este ano, você modificará um relatório padrão existente. Você criará 
 20. Selecione **Rebaixar unidade de relatórios**. Observa que, agora, a unidade é exibida como filho de **Marketing**.
 21. Clique em unidade quatro, **Marketing Campanha** e clique com o botão direito.
 22. Selecione **Rebaixar unidade de relatórios**.
-23. Clique em **Operações de serviço** na exibição gráfica. Pressione e mantenha pressionada o botão esquerdo do mouse ao arrastar a unidade até **Operações**. Solte o botão esquerdo para soltar a unidade no acúmulo de Operações. Repita para **Produção, controle de qualidade, logística, itens e administração**.
+23. Clique em **Operações de serviço** na exibição gráfica. Pressione e mantenha pressionada o botão esquerdo do mouse ao arrastar a unidade até **Operações**. Solte o botão esquerdo para soltar a unidade no acúmulo de Operações. Repita para **Produção**, **Controle de qualidade**, **Logística**, **Compras** e **Administração**.
 24. Defina **Loja**, **Super**, **Shopping** and **On-line** filhos de **Varejo** ao rebaixá-los ou ao arrasta-los e soltá-los.
 25. Salvar o resultado e a reorganização. Agora que a árvore de relatórios foi criada e organizada, ela pode ser adicionada à definição de relatórios.
 26. No menu **Janela**, selecione **Demonstrativo de renda – Padrão** para abrir a definição do relatório.
 27. Clique no menu suspenso **Tipo de árvore** e selecione **Árvore de relatório**.
 28. Clique no menu suspenso de árvore e selecione **Centros de custo por divisão**.
-29. Altere o ano base para **2012**, **salve** as alterações e **gere** o relatório. Depois que a geração do relatório for concluída e ele for aberto, é possível explorar o relatório.
+29. Altere o ano base para **2021**, **salve** as alterações e **gere** o relatório. Depois que a geração do relatório for concluída e ele for aberto, é possível explorar o relatório.
 30. Selecione o menu suspenso **Árvore do relatório** para visualizar as unidades de relatórios. Como alternativa, você pode fazer uma busca detalhada em uma linha do relatório para ver todos os saldos para todas as unidades da árvore de relatórios.
 31. Feche **Demonstrativo de renda – Padrão**.
 32. Feche o **Criador de relatórios**.
@@ -145,11 +145,11 @@ Para este ano, você modificará um relatório padrão existente. Você criará 
 ## <a name="exercise-4-create-a-consolidated-report-using-an-organization-hierarchy"></a>Ano 4: Criar um relatório consolidado usando uma hierarquia da organização
 Para este ano, você modificará um relatório padrão existente. Você adicionará uma hierarquia da organização na definição de relatório para produzir um Demonstrativo de receita consolidada e um Balancete. Depois de concluir as atualizações, você gerará um relatório consolidado e explorar o relatório usando uma árvore de relatórios. Nós iniciaremos na lista de relatórios financeiros.
 
-1. Acesse **Relatórios financeiros** em Consultas e relatórios na contabilidade.
+1. Acesse **Relatórios financeiros** em **Consultas e relatórios** na contabilidade.
 2. Selecione a linha para o relatório chamado **Balancete e Demonstrativo de renda lado a lado - Padrão**.
 3. Selecione **Editar**. **Balanço e demonstrativo de renda lado a lado – Padrão** será aberto no criador de relatórios.
 4. Selecione **Arquivo** &gt; **Salvar como** e nomeie o relatório **Balanço consolidado e o demonstrativo de renda lado a lado**.
-5. Alterar o ano base para 2012.
+5. Alterar o ano base para 2021.
 6. Clique no menu suspenso de árvore e selecione **Hierarquias da organização**.
 7. Clique no menu suspenso de árvore e selecione **Retenções da Contoso**.
 8. Salve as alterações e gere o relatório. Se solicitado, selecione todas as unidades de relatório. Depois que a geração do relatório for concluída e ele for aberto, é possível explorar o relatório.
@@ -162,16 +162,16 @@ Para este ano, você modificará um relatório padrão existente. Você adiciona
 15. Feche o **Criador de relatórios**.
 
 ## <a name="exercise-5-create-a-side-by-side-departmental-report"></a>Exercício 5: criar um relatório do departamento lado a lado
-Neste exercício, você criará um relatório. O relatório é um demonstrativo de rendimentos dos departamentos lado a lado. Você usará uma definição de linha existente, mas criará uma definição de relatório e uma nova definição de coluna que usa filtros de dimensão. Nós iniciaremos na lista de relatórios financeiros.
+Neste exercício, você criará um relatório. O relatório é um demonstrativo de rendimentos dos departamentos lado a lado. Você usará uma definição de linha existente, mas criará uma definição de relatório e uma nova definição de coluna que usa filtros de dimensão. Iniciaremos na lista **Relatórios financeiros**.
 
-1. Acesse **Relatórios financeiros** em Consultas e relatórios na contabilidade.
+1. Acesse **Relatórios financeiros** em **Consultas e relatórios** na contabilidade.
 2. Selecione **Novo**. O criador de relatórios será aberto com uma definição do relatório em branco. Sua primeira tarefa será criar a definição da coluna.
 3. Crie uma nova definição da coluna ao clicar em **Arquivo**, **Novo** e em **Definição da coluna**.
 4. Na **Coluna A**, selecione **DESC** para o tipo de coluna.
 5. Na **Coluna B**, selecione **FD** para o tipo de coluna.
 6. Clique duas vezes no campo **Filtro de Dimensão**.
 7. Na janela **Dimensão**, clique duas vezes na coluna **Departamento**.
-8. Na seção Individual ou intervalo da caixa de diálogo, clique no campo de **reticências** para o campo **De** para exibir uma lista de departamentos.
+8. Na seção **Individual ou intervalo** da caixa de diálogo, clique no campo de **reticências** do campo **De** para exibir uma lista de departamentos.
 9. Selecione o departamento **022**, **Vendas e marketing** e clique em **OK**.
 10. Repita as etapas de 5 para 8 para os departamentos 23-25.
 11. Na linha **Cabeçalho 2** para todas as colunas FD, digite as descrições do departamento a seguir:
@@ -185,7 +185,7 @@ Neste exercício, você criará um relatório. O relatório é um demonstrativo 
 13. No menu **Janela**, selecione **Nova definição do relatório** para abrir a definição do relatório.
 14. Selecione **Demonstrativo de renda – Padrão** como a definição da linha e **Departamentos lado a lado** como a definição de coluna.
 15. Salve a definição do relatório como **Demonstrativo da receita do departamento lado a lado**.
-16. Altere o ano base para **2012**.
+16. Altere o ano base para **2021**.
 17. Altere o nível de detalhes para **Financeiro, Conta e Transação**.
 18. **Salve** suas alterações e **gere**. Depois que a geração do relatório for concluída e ele for aberto, é possível explorar o relatório.
 

@@ -15,12 +15,12 @@ ms.search.region: global
 ms.author: angelading
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 0e1d7fc58ad71365275d5e82a277554bee99c43a
-ms.sourcegitcommit: 0b7a034e644f4d93fe55c7baca5a3f89dbe56898
+ms.openlocfilehash: 8e613bc97a41b62e81ebfbcb8c08e33a60603648
+ms.sourcegitcommit: 81bb8e51951395be3f18f45212e47e6c41656f6a
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 07/14/2022
-ms.locfileid: "9151334"
+ms.lasthandoff: 11/23/2022
+ms.locfileid: "9803901"
 ---
 # <a name="reconcile-bank-statements-by-using-advanced-bank-reconciliation"></a>Reconciliar extratos bancários utilizando a reconciliação bancária avançada
 
@@ -37,7 +37,10 @@ Você pode carregar um extrato bancário que contém informações sobre uma ún
 -   Para importar um arquivo de extrato bancário único sobre uma única conta, defina a opção **Importar extrato para múltiplas contas bancárias em todas entidades legais** para **Não**, e selecione a conta bancária associada ao extrato. Clique em **Procurar** para selecionar o arquivo de extrato bancário associado e, em seguida, clique em **Carregar**.
 -   Para importar um arquivo de extrato bancário único sobre várias contas, defina a opção **Importar extrato para múltiplas contas bancárias em todas entidades legais** para **Sim**. Clique em **Procurar** para selecionar o arquivo de extrato bancário associado e, em seguida, clique em **Carregar**.
 
-Se alguma instrução no arquivo eletrônico não puder ser associada a uma conta bancária ou se estiver associada a várias contas bancárias usando os campos de identificação, não será importada. No entanto, outras instruções em arquivo ainda podem ser importados. O usuário receberá uma mensagem para os que a importação de extrato bancário foi malsucedida para contas bancárias específicas. Observe que o usuário que está importando o arquivo de extrato bancário deve ter acesso a uma entidade legal às instruções de importação para contas bancárias da entidade legal. 
+Se alguma instrução no arquivo eletrônico não puder ser associada a uma conta bancária ou se estiver associada a várias contas bancárias usando os campos de identificação, não será importada. No entanto, outras instruções em arquivo ainda podem ser importados. O usuário receberá uma mensagem para os que a importação de extrato bancário foi malsucedida para contas bancárias específicas. 
+
+>[!Note] 
+>O usuário que importa o arquivo de extrato bancário deve ter acesso a uma entidade legal para importar extratos para contas bancárias da entidade legal. 
 
 Você pode usar um arquivo zip para carregar vários arquivos de extrato para o Finance em um único processo. Para importar vários arquivos de extrato bancário sobre várias contas, combine todos os arquivos de extrato bancário em um arquivo zip. Na caixa de diálogo **Importar extratos bancários**, defina a opção **Importar extrato para múltiplas contas bancárias em todas entidades legais** para **Sim**. Clique em **Procurar** para selecionar o arquivo zip que contém os arquivos de extratos bancários e, em seguida, clique em **Carregar**. O processo de importação reconhecerá o arquivo relevante e cobrar cada demonstrativo que estão incluídas nele, independentemente de entidade legal da conta bancária.
 

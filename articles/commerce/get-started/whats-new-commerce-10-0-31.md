@@ -10,12 +10,12 @@ ms.search.region: Global
 ms.author: josaw
 ms.search.validFrom: 2022-10-01
 ms.dyn365.ops.version: 10.0.31
-ms.openlocfilehash: 05ccd9794ffeba6a09d6fec0a57ffad2b59707ad
-ms.sourcegitcommit: 87e75aa6af2c3280316d7d73eafa14a52353a5e4
+ms.openlocfilehash: ed4325095163415d05a56128cb1f0334440fe0e5
+ms.sourcegitcommit: c364f50ea0ad50bac5c30724b6ce301d9574b653
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/21/2022
-ms.locfileid: "9709851"
+ms.lasthandoff: 11/18/2022
+ms.locfileid: "9787517"
 ---
 # <a name="preview-of-dynamics-365-commerce-10031-february-2023"></a>Versão preliminar do Dynamics 365 Commerce 10.0.31 (fevereiro de 2023)
 
@@ -38,6 +38,7 @@ A tabela a seguir lista os recursos incluídos nesta versão. Podemos atualizar 
 | Pagamentos | [Habilitar o Apple Pay com o Dynamics 365 Payment Connector para Adyen](/dynamics365-release-plan/2022wave2/commerce/dynamics365-commerce/enable-apple-pay-dynamics-365-payment-connector-adyen)  | Os clientes de comércio eletrônico podem usar o Apple Pay nas páginas do carrinho e de finalização da compra em dispositivos e navegadores compatíveis. | Aceitação do desenvolvedor |
 | Pagamentos  |  O Commerce adicionou a capacidade de limitar a forma que os usuários interagem com os tokens de pagamento recorrente em toda a interface do Commerce headquarters. As formas de pagamento, como a página **Pedido de Venda do Call Center**, não exibem mais o token de pagamento recorrente utilizado anteriormente por um cliente para uso em uma nova transação. Apenas uma determinada entrada de "cartão registrado" na tela **Pagamentos do Cliente** no Commerce, ou com o consentimento de um cliente ao pagar um pedido de venda, aparecerá para os usuários de call center ou do Commerce headquarters ao processar um pagamento de uma nova transação. | [Limitar o uso de token de pagamento](../dev-itpro/limit-token-usage.md)  |  Gerenciamento de recursos<p>*Restringir uso do Token de Pagamento no Contexto da ordem*  |
 | PDV | [Criar ordens de compra do PDV](/dynamics365-release-plan/2022wave2/commerce/dynamics365-commerce/create-purchase-orders-pos)  |  Operação aprimorada de estoque de entrada no aplicativo do ponto de venda (PDV) para permitir que os usuários criem, editem e confirmem solicitações de ordem de compra. |  Gerenciamento de recursos<p>*Capacidade de criar solicitações de ordem de compra no PDV*   |
+| Idiomas adicionais disponíveis | Quatro idiomas adicionais estão disponíveis | Quatro novos idiomas estão disponíveis para seleção de usuário na lista de idiomas preferenciais: coreano, português (Portugal), vietnamita e chinês (tradicional). Para selecionar esta opção, vá para **Opções de usuário \> Preferências \> Idioma e preferência de país/região**. | Preferências localizadas |  
 
 
 

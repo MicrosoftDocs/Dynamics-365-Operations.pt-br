@@ -2,7 +2,7 @@
 title: Agendar a impressão da etiqueta de ciclo durante o ciclo
 description: Este artigo descreve como configurar e usar a funcionalidade para impressão de etiqueta de ciclo baseada em tarefas.
 author: perlynne
-ms.date: 06/09/2021
+ms.date: 12/02/2022
 ms.topic: article
 ms.search.form: WHSPostMethod, WHSWavePostMethodTaskConfig, WHSWaveTemplateTable, WHSParameters, WHSWaveTableListPage, WHSWorkTableListPage, WHSWorkTable, BatchJobEnhanced, WHSPlannedWorkOrder
 audience: Application User
@@ -11,12 +11,12 @@ ms.search.region: Global
 ms.author: perlynne
 ms.search.validFrom: 2021-06-09
 ms.dyn365.ops.version: 10.0.16
-ms.openlocfilehash: ac2bc4cce42bada43334b82301d716414cd6d654
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: e788e5a9206e46ada6490d4a0196c7ea8ca6af15
+ms.sourcegitcommit: 04e42c495d018e457fb3b038cadc4fe75ecbba12
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8889447"
+ms.lasthandoff: 12/02/2022
+ms.locfileid: "9822353"
 ---
 # <a name="schedule-wave-label-printing-during-wave"></a>Agendar a impressão da etiqueta de ciclo durante o ciclo
 
@@ -32,7 +32,6 @@ Quando você usa o recurso *Impressão de etiqueta de ciclo baseada em tarefa*, 
 
 Para usar os recursos que são descritos neste artigo, eles devem ser ativados para o seu sistema. Use o espaço de trabalho [Gerenciamento de recurso](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) para ativar os recursos na seguinte ordem:
 
-1. *Impressão de etiqueta de ciclo* – Este recurso é necessário para habilitar o método de processo de ciclo para impressão de etiqueta de ciclo.
 1. *Bloqueio de trabalho em toda a organização* - Este recurso é necessário para a configuração manual e automática da criação de trabalho agendado. (Desde a versão 10.0.21 do Supply Chain Management, este recurso é obrigatório, portanto, é ativado por padrão e não pode ser desativado novamente.)
 1. *Impressão de etiqueta de ciclo baseada em tarefas* – Esse recurso é necessário para dividir a impressão da etiqueta de ciclo em um escopo de transação separado.
 

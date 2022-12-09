@@ -1606,7 +1606,9 @@
                           href: localizations/e-invoicing-mex-get-started.md?context=/dynamics365/context/finance
                         - name: Introdução ao Faturamento Eletrônico da Polônia
                           href: localizations/e-invoicing-pol-get-started.md?context=/dynamics365/context/finance
-                        - name: Introdução ao Faturamento Eletrônico da Arábia Saudita
+                        - name: Introdução ao Faturamento Eletrônico da Arábia Saudita - Fase um
+                          href: localizations/e-invoicing-sa-get-started-phase-one.md
+                        - name: Introdução ao Faturamento Eletrônico da Arábia Saudita - Fase dois
                           href: localizations/e-invoicing-sa-get-started.md?context=/dynamics365/context/finance
                         - name: Integração do faturamento eletrônico na Arábia Saudita
                           href: localizations/e-invoicing-sa-onboarding.md?context=/dynamics365/context/finance

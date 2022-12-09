@@ -14,12 +14,12 @@ ms.search.validFrom:
 - month/year of release that feature was introduced in
 - in format yyyy-mm-dd
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: 576dcd320600f4741a43bfeee53198637bffce15
-ms.sourcegitcommit: cf6b764824bd1cf2c0dde6d37ddd0a7abab87ff0
+ms.openlocfilehash: 12de50f26127c54c2f82ace43487de10e7125aea
+ms.sourcegitcommit: 81bb8e51951395be3f18f45212e47e6c41656f6a
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/16/2022
-ms.locfileid: "9779518"
+ms.lasthandoff: 11/23/2022
+ms.locfileid: "9804201"
 ---
 # <a name="reconcile-a-bank-account"></a>Reconciliar uma conta bancária
 
@@ -27,7 +27,7 @@ ms.locfileid: "9779518"
 
 Quando receber um extrato bancário, você deve periodicamente reconciliar as transações bancárias de entidade legal com as transações no extrato bancário.
 
-Não é possível reconciliar um extrato bancário com uma conta bancária se algum pagamento de cheque ou guia de depósito listado no extrato tiver, no momento, o status **Cancelamento pendente**. Depois que um revisor lançar ou rejeitar uma reversão de cheque ou um cancelamento de pagamento de guia de depósito, o status não é mais **Cancelamento pendente** e você pode reconciliar a conta.
+Não será possível reconciliar um extrato bancário com uma conta bancária se um pagamento de cheque ou guia de depósito listado no extrato tiver, no momento, o status **Cancelamento pendente**. Depois que um revisor lançar ou rejeitar uma reversão de cheque ou um cancelamento de pagamento de guia de depósito, o status não é mais **Cancelamento pendente** e você pode reconciliar a conta.
 
 1. Acesse **Gerenciamento de caixa e bancos** \> **Contas bancárias** \> **Contas bancárias**. Selecione a conta bancária para reconciliar com o extrato bancário e selecione **Reconciliar** > **Reconciliação de conta**.
 
@@ -57,17 +57,17 @@ Para marcar a caixa de seleção **Compensado** para um intervalo de cheques que
 
 7.  À medida que as transações no extrato bancário são marcadas como **Compensado**, o valor no campo **Não reconciliado**, que é recalculado continuamente conforme você faz alterações, se aproxima de zero. Quando ele atingir zero, selecione **Reconciliar conta** para lançar a reconciliação, e as transações e as correções criadas.
     
-    Depois de lançada a reconciliação, as transações incluídas não poderão mais ser alteradas ou corrigidas, e não são exibidas para reconciliação de conta no futuro.
+    Depois de lançada a reconciliação, as transações incluídas não poderão mais ser alteradas ou corrigidas, e não serão exibidas para reconciliação de conta no futuro.
 
 8.  Para exibir as transações bancárias que ainda não foram reconciliadas, use o relatório **Transações bancárias não reconciliadas**. Para exibir o extrato bancário de uma conta, use o relatório **Extrato bancário**.
 
 ## <a name="cancel-bank-statement-reconciliation"></a>Cancelar reconciliação de extrato bancário 
 
-A funcionalidade Cancelar reconciliação de extrato bancário permite cancelar a reconciliação de extrato bancário. Para usar esse recurso, habilite **Cancelar reconciliação de extrato bancário** no espaço de trabalho **Gerenciamento de recursos**. Também será necessário habilitar o parâmetro **Permitir edição de extrato bancário**. Para fazer isso, Acesse **Gerenciamento de dinheiro e banco > Configuração > Parâmetros do gerenciamento de dinheiro e banco**.
+A funcionalidade **Cancelar reconciliação de extrato bancário** permite cancelar a reconciliação de extrato bancário. Para usar esse recurso, habilite **Cancelar reconciliação de extrato bancário** no espaço de trabalho **Gerenciamento de recursos**. Também será necessário habilitar o parâmetro **Permitir edição de extrato bancário**. Para fazer isso, Acesse **Gerenciamento de dinheiro e banco > Configuração > Parâmetros do gerenciamento de dinheiro e banco**.
  
 As reconciliações de extrato bancário só podem ser canceladas na ordem cronológica em que foram inseridas. Quando a reconciliação de extrato bancário for cancelada, as novas transações e correções serão revertidas e todas as outras transações serão marcadas como não reconciliadas.
  
-Para cancelar a reconciliação de extrato bancário, selecione o extrato bancário e selecione **Extrato bancário > Cancelar reconciliação bancária**. Na página **Cancelar reconciliação bancária**, forneça **Código de motivo**, **Comentário do motivo** e **Data de cancelamento**. Selecione **OK** para iniciar o cancelamento. Observe, a data de cancelamento do extrato bancário deve ser na data do extrato bancário ou posterior a ela. Após o cancelamento da reconciliação de extrato bancário, o campo **Data de cancelamento** para o extrato bancário será atualizado com a **Data de cancelamento** fornecida. Selecione o botão **Transações** para exibir as transações para as quais a reconciliação foi cancelada.
+Para cancelar a reconciliação de extrato bancário, selecione o extrato bancário e selecione **Extrato bancário > Cancelar reconciliação bancária**. Na página **Cancelar reconciliação bancária**, forneça **Código de motivo**, **Comentário do motivo** e **Data de cancelamento**. Selecione **OK** para iniciar o cancelamento. Observe, a data de cancelamento do extrato bancário deve ser na data do extrato bancário ou posterior a ela. Após o cancelamento da reconciliação de extrato bancário, o campo **Data de cancelamento** do extrato bancário será atualizado com a **Data de cancelamento** fornecida. Selecione o botão **Transações** para exibir as transações para as quais a reconciliação foi cancelada.
 
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

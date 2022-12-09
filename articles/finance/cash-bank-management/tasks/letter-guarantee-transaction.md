@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: kweekley
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 30e21c11b067f6def127f3eab026d7255ab1ca29
-ms.sourcegitcommit: cf6b764824bd1cf2c0dde6d37ddd0a7abab87ff0
+ms.openlocfilehash: 786aecf69bae3d07ac80a55b4dc835dd8129bd59
+ms.sourcegitcommit: 81bb8e51951395be3f18f45212e47e6c41656f6a
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/16/2022
-ms.locfileid: "9779925"
+ms.lasthandoff: 11/23/2022
+ms.locfileid: "9803955"
 ---
 # <a name="letter-of-guarantee-transaction"></a>Transação da carta de garantia
 
@@ -43,7 +43,7 @@ Este procedimento usa a empresa de dados de demonstração USMF.
 1. Acesse **Contas a receber > Ordens > Todas as ordens de venda**.
 2. Clique em **Novo**.
 3. No campo **Conta de cliente**, insira ou selecione um valor.
-4. Expanda a seção Geral.
+4. Expanda a seção **Geral**.
 5. No campo **Local**, insira ou selecione um valor.
 6. Na lista, clique no link na linha selecionada.
 7. No campo **Depósito**, insira ou selecione um valor.
@@ -52,9 +52,12 @@ Este procedimento usa a empresa de dados de demonstração USMF.
 10. Clique em **OK**.
 11. No campo **Número do item**, insira ou selecione um valor.
 12. No campo **Preço unitário**, insira um número.
-13. Expanda a seção Detalhes da linha.
-14. Clique na guia Entrega.
-    * Observação: Selecione controle da data de entrega = nenhum  
+13. Expanda a seção **Detalhes da linha**.
+14. Clique na guia **Entrega**.
+
+>[!Note] 
+>Selecione **Controle da data de entrega** = **Nenhum**  
+
 15. No campo **Data de remessa solicitada**, insira uma data.
 16. No campo **Data de remessa confirmada**, insira uma data.
 
@@ -83,7 +86,7 @@ Este procedimento usa a empresa de dados de demonstração USMF.
 2. Insira um valor no campo **Número do banco**.
     * Verifique os valores nos campos **Margem** e **Despesa**.  
 3. Clique em **OK**.
-4. Expandir a seção Ações.
+4. Expanda a seção **Ações**.
     * Verifique o registro 'Receber do banco'.  
 5. Clique para seguir o link no campo **Número do lote do diário**.
 6. Clique em **Linhas**.
@@ -102,7 +105,7 @@ Este procedimento usa a empresa de dados de demonstração USMF.
 9. Na lista, localize e selecione o PDV desejado.
 10. Clique em **Conceder ao beneficiário** para abrir a caixa de diálogo suspensa.
 11. Clique em **OK**.
-12. Expandir a seção Ações.
+12. Expanda a seção **Ações**.
     * Valide o registro 'Conceder ao beneficiário'.  
 
 ## <a name="process-letter-of-guarantee_increase-value"></a>Processar carta de garantia_Aumentar valor
@@ -118,7 +121,7 @@ Este procedimento usa a empresa de dados de demonstração USMF.
 10. Na lista, localize e selecione o PDV desejado.
 11. Clique em **Aumentar valor** para abrir a caixa de diálogo suspensa.
 12. Clique em **OK**.
-13. Expandir a seção Ações.
+13. Expanda a seção **Ações**.
     * Verifique o registro 'Aumentar valor'.  
 14. Na lista, localize e selecione o PDV desejado.
 15. Clique para seguir o link no campo **Número do lote do diário**.
@@ -137,7 +140,7 @@ Este procedimento usa a empresa de dados de demonstração USMF.
 9. Na lista, localize e selecione o PDV desejado.
 10. Clique em **Liquidar** para abrir a caixa de diálogo suspensa.
 11. Clique em **OK**.
-12. Expandir a seção Ações.
+12. Expanda a seção **Ações**.
     * Verifique o registro 'Liquidar'.  
 13. Na lista, localize e selecione o PDV desejado.
 14. Clique para seguir o link no campo **Número do lote do diário**.

@@ -2,7 +2,7 @@
 title: Visão geral de liquidação para pagamentos centralizados
 description: Este artigo descreve a liquidação para pagamentos centralizados do Microsoft Dynamics 365 Finance.
 author: angelad116
-ms.date: 08/02/2018
+ms.date: 11/22/2022
 ms.topic: overview
 ms.prod: ''
 ms.technology: ''
@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: angelading
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: ef71520df5cdae192355e512238d03c1f21b901f
-ms.sourcegitcommit: 0b7a034e644f4d93fe55c7baca5a3f89dbe56898
+ms.openlocfilehash: 42c359edbe49af151ac76c9873c0d429bbe1ca12
+ms.sourcegitcommit: 81bb8e51951395be3f18f45212e47e6c41656f6a
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 07/14/2022
-ms.locfileid: "9151152"
+ms.lasthandoff: 11/23/2022
+ms.locfileid: "9804217"
 ---
 # <a name="settlement-overview-for-centralized-payments"></a>Visão geral de liquidação para pagamentos centralizados
 
@@ -84,11 +84,11 @@ Os descontos à vista gerados durante o processo de liquidação entre empresas 
 
 As tolerâncias de pagamento a maior, a menor e de diferença mínima são determinadas com base na entidade legal do pagamento para pagamentos a maior e na entidade legal de faturas para pagamentos a menor. A conta de lançamento usada é determinada pela configuração no campo **Administração do desconto à vista** na página **Parâmetros de contas a receber** para clientes, e no campo **Administração do desconto à vista** na página **Parâmetros de contas a pagar** para fornecedores.
 
--   Se a configuração de administração do desconto à vista for Específica, ou se a configuração é Inespecífica e o desconto à vista aplicável é postado em uma entidade legal diferente do pagamento extra, a conta automática para desconto à vista de cliente, desconto à vista de fornecedor, ou diferença mínima em moeda da contabilidade é usado. Você pode especificar essas contas na página **Para transações automáticas**.
--   Se a configuração de administração do desconto à vista for Inespecífico e o desconto for lançado na mesma entidade legal do pagamento a maior (a entidade legal do pagamento e da fatura são a mesma), a conta de desconto à vista será ajustada. Por exemplo, se uma nota fiscal para 100,00 com um desconto à vista de 3,00 for liquidada com um pagamento de 98,00, a conta de desconto à vista será ajustada em 1,00. O valor do desconto líquido é de 2,00.
--   Se a configuração de administração do desconto à vista for Inespecífico, o desconto à vista for lançado na mesma entidade legal do pagamento a maior e o pagamento a maior ou a menor for liquidado com várias notas fiscais com descontos à vista, a conta de desconto à vista para a última nota fiscal será ajustada.
+-   Se a configuração de administração do desconto à vista for **Específica**, ou se a configuração for **Não específica** e o desconto à vista aplicável for lançado em uma entidade legal distinta do pagamento a maior, será usada a conta automática para desconto à vista de cliente, desconto à vista de fornecedor, ou diferença mínima na moeda contábil. Você pode especificar essas contas na página **Para transações automáticas**.
+-   Se a configuração de administração do desconto à vista for **Não específica** e o desconto for lançado na mesma entidade legal do pagamento a maior (a entidade legal do pagamento e da fatura são iguais), a conta de desconto à vista será ajustada. Por exemplo, se uma nota fiscal para 100,00 com um desconto à vista de 3,00 for liquidada com um pagamento de 98,00, a conta de desconto à vista será ajustada em 1,00. O valor do desconto líquido é de 2,00.
+-   Se a configuração de administração do desconto à vista for **Não específica**, o desconto à vista for lançado na mesma entidade legal do pagamento a maior e o pagamento a maior ou a menor for liquidado com várias faturas com descontos à vista, a conta de desconto à vista para a última fatura será ajustada.
 
-Se a seleção de administração do desconto à vista for Inespecífico, as regras de liquidação de pagamento não específicas só serão aplicadas nestas situações:
+Se a seleção de administração do desconto à vista for **Não específica**, as regras de liquidação de pagamento não específicas só serão aplicadas nestas situações:
 -   Há um pagamento a maior.
 -   O pagamento a maior é liquidado com uma ou mais notas fiscais que têm um desconto à vista.
 -   O desconto à vista é lançado na mesma entidade legal que o pagamento a maior.
