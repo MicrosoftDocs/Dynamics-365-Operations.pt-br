@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: twheeloc
 ms.search.validFrom: 2020-10-13
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 5f5981801317ad9647f57a0f68f9b67b592256ab
-ms.sourcegitcommit: f96e5dec5a808d9819d2a23b8e15ce00aeff475b
+ms.openlocfilehash: 3fe21df8be010ace3070ad08ed95f3d3efc7b01d
+ms.sourcegitcommit: bdee5e642d417a13abdb778c14ec5f2dbbf8dee7
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/10/2022
-ms.locfileid: "9752681"
+ms.lasthandoff: 12/09/2022
+ms.locfileid: "9838546"
 ---
 # <a name="dynamics-365-human-resources-infrastructure-merge-known-issues"></a>Problemas conhecidos de mesclagem de infraestrutura do Dynamics 365 Human Resources
 
@@ -43,4 +43,8 @@ Os tipos de ambiente a seguir são necessários para que você possa fazer a mig
 ## <a name="teams-integration"></a>Integração do Teams
 
 O aplicativo Recursos Humanos no Teams atualmente está sendo deslocado para uma solução da Microsoft Power Platform. Para obter mais informações, consulte [aplicativo Human Resources no Teams](hr-admin-teams-leave-app.md).
+
+## <a name="dual-write-integration"></a>Integração da gravação dupla
+
+A gravação dupla é uma infraestrutura pronta para uso que fornece interação quase em tempo real entre aplicativos de engajamento do cliente e aplicativos de finanças e operações. Se a sua organização usa uma gravação dupla para integrações, você pode ser afetado por alguns dos problemas encontrados. Para obter mais informações sobre tabelas e problemas do Dataverse, consulte [Tabelas do Dataverse](hr-developer-entities.md).
 

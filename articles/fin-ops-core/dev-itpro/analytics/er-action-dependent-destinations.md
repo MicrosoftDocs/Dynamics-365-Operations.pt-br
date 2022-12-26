@@ -2,7 +2,7 @@
 title: Configurar destinos de ER dependentes da ação
 description: Este artigo explica como configurar destinos dependentes da ação para um formato de ER (Relatório eletrônico) que está configurado para gerar documentos de saída.
 author: kfend
-ms.date: 02/09/2021
+ms.date: 12/05/2022
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -15,12 +15,12 @@ ms.dyn365.ops.version: 10.0.17
 ms.custom: 97423
 ms.assetid: f3055a27-717a-4c94-a912-f269a1288be6
 ms.search.form: ERSolutionTable, ERFormatDestinationTable
-ms.openlocfilehash: babd123e4c8007e3adc545bb92a2dc83bab93f4e
-ms.sourcegitcommit: 87e727005399c82cbb6509f5ce9fb33d18928d30
+ms.openlocfilehash: 80a432a431891c02e4bf5c71cfe2bd9642c41c75
+ms.sourcegitcommit: e9000d0716f7fa45175b03477c533a9df2bfe96d
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/12/2022
-ms.locfileid: "9286237"
+ms.lasthandoff: 12/13/2022
+ms.locfileid: "9843788"
 ---
 # <a name="configure-action-dependent-er-destinations"></a>Configurar destinos de ER dependentes da ação
 
@@ -32,7 +32,7 @@ No Microsoft Microsoft Dynamics 365 Finance **versão 10.0.17 e posterior**, um 
 
 ## <a name="make-action-dependent-er-destinations-available"></a>Disponibilizar destinos de ER dependentes da ação
 
-Para configurar destinos de ER dependentes da ação na atual instância do Finance e habilitar a [nova](er-apis-app10-0-17.md) API de ER, abra o espaço de trabalho [Gerenciamento de recursos](../../fin-ops/get-started/feature-management/feature-management-overview.md#the-feature-management-workspace) e ative o recurso **Configurar destinos específicos a serem usados para e diferentes ações de PM**. Para usar destinos de ER configurados para relatórios [específicos](#reports-list-wave1) no runtime, habilite o recurso, **Rotear a saída de relatórios de PM com base em destinos de ER que são específicos à ação do (ciclo 1)**.
+Para configurar destinos de ER dependentes da ação na atual instância do Finance e habilitar a [nova](er-apis-app10-0-17.md) API de ER, abra o espaço de trabalho [Gerenciamento de recursos](../../fin-ops/get-started/feature-management/feature-management-overview.md#the-feature-management-workspace) e ative o recurso **Configurar destinos específicos a serem usados para e diferentes ações de PM**. Para usar destinos de ER configurados para relatórios em runtime, habilite o recurso **Rotear a saída de relatórios de PM com base em destinos de ER que são específicos à ação do (ciclo 1)**.
 
 ## <a name="configure-action-dependent-er-destinations"></a>Configurar destinos de ER dependentes da ação
 
@@ -89,6 +89,51 @@ A ilustração a seguir mostra um exemplo da caixa de diálogo **Destinos de for
 > [!NOTE]
 > Se você configurou destinos de ER para vários componentes do formato de ER em execução, uma opção será oferecida separadamente para cada componente configurado do formato de ER.
 
+Se vários formatos de ER forem aplicáveis como modelos de relatório para o documento selecionado, todos os destinos de ER para todos os modelos de relatório de ER aplicáveis serão mostrados na caixa de diálogo e estarão disponíveis para ajuste manual em runtime.
+
+Se nenhum modelo de relatório do [SSRS (SQL Server Reporting Services)](SSRS-report.md) for aplicável ao documento selecionado, a seleção padrão de destinos do Gerenciamento de impressão será ocultada dinamicamente.
+
+A partir da versão **10.0.31** do Finance, você pode alterar manualmente os destinos de ER atribuídos em runtime para os seguintes documentos comerciais:
+
+- Demonstrativo da conta de cliente
+- Nota de juros
+- Nota de carta de cobrança
+- Aviso de Pagamento de Cliente
+- Aviso de Pagamento de Fornecedor
+
+Para ativar a capacidade de alterar destinos de ER em runtime, habilite o recurso **Permitir o ajuste de destinos de ER em runtime** no espaço de trabalho [Gerenciamento de recursos](../../fin-ops/get-started/feature-management/feature-management-overview.md#the-feature-management-workspace).
+
+> [!IMPORTANT]
+> Para os relatórios **Aviso de Pagamento de Cliente** e **Aviso de Pagamento de Fornecedor**, a capacidade de alterar os destinos de ER manualmente só estará disponível se a versão de pré-lançamento de **ForcePrintJobSettings** estiver habilitada.
+
+[![Ajustar destinos de ER em runtime.](./media/ERdestinaiotnChangeUI.jpg)](./media/ERdestinaiotnChangeUI.jpg)
+
+> [!NOTE]
+> Quando a opção **Usar destino de gerenciamento de impressão** estiver definida como **Sim**, o sistema usará os destinos padrão de ER configurados para relatórios de ER específicos. Todas as alterações manuais feitas na caixa de diálogo são ignoradas. Defina a opção usar a opção **Usar destino de gerenciamento de impressão** como **Não** para processar documentos para os destinos de ER definidos na caixa de diálogo imediatamente antes de executar os relatórios.
+
+Os documentos comerciais a seguir não assumem a seleção explícita do usuário de uma ação quando são executados:
+
+- Demonstrativo da conta de cliente
+- Nota de juros
+- Nota de carta de cobrança
+- Aviso de Pagamento de Cliente
+- Aviso de Pagamento de Fornecedor
+
+A lógica a seguir é usada para determinar qual ação é usada enquanto os relatórios anteriores são processados:
+
+- Se a versão de pré-lançamento **ForcePrintJobSettings** estiver habilitada:
+
+    - Se a opção **Usar o destino de gerenciamento de impressão** estiver definida como **Sim**, a ação **Imprimir** será usada.
+    - Se a opção **Usar o destino de gerenciamento de impressão** estiver definida como **Não**, a ação **Exibir** será usada.
+
+- Se a versão de pré-lançamento **ForcePrintJobSettings** não estiver habilitada:
+
+    - Se a opção **Usar destino de gerenciamento de impressão** estiver definida como **Sim**, a ação **Imprimir** será usada para os relatórios **Aviso de Pagamento de Cliente** e **Aviso de Pagamento de Fornecedor**.
+    - Se a opção **Usar destino de gerenciamento de impressão** estiver definida como **Não**, o modelo de relatório padrão do SSRS sempre será usado para os relatórios **Aviso de Pagamento de Cliente** e **Aviso de Pagamento de Fornecedor**, independentemente das configurações de ER definidas.
+    - A ação **Imprimir** é sempre usada para os relatórios **Demonstrativo da conta de cliente**, **Nota de juros** e **Nota de carta de cobrança**.
+
+Para a lógica anterior, as ações **Imprimir** ou **Exibir** podem ser usadas para configurar destinos de relatório de ER dependentes da ação. Em runtime, somente os destinos de ER configurados para uma ação específica são filtrados na caixa de diálogo.
+
 ## <a name="verify-the-provided-user-action"></a>Verificar a ação fornecida pelo usuário
 
 Você pode verificar qual ação do usuário, se houver, é fornecida para a execução do formato de ER ao executar uma ação de usuário específica. Essa verificação é importante quando você deve configurar destinos de ER dependentes da ação, mas não tem certeza sobre qual código de ação do usuário, se houver, é fornecido. Por exemplo, quando você inicia o lançamento de uma nota fiscal de texto livre e define a opção **Imprimir fatura** como **Sim** na caixa de diálogo **Lançar fatura de texto livre**, você pode definir a opção **Usar o destino de gerenciamento de impressão** como **Sim** ou **Não**.
@@ -105,23 +150,9 @@ Siga estas etapas para verificar o código de ação do usuário fornecido.
 
     ![Página logs do relatório de execução eletrônica que contém informações sobre o código de ação do usuário que foi fornecido para a execução filtrada de um formato de ER.](./media/er-destination-action-dependent-03.png)
 
-## <a name=""></a><a name="reports-list-wave1">Lista de documentos comerciais (ciclo 1)</a>
-
-A lista de documentos comerciais a seguir é controlada pelo recurso, **Rotear a saída dos relatórios de PM com base em destinos de ER que são ações específicas do usuário (ciclo 1)**:
-
-- Fatura do cliente (Fatura de texto livre)
-- Fatura do cliente (Fatura de venda)
-- Ordem de Compra
-- Consulta de compra de ordem de compra
-- Confirmação de ordem de venda
-- Nota de carta de cobrança
-- Nota de juros
-- Consultoria de pagamento do fornecedor
-- Solicitação de cotação
-
 ## <a name="additional-resources"></a>Recursos adicionais
 
-[Visão geral de Relatório eletrônico (ER)](general-electronic-reporting.md)
+[Visão geral de Relatório Eletrônico (ER)](general-electronic-reporting.md)
 
 [Destinos de Relatório eletrônico (ER)](electronic-reporting-destinations.md)
 

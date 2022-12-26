@@ -15,12 +15,12 @@ ms.dyn365.ops.version: Release 10.0.11
 ms.custom: ''
 ms.assetid: ''
 ms.search.form: ERSolutionTable, EROperationDesigner
-ms.openlocfilehash: 7509092d353d75cefbbd97393d45c078530a21bd
-ms.sourcegitcommit: 87e727005399c82cbb6509f5ce9fb33d18928d30
+ms.openlocfilehash: 61bc5e3f36bd2ae6e38ed0f511d70a7ae62e045c
+ms.sourcegitcommit: 0c927fcb3afd34d870391f05b5393a4673d916e5
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/12/2022
-ms.locfileid: "9291344"
+ms.lasthandoff: 12/08/2022
+ms.locfileid: "9832022"
 ---
 # <a name="debug-data-sources-of-an-executed-er-format-to-analyze-data-flow-and-transformation"></a>Depurar fontes de dados de um formato de relatório eletrônico executado para analisar o fluxo de dados e a transformação
 
@@ -28,7 +28,7 @@ ms.locfileid: "9291344"
 
 [!include[banner](../includes/preview-banner.md)]
 
-Ao [configurar](tasks/er-format-configuration-2016-11.md) uma solução do relatório eletrônico (ER) para gerar documentos de saída, você define os métodos usados para obter os dados do aplicativo e inseri-los na saída gerada. Para tornar mais eficiente o suporte ao ciclo de vida da solução de ER, a solução deve consistir em um modelo de dados de ER e respectivos componentes de mapeamento, além de um formato de ER e respectivos componentes de mapeamento, para que o mapeamento do modelo seja específico do aplicativo, enquanto outros componentes permanecem independentes do aplicativo. Portanto, vários componentes do ER podem afetar o processo de inserir dados na saída gerada.
+Ao [configurar](tasks/er-format-configuration-2016-11.md) uma solução do relatório eletrônico (ER) para gerar documentos de saída, você define os métodos usados para obter os dados do aplicativo e inseri-los na saída gerada. Para tornar o suporte ao ciclo de vida da solução de ER mais eficiente, a sua solução deve consistir em um modelo de dados de ER e seus componentes de mapeamento, além de um formato de ER e seus componentes de mapeamento, para que o mapeamento do modelo seja específico para o aplicativo, enquanto outros componentes permanecem independentes do aplicativo. Portanto, vários componentes do ER podem afetar o processo de inserir dados na saída gerada.
 
 Às vezes, os dados da saída gerada parecem diferentes dos mesmos dados no banco de dados do aplicativo. Nesses casos, será necessário determinar qual componente do ER é responsável pela transformação dos dados. O recurso do depurador da fonte de dados do ER reduz significativamente o tempo e o custo envolvidos nesta investigação. Você pode interromper a execução de um formato de ER e abrir a interface do depurador da fonte de dados. Nela, é possível procurar as fontes de dados disponíveis e selecionar uma fonte de dados individual para execução. Esta execução manual simula a execução da fonte de dados durante a execução real de um formato de ER. O resultado é apresentado em uma página na qual você pode analisar os dados recebidos.
 

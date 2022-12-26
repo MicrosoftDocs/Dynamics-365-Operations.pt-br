@@ -16,12 +16,12 @@ ms.search.industry: Manufacturing
 ms.author: mirzaab
 ms.search.validFrom: 2021-02-28
 ms.dyn365.ops.version: 10.0.17
-ms.openlocfilehash: 940a3c1d60347c365575f29b853b83a028acad53
-ms.sourcegitcommit: 229ea085cf35579a2631ea1e5fc2c602fa47e3f3
+ms.openlocfilehash: 1333881f80c735794784831d4042bfe7d070b796
+ms.sourcegitcommit: bdee5e642d417a13abdb778c14ec5f2dbbf8dee7
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/24/2022
-ms.locfileid: "9714749"
+ms.lasthandoff: 12/09/2022
+ms.locfileid: "9838463"
 ---
 # <a name="install-and-connect-the-warehouse-management-mobile-app"></a>Instalar e conectar o aplicativo móvel Warehouse Management
 
@@ -58,10 +58,10 @@ A maneira mais fácil de instalar o aplicativo em um único dispositivo é insta
 
 Como alternativa para a instalação de uma loja de aplicativos, você pode baixar o aplicativo no Microsoft App Center. O App Center fornece pacotes instaláveis que podem ser sideload. Além da versão atual, o App Center também permite baixar versões anteriores e pode fornecer versões de visualização com recursos futuros que você pode testar. Para baixar versões atuais, anteriores ou preliminares do aplicativo móvel Warehouse Management do Microsoft App Center, use um dos seguintes links:
 
-- **Windows (UWP):** [Warehouse Management (Windows)](https://go.microsoft.com/fwlink/?linkid=2154406)  
+- **Windows (UWP):** [Warehouse Management (Windows)](https://aka.ms/wma-windows-official-release)  
     Para obter instruções sobre como instalar um pacote baixado em um dispositivo do Windows e configurar os certificados necessários, consulte [Instalar um build no App Center](/appcenter/distribution/installation).
 
-- **Android:** [Warehouse Management (Android)](https://go.microsoft.com/fwlink/?linkid=2154613)  
+- **Android:** [Warehouse Management (Android)](https://aka.ms/wma-android-official-release)  
     Se você baixar uma versão preliminar, serão necessárias algumas etapas adicionais para instalá-la. Para ver mais detalhes, consulte [Testar aplicativos Android](/appcenter/distribution/testers/testing-android).
 
 Para informações sobre como instalar uma versão baixada da App Center, consulte [Instalar uma versão](/appcenter/distribution/installation).

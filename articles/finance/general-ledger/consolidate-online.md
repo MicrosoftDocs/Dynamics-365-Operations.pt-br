@@ -2,7 +2,7 @@
 title: Consolidações financeiras online
 description: Este artigo descreve consolidações financeiras online na contabilidade.
 author: aprilolson
-ms.date: 07/09/2018
+ms.date: 12/07/2022
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: aolson
 ms.search.validFrom: 2018-5-31
 ms.dyn365.ops.version: 8.0.1
-ms.openlocfilehash: f6c489156ca869e02ba6387c3464cc1e1a248d9f
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: 5843ac78adf32e738d9882c7f4e9e04a79200700
+ms.sourcegitcommit: bdee5e642d417a13abdb778c14ec5f2dbbf8dee7
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8848539"
+ms.lasthandoff: 12/09/2022
+ms.locfileid: "9838247"
 ---
 # <a name="online-financial-consolidations"></a>Consolidações financeiras online
 
@@ -45,6 +45,19 @@ Aqui está uma explicação sobre os vários campos nessa guia:
 - **Período de consolidação** – Use os campos desta seção para definir o período de consolidação.
 
     - **De** e **Até** – Especifique um intervalo de datas para a consolidação. Se você deixar esses campos vazios, a consolidação será processada para todos os períodos que são definidos no calendário do razão da empresa. Recomendamos que você não deixe esses campos vazios.
+    - **Selecionar valor de consolidação de** – use esse campo para especificar se os valores de moeda contábil ou os valores de moeda de relatório das empresas de origem serão usados para atualizar os valores de moeda contábil da empresa de consolidação.
+
+        - Selecione **Moeda contábil** para usar os valores na moeda contábil da empresa de origem para atualizar os valores na moeda contábil na empresa de consolidação. Quando esse valor for selecionado, use o campo **Consolidar moeda contábil** para definir como as moedas contábeis na empresa de consolidação serão calculadas.
+        - Selecione **Moeda de relatório** para usar os valores na moeda de relatório da empresa de origem para calcular os valores na moeda contábil na empresa de consolidação.
+
+            - Se a moeda de relatório da empresa de origem for igual à moeda contábil da empresa de consolidação, os valores na moeda de relatório serão copiados da empresa de origem para a empresa de consolidação.
+            - Se a moeda de relatório da empresa de origem for diferente da moeda contábil da empresa de consolidação, os valores serão convertidos usando as informações de câmbio definidas na guia **Conversão de moeda** desta página para calcular os valores da empresa de consolidação.
+
+    - **Consolidar moeda contábil** – esse campo só estará disponível se o campo **Selecionar valor de consolidação de** estiver definido como **Moeda contábil**. Use-o para especificar se os valores de moeda contábil das empresas de origem são convertidos por meio de taxas de câmbio ou copiados para a empresa de consolidação. Selecione **Usar conversão de moeda** para usar as informações de taxa de câmbio definidas na guia **Conversão de moeda** para calcular os saldos contábeis de consolidação. Selecione **Usar valor na moeda contábil** para copiar os valores na moeda contábil das empresas de origem para a empresa de consolidação.
+
+        - Se a moeda contábil da empresa de origem for igual à moeda contábil da empresa de consolidação, os valores na moeda de relatório serão copiados da empresa de origem para a empresa de consolidação.
+        - Se a moeda contábil da empresa de origem for diferente da moeda contábil da empresa de consolidação, os valores serão convertidos usando as informações de câmbio definidas na guia **Conversão de moeda** desta página para calcular os valores da empresa de consolidação.
+
     - **Incluir valores reais** – Defina esta opção como **Sim** para consolidar os dados reais.
     - **Incluir valores de orçamento** – Defina esta opção como **Sim** para consolidar dados de registro de orçamento.
     - **Recriar saldos durante a consolidação** – Não recomendamos que você defina esta opção como **Sim**. Em vez disso, reconstrua saldos em um trabalho em lote separado.
@@ -80,9 +93,9 @@ Na guia **Eliminação**, você tem três opções para processar eliminações:
 Para obter mais informações sobre eliminações, consulte [Regras de eliminação](./elimination-rules.md).
 
 ## <a name="currency-translation"></a>Conversão de moeda
-Na guia **Conversão de moeda**, você define a entidade legal, a conta, o tipo de taxa de câmbio e a taxa. Há três opções disponíveis no campo **Aplicar taxa de câmbio de**:
+Na guia **Conversão de moeda**, você define a entidade legal, a conta, o tipo de taxa de câmbio e a taxa. Se a empresa de consolidação for mapeada para contas principais diferentes da empresa de origem, a conta principal da empresa de consolidação deverá ser inserida nos campos **Data inicial** e **Data final**, e não nas contas principais da empresa de origem. Para cada linha de entidade legal e contas principais, três opções estão disponíveis no campo **Aplicar taxa de câmbio de**:
 
-- **Data de consolidação** – A data de consolidação será usada para obter a taxa de câmbio. Essa taxa é equivalente à taxa de ponto ou de fim de mês. Você terá uma visualização da taxa, mas não poderá editá-la.
+- **Data de consolidação** – a data definida no campo **Período de consolidação inicial** na guia **Critérios** para a consolidação será usada para obter a taxa de câmbio. Essa taxa é equivalente à taxa de ponto ou de fim de mês. Você terá uma visualização da taxa, mas não poderá editá-la.
 - **Data da transação** – A data de cada transação será usada para selecionar uma taxa de câmbio. Essa opção é a mais usada normalmente para ativos fixos e é também conhecida como uma taxa histórica. Você não terá uma visualização da taxa, porque haverá várias taxas para diversas transações no intervalo de conta.
 - **Taxa definida pelo usuário** – Após selecionar esta opção, você poderá inserir a taxa de câmbio que deseja. Esta opção pode ser útil para as taxas de câmbio médias ou se você estiver realizando uma consolidação em relação a uma taxa de câmbio fixa.
 

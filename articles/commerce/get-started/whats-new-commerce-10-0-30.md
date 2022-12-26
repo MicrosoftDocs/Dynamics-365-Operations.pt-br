@@ -2,7 +2,7 @@
 title: Versão preliminar do Dynamics 365 Commerce 10.0.30 (novembro de 2022)
 description: Este artigo descreve os recursos novos ou alterados no Microsoft Dynamics 365 Commerce 10.0.30.
 author: josaw1
-ms.date: 08/31/2022
+ms.date: 12/07/2022
 ms.topic: article
 audience: Application User
 ms.reviewer: josaw
@@ -10,12 +10,12 @@ ms.search.region: Global
 ms.author: josaw
 ms.search.validFrom: 2022-09-01
 ms.dyn365.ops.version: 10.0.29
-ms.openlocfilehash: 0149c9671e8baeb26965b4f136ed91d09e2d039b
-ms.sourcegitcommit: 1d5cebea3e05b6d758cd01225ae7f566e05698d2
+ms.openlocfilehash: a449c7eff21c059555f9659ea932705858d26275
+ms.sourcegitcommit: 0c927fcb3afd34d870391f05b5393a4673d916e5
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 09/02/2022
-ms.locfileid: "9405542"
+ms.lasthandoff: 12/08/2022
+ms.locfileid: "9831738"
 ---
 # <a name="preview-of-dynamics-365-commerce-10030-november-2022"></a>Versão preliminar do Dynamics 365 Commerce 10.0.30 (novembro de 2022)
 
@@ -35,7 +35,7 @@ A tabela a seguir lista os recursos incluídos nesta versão. Podemos atualizar 
 | Área de recursos | Recurso | Mais informações | Habilitado por   |
 |---------|------------------|----------------|--------------| 
 | Atendimento ao cliente   | Chat em um site de comércio eletrônico usando um bot do Power Virtual Agents. | Este recurso oferecerá aos usuários do site de comércio eletrônico uma opção para usar um bot de chat do Power Virtual Agents para solicitações de suporte. | Habilitado por administradores/responsáveis para usuários finais |
-| Insights  |  Fluxo de insights operacionais do ponto de venda (PDV) para a sua conta do Application Insights. | [Acessar logs no Application Insights](../dev-itpro/retail-component-events-diagnostics-troubleshooting.md#enable-diagnostic-events-in-application-insights)   |  Aceitação de profissional de TI/desenvolvedor   |
+| Insights  |  Fluxo de insights operacionais do ponto de venda (PDV) para a sua conta do Application Insights. | [Acessar logs no Application Insights](../dev-itpro/operational-insights.md#enable-diagnostic-events-in-application-insights)   |  Aceitação de profissional de TI/desenvolvedor   |
 |  Pagamentos  | Suporte para ordem do PayPal além do período de autorização de 29 dias. | O período máximo de autorização para o PayPal é de 29 dias, após o qual uma nova autorização e a ID da ordem deverão ser geradas. Como alternativa, o PayPal oferece uma opção em que uma ordem de PayPal pode ser referenciada como uma ordem geral, permitindo várias autorizações e capturas na mesma ID da ordem, em vez de gerar uma nova autorização e ID de ordem em 29 dias). | Ao configurar o conector de pagamento PayPal no Commerce headquarters, o campo **OrderIntent** foi adicionado e pode ter dois valores:<p><p>- **Autorizar**: esta configuração é o padrão (se o campo for deixado em branco, **Autorizar** atuará como padrão). Configurar **OrderIntent** como **Autorizar** está correlacionado ao valor PayPal **processing_instruction** de **NO_INSTRUCTION**. A ordem será autorizada com o PayPal e a autorização não poderá ser modificada quando esse valor for usado.<p>- **Salvar**: quando o valor **OrderIntent** estiver definido como **Salvar**, isso será correlacionado ao valor PayPal **processing_instruction** de **ORDER_SAVED_EXPLICITLY**. As referências da ordem serão salvas no serviço PayPal quando esse valor for usado.  |
 | Entrada de PDV  | [Habilitar recursos de diagnóstico de autoatendimento para entrada de PDV](/dynamics365-release-plan/2022wave2/commerce/dynamics365-commerce/enable-self-serve-diagnosis-capabilities-pos-sign-in)  |  Esse recurso fornece recursos de diagnóstico de autoatendimento no PDV (ponto de venda) e no Commerce headquarters para ajudar funcionários e gerentes de loja a identificar e corrigir rapidamente as causas dos problemas de entrada de PDV.<p><p>- As mensagens de falha mostradas na tela de entrada de PDV foram aperfeiçoadas para fornecer informações de causa raiz concretas que podem ajudar funcionários de loja que usam o PDV para entender o que deu errado para que possam executar as ações necessárias para solucionar o problema.<p>- Uma função **Testar logon** está disponível na página **Trabalhadores** no Commerce headquarters para que os gerentes de loja que configuram dispositivos de PDV possam simular a entrada de PDV. No caso de uma falha de entrada, esta função fornece guias de solução de problemas acionáveis para que os gerentes possam verificar as configurações relevantes, corrigir os problemas e validar as correções.  | Ativado por padrão |
 

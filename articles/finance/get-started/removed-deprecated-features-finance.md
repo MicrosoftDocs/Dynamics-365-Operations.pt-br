@@ -12,12 +12,12 @@ ms.search.region: Global
 ms.author: kfend
 ms.search.validFrom: 2020-03-02
 ms.dyn365.ops.version: Platform update 33
-ms.openlocfilehash: 516b2b6091fa620b21eebba25f56ff55aa282ffc
-ms.sourcegitcommit: c5f2cba3c2b0758e536eeaaa40506659a53085e1
+ms.openlocfilehash: 25d13aa26565e5753b87c843b43cf46f8276b642
+ms.sourcegitcommit: 6c05bcd27e6ee72f01cb66e2cfd1e929e0365830
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/12/2022
-ms.locfileid: "9643785"
+ms.lasthandoff: 12/16/2022
+ms.locfileid: "9854070"
 ---
 # <a name="removed-or-deprecated-features-in-dynamics-365-finance"></a>Recursos removidos ou preteridos no Dynamics 365 Finance
 
@@ -124,21 +124,20 @@ Esta lista é destinada a ajudá-lo a considerar essas remoções e reprovaçõe
 | **Opção de implantação**              | Tudo |
 | **Status**                         | Preterido: Até 1º de dezembro de 2022, planejamos não oferecer mais suporte ao formato de Relatório Eletrônico (ER) **Declaração de IVA (AT)** no **modelo de declaração de IVA**. Os novos formatos **XML de declaração de IVA (AT)** e **Excel de declaração de IVA (AT)** são introduzidos no modelo **Declaração de imposto**. |
 
-### <a name="elster-declaration-for-germany-design-based-on-reporting-codes"></a>Declaração ELSTER para a Alemanha (design baseado em códigos de relatório)
+### <a name="elster-declaration-for-germany-design-based-on-reporting-codes-electronic-tax-declaration-log-menu-item-and-page-electronic-tax-declaration-setup-menu-item-and-page-german-report-layout-taxreport_de-ssrs-format"></a>Declaração ELSTER para a Alemanha (projeto com base nos códigos de relatório), item do menu e página do \"Log da declaração eletrônica de impostos\", item do menu e página da \"Configuração da declaração eletrônica de impostos\", layout do relatório alemão (TaxReport_DE) formato SSRS
 
 [Demonstrativo de IVA](../localizations/emea-de-vat-declaration.md)</br>
 [Configurar declaração eletrônica de impostos para a Alemanha](../../fin-ops-core/dev-itpro/analytics/tasks/setup-electronic-tax-declaration-germany.md)</br>
-[Transmissão eletrônica da declaração de IVA (ELSTER)](../localizations/tasks/de-00003-electronic-transmission-elster.md)
 
 | &nbsp; | &nbsp; |
 |------------|--------------------|
 | **Motivo para a reprovação/remoção** | Substituído por um novo design de declaração de IVA, [Declaração de IVA para a Alemanha](../localizations/emea-deu-vat-declaration-germany.md) |
 | **Substituída por outro recurso?**   | Sim |
 | **Áreas afetadas do produto**         | Solicitação de Emprego |
-| **Opção de implantação**              | Tudo |
-| **Status**                         | Preterido: Até 1º de dezembro de 2022, planejamos não oferecer mais suporte aos formatos de Relatório Eletrônico (ER) **Elster (DE)** e **Modelo Elster**. Os novos formatos **XML de declaração de IVA (DE)** e **Excel de declaração de IVA (DE)** são introduzidos no modelo **Declaração de imposto**. |
+| **Opção de implantação**              | Todos |
+| **Status**                         | Preterido: até 1º de dezembro de 2022, deixaremos de oferecer suporte ao formato de **Relatório Eletrônico (ER)** e **modelo Elster**. Os novos formatos de ER, **XML de declaração de IVA (DE)** e **Excel de declaração de IVA (DE)**, são introduzidos no modelo **Declaração de imposto**. Além disso, não haverá mais suporte para o item de menu e página **Imposto** \> **Declarações** \> **Imposto sobre vendas** \> **Log da declaração eletrônica de impostos**, item de menu e página **Imposto** \> **Configuração** \> **Imposto sobre vendas** \> **Configuração da declaração eletrônica de impostos**, item de menu e página **Imposto** \> **Configuração** \> **Imposto sobre vendas** \> **Certificados fiscais eletrônicos** e o layout do relatório alemão (TaxReport\_DE) formato SQL Server Reporting Services (SSRS). Há suporte para o processo do relatório de IVA na Alemanha na funcionalidade de [Mensagens eletrônicas](../general-ledger/electronic-messaging.md). Para obter mais informações, consulte a [declaração de IVA para a Alemanha](../localizations/emea-deu-vat-declaration-germany.md). |
 
-### <a name="ob-declaration-for-netherlands-design-based-on-reporting-codes"></a>Declaração OB para os Países Baixos (design baseado em códigos de relatório)
+### <a name="ob-declaration-for-netherlands-design-based-on-reporting-codes-electronic-ob-declaration-menu-item-and-page-dutch-report-layout-taxreport_nl-ssrs-format"></a>Declaração OB para os Países Baixos (design baseado em códigos de relatório), item de menu e página \"Declaração eletrônica OB\", layout do relatório holandês (TaxReport_NL) formato SSRS
 
 [Declaração OB](../localizations/emea-nl-vat-declaration.md)
 
@@ -147,8 +146,8 @@ Esta lista é destinada a ajudá-lo a considerar essas remoções e reprovaçõe
 | **Motivo para a reprovação/remoção** | Substituído por um novo design de declaração de IVA, [Declaração de IVA para os Países Baixos](../localizations/emea-nl-vat-declaration-netherlands.md) |
 | **Substituída por outro recurso?**   | Sim |
 | **Áreas afetadas do produto**         | Solicitação de Emprego |
-| **Opção de implantação**              | Tudo |
-| **Status**                         | Preterido: Até 1º de dezembro de 2022, planejamos não oferecer mais suporte aos formatos de Relatório Eletrônico (ER) **Declaração OB (NL)** e **Modelo de declaração OB**. Os novos formatos **XML de declaração de IVA (NL)** e **Excel de declaração de IVA (NL)** são introduzidos no modelo **Declaração de imposto**. |
+| **Opção de implantação**              | Todos |
+| **Status**                         | Preterido: até 1º de dezembro de 2022, deixaremos de oferecer suporte ao formato de Relatório Eletrônico (ER) **Declaração OB (NL)** e o **Modelo de declaração OB**. Os novos formatos ER **XML de declaração de IVA (NL)** e **Excel de declaração de IVA (NL)** são introduzidos no modelo **Declaração de imposto**. Também deixaremos de oferecer suporte para o item de menu e página **Imposto** \> **Declarações** \> **Imposto sobre vendas** \> **Declaração eletrônica OB** e o layout do relatório holandês (TaxReport_NL) formato SSRS. Há suporte para o processo do relatório de IVA nos Países Baixos na funcionalidade de [Mensagens eletrônicas](../general-ledger/electronic-messaging.md). Para obter mais informações, consulte a [declaração de IVA para os Países Baixos](../localizations/emea-nl-vat-declaration-netherlands.md). |
 
 ## <a name="features-removed-or-deprecated-in-the-finance-10020-release"></a>Recursos removidos ou substituídos na versão 10.0.20 do Finance
 

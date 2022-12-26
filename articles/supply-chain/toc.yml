@@ -1809,6 +1809,8 @@
                   href: master-planning/planning-optimization/purchase-requisitions.md
                 - name: Planejamento de produção
                   href: master-planning/planning-optimization/production-planning.md
+                - name: Configurar sucata para calcular os requisitos de matéria-prima
+                  href: master-planning/scrap-calculations.md
                 - name: Planejamento mestre para produtos com validade limitada
                   href: master-planning/planning-optimization/shelf-life.md
                 - name: Agendamento com capacidade infinita
@@ -2355,7 +2357,7 @@
                   href: pim/uom-conversion-per-product-variant.md
                 - name: Criar um produto lançado para uma única empresa
                   href: pim/tasks/create-released-product-single-company.md
-                - name: Usar entidades de dados
+                - name: Entidades de dados do produto
                   href: pim/data-entities.md
                 - name: Estado do ciclo de vida do produto
                   items:

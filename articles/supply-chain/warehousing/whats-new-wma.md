@@ -10,18 +10,30 @@ ms.search.region: Global
 ms.author: mirzaab
 ms.search.validFrom: 2021-06-07
 ms.dyn365.ops.version: 10.0.21
-ms.openlocfilehash: 21abbffe6b16217a0d2e20f662faa080420da12e
-ms.sourcegitcommit: 4f987aad3ff65fe021057ac9d7d6922fb74f980e
+ms.openlocfilehash: 61d3ebc85d3c3d20bb17acd7364adc04cd2f3f94
+ms.sourcegitcommit: e9000d0716f7fa45175b03477c533a9df2bfe96d
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/14/2022
-ms.locfileid: "9764230"
+ms.lasthandoff: 12/13/2022
+ms.locfileid: "9843671"
 ---
 # <a name="whats-new-or-changed-in-the-warehouse-management-mobile-app"></a>Novidades ou alterações no aplicativo móvel Warehouse Management
 
 [!include [banner](../includes/banner.md)]
 
 Este artigo lista recursos novos, correções, aprimoramentos e problemas conhecidos para cada versão lançada do aplicativo móvel do Warehouse Management para o Microsoft Dynamics 365 Supply Chain Management.
+
+## <a name="version-20390"></a>Versão 2.0.39.0
+
+Esta versão introduz os novos recursos, correções e aprimoramentos a seguir:
+- Maior estabilidade. 
+- Os campos da página **Personalizado** não são mais classificados automaticamente com base nas suas configurações de prioridade e subprioridade.  
+- O aplicativo agora usa as configurações de prioridade e de subprioridade para cada campo para identificar o campo principal de uma página. O campo principal é mostrado no cabeçalho da etapa. 
+- Corrigido um problema em que o teclado virtual não era ocultado no Android.
+- Corrigido um problema em que o spinner da quantidade mostrava um valor certo como errado na abertura no fluxo de *movimento*. 
+- Corrigido um problema em que o valor do spinner da quantidade somente leitura não era centralizado corretamente. 
+- Corrigido um problema em que as páginas da Web não abriam a partir da página **Sobre**. 
+- O tema da cor *automático* agora fica tem sua aparência padrão (claro ou escuro) definida com base no conjunto dos temas globais do sistema operacional do dispositivo móvel.
 
 ## <a name="version-20370"></a>Versão 2.0.37.0
 

@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: jiwo
 ms.search.validFrom: 2018-5-31
 ms.dyn365.ops.version: 8.0.1
-ms.openlocfilehash: 56e445dcf471fd20695824d5e47cd15f39c022ce
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: 1b2f5f56e757e89339c12fd41c59848b4c987a2f
+ms.sourcegitcommit: 0c927fcb3afd34d870391f05b5393a4673d916e5
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8846847"
+ms.lasthandoff: 12/08/2022
+ms.locfileid: "9831824"
 ---
 # <a name="financial-consolidations-and-currency-translation-overview"></a>Visão geral de consolidações financeiras e conversão de moeda
 
@@ -64,7 +64,7 @@ Aqui estão alguns dos cenários de consolidação que o Consolidar online permi
 - Consolidações que envolvem várias moedas de relatório
 
 ## <a name="legal-entity-setup"></a>Configuração de entidade legal
-Antes de processar uma consolidação, você deve configurar a entidade legal. Você pode executar a consolidação quantas vezes precisar e todos os dados serão convertidos da moeda contábil da empresa de origem para a moeda definida para a empresa de consolidação. Portanto, para a estrutura organizacional a seguir, se você precisar converter todas as empresas norte-americanas primeiro em dólares americanos (USD) e depois em euros (EUR), a moeda da empresa principal, você deve ter pelo menos duas empresas de consolidação.
+Antes de processar uma consolidação, você deve configurar a entidade legal. Você pode executar a consolidação quantas vezes precisar e todos os dados serão convertidos da moeda contábil ou da moeda de relatório da empresa de origem para a moeda definida para a empresa de consolidação. Portanto, para a estrutura organizacional a seguir, se você precisar converter todas as empresas norte-americanas primeiro em dólares americanos (USD) e depois em euros (EUR), a moeda da empresa principal, você deve ter pelo menos duas empresas de consolidação.
 
 ![Estrutura organizacional.](./media/organizational-structure.png "Estrutura organizacional")
 

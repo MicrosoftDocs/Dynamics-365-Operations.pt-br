@@ -10,12 +10,12 @@ ms.search.region: Global
 ms.author: yanansong
 ms.search.validFrom: 2021-06-18
 ms.dyn365.ops.version: 10.0.20
-ms.openlocfilehash: e7f919b28f6d0c8cd830ecfab4608be50b684c8e
-ms.sourcegitcommit: 6b209919de39c15e0ebe4abc9cbcd30618f2af0b
+ms.openlocfilehash: fd9877365977694ca29f4d9116bcae45360306d5
+ms.sourcegitcommit: e9000d0716f7fa45175b03477c533a9df2bfe96d
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 07/11/2022
-ms.locfileid: "9135445"
+ms.lasthandoff: 12/13/2022
+ms.locfileid: "9843617"
 ---
 # <a name="global-inventory-accounting-home-page"></a>Página inicial da Contabilidade de estoque global
 
@@ -40,11 +40,17 @@ Uma convenção é uma coleção de políticas contábeis de estoque que podem s
 
 A Contabilidade de Estoque Global está atualmente disponível nas seguintes regiões geográficas do Azure:
 
-- Estados Unidos
-- Europa
-- Reino Unido
 - Austrália
 - Canadá
+- China
+- Europa
+- França
+- Noruega
+- África do Sul
+- Suíça
+- EAU
+- Reino Unido
+- Estados Unidos
 
 Se você tentar instalar o suplemento de outra região geográfica, o Microsoft Dynamics Lifecycle Services (LCS) mostrará uma mensagem informando que sua região geográfica é compatível. A Contabilidade de Estoque Global não é compatível com implantações no local do Supply Chain Management.
 

@@ -2,7 +2,7 @@
 title: Migração do cliente do Dynamics 365 Human Resources para a infraestrutura de finanças e operações
 description: Este artigo descreve a migração do cliente do Microsoft Dynamics 365 Human Resources para a infraestrutura de finanças e operações.
 author: twheeloc
-ms.date: 10/25/2022
+ms.date: 12/06/2022
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: twheeloc
 ms.search.validFrom: 2020-10-13
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 4df9a68ea0128378224bf77bd66423fd2e13fa55
-ms.sourcegitcommit: e5b290bac7e8f468167caa1a5607aac6eac9aaea
+ms.openlocfilehash: ab9680c2d1caa08c15aed325f4153aac6eae63c3
+ms.sourcegitcommit: 0c927fcb3afd34d870391f05b5393a4673d916e5
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/11/2022
-ms.locfileid: "9760353"
+ms.lasthandoff: 12/08/2022
+ms.locfileid: "9831711"
 ---
 # <a name="dynamics-365-human-resources-customer-migration"></a>Migração do cliente do Dynamics 365 Human Resources
 
@@ -43,7 +43,7 @@ A migração do cliente é uma "migração lift-and-shift" (movimento) de um ban
  - Copie o ambiente do Dataverse existente, que é vinculado ao aplicativo autônomo do Human Resources, para o ambiente que você criou na etapa anterior.
 
 > [!NOTE]
-> Ao adicionar um banco de dados, verifique se a opção **Habilitar aplicativos do Dynamics 365** está definida como **Sim**. Para obter informações detalhadas, consulte [Preparar um ambiente do Power Platform](hr-cust-migration.md#prepare-a-power-platform-environment)
+> Ao adicionar um banco de dados, verifique se a opção **Habilitar aplicativos do Dynamics 365** está definida como **Sim**. Para obter informações detalhadas, consulte [Preparar um ambiente do Power Platform](hr-cust-migration.md#prepare-a-power-platform-environment).
 
 ### <a name="dataverse-capacity"></a>Capacidade do Dataverse
 
@@ -54,7 +54,7 @@ A migração do cliente é uma "migração lift-and-shift" (movimento) de um ban
 
 ### <a name="create-a-lifecycle-services-project-for-human-resources-migration"></a>Criar um projeto do Lifecycle Services para migração do Human Resources
 
-A primeira etapa é criar um novo projeto de Implementação de finanças e operações nos Lifecycle Services. O cliente terá um projeto do Lifecycle Services do Human Resources. Os ambientes do Human Resources existentes serão migrados para o novo projeto de Implementação de finanças e operações.
+A primeira etapa é criar um novo projeto de Implementação de finanças e operações nos Lifecycle Services. O cliente terá um projeto do Lifecycle Services do Human Resources. Os ambientes do Human Resources existentes serão migrados para o novo projeto de implementação de finanças e operações.
 
 Para criar um novo projeto, siga estas etapas.
 
@@ -158,6 +158,7 @@ Depois de concluir a migração e a validação de um ambiente de área restrita
 
 - O avaliador de Assinatura deve ser concluído.
 - A [avaliação de preparação](../fin-ops-core/fin-ops/imp-lifecycle/prepare-go-live.md) de Ativação deve ser concluída.
+- O usuário que iniciar a migração de Produção no Lifecycle Services deve ter uma função de Administrador do sistema no Power Platform. 
 
 #### <a name="migrate-the-production-environment"></a>Migração o ambiente de produção
 

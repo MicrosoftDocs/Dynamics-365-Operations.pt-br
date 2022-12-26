@@ -11,12 +11,12 @@ ms.search.region: Global
 ms.author: yufeihuang
 ms.search.validFrom: 2021-08-02
 ms.dyn365.ops.version: 10.0.21
-ms.openlocfilehash: 915382c14cc9ba89b9d543cfd668a94cecbc0a55
-ms.sourcegitcommit: 4f987aad3ff65fe021057ac9d7d6922fb74f980e
+ms.openlocfilehash: 2a368535c9644e174d1a2460ac0891c9dc1b1b3f
+ms.sourcegitcommit: 44f0b4ef8d74c86b5c5040be37981e32eb43e1a8
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/14/2022
-ms.locfileid: "9765701"
+ms.lasthandoff: 12/14/2022
+ms.locfileid: "9850014"
 ---
 # <a name="configure-inventory-visibility"></a>Configurar a visibilidade de estoque
 
@@ -32,6 +32,7 @@ Antes de começar a trabalhar com o Visibilidade de Estoque, você deve concluir
 - [Configuração de partição](#partition-configuration)
 - [Configuração de hierarquia de índice de produtos](#index-configuration)
 - [Configuração de reserva (opcional)](#reservation-configuration)
+- [Configuração de pré-carga de consulta (opcional)](#query-preload-configuration)
 - [Exemplo de configuração padrão](#default-configuration-sample)
 
 ## <a name="prerequisites"></a>Pré-requisitos
@@ -40,7 +41,7 @@ Antes de começar, instale e configure o Suplemento Visibilidade de Estoque conf
 
 ## <a name="the-configuration-page-of-the-inventory-visibility-app"></a><a name="configuration"></a>A página Configuração do aplicativo Visibilidade de Estoque
 
-No Power Apps, a página **Configuração** do [aplicativo Visibilidade de Estoque](inventory-visibility-power-platform.md) ajuda você a definir a configuração disponível e a configuração de reserva flexível. Após a instalação do suplemento, a configuração padrão incluirá o valor do Microsoft Dynamics 365 Supply Chain Management (a fonte de dados `fno`). Você pode analisar as configurações padrão. Além disso, com base nos requisitos comerciais e nos requisitos de lançamento de estoque do sistema externo, você poderá modificar a configuração para padronizar a forma como as alterações de estoque podem ser lançadas, organizadas e consultadas em vários sistemas. As seções restantes deste artigo explicam como usar cada parte da página **Configuração**.
+No Power Apps, a página **Configuração** do [aplicativo Visibilidade de Estoque](inventory-visibility-power-platform.md) ajuda você a definir a configuração disponível e a configuração de reserva flexível. Após a instalação do suplemento, a configuração padrão incluirá o valor do Microsoft Dynamics 365 Supply Chain Management (a fonte de dados `fno`). Você pode analisar as configurações padrão. Além disso, com base nos requisitos comerciais e nos requisitos de lançamento de estoque do sistema externo, você poderá modificar a configuração para padronizar a forma como as alterações de estoque podem ser lançadas, organizadas e consultadas em vários sistemas. As seções restantes do artigo explicam como usar cada parte da página **Configuração**.
 
 Depois que a configuração for concluída, selecione **Atualizar Configuração** no aplicativo.
 
@@ -52,10 +53,13 @@ O Suplemento de Visibilidade de Estoque adiciona vários recursos novos à sua i
 |---|---|
 | *OnHandReservation* | Este tópico permite criar reservas, consumir reservas e/ou cancelar a reserva de quantidades de estoque especificadas usando a Visibilidade de Estoque. Para obter mais informações, consulte [Reservas de Visibilidade de Estoque](inventory-visibility-reservations.md). |
 | *OnHandMostSpecificBackgroundService* | Este recurso fornece um resumo de estoque para produtos juntamente com todas as dimensões. Os dados do resumo de estoque serão sincronizados periodicamente de Visibilidade de Estoque. A frequência de sincronização padrão é uma vez a cada 15 minutos e pode ser definida como uma vez a cada 5 minutos. Para obter mais informações, consulte [Resumo de estoque](inventory-visibility-power-platform.md#inventory-summary). |
-| *onHandIndexQueryPreloadBackgroundService* | Esse recurso permite pré-carregar as consultas disponíveis sobre a Visibilidade de Estoque para montar listas disponíveis com dimensões pré-selecionadas. A frequência de sincronização padrão é uma vez a cada 15 minutos. Para obter mais informações, consulte [Pré-carregar uma consulta de estoque disponível simplificada](inventory-visibility-power-platform.md#preload-streamlined-onhand-query). |
+| *OnHandIndexQueryPreloadBackgroundService* | Esse recurso busca e armazena periodicamente um conjunto de dados de resumo de estoque disponível com base nas dimensões pré-configuradas. Ele fornece um resumo de estoque que inclui somente as dimensões que são relevantes para seus negócios diários e que é compatível com itens habilitados para processos de gerenciamento de depósito (WMS). Para obter mais informações, consulte [Ativar e configurar consultas disponíveis pré-carregadas](#query-preload-configuration) e [Pré-carregar uma consulta disponível simplificada](inventory-visibility-power-platform.md#preload-streamlined-onhand-query). |
 | *OnhandChangeSchedule* | Esse recurso habilita o plano de alterações disponível e os recursos disponíveis para promessa (ATP). Para obter mais informações, consulte [Agenda de alterações disponíveis e disponível para promessa de Visibilidade de Estoque](inventory-visibility-available-to-promise.md). |
 | *Alocação* | Esse recurso opcional permite que a Visibilidade de Estoque tenha a capacidade de proteção de inventário (ringfencing) e controle de venda excessiva. Para obter mais informações, consulte [Alocação de estoque de visibilidade do estoque](inventory-visibility-allocation.md). |
 | *Habilitar itens de depósito em Visibilidade de Estoque* | Esse recurso opcional permite que a Visibilidade do Estoque dê suporte a itens habilitados para processos de gerenciamento de depósito (WMS). Para obter mais informações, consulte [Suporte do Visibilidade de Estoque para itens WMS](inventory-visibility-whs-support.md). |
+
+> [!IMPORTANT]
+> Recomendamos que você use o recurso *OnHandIndexQueryPreloadBackgroundService* ou o recurso *OnHandMostSpecificBackgroundService*, mas não ambos. Habilitar os dois recursos afetará o desempenho.
 
 ## <a name="find-the-service-endpoint"></a><a name="get-service-endpoint"></a>Localizar o ponto de extremidade de serviço
 
@@ -178,6 +182,15 @@ Se a sua fonte de dados for o Supply Chain Management, você não precisará rec
 1. Entre no seu ambiente do Power Apps e abra **Visibilidade de Estoque**.
 1. Abra a página **Configuração**.
 1. Na guia **Fonte de dados**, selecione a fonte de dados para adicionar medidas físicas (por exemplo, a fonte de dados `ecommerce`). Em seguida, na seção **Medidas físicas**, selecione **Adicionar** e especifique o nome da medida (por exemplo, `Returned` se desejar registrar as quantidades devolvidas nesta fonte de dados como Visibilidade do inventário). Salve as alterações.
+
+### <a name="extended-dimensions"></a>Dimensões estendidas
+
+Os clientes que desejam usar fontes de dados externas na fonte de dados podem ter vantagens da extensibilidade que o Dynamics 365 oferece por meio da criação de [Extensões de Classe](../../fin-ops-core/dev-itpro/extensibility/class-extensions.md) para as classes `InventOnHandChangeEventDimensionSet` e `InventInventoryDataServiceBatchJobTask`.
+
+Sincronize com o banco de dados depois de criar as extensões na ordem para que os campos personalizados sejam adicionados à tabela `InventSum`. Em seguida, você pode consultar a seção Dimensões anteriormente neste artigo para mapear as dimensões personalizadas para qualquer uma das oito dimensões estendidas em `BaseDimensions`, em Estoque.
+
+> [!NOTE] 
+> Para obter outros detalhes sobre como criar extensões, consulte [Home page de Extensibilidade](../../fin-ops-core/dev-itpro/extensibility/extensibility-home-page.md).
 
 ### <a name="calculated-measures"></a>Medidas calculadas
 
@@ -496,6 +509,30 @@ Uma sequência de dimensão válida deve seguir estritamente a hierarquia de res
 ## <a name="available-to-promise-configuration-optional"></a>Configuração disponível para promessa (opcional)
 
 Você pode configurar a visibilidade do inventário para permitir que você programe futuras alterações disponíveis e calcule as quantidades disponíveis para promessa (ATP). ATP é a quantidade de um item que está disponível e pode ser prometida a um cliente no próximo período. O uso deste cálculo pode aumentar bastante o recurso de atendimento da ordem. Para usar esse recurso, você deve habilitá-lo na guia **Gerenciamento de Recursos** e configurá-lo na guia **Definição de ATP**. Para obter mais informações, consulte [Agenda de alterações disponíveis e disponível para promessa de Visibilidade de Estoque](inventory-visibility-available-to-promise.md).
+
+## <a name="turn-on-and-configure-preloaded-on-hand-queries-optional"></a><a name="query-preload-configuration"></a>Ativar e configurar consultas disponíveis pré-carregadas (opcional)
+
+A Visibilidade de Estoque pode buscar e armazenar periodicamente um conjunto de dados de resumo de estoque disponível com base nas dimensões pré-configuradas. Isso proporciona os seguintes benefícios:
+
+- Uma exibição mais limpa que armazena um resumo de estoque que inclui somente as dimensões que são relevantes para o seu negócio diário.
+- Um resumo de estoque compatível com itens habilitados para processos de gerenciamento de depósito (WMS).
+
+Consulte [Pré-carregar uma consulta disponível simplificada](inventory-visibility-power-platform.md#preload-streamlined-onhand-query) para obter mais informações sobre como trabalhar com esse recurso após configurá-lo.
+
+> [!IMPORTANT]
+> Recomendamos que você use o recurso *OnHandIndexQueryPreloadBackgroundService* ou o recurso *OnHandMostSpecificBackgroundService*, mas não ambos. Habilitar os dois recursos afetará o desempenho.
+
+Siga estas etapas para configurar o recurso:
+
+1. Entre no Power App Visibilidade de Estoque.
+1. Acesse **Configuração \> Gerenciamento e Configurações de Recursos**.
+1. Se o recurso *OnHandIndexQueryPreloadBackgroundService* já estiver habilitado, recomendamos que você o desative por enquanto, já que o processo de limpeza pode levar muito tempo para ser concluído. Você o ativará outra vez posteriormente neste procedimento.
+1. Abra a guia **Configuração de Pré-carregamento**.
+1. Na seção **Etapa 1: Limpar Armazenamento de Pré-carregamento**, selecione **Limpar** para limpar o banco de dados e prepará-lo para aceitar suas novas configurações de agrupar por.
+1. Na seção **Etapa 2: Configurar Agrupar por Valores**, no campo **Agrupar Resultado por**, insira uma lista de nomes de campos separados por vírgulas para agrupar os resultados da consulta. Assim que houver dados no banco de dados de armazenamento de pré-carregamento, não será possível alterar essa configuração até que você limpe o banco de dados, conforme descrito na etapa anterior.
+1. Acesse **Configuração \> Gerenciamento e Configurações de Recursos**.
+1. Ative o recurso *OnHandIndexQueryPreloadBackgroundService*.
+1. Selecione **Atualizar Configuração** no canto superior direito da página **Configuração** para configurar suas alterações.
 
 ## <a name="complete-and-update-the-configuration"></a>Concluir e atualizar a configuração
 

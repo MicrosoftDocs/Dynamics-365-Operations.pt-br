@@ -8,17 +8,17 @@ ms.prod: ''
 ms.technology: ''
 ms.search.form: DefaultDashboard
 audience: Application User, Developer, IT Pro
-ms.reviewer: sericks
+ms.reviewer: twheeloc
 ms.search.region: Global
 ms.author: jasongre
 ms.search.validFrom: 2020-02-29
 ms.dyn365.ops.version: Platform update 33
-ms.openlocfilehash: 096f441d39dde0f322ed117ab35a6a4641a38a93
-ms.sourcegitcommit: 1d5cebea3e05b6d758cd01225ae7f566e05698d2
+ms.openlocfilehash: 6d14bba13dbf701a8c27c10ac2d318b071092bc1
+ms.sourcegitcommit: 77ffeccffff28fbb6ff576864d7abddd412cdab6
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 09/02/2022
-ms.locfileid: "9405456"
+ms.lasthandoff: 12/15/2022
+ms.locfileid: "9852364"
 ---
 # <a name="grid-capabilities"></a>Recursos de grade
 
@@ -225,6 +225,7 @@ Esta seção mantém uma lista de problemas conhecidos para o novo controle de g
 ### <a name="open-issues"></a>Questões em aberto
 - Depois de habilitar o recurso **Novo controle de grade**, algumas páginas continuarão a usar o controle de grade existente. Isso acontecerá nas seguintes situações:
  
+    - [Resolvido] Problema 762533: Erro de cliente inesperado ao selecionar uma linha em uma lista de cartões.
     - [Resolvido] Há uma lista de cartões na página que é renderizada em várias colunas.
         - Esse tipo de lista de cartões é compatível com o **Novo controle de grade** a partir da versão 10.0.30. É possível remover todos os usos de forceLegacyGrid() com essa finalidade. 
     - [Resolvido] Existe uma lista de cartões agrupados na página.

@@ -1168,7 +1168,9 @@
                   href: general-ledger/general-ledger-statement-by-main-account.md
                 - name: Relatório eletrônico do arquivo de Auditoria Padrão para Impostos (SAF-T)
                   href: general-ledger/standard-audit-file.md
-            - name: Fechamento de período
+                - name: Consulta de liquidação do razão
+                  href: general-ledger/ledger-settlement-inquiry.md
+            - name: Fechamento do período
               items:
                 - name: Fechar a contabilidade ao final do período
                   href: general-ledger/close-general-ledger-at-period-end.md
@@ -1187,7 +1189,19 @@
                 - name: Liquidações do razão
                   href: general-ledger/ledger-settlements.md
                 - name: Reconhecimento entre a liquidação do razão e o fechamento do exercício
-                  href: general-ledger/awareness-between-ledger-settlement-year-end-close.md
+                  items:
+                    - name: Reconhecimento entre a liquidação do razão e o fechamento do exercício
+                      href: general-ledger/awareness-between-ledger-settlement-year-end-close.md
+                    - name: Prepare-se para o Reconhecimento entre a liquidação do razão antes do fechamento do exercício
+                      href: general-ledger/ledger-settle-yec.md
+                    - name: Prepare-se para o Reconhecimento entre a liquidação do razão após o fechamento do exercício
+                      href: general-ledger/ledger-settle-yec-after.md
+                    - name: Recurso Reconhecimento entre a liquidação do razão e moeda do relatório está sem saldo
+                      href: general-ledger/reporting-currency-yec.md
+                    - name: Recurso Reconhecimento entre a liquidação do razão antes do fechamento do exercício usando a janela de consulta
+                      href: general-ledger/ledger-settlement-yec-inquiry-before.md
+                    - name: Recurso Reconhecimento entre a liquidação do razão após o fechamento do exercício usando a janela de consulta
+                      href: general-ledger/ledger-settlement-yec-inquiry-after.md
                 - name: Automatizar liquidações do razão
                   href: general-ledger/auto-settle.md
                 - name: Reavaliação de moeda estrangeira para contabilidade

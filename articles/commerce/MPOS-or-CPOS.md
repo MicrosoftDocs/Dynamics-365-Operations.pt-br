@@ -15,12 +15,12 @@ ms.dyn365.ops.version: AX 7.0.0, Retail July 2017 update
 ms.custom: ''
 ms.assetid: ''
 ms.search.industry: Retail
-ms.openlocfilehash: bbb5f3d4c61907243bed404f3ab7bea05c78b1c0
-ms.sourcegitcommit: 87e727005399c82cbb6509f5ce9fb33d18928d30
+ms.openlocfilehash: 0e1092c0c5c49c6a99dd441c75f545fc831c0b03
+ms.sourcegitcommit: 0c927fcb3afd34d870391f05b5393a4673d916e5
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/12/2022
-ms.locfileid: "9276445"
+ms.lasthandoff: 12/08/2022
+ms.locfileid: "9831547"
 ---
 # <a name="choose-between-store-commerce-and-cloud-pos"></a>Escolher entre o Store Commerce e o Cloud POS
 
@@ -71,7 +71,7 @@ Além de uma plataforma e um fator forma, os varejistas também devem escolher u
 |----------------------------|---------------------|-------------------|-------------------|
 | Store Commerce para Windows | Nuvem ou RSSU       | Sim               | Sim               |
 | Store Commerce para Android | Nuvem ou RSSU       | Número                | Sim               |
-| Store Commerce para iOS     | Nuvem ou RSSU       | Número                | Número                |
+| Store Commerce para iOS     | Nuvem ou RSSU       | Número                | Sim               |
 | PDV em Nuvem                  | Nuvem ou RSSU       | Número                | Número                |
 
 #### <a name="commerce-scale-unit"></a>Commerce Scale Unit
@@ -90,7 +90,7 @@ Os varejistas também devem considerar como o PDV acessará os dispositivos e os
 |----------------------------|----------------|---------------------|--------------------|
 | Store Commerce para Windows | Sim            | Sim                 | Sim                |
 | Store Commerce para Android | Número             | Sim                 | Sim                |
-| Store Commerce para iOS     | Número             | Número                  | Sim                |
+| Store Commerce para iOS     | Número             | Sim                 | Sim                |
 | PDV em Nuvem                  | Número             | Número                  | Sim                |
 
 Para obter mais informações sobre como instalar estações de hardware, consulte [Configurar e instalar uma estação de hardware do Retail](retail-hardware-station-configuration-installation.md).

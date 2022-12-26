@@ -2,19 +2,19 @@
 title: Visão geral da integração fiscal de canais do Commerce
 description: Este artigo fornece uma visão geral dos recursos de integração fiscal disponíveis no Dynamics 365 Commerce.
 author: EvgenyPopovMBS
-ms.date: 10/04/2022
+ms.date: 12/06/2022
 ms.topic: article
 audience: Application User, Developer, IT Pro
 ms.reviewer: v-chgriffin
 ms.search.region: Global
 ms.author: josaw
 ms.search.validFrom: 2017-06-20
-ms.openlocfilehash: 1812405db3c1e58eaf7cd1df3896f786e7bf026f
-ms.sourcegitcommit: 2bc6680dc6b12d20532d383a0edb84d180885b62
+ms.openlocfilehash: 3f1b555a016a56cc41ab397e3708f20482f25f09
+ms.sourcegitcommit: 0c927fcb3afd34d870391f05b5393a4673d916e5
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/06/2022
-ms.locfileid: "9631227"
+ms.lasthandoff: 12/08/2022
+ms.locfileid: "9831849"
 ---
 # <a name="fiscal-integration-overview-for-commerce-channels"></a>Visão geral da integração fiscal de canais do Commerce
 
@@ -172,19 +172,17 @@ Os seguintes exemplos de integração fiscal estão disponíveis atualmente no S
 - [Exemplo de integração da unidade de controle para a Suécia](./emea-swe-fi-sample.md)
 - [Exemplo de integração de serviços de registro fiscal para a Alemanha](./emea-deu-fi-sample.md)
 - [Exemplo de integração da impressora fiscal para a Rússia](./rus-fpi-sample.md)
+- [Exemplo de assinatura digital para a Noruega](./emea-nor-cash-registers.md)
 
 A funcionalidade de integração fiscal a seguir também é implementada usando a estrutura de integração fiscal, mas ela está disponível pronta para uso e não está incluída no SDK do Commerce:
 
 - [Registro fiscal do Brasil](./latam-bra-commerce-localization.md#fiscal-registration-for-brazil)
 - [Assinatura digital para a França](./emea-fra-cash-registers.md)
 
-A seguinte funcionalidade de integração fiscal também está disponível no SDK do Commerce, mas atualmente não aproveita a estrutura de integração fiscal. A migração dessa funcionalidade para a estrutura de integração fiscal está planejada para atualizações posteriores.
-
-- [Assinatura digital para a Noruega](./emea-nor-cash-registers.md)
-
 A seguinte funcionalidade de integração fiscal herdada que está disponível no SDK do Commerce não usa a estrutura de integração fiscal e será preterida em atualizações posteriores:
 
 - [Exemplo de integração da unidade de controle para a Suécia (herdada)](./retail-sdk-control-unit-sample.md)
 - [Assinatura digital para a França (herdada)](./emea-fra-deployment.md)
+- [Assinatura digital para a Noruega (herdado)](./emea-nor-loc-deployment-guidelines.md)
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

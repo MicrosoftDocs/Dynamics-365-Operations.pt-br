@@ -11,12 +11,12 @@ ms.search.region: Global
 ms.author: yufeihuang
 ms.search.validFrom: 2021-08-02
 ms.dyn365.ops.version: 10.0.21
-ms.openlocfilehash: 9886ddbf0b072283cffd73d4bfdc20835ccb3b7c
-ms.sourcegitcommit: 49f8973f0e121eac563876d50bfff00c55344360
+ms.openlocfilehash: 0a4e436cc1af6b71049f75fb66bdfb89ca38df9f
+ms.sourcegitcommit: 0c927fcb3afd34d870391f05b5393a4673d916e5
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/14/2022
-ms.locfileid: "9762691"
+ms.lasthandoff: 12/08/2022
+ms.locfileid: "9831765"
 ---
 # <a name="use-the-inventory-visibility-app"></a>Usar o aplicativo Inventory Visibility
 
@@ -106,7 +106,7 @@ Para habilitar a página **Resumo de estoque** e definir a frequência de sincro
 
 1. Abra a página **Configuração**.
 1. Abra a guia **Configurações e Gerenciamento de Recursos**.
-1. Defina a chave de alternância para o recurso **OnHandMostSpecificBackgroundService** como *Sim*.
+1. Defina a chave de alternância para o recurso *OnHandMostSpecificBackgroundService* como *Sim*.
 1. Quando o recurso for habilitado, a seção **Configuração do Serviço** será disponibilizada e incluirá uma linha para configurar o recurso **OnHandMostSpecificBackgroundService**. Essa configuração permite que você escolha a frequência em que dados de resumo de estoque são sincronizados. Use os botões **Para cima** e **Para baixo** na coluna **Valor** para alterar o tempo entre sincronizações (que pode ser de no mínimo 5 minutos). Selecione **Salvar**.
 
     ![A Configuração de OnHandMostSpecificBackgroundService](media/inventory-visibility-ohms-freq.png "A Configuração de OnHandMostSpecificBackgroundService")
@@ -125,10 +125,10 @@ O Supply Chain Management armazena um grande volume de informações sobre o est
 
 A página **Pré-carregar Resumo da Visibilidade de Estoque** fornece uma exibição da entidade *Resultados Pré-carregados da Consulta de Índice Disponível*. Diferentemente da entidade *Resumo de estoque*, a entidade *Resultados Pré-carregados da Consulta de Índice Disponível* oferece uma lista de estoque disponível para os produtos juntamente com as dimensões selecionadas. A Visibilidade de Estoque sincroniza os dados de resumo pré-carregados a cada 15 minutos.
 
-Para exibir dados na guia **Pré-carregar o Resumo da Visibilidade de Estoque**, você deve ativar o recurso *OnHandIndexQueryPreloadBackgroundService* na guia **Gerenciamento de Recursos** da página **Configuração** e, em seguida, selecionar **Atualizar configuração** (consulte também [Configurar a Visibilidade de Estoque](inventory-visibility-configuration.md)).
+Para exibir os dados na guia **Pré-carregar o Resumo de Visibilidade de Estoque**, você deverá ativar e configurar o recurso *OnHandIndexQueryPreloadBackgroundService*. Consulte [Ativar e configurar consultas disponíveis pré-carregadas](inventory-visibility-configuration.md#query-preload-configuration) para obter instruções.
 
 > [!NOTE]
-> Como no recurso *OnhandMostSpecificBackgroudService*, o recurso *OnHandIndexQueryPreloadBackgroundService* rastreia somente as alterações de estoque disponível que ocorreram após a ativação do recurso. Os dados de produtos que não foram alterados desde que você ativou o recurso não serão sincronizados do cache do serviço de estoque para o ambiente do Dataverse. Se sua página **Resumo de estoque** não mostrar todas as informações disponíveis que você espera, vá para **Gerenciamento de Estoque > Tarefas periódicas > Integração da Visibilidade de Estoque**, desative o trabalho em lote e reative-o. Isso fará o push inicial e todos os dados serão sincronizados com a entidade *Resultados Pré-carregados da Consulta de Índice Disponível* nos próximos 15 minutos. Se você quiser usar esse recurso, recomendamos que você o ative antes de criar qualquer alteração disponível e ative o trabalho em lote **Integração da Visibilidade de Estoque**.
+> Como no recurso *OnHandMostSpecificBackgroundService*, o recurso *OnHandIndexQueryPreloadBackgroundService* rastreia somente as alterações de estoque disponível que ocorreram após a ativação do recurso. Os dados de produtos que não foram alterados desde que você ativou o recurso não serão sincronizados do cache do serviço de estoque para o ambiente do Dataverse. Se sua página **Resumo de estoque** não mostrar todas as informações disponíveis que você espera, vá para **Gerenciamento de Estoque > Tarefas periódicas > Integração da Visibilidade de Estoque**, desative o trabalho em lote e reative-o. Isso fará o push inicial e todos os dados serão sincronizados com a entidade *Resultados Pré-carregados da Consulta de Índice Disponível* nos próximos 15 minutos. Se você quiser usar esse recurso, recomendamos que você o ative antes de criar qualquer alteração disponível e ative o trabalho em lote **Integração da Visibilidade de Estoque**.
 
 ## <a name="filter-and-browse-the-inventory-summaries"></a><a name="additional-tip-for-viewing-data"></a>Filtrar e procurar os resumos de estoque
 

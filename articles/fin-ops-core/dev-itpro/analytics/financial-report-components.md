@@ -15,12 +15,12 @@ ms.dyn365.ops.version: AX 7.0.1
 ms.custom: 59071
 ms.assetid: a201cfcb-1672-45f6-897d-2db2dd181d9a
 ms.search.form: FinancialReports
-ms.openlocfilehash: 66430f81bd3d1efe126dfb29fa9c6a093716f90e
-ms.sourcegitcommit: d27fef61593c6d1e9e26d5c9fad21411bc52fabc
+ms.openlocfilehash: 180b3c64b9eb506f162071a67b1fa9b728a569ce
+ms.sourcegitcommit: 0c927fcb3afd34d870391f05b5393a4673d916e5
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/23/2022
-ms.locfileid: "9802706"
+ms.lasthandoff: 12/08/2022
+ms.locfileid: "9831601"
 ---
 # <a name="financial-report-components"></a>Componentes de relatórios financeiros
 
@@ -65,7 +65,7 @@ Para desbloquear um bloco de construção bloqueado, abra-o e clique no ícone *
 
 ## <a name="building-block-groups"></a>Grupos do Bloco de Construção
 
-Os blocos de construção são as definições linha, definições de coluna, definições de árvore de relatórios e definições de relatório que você pode criar para um relatório. Grupos de blocos de construção são coleções dos conjuntos de definições e dimensões.
+Os blocos de construção são as definições linha, definições de coluna, definições de árvore de relatórios e definições de relatório que você pode criar para um relatório. Os grupos de blocos de construção são coleções dos conjuntos de valores de dimensão e definições.
 
 ### <a name="view-a-building-block-group"></a>Exibir um grupo de bloco de construção
 
@@ -78,17 +78,17 @@ Você pode exibir todos os blocos de construção atribuídos a um grupo de bloc
 
 ### <a name="export-a-building-block-group"></a>Exportar um grupo de bloco de construção
 
-É possível exportar um grupo de blocos de construção ou bloco de construção do relatório específico em um grupo de blocos de construção. Você pode usar o grupo de blocos de criação exportado como backup. Você também pode copiar os dados exportados entre as instalações. O designer de relatórios tem os estilos de fonte referenciados e os conjuntos de dimensões junto com o grupo de blocos de criação.
+É possível exportar um grupo de blocos de construção ou bloco de construção do relatório específico em um grupo de blocos de construção. Você pode usar o grupo de blocos de criação exportado como backup. Você também pode copiar os dados exportados entre as instalações. O Report Designer tem os estilos de fonte referenciados e os conjuntos de valores de dimensão junto com o grupo de blocos de construção.
 
 1. No Report Designer, no menu **Empresa**, clique em **Grupos de blocos de construção**.
 2. Na caixa de diálogo **Grupos de blocos de construção**, selecione o grupo de bloco de construção a ser exportado e clique em **Exportar**.
 3. Na caixa de diálogo **Exportar**, selecione as definições de relatório para exportação:
 
     - Para exportar todas as definições de relatório e os blocos de construção associados, clique em **Selecionar tudo**.
-    - Para exportar relatórios, linhas, colunas, árvores ou conjuntos de dimensões específicos, clique na guia apropriada e selecione os itens a serem exportados. Pressione e mantenha pressionada a tecla Ctrl para selecionar vários itens em uma guia.
+    - Para exportar relatórios, linhas, colunas, árvores ou conjuntos de valores de dimensão específicos, clique na guia apropriada e selecione os itens a serem exportados. Pressione e mantenha pressionada a tecla Ctrl para selecionar vários itens em uma guia.
 
     > [!NOTE]
-    > Quando você seleciona relatórios para exportar, as linhas, as colunas, as hierarquias e os conjuntos de dimensões associados são selecionados.
+    > Quando você seleciona relatórios para exportar, as linhas, as colunas, as hierarquias e os conjuntos de valores de dimensão associados são selecionados.
 
 4. Quando você acabar de selecionar itens para exportação, clique em **Exportar**.
 5. Na caixa de diálogo **Salvar Como**, selecione um local para exportar o grupo do bloco de construção.
@@ -97,7 +97,7 @@ Você pode exibir todos os blocos de construção atribuídos a um grupo de bloc
 
 ### <a name="import-a-building-block-group"></a>Importar um grupo do bloco de construção
 
-Você pode importar um grupo de blocos de construção para um grupo existente de blocos de construção. Todos os grupos de bloco de construção importados mantêm seus estilos de fonte original e referências de empresa e incluem os conjuntos de dimensão relevante.
+Você pode importar um grupo de blocos de construção para um grupo existente de blocos de construção. Todos os grupos de bloco de construção importados mantêm seus estilos de fonte original e referências de empresa e incluem os conjuntos de valores de dimensão relevante.
 
 1. No Report Designer, no menu **Empresa**, clique em **Grupos de blocos de construção**.
 2. Na caixa de diálogo **Grupos de blocos de construção**, selecione o bloco de construção para o qual importar um grupo de blocos de construção e clique em **Importar**.
@@ -105,7 +105,7 @@ Você pode importar um grupo de blocos de construção para um grupo existente d
 4. Na caixa de diálogo **Importar**, selecione as definições de relatório para importação:
 
     - Para importar todas as definições de relatório e os blocos de construção de suporte, clique em **Selecionar tudo**.
-    - Para importar relatórios, linhas, colunas, árvores ou conjuntos de dimensões específicos, selecione os relatórios, as linhas, as colunas, as árvores ou os conjuntos de dimensões a serem importados.
+    - Para importar relatórios, linhas, colunas, árvores ou conjuntos de valores de dimensão específicos, selecione os relatórios, as linhas, as colunas, as árvores ou os conjuntos de valores de dimensão a serem importados.
 
 5. Quando você acabar de selecionar itens para importação, clique em **Importar**.
 

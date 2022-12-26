@@ -2,23 +2,23 @@
 title: Reavaliação de moeda estrangeira do banco
 description: Este artigo fornece uma visão geral do processo de reavaliação bancária de moeda estrangeira. Ele inclui informações sobre a configuração, a execução do processo, os cálculos do processo e a reversão das transações de reavaliação.
 author: angelad116
-ms.date: 05/16/2019
+ms.date: 12/19/2022
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
 ms.search.form: BankCurrencyRevalHistory
 audience: Application User
-ms.reviewer: kfend
+ms.reviewer: twheeloc
 ms.search.region: Global
 ms.author: angelading
 ms.search.validFrom: 2019-03-08
 ms.dyn365.ops.version: 10
-ms.openlocfilehash: 8efec304e745332c332030b33363403869870532
-ms.sourcegitcommit: 0b7a034e644f4d93fe55c7baca5a3f89dbe56898
+ms.openlocfilehash: 2d5e8a36d3b4d44c9ad0454db94164adebf80997
+ms.sourcegitcommit: 69d7dd6a2d0dc7f2661c7d1f61e8874c7bde1448
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 07/14/2022
-ms.locfileid: "9151421"
+ms.lasthandoff: 12/19/2022
+ms.locfileid: "9887250"
 ---
 # <a name="bank-foreign-currency-revaluation"></a>Reavaliação de moeda estrangeira do banco
 
@@ -39,17 +39,8 @@ Para executar o processo de reavaliação, é necessária uma configuração adi
 - Na página **Razão**, especifique o tipo de taxa de câmbio. Se um tipo de taxa de câmbio não estiver definido na conta principal, este tipo de taxa de câmbio será usado na reavaliação de moeda estrangeira.
 - Na página **Razão**, especifique o lucro realizado, a perda realizada, o lucro não realizado e a perda não realizada para a reavaliação de moeda. As contas de lucro realizado e de perda realizada são usadas quando transações de Contas a receber e de Contas a pagar são liquidadas. As contas de lucro não realizado e de perda não realizada são usadas para reavaliar transações abertas e contas principais de contabilidade.
 - Na página **Contas de reavaliação de moeda**, selecione diferentes contas de reavaliação de moeda para cada moeda e empresa. Se nenhuma conta for definida, as contas da página **Razão** serão usadas.
+- Na página **Parâmetros de gerenciamento de caixa e bancos**, na guia **Número de sequências**, adicione uma sequência numérica para reavaliação de moeda estrangeira.
 
-## <a name="enable-foreign-currency-revaluation"></a>Habilitar a reavaliação de moeda estrangeira
-
-Você deve ativar o recurso de reavaliação bancária de moeda estrangeira antes de processar reavaliações de moeda estrangeira.
-
-1. Acesse **Gerenciamento de caixa e bancos \> Configuração \> Parâmetros do gerenciamento de caixa e bancos**.
-2. Na guia **Geral**, em **Reavaliação de moeda estrangeira**, defina a opção **Habilitar a reavaliação bancária** como **Sim** para ativar o recurso para a entidade legal atual. 
-3. Na guia **Sequências numéricas**, adicione uma sequência numérica para a reavaliação de moeda estrangeira.
-4. Atualize o navegador para ver **Reavaliação de moeda estrangeira** na seção **Tarefas periódicas** da página da área.
-
-Você deve ativar o recurso para todas as entidades legais que usarão a reavaliação de moeda estrangeira. Se estiver atribuído à função Administrador do Sistema ou à função Gerenciador de recursos, você poderá eliminar essa etapa habilitando o recurso chamado **Habilitar a reavaliação bancária sem um parâmetro** no espaço de trabalho **Gerenciamento de recursos**.
 
 > [!NOTE]
 > Se a sua entidade legal usar um código de país/região russo, polonês ou húngaro, você já poderá fazer a reavaliação de moeda estrangeira. Não será possível usar a reavaliação de moeda estrangeira que é usada por outros países ou regiões.
